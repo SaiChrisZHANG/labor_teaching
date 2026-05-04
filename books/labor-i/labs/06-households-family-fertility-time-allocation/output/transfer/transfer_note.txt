@@ -1,0 +1,3 @@
+The event-study object traces relative earnings paths rather than one average treatment effect.
+Stable pre-birth profiles help students focus on dynamic divergence after childbirth.
+The resulting path is useful for persistence and decomposition questions even when it is not itself a policy counterfactual.

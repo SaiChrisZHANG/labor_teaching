@@ -1,0 +1,1 @@
+This bounded transfer exercise estimates how reminders and simplified notices raise EITC take-up in a synthetic field experiment. It teaches that policy delivery changes effective treatment intensity, especially when administrative burden is high.

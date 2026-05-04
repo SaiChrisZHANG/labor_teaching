@@ -1,0 +1,3 @@
+high_bonus,mean_hours,mean_deliveries,mean_earnings,shifts,bonus_label,hours_gap_from_baseline,deliveries_gap_from_baseline
+0,5.70829375,14.553452083333333,14.553452083333333,480,Baseline pay,0.0,0.0
+1,6.218025,15.7057,18.8468375,240,Temporary high pay,0.5097312499999997,1.152247916666667

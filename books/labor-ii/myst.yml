@@ -1,0 +1,12 @@
+version: 1
+project:
+  title: "Labor II: Firms, Frictions, and Institutions"
+  description: Second semester of a PhD labor economics field sequence.
+  toc:
+    - file: index.md
+    - file: OUTLINE.md
+site:
+  template: book-theme
+  title: Labor II
+  options:
+    logo_text: Labor II

@@ -1,0 +1,3 @@
+A familiar instrument is not enough if cohort trends differ across reform environments.
+The pooled IV estimate mixes reform variation with secular trend differences.
+Trend-adjusted designs move the object closer to a credible policy margin but may still target a local return.

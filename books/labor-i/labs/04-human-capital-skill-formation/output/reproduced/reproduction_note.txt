@@ -1,0 +1,3 @@
+This bounded output is a reduced-form treatment effect, not a full production-function estimate.
+Treatment shifts parental investments and endline skill, but dynamic complementarity still requires stronger structure to estimate.
+Baseline-skill heterogeneity helps motivate why the same intervention can generate different later returns.

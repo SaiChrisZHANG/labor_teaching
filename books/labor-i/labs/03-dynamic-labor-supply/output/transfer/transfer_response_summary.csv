@@ -1,0 +1,5 @@
+friction_group,high_bonus,mean_hours,mean_deliveries,mean_lag_high_bonus,shifts
+high_adjustment_cost,0,5.661130208333333,14.341796875,0.4375,192
+high_adjustment_cost,1,5.886093750000001,15.082322916666667,0.4375,192
+low_adjustment_cost,0,5.666854166666667,14.393354166666667,0.875,96
+low_adjustment_cost,1,6.409489583333333,15.702385416666667,0.625,288

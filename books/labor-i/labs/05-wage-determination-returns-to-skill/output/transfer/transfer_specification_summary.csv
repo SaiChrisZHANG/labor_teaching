@@ -1,0 +1,3 @@
+specification,iv_return,first_stage_years
+naive_pooled_iv,0.1675052655716992,1.7636038159371499
+group_trend_adjusted_iv,0.0754650673167866,0.948029343641939

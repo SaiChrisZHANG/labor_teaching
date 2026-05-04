@@ -1,0 +1,5 @@
+cohort_group,urban,mean_schooling,mean_log_wage,urban_label
+older_cohorts,0,12.217321250000001,2.995805,Non-urban
+older_cohorts,1,12.669892916666667,3.0816991666666667,Urban
+younger_cohorts,0,13.08776640625,3.05570859375,Non-urban
+younger_cohorts,1,13.333127604166668,3.1624635416666664,Urban

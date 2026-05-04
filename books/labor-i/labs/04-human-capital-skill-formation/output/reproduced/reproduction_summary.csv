@@ -1,0 +1,3 @@
+treatment,mean_parental_investment,mean_endline_skill,mean_followup_language,children,group_label
+0,0.5377458333333334,0.44987166666666667,0.3940708333333333,120,Control
+1,0.8389341666666666,0.7495966666666667,0.6008816666666666,120,Treatment

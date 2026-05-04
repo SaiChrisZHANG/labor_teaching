@@ -1,0 +1,1 @@
+This bounded reproduction estimates how randomized credit access changes mobility-related outcomes. It identifies the effect of relaxing one mobility friction, not the unconditional return to moving.

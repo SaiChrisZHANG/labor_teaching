@@ -1,0 +1,1 @@
+This bounded transfer exercise estimates reduced-form labor-market responses to a migration reform using differential pre-reform exposure. It identifies market-level reallocation effects, not one single structural mechanism.

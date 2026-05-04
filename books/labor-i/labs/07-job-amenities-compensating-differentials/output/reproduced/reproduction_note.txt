@@ -1,0 +1,3 @@
+The bounded design estimates how workers trade wages against explicitly described job attributes.
+The wage coefficient converts amenity effects into money-metric willingness to pay.
+Differences across caregiver and commute groups illustrate heterogeneous amenity valuation rather than a single universal schedule.

@@ -1,0 +1,3 @@
+The OLS coefficient is a descriptive Mincer return conditional on the included controls.
+The IV coefficient is a local return for the schooling margin shifted by compulsory-schooling exposure.
+The gap between the two reminds us that changing the design changes the estimand, not only the precision.

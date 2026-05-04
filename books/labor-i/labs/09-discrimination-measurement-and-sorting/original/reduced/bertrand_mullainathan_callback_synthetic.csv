@@ -1,0 +1,2161 @@
+application_id,firm_segment,city,resume_quality,signal_group,experience_years,leadership_signal,callback,signal_label,quality_label
+1,national_chain,Boston,0,0,6,0,0,group_0,standard_quality
+2,national_chain,Boston,1,1,7,1,0,group_1,high_quality
+3,national_chain,Los Angeles,0,1,2,1,0,group_1,standard_quality
+4,national_chain,Atlanta,1,1,2,1,1,group_1,high_quality
+5,national_chain,Los Angeles,1,1,7,1,1,group_1,high_quality
+6,national_chain,Atlanta,1,0,7,1,0,group_0,high_quality
+7,national_chain,Atlanta,1,0,3,0,0,group_0,high_quality
+8,national_chain,Atlanta,0,0,6,0,0,group_0,standard_quality
+9,national_chain,Los Angeles,1,1,4,0,1,group_1,high_quality
+10,national_chain,Los Angeles,1,0,5,0,0,group_0,high_quality
+11,national_chain,Atlanta,0,1,6,0,0,group_1,standard_quality
+12,national_chain,Boston,1,0,7,1,0,group_0,high_quality
+13,national_chain,Los Angeles,0,0,5,1,0,group_0,standard_quality
+14,national_chain,Boston,1,0,7,0,0,group_0,high_quality
+15,national_chain,Chicago,0,1,7,0,0,group_1,standard_quality
+16,national_chain,Atlanta,0,1,6,0,1,group_1,standard_quality
+17,national_chain,Atlanta,0,0,7,0,0,group_0,standard_quality
+18,national_chain,Chicago,0,1,6,0,0,group_1,standard_quality
+19,national_chain,Boston,1,1,7,1,0,group_1,high_quality
+20,national_chain,Chicago,1,0,2,0,0,group_0,high_quality
+21,national_chain,Atlanta,0,0,6,1,0,group_0,standard_quality
+22,national_chain,Atlanta,1,0,5,0,0,group_0,high_quality
+23,national_chain,Los Angeles,1,0,5,1,0,group_0,high_quality
+24,national_chain,Boston,1,0,7,0,0,group_0,high_quality
+25,national_chain,Los Angeles,0,1,4,1,0,group_1,standard_quality
+26,national_chain,Los Angeles,1,1,5,0,1,group_1,high_quality
+27,national_chain,Chicago,1,1,5,0,1,group_1,high_quality
+28,national_chain,Atlanta,0,1,7,1,0,group_1,standard_quality
+29,national_chain,Chicago,0,1,2,0,0,group_1,standard_quality
+30,national_chain,Los Angeles,0,0,3,1,0,group_0,standard_quality
+31,national_chain,Los Angeles,0,1,4,0,0,group_1,standard_quality
+32,national_chain,Chicago,0,1,4,1,0,group_1,standard_quality
+33,national_chain,Chicago,1,1,3,1,0,group_1,high_quality
+34,national_chain,Boston,1,0,2,0,0,group_0,high_quality
+35,national_chain,Chicago,0,0,2,0,0,group_0,standard_quality
+36,national_chain,Chicago,1,0,3,1,0,group_0,high_quality
+37,national_chain,Chicago,1,1,5,0,0,group_1,high_quality
+38,national_chain,Atlanta,1,0,2,1,0,group_0,high_quality
+39,national_chain,Los Angeles,0,1,7,1,0,group_1,standard_quality
+40,national_chain,Chicago,1,0,5,1,1,group_0,high_quality
+41,national_chain,Chicago,0,1,2,1,0,group_1,standard_quality
+42,national_chain,Los Angeles,0,1,5,0,0,group_1,standard_quality
+43,national_chain,Chicago,1,1,5,0,0,group_1,high_quality
+44,national_chain,Los Angeles,0,1,6,0,0,group_1,standard_quality
+45,national_chain,Boston,1,0,3,1,1,group_0,high_quality
+46,national_chain,Atlanta,0,1,4,1,0,group_1,standard_quality
+47,national_chain,Boston,1,1,5,1,0,group_1,high_quality
+48,national_chain,Atlanta,1,1,6,0,0,group_1,high_quality
+49,national_chain,Los Angeles,1,0,2,0,0,group_0,high_quality
+50,national_chain,Atlanta,1,0,7,0,0,group_0,high_quality
+51,national_chain,Chicago,1,0,3,0,0,group_0,high_quality
+52,national_chain,Los Angeles,0,1,6,1,0,group_1,standard_quality
+53,national_chain,Chicago,0,0,4,1,1,group_0,standard_quality
+54,national_chain,Los Angeles,1,0,5,0,0,group_0,high_quality
+55,national_chain,Los Angeles,0,1,2,1,0,group_1,standard_quality
+56,national_chain,Atlanta,1,0,7,0,0,group_0,high_quality
+57,national_chain,Atlanta,1,0,7,0,1,group_0,high_quality
+58,national_chain,Atlanta,1,0,2,0,0,group_0,high_quality
+59,national_chain,Chicago,0,0,2,1,0,group_0,standard_quality
+60,national_chain,Chicago,1,1,2,1,0,group_1,high_quality
+61,national_chain,Los Angeles,1,0,4,1,0,group_0,high_quality
+62,national_chain,Chicago,0,1,5,1,0,group_1,standard_quality
+63,national_chain,Los Angeles,1,1,7,1,0,group_1,high_quality
+64,national_chain,Boston,0,1,5,0,0,group_1,standard_quality
+65,national_chain,Chicago,0,1,5,0,0,group_1,standard_quality
+66,national_chain,Los Angeles,0,0,5,0,0,group_0,standard_quality
+67,national_chain,Chicago,0,0,5,0,0,group_0,standard_quality
+68,national_chain,Boston,1,1,4,1,0,group_1,high_quality
+69,national_chain,Los Angeles,1,1,7,1,1,group_1,high_quality
+70,national_chain,Chicago,0,0,2,1,0,group_0,standard_quality
+71,national_chain,Los Angeles,0,0,5,0,0,group_0,standard_quality
+72,national_chain,Chicago,0,0,7,1,0,group_0,standard_quality
+73,national_chain,Los Angeles,1,1,6,1,0,group_1,high_quality
+74,national_chain,Los Angeles,1,1,6,1,0,group_1,high_quality
+75,national_chain,Atlanta,0,1,5,0,1,group_1,standard_quality
+76,national_chain,Los Angeles,0,0,7,0,0,group_0,standard_quality
+77,national_chain,Atlanta,1,0,5,0,1,group_0,high_quality
+78,national_chain,Chicago,1,1,3,0,0,group_1,high_quality
+79,national_chain,Los Angeles,0,0,2,0,0,group_0,standard_quality
+80,national_chain,Atlanta,0,0,2,0,0,group_0,standard_quality
+81,national_chain,Los Angeles,1,1,5,1,0,group_1,high_quality
+82,national_chain,Boston,1,1,6,1,1,group_1,high_quality
+83,national_chain,Chicago,0,1,2,0,0,group_1,standard_quality
+84,national_chain,Atlanta,0,1,6,1,0,group_1,standard_quality
+85,national_chain,Chicago,1,0,7,1,1,group_0,high_quality
+86,national_chain,Boston,1,0,6,0,0,group_0,high_quality
+87,national_chain,Boston,0,0,7,0,0,group_0,standard_quality
+88,national_chain,Los Angeles,1,1,6,1,0,group_1,high_quality
+89,national_chain,Chicago,0,0,2,1,0,group_0,standard_quality
+90,national_chain,Atlanta,0,1,6,1,0,group_1,standard_quality
+91,national_chain,Chicago,1,0,7,1,1,group_0,high_quality
+92,national_chain,Boston,1,1,5,1,1,group_1,high_quality
+93,national_chain,Atlanta,1,0,2,1,0,group_0,high_quality
+94,national_chain,Chicago,1,0,5,0,0,group_0,high_quality
+95,national_chain,Los Angeles,0,1,3,0,0,group_1,standard_quality
+96,national_chain,Chicago,0,1,3,0,1,group_1,standard_quality
+97,national_chain,Atlanta,1,1,6,1,0,group_1,high_quality
+98,national_chain,Boston,0,1,4,0,0,group_1,standard_quality
+99,national_chain,Chicago,1,1,4,1,0,group_1,high_quality
+100,national_chain,Chicago,0,0,7,0,0,group_0,standard_quality
+101,national_chain,Los Angeles,0,1,2,1,0,group_1,standard_quality
+102,national_chain,Chicago,0,1,4,1,0,group_1,standard_quality
+103,national_chain,Boston,0,0,3,0,0,group_0,standard_quality
+104,national_chain,Boston,0,1,2,1,0,group_1,standard_quality
+105,national_chain,Los Angeles,0,0,6,0,0,group_0,standard_quality
+106,national_chain,Atlanta,0,0,4,0,0,group_0,standard_quality
+107,national_chain,Boston,1,1,7,1,0,group_1,high_quality
+108,national_chain,Chicago,0,1,2,0,0,group_1,standard_quality
+109,national_chain,Los Angeles,0,1,2,1,0,group_1,standard_quality
+110,national_chain,Boston,1,0,7,1,0,group_0,high_quality
+111,national_chain,Boston,0,0,3,0,0,group_0,standard_quality
+112,national_chain,Chicago,0,1,6,1,0,group_1,standard_quality
+113,national_chain,Boston,0,0,2,0,0,group_0,standard_quality
+114,national_chain,Los Angeles,1,1,7,0,1,group_1,high_quality
+115,national_chain,Los Angeles,1,0,5,0,0,group_0,high_quality
+116,national_chain,Boston,0,1,3,0,0,group_1,standard_quality
+117,national_chain,Atlanta,1,0,6,0,0,group_0,high_quality
+118,national_chain,Los Angeles,1,1,3,0,0,group_1,high_quality
+119,national_chain,Chicago,0,1,6,0,0,group_1,standard_quality
+120,national_chain,Chicago,0,1,2,0,0,group_1,standard_quality
+121,national_chain,Boston,1,0,3,1,0,group_0,high_quality
+122,national_chain,Boston,1,0,6,0,0,group_0,high_quality
+123,national_chain,Boston,0,1,2,0,0,group_1,standard_quality
+124,national_chain,Boston,1,1,6,1,0,group_1,high_quality
+125,national_chain,Boston,1,0,6,1,0,group_0,high_quality
+126,national_chain,Atlanta,1,0,6,0,0,group_0,high_quality
+127,national_chain,Atlanta,0,1,3,1,0,group_1,standard_quality
+128,national_chain,Boston,1,1,4,0,0,group_1,high_quality
+129,national_chain,Boston,1,0,6,0,0,group_0,high_quality
+130,national_chain,Los Angeles,1,0,2,1,0,group_0,high_quality
+131,national_chain,Boston,0,0,3,1,0,group_0,standard_quality
+132,national_chain,Atlanta,1,1,3,0,0,group_1,high_quality
+133,national_chain,Boston,0,0,5,1,1,group_0,standard_quality
+134,national_chain,Los Angeles,0,1,3,0,0,group_1,standard_quality
+135,national_chain,Chicago,0,1,6,0,0,group_1,standard_quality
+136,national_chain,Boston,0,1,5,1,0,group_1,standard_quality
+137,national_chain,Atlanta,0,0,7,0,0,group_0,standard_quality
+138,national_chain,Atlanta,1,1,2,0,0,group_1,high_quality
+139,national_chain,Los Angeles,0,1,4,1,0,group_1,standard_quality
+140,national_chain,Los Angeles,0,0,7,0,1,group_0,standard_quality
+141,national_chain,Los Angeles,1,1,2,1,0,group_1,high_quality
+142,national_chain,Atlanta,1,0,5,0,0,group_0,high_quality
+143,national_chain,Atlanta,1,1,3,0,0,group_1,high_quality
+144,national_chain,Boston,1,0,4,1,0,group_0,high_quality
+145,national_chain,Los Angeles,1,1,5,1,0,group_1,high_quality
+146,national_chain,Boston,0,0,3,1,0,group_0,standard_quality
+147,national_chain,Los Angeles,1,1,6,1,0,group_1,high_quality
+148,national_chain,Chicago,0,1,2,0,0,group_1,standard_quality
+149,national_chain,Los Angeles,0,0,7,0,0,group_0,standard_quality
+150,national_chain,Chicago,0,0,5,1,1,group_0,standard_quality
+151,national_chain,Boston,1,0,6,0,0,group_0,high_quality
+152,national_chain,Los Angeles,0,1,2,1,1,group_1,standard_quality
+153,national_chain,Chicago,1,1,4,1,1,group_1,high_quality
+154,national_chain,Los Angeles,0,0,6,0,0,group_0,standard_quality
+155,national_chain,Los Angeles,1,1,7,1,0,group_1,high_quality
+156,national_chain,Boston,0,0,6,1,0,group_0,standard_quality
+157,national_chain,Boston,0,1,3,0,0,group_1,standard_quality
+158,national_chain,Chicago,0,0,6,0,0,group_0,standard_quality
+159,national_chain,Boston,1,1,6,0,0,group_1,high_quality
+160,national_chain,Los Angeles,0,0,3,1,0,group_0,standard_quality
+161,national_chain,Los Angeles,0,0,4,0,0,group_0,standard_quality
+162,national_chain,Chicago,0,1,7,1,0,group_1,standard_quality
+163,national_chain,Boston,0,1,3,0,0,group_1,standard_quality
+164,national_chain,Los Angeles,0,0,3,0,0,group_0,standard_quality
+165,national_chain,Los Angeles,0,1,3,1,0,group_1,standard_quality
+166,national_chain,Boston,0,1,3,1,0,group_1,standard_quality
+167,national_chain,Boston,0,1,3,1,0,group_1,standard_quality
+168,national_chain,Atlanta,0,0,2,1,0,group_0,standard_quality
+169,national_chain,Boston,1,1,5,1,0,group_1,high_quality
+170,national_chain,Atlanta,1,0,3,0,0,group_0,high_quality
+171,national_chain,Los Angeles,0,1,5,0,0,group_1,standard_quality
+172,national_chain,Boston,1,0,3,1,1,group_0,high_quality
+173,national_chain,Boston,1,1,5,1,0,group_1,high_quality
+174,national_chain,Los Angeles,1,1,7,1,0,group_1,high_quality
+175,national_chain,Atlanta,0,0,4,1,0,group_0,standard_quality
+176,national_chain,Atlanta,1,0,6,0,0,group_0,high_quality
+177,national_chain,Chicago,0,1,7,1,1,group_1,standard_quality
+178,national_chain,Boston,0,1,3,1,0,group_1,standard_quality
+179,national_chain,Atlanta,1,0,5,1,0,group_0,high_quality
+180,national_chain,Atlanta,1,0,4,0,1,group_0,high_quality
+181,national_chain,Los Angeles,1,1,3,1,0,group_1,high_quality
+182,national_chain,Boston,0,0,2,0,0,group_0,standard_quality
+183,national_chain,Atlanta,1,0,7,0,0,group_0,high_quality
+184,national_chain,Atlanta,0,0,5,0,0,group_0,standard_quality
+185,national_chain,Atlanta,0,0,6,0,0,group_0,standard_quality
+186,national_chain,Boston,1,1,6,0,1,group_1,high_quality
+187,national_chain,Los Angeles,0,1,4,0,0,group_1,standard_quality
+188,national_chain,Los Angeles,0,0,4,1,0,group_0,standard_quality
+189,national_chain,Atlanta,0,0,5,0,0,group_0,standard_quality
+190,national_chain,Los Angeles,1,1,3,0,0,group_1,high_quality
+191,national_chain,Atlanta,0,0,7,1,1,group_0,standard_quality
+192,national_chain,Chicago,1,1,7,1,0,group_1,high_quality
+193,national_chain,Atlanta,1,1,6,1,0,group_1,high_quality
+194,national_chain,Los Angeles,1,1,6,1,0,group_1,high_quality
+195,national_chain,Los Angeles,1,1,2,0,0,group_1,high_quality
+196,national_chain,Boston,0,1,7,0,0,group_1,standard_quality
+197,national_chain,Atlanta,0,0,7,1,0,group_0,standard_quality
+198,national_chain,Atlanta,0,1,6,0,1,group_1,standard_quality
+199,national_chain,Atlanta,1,1,7,1,0,group_1,high_quality
+200,national_chain,Boston,0,1,4,1,0,group_1,standard_quality
+201,national_chain,Chicago,0,0,2,0,0,group_0,standard_quality
+202,national_chain,Los Angeles,1,0,7,1,0,group_0,high_quality
+203,national_chain,Chicago,1,0,4,0,0,group_0,high_quality
+204,national_chain,Boston,0,0,7,1,0,group_0,standard_quality
+205,national_chain,Los Angeles,1,1,6,1,0,group_1,high_quality
+206,national_chain,Chicago,1,1,3,1,1,group_1,high_quality
+207,national_chain,Boston,1,0,2,1,0,group_0,high_quality
+208,national_chain,Boston,0,1,2,1,0,group_1,standard_quality
+209,national_chain,Los Angeles,1,1,4,0,1,group_1,high_quality
+210,national_chain,Los Angeles,0,0,7,1,0,group_0,standard_quality
+211,national_chain,Los Angeles,1,1,5,1,0,group_1,high_quality
+212,national_chain,Chicago,0,1,5,1,0,group_1,standard_quality
+213,national_chain,Chicago,0,1,3,1,0,group_1,standard_quality
+214,national_chain,Los Angeles,0,0,6,0,0,group_0,standard_quality
+215,national_chain,Boston,0,0,2,1,0,group_0,standard_quality
+216,national_chain,Atlanta,0,1,3,1,0,group_1,standard_quality
+217,national_chain,Atlanta,0,1,2,0,0,group_1,standard_quality
+218,national_chain,Atlanta,0,0,3,1,0,group_0,standard_quality
+219,national_chain,Boston,0,1,4,0,0,group_1,standard_quality
+220,national_chain,Boston,1,0,6,1,0,group_0,high_quality
+221,national_chain,Atlanta,0,0,5,1,0,group_0,standard_quality
+222,national_chain,Boston,1,1,7,1,0,group_1,high_quality
+223,national_chain,Chicago,1,0,4,1,0,group_0,high_quality
+224,national_chain,Chicago,1,1,6,0,0,group_1,high_quality
+225,national_chain,Chicago,1,0,7,0,0,group_0,high_quality
+226,national_chain,Boston,0,0,7,1,0,group_0,standard_quality
+227,national_chain,Chicago,0,0,2,0,0,group_0,standard_quality
+228,national_chain,Boston,1,1,5,1,0,group_1,high_quality
+229,national_chain,Boston,1,0,6,1,0,group_0,high_quality
+230,national_chain,Los Angeles,1,0,7,1,1,group_0,high_quality
+231,national_chain,Chicago,0,0,4,0,0,group_0,standard_quality
+232,national_chain,Chicago,0,0,5,1,0,group_0,standard_quality
+233,national_chain,Chicago,0,1,7,0,0,group_1,standard_quality
+234,national_chain,Boston,1,1,6,1,1,group_1,high_quality
+235,national_chain,Boston,1,1,2,0,1,group_1,high_quality
+236,national_chain,Boston,1,1,5,1,0,group_1,high_quality
+237,national_chain,Chicago,1,1,4,1,1,group_1,high_quality
+238,national_chain,Boston,1,1,3,1,0,group_1,high_quality
+239,national_chain,Atlanta,0,0,2,0,1,group_0,standard_quality
+240,national_chain,Boston,0,1,7,1,0,group_1,standard_quality
+241,national_chain,Boston,0,0,5,1,1,group_0,standard_quality
+242,national_chain,Atlanta,1,1,4,0,0,group_1,high_quality
+243,national_chain,Boston,0,0,4,0,0,group_0,standard_quality
+244,national_chain,Atlanta,0,1,4,1,0,group_1,standard_quality
+245,national_chain,Boston,1,1,4,1,0,group_1,high_quality
+246,national_chain,Boston,1,0,7,1,0,group_0,high_quality
+247,national_chain,Chicago,1,1,5,1,0,group_1,high_quality
+248,national_chain,Atlanta,0,0,3,1,0,group_0,standard_quality
+249,national_chain,Boston,0,1,2,0,0,group_1,standard_quality
+250,national_chain,Boston,0,0,7,0,0,group_0,standard_quality
+251,national_chain,Los Angeles,0,1,5,0,0,group_1,standard_quality
+252,national_chain,Chicago,1,0,2,0,0,group_0,high_quality
+253,national_chain,Chicago,1,1,4,0,0,group_1,high_quality
+254,national_chain,Boston,1,1,2,0,0,group_1,high_quality
+255,national_chain,Chicago,1,1,2,0,0,group_1,high_quality
+256,national_chain,Atlanta,0,0,7,1,0,group_0,standard_quality
+257,national_chain,Boston,0,0,2,1,0,group_0,standard_quality
+258,national_chain,Atlanta,1,0,2,0,0,group_0,high_quality
+259,national_chain,Los Angeles,0,0,5,0,1,group_0,standard_quality
+260,national_chain,Atlanta,1,1,5,1,1,group_1,high_quality
+261,national_chain,Chicago,0,1,6,0,0,group_1,standard_quality
+262,national_chain,Boston,1,0,7,1,0,group_0,high_quality
+263,national_chain,Atlanta,0,0,7,1,0,group_0,standard_quality
+264,national_chain,Boston,1,1,5,1,0,group_1,high_quality
+265,national_chain,Chicago,1,0,3,1,1,group_0,high_quality
+266,national_chain,Los Angeles,0,1,5,0,0,group_1,standard_quality
+267,national_chain,Los Angeles,1,1,2,0,0,group_1,high_quality
+268,national_chain,Boston,1,0,3,0,0,group_0,high_quality
+269,national_chain,Chicago,1,0,5,0,0,group_0,high_quality
+270,national_chain,Boston,1,0,5,0,0,group_0,high_quality
+271,national_chain,Chicago,0,0,2,0,0,group_0,standard_quality
+272,national_chain,Atlanta,1,0,2,0,0,group_0,high_quality
+273,national_chain,Los Angeles,0,0,6,0,0,group_0,standard_quality
+274,national_chain,Boston,1,1,6,1,0,group_1,high_quality
+275,national_chain,Chicago,0,1,2,1,0,group_1,standard_quality
+276,national_chain,Boston,1,0,5,1,0,group_0,high_quality
+277,national_chain,Atlanta,0,0,7,0,0,group_0,standard_quality
+278,national_chain,Atlanta,1,0,5,1,1,group_0,high_quality
+279,national_chain,Los Angeles,1,1,6,0,0,group_1,high_quality
+280,national_chain,Chicago,1,0,6,1,0,group_0,high_quality
+281,national_chain,Los Angeles,1,1,6,1,0,group_1,high_quality
+282,national_chain,Atlanta,1,0,2,1,0,group_0,high_quality
+283,national_chain,Atlanta,1,1,3,1,0,group_1,high_quality
+284,national_chain,Boston,0,0,2,0,0,group_0,standard_quality
+285,national_chain,Los Angeles,0,0,6,1,1,group_0,standard_quality
+286,national_chain,Los Angeles,1,1,4,0,0,group_1,high_quality
+287,national_chain,Atlanta,0,1,5,0,0,group_1,standard_quality
+288,national_chain,Chicago,0,1,4,1,0,group_1,standard_quality
+289,national_chain,Los Angeles,1,1,5,1,0,group_1,high_quality
+290,national_chain,Los Angeles,1,1,7,1,0,group_1,high_quality
+291,national_chain,Los Angeles,1,1,7,1,0,group_1,high_quality
+292,national_chain,Los Angeles,1,0,5,0,0,group_0,high_quality
+293,national_chain,Los Angeles,1,0,2,0,0,group_0,high_quality
+294,national_chain,Chicago,1,0,7,0,0,group_0,high_quality
+295,national_chain,Boston,0,0,3,1,0,group_0,standard_quality
+296,national_chain,Atlanta,0,1,4,1,0,group_1,standard_quality
+297,national_chain,Atlanta,1,1,4,1,0,group_1,high_quality
+298,national_chain,Los Angeles,1,0,7,1,1,group_0,high_quality
+299,national_chain,Boston,1,1,4,1,0,group_1,high_quality
+300,national_chain,Chicago,0,0,4,1,0,group_0,standard_quality
+301,national_chain,Boston,1,0,6,0,1,group_0,high_quality
+302,national_chain,Chicago,0,0,6,1,0,group_0,standard_quality
+303,national_chain,Atlanta,1,1,2,0,0,group_1,high_quality
+304,national_chain,Boston,1,0,4,1,0,group_0,high_quality
+305,national_chain,Atlanta,1,0,4,1,0,group_0,high_quality
+306,national_chain,Atlanta,0,1,3,0,0,group_1,standard_quality
+307,national_chain,Boston,1,0,2,0,0,group_0,high_quality
+308,national_chain,Atlanta,0,1,5,1,0,group_1,standard_quality
+309,national_chain,Atlanta,0,1,4,0,0,group_1,standard_quality
+310,national_chain,Atlanta,1,1,6,1,1,group_1,high_quality
+311,national_chain,Atlanta,1,1,6,0,0,group_1,high_quality
+312,national_chain,Chicago,0,1,6,0,0,group_1,standard_quality
+313,national_chain,Boston,1,1,5,1,1,group_1,high_quality
+314,national_chain,Chicago,1,1,5,0,0,group_1,high_quality
+315,national_chain,Chicago,0,0,6,0,1,group_0,standard_quality
+316,national_chain,Atlanta,0,1,7,0,0,group_1,standard_quality
+317,national_chain,Los Angeles,1,1,5,1,0,group_1,high_quality
+318,national_chain,Boston,1,1,2,1,0,group_1,high_quality
+319,national_chain,Atlanta,1,0,5,1,0,group_0,high_quality
+320,national_chain,Boston,1,0,2,1,0,group_0,high_quality
+321,national_chain,Atlanta,0,0,5,0,0,group_0,standard_quality
+322,national_chain,Boston,1,1,5,1,0,group_1,high_quality
+323,national_chain,Chicago,0,1,6,1,0,group_1,standard_quality
+324,national_chain,Atlanta,0,0,2,1,0,group_0,standard_quality
+325,national_chain,Atlanta,0,1,6,1,0,group_1,standard_quality
+326,national_chain,Chicago,0,0,5,1,0,group_0,standard_quality
+327,national_chain,Chicago,0,0,5,1,0,group_0,standard_quality
+328,national_chain,Atlanta,0,1,6,1,0,group_1,standard_quality
+329,national_chain,Boston,0,1,2,1,0,group_1,standard_quality
+330,national_chain,Boston,0,1,7,0,0,group_1,standard_quality
+331,national_chain,Los Angeles,0,1,3,1,0,group_1,standard_quality
+332,national_chain,Atlanta,0,1,2,1,1,group_1,standard_quality
+333,national_chain,Boston,1,0,7,1,0,group_0,high_quality
+334,national_chain,Atlanta,0,1,4,0,0,group_1,standard_quality
+335,national_chain,Los Angeles,0,1,7,0,0,group_1,standard_quality
+336,national_chain,Los Angeles,0,1,2,1,1,group_1,standard_quality
+337,national_chain,Chicago,0,0,3,1,0,group_0,standard_quality
+338,national_chain,Atlanta,0,1,5,0,0,group_1,standard_quality
+339,national_chain,Los Angeles,0,1,3,0,0,group_1,standard_quality
+340,national_chain,Boston,1,0,7,1,0,group_0,high_quality
+341,national_chain,Los Angeles,0,0,5,0,0,group_0,standard_quality
+342,national_chain,Atlanta,0,1,4,0,0,group_1,standard_quality
+343,national_chain,Los Angeles,0,1,4,0,0,group_1,standard_quality
+344,national_chain,Atlanta,0,1,4,1,0,group_1,standard_quality
+345,national_chain,Los Angeles,0,0,4,1,0,group_0,standard_quality
+346,national_chain,Los Angeles,0,0,6,0,0,group_0,standard_quality
+347,national_chain,Boston,1,1,6,1,0,group_1,high_quality
+348,national_chain,Los Angeles,0,0,5,0,0,group_0,standard_quality
+349,national_chain,Atlanta,0,0,5,0,0,group_0,standard_quality
+350,national_chain,Los Angeles,1,0,5,1,1,group_0,high_quality
+351,national_chain,Boston,0,1,6,1,0,group_1,standard_quality
+352,national_chain,Atlanta,0,0,6,1,0,group_0,standard_quality
+353,national_chain,Atlanta,1,1,5,0,0,group_1,high_quality
+354,national_chain,Los Angeles,0,1,4,0,0,group_1,standard_quality
+355,national_chain,Chicago,0,0,7,1,0,group_0,standard_quality
+356,national_chain,Los Angeles,0,0,7,0,1,group_0,standard_quality
+357,national_chain,Atlanta,0,0,4,0,0,group_0,standard_quality
+358,national_chain,Atlanta,1,0,6,1,0,group_0,high_quality
+359,national_chain,Boston,0,1,5,0,0,group_1,standard_quality
+360,national_chain,Los Angeles,1,0,2,1,1,group_0,high_quality
+361,national_chain,Chicago,0,0,4,1,0,group_0,standard_quality
+362,national_chain,Boston,1,0,6,1,0,group_0,high_quality
+363,national_chain,Atlanta,1,0,4,1,0,group_0,high_quality
+364,national_chain,Chicago,0,0,3,1,0,group_0,standard_quality
+365,national_chain,Boston,0,0,6,1,0,group_0,standard_quality
+366,national_chain,Los Angeles,1,0,2,1,0,group_0,high_quality
+367,national_chain,Atlanta,0,1,7,1,0,group_1,standard_quality
+368,national_chain,Los Angeles,0,0,3,1,1,group_0,standard_quality
+369,national_chain,Boston,1,0,6,0,0,group_0,high_quality
+370,national_chain,Atlanta,0,0,3,1,0,group_0,standard_quality
+371,national_chain,Boston,0,0,7,0,0,group_0,standard_quality
+372,national_chain,Boston,1,1,7,1,0,group_1,high_quality
+373,national_chain,Boston,0,1,5,0,0,group_1,standard_quality
+374,national_chain,Boston,0,0,3,1,1,group_0,standard_quality
+375,national_chain,Boston,1,0,7,0,0,group_0,high_quality
+376,national_chain,Los Angeles,1,0,5,0,0,group_0,high_quality
+377,national_chain,Boston,1,1,3,0,0,group_1,high_quality
+378,national_chain,Chicago,0,1,4,1,0,group_1,standard_quality
+379,national_chain,Boston,1,1,7,1,0,group_1,high_quality
+380,national_chain,Atlanta,0,0,3,0,0,group_0,standard_quality
+381,national_chain,Chicago,1,0,4,1,0,group_0,high_quality
+382,national_chain,Chicago,0,0,2,1,0,group_0,standard_quality
+383,national_chain,Chicago,0,0,4,0,0,group_0,standard_quality
+384,national_chain,Chicago,0,0,3,1,0,group_0,standard_quality
+385,national_chain,Los Angeles,0,1,5,0,0,group_1,standard_quality
+386,national_chain,Boston,0,0,2,0,0,group_0,standard_quality
+387,national_chain,Atlanta,0,1,3,1,0,group_1,standard_quality
+388,national_chain,Atlanta,1,0,3,0,0,group_0,high_quality
+389,national_chain,Atlanta,0,1,7,0,0,group_1,standard_quality
+390,national_chain,Los Angeles,1,0,4,1,0,group_0,high_quality
+391,national_chain,Chicago,0,0,6,0,0,group_0,standard_quality
+392,national_chain,Chicago,1,1,5,1,0,group_1,high_quality
+393,national_chain,Boston,1,0,3,0,0,group_0,high_quality
+394,national_chain,Atlanta,0,0,3,1,0,group_0,standard_quality
+395,national_chain,Los Angeles,0,0,7,1,0,group_0,standard_quality
+396,national_chain,Boston,1,1,7,1,0,group_1,high_quality
+397,national_chain,Atlanta,0,0,5,1,0,group_0,standard_quality
+398,national_chain,Los Angeles,0,1,4,1,0,group_1,standard_quality
+399,national_chain,Atlanta,0,0,3,1,0,group_0,standard_quality
+400,national_chain,Chicago,1,0,5,1,1,group_0,high_quality
+401,national_chain,Chicago,0,1,3,1,0,group_1,standard_quality
+402,national_chain,Atlanta,0,1,5,1,1,group_1,standard_quality
+403,national_chain,Los Angeles,0,0,2,0,0,group_0,standard_quality
+404,national_chain,Los Angeles,1,1,4,1,0,group_1,high_quality
+405,national_chain,Boston,1,0,5,1,1,group_0,high_quality
+406,national_chain,Los Angeles,0,1,5,0,0,group_1,standard_quality
+407,national_chain,Los Angeles,1,0,3,1,0,group_0,high_quality
+408,national_chain,Chicago,1,1,5,0,1,group_1,high_quality
+409,national_chain,Chicago,0,1,5,1,0,group_1,standard_quality
+410,national_chain,Chicago,0,0,2,0,0,group_0,standard_quality
+411,national_chain,Los Angeles,0,0,4,0,0,group_0,standard_quality
+412,national_chain,Los Angeles,0,0,5,1,0,group_0,standard_quality
+413,national_chain,Boston,1,1,6,1,0,group_1,high_quality
+414,national_chain,Boston,0,1,4,0,0,group_1,standard_quality
+415,national_chain,Los Angeles,0,1,6,1,0,group_1,standard_quality
+416,national_chain,Los Angeles,1,1,7,1,1,group_1,high_quality
+417,national_chain,Boston,1,0,2,0,0,group_0,high_quality
+418,national_chain,Los Angeles,0,0,7,1,0,group_0,standard_quality
+419,national_chain,Los Angeles,1,0,6,0,0,group_0,high_quality
+420,national_chain,Chicago,0,0,2,0,0,group_0,standard_quality
+421,national_chain,Atlanta,1,0,7,0,0,group_0,high_quality
+422,national_chain,Atlanta,1,0,3,1,1,group_0,high_quality
+423,national_chain,Los Angeles,0,0,4,1,0,group_0,standard_quality
+424,national_chain,Boston,0,1,5,0,1,group_1,standard_quality
+425,national_chain,Boston,0,0,7,1,0,group_0,standard_quality
+426,national_chain,Boston,1,1,6,0,0,group_1,high_quality
+427,national_chain,Atlanta,1,1,4,0,1,group_1,high_quality
+428,national_chain,Chicago,0,0,7,1,0,group_0,standard_quality
+429,national_chain,Los Angeles,0,1,3,0,0,group_1,standard_quality
+430,national_chain,Chicago,1,1,7,1,0,group_1,high_quality
+431,national_chain,Atlanta,0,1,3,0,0,group_1,standard_quality
+432,national_chain,Atlanta,1,0,7,0,0,group_0,high_quality
+433,national_chain,Atlanta,0,1,3,0,0,group_1,standard_quality
+434,national_chain,Atlanta,1,1,2,1,0,group_1,high_quality
+435,national_chain,Atlanta,0,1,6,1,0,group_1,standard_quality
+436,national_chain,Boston,1,0,6,0,0,group_0,high_quality
+437,national_chain,Boston,1,1,5,1,0,group_1,high_quality
+438,national_chain,Los Angeles,1,0,5,1,0,group_0,high_quality
+439,national_chain,Chicago,1,0,2,0,1,group_0,high_quality
+440,national_chain,Boston,0,1,6,1,0,group_1,standard_quality
+441,national_chain,Atlanta,0,1,4,1,0,group_1,standard_quality
+442,national_chain,Boston,1,1,6,1,0,group_1,high_quality
+443,national_chain,Atlanta,1,1,3,1,0,group_1,high_quality
+444,national_chain,Los Angeles,1,1,2,0,0,group_1,high_quality
+445,national_chain,Chicago,1,0,6,1,0,group_0,high_quality
+446,national_chain,Atlanta,0,1,7,0,0,group_1,standard_quality
+447,national_chain,Los Angeles,0,0,4,0,0,group_0,standard_quality
+448,national_chain,Boston,1,0,6,1,0,group_0,high_quality
+449,national_chain,Boston,1,1,7,1,0,group_1,high_quality
+450,national_chain,Los Angeles,0,0,6,0,1,group_0,standard_quality
+451,national_chain,Boston,0,1,4,1,0,group_1,standard_quality
+452,national_chain,Chicago,0,0,2,1,0,group_0,standard_quality
+453,national_chain,Atlanta,0,1,3,1,0,group_1,standard_quality
+454,national_chain,Los Angeles,0,0,2,1,0,group_0,standard_quality
+455,national_chain,Boston,1,1,6,1,0,group_1,high_quality
+456,national_chain,Los Angeles,1,0,7,1,0,group_0,high_quality
+457,national_chain,Atlanta,1,0,5,0,0,group_0,high_quality
+458,national_chain,Boston,0,1,4,0,0,group_1,standard_quality
+459,national_chain,Atlanta,0,1,7,1,0,group_1,standard_quality
+460,national_chain,Chicago,0,1,3,1,0,group_1,standard_quality
+461,national_chain,Los Angeles,0,1,5,1,0,group_1,standard_quality
+462,national_chain,Atlanta,1,0,7,1,1,group_0,high_quality
+463,national_chain,Los Angeles,1,0,5,0,0,group_0,high_quality
+464,national_chain,Los Angeles,1,0,7,0,1,group_0,high_quality
+465,national_chain,Boston,0,0,2,1,0,group_0,standard_quality
+466,national_chain,Chicago,1,0,7,0,0,group_0,high_quality
+467,national_chain,Chicago,0,0,6,0,0,group_0,standard_quality
+468,national_chain,Los Angeles,0,0,6,1,0,group_0,standard_quality
+469,national_chain,Los Angeles,1,1,7,0,1,group_1,high_quality
+470,national_chain,Los Angeles,0,0,4,0,0,group_0,standard_quality
+471,national_chain,Los Angeles,1,0,6,0,1,group_0,high_quality
+472,national_chain,Atlanta,0,1,7,1,1,group_1,standard_quality
+473,national_chain,Los Angeles,0,1,2,1,0,group_1,standard_quality
+474,national_chain,Boston,1,1,7,1,1,group_1,high_quality
+475,national_chain,Los Angeles,0,1,4,1,0,group_1,standard_quality
+476,national_chain,Boston,1,1,4,0,1,group_1,high_quality
+477,national_chain,Atlanta,1,1,3,1,1,group_1,high_quality
+478,national_chain,Los Angeles,0,1,2,1,0,group_1,standard_quality
+479,national_chain,Los Angeles,1,0,5,1,1,group_0,high_quality
+480,national_chain,Chicago,0,1,2,0,0,group_1,standard_quality
+481,national_chain,Boston,0,0,6,0,0,group_0,standard_quality
+482,national_chain,Atlanta,0,0,5,1,0,group_0,standard_quality
+483,national_chain,Atlanta,0,1,6,0,0,group_1,standard_quality
+484,national_chain,Los Angeles,0,0,5,1,0,group_0,standard_quality
+485,national_chain,Los Angeles,1,1,2,1,0,group_1,high_quality
+486,national_chain,Chicago,0,1,6,1,1,group_1,standard_quality
+487,national_chain,Atlanta,1,0,2,0,0,group_0,high_quality
+488,national_chain,Boston,1,0,6,0,0,group_0,high_quality
+489,national_chain,Los Angeles,0,1,4,1,0,group_1,standard_quality
+490,national_chain,Atlanta,1,0,6,1,0,group_0,high_quality
+491,national_chain,Boston,1,0,7,0,0,group_0,high_quality
+492,national_chain,Atlanta,0,1,7,0,0,group_1,standard_quality
+493,national_chain,Los Angeles,1,1,5,0,0,group_1,high_quality
+494,national_chain,Atlanta,1,0,7,0,0,group_0,high_quality
+495,national_chain,Chicago,1,1,4,1,0,group_1,high_quality
+496,national_chain,Boston,0,1,6,1,0,group_1,standard_quality
+497,national_chain,Chicago,1,0,5,0,0,group_0,high_quality
+498,national_chain,Atlanta,0,1,2,0,0,group_1,standard_quality
+499,national_chain,Los Angeles,0,1,5,0,1,group_1,standard_quality
+500,national_chain,Atlanta,0,0,6,1,0,group_0,standard_quality
+501,national_chain,Chicago,0,1,4,0,0,group_1,standard_quality
+502,national_chain,Boston,0,1,5,0,0,group_1,standard_quality
+503,national_chain,Los Angeles,1,1,3,1,1,group_1,high_quality
+504,national_chain,Atlanta,1,0,4,0,1,group_0,high_quality
+505,national_chain,Atlanta,1,1,6,1,0,group_1,high_quality
+506,national_chain,Boston,1,0,5,0,1,group_0,high_quality
+507,national_chain,Los Angeles,0,1,6,0,0,group_1,standard_quality
+508,national_chain,Atlanta,1,0,5,0,1,group_0,high_quality
+509,national_chain,Boston,0,1,3,0,0,group_1,standard_quality
+510,national_chain,Boston,0,1,6,0,0,group_1,standard_quality
+511,national_chain,Chicago,1,0,2,0,0,group_0,high_quality
+512,national_chain,Los Angeles,0,0,5,0,0,group_0,standard_quality
+513,national_chain,Los Angeles,0,0,2,1,0,group_0,standard_quality
+514,national_chain,Los Angeles,0,1,4,1,0,group_1,standard_quality
+515,national_chain,Atlanta,1,0,5,1,0,group_0,high_quality
+516,national_chain,Atlanta,0,0,4,1,0,group_0,standard_quality
+517,national_chain,Atlanta,0,0,5,1,1,group_0,standard_quality
+518,national_chain,Atlanta,0,0,5,1,0,group_0,standard_quality
+519,national_chain,Los Angeles,0,0,2,0,0,group_0,standard_quality
+520,national_chain,Boston,0,0,7,1,0,group_0,standard_quality
+521,national_chain,Atlanta,1,1,7,1,0,group_1,high_quality
+522,national_chain,Boston,1,1,2,0,0,group_1,high_quality
+523,national_chain,Chicago,1,1,7,1,0,group_1,high_quality
+524,national_chain,Los Angeles,0,1,7,0,0,group_1,standard_quality
+525,national_chain,Atlanta,0,0,2,1,0,group_0,standard_quality
+526,national_chain,Boston,1,0,6,0,0,group_0,high_quality
+527,national_chain,Los Angeles,1,0,5,1,1,group_0,high_quality
+528,national_chain,Los Angeles,0,1,6,1,0,group_1,standard_quality
+529,national_chain,Los Angeles,1,1,6,0,0,group_1,high_quality
+530,national_chain,Atlanta,0,1,7,0,0,group_1,standard_quality
+531,national_chain,Boston,1,0,3,1,0,group_0,high_quality
+532,national_chain,Atlanta,1,0,5,0,0,group_0,high_quality
+533,national_chain,Los Angeles,1,1,5,0,0,group_1,high_quality
+534,national_chain,Boston,1,1,7,1,0,group_1,high_quality
+535,national_chain,Boston,0,1,4,0,0,group_1,standard_quality
+536,national_chain,Atlanta,0,0,5,1,0,group_0,standard_quality
+537,national_chain,Los Angeles,0,0,3,1,0,group_0,standard_quality
+538,national_chain,Los Angeles,0,1,2,0,0,group_1,standard_quality
+539,national_chain,Atlanta,0,1,2,0,0,group_1,standard_quality
+540,national_chain,Atlanta,0,0,7,0,0,group_0,standard_quality
+541,national_chain,Boston,0,1,6,1,0,group_1,standard_quality
+542,national_chain,Los Angeles,1,1,2,1,0,group_1,high_quality
+543,national_chain,Boston,0,0,4,0,1,group_0,standard_quality
+544,national_chain,Los Angeles,0,1,7,1,0,group_1,standard_quality
+545,national_chain,Boston,0,0,4,1,0,group_0,standard_quality
+546,national_chain,Boston,1,0,3,1,0,group_0,high_quality
+547,national_chain,Chicago,1,0,6,1,0,group_0,high_quality
+548,national_chain,Boston,0,1,2,1,0,group_1,standard_quality
+549,national_chain,Chicago,1,0,7,1,0,group_0,high_quality
+550,national_chain,Los Angeles,1,0,4,0,0,group_0,high_quality
+551,national_chain,Chicago,1,1,3,1,0,group_1,high_quality
+552,national_chain,Los Angeles,1,1,3,1,1,group_1,high_quality
+553,national_chain,Boston,0,0,2,1,0,group_0,standard_quality
+554,national_chain,Los Angeles,0,0,4,1,0,group_0,standard_quality
+555,national_chain,Atlanta,1,1,5,1,0,group_1,high_quality
+556,national_chain,Boston,0,1,2,0,0,group_1,standard_quality
+557,national_chain,Boston,1,0,3,1,0,group_0,high_quality
+558,national_chain,Chicago,1,1,6,0,0,group_1,high_quality
+559,national_chain,Los Angeles,1,0,2,0,1,group_0,high_quality
+560,national_chain,Boston,0,0,7,0,0,group_0,standard_quality
+561,national_chain,Los Angeles,1,0,5,1,0,group_0,high_quality
+562,national_chain,Atlanta,1,0,4,1,0,group_0,high_quality
+563,national_chain,Chicago,0,1,7,0,0,group_1,standard_quality
+564,national_chain,Los Angeles,0,0,5,1,0,group_0,standard_quality
+565,national_chain,Boston,1,0,7,1,1,group_0,high_quality
+566,national_chain,Los Angeles,1,0,3,1,0,group_0,high_quality
+567,national_chain,Atlanta,1,0,5,1,0,group_0,high_quality
+568,national_chain,Los Angeles,0,0,7,0,0,group_0,standard_quality
+569,national_chain,Atlanta,1,0,7,1,1,group_0,high_quality
+570,national_chain,Los Angeles,1,0,3,1,0,group_0,high_quality
+571,national_chain,Atlanta,0,1,4,0,0,group_1,standard_quality
+572,national_chain,Los Angeles,1,0,2,0,0,group_0,high_quality
+573,national_chain,Atlanta,1,0,5,1,0,group_0,high_quality
+574,national_chain,Chicago,0,0,5,1,0,group_0,standard_quality
+575,national_chain,Boston,1,1,3,1,0,group_1,high_quality
+576,national_chain,Los Angeles,0,0,6,1,1,group_0,standard_quality
+577,national_chain,Boston,1,1,5,1,0,group_1,high_quality
+578,national_chain,Boston,0,0,6,1,0,group_0,standard_quality
+579,national_chain,Boston,0,1,5,0,0,group_1,standard_quality
+580,national_chain,Los Angeles,0,1,7,1,0,group_1,standard_quality
+581,national_chain,Los Angeles,0,1,2,0,1,group_1,standard_quality
+582,national_chain,Boston,1,0,2,1,0,group_0,high_quality
+583,national_chain,Boston,1,0,5,1,0,group_0,high_quality
+584,national_chain,Atlanta,0,0,3,1,0,group_0,standard_quality
+585,national_chain,Chicago,1,1,4,1,0,group_1,high_quality
+586,national_chain,Atlanta,0,0,4,0,0,group_0,standard_quality
+587,national_chain,Atlanta,1,1,2,0,1,group_1,high_quality
+588,national_chain,Atlanta,1,0,4,1,0,group_0,high_quality
+589,national_chain,Los Angeles,1,1,3,1,0,group_1,high_quality
+590,national_chain,Chicago,1,1,6,1,0,group_1,high_quality
+591,national_chain,Chicago,0,0,3,1,1,group_0,standard_quality
+592,national_chain,Los Angeles,0,0,4,0,0,group_0,standard_quality
+593,national_chain,Atlanta,0,1,6,1,0,group_1,standard_quality
+594,national_chain,Atlanta,0,0,2,1,0,group_0,standard_quality
+595,national_chain,Boston,0,1,7,0,0,group_1,standard_quality
+596,national_chain,Chicago,1,0,2,1,1,group_0,high_quality
+597,national_chain,Los Angeles,1,0,5,1,0,group_0,high_quality
+598,national_chain,Chicago,1,0,6,0,0,group_0,high_quality
+599,national_chain,Atlanta,1,1,4,0,0,group_1,high_quality
+600,national_chain,Atlanta,1,1,5,0,0,group_1,high_quality
+601,national_chain,Los Angeles,0,1,7,0,0,group_1,standard_quality
+602,national_chain,Chicago,0,0,2,0,1,group_0,standard_quality
+603,national_chain,Atlanta,1,1,3,1,0,group_1,high_quality
+604,national_chain,Chicago,1,1,5,1,0,group_1,high_quality
+605,national_chain,Chicago,1,0,6,0,1,group_0,high_quality
+606,national_chain,Chicago,0,0,2,0,0,group_0,standard_quality
+607,national_chain,Atlanta,0,0,3,0,0,group_0,standard_quality
+608,national_chain,Los Angeles,1,1,4,0,0,group_1,high_quality
+609,national_chain,Boston,0,1,7,1,0,group_1,standard_quality
+610,national_chain,Atlanta,0,1,5,0,0,group_1,standard_quality
+611,national_chain,Los Angeles,1,1,4,1,0,group_1,high_quality
+612,national_chain,Chicago,1,0,3,1,0,group_0,high_quality
+613,national_chain,Boston,1,1,2,1,1,group_1,high_quality
+614,national_chain,Atlanta,0,0,6,0,0,group_0,standard_quality
+615,national_chain,Atlanta,1,1,3,0,0,group_1,high_quality
+616,national_chain,Atlanta,0,0,5,0,0,group_0,standard_quality
+617,national_chain,Chicago,1,0,7,1,1,group_0,high_quality
+618,national_chain,Boston,0,0,7,1,0,group_0,standard_quality
+619,national_chain,Los Angeles,1,0,6,1,0,group_0,high_quality
+620,national_chain,Los Angeles,0,1,7,0,0,group_1,standard_quality
+621,national_chain,Atlanta,1,0,3,1,0,group_0,high_quality
+622,national_chain,Chicago,1,1,4,0,0,group_1,high_quality
+623,national_chain,Atlanta,0,1,4,1,0,group_1,standard_quality
+624,national_chain,Boston,0,0,7,0,0,group_0,standard_quality
+625,national_chain,Los Angeles,1,0,4,0,0,group_0,high_quality
+626,national_chain,Los Angeles,0,1,3,0,0,group_1,standard_quality
+627,national_chain,Chicago,0,1,4,0,0,group_1,standard_quality
+628,national_chain,Los Angeles,0,1,7,1,0,group_1,standard_quality
+629,national_chain,Chicago,1,1,3,1,0,group_1,high_quality
+630,national_chain,Boston,0,1,2,1,0,group_1,standard_quality
+631,national_chain,Boston,1,1,6,0,0,group_1,high_quality
+632,national_chain,Los Angeles,0,0,5,0,1,group_0,standard_quality
+633,national_chain,Los Angeles,1,1,7,1,0,group_1,high_quality
+634,national_chain,Atlanta,1,1,4,0,0,group_1,high_quality
+635,national_chain,Los Angeles,1,1,5,1,1,group_1,high_quality
+636,national_chain,Atlanta,1,0,7,1,1,group_0,high_quality
+637,national_chain,Atlanta,1,0,6,1,1,group_0,high_quality
+638,national_chain,Boston,0,1,5,0,0,group_1,standard_quality
+639,national_chain,Boston,0,1,7,0,0,group_1,standard_quality
+640,national_chain,Chicago,0,1,7,0,0,group_1,standard_quality
+641,national_chain,Los Angeles,0,1,2,0,0,group_1,standard_quality
+642,national_chain,Chicago,0,0,4,0,0,group_0,standard_quality
+643,national_chain,Chicago,0,0,3,1,0,group_0,standard_quality
+644,national_chain,Atlanta,1,1,3,1,0,group_1,high_quality
+645,national_chain,Atlanta,0,1,7,1,0,group_1,standard_quality
+646,national_chain,Boston,1,1,4,0,0,group_1,high_quality
+647,national_chain,Los Angeles,1,1,6,1,1,group_1,high_quality
+648,national_chain,Chicago,0,1,3,0,0,group_1,standard_quality
+649,national_chain,Boston,1,1,3,0,1,group_1,high_quality
+650,national_chain,Boston,0,1,3,1,1,group_1,standard_quality
+651,national_chain,Boston,1,1,2,0,0,group_1,high_quality
+652,national_chain,Los Angeles,1,0,2,0,0,group_0,high_quality
+653,national_chain,Chicago,1,0,5,1,0,group_0,high_quality
+654,national_chain,Los Angeles,0,1,4,0,0,group_1,standard_quality
+655,national_chain,Chicago,1,0,4,1,0,group_0,high_quality
+656,national_chain,Chicago,1,0,5,1,0,group_0,high_quality
+657,national_chain,Los Angeles,0,0,4,0,0,group_0,standard_quality
+658,national_chain,Boston,1,1,5,1,0,group_1,high_quality
+659,national_chain,Atlanta,0,1,6,1,0,group_1,standard_quality
+660,national_chain,Atlanta,0,0,5,1,0,group_0,standard_quality
+661,national_chain,Atlanta,1,1,2,0,0,group_1,high_quality
+662,national_chain,Boston,0,0,4,0,0,group_0,standard_quality
+663,national_chain,Los Angeles,0,0,7,1,0,group_0,standard_quality
+664,national_chain,Los Angeles,0,0,2,1,0,group_0,standard_quality
+665,national_chain,Chicago,0,0,4,1,0,group_0,standard_quality
+666,national_chain,Chicago,1,1,5,1,0,group_1,high_quality
+667,national_chain,Los Angeles,0,1,3,0,0,group_1,standard_quality
+668,national_chain,Los Angeles,0,1,6,0,1,group_1,standard_quality
+669,national_chain,Chicago,0,1,4,0,0,group_1,standard_quality
+670,national_chain,Los Angeles,1,1,4,0,0,group_1,high_quality
+671,national_chain,Chicago,0,1,5,1,0,group_1,standard_quality
+672,national_chain,Boston,1,0,5,0,1,group_0,high_quality
+673,national_chain,Atlanta,1,0,7,1,0,group_0,high_quality
+674,national_chain,Boston,1,1,2,1,0,group_1,high_quality
+675,national_chain,Chicago,0,1,6,0,0,group_1,standard_quality
+676,national_chain,Chicago,1,1,2,0,0,group_1,high_quality
+677,national_chain,Atlanta,1,1,7,1,0,group_1,high_quality
+678,national_chain,Boston,0,1,5,0,0,group_1,standard_quality
+679,national_chain,Chicago,1,0,3,1,0,group_0,high_quality
+680,national_chain,Los Angeles,1,1,3,0,1,group_1,high_quality
+681,national_chain,Chicago,1,1,5,1,1,group_1,high_quality
+682,national_chain,Los Angeles,0,0,5,0,1,group_0,standard_quality
+683,national_chain,Los Angeles,0,1,4,1,0,group_1,standard_quality
+684,national_chain,Atlanta,1,1,5,0,0,group_1,high_quality
+685,national_chain,Los Angeles,1,0,7,1,0,group_0,high_quality
+686,national_chain,Chicago,0,1,2,0,0,group_1,standard_quality
+687,national_chain,Los Angeles,1,0,6,0,0,group_0,high_quality
+688,national_chain,Los Angeles,0,1,3,1,0,group_1,standard_quality
+689,national_chain,Atlanta,1,0,4,0,1,group_0,high_quality
+690,national_chain,Boston,0,0,2,0,0,group_0,standard_quality
+691,national_chain,Los Angeles,1,0,5,1,0,group_0,high_quality
+692,national_chain,Chicago,0,0,4,1,0,group_0,standard_quality
+693,national_chain,Boston,1,1,3,0,0,group_1,high_quality
+694,national_chain,Boston,0,1,7,0,1,group_1,standard_quality
+695,national_chain,Los Angeles,1,1,3,0,0,group_1,high_quality
+696,national_chain,Los Angeles,0,0,7,1,0,group_0,standard_quality
+697,national_chain,Atlanta,1,1,3,1,0,group_1,high_quality
+698,national_chain,Chicago,0,1,4,1,1,group_1,standard_quality
+699,national_chain,Boston,1,0,5,0,1,group_0,high_quality
+700,national_chain,Los Angeles,0,0,5,0,1,group_0,standard_quality
+701,national_chain,Boston,1,1,6,0,0,group_1,high_quality
+702,national_chain,Chicago,1,1,3,0,0,group_1,high_quality
+703,national_chain,Los Angeles,0,0,4,0,0,group_0,standard_quality
+704,national_chain,Atlanta,1,1,3,1,0,group_1,high_quality
+705,national_chain,Chicago,1,0,6,0,0,group_0,high_quality
+706,national_chain,Boston,1,1,3,1,0,group_1,high_quality
+707,national_chain,Boston,1,1,5,1,0,group_1,high_quality
+708,national_chain,Los Angeles,0,0,5,1,0,group_0,standard_quality
+709,national_chain,Los Angeles,0,1,5,0,0,group_1,standard_quality
+710,national_chain,Los Angeles,0,0,4,1,0,group_0,standard_quality
+711,national_chain,Chicago,0,0,5,0,0,group_0,standard_quality
+712,national_chain,Los Angeles,0,0,3,1,0,group_0,standard_quality
+713,national_chain,Chicago,1,1,2,0,0,group_1,high_quality
+714,national_chain,Boston,0,1,6,1,0,group_1,standard_quality
+715,national_chain,Boston,0,0,7,1,1,group_0,standard_quality
+716,national_chain,Los Angeles,1,0,7,1,0,group_0,high_quality
+717,national_chain,Atlanta,0,0,3,1,1,group_0,standard_quality
+718,national_chain,Boston,1,1,3,0,0,group_1,high_quality
+719,national_chain,Chicago,1,1,4,1,0,group_1,high_quality
+720,national_chain,Atlanta,1,1,7,0,0,group_1,high_quality
+721,local_service,Los Angeles,1,1,6,1,0,group_1,high_quality
+722,local_service,Chicago,0,1,7,0,0,group_1,standard_quality
+723,local_service,Los Angeles,1,0,6,0,1,group_0,high_quality
+724,local_service,Chicago,1,1,4,0,0,group_1,high_quality
+725,local_service,Boston,1,1,6,1,0,group_1,high_quality
+726,local_service,Los Angeles,1,1,5,0,1,group_1,high_quality
+727,local_service,Chicago,1,1,7,0,0,group_1,high_quality
+728,local_service,Atlanta,1,1,7,1,0,group_1,high_quality
+729,local_service,Chicago,1,0,4,1,0,group_0,high_quality
+730,local_service,Chicago,0,0,4,0,0,group_0,standard_quality
+731,local_service,Los Angeles,0,1,2,0,0,group_1,standard_quality
+732,local_service,Los Angeles,0,0,7,0,0,group_0,standard_quality
+733,local_service,Atlanta,1,0,7,1,0,group_0,high_quality
+734,local_service,Atlanta,1,1,5,0,0,group_1,high_quality
+735,local_service,Boston,0,0,3,0,1,group_0,standard_quality
+736,local_service,Los Angeles,1,0,6,0,1,group_0,high_quality
+737,local_service,Atlanta,0,0,4,0,0,group_0,standard_quality
+738,local_service,Boston,1,0,6,1,0,group_0,high_quality
+739,local_service,Los Angeles,0,1,5,1,0,group_1,standard_quality
+740,local_service,Chicago,0,0,7,1,1,group_0,standard_quality
+741,local_service,Atlanta,1,1,3,0,0,group_1,high_quality
+742,local_service,Boston,0,1,2,1,0,group_1,standard_quality
+743,local_service,Los Angeles,1,0,6,1,0,group_0,high_quality
+744,local_service,Atlanta,0,1,7,0,0,group_1,standard_quality
+745,local_service,Atlanta,0,1,2,0,0,group_1,standard_quality
+746,local_service,Atlanta,0,0,2,1,0,group_0,standard_quality
+747,local_service,Atlanta,1,1,6,0,0,group_1,high_quality
+748,local_service,Atlanta,0,1,4,1,0,group_1,standard_quality
+749,local_service,Chicago,1,0,2,0,0,group_0,high_quality
+750,local_service,Chicago,0,0,5,1,0,group_0,standard_quality
+751,local_service,Boston,1,0,5,0,0,group_0,high_quality
+752,local_service,Atlanta,1,1,4,0,0,group_1,high_quality
+753,local_service,Boston,1,0,6,1,0,group_0,high_quality
+754,local_service,Atlanta,0,0,5,0,0,group_0,standard_quality
+755,local_service,Boston,0,0,2,1,1,group_0,standard_quality
+756,local_service,Los Angeles,1,0,4,1,0,group_0,high_quality
+757,local_service,Atlanta,1,1,5,0,0,group_1,high_quality
+758,local_service,Boston,0,0,3,1,0,group_0,standard_quality
+759,local_service,Atlanta,0,0,3,0,0,group_0,standard_quality
+760,local_service,Los Angeles,0,1,6,1,0,group_1,standard_quality
+761,local_service,Atlanta,0,0,5,0,0,group_0,standard_quality
+762,local_service,Atlanta,1,1,2,0,0,group_1,high_quality
+763,local_service,Los Angeles,0,0,4,0,0,group_0,standard_quality
+764,local_service,Chicago,0,0,2,0,1,group_0,standard_quality
+765,local_service,Atlanta,1,1,4,0,0,group_1,high_quality
+766,local_service,Atlanta,0,0,5,1,0,group_0,standard_quality
+767,local_service,Chicago,1,0,5,0,1,group_0,high_quality
+768,local_service,Los Angeles,0,1,4,0,0,group_1,standard_quality
+769,local_service,Los Angeles,0,1,3,1,0,group_1,standard_quality
+770,local_service,Boston,0,1,6,0,0,group_1,standard_quality
+771,local_service,Atlanta,0,1,3,0,1,group_1,standard_quality
+772,local_service,Atlanta,0,1,7,1,0,group_1,standard_quality
+773,local_service,Chicago,1,0,7,1,0,group_0,high_quality
+774,local_service,Los Angeles,1,1,4,0,0,group_1,high_quality
+775,local_service,Boston,1,1,5,1,1,group_1,high_quality
+776,local_service,Los Angeles,0,0,5,0,0,group_0,standard_quality
+777,local_service,Atlanta,1,1,3,0,0,group_1,high_quality
+778,local_service,Chicago,0,1,7,0,0,group_1,standard_quality
+779,local_service,Los Angeles,0,1,6,1,0,group_1,standard_quality
+780,local_service,Los Angeles,1,1,7,0,0,group_1,high_quality
+781,local_service,Chicago,0,0,5,0,0,group_0,standard_quality
+782,local_service,Boston,1,1,7,1,0,group_1,high_quality
+783,local_service,Chicago,0,1,7,1,0,group_1,standard_quality
+784,local_service,Los Angeles,0,0,2,1,0,group_0,standard_quality
+785,local_service,Chicago,0,1,7,0,0,group_1,standard_quality
+786,local_service,Los Angeles,1,1,7,1,0,group_1,high_quality
+787,local_service,Boston,1,0,2,0,0,group_0,high_quality
+788,local_service,Chicago,0,0,5,0,0,group_0,standard_quality
+789,local_service,Boston,0,1,2,1,0,group_1,standard_quality
+790,local_service,Boston,1,0,5,1,0,group_0,high_quality
+791,local_service,Boston,1,0,4,0,0,group_0,high_quality
+792,local_service,Atlanta,1,1,6,1,1,group_1,high_quality
+793,local_service,Los Angeles,1,1,5,1,1,group_1,high_quality
+794,local_service,Boston,1,1,4,1,0,group_1,high_quality
+795,local_service,Atlanta,1,0,4,1,0,group_0,high_quality
+796,local_service,Chicago,0,1,4,0,0,group_1,standard_quality
+797,local_service,Los Angeles,0,1,6,0,0,group_1,standard_quality
+798,local_service,Los Angeles,1,0,5,1,0,group_0,high_quality
+799,local_service,Chicago,1,0,4,0,0,group_0,high_quality
+800,local_service,Atlanta,0,0,6,1,0,group_0,standard_quality
+801,local_service,Boston,1,0,5,0,0,group_0,high_quality
+802,local_service,Chicago,1,1,7,1,0,group_1,high_quality
+803,local_service,Atlanta,0,1,6,1,0,group_1,standard_quality
+804,local_service,Boston,0,1,6,1,1,group_1,standard_quality
+805,local_service,Boston,1,0,2,1,1,group_0,high_quality
+806,local_service,Los Angeles,1,0,7,0,0,group_0,high_quality
+807,local_service,Atlanta,1,0,5,1,0,group_0,high_quality
+808,local_service,Boston,1,1,6,0,0,group_1,high_quality
+809,local_service,Boston,1,1,6,1,0,group_1,high_quality
+810,local_service,Boston,1,1,6,0,0,group_1,high_quality
+811,local_service,Chicago,0,0,5,0,0,group_0,standard_quality
+812,local_service,Atlanta,0,1,3,1,0,group_1,standard_quality
+813,local_service,Boston,0,1,6,1,0,group_1,standard_quality
+814,local_service,Chicago,1,1,7,0,1,group_1,high_quality
+815,local_service,Los Angeles,0,0,2,0,1,group_0,standard_quality
+816,local_service,Los Angeles,0,1,6,0,0,group_1,standard_quality
+817,local_service,Chicago,0,1,3,1,0,group_1,standard_quality
+818,local_service,Atlanta,0,1,7,1,0,group_1,standard_quality
+819,local_service,Boston,0,0,5,1,1,group_0,standard_quality
+820,local_service,Chicago,0,1,7,1,0,group_1,standard_quality
+821,local_service,Atlanta,0,0,4,1,0,group_0,standard_quality
+822,local_service,Chicago,1,1,5,0,0,group_1,high_quality
+823,local_service,Atlanta,1,1,7,0,0,group_1,high_quality
+824,local_service,Boston,1,0,3,1,0,group_0,high_quality
+825,local_service,Atlanta,1,0,3,1,0,group_0,high_quality
+826,local_service,Boston,1,0,5,1,0,group_0,high_quality
+827,local_service,Chicago,1,1,5,0,1,group_1,high_quality
+828,local_service,Boston,0,0,6,1,0,group_0,standard_quality
+829,local_service,Atlanta,0,1,5,0,1,group_1,standard_quality
+830,local_service,Boston,1,1,7,0,0,group_1,high_quality
+831,local_service,Atlanta,0,0,5,0,1,group_0,standard_quality
+832,local_service,Chicago,0,1,7,0,0,group_1,standard_quality
+833,local_service,Chicago,0,0,7,0,1,group_0,standard_quality
+834,local_service,Chicago,1,0,5,1,1,group_0,high_quality
+835,local_service,Boston,1,0,2,0,0,group_0,high_quality
+836,local_service,Boston,0,0,7,0,0,group_0,standard_quality
+837,local_service,Chicago,0,0,2,1,0,group_0,standard_quality
+838,local_service,Los Angeles,0,0,6,0,0,group_0,standard_quality
+839,local_service,Boston,0,1,5,0,0,group_1,standard_quality
+840,local_service,Atlanta,1,0,7,1,0,group_0,high_quality
+841,local_service,Atlanta,1,1,3,1,0,group_1,high_quality
+842,local_service,Atlanta,0,0,2,0,0,group_0,standard_quality
+843,local_service,Atlanta,0,1,4,0,0,group_1,standard_quality
+844,local_service,Boston,1,1,2,0,0,group_1,high_quality
+845,local_service,Chicago,0,1,6,0,0,group_1,standard_quality
+846,local_service,Chicago,1,0,6,0,0,group_0,high_quality
+847,local_service,Chicago,1,0,3,1,1,group_0,high_quality
+848,local_service,Los Angeles,1,1,5,1,0,group_1,high_quality
+849,local_service,Los Angeles,1,0,6,1,0,group_0,high_quality
+850,local_service,Chicago,1,1,2,1,0,group_1,high_quality
+851,local_service,Chicago,1,0,4,0,0,group_0,high_quality
+852,local_service,Boston,1,0,5,0,1,group_0,high_quality
+853,local_service,Atlanta,0,1,2,1,0,group_1,standard_quality
+854,local_service,Boston,1,1,5,0,0,group_1,high_quality
+855,local_service,Chicago,0,0,4,0,0,group_0,standard_quality
+856,local_service,Chicago,0,0,5,0,0,group_0,standard_quality
+857,local_service,Chicago,1,0,5,1,0,group_0,high_quality
+858,local_service,Los Angeles,1,0,5,0,0,group_0,high_quality
+859,local_service,Chicago,1,1,3,1,0,group_1,high_quality
+860,local_service,Los Angeles,1,1,4,0,0,group_1,high_quality
+861,local_service,Los Angeles,1,1,2,0,0,group_1,high_quality
+862,local_service,Boston,1,1,7,0,0,group_1,high_quality
+863,local_service,Los Angeles,0,0,5,0,0,group_0,standard_quality
+864,local_service,Chicago,0,0,2,0,0,group_0,standard_quality
+865,local_service,Atlanta,1,1,6,0,0,group_1,high_quality
+866,local_service,Chicago,0,1,6,1,0,group_1,standard_quality
+867,local_service,Atlanta,1,0,5,1,0,group_0,high_quality
+868,local_service,Los Angeles,0,0,2,1,0,group_0,standard_quality
+869,local_service,Chicago,1,1,5,1,0,group_1,high_quality
+870,local_service,Chicago,0,1,3,0,0,group_1,standard_quality
+871,local_service,Boston,1,1,2,0,0,group_1,high_quality
+872,local_service,Boston,1,1,2,1,0,group_1,high_quality
+873,local_service,Atlanta,0,1,5,1,0,group_1,standard_quality
+874,local_service,Atlanta,0,0,4,0,0,group_0,standard_quality
+875,local_service,Boston,0,0,7,1,1,group_0,standard_quality
+876,local_service,Boston,0,1,4,1,0,group_1,standard_quality
+877,local_service,Los Angeles,0,0,2,0,0,group_0,standard_quality
+878,local_service,Boston,1,1,5,1,0,group_1,high_quality
+879,local_service,Los Angeles,1,0,5,1,0,group_0,high_quality
+880,local_service,Chicago,1,1,4,1,0,group_1,high_quality
+881,local_service,Chicago,0,0,5,1,0,group_0,standard_quality
+882,local_service,Chicago,0,1,7,0,0,group_1,standard_quality
+883,local_service,Boston,1,1,7,0,0,group_1,high_quality
+884,local_service,Los Angeles,0,0,7,0,0,group_0,standard_quality
+885,local_service,Boston,1,1,7,1,0,group_1,high_quality
+886,local_service,Boston,1,0,5,1,0,group_0,high_quality
+887,local_service,Los Angeles,1,0,6,0,0,group_0,high_quality
+888,local_service,Chicago,1,1,7,1,1,group_1,high_quality
+889,local_service,Chicago,1,1,2,0,0,group_1,high_quality
+890,local_service,Boston,0,0,7,0,0,group_0,standard_quality
+891,local_service,Chicago,0,1,5,0,0,group_1,standard_quality
+892,local_service,Los Angeles,0,0,2,0,0,group_0,standard_quality
+893,local_service,Atlanta,1,0,2,1,1,group_0,high_quality
+894,local_service,Atlanta,0,0,4,0,0,group_0,standard_quality
+895,local_service,Atlanta,1,1,4,0,0,group_1,high_quality
+896,local_service,Los Angeles,0,0,7,0,0,group_0,standard_quality
+897,local_service,Los Angeles,0,0,3,0,0,group_0,standard_quality
+898,local_service,Chicago,0,0,7,0,0,group_0,standard_quality
+899,local_service,Chicago,1,0,5,1,1,group_0,high_quality
+900,local_service,Atlanta,1,1,2,0,0,group_1,high_quality
+901,local_service,Los Angeles,1,1,6,0,0,group_1,high_quality
+902,local_service,Atlanta,1,1,2,0,1,group_1,high_quality
+903,local_service,Atlanta,0,1,6,1,0,group_1,standard_quality
+904,local_service,Boston,1,1,2,1,0,group_1,high_quality
+905,local_service,Boston,0,1,7,0,0,group_1,standard_quality
+906,local_service,Boston,1,0,2,0,0,group_0,high_quality
+907,local_service,Boston,0,1,6,0,0,group_1,standard_quality
+908,local_service,Chicago,0,1,7,1,0,group_1,standard_quality
+909,local_service,Los Angeles,0,0,2,1,0,group_0,standard_quality
+910,local_service,Boston,0,0,5,0,0,group_0,standard_quality
+911,local_service,Atlanta,0,0,2,0,0,group_0,standard_quality
+912,local_service,Chicago,1,1,4,0,0,group_1,high_quality
+913,local_service,Atlanta,1,1,3,1,0,group_1,high_quality
+914,local_service,Los Angeles,1,1,6,0,1,group_1,high_quality
+915,local_service,Atlanta,1,1,4,0,1,group_1,high_quality
+916,local_service,Boston,1,1,6,1,0,group_1,high_quality
+917,local_service,Los Angeles,0,1,2,0,0,group_1,standard_quality
+918,local_service,Los Angeles,1,1,4,0,0,group_1,high_quality
+919,local_service,Los Angeles,1,1,7,0,0,group_1,high_quality
+920,local_service,Atlanta,0,1,3,0,0,group_1,standard_quality
+921,local_service,Atlanta,0,0,7,1,0,group_0,standard_quality
+922,local_service,Los Angeles,1,0,6,0,0,group_0,high_quality
+923,local_service,Atlanta,0,0,6,1,0,group_0,standard_quality
+924,local_service,Atlanta,0,0,7,1,1,group_0,standard_quality
+925,local_service,Los Angeles,0,0,6,1,1,group_0,standard_quality
+926,local_service,Chicago,1,1,4,0,0,group_1,high_quality
+927,local_service,Chicago,1,0,4,1,1,group_0,high_quality
+928,local_service,Chicago,1,0,3,1,0,group_0,high_quality
+929,local_service,Los Angeles,1,1,5,1,1,group_1,high_quality
+930,local_service,Chicago,1,1,6,1,0,group_1,high_quality
+931,local_service,Atlanta,0,0,6,0,0,group_0,standard_quality
+932,local_service,Chicago,1,0,4,0,0,group_0,high_quality
+933,local_service,Atlanta,1,1,6,1,0,group_1,high_quality
+934,local_service,Boston,0,0,4,1,0,group_0,standard_quality
+935,local_service,Chicago,1,1,2,1,0,group_1,high_quality
+936,local_service,Boston,1,1,7,1,0,group_1,high_quality
+937,local_service,Boston,0,1,7,0,1,group_1,standard_quality
+938,local_service,Los Angeles,0,0,5,0,0,group_0,standard_quality
+939,local_service,Chicago,1,1,2,1,1,group_1,high_quality
+940,local_service,Los Angeles,1,1,5,1,0,group_1,high_quality
+941,local_service,Boston,1,1,5,0,0,group_1,high_quality
+942,local_service,Los Angeles,1,0,3,1,0,group_0,high_quality
+943,local_service,Chicago,0,0,7,1,0,group_0,standard_quality
+944,local_service,Los Angeles,1,0,5,1,0,group_0,high_quality
+945,local_service,Los Angeles,1,1,3,1,0,group_1,high_quality
+946,local_service,Atlanta,0,0,3,1,0,group_0,standard_quality
+947,local_service,Boston,1,1,7,0,0,group_1,high_quality
+948,local_service,Chicago,1,0,7,1,0,group_0,high_quality
+949,local_service,Boston,0,1,3,0,0,group_1,standard_quality
+950,local_service,Chicago,0,0,6,1,0,group_0,standard_quality
+951,local_service,Boston,1,0,4,1,0,group_0,high_quality
+952,local_service,Atlanta,1,0,2,0,0,group_0,high_quality
+953,local_service,Atlanta,0,1,6,1,0,group_1,standard_quality
+954,local_service,Chicago,1,1,7,0,0,group_1,high_quality
+955,local_service,Boston,0,0,4,1,0,group_0,standard_quality
+956,local_service,Chicago,1,0,6,0,0,group_0,high_quality
+957,local_service,Chicago,1,0,3,1,0,group_0,high_quality
+958,local_service,Boston,0,1,4,0,0,group_1,standard_quality
+959,local_service,Boston,0,1,4,0,0,group_1,standard_quality
+960,local_service,Los Angeles,1,1,2,0,0,group_1,high_quality
+961,local_service,Los Angeles,0,0,3,0,0,group_0,standard_quality
+962,local_service,Boston,1,0,3,0,0,group_0,high_quality
+963,local_service,Los Angeles,0,0,7,1,0,group_0,standard_quality
+964,local_service,Los Angeles,1,0,5,0,0,group_0,high_quality
+965,local_service,Los Angeles,0,0,6,0,0,group_0,standard_quality
+966,local_service,Chicago,1,1,7,1,0,group_1,high_quality
+967,local_service,Los Angeles,0,1,5,0,0,group_1,standard_quality
+968,local_service,Atlanta,0,0,2,1,0,group_0,standard_quality
+969,local_service,Los Angeles,1,1,3,1,0,group_1,high_quality
+970,local_service,Atlanta,1,0,3,0,0,group_0,high_quality
+971,local_service,Los Angeles,0,1,4,0,0,group_1,standard_quality
+972,local_service,Chicago,1,0,6,1,1,group_0,high_quality
+973,local_service,Boston,1,1,2,1,1,group_1,high_quality
+974,local_service,Atlanta,0,0,6,1,0,group_0,standard_quality
+975,local_service,Boston,1,1,7,1,0,group_1,high_quality
+976,local_service,Chicago,1,1,7,1,0,group_1,high_quality
+977,local_service,Chicago,0,0,6,0,0,group_0,standard_quality
+978,local_service,Atlanta,0,1,7,0,1,group_1,standard_quality
+979,local_service,Chicago,0,0,2,1,0,group_0,standard_quality
+980,local_service,Atlanta,0,1,6,0,0,group_1,standard_quality
+981,local_service,Atlanta,1,0,4,1,0,group_0,high_quality
+982,local_service,Chicago,0,0,5,0,0,group_0,standard_quality
+983,local_service,Los Angeles,0,0,7,1,0,group_0,standard_quality
+984,local_service,Boston,0,1,7,0,0,group_1,standard_quality
+985,local_service,Chicago,1,1,5,0,0,group_1,high_quality
+986,local_service,Los Angeles,0,0,5,1,0,group_0,standard_quality
+987,local_service,Chicago,1,1,3,0,0,group_1,high_quality
+988,local_service,Los Angeles,0,1,5,1,1,group_1,standard_quality
+989,local_service,Atlanta,0,1,7,1,0,group_1,standard_quality
+990,local_service,Los Angeles,1,0,7,1,0,group_0,high_quality
+991,local_service,Chicago,1,0,5,1,0,group_0,high_quality
+992,local_service,Atlanta,0,0,5,0,0,group_0,standard_quality
+993,local_service,Atlanta,0,1,4,1,0,group_1,standard_quality
+994,local_service,Chicago,1,0,5,1,0,group_0,high_quality
+995,local_service,Atlanta,0,0,6,1,0,group_0,standard_quality
+996,local_service,Boston,1,1,5,0,0,group_1,high_quality
+997,local_service,Boston,1,1,6,1,0,group_1,high_quality
+998,local_service,Atlanta,1,1,4,1,1,group_1,high_quality
+999,local_service,Atlanta,1,0,4,0,0,group_0,high_quality
+1000,local_service,Boston,1,0,7,0,0,group_0,high_quality
+1001,local_service,Boston,1,1,6,1,0,group_1,high_quality
+1002,local_service,Atlanta,1,1,6,1,0,group_1,high_quality
+1003,local_service,Atlanta,0,1,7,0,0,group_1,standard_quality
+1004,local_service,Atlanta,0,0,3,0,0,group_0,standard_quality
+1005,local_service,Chicago,0,0,6,0,0,group_0,standard_quality
+1006,local_service,Los Angeles,0,1,6,0,0,group_1,standard_quality
+1007,local_service,Los Angeles,0,0,6,0,0,group_0,standard_quality
+1008,local_service,Los Angeles,1,0,6,1,0,group_0,high_quality
+1009,local_service,Los Angeles,0,0,4,1,0,group_0,standard_quality
+1010,local_service,Chicago,1,1,3,1,0,group_1,high_quality
+1011,local_service,Atlanta,0,0,4,1,0,group_0,standard_quality
+1012,local_service,Chicago,1,0,2,1,0,group_0,high_quality
+1013,local_service,Chicago,0,0,3,0,0,group_0,standard_quality
+1014,local_service,Chicago,0,0,7,0,0,group_0,standard_quality
+1015,local_service,Chicago,1,1,4,0,0,group_1,high_quality
+1016,local_service,Atlanta,0,0,4,0,1,group_0,standard_quality
+1017,local_service,Los Angeles,0,1,5,0,0,group_1,standard_quality
+1018,local_service,Los Angeles,0,0,2,0,0,group_0,standard_quality
+1019,local_service,Chicago,1,1,4,0,0,group_1,high_quality
+1020,local_service,Chicago,1,1,7,1,0,group_1,high_quality
+1021,local_service,Chicago,1,0,2,1,0,group_0,high_quality
+1022,local_service,Atlanta,0,1,2,1,0,group_1,standard_quality
+1023,local_service,Chicago,0,1,2,0,1,group_1,standard_quality
+1024,local_service,Atlanta,1,0,4,1,0,group_0,high_quality
+1025,local_service,Boston,0,1,4,1,1,group_1,standard_quality
+1026,local_service,Chicago,0,0,3,0,0,group_0,standard_quality
+1027,local_service,Boston,1,1,3,1,0,group_1,high_quality
+1028,local_service,Chicago,1,1,5,1,0,group_1,high_quality
+1029,local_service,Chicago,1,1,3,1,0,group_1,high_quality
+1030,local_service,Atlanta,0,1,5,1,0,group_1,standard_quality
+1031,local_service,Los Angeles,0,0,3,1,1,group_0,standard_quality
+1032,local_service,Chicago,0,1,3,0,0,group_1,standard_quality
+1033,local_service,Chicago,0,0,2,0,0,group_0,standard_quality
+1034,local_service,Boston,0,1,6,0,0,group_1,standard_quality
+1035,local_service,Chicago,0,0,6,0,0,group_0,standard_quality
+1036,local_service,Los Angeles,0,1,4,1,1,group_1,standard_quality
+1037,local_service,Los Angeles,1,0,7,0,0,group_0,high_quality
+1038,local_service,Los Angeles,0,0,2,0,1,group_0,standard_quality
+1039,local_service,Atlanta,0,1,6,0,0,group_1,standard_quality
+1040,local_service,Boston,0,1,7,0,1,group_1,standard_quality
+1041,local_service,Los Angeles,1,0,2,1,1,group_0,high_quality
+1042,local_service,Boston,0,0,7,1,1,group_0,standard_quality
+1043,local_service,Los Angeles,1,0,2,1,0,group_0,high_quality
+1044,local_service,Chicago,0,1,7,0,1,group_1,standard_quality
+1045,local_service,Chicago,0,1,2,0,0,group_1,standard_quality
+1046,local_service,Boston,0,1,4,0,0,group_1,standard_quality
+1047,local_service,Los Angeles,1,1,6,0,1,group_1,high_quality
+1048,local_service,Atlanta,1,1,4,1,0,group_1,high_quality
+1049,local_service,Chicago,1,1,3,0,0,group_1,high_quality
+1050,local_service,Atlanta,0,0,4,0,0,group_0,standard_quality
+1051,local_service,Atlanta,0,1,5,0,0,group_1,standard_quality
+1052,local_service,Chicago,1,1,2,1,0,group_1,high_quality
+1053,local_service,Atlanta,1,1,5,0,0,group_1,high_quality
+1054,local_service,Chicago,0,1,6,1,0,group_1,standard_quality
+1055,local_service,Boston,0,1,3,1,0,group_1,standard_quality
+1056,local_service,Atlanta,0,0,2,0,0,group_0,standard_quality
+1057,local_service,Atlanta,0,1,2,0,0,group_1,standard_quality
+1058,local_service,Los Angeles,0,1,5,0,0,group_1,standard_quality
+1059,local_service,Los Angeles,1,1,7,0,0,group_1,high_quality
+1060,local_service,Chicago,1,0,7,0,0,group_0,high_quality
+1061,local_service,Boston,1,0,2,0,0,group_0,high_quality
+1062,local_service,Boston,0,0,5,1,0,group_0,standard_quality
+1063,local_service,Boston,1,0,4,1,0,group_0,high_quality
+1064,local_service,Los Angeles,0,0,6,1,0,group_0,standard_quality
+1065,local_service,Chicago,0,0,2,1,0,group_0,standard_quality
+1066,local_service,Chicago,1,0,5,1,0,group_0,high_quality
+1067,local_service,Los Angeles,1,0,7,1,0,group_0,high_quality
+1068,local_service,Los Angeles,1,0,4,0,1,group_0,high_quality
+1069,local_service,Boston,1,1,3,1,0,group_1,high_quality
+1070,local_service,Atlanta,0,1,3,0,0,group_1,standard_quality
+1071,local_service,Boston,0,0,3,1,0,group_0,standard_quality
+1072,local_service,Chicago,0,1,2,0,0,group_1,standard_quality
+1073,local_service,Chicago,1,1,2,0,0,group_1,high_quality
+1074,local_service,Boston,0,0,2,1,0,group_0,standard_quality
+1075,local_service,Chicago,1,1,5,1,0,group_1,high_quality
+1076,local_service,Los Angeles,0,0,2,1,0,group_0,standard_quality
+1077,local_service,Atlanta,0,1,2,0,0,group_1,standard_quality
+1078,local_service,Atlanta,0,1,3,0,0,group_1,standard_quality
+1079,local_service,Chicago,0,0,6,0,0,group_0,standard_quality
+1080,local_service,Los Angeles,0,1,6,1,0,group_1,standard_quality
+1081,local_service,Boston,1,0,6,0,1,group_0,high_quality
+1082,local_service,Los Angeles,1,0,5,0,0,group_0,high_quality
+1083,local_service,Atlanta,1,0,7,0,0,group_0,high_quality
+1084,local_service,Atlanta,0,0,7,0,0,group_0,standard_quality
+1085,local_service,Boston,0,0,7,0,0,group_0,standard_quality
+1086,local_service,Atlanta,0,0,3,1,0,group_0,standard_quality
+1087,local_service,Los Angeles,1,0,6,1,0,group_0,high_quality
+1088,local_service,Chicago,1,1,4,0,1,group_1,high_quality
+1089,local_service,Boston,1,1,2,1,0,group_1,high_quality
+1090,local_service,Los Angeles,0,0,2,0,0,group_0,standard_quality
+1091,local_service,Chicago,1,0,2,0,0,group_0,high_quality
+1092,local_service,Atlanta,1,1,7,1,0,group_1,high_quality
+1093,local_service,Atlanta,1,0,3,1,0,group_0,high_quality
+1094,local_service,Chicago,0,1,4,0,0,group_1,standard_quality
+1095,local_service,Atlanta,1,0,3,1,0,group_0,high_quality
+1096,local_service,Boston,0,1,2,1,0,group_1,standard_quality
+1097,local_service,Atlanta,0,0,2,0,0,group_0,standard_quality
+1098,local_service,Los Angeles,1,0,3,1,1,group_0,high_quality
+1099,local_service,Boston,1,0,3,0,0,group_0,high_quality
+1100,local_service,Atlanta,0,1,5,0,0,group_1,standard_quality
+1101,local_service,Chicago,1,1,3,0,1,group_1,high_quality
+1102,local_service,Los Angeles,1,0,5,0,1,group_0,high_quality
+1103,local_service,Atlanta,1,1,5,0,0,group_1,high_quality
+1104,local_service,Boston,0,0,6,0,1,group_0,standard_quality
+1105,local_service,Atlanta,0,1,3,0,0,group_1,standard_quality
+1106,local_service,Atlanta,1,1,6,1,0,group_1,high_quality
+1107,local_service,Chicago,1,0,5,1,1,group_0,high_quality
+1108,local_service,Chicago,1,0,7,1,0,group_0,high_quality
+1109,local_service,Boston,0,0,5,1,0,group_0,standard_quality
+1110,local_service,Atlanta,1,0,7,1,0,group_0,high_quality
+1111,local_service,Los Angeles,1,1,6,0,0,group_1,high_quality
+1112,local_service,Chicago,1,0,2,0,1,group_0,high_quality
+1113,local_service,Los Angeles,1,0,4,1,0,group_0,high_quality
+1114,local_service,Atlanta,0,0,3,0,0,group_0,standard_quality
+1115,local_service,Los Angeles,1,0,3,1,1,group_0,high_quality
+1116,local_service,Chicago,1,1,6,1,0,group_1,high_quality
+1117,local_service,Boston,1,1,5,0,0,group_1,high_quality
+1118,local_service,Chicago,1,0,7,1,0,group_0,high_quality
+1119,local_service,Boston,1,0,2,0,1,group_0,high_quality
+1120,local_service,Atlanta,1,1,6,1,1,group_1,high_quality
+1121,local_service,Los Angeles,1,0,6,1,0,group_0,high_quality
+1122,local_service,Chicago,0,1,3,0,0,group_1,standard_quality
+1123,local_service,Boston,1,0,6,1,1,group_0,high_quality
+1124,local_service,Chicago,1,0,5,1,1,group_0,high_quality
+1125,local_service,Chicago,1,1,5,1,0,group_1,high_quality
+1126,local_service,Los Angeles,0,1,5,0,1,group_1,standard_quality
+1127,local_service,Atlanta,1,0,3,1,0,group_0,high_quality
+1128,local_service,Atlanta,1,1,6,0,0,group_1,high_quality
+1129,local_service,Atlanta,0,0,2,0,0,group_0,standard_quality
+1130,local_service,Los Angeles,1,0,5,1,0,group_0,high_quality
+1131,local_service,Atlanta,0,0,3,1,0,group_0,standard_quality
+1132,local_service,Los Angeles,0,0,7,0,0,group_0,standard_quality
+1133,local_service,Chicago,1,1,5,1,0,group_1,high_quality
+1134,local_service,Boston,1,1,4,1,0,group_1,high_quality
+1135,local_service,Boston,1,0,5,0,1,group_0,high_quality
+1136,local_service,Boston,0,1,2,1,0,group_1,standard_quality
+1137,local_service,Atlanta,0,0,2,0,0,group_0,standard_quality
+1138,local_service,Los Angeles,1,1,3,1,0,group_1,high_quality
+1139,local_service,Atlanta,0,1,2,0,0,group_1,standard_quality
+1140,local_service,Atlanta,0,1,4,0,0,group_1,standard_quality
+1141,local_service,Atlanta,0,1,5,0,0,group_1,standard_quality
+1142,local_service,Atlanta,0,0,2,1,0,group_0,standard_quality
+1143,local_service,Boston,0,1,2,0,0,group_1,standard_quality
+1144,local_service,Los Angeles,1,0,3,1,0,group_0,high_quality
+1145,local_service,Chicago,0,0,2,1,0,group_0,standard_quality
+1146,local_service,Atlanta,1,0,7,1,0,group_0,high_quality
+1147,local_service,Los Angeles,0,0,3,0,0,group_0,standard_quality
+1148,local_service,Boston,0,0,5,1,0,group_0,standard_quality
+1149,local_service,Los Angeles,0,0,6,0,0,group_0,standard_quality
+1150,local_service,Atlanta,1,0,2,1,0,group_0,high_quality
+1151,local_service,Los Angeles,0,0,5,0,0,group_0,standard_quality
+1152,local_service,Chicago,0,1,4,1,0,group_1,standard_quality
+1153,local_service,Los Angeles,0,0,5,0,1,group_0,standard_quality
+1154,local_service,Los Angeles,1,0,2,0,0,group_0,high_quality
+1155,local_service,Atlanta,0,1,6,0,0,group_1,standard_quality
+1156,local_service,Chicago,0,0,3,0,0,group_0,standard_quality
+1157,local_service,Atlanta,1,0,5,1,0,group_0,high_quality
+1158,local_service,Boston,0,1,6,0,0,group_1,standard_quality
+1159,local_service,Boston,1,1,7,0,0,group_1,high_quality
+1160,local_service,Boston,1,1,3,0,0,group_1,high_quality
+1161,local_service,Boston,1,1,5,1,0,group_1,high_quality
+1162,local_service,Atlanta,0,1,3,0,0,group_1,standard_quality
+1163,local_service,Chicago,1,1,3,1,1,group_1,high_quality
+1164,local_service,Los Angeles,0,0,7,1,0,group_0,standard_quality
+1165,local_service,Boston,1,0,2,1,0,group_0,high_quality
+1166,local_service,Los Angeles,1,0,7,0,0,group_0,high_quality
+1167,local_service,Boston,1,1,3,0,0,group_1,high_quality
+1168,local_service,Los Angeles,1,0,5,1,1,group_0,high_quality
+1169,local_service,Boston,1,0,5,0,1,group_0,high_quality
+1170,local_service,Atlanta,0,0,6,0,0,group_0,standard_quality
+1171,local_service,Los Angeles,0,1,4,1,1,group_1,standard_quality
+1172,local_service,Chicago,0,0,2,0,0,group_0,standard_quality
+1173,local_service,Los Angeles,1,1,3,0,0,group_1,high_quality
+1174,local_service,Boston,1,1,5,0,0,group_1,high_quality
+1175,local_service,Los Angeles,1,0,4,1,1,group_0,high_quality
+1176,local_service,Chicago,1,1,6,0,1,group_1,high_quality
+1177,local_service,Chicago,1,1,7,1,0,group_1,high_quality
+1178,local_service,Los Angeles,1,1,5,1,0,group_1,high_quality
+1179,local_service,Atlanta,0,1,7,0,0,group_1,standard_quality
+1180,local_service,Los Angeles,0,0,3,0,0,group_0,standard_quality
+1181,local_service,Boston,1,1,4,1,1,group_1,high_quality
+1182,local_service,Chicago,0,0,5,0,0,group_0,standard_quality
+1183,local_service,Chicago,1,0,6,1,0,group_0,high_quality
+1184,local_service,Boston,1,1,2,1,1,group_1,high_quality
+1185,local_service,Boston,0,1,2,0,0,group_1,standard_quality
+1186,local_service,Atlanta,0,0,7,0,0,group_0,standard_quality
+1187,local_service,Atlanta,1,1,5,0,0,group_1,high_quality
+1188,local_service,Atlanta,1,1,2,0,1,group_1,high_quality
+1189,local_service,Boston,0,1,6,1,0,group_1,standard_quality
+1190,local_service,Chicago,1,0,5,0,0,group_0,high_quality
+1191,local_service,Atlanta,0,1,2,1,0,group_1,standard_quality
+1192,local_service,Los Angeles,1,1,7,0,0,group_1,high_quality
+1193,local_service,Los Angeles,1,1,5,0,0,group_1,high_quality
+1194,local_service,Atlanta,1,1,5,1,0,group_1,high_quality
+1195,local_service,Boston,1,0,4,1,0,group_0,high_quality
+1196,local_service,Boston,0,0,7,1,0,group_0,standard_quality
+1197,local_service,Los Angeles,0,0,7,1,1,group_0,standard_quality
+1198,local_service,Atlanta,0,0,7,0,1,group_0,standard_quality
+1199,local_service,Boston,0,0,2,1,1,group_0,standard_quality
+1200,local_service,Los Angeles,0,0,7,0,0,group_0,standard_quality
+1201,local_service,Boston,1,1,4,0,0,group_1,high_quality
+1202,local_service,Boston,1,1,3,0,0,group_1,high_quality
+1203,local_service,Atlanta,1,1,6,0,1,group_1,high_quality
+1204,local_service,Atlanta,1,1,3,0,1,group_1,high_quality
+1205,local_service,Boston,0,0,2,1,0,group_0,standard_quality
+1206,local_service,Los Angeles,1,0,6,0,1,group_0,high_quality
+1207,local_service,Los Angeles,0,0,3,1,0,group_0,standard_quality
+1208,local_service,Los Angeles,1,1,6,1,0,group_1,high_quality
+1209,local_service,Los Angeles,1,0,7,1,0,group_0,high_quality
+1210,local_service,Chicago,1,1,5,0,0,group_1,high_quality
+1211,local_service,Los Angeles,0,0,4,1,0,group_0,standard_quality
+1212,local_service,Chicago,1,1,6,0,0,group_1,high_quality
+1213,local_service,Chicago,0,0,4,0,0,group_0,standard_quality
+1214,local_service,Atlanta,0,1,4,1,0,group_1,standard_quality
+1215,local_service,Chicago,0,1,5,0,0,group_1,standard_quality
+1216,local_service,Los Angeles,0,0,3,0,0,group_0,standard_quality
+1217,local_service,Los Angeles,0,1,5,0,0,group_1,standard_quality
+1218,local_service,Chicago,1,0,3,1,0,group_0,high_quality
+1219,local_service,Atlanta,1,0,4,1,0,group_0,high_quality
+1220,local_service,Atlanta,0,1,7,1,0,group_1,standard_quality
+1221,local_service,Atlanta,1,1,2,0,0,group_1,high_quality
+1222,local_service,Atlanta,1,0,4,1,0,group_0,high_quality
+1223,local_service,Boston,0,1,6,1,1,group_1,standard_quality
+1224,local_service,Los Angeles,1,0,2,1,0,group_0,high_quality
+1225,local_service,Chicago,0,0,6,1,0,group_0,standard_quality
+1226,local_service,Boston,0,0,6,1,0,group_0,standard_quality
+1227,local_service,Boston,1,1,7,1,0,group_1,high_quality
+1228,local_service,Los Angeles,0,1,6,0,0,group_1,standard_quality
+1229,local_service,Atlanta,1,1,6,1,1,group_1,high_quality
+1230,local_service,Chicago,1,1,7,1,0,group_1,high_quality
+1231,local_service,Chicago,0,0,3,0,0,group_0,standard_quality
+1232,local_service,Boston,1,1,6,0,0,group_1,high_quality
+1233,local_service,Boston,0,0,5,0,0,group_0,standard_quality
+1234,local_service,Boston,1,0,5,0,0,group_0,high_quality
+1235,local_service,Boston,1,1,6,1,0,group_1,high_quality
+1236,local_service,Los Angeles,0,0,7,1,1,group_0,standard_quality
+1237,local_service,Boston,1,1,2,1,0,group_1,high_quality
+1238,local_service,Los Angeles,0,0,7,0,0,group_0,standard_quality
+1239,local_service,Los Angeles,1,1,3,1,1,group_1,high_quality
+1240,local_service,Chicago,0,1,7,1,0,group_1,standard_quality
+1241,local_service,Boston,0,0,6,0,0,group_0,standard_quality
+1242,local_service,Los Angeles,0,1,2,0,0,group_1,standard_quality
+1243,local_service,Boston,0,1,6,0,1,group_1,standard_quality
+1244,local_service,Atlanta,0,0,2,1,0,group_0,standard_quality
+1245,local_service,Chicago,1,0,2,1,1,group_0,high_quality
+1246,local_service,Boston,0,0,4,0,0,group_0,standard_quality
+1247,local_service,Los Angeles,0,0,5,0,1,group_0,standard_quality
+1248,local_service,Atlanta,0,0,5,0,0,group_0,standard_quality
+1249,local_service,Atlanta,0,1,3,0,0,group_1,standard_quality
+1250,local_service,Atlanta,0,1,7,0,0,group_1,standard_quality
+1251,local_service,Boston,0,1,5,0,0,group_1,standard_quality
+1252,local_service,Los Angeles,0,1,2,0,0,group_1,standard_quality
+1253,local_service,Los Angeles,0,1,2,1,0,group_1,standard_quality
+1254,local_service,Los Angeles,1,1,2,0,0,group_1,high_quality
+1255,local_service,Atlanta,0,1,4,1,0,group_1,standard_quality
+1256,local_service,Los Angeles,1,1,2,1,0,group_1,high_quality
+1257,local_service,Chicago,1,1,6,0,0,group_1,high_quality
+1258,local_service,Atlanta,0,1,2,0,0,group_1,standard_quality
+1259,local_service,Los Angeles,0,1,3,0,0,group_1,standard_quality
+1260,local_service,Los Angeles,1,1,7,1,1,group_1,high_quality
+1261,local_service,Los Angeles,0,0,5,0,0,group_0,standard_quality
+1262,local_service,Boston,0,1,2,0,1,group_1,standard_quality
+1263,local_service,Los Angeles,0,1,5,0,0,group_1,standard_quality
+1264,local_service,Atlanta,0,1,7,0,0,group_1,standard_quality
+1265,local_service,Chicago,0,1,2,1,0,group_1,standard_quality
+1266,local_service,Chicago,1,0,2,0,0,group_0,high_quality
+1267,local_service,Chicago,1,0,5,1,0,group_0,high_quality
+1268,local_service,Chicago,1,0,5,1,0,group_0,high_quality
+1269,local_service,Boston,1,0,6,0,1,group_0,high_quality
+1270,local_service,Atlanta,1,0,6,1,0,group_0,high_quality
+1271,local_service,Atlanta,1,1,2,0,0,group_1,high_quality
+1272,local_service,Boston,1,0,3,0,1,group_0,high_quality
+1273,local_service,Los Angeles,1,0,6,1,0,group_0,high_quality
+1274,local_service,Los Angeles,1,0,6,1,1,group_0,high_quality
+1275,local_service,Chicago,0,1,2,1,0,group_1,standard_quality
+1276,local_service,Atlanta,1,1,3,1,0,group_1,high_quality
+1277,local_service,Atlanta,1,0,2,1,0,group_0,high_quality
+1278,local_service,Los Angeles,0,1,7,0,0,group_1,standard_quality
+1279,local_service,Chicago,0,0,4,1,0,group_0,standard_quality
+1280,local_service,Los Angeles,0,1,3,1,1,group_1,standard_quality
+1281,local_service,Atlanta,0,0,3,1,0,group_0,standard_quality
+1282,local_service,Atlanta,0,0,5,0,0,group_0,standard_quality
+1283,local_service,Los Angeles,0,1,7,1,0,group_1,standard_quality
+1284,local_service,Los Angeles,0,0,6,1,0,group_0,standard_quality
+1285,local_service,Chicago,1,0,5,0,0,group_0,high_quality
+1286,local_service,Los Angeles,1,1,3,1,0,group_1,high_quality
+1287,local_service,Los Angeles,1,1,4,1,0,group_1,high_quality
+1288,local_service,Los Angeles,1,0,2,1,0,group_0,high_quality
+1289,local_service,Boston,1,1,5,1,1,group_1,high_quality
+1290,local_service,Los Angeles,0,0,6,1,0,group_0,standard_quality
+1291,local_service,Chicago,0,1,4,0,1,group_1,standard_quality
+1292,local_service,Los Angeles,1,0,2,0,1,group_0,high_quality
+1293,local_service,Chicago,0,0,3,0,0,group_0,standard_quality
+1294,local_service,Boston,1,1,4,0,0,group_1,high_quality
+1295,local_service,Los Angeles,1,0,5,0,0,group_0,high_quality
+1296,local_service,Los Angeles,1,0,6,1,1,group_0,high_quality
+1297,local_service,Los Angeles,1,0,5,1,0,group_0,high_quality
+1298,local_service,Atlanta,0,0,7,0,0,group_0,standard_quality
+1299,local_service,Atlanta,0,0,6,1,1,group_0,standard_quality
+1300,local_service,Los Angeles,1,0,2,1,0,group_0,high_quality
+1301,local_service,Atlanta,0,1,7,1,0,group_1,standard_quality
+1302,local_service,Los Angeles,0,0,4,1,0,group_0,standard_quality
+1303,local_service,Boston,1,0,6,0,0,group_0,high_quality
+1304,local_service,Boston,1,0,2,0,0,group_0,high_quality
+1305,local_service,Los Angeles,0,0,7,0,0,group_0,standard_quality
+1306,local_service,Boston,0,1,4,0,0,group_1,standard_quality
+1307,local_service,Atlanta,1,1,4,1,0,group_1,high_quality
+1308,local_service,Boston,1,0,5,0,0,group_0,high_quality
+1309,local_service,Chicago,0,1,7,1,0,group_1,standard_quality
+1310,local_service,Atlanta,1,0,3,1,0,group_0,high_quality
+1311,local_service,Los Angeles,1,1,7,0,0,group_1,high_quality
+1312,local_service,Chicago,0,0,3,0,0,group_0,standard_quality
+1313,local_service,Los Angeles,0,0,4,0,0,group_0,standard_quality
+1314,local_service,Chicago,1,1,5,1,0,group_1,high_quality
+1315,local_service,Chicago,1,1,2,0,0,group_1,high_quality
+1316,local_service,Boston,1,1,6,0,0,group_1,high_quality
+1317,local_service,Chicago,1,1,2,0,0,group_1,high_quality
+1318,local_service,Boston,0,0,3,0,0,group_0,standard_quality
+1319,local_service,Chicago,1,1,4,1,1,group_1,high_quality
+1320,local_service,Boston,0,1,2,0,0,group_1,standard_quality
+1321,local_service,Los Angeles,0,0,3,1,0,group_0,standard_quality
+1322,local_service,Los Angeles,1,0,4,1,0,group_0,high_quality
+1323,local_service,Boston,0,0,4,0,0,group_0,standard_quality
+1324,local_service,Chicago,0,1,2,0,0,group_1,standard_quality
+1325,local_service,Atlanta,0,0,3,0,0,group_0,standard_quality
+1326,local_service,Chicago,0,1,2,1,0,group_1,standard_quality
+1327,local_service,Atlanta,1,0,4,1,0,group_0,high_quality
+1328,local_service,Atlanta,0,1,4,0,0,group_1,standard_quality
+1329,local_service,Los Angeles,1,0,6,0,0,group_0,high_quality
+1330,local_service,Boston,1,0,7,1,0,group_0,high_quality
+1331,local_service,Los Angeles,1,1,6,0,0,group_1,high_quality
+1332,local_service,Los Angeles,0,0,5,0,1,group_0,standard_quality
+1333,local_service,Atlanta,0,1,5,0,0,group_1,standard_quality
+1334,local_service,Chicago,0,1,4,1,1,group_1,standard_quality
+1335,local_service,Atlanta,0,0,2,0,0,group_0,standard_quality
+1336,local_service,Los Angeles,0,1,6,1,0,group_1,standard_quality
+1337,local_service,Chicago,0,1,2,1,0,group_1,standard_quality
+1338,local_service,Boston,0,1,7,0,0,group_1,standard_quality
+1339,local_service,Atlanta,1,0,3,1,0,group_0,high_quality
+1340,local_service,Boston,0,0,2,0,0,group_0,standard_quality
+1341,local_service,Atlanta,0,0,2,1,0,group_0,standard_quality
+1342,local_service,Boston,0,1,4,1,0,group_1,standard_quality
+1343,local_service,Boston,0,1,2,0,0,group_1,standard_quality
+1344,local_service,Boston,0,1,2,1,0,group_1,standard_quality
+1345,local_service,Los Angeles,1,1,5,0,0,group_1,high_quality
+1346,local_service,Atlanta,1,1,2,1,0,group_1,high_quality
+1347,local_service,Boston,1,1,7,0,1,group_1,high_quality
+1348,local_service,Atlanta,0,0,3,0,0,group_0,standard_quality
+1349,local_service,Los Angeles,0,0,2,1,0,group_0,standard_quality
+1350,local_service,Atlanta,1,1,4,1,0,group_1,high_quality
+1351,local_service,Chicago,0,0,5,1,0,group_0,standard_quality
+1352,local_service,Boston,1,0,6,0,0,group_0,high_quality
+1353,local_service,Atlanta,1,0,6,1,0,group_0,high_quality
+1354,local_service,Los Angeles,1,1,3,1,0,group_1,high_quality
+1355,local_service,Atlanta,1,0,4,1,0,group_0,high_quality
+1356,local_service,Los Angeles,1,1,4,0,0,group_1,high_quality
+1357,local_service,Boston,0,0,5,0,1,group_0,standard_quality
+1358,local_service,Chicago,0,1,3,0,0,group_1,standard_quality
+1359,local_service,Atlanta,1,0,4,0,0,group_0,high_quality
+1360,local_service,Boston,1,0,4,0,0,group_0,high_quality
+1361,local_service,Atlanta,0,1,4,0,1,group_1,standard_quality
+1362,local_service,Los Angeles,0,0,6,0,0,group_0,standard_quality
+1363,local_service,Chicago,0,0,3,0,0,group_0,standard_quality
+1364,local_service,Los Angeles,0,1,7,0,0,group_1,standard_quality
+1365,local_service,Los Angeles,0,0,4,0,0,group_0,standard_quality
+1366,local_service,Atlanta,1,0,2,0,0,group_0,high_quality
+1367,local_service,Atlanta,0,1,7,1,1,group_1,standard_quality
+1368,local_service,Boston,1,0,4,0,0,group_0,high_quality
+1369,local_service,Los Angeles,1,0,2,1,1,group_0,high_quality
+1370,local_service,Boston,0,1,6,1,0,group_1,standard_quality
+1371,local_service,Boston,1,0,5,1,0,group_0,high_quality
+1372,local_service,Atlanta,1,0,6,1,0,group_0,high_quality
+1373,local_service,Boston,0,1,5,1,0,group_1,standard_quality
+1374,local_service,Atlanta,0,1,3,0,0,group_1,standard_quality
+1375,local_service,Chicago,0,1,6,0,0,group_1,standard_quality
+1376,local_service,Chicago,0,0,4,0,0,group_0,standard_quality
+1377,local_service,Boston,1,1,2,0,0,group_1,high_quality
+1378,local_service,Chicago,1,0,6,0,0,group_0,high_quality
+1379,local_service,Atlanta,0,0,6,0,0,group_0,standard_quality
+1380,local_service,Los Angeles,1,0,6,1,0,group_0,high_quality
+1381,local_service,Chicago,0,0,2,0,0,group_0,standard_quality
+1382,local_service,Atlanta,0,0,4,0,0,group_0,standard_quality
+1383,local_service,Atlanta,1,0,5,0,1,group_0,high_quality
+1384,local_service,Atlanta,0,0,7,1,0,group_0,standard_quality
+1385,local_service,Atlanta,0,1,3,1,0,group_1,standard_quality
+1386,local_service,Atlanta,0,0,4,0,0,group_0,standard_quality
+1387,local_service,Los Angeles,0,1,6,0,0,group_1,standard_quality
+1388,local_service,Los Angeles,0,1,3,0,0,group_1,standard_quality
+1389,local_service,Atlanta,1,0,4,0,0,group_0,high_quality
+1390,local_service,Chicago,0,0,7,0,0,group_0,standard_quality
+1391,local_service,Boston,0,0,3,0,0,group_0,standard_quality
+1392,local_service,Atlanta,0,1,3,0,0,group_1,standard_quality
+1393,local_service,Los Angeles,1,0,4,0,0,group_0,high_quality
+1394,local_service,Atlanta,1,1,5,1,0,group_1,high_quality
+1395,local_service,Boston,0,1,5,0,0,group_1,standard_quality
+1396,local_service,Chicago,1,0,6,0,1,group_0,high_quality
+1397,local_service,Chicago,0,1,2,0,1,group_1,standard_quality
+1398,local_service,Boston,0,1,4,1,0,group_1,standard_quality
+1399,local_service,Atlanta,0,1,6,1,0,group_1,standard_quality
+1400,local_service,Atlanta,1,1,5,0,1,group_1,high_quality
+1401,local_service,Chicago,0,1,6,0,0,group_1,standard_quality
+1402,local_service,Atlanta,0,1,7,0,0,group_1,standard_quality
+1403,local_service,Atlanta,0,1,6,0,0,group_1,standard_quality
+1404,local_service,Boston,1,0,4,0,0,group_0,high_quality
+1405,local_service,Chicago,1,1,5,1,0,group_1,high_quality
+1406,local_service,Boston,0,1,5,1,0,group_1,standard_quality
+1407,local_service,Atlanta,0,0,7,0,0,group_0,standard_quality
+1408,local_service,Chicago,1,0,3,0,0,group_0,high_quality
+1409,local_service,Atlanta,1,0,7,0,0,group_0,high_quality
+1410,local_service,Chicago,0,1,3,1,0,group_1,standard_quality
+1411,local_service,Boston,1,1,4,0,0,group_1,high_quality
+1412,local_service,Boston,1,1,4,1,0,group_1,high_quality
+1413,local_service,Chicago,1,0,7,1,1,group_0,high_quality
+1414,local_service,Chicago,0,1,2,0,0,group_1,standard_quality
+1415,local_service,Chicago,0,0,2,1,0,group_0,standard_quality
+1416,local_service,Atlanta,1,0,5,0,0,group_0,high_quality
+1417,local_service,Atlanta,0,0,3,0,0,group_0,standard_quality
+1418,local_service,Boston,1,1,3,1,1,group_1,high_quality
+1419,local_service,Boston,1,1,4,0,0,group_1,high_quality
+1420,local_service,Los Angeles,0,1,6,0,1,group_1,standard_quality
+1421,local_service,Los Angeles,0,0,3,0,0,group_0,standard_quality
+1422,local_service,Boston,0,0,2,1,0,group_0,standard_quality
+1423,local_service,Atlanta,0,1,2,0,1,group_1,standard_quality
+1424,local_service,Los Angeles,0,1,3,0,0,group_1,standard_quality
+1425,local_service,Los Angeles,0,1,3,1,0,group_1,standard_quality
+1426,local_service,Chicago,0,1,5,1,0,group_1,standard_quality
+1427,local_service,Atlanta,0,1,2,1,0,group_1,standard_quality
+1428,local_service,Los Angeles,1,0,7,1,0,group_0,high_quality
+1429,local_service,Atlanta,1,1,4,0,0,group_1,high_quality
+1430,local_service,Atlanta,0,0,7,1,0,group_0,standard_quality
+1431,local_service,Los Angeles,1,0,3,1,0,group_0,high_quality
+1432,local_service,Boston,1,0,6,1,1,group_0,high_quality
+1433,local_service,Los Angeles,1,0,3,1,0,group_0,high_quality
+1434,local_service,Chicago,0,1,4,0,0,group_1,standard_quality
+1435,local_service,Boston,1,0,5,0,1,group_0,high_quality
+1436,local_service,Boston,0,1,6,1,0,group_1,standard_quality
+1437,local_service,Boston,0,1,7,0,0,group_1,standard_quality
+1438,local_service,Boston,0,1,5,1,0,group_1,standard_quality
+1439,local_service,Los Angeles,0,0,6,1,0,group_0,standard_quality
+1440,local_service,Los Angeles,1,1,4,1,0,group_1,high_quality
+1441,office_admin,Boston,0,1,3,1,0,group_1,standard_quality
+1442,office_admin,Atlanta,1,0,5,1,0,group_0,high_quality
+1443,office_admin,Los Angeles,0,1,4,0,0,group_1,standard_quality
+1444,office_admin,Chicago,1,0,7,0,0,group_0,high_quality
+1445,office_admin,Boston,0,1,7,1,0,group_1,standard_quality
+1446,office_admin,Chicago,1,0,5,1,0,group_0,high_quality
+1447,office_admin,Atlanta,0,0,7,1,0,group_0,standard_quality
+1448,office_admin,Los Angeles,1,0,7,0,0,group_0,high_quality
+1449,office_admin,Atlanta,1,1,7,0,0,group_1,high_quality
+1450,office_admin,Chicago,1,0,2,1,0,group_0,high_quality
+1451,office_admin,Los Angeles,0,1,3,0,0,group_1,standard_quality
+1452,office_admin,Los Angeles,0,0,2,0,0,group_0,standard_quality
+1453,office_admin,Atlanta,1,0,5,0,0,group_0,high_quality
+1454,office_admin,Boston,0,1,7,1,0,group_1,standard_quality
+1455,office_admin,Chicago,1,1,5,0,0,group_1,high_quality
+1456,office_admin,Boston,0,0,4,0,0,group_0,standard_quality
+1457,office_admin,Los Angeles,1,0,6,1,0,group_0,high_quality
+1458,office_admin,Boston,0,0,5,1,1,group_0,standard_quality
+1459,office_admin,Los Angeles,1,1,4,1,0,group_1,high_quality
+1460,office_admin,Los Angeles,1,1,2,1,0,group_1,high_quality
+1461,office_admin,Boston,0,1,3,1,0,group_1,standard_quality
+1462,office_admin,Boston,0,1,5,0,0,group_1,standard_quality
+1463,office_admin,Chicago,0,1,3,1,0,group_1,standard_quality
+1464,office_admin,Boston,0,1,5,1,0,group_1,standard_quality
+1465,office_admin,Los Angeles,1,0,7,1,1,group_0,high_quality
+1466,office_admin,Boston,1,1,2,1,0,group_1,high_quality
+1467,office_admin,Chicago,0,1,4,1,0,group_1,standard_quality
+1468,office_admin,Los Angeles,0,1,4,0,0,group_1,standard_quality
+1469,office_admin,Chicago,0,1,5,1,0,group_1,standard_quality
+1470,office_admin,Los Angeles,0,0,5,0,1,group_0,standard_quality
+1471,office_admin,Los Angeles,0,1,5,1,0,group_1,standard_quality
+1472,office_admin,Chicago,0,1,2,0,0,group_1,standard_quality
+1473,office_admin,Boston,1,0,6,1,0,group_0,high_quality
+1474,office_admin,Atlanta,1,1,2,0,0,group_1,high_quality
+1475,office_admin,Atlanta,0,1,2,1,1,group_1,standard_quality
+1476,office_admin,Los Angeles,1,0,6,0,0,group_0,high_quality
+1477,office_admin,Chicago,0,0,5,0,0,group_0,standard_quality
+1478,office_admin,Chicago,1,0,7,1,0,group_0,high_quality
+1479,office_admin,Atlanta,1,1,2,0,0,group_1,high_quality
+1480,office_admin,Boston,0,1,2,1,1,group_1,standard_quality
+1481,office_admin,Boston,1,1,5,0,0,group_1,high_quality
+1482,office_admin,Boston,1,1,6,1,0,group_1,high_quality
+1483,office_admin,Boston,1,0,4,1,0,group_0,high_quality
+1484,office_admin,Los Angeles,1,1,3,1,0,group_1,high_quality
+1485,office_admin,Atlanta,1,0,2,1,0,group_0,high_quality
+1486,office_admin,Boston,1,0,3,0,0,group_0,high_quality
+1487,office_admin,Boston,1,0,2,0,0,group_0,high_quality
+1488,office_admin,Chicago,0,0,6,0,1,group_0,standard_quality
+1489,office_admin,Atlanta,1,0,4,1,0,group_0,high_quality
+1490,office_admin,Atlanta,1,1,7,1,0,group_1,high_quality
+1491,office_admin,Atlanta,1,1,3,0,0,group_1,high_quality
+1492,office_admin,Atlanta,1,1,2,0,0,group_1,high_quality
+1493,office_admin,Chicago,1,0,5,1,0,group_0,high_quality
+1494,office_admin,Atlanta,1,1,6,1,0,group_1,high_quality
+1495,office_admin,Boston,0,0,6,0,0,group_0,standard_quality
+1496,office_admin,Chicago,1,1,6,1,0,group_1,high_quality
+1497,office_admin,Chicago,1,0,3,1,1,group_0,high_quality
+1498,office_admin,Chicago,1,0,3,0,0,group_0,high_quality
+1499,office_admin,Los Angeles,0,1,7,0,0,group_1,standard_quality
+1500,office_admin,Atlanta,0,1,2,0,0,group_1,standard_quality
+1501,office_admin,Boston,0,1,7,1,1,group_1,standard_quality
+1502,office_admin,Atlanta,1,1,3,0,0,group_1,high_quality
+1503,office_admin,Los Angeles,1,0,3,0,0,group_0,high_quality
+1504,office_admin,Boston,1,1,7,1,0,group_1,high_quality
+1505,office_admin,Chicago,1,0,5,0,1,group_0,high_quality
+1506,office_admin,Los Angeles,1,1,5,0,0,group_1,high_quality
+1507,office_admin,Atlanta,0,0,7,1,1,group_0,standard_quality
+1508,office_admin,Atlanta,1,0,6,1,0,group_0,high_quality
+1509,office_admin,Los Angeles,1,0,4,0,0,group_0,high_quality
+1510,office_admin,Atlanta,0,1,6,1,0,group_1,standard_quality
+1511,office_admin,Atlanta,0,1,4,1,0,group_1,standard_quality
+1512,office_admin,Chicago,1,0,3,1,0,group_0,high_quality
+1513,office_admin,Los Angeles,1,1,4,1,0,group_1,high_quality
+1514,office_admin,Los Angeles,0,1,5,0,0,group_1,standard_quality
+1515,office_admin,Los Angeles,0,1,2,1,0,group_1,standard_quality
+1516,office_admin,Chicago,1,1,7,1,0,group_1,high_quality
+1517,office_admin,Atlanta,1,1,7,0,1,group_1,high_quality
+1518,office_admin,Boston,1,1,3,0,0,group_1,high_quality
+1519,office_admin,Chicago,0,0,2,1,0,group_0,standard_quality
+1520,office_admin,Atlanta,1,1,6,0,0,group_1,high_quality
+1521,office_admin,Los Angeles,1,0,2,1,0,group_0,high_quality
+1522,office_admin,Los Angeles,1,0,7,0,0,group_0,high_quality
+1523,office_admin,Atlanta,1,1,4,1,0,group_1,high_quality
+1524,office_admin,Chicago,0,0,3,0,1,group_0,standard_quality
+1525,office_admin,Los Angeles,1,0,5,0,1,group_0,high_quality
+1526,office_admin,Los Angeles,1,1,7,0,0,group_1,high_quality
+1527,office_admin,Los Angeles,1,1,3,0,0,group_1,high_quality
+1528,office_admin,Boston,1,0,7,0,0,group_0,high_quality
+1529,office_admin,Boston,0,1,3,0,0,group_1,standard_quality
+1530,office_admin,Los Angeles,1,0,7,0,0,group_0,high_quality
+1531,office_admin,Boston,1,1,2,0,0,group_1,high_quality
+1532,office_admin,Boston,1,0,3,1,0,group_0,high_quality
+1533,office_admin,Los Angeles,1,0,5,0,1,group_0,high_quality
+1534,office_admin,Atlanta,1,0,7,1,0,group_0,high_quality
+1535,office_admin,Chicago,0,1,7,1,0,group_1,standard_quality
+1536,office_admin,Atlanta,0,0,4,1,0,group_0,standard_quality
+1537,office_admin,Atlanta,1,0,4,0,0,group_0,high_quality
+1538,office_admin,Boston,0,0,6,0,0,group_0,standard_quality
+1539,office_admin,Atlanta,0,0,5,1,0,group_0,standard_quality
+1540,office_admin,Atlanta,0,0,2,0,0,group_0,standard_quality
+1541,office_admin,Los Angeles,1,0,7,0,0,group_0,high_quality
+1542,office_admin,Boston,0,0,5,1,0,group_0,standard_quality
+1543,office_admin,Los Angeles,1,1,3,1,0,group_1,high_quality
+1544,office_admin,Chicago,0,1,7,1,0,group_1,standard_quality
+1545,office_admin,Los Angeles,0,1,2,1,0,group_1,standard_quality
+1546,office_admin,Atlanta,1,1,5,0,0,group_1,high_quality
+1547,office_admin,Atlanta,1,0,5,0,0,group_0,high_quality
+1548,office_admin,Boston,0,1,2,0,0,group_1,standard_quality
+1549,office_admin,Los Angeles,0,0,6,0,1,group_0,standard_quality
+1550,office_admin,Atlanta,0,1,6,1,0,group_1,standard_quality
+1551,office_admin,Los Angeles,1,0,7,0,0,group_0,high_quality
+1552,office_admin,Atlanta,0,0,3,1,0,group_0,standard_quality
+1553,office_admin,Boston,1,0,7,0,0,group_0,high_quality
+1554,office_admin,Boston,1,1,3,0,0,group_1,high_quality
+1555,office_admin,Chicago,0,1,6,0,0,group_1,standard_quality
+1556,office_admin,Chicago,0,1,3,1,0,group_1,standard_quality
+1557,office_admin,Chicago,1,1,5,0,0,group_1,high_quality
+1558,office_admin,Atlanta,0,0,3,1,0,group_0,standard_quality
+1559,office_admin,Atlanta,1,0,5,0,0,group_0,high_quality
+1560,office_admin,Chicago,1,0,4,0,0,group_0,high_quality
+1561,office_admin,Atlanta,1,1,3,0,0,group_1,high_quality
+1562,office_admin,Los Angeles,0,0,2,1,0,group_0,standard_quality
+1563,office_admin,Chicago,0,1,3,0,0,group_1,standard_quality
+1564,office_admin,Chicago,1,0,6,0,0,group_0,high_quality
+1565,office_admin,Boston,1,0,3,1,0,group_0,high_quality
+1566,office_admin,Chicago,1,0,7,0,1,group_0,high_quality
+1567,office_admin,Boston,1,0,3,0,0,group_0,high_quality
+1568,office_admin,Boston,1,0,4,1,0,group_0,high_quality
+1569,office_admin,Atlanta,0,1,3,0,0,group_1,standard_quality
+1570,office_admin,Chicago,1,0,3,1,0,group_0,high_quality
+1571,office_admin,Atlanta,1,0,3,0,1,group_0,high_quality
+1572,office_admin,Los Angeles,1,1,5,1,1,group_1,high_quality
+1573,office_admin,Boston,0,0,3,1,0,group_0,standard_quality
+1574,office_admin,Chicago,0,1,7,1,0,group_1,standard_quality
+1575,office_admin,Chicago,1,1,2,1,1,group_1,high_quality
+1576,office_admin,Atlanta,0,0,7,0,0,group_0,standard_quality
+1577,office_admin,Boston,1,0,2,0,0,group_0,high_quality
+1578,office_admin,Atlanta,0,0,5,0,0,group_0,standard_quality
+1579,office_admin,Chicago,0,1,2,1,0,group_1,standard_quality
+1580,office_admin,Atlanta,1,1,7,0,0,group_1,high_quality
+1581,office_admin,Boston,1,0,7,1,0,group_0,high_quality
+1582,office_admin,Atlanta,0,0,5,1,0,group_0,standard_quality
+1583,office_admin,Los Angeles,0,1,3,0,0,group_1,standard_quality
+1584,office_admin,Boston,1,0,5,1,1,group_0,high_quality
+1585,office_admin,Atlanta,0,1,2,0,1,group_1,standard_quality
+1586,office_admin,Chicago,1,1,5,0,0,group_1,high_quality
+1587,office_admin,Boston,0,0,5,0,0,group_0,standard_quality
+1588,office_admin,Los Angeles,0,1,2,1,0,group_1,standard_quality
+1589,office_admin,Los Angeles,1,1,7,0,0,group_1,high_quality
+1590,office_admin,Atlanta,1,0,5,0,0,group_0,high_quality
+1591,office_admin,Boston,1,0,6,1,0,group_0,high_quality
+1592,office_admin,Boston,0,0,2,1,0,group_0,standard_quality
+1593,office_admin,Los Angeles,1,0,6,0,0,group_0,high_quality
+1594,office_admin,Los Angeles,1,0,4,1,0,group_0,high_quality
+1595,office_admin,Los Angeles,1,1,4,0,0,group_1,high_quality
+1596,office_admin,Los Angeles,1,1,7,1,0,group_1,high_quality
+1597,office_admin,Boston,1,0,5,0,0,group_0,high_quality
+1598,office_admin,Atlanta,1,1,2,1,0,group_1,high_quality
+1599,office_admin,Atlanta,1,0,2,0,1,group_0,high_quality
+1600,office_admin,Los Angeles,0,0,5,0,0,group_0,standard_quality
+1601,office_admin,Atlanta,0,1,5,0,0,group_1,standard_quality
+1602,office_admin,Atlanta,0,1,6,0,0,group_1,standard_quality
+1603,office_admin,Boston,0,0,5,0,0,group_0,standard_quality
+1604,office_admin,Atlanta,0,0,7,1,0,group_0,standard_quality
+1605,office_admin,Atlanta,1,0,2,0,1,group_0,high_quality
+1606,office_admin,Los Angeles,1,0,2,0,0,group_0,high_quality
+1607,office_admin,Los Angeles,1,1,4,1,0,group_1,high_quality
+1608,office_admin,Los Angeles,1,1,2,0,0,group_1,high_quality
+1609,office_admin,Chicago,0,1,2,0,0,group_1,standard_quality
+1610,office_admin,Atlanta,0,1,3,0,0,group_1,standard_quality
+1611,office_admin,Boston,1,0,3,1,0,group_0,high_quality
+1612,office_admin,Atlanta,0,1,5,1,0,group_1,standard_quality
+1613,office_admin,Atlanta,0,1,5,0,0,group_1,standard_quality
+1614,office_admin,Atlanta,0,0,3,0,0,group_0,standard_quality
+1615,office_admin,Boston,0,0,6,0,0,group_0,standard_quality
+1616,office_admin,Atlanta,0,0,2,1,1,group_0,standard_quality
+1617,office_admin,Chicago,0,0,2,0,0,group_0,standard_quality
+1618,office_admin,Chicago,1,0,3,0,0,group_0,high_quality
+1619,office_admin,Chicago,1,0,3,1,0,group_0,high_quality
+1620,office_admin,Atlanta,0,1,7,0,0,group_1,standard_quality
+1621,office_admin,Chicago,1,0,4,0,0,group_0,high_quality
+1622,office_admin,Los Angeles,0,0,7,0,0,group_0,standard_quality
+1623,office_admin,Los Angeles,1,1,2,0,0,group_1,high_quality
+1624,office_admin,Los Angeles,0,0,5,1,0,group_0,standard_quality
+1625,office_admin,Atlanta,0,0,7,1,0,group_0,standard_quality
+1626,office_admin,Boston,0,1,3,0,0,group_1,standard_quality
+1627,office_admin,Chicago,0,0,5,1,0,group_0,standard_quality
+1628,office_admin,Atlanta,1,1,3,1,0,group_1,high_quality
+1629,office_admin,Atlanta,0,1,4,1,0,group_1,standard_quality
+1630,office_admin,Los Angeles,1,1,7,0,0,group_1,high_quality
+1631,office_admin,Atlanta,0,0,6,0,0,group_0,standard_quality
+1632,office_admin,Los Angeles,1,0,6,1,0,group_0,high_quality
+1633,office_admin,Boston,0,0,4,1,0,group_0,standard_quality
+1634,office_admin,Chicago,1,0,4,0,1,group_0,high_quality
+1635,office_admin,Atlanta,0,1,3,0,0,group_1,standard_quality
+1636,office_admin,Chicago,0,1,4,0,0,group_1,standard_quality
+1637,office_admin,Boston,1,1,2,1,0,group_1,high_quality
+1638,office_admin,Chicago,1,0,6,1,1,group_0,high_quality
+1639,office_admin,Boston,1,0,5,1,1,group_0,high_quality
+1640,office_admin,Los Angeles,0,1,5,0,1,group_1,standard_quality
+1641,office_admin,Chicago,0,1,5,1,1,group_1,standard_quality
+1642,office_admin,Atlanta,1,1,4,1,0,group_1,high_quality
+1643,office_admin,Chicago,1,1,2,0,0,group_1,high_quality
+1644,office_admin,Los Angeles,1,0,3,0,0,group_0,high_quality
+1645,office_admin,Atlanta,1,0,6,1,0,group_0,high_quality
+1646,office_admin,Boston,1,0,5,0,1,group_0,high_quality
+1647,office_admin,Atlanta,0,1,2,0,0,group_1,standard_quality
+1648,office_admin,Boston,1,1,7,1,1,group_1,high_quality
+1649,office_admin,Los Angeles,0,0,7,0,1,group_0,standard_quality
+1650,office_admin,Los Angeles,1,1,7,1,0,group_1,high_quality
+1651,office_admin,Atlanta,1,1,3,0,0,group_1,high_quality
+1652,office_admin,Boston,0,1,6,1,0,group_1,standard_quality
+1653,office_admin,Los Angeles,0,1,4,1,0,group_1,standard_quality
+1654,office_admin,Los Angeles,0,1,3,0,0,group_1,standard_quality
+1655,office_admin,Los Angeles,1,1,3,0,0,group_1,high_quality
+1656,office_admin,Chicago,0,0,3,1,0,group_0,standard_quality
+1657,office_admin,Chicago,0,0,6,0,1,group_0,standard_quality
+1658,office_admin,Atlanta,0,1,7,1,0,group_1,standard_quality
+1659,office_admin,Chicago,1,0,5,0,0,group_0,high_quality
+1660,office_admin,Chicago,0,0,4,0,0,group_0,standard_quality
+1661,office_admin,Boston,0,0,7,1,0,group_0,standard_quality
+1662,office_admin,Los Angeles,1,1,6,0,0,group_1,high_quality
+1663,office_admin,Boston,0,1,4,1,0,group_1,standard_quality
+1664,office_admin,Boston,1,0,2,0,0,group_0,high_quality
+1665,office_admin,Chicago,1,1,2,1,0,group_1,high_quality
+1666,office_admin,Boston,1,1,7,0,0,group_1,high_quality
+1667,office_admin,Los Angeles,1,1,4,0,0,group_1,high_quality
+1668,office_admin,Los Angeles,0,1,5,0,0,group_1,standard_quality
+1669,office_admin,Los Angeles,1,0,2,1,0,group_0,high_quality
+1670,office_admin,Atlanta,0,0,6,0,0,group_0,standard_quality
+1671,office_admin,Atlanta,1,1,5,1,0,group_1,high_quality
+1672,office_admin,Chicago,0,0,6,0,1,group_0,standard_quality
+1673,office_admin,Atlanta,1,0,5,1,0,group_0,high_quality
+1674,office_admin,Boston,0,1,7,1,0,group_1,standard_quality
+1675,office_admin,Los Angeles,0,0,3,1,0,group_0,standard_quality
+1676,office_admin,Atlanta,1,0,7,1,0,group_0,high_quality
+1677,office_admin,Boston,1,0,3,1,0,group_0,high_quality
+1678,office_admin,Atlanta,1,0,4,1,1,group_0,high_quality
+1679,office_admin,Los Angeles,0,0,4,0,0,group_0,standard_quality
+1680,office_admin,Chicago,1,1,6,1,0,group_1,high_quality
+1681,office_admin,Chicago,1,1,6,1,0,group_1,high_quality
+1682,office_admin,Atlanta,1,1,2,0,0,group_1,high_quality
+1683,office_admin,Chicago,1,0,5,1,0,group_0,high_quality
+1684,office_admin,Boston,0,0,6,0,0,group_0,standard_quality
+1685,office_admin,Boston,0,0,7,0,0,group_0,standard_quality
+1686,office_admin,Boston,0,0,5,0,0,group_0,standard_quality
+1687,office_admin,Boston,0,1,7,1,0,group_1,standard_quality
+1688,office_admin,Boston,1,0,4,0,0,group_0,high_quality
+1689,office_admin,Atlanta,0,1,7,0,0,group_1,standard_quality
+1690,office_admin,Atlanta,0,1,5,0,0,group_1,standard_quality
+1691,office_admin,Atlanta,0,1,7,0,0,group_1,standard_quality
+1692,office_admin,Boston,0,0,5,0,0,group_0,standard_quality
+1693,office_admin,Atlanta,1,0,4,1,0,group_0,high_quality
+1694,office_admin,Boston,0,0,2,1,0,group_0,standard_quality
+1695,office_admin,Chicago,1,0,4,1,0,group_0,high_quality
+1696,office_admin,Chicago,1,1,7,1,0,group_1,high_quality
+1697,office_admin,Los Angeles,0,1,4,1,1,group_1,standard_quality
+1698,office_admin,Los Angeles,0,1,7,1,0,group_1,standard_quality
+1699,office_admin,Chicago,0,1,7,0,0,group_1,standard_quality
+1700,office_admin,Chicago,0,1,2,1,1,group_1,standard_quality
+1701,office_admin,Atlanta,0,1,5,1,1,group_1,standard_quality
+1702,office_admin,Boston,0,1,3,0,0,group_1,standard_quality
+1703,office_admin,Los Angeles,1,0,6,1,0,group_0,high_quality
+1704,office_admin,Boston,1,1,3,0,0,group_1,high_quality
+1705,office_admin,Los Angeles,1,1,2,0,0,group_1,high_quality
+1706,office_admin,Los Angeles,1,1,6,1,0,group_1,high_quality
+1707,office_admin,Boston,0,1,7,0,0,group_1,standard_quality
+1708,office_admin,Chicago,0,0,6,0,0,group_0,standard_quality
+1709,office_admin,Chicago,0,0,7,0,0,group_0,standard_quality
+1710,office_admin,Atlanta,1,1,5,0,0,group_1,high_quality
+1711,office_admin,Los Angeles,1,1,5,1,0,group_1,high_quality
+1712,office_admin,Boston,0,1,4,0,0,group_1,standard_quality
+1713,office_admin,Chicago,0,1,3,0,0,group_1,standard_quality
+1714,office_admin,Chicago,0,0,5,0,0,group_0,standard_quality
+1715,office_admin,Atlanta,1,0,5,0,0,group_0,high_quality
+1716,office_admin,Boston,1,1,2,1,0,group_1,high_quality
+1717,office_admin,Boston,1,0,3,0,0,group_0,high_quality
+1718,office_admin,Los Angeles,1,1,2,0,0,group_1,high_quality
+1719,office_admin,Los Angeles,0,0,3,0,0,group_0,standard_quality
+1720,office_admin,Los Angeles,1,0,2,1,1,group_0,high_quality
+1721,office_admin,Los Angeles,1,0,3,0,0,group_0,high_quality
+1722,office_admin,Atlanta,1,1,4,1,0,group_1,high_quality
+1723,office_admin,Atlanta,0,1,2,0,0,group_1,standard_quality
+1724,office_admin,Boston,1,1,3,0,0,group_1,high_quality
+1725,office_admin,Atlanta,0,0,3,1,1,group_0,standard_quality
+1726,office_admin,Los Angeles,1,1,2,0,0,group_1,high_quality
+1727,office_admin,Los Angeles,0,0,2,0,0,group_0,standard_quality
+1728,office_admin,Atlanta,0,1,6,0,0,group_1,standard_quality
+1729,office_admin,Atlanta,1,0,5,1,1,group_0,high_quality
+1730,office_admin,Chicago,0,1,7,0,0,group_1,standard_quality
+1731,office_admin,Atlanta,1,1,2,1,0,group_1,high_quality
+1732,office_admin,Los Angeles,0,1,4,0,0,group_1,standard_quality
+1733,office_admin,Los Angeles,1,0,7,0,0,group_0,high_quality
+1734,office_admin,Boston,0,1,7,0,0,group_1,standard_quality
+1735,office_admin,Los Angeles,1,1,2,1,0,group_1,high_quality
+1736,office_admin,Atlanta,1,1,4,1,0,group_1,high_quality
+1737,office_admin,Chicago,1,0,6,1,0,group_0,high_quality
+1738,office_admin,Atlanta,0,1,3,0,0,group_1,standard_quality
+1739,office_admin,Boston,0,0,3,1,0,group_0,standard_quality
+1740,office_admin,Atlanta,1,1,3,0,0,group_1,high_quality
+1741,office_admin,Boston,1,1,7,0,0,group_1,high_quality
+1742,office_admin,Boston,0,0,4,0,0,group_0,standard_quality
+1743,office_admin,Boston,0,1,4,0,1,group_1,standard_quality
+1744,office_admin,Los Angeles,1,1,3,1,0,group_1,high_quality
+1745,office_admin,Boston,1,0,2,1,0,group_0,high_quality
+1746,office_admin,Chicago,1,1,5,0,1,group_1,high_quality
+1747,office_admin,Los Angeles,1,1,7,0,0,group_1,high_quality
+1748,office_admin,Los Angeles,0,1,2,0,1,group_1,standard_quality
+1749,office_admin,Chicago,0,1,5,1,0,group_1,standard_quality
+1750,office_admin,Boston,0,0,4,1,0,group_0,standard_quality
+1751,office_admin,Boston,0,1,7,0,0,group_1,standard_quality
+1752,office_admin,Los Angeles,1,1,4,1,0,group_1,high_quality
+1753,office_admin,Boston,1,1,5,0,0,group_1,high_quality
+1754,office_admin,Boston,0,1,3,0,0,group_1,standard_quality
+1755,office_admin,Los Angeles,0,1,5,1,1,group_1,standard_quality
+1756,office_admin,Atlanta,0,1,3,1,0,group_1,standard_quality
+1757,office_admin,Atlanta,1,1,4,1,0,group_1,high_quality
+1758,office_admin,Boston,1,0,2,0,0,group_0,high_quality
+1759,office_admin,Atlanta,1,0,2,0,0,group_0,high_quality
+1760,office_admin,Los Angeles,1,0,6,1,0,group_0,high_quality
+1761,office_admin,Boston,1,1,6,1,0,group_1,high_quality
+1762,office_admin,Chicago,1,1,6,1,0,group_1,high_quality
+1763,office_admin,Los Angeles,0,0,2,1,0,group_0,standard_quality
+1764,office_admin,Boston,0,1,6,0,0,group_1,standard_quality
+1765,office_admin,Los Angeles,1,0,5,1,0,group_0,high_quality
+1766,office_admin,Boston,0,0,3,0,0,group_0,standard_quality
+1767,office_admin,Chicago,1,1,2,1,0,group_1,high_quality
+1768,office_admin,Atlanta,0,0,3,0,0,group_0,standard_quality
+1769,office_admin,Los Angeles,0,1,3,1,0,group_1,standard_quality
+1770,office_admin,Chicago,0,0,5,0,0,group_0,standard_quality
+1771,office_admin,Chicago,0,0,3,0,0,group_0,standard_quality
+1772,office_admin,Boston,1,1,4,1,0,group_1,high_quality
+1773,office_admin,Atlanta,0,1,4,1,1,group_1,standard_quality
+1774,office_admin,Atlanta,0,0,4,0,0,group_0,standard_quality
+1775,office_admin,Chicago,0,0,3,1,0,group_0,standard_quality
+1776,office_admin,Chicago,0,1,3,1,0,group_1,standard_quality
+1777,office_admin,Atlanta,0,1,7,0,0,group_1,standard_quality
+1778,office_admin,Boston,0,1,2,0,0,group_1,standard_quality
+1779,office_admin,Boston,1,1,6,1,0,group_1,high_quality
+1780,office_admin,Los Angeles,1,1,6,0,0,group_1,high_quality
+1781,office_admin,Boston,0,1,5,0,0,group_1,standard_quality
+1782,office_admin,Los Angeles,1,0,2,1,0,group_0,high_quality
+1783,office_admin,Atlanta,0,0,5,1,0,group_0,standard_quality
+1784,office_admin,Atlanta,0,0,7,1,0,group_0,standard_quality
+1785,office_admin,Chicago,0,0,4,0,0,group_0,standard_quality
+1786,office_admin,Atlanta,0,0,7,0,0,group_0,standard_quality
+1787,office_admin,Los Angeles,0,1,7,0,0,group_1,standard_quality
+1788,office_admin,Boston,1,0,6,0,0,group_0,high_quality
+1789,office_admin,Los Angeles,0,0,7,0,0,group_0,standard_quality
+1790,office_admin,Boston,0,1,3,1,0,group_1,standard_quality
+1791,office_admin,Boston,1,0,7,0,1,group_0,high_quality
+1792,office_admin,Chicago,0,1,3,0,0,group_1,standard_quality
+1793,office_admin,Boston,0,0,6,0,0,group_0,standard_quality
+1794,office_admin,Boston,0,1,6,0,0,group_1,standard_quality
+1795,office_admin,Boston,1,0,2,1,1,group_0,high_quality
+1796,office_admin,Los Angeles,0,1,4,1,0,group_1,standard_quality
+1797,office_admin,Boston,0,1,2,1,0,group_1,standard_quality
+1798,office_admin,Atlanta,1,0,5,1,1,group_0,high_quality
+1799,office_admin,Los Angeles,1,0,5,0,0,group_0,high_quality
+1800,office_admin,Boston,0,1,6,0,1,group_1,standard_quality
+1801,office_admin,Chicago,1,0,4,1,0,group_0,high_quality
+1802,office_admin,Chicago,0,1,7,1,1,group_1,standard_quality
+1803,office_admin,Chicago,1,0,2,0,0,group_0,high_quality
+1804,office_admin,Atlanta,0,0,5,0,0,group_0,standard_quality
+1805,office_admin,Boston,0,0,2,1,0,group_0,standard_quality
+1806,office_admin,Boston,0,0,4,1,0,group_0,standard_quality
+1807,office_admin,Boston,0,1,2,0,0,group_1,standard_quality
+1808,office_admin,Chicago,1,1,7,0,0,group_1,high_quality
+1809,office_admin,Boston,0,1,6,1,0,group_1,standard_quality
+1810,office_admin,Boston,0,1,7,1,0,group_1,standard_quality
+1811,office_admin,Chicago,0,1,2,1,0,group_1,standard_quality
+1812,office_admin,Boston,1,1,4,0,0,group_1,high_quality
+1813,office_admin,Chicago,0,0,6,0,1,group_0,standard_quality
+1814,office_admin,Los Angeles,0,1,3,0,0,group_1,standard_quality
+1815,office_admin,Los Angeles,0,0,7,0,0,group_0,standard_quality
+1816,office_admin,Chicago,0,1,7,1,0,group_1,standard_quality
+1817,office_admin,Chicago,1,0,4,0,0,group_0,high_quality
+1818,office_admin,Los Angeles,1,0,5,1,0,group_0,high_quality
+1819,office_admin,Chicago,1,1,7,1,0,group_1,high_quality
+1820,office_admin,Atlanta,1,1,7,1,0,group_1,high_quality
+1821,office_admin,Boston,1,0,5,0,0,group_0,high_quality
+1822,office_admin,Boston,1,0,2,1,0,group_0,high_quality
+1823,office_admin,Boston,1,0,3,1,0,group_0,high_quality
+1824,office_admin,Chicago,1,1,2,1,0,group_1,high_quality
+1825,office_admin,Atlanta,1,0,6,0,0,group_0,high_quality
+1826,office_admin,Boston,1,1,4,1,0,group_1,high_quality
+1827,office_admin,Atlanta,0,0,3,0,0,group_0,standard_quality
+1828,office_admin,Chicago,0,1,2,1,1,group_1,standard_quality
+1829,office_admin,Boston,1,1,6,0,0,group_1,high_quality
+1830,office_admin,Chicago,0,0,2,0,0,group_0,standard_quality
+1831,office_admin,Los Angeles,0,0,2,1,1,group_0,standard_quality
+1832,office_admin,Chicago,1,1,2,1,1,group_1,high_quality
+1833,office_admin,Boston,1,1,6,0,1,group_1,high_quality
+1834,office_admin,Boston,1,0,4,0,1,group_0,high_quality
+1835,office_admin,Atlanta,0,1,4,0,0,group_1,standard_quality
+1836,office_admin,Boston,0,1,4,0,1,group_1,standard_quality
+1837,office_admin,Los Angeles,0,1,7,0,0,group_1,standard_quality
+1838,office_admin,Boston,0,0,7,0,0,group_0,standard_quality
+1839,office_admin,Los Angeles,1,1,5,1,1,group_1,high_quality
+1840,office_admin,Los Angeles,1,1,5,0,0,group_1,high_quality
+1841,office_admin,Chicago,1,1,5,1,1,group_1,high_quality
+1842,office_admin,Los Angeles,0,1,7,0,0,group_1,standard_quality
+1843,office_admin,Chicago,0,1,2,1,0,group_1,standard_quality
+1844,office_admin,Chicago,1,1,2,0,0,group_1,high_quality
+1845,office_admin,Atlanta,0,1,7,0,1,group_1,standard_quality
+1846,office_admin,Chicago,1,0,6,1,1,group_0,high_quality
+1847,office_admin,Chicago,1,1,6,1,0,group_1,high_quality
+1848,office_admin,Los Angeles,1,0,7,1,1,group_0,high_quality
+1849,office_admin,Boston,1,0,5,1,0,group_0,high_quality
+1850,office_admin,Los Angeles,0,0,7,1,0,group_0,standard_quality
+1851,office_admin,Atlanta,1,0,7,0,0,group_0,high_quality
+1852,office_admin,Los Angeles,0,1,6,1,0,group_1,standard_quality
+1853,office_admin,Boston,1,1,2,0,1,group_1,high_quality
+1854,office_admin,Los Angeles,1,1,7,0,0,group_1,high_quality
+1855,office_admin,Chicago,0,1,7,1,0,group_1,standard_quality
+1856,office_admin,Atlanta,0,1,7,1,0,group_1,standard_quality
+1857,office_admin,Chicago,1,1,3,1,0,group_1,high_quality
+1858,office_admin,Atlanta,0,1,3,1,0,group_1,standard_quality
+1859,office_admin,Atlanta,1,0,3,0,0,group_0,high_quality
+1860,office_admin,Chicago,0,0,6,1,0,group_0,standard_quality
+1861,office_admin,Atlanta,1,1,3,0,0,group_1,high_quality
+1862,office_admin,Atlanta,0,0,3,0,0,group_0,standard_quality
+1863,office_admin,Boston,1,1,6,0,0,group_1,high_quality
+1864,office_admin,Los Angeles,0,0,5,0,0,group_0,standard_quality
+1865,office_admin,Boston,0,1,2,1,0,group_1,standard_quality
+1866,office_admin,Los Angeles,1,1,2,0,0,group_1,high_quality
+1867,office_admin,Chicago,0,1,5,1,1,group_1,standard_quality
+1868,office_admin,Los Angeles,0,0,3,1,0,group_0,standard_quality
+1869,office_admin,Atlanta,1,0,3,1,0,group_0,high_quality
+1870,office_admin,Atlanta,0,0,6,1,0,group_0,standard_quality
+1871,office_admin,Boston,1,0,4,1,0,group_0,high_quality
+1872,office_admin,Chicago,1,0,3,1,0,group_0,high_quality
+1873,office_admin,Atlanta,0,1,4,0,0,group_1,standard_quality
+1874,office_admin,Boston,1,0,3,1,0,group_0,high_quality
+1875,office_admin,Boston,0,0,4,0,0,group_0,standard_quality
+1876,office_admin,Los Angeles,1,1,5,0,0,group_1,high_quality
+1877,office_admin,Atlanta,0,0,6,1,0,group_0,standard_quality
+1878,office_admin,Boston,0,0,4,0,0,group_0,standard_quality
+1879,office_admin,Los Angeles,0,0,3,1,0,group_0,standard_quality
+1880,office_admin,Atlanta,0,0,2,1,0,group_0,standard_quality
+1881,office_admin,Atlanta,0,0,5,1,0,group_0,standard_quality
+1882,office_admin,Chicago,0,1,5,1,0,group_1,standard_quality
+1883,office_admin,Chicago,0,0,3,1,0,group_0,standard_quality
+1884,office_admin,Chicago,0,1,7,1,0,group_1,standard_quality
+1885,office_admin,Atlanta,0,1,6,0,0,group_1,standard_quality
+1886,office_admin,Atlanta,1,1,7,0,0,group_1,high_quality
+1887,office_admin,Chicago,0,1,7,1,0,group_1,standard_quality
+1888,office_admin,Atlanta,1,1,2,0,1,group_1,high_quality
+1889,office_admin,Los Angeles,0,1,6,1,0,group_1,standard_quality
+1890,office_admin,Boston,1,1,5,1,0,group_1,high_quality
+1891,office_admin,Chicago,1,1,2,0,0,group_1,high_quality
+1892,office_admin,Los Angeles,1,1,4,0,0,group_1,high_quality
+1893,office_admin,Chicago,1,0,3,1,0,group_0,high_quality
+1894,office_admin,Chicago,0,0,3,0,0,group_0,standard_quality
+1895,office_admin,Los Angeles,1,0,3,1,0,group_0,high_quality
+1896,office_admin,Atlanta,1,1,7,0,1,group_1,high_quality
+1897,office_admin,Atlanta,0,0,7,1,0,group_0,standard_quality
+1898,office_admin,Chicago,0,1,4,0,0,group_1,standard_quality
+1899,office_admin,Chicago,0,0,4,1,0,group_0,standard_quality
+1900,office_admin,Los Angeles,0,1,2,1,0,group_1,standard_quality
+1901,office_admin,Chicago,0,1,5,0,1,group_1,standard_quality
+1902,office_admin,Boston,0,1,7,0,0,group_1,standard_quality
+1903,office_admin,Atlanta,1,1,2,0,0,group_1,high_quality
+1904,office_admin,Chicago,1,0,5,1,0,group_0,high_quality
+1905,office_admin,Chicago,1,0,2,1,0,group_0,high_quality
+1906,office_admin,Los Angeles,1,0,4,1,0,group_0,high_quality
+1907,office_admin,Chicago,1,0,7,1,0,group_0,high_quality
+1908,office_admin,Chicago,0,0,7,0,0,group_0,standard_quality
+1909,office_admin,Los Angeles,0,1,2,0,0,group_1,standard_quality
+1910,office_admin,Chicago,0,0,7,0,0,group_0,standard_quality
+1911,office_admin,Chicago,0,1,4,0,0,group_1,standard_quality
+1912,office_admin,Atlanta,1,1,5,0,1,group_1,high_quality
+1913,office_admin,Los Angeles,1,0,5,0,0,group_0,high_quality
+1914,office_admin,Atlanta,0,1,2,0,0,group_1,standard_quality
+1915,office_admin,Los Angeles,1,0,6,1,0,group_0,high_quality
+1916,office_admin,Atlanta,1,0,5,1,0,group_0,high_quality
+1917,office_admin,Chicago,0,1,2,1,1,group_1,standard_quality
+1918,office_admin,Los Angeles,0,1,5,0,0,group_1,standard_quality
+1919,office_admin,Los Angeles,1,0,3,1,1,group_0,high_quality
+1920,office_admin,Los Angeles,0,0,7,0,0,group_0,standard_quality
+1921,office_admin,Atlanta,0,0,4,0,0,group_0,standard_quality
+1922,office_admin,Los Angeles,1,0,3,1,1,group_0,high_quality
+1923,office_admin,Atlanta,1,1,4,1,0,group_1,high_quality
+1924,office_admin,Chicago,0,1,2,1,0,group_1,standard_quality
+1925,office_admin,Chicago,0,1,4,0,0,group_1,standard_quality
+1926,office_admin,Atlanta,0,1,4,0,0,group_1,standard_quality
+1927,office_admin,Boston,1,1,3,1,0,group_1,high_quality
+1928,office_admin,Atlanta,0,0,4,0,0,group_0,standard_quality
+1929,office_admin,Atlanta,1,0,2,1,0,group_0,high_quality
+1930,office_admin,Chicago,1,0,2,1,0,group_0,high_quality
+1931,office_admin,Atlanta,0,0,6,1,0,group_0,standard_quality
+1932,office_admin,Boston,1,1,4,0,0,group_1,high_quality
+1933,office_admin,Chicago,1,1,3,0,0,group_1,high_quality
+1934,office_admin,Chicago,0,0,2,0,0,group_0,standard_quality
+1935,office_admin,Boston,1,1,2,1,0,group_1,high_quality
+1936,office_admin,Boston,0,1,4,1,0,group_1,standard_quality
+1937,office_admin,Los Angeles,0,0,5,1,0,group_0,standard_quality
+1938,office_admin,Boston,1,0,6,0,0,group_0,high_quality
+1939,office_admin,Boston,0,1,5,1,1,group_1,standard_quality
+1940,office_admin,Boston,0,1,7,0,0,group_1,standard_quality
+1941,office_admin,Atlanta,0,1,3,0,0,group_1,standard_quality
+1942,office_admin,Atlanta,0,0,5,1,0,group_0,standard_quality
+1943,office_admin,Los Angeles,0,1,6,0,0,group_1,standard_quality
+1944,office_admin,Boston,1,1,5,0,1,group_1,high_quality
+1945,office_admin,Boston,1,0,2,1,0,group_0,high_quality
+1946,office_admin,Los Angeles,0,0,6,0,0,group_0,standard_quality
+1947,office_admin,Boston,0,0,7,1,1,group_0,standard_quality
+1948,office_admin,Atlanta,1,1,2,1,0,group_1,high_quality
+1949,office_admin,Chicago,1,1,7,1,0,group_1,high_quality
+1950,office_admin,Chicago,0,0,6,1,0,group_0,standard_quality
+1951,office_admin,Chicago,0,0,6,0,0,group_0,standard_quality
+1952,office_admin,Boston,0,1,5,0,1,group_1,standard_quality
+1953,office_admin,Boston,0,0,5,0,0,group_0,standard_quality
+1954,office_admin,Chicago,1,1,4,1,0,group_1,high_quality
+1955,office_admin,Los Angeles,0,1,7,0,0,group_1,standard_quality
+1956,office_admin,Los Angeles,1,0,6,0,0,group_0,high_quality
+1957,office_admin,Los Angeles,0,1,3,1,1,group_1,standard_quality
+1958,office_admin,Atlanta,0,0,2,1,0,group_0,standard_quality
+1959,office_admin,Los Angeles,0,0,4,1,0,group_0,standard_quality
+1960,office_admin,Los Angeles,1,0,5,0,0,group_0,high_quality
+1961,office_admin,Atlanta,1,0,6,1,1,group_0,high_quality
+1962,office_admin,Los Angeles,1,1,2,0,0,group_1,high_quality
+1963,office_admin,Atlanta,0,1,5,0,0,group_1,standard_quality
+1964,office_admin,Los Angeles,0,0,7,1,0,group_0,standard_quality
+1965,office_admin,Atlanta,0,1,4,0,0,group_1,standard_quality
+1966,office_admin,Atlanta,0,1,5,0,0,group_1,standard_quality
+1967,office_admin,Los Angeles,1,0,2,1,0,group_0,high_quality
+1968,office_admin,Atlanta,1,1,2,0,0,group_1,high_quality
+1969,office_admin,Boston,0,1,5,1,0,group_1,standard_quality
+1970,office_admin,Chicago,1,0,3,0,0,group_0,high_quality
+1971,office_admin,Los Angeles,1,1,6,1,0,group_1,high_quality
+1972,office_admin,Los Angeles,0,0,7,0,1,group_0,standard_quality
+1973,office_admin,Chicago,0,0,2,1,0,group_0,standard_quality
+1974,office_admin,Atlanta,0,1,7,0,0,group_1,standard_quality
+1975,office_admin,Los Angeles,1,0,3,1,0,group_0,high_quality
+1976,office_admin,Boston,1,1,4,1,0,group_1,high_quality
+1977,office_admin,Chicago,0,1,4,0,0,group_1,standard_quality
+1978,office_admin,Atlanta,0,0,7,1,0,group_0,standard_quality
+1979,office_admin,Chicago,1,0,5,0,0,group_0,high_quality
+1980,office_admin,Chicago,0,0,5,1,1,group_0,standard_quality
+1981,office_admin,Chicago,1,0,5,1,0,group_0,high_quality
+1982,office_admin,Chicago,1,0,5,1,0,group_0,high_quality
+1983,office_admin,Chicago,1,1,4,1,0,group_1,high_quality
+1984,office_admin,Los Angeles,0,0,4,1,0,group_0,standard_quality
+1985,office_admin,Los Angeles,1,1,3,1,0,group_1,high_quality
+1986,office_admin,Boston,1,1,4,1,0,group_1,high_quality
+1987,office_admin,Chicago,1,1,5,1,0,group_1,high_quality
+1988,office_admin,Atlanta,1,0,6,1,0,group_0,high_quality
+1989,office_admin,Atlanta,0,1,2,1,0,group_1,standard_quality
+1990,office_admin,Atlanta,1,1,5,1,0,group_1,high_quality
+1991,office_admin,Los Angeles,0,0,4,1,0,group_0,standard_quality
+1992,office_admin,Boston,1,1,3,1,0,group_1,high_quality
+1993,office_admin,Boston,1,0,4,1,0,group_0,high_quality
+1994,office_admin,Boston,0,0,5,0,0,group_0,standard_quality
+1995,office_admin,Atlanta,1,1,6,1,0,group_1,high_quality
+1996,office_admin,Chicago,0,1,7,0,0,group_1,standard_quality
+1997,office_admin,Boston,1,1,7,0,0,group_1,high_quality
+1998,office_admin,Boston,0,1,7,0,0,group_1,standard_quality
+1999,office_admin,Boston,0,1,5,0,0,group_1,standard_quality
+2000,office_admin,Boston,0,1,6,1,0,group_1,standard_quality
+2001,office_admin,Los Angeles,1,0,2,1,0,group_0,high_quality
+2002,office_admin,Boston,0,0,4,0,1,group_0,standard_quality
+2003,office_admin,Atlanta,0,0,2,1,0,group_0,standard_quality
+2004,office_admin,Atlanta,1,1,5,0,0,group_1,high_quality
+2005,office_admin,Boston,0,0,2,1,0,group_0,standard_quality
+2006,office_admin,Boston,1,1,3,1,1,group_1,high_quality
+2007,office_admin,Chicago,1,0,4,1,0,group_0,high_quality
+2008,office_admin,Los Angeles,1,0,3,1,0,group_0,high_quality
+2009,office_admin,Atlanta,0,1,7,0,0,group_1,standard_quality
+2010,office_admin,Atlanta,0,1,3,0,0,group_1,standard_quality
+2011,office_admin,Chicago,1,0,3,1,0,group_0,high_quality
+2012,office_admin,Los Angeles,0,0,6,0,1,group_0,standard_quality
+2013,office_admin,Chicago,1,0,2,1,0,group_0,high_quality
+2014,office_admin,Chicago,1,1,2,1,1,group_1,high_quality
+2015,office_admin,Los Angeles,0,0,4,1,1,group_0,standard_quality
+2016,office_admin,Boston,1,0,5,0,0,group_0,high_quality
+2017,office_admin,Los Angeles,0,1,5,1,0,group_1,standard_quality
+2018,office_admin,Boston,0,1,5,1,0,group_1,standard_quality
+2019,office_admin,Chicago,0,1,6,0,0,group_1,standard_quality
+2020,office_admin,Los Angeles,0,1,2,1,0,group_1,standard_quality
+2021,office_admin,Chicago,0,1,2,1,0,group_1,standard_quality
+2022,office_admin,Boston,0,1,2,1,0,group_1,standard_quality
+2023,office_admin,Atlanta,0,0,3,1,0,group_0,standard_quality
+2024,office_admin,Boston,0,0,6,0,0,group_0,standard_quality
+2025,office_admin,Chicago,0,1,3,1,0,group_1,standard_quality
+2026,office_admin,Boston,1,1,5,0,0,group_1,high_quality
+2027,office_admin,Boston,0,1,6,0,0,group_1,standard_quality
+2028,office_admin,Chicago,1,1,3,1,1,group_1,high_quality
+2029,office_admin,Atlanta,1,0,4,0,1,group_0,high_quality
+2030,office_admin,Los Angeles,1,1,4,1,0,group_1,high_quality
+2031,office_admin,Los Angeles,1,0,2,1,0,group_0,high_quality
+2032,office_admin,Chicago,0,0,7,0,0,group_0,standard_quality
+2033,office_admin,Atlanta,1,1,6,1,0,group_1,high_quality
+2034,office_admin,Atlanta,1,0,7,1,1,group_0,high_quality
+2035,office_admin,Chicago,1,1,3,0,0,group_1,high_quality
+2036,office_admin,Los Angeles,1,1,3,0,0,group_1,high_quality
+2037,office_admin,Los Angeles,0,1,6,1,0,group_1,standard_quality
+2038,office_admin,Atlanta,0,1,3,1,0,group_1,standard_quality
+2039,office_admin,Chicago,0,0,4,0,0,group_0,standard_quality
+2040,office_admin,Atlanta,1,1,2,1,0,group_1,high_quality
+2041,office_admin,Los Angeles,1,0,2,0,0,group_0,high_quality
+2042,office_admin,Chicago,1,1,3,0,0,group_1,high_quality
+2043,office_admin,Boston,1,1,2,1,0,group_1,high_quality
+2044,office_admin,Los Angeles,0,0,3,0,0,group_0,standard_quality
+2045,office_admin,Los Angeles,1,1,5,0,0,group_1,high_quality
+2046,office_admin,Boston,0,0,7,0,0,group_0,standard_quality
+2047,office_admin,Los Angeles,1,1,3,1,0,group_1,high_quality
+2048,office_admin,Chicago,1,0,2,1,1,group_0,high_quality
+2049,office_admin,Boston,1,1,5,0,0,group_1,high_quality
+2050,office_admin,Los Angeles,0,0,2,0,1,group_0,standard_quality
+2051,office_admin,Los Angeles,0,0,2,1,0,group_0,standard_quality
+2052,office_admin,Atlanta,1,1,4,0,0,group_1,high_quality
+2053,office_admin,Atlanta,0,0,2,0,0,group_0,standard_quality
+2054,office_admin,Chicago,0,1,4,0,0,group_1,standard_quality
+2055,office_admin,Boston,1,1,2,0,0,group_1,high_quality
+2056,office_admin,Chicago,1,1,2,1,0,group_1,high_quality
+2057,office_admin,Boston,0,0,4,1,0,group_0,standard_quality
+2058,office_admin,Chicago,1,1,2,0,0,group_1,high_quality
+2059,office_admin,Atlanta,0,1,4,1,0,group_1,standard_quality
+2060,office_admin,Atlanta,1,1,3,1,0,group_1,high_quality
+2061,office_admin,Atlanta,1,0,4,0,0,group_0,high_quality
+2062,office_admin,Atlanta,0,1,6,0,0,group_1,standard_quality
+2063,office_admin,Boston,0,1,5,1,1,group_1,standard_quality
+2064,office_admin,Atlanta,0,0,5,0,0,group_0,standard_quality
+2065,office_admin,Boston,1,1,6,1,0,group_1,high_quality
+2066,office_admin,Chicago,0,0,2,0,1,group_0,standard_quality
+2067,office_admin,Boston,0,1,7,1,1,group_1,standard_quality
+2068,office_admin,Chicago,0,0,6,1,0,group_0,standard_quality
+2069,office_admin,Chicago,0,0,4,0,0,group_0,standard_quality
+2070,office_admin,Atlanta,0,0,7,1,0,group_0,standard_quality
+2071,office_admin,Atlanta,0,0,3,0,1,group_0,standard_quality
+2072,office_admin,Atlanta,1,0,4,1,0,group_0,high_quality
+2073,office_admin,Los Angeles,1,0,3,1,0,group_0,high_quality
+2074,office_admin,Boston,1,0,6,1,0,group_0,high_quality
+2075,office_admin,Boston,0,0,2,0,1,group_0,standard_quality
+2076,office_admin,Los Angeles,1,1,5,0,0,group_1,high_quality
+2077,office_admin,Chicago,0,1,5,1,1,group_1,standard_quality
+2078,office_admin,Chicago,1,0,7,0,0,group_0,high_quality
+2079,office_admin,Los Angeles,0,0,5,0,0,group_0,standard_quality
+2080,office_admin,Atlanta,0,1,7,1,1,group_1,standard_quality
+2081,office_admin,Chicago,0,1,6,0,1,group_1,standard_quality
+2082,office_admin,Boston,0,1,4,1,1,group_1,standard_quality
+2083,office_admin,Los Angeles,0,1,4,0,0,group_1,standard_quality
+2084,office_admin,Boston,0,1,2,0,0,group_1,standard_quality
+2085,office_admin,Boston,0,1,5,1,0,group_1,standard_quality
+2086,office_admin,Chicago,1,0,2,1,1,group_0,high_quality
+2087,office_admin,Boston,0,1,2,0,0,group_1,standard_quality
+2088,office_admin,Chicago,0,1,5,1,0,group_1,standard_quality
+2089,office_admin,Boston,0,0,3,1,0,group_0,standard_quality
+2090,office_admin,Boston,1,1,5,1,0,group_1,high_quality
+2091,office_admin,Atlanta,1,0,7,0,0,group_0,high_quality
+2092,office_admin,Los Angeles,1,1,3,0,0,group_1,high_quality
+2093,office_admin,Boston,1,1,4,0,1,group_1,high_quality
+2094,office_admin,Atlanta,1,0,7,1,0,group_0,high_quality
+2095,office_admin,Los Angeles,1,0,3,1,0,group_0,high_quality
+2096,office_admin,Atlanta,0,1,2,0,0,group_1,standard_quality
+2097,office_admin,Boston,0,0,3,0,0,group_0,standard_quality
+2098,office_admin,Los Angeles,1,1,3,1,0,group_1,high_quality
+2099,office_admin,Chicago,1,1,2,0,0,group_1,high_quality
+2100,office_admin,Los Angeles,0,1,6,0,0,group_1,standard_quality
+2101,office_admin,Chicago,0,1,6,1,0,group_1,standard_quality
+2102,office_admin,Atlanta,1,0,3,0,1,group_0,high_quality
+2103,office_admin,Chicago,1,0,7,1,0,group_0,high_quality
+2104,office_admin,Boston,1,1,3,1,0,group_1,high_quality
+2105,office_admin,Chicago,1,0,2,1,0,group_0,high_quality
+2106,office_admin,Chicago,0,0,5,0,0,group_0,standard_quality
+2107,office_admin,Atlanta,1,1,5,0,0,group_1,high_quality
+2108,office_admin,Boston,1,0,5,0,1,group_0,high_quality
+2109,office_admin,Chicago,0,1,7,1,1,group_1,standard_quality
+2110,office_admin,Chicago,1,1,6,0,0,group_1,high_quality
+2111,office_admin,Atlanta,0,0,6,1,0,group_0,standard_quality
+2112,office_admin,Boston,0,1,2,0,0,group_1,standard_quality
+2113,office_admin,Boston,1,1,5,1,1,group_1,high_quality
+2114,office_admin,Atlanta,1,0,5,0,0,group_0,high_quality
+2115,office_admin,Atlanta,1,1,6,0,0,group_1,high_quality
+2116,office_admin,Atlanta,1,1,3,0,0,group_1,high_quality
+2117,office_admin,Chicago,0,1,2,0,0,group_1,standard_quality
+2118,office_admin,Boston,1,0,7,1,1,group_0,high_quality
+2119,office_admin,Los Angeles,1,1,7,0,0,group_1,high_quality
+2120,office_admin,Atlanta,1,0,6,1,0,group_0,high_quality
+2121,office_admin,Chicago,1,0,3,1,1,group_0,high_quality
+2122,office_admin,Boston,1,1,7,1,0,group_1,high_quality
+2123,office_admin,Boston,0,0,6,1,0,group_0,standard_quality
+2124,office_admin,Chicago,0,0,2,1,0,group_0,standard_quality
+2125,office_admin,Chicago,0,0,5,1,0,group_0,standard_quality
+2126,office_admin,Atlanta,1,1,5,0,0,group_1,high_quality
+2127,office_admin,Boston,0,1,2,1,0,group_1,standard_quality
+2128,office_admin,Los Angeles,0,1,2,0,0,group_1,standard_quality
+2129,office_admin,Los Angeles,1,1,5,1,1,group_1,high_quality
+2130,office_admin,Atlanta,1,1,6,1,0,group_1,high_quality
+2131,office_admin,Los Angeles,1,1,5,0,0,group_1,high_quality
+2132,office_admin,Atlanta,0,0,7,0,0,group_0,standard_quality
+2133,office_admin,Chicago,1,0,2,1,0,group_0,high_quality
+2134,office_admin,Chicago,0,0,2,1,0,group_0,standard_quality
+2135,office_admin,Los Angeles,0,0,5,1,1,group_0,standard_quality
+2136,office_admin,Boston,1,0,6,0,0,group_0,high_quality
+2137,office_admin,Chicago,0,0,4,0,1,group_0,standard_quality
+2138,office_admin,Los Angeles,1,0,6,1,1,group_0,high_quality
+2139,office_admin,Chicago,0,1,5,0,0,group_1,standard_quality
+2140,office_admin,Los Angeles,0,1,3,1,0,group_1,standard_quality
+2141,office_admin,Atlanta,0,0,5,1,1,group_0,standard_quality
+2142,office_admin,Boston,1,1,2,0,0,group_1,high_quality
+2143,office_admin,Atlanta,0,1,7,1,0,group_1,standard_quality
+2144,office_admin,Chicago,1,0,4,1,0,group_0,high_quality
+2145,office_admin,Atlanta,1,1,3,1,0,group_1,high_quality
+2146,office_admin,Atlanta,0,0,4,0,0,group_0,standard_quality
+2147,office_admin,Los Angeles,1,0,4,0,0,group_0,high_quality
+2148,office_admin,Atlanta,0,1,6,1,0,group_1,standard_quality
+2149,office_admin,Boston,1,1,4,1,0,group_1,high_quality
+2150,office_admin,Los Angeles,1,0,4,1,0,group_0,high_quality
+2151,office_admin,Los Angeles,1,1,5,1,0,group_1,high_quality
+2152,office_admin,Chicago,0,1,7,0,0,group_1,standard_quality
+2153,office_admin,Chicago,0,1,5,1,0,group_1,standard_quality
+2154,office_admin,Chicago,1,1,5,1,0,group_1,high_quality
+2155,office_admin,Chicago,1,0,6,0,0,group_0,high_quality
+2156,office_admin,Atlanta,0,0,3,1,0,group_0,standard_quality
+2157,office_admin,Chicago,0,1,3,1,0,group_1,standard_quality
+2158,office_admin,Los Angeles,0,0,5,0,0,group_0,standard_quality
+2159,office_admin,Chicago,1,1,7,1,0,group_1,high_quality
+2160,office_admin,Chicago,1,1,2,0,0,group_1,high_quality

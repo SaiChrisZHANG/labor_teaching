@@ -1,0 +1,3 @@
+The instrument is IVF treatment success, which shifts the probability of birth within the bounded window.
+The first stage is a fertility object, while the Wald ratio translates that induced fertility change into labor outcomes.
+The resulting estimate is local to the IVF-shifted fertility margin and should not be read as the universal effect of parenthood.

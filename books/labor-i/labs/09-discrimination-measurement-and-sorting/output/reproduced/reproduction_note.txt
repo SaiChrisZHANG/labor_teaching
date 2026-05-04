@@ -1,0 +1,1 @@
+This bounded reproduction estimates a callback-gap object from a synthetic correspondence-study dataset. It shows one direct treatment effect at the screening stage, but it does not recover the full wage, task, or sorting consequences of discrimination.

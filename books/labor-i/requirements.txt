@@ -1,0 +1,7 @@
+jupyter-book>=2.0.0
+jupyterlab>=4.0
+jupytext>=1.16
+numpy>=1.26
+pandas>=2.2
+matplotlib>=3.8
+statsmodels>=0.14

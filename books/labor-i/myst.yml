@@ -1,0 +1,26 @@
+version: 1
+project:
+  title: "Labor I: Workers, Human Capital, and Inequality"
+  description: First semester of a PhD labor economics field sequence.
+  bibliography:
+    - ../../shared/bibliography/references.bib
+  toc:
+    - file: index.md
+    - file: 01-labor-market-facts.md
+    - file: 02-static-labor-supply.md
+    - file: 03-dynamic-labor-supply.md
+    - file: 04-human-capital-skill-formation.md
+    - file: 05-wage-determination-returns-to-skill.md
+    - file: 06-households-family-fertility-time-allocation.md
+    - file: 07-job-amenities-compensating-differentials.md
+    - file: 08-inequality-and-wage-dispersion.md
+    - file: 09-discrimination-measurement-and-sorting.md
+    - file: 10-mobility-migration-intergenerational-transmission.md
+    - file: 11-public-policy-targeting-workers.md
+    - file: 12-behavioral-frictions-introduction-to-behavioral-labor.md
+    - file: 13-synthesis-and-research-designs.md
+site:
+  template: book-theme
+  title: Labor I
+  options:
+    logo_text: Labor I

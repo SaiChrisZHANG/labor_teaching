@@ -1,0 +1,1 @@
+This bounded reproduction compares simple and complex incentive contracts with the same true piece rate. The key teaching object is the gap between true and perceived incentives, not a generic weak labor response.

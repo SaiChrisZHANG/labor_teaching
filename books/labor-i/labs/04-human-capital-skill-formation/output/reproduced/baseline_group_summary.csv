@@ -1,0 +1,5 @@
+baseline_group,treatment,mean_endline_skill
+higher_baseline,0,0.7390828571428572
+higher_baseline,1,1.161617391304348
+lower_baseline,0,0.044976
+lower_baseline,1,0.19215686274509805

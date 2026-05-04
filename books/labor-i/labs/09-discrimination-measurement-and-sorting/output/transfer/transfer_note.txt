@@ -1,0 +1,1 @@
+This bounded transfer exercise estimates employer-level callback gaps and then shrinks them toward the overall mean to reflect ranking uncertainty. The goal is to teach why firm heterogeneity and noise matter once the class moves beyond one pooled average treatment effect.

@@ -1,0 +1,3 @@
+The transfer step adds a money-metric value for broader working conditions to observed wages.
+Value-adjusted rankings differ from wage-only rankings when commute burden, predictability, safety, and autonomy covary with wages.
+The resulting object is closer to total compensation than to wage inequality alone.

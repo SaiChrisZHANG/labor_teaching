@@ -1,0 +1,16 @@
+group,amenity,wtp_hourly_dollars
+all_workers,predictable_schedule,3.7622
+all_workers,remote_option,2.0163
+all_workers,worker_controlled_flexibility,3.7273
+non_caregivers,predictable_schedule,3.6519
+non_caregivers,remote_option,2.0414
+non_caregivers,worker_controlled_flexibility,3.4592
+caregivers,predictable_schedule,3.9731
+caregivers,remote_option,1.9862
+caregivers,worker_controlled_flexibility,4.1637
+shorter_commute_workers,predictable_schedule,3.458
+shorter_commute_workers,remote_option,1.7391
+shorter_commute_workers,worker_controlled_flexibility,3.755
+long_commute_workers,predictable_schedule,4.6681
+long_commute_workers,remote_option,2.9661
+long_commute_workers,worker_controlled_flexibility,3.6775

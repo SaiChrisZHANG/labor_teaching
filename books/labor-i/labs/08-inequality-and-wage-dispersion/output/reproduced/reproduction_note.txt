@@ -1,0 +1,1 @@
+This bounded reproduction builds a synthetic inequality factbook in the spirit of Autor, Katz, and Kearney. It distinguishes upper-tail from lower-tail inequality, shows a rising college premium, and separates between-group, within-group, and residual dispersion.

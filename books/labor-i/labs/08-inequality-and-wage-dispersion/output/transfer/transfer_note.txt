@@ -1,0 +1,1 @@
+This bounded transfer exercise uses a synthetic worker-firm panel to separate worker effects, firm premia, sorting covariance, and residual dispersion. It also compares wage rankings with total job-value rankings across firm-premium quartiles.
