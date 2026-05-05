@@ -14,7 +14,18 @@ By the end of the course, students should be able to move from a labor-market fa
 
 - [Course outline](OUTLINE.md)
 - Week 1: [Labor market facts, measurement, and canonical questions](01-labor-market-facts.md)
-- Weeks 2–13: draft modules developed under the same workflow and intended to be added to the live book as the course is revised and finalized
+- Week 2: [Static labor supply](02-static-labor-supply.md)
+- Week 3: [Dynamic labor supply](03-dynamic-labor-supply.md)
+- Week 4: [Human capital and skill formation](04-human-capital-skill-formation.md)
+- Week 5: [Wage determination and returns to skill](05-wage-determination-returns-to-skill.md)
+- Week 6: [Households, family, fertility, and time allocation](06-households-family-fertility-time-allocation.md)
+- Week 7: [Job amenities and compensating differentials](07-job-amenities-compensating-differentials.md)
+- Week 8: [Inequality and wage dispersion](08-inequality-and-wage-dispersion.md)
+- Week 9: [Discrimination, measurement, and sorting](09-discrimination-measurement-and-sorting.md)
+- Week 10: [Mobility, migration, and intergenerational transmission](10-mobility-migration-intergenerational-transmission.md)
+- Week 11: [Public policy targeting workers](11-public-policy-targeting-workers.md)
+- Week 12: [Behavioral frictions: an introduction to behavioral labor](12-behavioral-frictions-introduction-to-behavioral-labor.md)
+- Week 13: [Synthesis and research designs](13-synthesis-and-research-designs.md)
 
 ## How to read the book
 
