@@ -27,6 +27,20 @@ That makes the basic Week 2 distinction unavoidable: the static benchmark tells 
 
 This week remains firmly inside the firm. It does not yet build a full search equilibrium, bargaining model, or monopsony framework. Those arrive later. The point here is narrower and foundational: before labor markets can be matched or bargained over, firms still face a dynamic employment problem. Week 3 will take that dynamic firm and ask how incentives, internal labor markets, and promotion structures reshape its personnel choices.
 
+:::{admonition} Core Material
+:class: tip
+- target employment and actual employment are different objects once adjustment is costly
+- convex and nonconvex adjustment costs imply different dynamic patterns
+- hours, headcount, hiring, separations, and vacancies can adjust on different horizons
+- reduced-form response speeds are not the same object as structural adjustment-cost parameters
+- policy timing and incidence have to be interpreted dynamically rather than statically
+:::
+
+:::{admonition} Optional Extension Block
+:class: note
+- the Research Lab extension block below surfaces uncertainty, option value of waiting, and structural estimation as the main frontier directions
+:::
+
 ## Field Core
 
 ### From target employment to actual employment

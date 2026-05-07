@@ -30,6 +30,14 @@ Four distinctions keep the week disciplined.
 
 The practical implication is that labor-market description is already theory-laden. A chapter that says "wages rose" before defining the sample, unit, and weighting rule has not yet said anything precise.
 
+:::{admonition} Core Material
+:class: tip
+- labor economics starts from measured objects before it moves to models
+- stocks versus flows, prices versus quantities, and worker versus firm outcomes are distinct objects
+- composition-adjusted changes answer a different question from level changes
+- descriptive measurement is part of identification discipline, not background summary
+:::
+
 ### What counts as a labor-market fact?
 
 A useful Week 1 fact has three properties. It names a measurable object, it identifies the comparison being made, and it signals what the fact cannot tell us by itself. The employment-population ratio, for example, is not a generic business-cycle statistic. It is a summary of labor-force attachment and successful employment conditional on being in the relevant population.
@@ -180,7 +188,7 @@ The local bibliography file is currently only a placeholder, so the chapter fron
 3. In Equation {eq}`eq-composition-decomposition`, describe one economic event that would primarily move the composition term and one that would primarily move the within-group term.
 4. Choose one Week 1 fact and explain what additional data would be needed to distinguish worker, firm, and institutional mechanisms.
 
-## Reproducibility and code lab note
+## Reproducibility or code lab note
 
 The Week 1 lab is a reproduce-and-transfer exercise built around Daly and Hobijn's composition-adjustment logic. Students first reproduce a bounded descriptive result using the reduced pedagogical dataset and scripts in `labs/01-labor-market-facts/src/`. They then transfer the same accounting logic to one compact subgroup factbook. The key constraint is that the transfer exercise must preserve the Week 1 object definition rather than drift into an unrelated research project.
 

@@ -24,6 +24,15 @@ Week 2 gave the static first-order condition that maps the net-of-tax wage into 
 
 The reason is simple but important. In a dynamic environment, current work changes not only current consumption but also assets, future labor choices, and sometimes future wages. The shadow value of wealth is therefore an intertemporal state variable rather than a static constant. That is why dynamic labor-supply evidence is valuable and hard to read at the same time: different designs load differently on intertemporal substitution, wealth effects, and persistence [@maCurdy1981; @chetty2012].
 
+:::{admonition} Core Material
+:class: tip
+- dynamic labor supply is about timing, anticipation, and intertemporal states rather than one-period choice alone
+- temporary and permanent wage changes identify different labor-supply objects
+- the Frisch elasticity is an intertemporal-substitution object, not a generic labor-supply elasticity
+- lifecycle labor supply already points toward human capital, family timing, and health
+- dynamic evidence must name the horizon, the shock, and the observed margin
+:::
+
 ### Dynamic benchmark
 
 The clean benchmark extends Week 2 by letting the worker choose consumption, hours, and savings over time:

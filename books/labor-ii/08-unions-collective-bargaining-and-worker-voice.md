@@ -45,6 +45,20 @@ Membership, coverage, and bargaining regime are distinct objects. Coverage can e
 
 Figure {numref}`fig-lii-w8-membership-coverage` is the first anchor for the lecture. It visually states the most common empirical confusion: bargaining coverage is often the more institutionally relevant object even when membership is the more visible political statistic.
 
+:::{admonition} Core Material
+:class: tip
+- membership, coverage, bargaining regime, and worker voice are distinct institutional objects
+- organizing, certification, and realized coverage are different stages of the same broader process
+- direct effects, spillovers, and threat effects should not be collapsed into one estimate
+- collective bargaining changes wages, compression, amenities, and workplace governance
+- Week 8 links bargaining institutions to the broader regulation and enforcement block
+:::
+
+:::{admonition} Optional Extension Block
+:class: note
+- the Research Lab below surfaces frontier directions on cross-country coverage regimes, monopsony interaction, spillovers, and new organizing data
+:::
+
 ## Field Core
 
 ### What unions and collective bargaining change

@@ -44,6 +44,20 @@ Week 10 organizes aggregate labor adjustment around stocks, hazards, and hidden 
 
 Figure {numref}`fig-lii-w10-flows-margins` previews the lecture logic. Aggregate labor adjustment is a map of margins, not a single time series.
 
+:::{admonition} Core Material
+:class: tip
+- aggregate adjustment runs through stocks, hazards, job ladders, wages, and composition at the same time
+- unemployment stocks are not interpretable without inflows and outflows
+- Beveridge-curve shifts can reflect composition, search intensity, mismatch, or matching efficiency
+- job-to-job mobility and wage cyclicality are central cyclical margins, not side details
+- macro-labor evidence must name both the observed margin and the hidden margin left offstage
+:::
+
+:::{admonition} Optional Extension Block
+:class: note
+- the Research Lab extension block below surfaces Beveridge-curve shifts after 2020 and cyclical job-ladder questions
+:::
+
 ## Field Core
 
 ### Stocks, flows, and the law of motion for unemployment
@@ -334,7 +348,7 @@ Week 10 only works if the distinctions stay sharp.
 5. Use Equation {eq}`eq:wage-cyclicality` to explain how average wage growth can look weakly cyclical even when outside offers are highly cyclical.
 6. Pick one paper from the reading ladder and name its identifying variation, unit of observation, observed margin, and most important hidden margin.
 
-## Reproducibility / code lab note
+## Reproducibility or code lab note
 
 The bounded Week 10 lab is fully local and synthetic. Students first reproduce a Barnichon-Figura-style aggregate matching exercise, then diagnose how much of a Beveridge-style movement is in observed stocks and how much is bundled into an inferred residual, and finally transfer the same reasoning to an Elsby-Michaels-Solon-style stock-flow decomposition and a small synthetic job-to-job cyclicality exercise anchored to `@karahanMichaelsPugsleySahinSchuh2017JobToJob`. The point is to make stocks, flows, efficiency residuals, and job ladders explicit without requiring confidential microdata.
 

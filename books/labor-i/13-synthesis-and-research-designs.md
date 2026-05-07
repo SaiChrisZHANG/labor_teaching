@@ -47,7 +47,7 @@ Figure {numref}`fig-week13-human-capital-arc` captures why the first semester is
 - Week 13 turns topic knowledge into proposal discipline.
 :::
 
-:::{admonition} Optional Workshop Extension
+:::{admonition} Optional Extension Block
 :class: note
 - run a 60--90 minute memo studio in which students pick one anchor paper and draft a one-page proposal skeleton in class;
 - use the final section of the lab to push strong students from partial-equilibrium worker questions into explicit Labor II extensions;
@@ -272,7 +272,7 @@ Many labor projects appear to be about wages or participation, but are really ab
 - Acemoglu and Autor is a broad bridge reading for where worker-side analysis meets tasks, technology, and labor demand [@acemogluAutor2011].
 - Mortensen and Pissarides, Burdett and Mortensen, and Manning are the canonical starting points for matching, wage-setting, and labor-market power [@mortensenPissarides1994; @burdettMortensen1998; @manning2003].
 
-## Exercises / Discussion Prompts
+## Exercises / discussion prompts
 
 1. Write one paragraph explaining why a strong labor research question must distinguish the object of interest from the mechanism.
 2. Choose one anchor paper from Table {numref}`tbl:week13-anchor-menu` and explain which of the six formal objects in this chapter it relies on most heavily.
@@ -280,7 +280,7 @@ Many labor projects appear to be about wages or participation, but are really ab
 4. Propose one project that stays deliberately partial equilibrium and one project that requires worker--firm matched data from the start. Explain why.
 5. Explain why a nice design without a labor contribution is just as weak as a plausible mechanism without a design.
 
-## Reproducibility / Code Lab Note
+## Reproducibility or code lab note
 
 The Week 13 lab lives in [books/labor-i/labs/13-synthesis-and-research-designs/lab.md](labs/13-synthesis-and-research-designs/lab.md). Its bounded path is intentionally local and data-light. Students build a small anchor-paper packet, reproduce a compact design map from that packet, diagnose the object and mechanism, and then generate a memo template for a chosen extension idea. The smoke path is narrow by design:
 
@@ -291,6 +291,6 @@ ENV_NAME=research bash smoke.sh
 
 This is not a substitute for a full replication package. It is a studio that teaches how to move from a labor topic to a proposal with one estimand, one mechanism, and one explicit statement about the Labor I to Labor II boundary.
 
-## Slide Companion Note
+## Slide companion note
 
 The companion deck is [books/labor-i/slides/week13/13-synthesis-and-research-designs.tex](slides/week13/13-synthesis-and-research-designs.tex). The slides should not duplicate the chapter. They should define why Week 13 is a synthesis week, show the architecture of Labor I, write down the compact worker-side framework, walk through the mechanism--data--design pipeline, surface common proposal failure modes, and end with the map of where Labor II begins.

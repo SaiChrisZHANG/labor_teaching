@@ -41,6 +41,20 @@ Figure {numref}`fig-lii-w7-competitive-monopsony` is the conceptual anchor for t
 
 The forward bridge matters too. Week 8 asks what changes once wage determination is mediated not only by legal floors but also by unions, collective bargaining, and worker voice. Minimum wages are thus the first week in the policy block, not the last word on wage-setting institutions.
 
+:::{admonition} Core Material
+:class: tip
+- minimum wages test competitive benchmarks against monopsony and other frictional benchmarks
+- wages, headcount, hours, turnover, reallocation, and compliance are distinct margins
+- treatment intensity or bite is often the relevant policy object rather than the nominal statutory change
+- legal incidence and observed incidence can diverge under imperfect compliance
+- modern minimum-wage debates are largely about which object a paper identifies
+:::
+
+:::{admonition} Optional Extension Block
+:class: note
+- frontier questions on spillovers, hiring standards, automation, and policy scale are surfaced later in the chapter under `Frontier extension block: unresolved questions and research opportunities`
+:::
+
 ## Field Core
 
 ### Competitive, monopsony, and frictional benchmarks under a wage floor

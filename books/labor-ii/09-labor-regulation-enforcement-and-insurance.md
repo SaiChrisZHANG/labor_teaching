@@ -59,6 +59,20 @@ Week 9 organizes labor regulation by targeted margin, directly treated side, imp
 
 Figure {numref}`fig-lii-w9-taxonomy` is the conceptual front door to the chapter. It makes clear why Week 9 belongs between the bargaining weeks and the aggregate-adjustment weeks: regulations are neither purely contractual nor purely macro, but they shape both.
 
+:::{admonition} Core Material
+:class: tip
+- labor regulation is easiest to study through wedges, margins, and the directly treated side of the market
+- regulation on the books is different from effective regulation once enforcement and compliance matter
+- worker-targeted, firm-targeted, and regulator-targeted policies operate through different channels
+- spillovers, uncovered sectors, informality, and price incidence are part of the object rather than afterthoughts
+- welfare interpretation requires naming the benchmark before reading results
+:::
+
+:::{admonition} Optional Extension Block
+:class: note
+- the Research Lab below extends the chapter toward implementation, equilibrium spillovers, and uncovered-margin questions
+:::
+
 ## Field Core
 
 ### A general framework for labor regulation
@@ -270,7 +284,7 @@ Week 9 only works if the objects stay separate.
 4. Take one paper from Week 9 and name its identifying variation, unit of observation, observed margin, and key unobserved object.
 5. Explain how disagreement across `@almeidaCarneiro2012`, `@laliveLandaisZweimueller2015`, and `@cullen2024PayTransparency` could arise even if all three papers are internally correct.
 
-## Reproducibility / code lab note
+## Reproducibility or code lab note
 
 The bounded Week 9 lab is intentionally local and synthetic. Students reproduce an Almeida-Carneiro style enforcement panel, diagnose the difference between effective regulation and equilibrium insurance effects, and transfer the design to synthetic UI and formality-margin data. The lab is designed to run without confidential microdata while preserving the key Week 9 objects: enforcement, spillovers, uncovered margins, and welfare tradeoffs.
 

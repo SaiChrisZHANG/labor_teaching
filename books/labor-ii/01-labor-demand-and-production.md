@@ -35,6 +35,20 @@ where {math}`L` is labor, {math}`K` is a second input, and {math}`A` indexes pro
 
 The static benchmark already explains why this week matters for policy. Payroll taxes change labor costs, product-demand expansions change the scale of production, and technology changes can alter both marginal products and substitution possibilities. Later weeks will add wage-setting, search, bargaining, and institutions, but those mechanisms all sit on top of the benchmark derived-demand logic rather than replacing it.
 
+:::{admonition} Core Material
+:class: tip
+- labor demand is derived demand, so it depends on technology, substitution, and product demand
+- conditional labor demand and total labor demand are different objects
+- short-run and long-run elasticities answer different questions
+- the Hicks--Marshall logic organizes own-wage responses into scale and substitution components
+- empirical designs identify different labor-demand objects rather than one transportable elasticity
+:::
+
+:::{admonition} Optional Extension Block
+:class: note
+- the Research Lab below extends Week 1 toward rent sharing and product-market pass-through as bridges to Weeks 5 and 6
+:::
+
 ## Field Core
 
 ### Production, marginal products, and the static firm problem

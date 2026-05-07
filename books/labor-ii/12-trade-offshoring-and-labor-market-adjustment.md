@@ -45,6 +45,20 @@ Week 12 organizes trade shocks as a channel map. Relative-price changes can move
 
 Figure {numref}`fig-lii-w12-channel-framework` previews the lecture structure. The key move is to map sectoral price and trade-cost changes into worker, firm, and place outcomes before making welfare statements.
 
+:::{admonition} Core Material
+:class: tip
+- trade shocks reach labor markets through distinct channels such as import competition, export demand, offshoring, and input access
+- worker, firm, and place adjustment are different objects that can move on different horizons
+- local exposure is not the same object as worker-level treatment
+- structural change and welfare require more discipline than one reduced-form coefficient
+- Week 12 connects Labor II shock analysis to long-run reallocation
+:::
+
+:::{admonition} Optional Extension Block
+:class: note
+- broader frontier questions are surfaced later in the chapter under `Global evidence and frontier directions`
+:::
+
 ## Field Core
 
 ### Trade as a labor-market shock
@@ -270,7 +284,7 @@ Keep these distinctions explicit throughout the week.
 6. What additional assumptions or structure do `@kimVogel2021TradeShocksLaborMarketAdjustment` and `@caliendoDvorkinParro2019TradeLaborMarketDynamics` add before one can make welfare or policy statements?
 7. Suppose a region loses manufacturing employment after an import shock but gains service employment later. What outcomes would you still need to observe before concluding that workers were fully insured?
 
-## Reproducibility / code lab note
+## Reproducibility or code lab note
 
 The bounded Week 12 lab is fully local and synthetic. Students first reproduce a compact China-syndrome-style commuting-zone exposure object and recover its relationship to manufacturing employment, unemployment, and nonparticipation. They then diagnose why that design identifies place effects rather than worker welfare. The transfer exercise asks them to carry the same exposure idea into a bounded structural-change setting by comparing manufacturing-share decline, service-share growth, and unemployment under a small synthetic region-year panel inspired by `@dixCarneiroKovak2017TradeLiberalizationRegionalDynamics`. The optional extension asks them to reinterpret the same transition logic through the manufacturing-to-service evidence in `@dauthFindeisenSuedekum2017TradeManufacturingJobsGermany`.
 

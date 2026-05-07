@@ -59,6 +59,20 @@ The economic content of the components is straightforward.
 
 The payoff from writing the architecture this way is that it makes clear why Labor II is not just "firm behavior" or just "policy." It is about how these objects interact.
 
+:::{admonition} Core Material
+:class: tip
+- Labor II fits workers, firms, frictions, institutions, and shocks into one architecture
+- unit of analysis is part of theory rather than only a data-management choice
+- descriptive, reduced-form, and structural approaches answer different questions
+- policies and shocks are analytically different objects even when they hit similar outcomes
+- a strong project names mechanism, observed margin, equilibrium scope, and contribution
+:::
+
+:::{admonition} Optional Extension Block
+:class: note
+- dissertation-scale and cross-course frontier directions are surfaced later in the chapter under `Frontier directions and bridge beyond Labor II`
+:::
+
 ## Field Core
 
 ### Choosing the unit of analysis is part of the theory
@@ -330,14 +344,14 @@ Keep these distinctions explicit throughout the capstone.
 - one paper from the macro-adjustment block
 - one paper from the technology or trade block
 
-## Exercises and discussion prompts
+## Exercises / discussion prompts
 
 1. Pick one result from Labor I and one result from Labor II that seem to conflict. Is the tension about mechanism, unit, horizon, or equilibrium scope?
 2. Take one famous policy paper and one famous shock paper from the course. Compare their treatment object, observed margin, and main offstage equilibrium channel.
 3. Choose a student research idea and state the smallest design that would be enough to support its central claim. Then state what stronger claim would require structural or equilibrium machinery.
 4. Compare a worker-level extension and a place-level extension of the same anchor paper. Which one is more informative for mechanism, and which one is more informative for welfare?
 
-## Reproducibility and code lab note
+## Reproducibility or code lab note
 
 Week 13's bounded lab path is memo-first by design. The local script builds an anchor-paper menu and a structured research-design memo scaffold rather than a full replication package. That is deliberate: the pedagogical goal is to make students diagnose, compare, and design with discipline before they scale up to data-heavy work.
 

@@ -46,8 +46,6 @@ Stylized household time allocation before and after childbirth. The point is not
 
 Figure {numref}`fig-week6-time` is the right opening picture because it makes clear that family formation changes the margin structure itself. The student should immediately see why household production belongs inside a labor field course rather than at its margins.
 
-### Core lecture map
-
 :::{admonition} Core Material
 :class: tip
 - household production and the shadow value of care time
@@ -57,9 +55,7 @@ Figure {numref}`fig-week6-time` is the right opening picture because it makes cl
 - policy incidence through childcare, schooling, leave, and outsourcing
 :::
 
-### Optional extension material
-
-:::{admonition} Extension Block
+:::{admonition} Optional Extension Block
 :class: note
 - relative-income constraints and household norms in the spirit of `@bertrandKamenicaPan2015`
 - long-run family-policy experimentation and gender inequality in the spirit of `@klevenLandaisPoschSteinhauerZweimueller2024`

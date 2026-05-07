@@ -44,8 +44,6 @@ Conceptual hedonic equilibrium in wage-amenity space. The downward-sloping wage 
 
 Figure {numref}`fig-week7-hedonic` is the lecture picture that should anchor the week. Week 6 already hinted that flexibility or predictable schedules can be household inputs when care constraints bind. Week 7 makes that idea market-wide: jobs offering those features can pay differently precisely because workers value them differently.
 
-### Core lecture map
-
 :::{admonition} Core Material
 :class: tip
 - jobs as wage-plus-amenity bundles rather than wages alone
@@ -55,9 +53,7 @@ Figure {numref}`fig-week7-hedonic` is the lecture picture that should anchor the
 - amenities, sorting, and the interpretation of inequality
 :::
 
-### Optional extension block
-
-:::{admonition} Extension Block
+:::{admonition} Optional Extension Block
 :class: note
 - risky jobs, compensating differentials, and the value of statistical life in the spirit of `@viscusiAldy2003`
 - search-friction and worker-flow interpretations of firm value in the spirit of `@hwangMortensenReed1998`, `@bonhommeJolivet2009`, and `@sorkin2018`

@@ -32,6 +32,20 @@ Week 5 sits between search and monopsony. It converts worker flows and outside o
 
 Figure {numref}`fig-lii-w5-course-map` is the course repositioning figure for the week. Wage-setting is the bridge from search as a mobility theory to later topics such as labor market power, policy incidence, and firm wage premia.
 
+:::{admonition} Core Material
+:class: tip
+- wage-setting protocols convert match surplus into pay in frictional labor markets
+- posted wages, bargaining, standardized pay, and discretionary pay are distinct regimes
+- outside offers, the value of nonemployment, and retention pressure shape wages differently
+- empirical wage-setting evidence identifies protocols and margins rather than a generic wage equation
+- Week 5 is the bridge from search theory to monopsony and labor market power
+:::
+
+:::{admonition} Optional Extension Block
+:class: note
+- the Research Lab below surfaces frontier questions on worker beliefs, transparency, algorithmic offer management, and within-firm wage inequality
+:::
+
 ### Why search models need a wage-setting protocol
 
 Under a competitive benchmark, the wage is the market-clearing price of labor and identical workers in identical jobs should not exhibit persistent wage dispersion once relevant amenities and productivity are held fixed. That benchmark is analytically useful, but it is not a sufficient description of the frictional labor market students saw in Week 4. If offers arrive sequentially, vacancies take time to fill, employed workers receive outside opportunities, and firms worry about retention, then identical matches need not pay identical wages [@mortensen2003].

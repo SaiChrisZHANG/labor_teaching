@@ -42,6 +42,20 @@ Week 11 links worker adaptation, firm-side labor demand, and market-level equili
 
 Figure {numref}`fig-lii-w11-supply-demand-market` previews the lecture structure. The important move is to treat technology as a shock that propagates through feedback loops rather than only through a single firm labor-demand curve.
 
+:::{admonition} Core Material
+:class: tip
+- technology shocks propagate through worker adjustment, firm labor demand, and market-level reallocation
+- tasks, occupations, exposure, and adoption are distinct objects
+- displacement, augmentation, new-task creation, and organizational redesign can coexist
+- within-firm evidence and local-labor-market evidence identify different margins
+- AI evidence should be kept analytically distinct from earlier ICT and robot evidence unless the object is explicit
+:::
+
+:::{admonition} Optional Extension Block
+:class: note
+- frontier questions on AI adoption, organizational complements, and transition policy are surfaced later in the chapter under `Research frontier and extension block`
+:::
+
 ## Field Core
 
 ### Technology as a labor-market shock
@@ -258,14 +272,14 @@ Keep these distinctions explicit throughout the week.
 - @labaschinEtAl2025ExtendingGPTsFirms
 - Optional frontier extension: @liuPapanikolaouSchmidtSeegmiller2025TechnologyLaborMarkets
 
-## Exercises and discussion prompts
+## Exercises / discussion prompts
 
 1. Pick one paper from the week and name the identifying variation, unit of observation, observed margin, and key equilibrium margin left offstage.
 2. Suppose a new AI system raises output per worker in a call-center setting. List at least four labor-market objects that could still move in opposite directions: employment, wage inequality, vacancy content, and worker progression are good starting candidates.
 3. Compare `@acemogluRestrepo2020RobotsJobs` with `@aghionEtAl2025HowDifferentUsesAI`. Which one is closer to exposure, which one is closer to adoption, and which one is closer to market-level equilibrium incidence?
 4. Design a bounded empirical exercise that distinguishes skill obsolescence from skill acquisition using either public occupation cells or a synthetic worker panel.
 
-## Reproducibility and code lab note
+## Reproducibility or code lab note
 
 The bounded pedagogical path lives in [labs/11-technology-automation-ai-and-labor-market/lab.md](labs/11-technology-automation-ai-and-labor-market/lab.md). It is intentionally local and synthetic. Students reproduce a firm-level AI-use design, diagnose the difference between adoption and exposure, and then transfer one exposure idea to a small market-level setting. The smoke test runs only that bounded path.
 

@@ -45,8 +45,6 @@ Stylized Mincer wage profiles by schooling group. The figure makes three teachin
 
 Figure {numref}`fig-week5-mincer` is a useful first lecture picture because it shows why Mincer-style estimates remain central even when they are incomplete. They summarize wage differences over the life cycle, discipline calibration, and provide the natural baseline against which causal and structural approaches are compared.
 
-### Core lecture map
-
 :::{admonition} Core Material
 :class: tip
 - Mincer as benchmark wage accounting
@@ -56,9 +54,7 @@ Figure {numref}`fig-week5-mincer` is a useful first lecture picture because it s
 - design-to-estimand discipline and the Week 6 / Week 8 bridges
 :::
 
-### Optional extension material
-
-:::{admonition} Extension Block
+:::{admonition} Optional Extension Block
 :class: note
 - deeper worker-firm decompositions in the spirit of `@abowdKramarzMargolis1999` and `@cardCardosoHeiningKline2018`
 - spatial sorting and skill-price differences across cities in the spirit of `@diamond2016`

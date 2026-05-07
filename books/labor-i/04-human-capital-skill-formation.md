@@ -55,8 +55,6 @@ Conceptual lifecycle profiles for latent human capital and observed earnings. Th
 
 Figure {numref}`fig-week4-lifecycle` is the shortest visual route from Week 3 to Week 4. The worker is no longer only choosing hours over time. The worker is also shaping future wages. That is why lifecycle labor supply and human-capital accumulation are complements rather than separate chapters.
 
-### Core lecture map
-
 :::{admonition} Core Material
 :class: tip
 - Ben-Porath accumulation and the lifecycle wage profile
@@ -66,9 +64,7 @@ Figure {numref}`fig-week4-lifecycle` is the shortest visual route from Week 3 to
 - Empirical design map and the main frictions
 :::
 
-### Optional extension material
-
-:::{admonition} Extension Block
+:::{admonition} Optional Extension Block
 :class: note
 - deeper production-function estimation in the spirit of `@attanasioEtAl2020HumanCapital`
 - credit constraints, schooling finance, and limited commitment in the spirit of `@lochnerMongeNaranjo2011`

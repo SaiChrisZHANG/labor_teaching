@@ -44,6 +44,20 @@ Personnel economics sits between labor-demand choice and market-wide worker flow
 
 Figure {numref}`fig-lii-w3-course-map` and Table {numref}`tbl:personnel-map-week3` together give the conceptual map students need at the start of the week. Personnel economics studies how internal practices shape productivity and worker outcomes, while the rest of Labor II studies how those internal choices interact with outside options, market frictions, and institutions.
 
+:::{admonition} Core Material
+:class: tip
+- personnel economics is labor economics inside firms rather than a separate management topic
+- incentives, selection, assignment, promotion, management, and teams are distinct internal labor margins
+- internal practices affect both productivity and the allocation of workers inside the firm
+- modern personnel evidence has to name the unit, observed margin, identifying variation, and external-validity limit
+- Week 3 bridges dynamic firm choices to market-wide search and turnover
+:::
+
+:::{admonition} Optional Extension Block
+:class: note
+- the Research Lab below surfaces frontier directions on managers, remote and hybrid work, worker voice, training, algorithmic management, and AI
+:::
+
 ## Field Core
 
 ### Incentives, compensation, and the agency benchmark

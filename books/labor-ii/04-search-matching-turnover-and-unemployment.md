@@ -37,6 +37,20 @@ Search and matching is the bridge from the inside of the firm to market-wide lab
 
 Figure {numref}`fig-lii-w4-course-map` and Table {numref}`tbl:search-objects-week4` should anchor the opening discussion. The point is not to memorize a taxonomy. The point is to see that different data and different theories speak to different flow objects.
 
+:::{admonition} Core Material
+:class: tip
+- search frictions jointly generate unemployment, vacancies, turnover, and dispersion
+- worker flows, job flows, separations, and job-to-job mobility are different objects
+- matching functions and flow accounting organize hazards rather than only stocks
+- duration, scarring, and job ladders need dynamic interpretation
+- empirical search designs must name the observed margin and the hidden friction left offstage
+:::
+
+:::{admonition} Optional Extension Block
+:class: note
+- the Research Lab extension block below makes frontier topics visible: selective hiring, beliefs, digital search traces, and mismatch
+:::
+
 ## Field Core
 
 ### Why search frictions matter

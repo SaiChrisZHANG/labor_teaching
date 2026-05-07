@@ -24,6 +24,15 @@ Week 1 gave us the empirical objects: participation, hours, earnings, and tax-ad
 
 The benchmark is intentionally narrow. It takes wages and the tax-transfer schedule as given. It abstracts from savings, learning, and dynamic adjustment. That narrowness is a feature before it becomes a limitation. It lets us say clearly what the theory predicts before later weeks add intertemporal substitution, persistence, and informational frictions. In that sense, static labor supply is the worker-side analogue of Week 1 measurement discipline: a minimal object that later extensions must respect rather than bypass.
 
+:::{admonition} Core Material
+:class: tip
+- the static benchmark maps after-tax incentives into labor-supply behavior
+- intensive-margin hours responses and extensive-margin participation responses are different objects
+- nonlinear budget sets change local incentives across regions of the schedule
+- fixed work costs and benefit loss make participation central rather than exceptional
+- the EITC is the main applied bridge from geometry to evidence
+:::
+
 ### The static benchmark
 
 The canonical static problem is
