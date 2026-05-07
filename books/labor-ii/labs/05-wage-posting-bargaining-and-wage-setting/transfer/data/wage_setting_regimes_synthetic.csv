@@ -1,0 +1,9 @@
+regime,cell,workers,mean_wage,within_cell_sd,outside_offer_cases,offer_responses,separations
+standardized,clerical,120,24.0,1.4,18,3,9
+standardized,production,135,25.8,1.6,21,4,12
+standardized,technical,110,31.4,1.8,16,4,8
+standardized,teacher-district,145,29.2,1.5,24,5,11
+discretionary,clerical,118,24.6,2.6,19,10,13
+discretionary,production,133,26.5,3.1,22,13,18
+discretionary,technical,108,32.7,3.4,17,11,12
+discretionary,teacher-district,142,30.5,2.9,25,14,16

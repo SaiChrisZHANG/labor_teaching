@@ -1,0 +1,4 @@
+import_bucket,import_exposure,manufacturing_share,service_share,unemployment_rate,nonparticipation_rate,wage_growth
+low,0.7295,0.2858,0.5165,0.0689,0.1914,0.0157
+middle,0.8929,0.328,0.4849,0.0656,0.2162,0.0132
+high,1.005,0.3385,0.474,0.0777,0.1921,0.0137

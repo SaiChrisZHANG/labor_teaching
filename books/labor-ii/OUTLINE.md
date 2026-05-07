@@ -352,7 +352,7 @@ This course should reuse or link to the following shared modules when they exist
 
 ---
 
-### Week 11. Technology, automation, AI, and labor demand
+### Week 11. Technology, automation, AI, and labor market
 
 **Central question:** How do technological changes reshape tasks, demand for skills, and worker allocation?
 

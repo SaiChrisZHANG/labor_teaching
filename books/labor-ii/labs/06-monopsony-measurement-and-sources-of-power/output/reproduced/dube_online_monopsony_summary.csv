@@ -1,0 +1,7 @@
+metric,value
+num_postings,480.0
+mean_wage,13.385024691072674
+mean_applicants,166.6375
+mean_fill_probability,0.6520772730483739
+application_elasticity_loglog,1.4369055625239862
+fill_probability_slope,0.10646441134736473

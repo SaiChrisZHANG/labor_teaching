@@ -1,0 +1,4 @@
+rule,promotion_count,mean_frontline_performance,mean_collaboration_signal,mean_managerial_potential,mean_post_promotion_output
+balanced,3,90.0,74.0,80.66666666666667,82.66666666666667
+performance_first,3,94.0,68.0,70.66666666666667,72.66666666666667
+potential_first,3,86.0,77.33333333333333,86.66666666666667,88.66666666666667

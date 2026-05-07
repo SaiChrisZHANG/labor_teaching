@@ -1,0 +1,5 @@
+incentive_group,complementarity_group,sales_gain,profit_gain
+control,high,1.5,1.25
+control,low,1.5,1.25
+treated,high,11.25,11.25
+treated,low,5.0,4.5

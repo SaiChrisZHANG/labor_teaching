@@ -1,0 +1,7 @@
+object,value
+close_election_payroll_gap,0.04477958248387531
+close_election_employment_gap,0.008289036869943048
+mean_close_election_survival_win,0.8575177168307192
+mean_close_election_survival_loss,0.8384257286526114
+corr_nonunion_wage_union_presence,-0.46765490563474316
+mean_threat_effect_index,0.49559664234557227

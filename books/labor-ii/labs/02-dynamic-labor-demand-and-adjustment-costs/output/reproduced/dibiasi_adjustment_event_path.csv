@@ -1,0 +1,6 @@
+event_time,mean_target_employment,mean_actual_employment,mean_hours_index
+-1,99.5,99.5,100.0
+0,109.5,101.75,105.5
+1,109.5,104.25,107.0
+2,109.5,106.25,108.0
+3,109.5,107.75,108.75

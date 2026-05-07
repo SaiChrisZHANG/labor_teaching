@@ -1,0 +1,3 @@
+uncertainty_group,observations,mean_gap,mean_gap_closure_share,mean_headcount_change_next,mean_hours_change_next
+high,6,6.5,0.3318783068783069,2.0,1.0
+low,6,4.333333333333333,0.4761904761904762,2.0,1.1666666666666667

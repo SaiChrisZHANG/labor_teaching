@@ -1,0 +1,6 @@
+object,value
+eligible_jobfinding_change_treated_regions,-0.05095533041427017
+noneligible_jobfinding_change_treated_regions,-0.0006553488677334407
+vacancy_rate_change_treated_regions,0.0009157006271028195
+formal_layoff_gap_eligible_minus_ineligible,0.01343313246787213
+informal_transition_gap_eligible_minus_ineligible,0.07168940986783884

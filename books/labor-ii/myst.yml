@@ -2,9 +2,23 @@ version: 1
 project:
   title: "Labor II: Firms, Frictions, and Institutions"
   description: Second semester of a PhD labor economics field sequence.
+  bibliography:
+    - ../../shared/bibliography/references.bib
   toc:
     - file: index.md
-    - file: OUTLINE.md
+    - file: 01-labor-demand-and-production.md
+    - file: 02-dynamic-labor-demand-and-adjustment-costs.md
+    - file: 03-personnel-economics-and-internal-labor-markets.md
+    - file: 04-search-matching-turnover-and-unemployment.md
+    - file: 05-wage-posting-bargaining-and-wage-setting.md
+    - file: 06-monopsony-measurement-and-sources-of-power.md
+    - file: 07-minimum-wages-and-wage-regulations.md
+    - file: 08-unions-collective-bargaining-and-worker-voice.md
+    - file: 09-labor-regulation-enforcement-and-insurance.md
+    - file: 10-aggregate-fluctuations-and-labor-market-adjustment.md
+    - file: 11-technology-automation-ai-and-labor-market.md
+    - file: 12-trade-offshoring-and-labor-market-adjustment.md
+    - file: 13-synthesis-and-student-research-designs.md
 site:
   template: book-theme
   title: Labor II

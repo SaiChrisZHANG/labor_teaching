@@ -1,0 +1,4 @@
+scenario,target_change_pct,hours_speed,headcount_speed,inaction_band
+convex-demand-expansion,0.10,0.75,0.35,0.0
+nonconvex-demand-expansion,0.10,0.80,0.30,4.0
+payroll-tax-cut,0.06,0.65,0.25,1.5

@@ -1,0 +1,7 @@
+metric,value
+mean_inspection_rate,0.47095507005096165
+mean_compliance_index,0.637925046174367
+mean_formal_share,0.7161670101754017
+mean_formal_wage_index,0.9449380984998271
+corr_inspection_formal_share,0.957528820296688
+corr_inspection_formal_wage_index,-0.5115123182920074

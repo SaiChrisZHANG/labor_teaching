@@ -1,0 +1,8 @@
+metric,value
+mean_membership_rate,0.18231123294685603
+mean_coverage_rate,0.22081564155302877
+mean_covered_nonmember_rate,0.03850440860617271
+mean_direct_compression_points,4.370138536516953
+mean_spillover_compression_points,1.7735359612320247
+mean_observed_p90_p10_gap,1.3050204094808018
+share_of_total_compression_from_spillovers,0.28867674579469377

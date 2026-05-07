@@ -1,0 +1,4 @@
+exposure_bucket,import_exposure,manufacturing_share_change,service_share_change,unemployment_rate,nonparticipation_rate
+low,0.7295,-0.0261,0.0254,0.0689,0.1914
+middle,0.8929,-0.0282,0.029,0.0656,0.2162
+high,1.005,-0.0298,0.0312,0.0777,0.1921

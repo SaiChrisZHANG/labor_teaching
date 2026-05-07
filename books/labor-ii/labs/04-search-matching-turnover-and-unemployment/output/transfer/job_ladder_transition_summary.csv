@@ -1,0 +1,7 @@
+market_state,origin_tier,employed,ee_moves,upward_moves,ee_rate,upgrade_share
+tight,low-wage,240,34,22,0.14166666666666666,0.6470588235294118
+tight,middle-wage,260,26,11,0.1,0.4230769230769231
+tight,high-wage,220,12,0,0.05454545454545454,0.0
+loose,low-wage,240,18,8,0.075,0.4444444444444444
+loose,middle-wage,260,16,4,0.06153846153846154,0.25
+loose,high-wage,220,8,0,0.03636363636363636,0.0
