@@ -3,90 +3,93 @@
 from __future__ import annotations
 
 from pathlib import Path
+import sys
 
 import matplotlib.pyplot as plt
 import numpy as np
+from matplotlib.patches import Rectangle
+
+
+REPO_ROOT = Path(__file__).resolve().parents[4]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.append(str(REPO_ROOT))
+
+from shared.figure_style import COLORS, SEQUENTIAL_CMAP, add_arrow, add_box, apply_style, clean_axis, rgba, save_figure, style_axis
 
 
 ROOT = Path(__file__).resolve().parents[1]
 FIG_DIR = ROOT / "figures"
 
 
-def setup_style() -> None:
-    plt.style.use("seaborn-v0_8-whitegrid")
-    plt.rcParams.update(
-        {
-            "figure.dpi": 160,
-            "font.size": 10,
-            "axes.titlesize": 12,
-            "axes.labelsize": 10,
-        }
-    )
-
-
 def save_policy_margins_framework() -> None:
-    fig, ax = plt.subplots(figsize=(10.5, 6.2))
-    ax.axis("off")
+    fig, ax = plt.subplots(figsize=(11.0, 6.5))
+    clean_axis(ax, xlim=(0, 10), ylim=(0, 6))
 
-    center = (0.5, 0.52)
-    policy_box = dict(boxstyle="round,pad=0.45", facecolor="#eef3fb", edgecolor="#1f5c99", linewidth=1.4)
-    margin_box = dict(boxstyle="round,pad=0.35", facecolor="#f9efe3", edgecolor="#c25b2a", linewidth=1.2)
-
-    ax.text(
-        center[0],
-        center[1],
-        "Worker-targeted\npolicy design",
-        ha="center",
-        va="center",
-        fontsize=15,
-        fontweight="bold",
-        bbox=policy_box,
-    )
+    add_box(ax, 3.7, 2.45, 2.6, 1.2, "Worker-targeted\npolicy design", edge=COLORS["navy"], fontsize=14.4)
 
     channels = [
-        ("Incentives", (0.20, 0.82), "phase-ins,\nphase-outs,\nearnings tests"),
-        ("Constraints", (0.80, 0.82), "childcare,\nliquidity,\neligibility"),
-        ("Insurance", (0.18, 0.25), "income smoothing,\nconsumption risk"),
-        ("Frictions", (0.82, 0.25), "knowledge,\nadmin burden,\nsalience"),
-        ("Investment", (0.50, 0.90), "training,\njob readiness,\nskill ladders"),
+        (1.0, 4.6, 1.9, 0.9, "Incentives\nphase-ins,\nphase-outs,\nearnings tests", COLORS["gold"]),
+        (4.05, 4.7, 1.9, 0.85, "Investment\ntraining,\njob readiness,\nskill ladders", COLORS["teal"]),
+        (7.1, 4.6, 1.9, 0.9, "Constraints\nchildcare,\nliquidity,\neligibility", COLORS["gold"]),
+        (1.0, 1.0, 1.9, 0.9, "Insurance\nincome smoothing,\nconsumption risk", COLORS["gold"]),
+        (7.1, 1.0, 1.9, 0.9, "Frictions\nknowledge,\nadmin burden,\nsalience", COLORS["gold"]),
     ]
+    for x, y, w, h, text, edge in channels:
+        add_box(ax, x, y, w, h, text, edge=edge, fontsize=10.5)
+
     margins = [
-        ("Participation", (0.12, 0.55)),
-        ("Hours", (0.27, 0.14)),
-        ("Search", (0.73, 0.14)),
-        ("Skill", (0.88, 0.55)),
-        ("Household time", (0.50, 0.05)),
-        ("Mobility", (0.50, 0.76)),
+        (0.45, 2.55, 1.25, 0.46, "Participation"),
+        (2.2, 0.35, 1.05, 0.46, "Hours"),
+        (6.75, 0.35, 1.1, 0.46, "Search"),
+        (8.25, 2.55, 0.9, 0.46, "Skill"),
+        (4.15, 0.2, 1.7, 0.46, "Household time"),
+        (4.25, 3.85, 1.5, 0.46, "Mobility"),
     ]
+    for x, y, w, h, text in margins:
+        add_box(ax, x, y, w, h, text, edge=COLORS["teal"], fontsize=10, face=rgba(COLORS["teal"], 0.10))
 
-    for label, (x, y), detail in channels:
-        ax.text(x, y, f"{label}\n{detail}", ha="center", va="center", bbox=margin_box)
-        ax.annotate(
-            "",
-            xy=center,
-            xytext=(x, y),
-            arrowprops=dict(arrowstyle="-", color="#6b7280", linewidth=1.5),
-        )
+    incoming = [
+        ((1.95, 4.6), (4.05, 3.3), (2.9, 4.1)),
+        ((5.0, 4.7), (5.0, 3.65), (5.6, 4.2)),
+        ((8.05, 4.6), (5.95, 3.3), (7.2, 4.1)),
+        ((1.95, 1.9), (4.05, 2.8), (2.9, 1.95)),
+        ((8.05, 1.9), (5.95, 2.8), (7.2, 1.95)),
+    ]
+    for start, end, _text_xy in incoming:
+        add_arrow(ax, start, end, color=COLORS["muted"])
 
-    for label, (x, y) in margins:
-        ax.text(x, y, label, ha="center", va="center", bbox=margin_box)
-        ax.annotate(
-            "",
-            xy=(x, y),
-            xytext=center,
-            arrowprops=dict(arrowstyle="->", color="#2a7f62", linewidth=1.5),
-        )
+    outgoing = [
+        ((3.7, 2.95), (1.1, 2.78)),
+        ((4.32, 2.45), (2.72, 0.82)),
+        ((5.68, 2.45), (7.3, 0.82)),
+        ((6.3, 2.95), (8.7, 2.78)),
+        ((5.0, 3.65), (5.0, 3.85)),
+        ((5.0, 2.45), (5.0, 0.66)),
+    ]
+    for start, end in outgoing:
+        add_arrow(ax, start, end, color=COLORS["teal"], linewidth=1.8)
 
     ax.text(
-        0.5,
-        -0.02,
-        "Week 11 asks which worker-side margin the policy actually moves, and through which channel.",
+        5.0,
+        5.98,
+        "Worker-side policy maps channels to labor-market margins.",
         ha="center",
         va="top",
+        fontsize=11.2,
+        color=COLORS["ink"],
+        weight="semibold",
+    )
+    ax.text(
+        5.0,
+        0.02,
+        "Week 11 asks which worker-side margin the policy actually moves, and through which channel.",
+        ha="center",
+        va="bottom",
         fontsize=10,
+        color=COLORS["muted"],
     )
     fig.tight_layout()
-    fig.savefig(FIG_DIR / "11-policy-margins-framework.png", bbox_inches="tight")
+    save_figure(fig, FIG_DIR / "11-policy-margins-framework.png")
     plt.close(fig)
 
 
@@ -101,32 +104,34 @@ def save_tax_credit_budget_set() -> None:
     with_credit = baseline + credit
     marginal_rate = np.gradient(with_credit, earnings)
 
-    fig, axes = plt.subplots(1, 2, figsize=(11.6, 4.6))
+    fig, axes = plt.subplots(1, 2, figsize=(11.4, 4.8))
 
-    axes[0].plot(earnings, baseline, color="#4b5563", linewidth=2.0, label="No earnings subsidy")
-    axes[0].plot(earnings, with_credit, color="#c25b2a", linewidth=2.4, label="With in-work credit")
-    axes[0].axvspan(0, 10, color="#d8a25b", alpha=0.16)
-    axes[0].axvspan(10, 22, color="#2a7f62", alpha=0.10)
-    axes[0].axvspan(22, 40, color="#7d5ba6", alpha=0.10)
+    axes[0].plot(earnings, baseline, color=COLORS["muted"], linewidth=2.0, label="No earnings subsidy")
+    axes[0].plot(earnings, with_credit, color=COLORS["navy"], linewidth=2.5, label="With in-work credit")
+    axes[0].axvspan(0, 10, color=COLORS["gold"], alpha=0.12)
+    axes[0].axvspan(10, 22, color=COLORS["teal"], alpha=0.08)
+    axes[0].axvspan(22, 40, color=COLORS["rust"], alpha=0.08)
     axes[0].set_title("Policy-adjusted budget set")
     axes[0].set_xlabel("Annual earnings (thousands)")
     axes[0].set_ylabel("Net resources")
-    axes[0].legend(frameon=False, loc="upper left")
+    axes[0].legend(loc="upper left")
+    style_axis(axes[0], grid_axis="both")
 
-    axes[1].plot(earnings, marginal_rate, color="#1f5c99", linewidth=2.3)
-    axes[1].axhline(1.0, color="#555555", linestyle="--", linewidth=1.2)
-    axes[1].axvline(10, color="#555555", linestyle=":", linewidth=1.0)
-    axes[1].axvline(22, color="#555555", linestyle=":", linewidth=1.0)
+    axes[1].plot(earnings, marginal_rate, color=COLORS["navy"], linewidth=2.4)
+    axes[1].axhline(1.0, color=COLORS["muted"], linestyle="--", linewidth=1.0)
+    axes[1].axvline(10, color=COLORS["muted"], linestyle=":", linewidth=1.0)
+    axes[1].axvline(22, color=COLORS["muted"], linestyle=":", linewidth=1.0)
     axes[1].set_ylim(0.65, 1.55)
     axes[1].set_title("Effective return to earnings")
     axes[1].set_xlabel("Annual earnings (thousands)")
-    axes[1].set_ylabel("d(net resources) / d(earnings)")
-    axes[1].text(4.2, 1.42, "Phase-in", color="#8a4b10")
-    axes[1].text(13.2, 1.08, "Plateau", color="#1f5f49")
-    axes[1].text(29.0, 0.83, "Phase-out", color="#5e3c8c")
+    axes[1].set_ylabel(r"$d(\mathrm{net\ resources}) / d(\mathrm{earnings})$")
+    axes[1].text(4.2, 1.42, "Phase-in", color=COLORS["gold"], fontsize=9.5)
+    axes[1].text(13.2, 1.08, "Plateau", color=COLORS["teal"], fontsize=9.5)
+    axes[1].text(29.0, 0.83, "Phase-out", color=COLORS["rust"], fontsize=9.5)
+    style_axis(axes[1], grid_axis="both")
 
     fig.tight_layout()
-    fig.savefig(FIG_DIR / "11-tax-credit-budget-set.png", bbox_inches="tight")
+    save_figure(fig, FIG_DIR / "11-tax-credit-budget-set.png")
     plt.close(fig)
 
 
@@ -144,22 +149,22 @@ def save_insurance_incentive_frontier() -> None:
     }
 
     fig, ax = plt.subplots(figsize=(7.8, 5.4))
-    ax.plot(x, y, color="#1f5c99", linewidth=2.5)
-    ax.fill_between(x, y, color="#dbe8f8", alpha=0.7)
+    ax.plot(x, y, color=COLORS["navy"], linewidth=2.5)
+    ax.fill_between(x, y, color=rgba(COLORS["navy"], 0.18))
 
     for label, (px, py) in points.items():
-        ax.scatter(px, py, s=70, color="#c25b2a")
-        ax.text(px + 0.015, py + 0.02, label, fontsize=9)
+        ax.scatter(px, py, s=42, color=COLORS["rust"], zorder=3)
+        ax.text(px + 0.018, py + 0.02, label, fontsize=8.8, color=COLORS["muted"])
 
     ax.set_xlim(0.1, 1.02)
     ax.set_ylim(0.1, 1.02)
     ax.set_xlabel("Insurance value / consumption smoothing")
     ax.set_ylabel("Search or work distortion cost")
     ax.set_title("Insurance-incentive trade-offs are policy-design objects")
-    ax.text(0.15, 0.16, "Better delivery can shift the frontier inward.", color="#2a7f62", fontsize=9)
-
+    ax.text(0.15, 0.16, "Better delivery can shift the frontier inward.", color=COLORS["teal"], fontsize=9)
+    style_axis(ax, grid_axis="both")
     fig.tight_layout()
-    fig.savefig(FIG_DIR / "11-insurance-incentive-frontier.png", bbox_inches="tight")
+    save_figure(fig, FIG_DIR / "11-insurance-incentive-frontier.png")
     plt.close(fig)
 
 
@@ -173,34 +178,28 @@ def save_takeup_salience_funnel() -> None:
         ("Receives full-value benefit", 33),
     ]
 
-    fig, ax = plt.subplots(figsize=(8.4, 5.4))
-    ax.axis("off")
-    colors = ["#1f5c99", "#3d74ad", "#5a8dbb", "#7aa2c8", "#9ab8d6", "#bcd0e5"]
+    fig, ax = plt.subplots(figsize=(8.6, 5.3))
+    clean_axis(ax, xlim=(0, 1), ylim=(0, 1))
+    colors = ["#315C8D", "#4873A0", "#638CB1", "#80A6C3", "#A2BED3", "#C8D9E7"]
     y = 0.92
-    height = 0.11
+    height = 0.105
 
     for idx, (label, value) in enumerate(stages):
-        width = value / 110
+        width = value / 112
         left = 0.5 - width / 2
-        rect = plt.Rectangle((left, y - height), width, height * 0.82, color=colors[idx], alpha=0.95)
+        rect = Rectangle((left, y - height), width, height * 0.78, facecolor=colors[idx], edgecolor="none")
         ax.add_patch(rect)
-        ax.text(0.5, y - height / 2, f"{label}: {value}", ha="center", va="center", color="white", fontweight="bold")
-        y -= 0.13
+        ax.text(0.5, y - height / 2, f"{label}: {value}", ha="center", va="center", color="white", fontsize=10, weight="semibold")
+        y -= 0.125
 
-    ax.text(0.5, 0.08, "Take-up falls at every delivery stage, so statutory generosity is not effective exposure.", ha="center")
+    ax.text(0.5, 0.07, "Take-up falls at every delivery stage, so statutory generosity is not effective exposure.", ha="center", fontsize=10, color=COLORS["muted"])
     fig.tight_layout()
-    fig.savefig(FIG_DIR / "11-takeup-salience-funnel.png", bbox_inches="tight")
+    save_figure(fig, FIG_DIR / "11-takeup-salience-funnel.png")
     plt.close(fig)
 
 
 def save_policy_design_toolkit() -> None:
-    designs = [
-        "Kink /\nbunching",
-        "Field\nexperiment",
-        "Reform\nevent study",
-        "Judge /\nexaminer IV",
-        "Knowledge /\nexposure",
-    ]
+    designs = ["Kink /\nbunching", "Field\nexperiment", "Reform\nevent study", "Judge /\nexaminer IV", "Knowledge /\nexposure"]
     margins = ["Participation", "Hours", "Search", "Take-up", "Timing", "Welfare"]
     values = np.array(
         [
@@ -212,26 +211,26 @@ def save_policy_design_toolkit() -> None:
         ]
     )
 
-    fig, ax = plt.subplots(figsize=(9.0, 4.8))
-    image = ax.imshow(values, cmap="YlGnBu", vmin=0, vmax=1)
+    fig, ax = plt.subplots(figsize=(9.0, 4.9))
+    image = ax.imshow(values, cmap=SEQUENTIAL_CMAP, vmin=0, vmax=1)
     ax.set_xticks(range(len(margins)), margins)
     ax.set_yticks(range(len(designs)), designs)
     ax.set_title("Design choice should match the policy margin")
 
     for row in range(values.shape[0]):
         for col in range(values.shape[1]):
-            ax.text(col, row, f"{values[row, col]:.1f}", ha="center", va="center", color="#0f172a", fontsize=9)
+            ax.text(col, row, f"{values[row, col]:.1f}", ha="center", va="center", color=COLORS["ink"], fontsize=8.8)
 
     cbar = fig.colorbar(image, ax=ax, shrink=0.86)
     cbar.set_label("How naturally the design speaks to the margin")
     fig.tight_layout()
-    fig.savefig(FIG_DIR / "11-policy-design-toolkit.png", bbox_inches="tight")
+    save_figure(fig, FIG_DIR / "11-policy-design-toolkit.png")
     plt.close(fig)
 
 
 def main() -> None:
     FIG_DIR.mkdir(parents=True, exist_ok=True)
-    setup_style()
+    apply_style()
     save_policy_margins_framework()
     save_tax_credit_budget_set()
     save_insurance_incentive_frontier()

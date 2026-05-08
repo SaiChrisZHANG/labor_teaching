@@ -4,11 +4,19 @@ from __future__ import annotations
 
 import os
 from pathlib import Path
+import sys
 
 os.environ.setdefault("MPLCONFIGDIR", str(Path(__file__).resolve().parents[2] / ".mpl-cache"))
 
 import matplotlib.pyplot as plt
 import numpy as np
+
+
+REPO_ROOT = Path(__file__).resolve().parents[4]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.append(str(REPO_ROOT))
+
+from shared.figure_style import COLORS, SEQUENTIAL_CMAP, apply_style, save_figure, style_axis
 
 
 FIG_DIR = Path(__file__).resolve().parents[1] / "figures"
@@ -21,22 +29,23 @@ def lifecycle_human_capital_earnings() -> None:
     earnings = 0.28 + 0.018 * (age - 16) + 0.48 * (1 - np.exp(-(age - 16) / 18)) - 0.0042 * np.maximum(age - 52, 0) ** 1.25
     earnings = np.clip(earnings, 0.18, None)
 
-    plt.figure(figsize=(9.5, 5.5))
-    plt.plot(age, human_capital, linewidth=3, color="#1f5c99", label="Latent human capital")
-    plt.plot(age, earnings, linewidth=3, color="#c25b2a", label="Observed earnings / wages")
-    plt.axvspan(16, 24, color="#cfdceb", alpha=0.4)
-    plt.axvspan(24, 35, color="#f1dccf", alpha=0.35)
-    plt.text(18, 1.12, "Schooling-intensive phase", fontsize=10, color="#1f5c99")
-    plt.text(26, 1.12, "Training and career build-up", fontsize=10, color="#8f431f")
-    plt.xlabel("Age")
-    plt.ylabel("Relative level")
-    plt.title("Conceptual lifecycle profiles of human capital and earnings")
-    plt.legend(frameon=False, loc="lower right")
-    plt.ylim(0.15, 1.18)
-    plt.xlim(16, 65)
-    plt.tight_layout()
-    plt.savefig(FIG_DIR / "04-lifecycle-human-capital-earnings.png", dpi=220)
-    plt.close()
+    fig, ax = plt.subplots(figsize=(9.4, 5.5))
+    ax.plot(age, human_capital, linewidth=2.8, color=COLORS["navy"], label="Latent human capital")
+    ax.plot(age, earnings, linewidth=2.8, color=COLORS["rust"], label="Observed earnings / wages")
+    ax.axvspan(16, 24, color=COLORS["navy"], alpha=0.12)
+    ax.axvspan(24, 35, color=COLORS["gold"], alpha=0.15)
+    ax.text(18, 1.11, "Schooling-intensive phase", fontsize=9.5, color=COLORS["navy"])
+    ax.text(26, 1.11, "Training and career build-up", fontsize=9.5, color=COLORS["rust"])
+    ax.set_xlabel("Age")
+    ax.set_ylabel("Relative level")
+    ax.set_title("Conceptual lifecycle profiles of human capital and earnings")
+    ax.set_ylim(0.15, 1.18)
+    ax.set_xlim(16, 65)
+    ax.legend(loc="lower right")
+    style_axis(ax, grid_axis="both")
+    fig.tight_layout()
+    save_figure(fig, FIG_DIR / "04-lifecycle-human-capital-earnings.png")
+    plt.close(fig)
 
 
 def investment_intensity() -> None:
@@ -45,24 +54,25 @@ def investment_intensity() -> None:
     employer_training = 0.6 * np.exp(-((age - 29) / 8.0) ** 2)
     learning_by_doing = 0.18 + 0.22 * np.exp(-((age - 35) / 18.0) ** 2)
 
-    plt.figure(figsize=(9.5, 5.5))
-    plt.plot(age, schooling, linewidth=3, color="#1f5c99", label="Formal schooling")
-    plt.plot(age, employer_training, linewidth=3, color="#c25b2a", label="Employer training")
-    plt.plot(age, learning_by_doing, linewidth=3, color="#4f7f39", label="Learning-by-doing")
-    plt.axvline(22, linestyle="--", color="#666666", linewidth=1)
-    plt.axvline(35, linestyle="--", color="#666666", linewidth=1)
-    plt.text(16.7, 1.02, "Schooling intensive", fontsize=10)
-    plt.text(23.2, 1.02, "Early-career training", fontsize=10)
-    plt.text(40.0, 1.02, "Later-career low investment", fontsize=10)
-    plt.xlabel("Age")
-    plt.ylabel("Investment intensity")
-    plt.title("Human-capital investment intensity over the lifecycle")
-    plt.ylim(0, 1.08)
-    plt.xlim(16, 65)
-    plt.legend(frameon=False, loc="upper right")
-    plt.tight_layout()
-    plt.savefig(FIG_DIR / "04-investment-intensity-lifecycle.png", dpi=220)
-    plt.close()
+    fig, ax = plt.subplots(figsize=(9.4, 5.5))
+    ax.plot(age, schooling, linewidth=2.8, color=COLORS["navy"], label="Formal schooling")
+    ax.plot(age, employer_training, linewidth=2.8, color=COLORS["rust"], label="Employer training")
+    ax.plot(age, learning_by_doing, linewidth=2.8, color=COLORS["teal"], label="Learning-by-doing")
+    ax.axvline(22, linestyle="--", color=COLORS["muted"], linewidth=1.0)
+    ax.axvline(35, linestyle="--", color=COLORS["muted"], linewidth=1.0)
+    ax.text(16.7, 1.02, "Schooling intensive", fontsize=9.5, color=COLORS["muted"])
+    ax.text(23.2, 1.02, "Early-career training", fontsize=9.5, color=COLORS["muted"])
+    ax.text(40.0, 1.02, "Later-career low investment", fontsize=9.5, color=COLORS["muted"])
+    ax.set_xlabel("Age")
+    ax.set_ylabel("Investment intensity")
+    ax.set_title("Human-capital investment intensity over the lifecycle")
+    ax.set_ylim(0, 1.08)
+    ax.set_xlim(16, 65)
+    ax.legend(loc="upper right")
+    style_axis(ax, grid_axis="both")
+    fig.tight_layout()
+    save_figure(fig, FIG_DIR / "04-investment-intensity-lifecycle.png")
+    plt.close(fig)
 
 
 def dynamic_complementarity() -> None:
@@ -71,20 +81,23 @@ def dynamic_complementarity() -> None:
     b_grid, i_grid = np.meshgrid(baseline, later_investment)
     next_skill = 0.55 + 0.55 * b_grid + 0.35 * i_grid + 0.65 * b_grid * i_grid
 
-    plt.figure(figsize=(8.6, 6.2))
-    contour = plt.contourf(b_grid, i_grid, next_skill, levels=16, cmap="YlGnBu")
-    plt.colorbar(contour, label="Next-period skill")
-    plt.contour(b_grid, i_grid, next_skill, levels=8, colors="white", linewidths=0.7, alpha=0.7)
-    plt.xlabel("Baseline skill")
-    plt.ylabel("Later investment")
-    plt.title("Dynamic complementarity: later inputs pay more when baseline skill is higher")
-    plt.tight_layout()
-    plt.savefig(FIG_DIR / "04-dynamic-complementarity.png", dpi=220)
-    plt.close()
+    fig, ax = plt.subplots(figsize=(8.4, 6.0))
+    contour = ax.contourf(b_grid, i_grid, next_skill, levels=16, cmap=SEQUENTIAL_CMAP)
+    ax.contour(b_grid, i_grid, next_skill, levels=8, colors="white", linewidths=0.7, alpha=0.8)
+    cbar = fig.colorbar(contour, ax=ax, shrink=0.9)
+    cbar.set_label("Next-period skill")
+    ax.set_xlabel("Baseline skill")
+    ax.set_ylabel("Later investment")
+    ax.set_title("Dynamic complementarity in skill formation")
+    style_axis(ax, grid_axis="none")
+    fig.tight_layout()
+    save_figure(fig, FIG_DIR / "04-dynamic-complementarity.png")
+    plt.close(fig)
 
 
 def main() -> None:
     FIG_DIR.mkdir(parents=True, exist_ok=True)
+    apply_style()
     lifecycle_human_capital_earnings()
     investment_intensity()
     dynamic_complementarity()
