@@ -37,9 +37,9 @@ labor-teaching/
       OUTLINE.md
     empirical-methods/
       OUTLINE.md
-    behavioral-labor/
+    special-topic1-behavioral/
       OUTLINE.md
-    institutions-labor/
+    special-topic2-institutions/
       OUTLINE.md
 ```
 

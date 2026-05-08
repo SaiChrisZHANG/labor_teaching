@@ -60,13 +60,13 @@ Read `books/empirical-methods/OUTLINE.md` and `docs/portfolio-charter.md`. Expan
 
 ## 8. Draft the behavioral labor outline into a syllabus
 
-Read `books/behavioral-labor/OUTLINE.md` and `shared/templates/syllabus-template.md`. Write a polished syllabus with learning goals, module structure, assessment options, and a reading philosophy. Keep the course visibly anchored in both behavioral economics and labor economics.
+Read `books/special-topic1-behavioral/OUTLINE.md` and `shared/templates/syllabus-template.md`. Write a polished syllabus with learning goals, module structure, assessment options, and a reading philosophy. Keep the course visibly anchored in both behavioral economics and labor economics.
 
 ---
 
 ## 9. Build the incubator page
 
-Read `books/institutions-labor/OUTLINE.md` and `docs/portfolio-charter.md`. Create a polished incubator course page for "Labor Markets and Political/Cultural Institutions" with:
+Read `books/special-topic2-institutions/OUTLINE.md` and `docs/portfolio-charter.md`. Create a polished incubator course page for "Labor Markets and Political/Cultural Institutions" with:
 - course rationale
 - full syllabus outline
 - 4 showcase modules

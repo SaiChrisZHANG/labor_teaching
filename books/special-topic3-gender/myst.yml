@@ -1,0 +1,13 @@
+version: 1
+project:
+  title: "Gender Study"
+  description: Flagship special-topics course on gender, work, and inequality.
+  bibliography:
+    - references.bib
+  toc:
+    - file: index.md
+site:
+  template: book-theme
+  title: Gender Study
+  options:
+    logo_text: Gender Study

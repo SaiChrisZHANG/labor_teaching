@@ -1,0 +1,13 @@
+version: 1
+project:
+  title: "Labor Market, Health, and Population"
+  description: Compact special-topics elective on health, demography, and labor markets.
+  bibliography:
+    - references.bib
+  toc:
+    - file: index.md
+site:
+  template: book-theme
+  title: Health, Population, and Labor
+  options:
+    logo_text: Health, Population, and Labor

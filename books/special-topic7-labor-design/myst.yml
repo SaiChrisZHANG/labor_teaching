@@ -1,0 +1,13 @@
+version: 1
+project:
+  title: "Labor Market Design, Contracting, and Mechanism Design"
+  description: Compact special-topics elective on labor-market design and contracting.
+  bibliography:
+    - references.bib
+  toc:
+    - file: index.md
+site:
+  template: book-theme
+  title: Labor Design
+  options:
+    logo_text: Labor Design

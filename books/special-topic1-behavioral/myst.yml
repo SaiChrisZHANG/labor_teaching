@@ -1,0 +1,13 @@
+version: 1
+project:
+  title: "Behavioral Labor"
+  description: Flagship special-topics course on behavioral mechanisms in labor markets.
+  bibliography:
+    - references.bib
+  toc:
+    - file: index.md
+site:
+  template: book-theme
+  title: Behavioral Labor
+  options:
+    logo_text: Behavioral Labor

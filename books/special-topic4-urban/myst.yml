@@ -1,0 +1,13 @@
+version: 1
+project:
+  title: "Urban and Labor"
+  description: Compact special-topics elective on cities and local labor markets.
+  bibliography:
+    - references.bib
+  toc:
+    - file: index.md
+site:
+  template: book-theme
+  title: Urban and Labor
+  options:
+    logo_text: Urban and Labor

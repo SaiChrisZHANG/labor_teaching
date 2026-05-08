@@ -1,0 +1,13 @@
+version: 1
+project:
+  title: "Labor Markets and Political/Cultural Institutions"
+  description: Flagship special-topics course on political and cultural institutions in labor markets.
+  bibliography:
+    - references.bib
+  toc:
+    - file: index.md
+site:
+  template: book-theme
+  title: Institutions and Labor
+  options:
+    logo_text: Institutions and Labor

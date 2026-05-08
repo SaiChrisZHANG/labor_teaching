@@ -1,0 +1,13 @@
+version: 1
+project:
+  title: "Technology, Innovation, and Labor"
+  description: Compact special-topics elective on technology, innovation, and labor-market adjustment.
+  bibliography:
+    - references.bib
+  toc:
+    - file: index.md
+site:
+  template: book-theme
+  title: Technology and Labor
+  options:
+    logo_text: Technology and Labor

@@ -16,6 +16,23 @@ This starter kit is designed for a public labor-economics teaching platform buil
 - `prompts/codex-prompt-pack.md` — reusable prompts for repo scaffolding and content generation
 - `books/*/OUTLINE.md` — initial outlines for each course book
 
+## Special-topics portfolio
+
+The repository now includes a separate special-topics teaching family designed to sit alongside the Labor I / Labor II sequence.
+
+Flagship 10-week courses:
+- `books/special-topic1-behavioral/` — Behavioral Labor
+- `books/special-topic2-institutions/` — Labor Markets and Political/Cultural Institutions
+- `books/special-topic3-gender/` — Gender Study
+
+Compact 6-week advanced electives:
+- `books/special-topic4-urban/` — Urban and Labor
+- `books/special-topic5-technology/` — Technology, Innovation, and Labor
+- `books/special-topic6-health-population/` — Labor Market, Health, and Population
+- `books/special-topic7-labor-design/` — Labor Market Design, Contracting, and Mechanism Design
+
+Each special-topics course is a standalone MyST book shell with its own course-local bibliography at `books/<course-slug>/references.bib`.
+
 ## Working philosophy
 
 1. Build shared modules before full courses.
