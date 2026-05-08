@@ -1,6 +1,6 @@
 # Transfer exercise
 
-The transfer path uses a synthetic job-ladder dataset inspired by `@haltiwangerHyattKahnMcEntarfer2018`.
+The transfer path uses a synthetic job-ladder dataset inspired by [@haltiwangerHyattKahnMcEntarfer2018].
 
 The transfer object is intentionally different from the reproduction object:
 

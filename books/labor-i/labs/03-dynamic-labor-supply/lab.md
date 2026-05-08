@@ -16,7 +16,7 @@
 
 ## Why this lab exists
 
-Week 3 is where labor supply stops being a one-period comparative statics exercise and becomes a timing problem. `@fehrGoette2007` is a strong lab anchor because temporary randomized wage variation is one of the cleanest ways to isolate an intertemporal substitution motive. The bounded local path keeps that design logic while remaining fully runnable without restricted external files.
+Week 3 is where labor supply stops being a one-period comparative statics exercise and becomes a timing problem. [@fehrGoette2007] is a strong lab anchor because temporary randomized wage variation is one of the cleanest ways to isolate an intertemporal substitution motive. The bounded local path keeps that design logic while remaining fully runnable without restricted external files.
 
 ## Learning objectives
 
@@ -26,7 +26,7 @@ By the end of this lab, students should be able to:
 2. explain why that response is closer to a Frisch-style object than a permanent wage-change elasticity;
 3. diagnose how persistence and adjustment costs can mute measured responses;
 4. transfer the same design to a persistence comparison without changing the empirical family;
-5. explain how the short-run experiment links conceptually to lifecycle labor-supply work such as `@attanasioLowSanchezMarcos2008`.
+5. explain how the short-run experiment links conceptually to lifecycle labor-supply work such as [@attanasioLowSanchezMarcos2008].
 
 ## Scope rules
 
@@ -165,7 +165,7 @@ Run `src/transfer_dynamic_response.py` on the synthetic transfer file and compar
 
 ## Part IV. Optional lifecycle bridge
 
-Use `@attanasioLowSanchezMarcos2008` to explain how a short-run temporary-bonus design differs from a lifecycle model. The goal is not to estimate the lifecycle model here. The goal is to write a short note on what additional state variables a lifecycle exercise would need: age, experience, family status, and anticipated wage growth.
+Use [@attanasioLowSanchezMarcos2008] to explain how a short-run temporary-bonus design differs from a lifecycle model. The goal is not to estimate the lifecycle model here. The goal is to write a short note on what additional state variables a lifecycle exercise would need: age, experience, family status, and anticipated wage growth.
 
 ## Part V. Reflection
 

@@ -9,13 +9,13 @@
 **Estimated student time:** 4 core hours + 2 optional hours  
 **Prerequisites:** Week 5 wage-setting, basic command-line use, introductory `pandas`, comfort reading grouped summaries and simple plots  
 **Core economic question:** Which monopsony object is actually being measured, and how does that depend on the data and identifying variation?  
-**Primary source anchor:** `@dubeJacobsNaiduSuri2020`  
-**Secondary / challenge anchor:** `@yehMacalusoHershbein2022`  
-**Optional extension anchor:** `@pragerSchmitt2021`
+**Primary source anchor:** [@dubeJacobsNaiduSuri2020]  
+**Secondary / challenge anchor:** [@yehMacalusoHershbein2022]  
+**Optional extension anchor:** [@pragerSchmitt2021]
 
 ## Why this lab exists
 
-Week 6 can become muddy if students treat every wage or concentration result as "a monopsony estimate." This lab forces discipline. `@dubeJacobsNaiduSuri2020` is the reproduction anchor because direct wage variation makes labor supply to the firm concrete. `@yehMacalusoHershbein2022` is the diagnose anchor because markdowns are a different monopsony object that require stronger structure. `@pragerSchmitt2021` is the transfer anchor because merger evidence is causal about changing market structure but still does not reveal the full underlying wedge.
+Week 6 can become muddy if students treat every wage or concentration result as "a monopsony estimate." This lab forces discipline. [@dubeJacobsNaiduSuri2020] is the reproduction anchor because direct wage variation makes labor supply to the firm concrete. [@yehMacalusoHershbein2022] is the diagnose anchor because markdowns are a different monopsony object that require stronger structure. [@pragerSchmitt2021] is the transfer anchor because merger evidence is causal about changing market structure but still does not reveal the full underlying wedge.
 
 ## Learning objectives
 
@@ -33,13 +33,13 @@ This lab is intentionally bounded.
 
 - Reproduce one compact Dube-style recruiting elasticity using a local synthetic task panel.
 - Diagnose a Yeh-style markdown object using a synthetic plant panel.
-- Transfer the design logic to a concentration-and-merger panel in the spirit of `@pragerSchmitt2021`.
+- Transfer the design logic to a concentration-and-merger panel in the spirit of [@pragerSchmitt2021].
 - Keep the smoke path fully local and synthetic.
 - Do not turn the lab into a confidential microdata replication or a full structural model of labor market power.
 
 ## Lab roadmap
 
-1. **Reproduce** a bounded online-labor elasticity object in the spirit of `@dubeJacobsNaiduSuri2020`.
+1. **Reproduce** a bounded online-labor elasticity object in the spirit of [@dubeJacobsNaiduSuri2020].
 2. **Diagnose** how that object differs from a Yeh-style markdown.
 3. **Transfer** the measurement logic to a stylized concentration and merger panel.
 4. **Extend** the design to a public vacancy or local labor market dataset.
@@ -84,7 +84,7 @@ Recover a compact estimate of labor supply to the firm from direct wage variatio
 
 ### Required questions
 
-- What exactly is the monopsony object in `@dubeJacobsNaiduSuri2020`?
+- What exactly is the monopsony object in [@dubeJacobsNaiduSuri2020]?
 - Why is direct wage variation cleaner for measuring recruiting elasticity than cross-market concentration alone?
 - Which margin is observed here that would be absent in a pure production-side markdown design?
 - What remains latent even in this clean wage-variation setting?
@@ -99,9 +99,9 @@ Move from "we estimated an elasticity" to a disciplined explanation of why a pro
 
 | Paper | Monopsony object | Identifying variation | Observed unit | Observed margin | Key unobserved object |
 | --- | --- | --- | --- | --- | --- |
-| `@dubeJacobsNaiduSuri2020` | labor supply elasticity to the firm | wage variation | task / posting | applications, fills | broader outside options and general equilibrium |
-| `@yehMacalusoHershbein2022` | markdown {math}`MRPL / w` | production-side moments plus structure | plant / firm | wage and production moments | true MRPL and structural validity |
-| `@pragerSchmitt2021` | reduced-form wage response to structure shock | merger-induced concentration change | market / worker-market | wage change after consolidation | full monopsony wedge and spillovers |
+| [@dubeJacobsNaiduSuri2020] | labor supply elasticity to the firm | wage variation | task / posting | applications, fills | broader outside options and general equilibrium |
+| [@yehMacalusoHershbein2022] | markdown {math}`MRPL / w` | production-side moments plus structure | plant / firm | wage and production moments | true MRPL and structural validity |
+| [@pragerSchmitt2021] | reduced-form wage response to structure shock | merger-induced concentration change | market / worker-market | wage change after consolidation | full monopsony wedge and spillovers |
 
 ### Diagnosis checklist
 
@@ -165,9 +165,9 @@ Choose one extension only.
 
 Students should say these plainly.
 
-1. The bounded reproduction path uses synthetic task postings; it is not the original online labor platform in `@dubeJacobsNaiduSuri2020`.
-2. The bounded transfer path uses a stylized plant and market panel; it does not recover the full production-side and administrative detail in `@yehMacalusoHershbein2022`.
-3. The merger-style comparison is a synthetic teaching exercise; it does not reproduce the full hospital consolidation design in `@pragerSchmitt2021`.
+1. The bounded reproduction path uses synthetic task postings; it is not the original online labor platform in [@dubeJacobsNaiduSuri2020].
+2. The bounded transfer path uses a stylized plant and market panel; it does not recover the full production-side and administrative detail in [@yehMacalusoHershbein2022].
+3. The merger-style comparison is a synthetic teaching exercise; it does not reproduce the full hospital consolidation design in [@pragerSchmitt2021].
 4. None of the bounded paths directly observes the worker's full outside-option set, the true marginal revenue product, or the full equilibrium spillover structure.
 
 ## Deliverables checklist

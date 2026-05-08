@@ -132,9 +132,9 @@ Equation {eq}`eq:trade_welfare` makes the non-negotiable point. Worker losses, p
 
 ### Local exposure measures and what they identify
 
-The local-labor-market exposure design is the canonical reduced-form entry point. `@autorDornHanson2013ChinaSyndrome` maps national import growth from China into commuting-zone exposure using pre-period industrial composition. The identifying variation is differential baseline sector mix across commuting zones interacted with national industry exposure. The unit of observation is the commuting zone. The observed labor margins are manufacturing employment, broader employment, wages, unemployment, and nonparticipation. The key offstage margin is national equilibrium adjustment through prices, migration, firm entry and exit, and demand spillovers.
+The local-labor-market exposure design is the canonical reduced-form entry point. [@autorDornHanson2013ChinaSyndrome] maps national import growth from China into commuting-zone exposure using pre-period industrial composition. The identifying variation is differential baseline sector mix across commuting zones interacted with national industry exposure. The unit of observation is the commuting zone. The observed labor margins are manufacturing employment, broader employment, wages, unemployment, and nonparticipation. The key offstage margin is national equilibrium adjustment through prices, migration, firm entry and exit, and demand spillovers.
 
-`@pierceSchott2016SurprisinglySwiftDecline` complements that local design by using U.S. policy variation tied to Permanent Normal Trade Relations. The identifying variation is industry exposure to policy uncertainty resolution around China trade integration. The unit of observation is the industry. The observed margin is manufacturing employment decline. The key offstage margins are local service offsets, worker transitions, and broader equilibrium pass-through.
+[@pierceSchott2016SurprisinglySwiftDecline] complements that local design by using U.S. policy variation tied to Permanent Normal Trade Relations. The identifying variation is industry exposure to policy uncertainty resolution around China trade integration. The unit of observation is the industry. The observed margin is manufacturing employment decline. The key offstage margins are local service offsets, worker transitions, and broader equilibrium pass-through.
 
 The immediate lesson is that local import competition estimates identify place-level incidence under heterogeneous exposure, not a full welfare object. They are indispensable for labor incidence, but they are not a sufficient statistic for aggregate gains from trade.
 
@@ -147,9 +147,9 @@ Figure {numref}`fig-lii-w12-welfare-reallocation` is the warning label for the l
 
 ### U.S. import competition: the China shock and local labor-market adjustment
 
-The China-shock literature is the natural first empirical block because it makes the commuting-zone exposure logic transparent. In `@autorDornHanson2013ChinaSyndrome`, rising Chinese import competition is associated with lower manufacturing employment, lower labor-force participation, and weaker wage outcomes in more exposed commuting zones. The design identifies place effects. It does not directly identify the lifetime loss of a particular worker, and it does not by itself recover equilibrium consumer gains or input-cost offsets.
+The China-shock literature is the natural first empirical block because it makes the commuting-zone exposure logic transparent. In [@autorDornHanson2013ChinaSyndrome], rising Chinese import competition is associated with lower manufacturing employment, lower labor-force participation, and weaker wage outcomes in more exposed commuting zones. The design identifies place effects. It does not directly identify the lifetime loss of a particular worker, and it does not by itself recover equilibrium consumer gains or input-cost offsets.
 
-`@pierceSchott2016SurprisinglySwiftDecline` sharpens the institutional narrative by linking the manufacturing decline to the policy environment around China trade rather than only to import-penetration accounting. That is useful in Labor II because it shows how trade transmission depends on firm exit, industry restructuring, and labor reallocation, not merely on a static demand curve.
+[@pierceSchott2016SurprisinglySwiftDecline] sharpens the institutional narrative by linking the manufacturing decline to the policy environment around China trade rather than only to import-penetration accounting. That is useful in Labor II because it shows how trade transmission depends on firm exit, industry restructuring, and labor reallocation, not merely on a static demand curve.
 
 The major methods lesson is the distinction between a trade channel and a labor margin.
 
@@ -160,7 +160,7 @@ The major methods lesson is the distinction between a trade channel and a labor 
 
 ### Dynamic regional adjustment: Brazil and horizon effects
 
-`@dixCarneiroKovak2017TradeLiberalizationRegionalDynamics` is the key dynamic-adjustment section for the course. The identifying variation is differential regional exposure to Brazil's tariff reform through pre-liberalization industrial composition. The unit of observation is the region over time. The observed margins include employment structure, earnings, and regional adjustment trajectories over long horizons. The crucial insight is that adjustment is not instantaneous. Regional labor markets can continue adjusting for many years after the initial tariff shock.
+[@dixCarneiroKovak2017TradeLiberalizationRegionalDynamics] is the key dynamic-adjustment section for the course. The identifying variation is differential regional exposure to Brazil's tariff reform through pre-liberalization industrial composition. The unit of observation is the region over time. The observed margins include employment structure, earnings, and regional adjustment trajectories over long horizons. The crucial insight is that adjustment is not instantaneous. Regional labor markets can continue adjusting for many years after the initial tariff shock.
 
 That dynamic perspective matters for three reasons. First, early local losses need not reveal long-run reallocation. Second, persistence itself is a labor-market fact that requires explanation: mobility frictions, slow sectoral entry, and imperfect worker transition all matter. Third, long-run place recovery does not imply that initially exposed workers are fully insured.
 
@@ -173,7 +173,7 @@ Figure {numref}`fig-lii-w12-worker-place` shows why Labor II needs both worker a
 
 ### Manufacturing-to-service transitions and who actually adjusts
 
-Trade-induced structural change is often summarized as manufacturing decline plus service growth, but that summary is too coarse for labor economics. The real question is how service growth happens and for whom. `@dauthFindeisenSuedekum2017TradeManufacturingJobsGermany` provides the core teaching object here. The identifying variation comes from differential German exposure to trade with Eastern Europe and China. The units of observation include regions and workers. The observed margins include manufacturing employment decline, service employment growth, and heterogeneity across adjustment margins. The key contribution is that service reallocation does not simply consist of incumbent manufacturing workers moving smoothly into service jobs.
+Trade-induced structural change is often summarized as manufacturing decline plus service growth, but that summary is too coarse for labor economics. The real question is how service growth happens and for whom. [@dauthFindeisenSuedekum2017TradeManufacturingJobsGermany] provides the core teaching object here. The identifying variation comes from differential German exposure to trade with Eastern Europe and China. The units of observation include regions and workers. The observed margins include manufacturing employment decline, service employment growth, and heterogeneity across adjustment margins. The key contribution is that service reallocation does not simply consist of incumbent manufacturing workers moving smoothly into service jobs.
 
 ```{include} assets/tables/12-structural-change-and-transition-map.md
 ```
@@ -189,21 +189,21 @@ Figure {numref}`fig-lii-w12-structural-change` makes the non-negotiable point fo
 
 ### Trade-induced structural change and inequality
 
-`@cravinoSotelo2019TradeInducedStructuralChange` links trade to the skill premium through the structural-change channel rather than through a narrow import-competition narrative. The identifying object comes from a structured quantitative framework using cross-country differences in sectoral composition, trade, and expenditure responses. The unit of analysis is the country-sector equilibrium. The observed and inferred margins are sector shares, relative wages, and the skill premium. The key offstage labor margin in simpler reduced-form work is the expenditure and general-equilibrium side of the adjustment.
+[@cravinoSotelo2019TradeInducedStructuralChange] links trade to the skill premium through the structural-change channel rather than through a narrow import-competition narrative. The identifying object comes from a structured quantitative framework using cross-country differences in sectoral composition, trade, and expenditure responses. The unit of analysis is the country-sector equilibrium. The observed and inferred margins are sector shares, relative wages, and the skill premium. The key offstage labor margin in simpler reduced-form work is the expenditure and general-equilibrium side of the adjustment.
 
 This is where Equation {eq}`eq:structural_change` earns its place. Trade can move labor demand not only by shrinking exposed manufacturing sectors, but also by changing relative prices, expenditure shares, and productivity in ways that alter the size and skill intensity of services. That is why manufacturing decline after trade integration need not map mechanically into one simple inequality story.
 
 ### Offshoring and services trade are distinct channels
 
-Offshoring belongs in the week as its own transmission mechanism. `@feenstraHanson1999OutsourcingHighTechnologyWages` studies outsourcing and high-technology capital as linked forces affecting wages in the United States. The identifying variation is industry-level change in outsourcing intensity and capital use. The unit of observation is the industry. The observed margin is wages and relative demand. The key offstage margins are local equilibrium spillovers, worker transitions, and service-side reorganization.
+Offshoring belongs in the week as its own transmission mechanism. [@feenstraHanson1999OutsourcingHighTechnologyWages] studies outsourcing and high-technology capital as linked forces affecting wages in the United States. The identifying variation is industry-level change in outsourcing intensity and capital use. The unit of observation is the industry. The observed margin is wages and relative demand. The key offstage margins are local equilibrium spillovers, worker transitions, and service-side reorganization.
 
 The labor takeaway is not historical nostalgia about outsourcing. It is conceptual separation. Final-goods import competition, offshoring of production stages, imported business services, and cheaper intermediates do not identify the same labor-market object. Offshoring can change within-firm organization, task composition, and skill demand even when local import competition is modest.
 
 ### Worker versus place adjustment, welfare, and structured equilibrium
 
-The week should now step beyond reduced-form place effects. `@kimVogel2021TradeShocksLaborMarketAdjustment` gives a tractable labor-market adjustment framework that connects trade shocks to unemployment, nonparticipation, and reallocation frictions. The identifying object is structural discipline rather than one single instrument. The units of analysis are workers, sectors, and markets embedded in equilibrium. The contribution is to clarify which margins must be modeled if we want to move from local incidence to welfare and policy.
+The week should now step beyond reduced-form place effects. [@kimVogel2021TradeShocksLaborMarketAdjustment] gives a tractable labor-market adjustment framework that connects trade shocks to unemployment, nonparticipation, and reallocation frictions. The identifying object is structural discipline rather than one single instrument. The units of analysis are workers, sectors, and markets embedded in equilibrium. The contribution is to clarify which margins must be modeled if we want to move from local incidence to welfare and policy.
 
-`@caliendoDvorkinParro2019TradeLaborMarketDynamics` pushes further by bringing dynamic labor-market adjustment into a quantitative trade setting. The unit is an equilibrium economy with worker mobility and search frictions. The contribution is not to replace reduced-form evidence, but to show what must be added to interpret the transition path, unemployment risk, and welfare consequences of trade shocks. These frameworks are especially useful once students ask whether consumer gains, imported-input gains, and worker losses can coexist. The answer is yes, and the coexistence is precisely why local employment losses are not the same object as aggregate welfare.
+[@caliendoDvorkinParro2019TradeLaborMarketDynamics] pushes further by bringing dynamic labor-market adjustment into a quantitative trade setting. The unit is an equilibrium economy with worker mobility and search frictions. The contribution is not to replace reduced-form evidence, but to show what must be added to interpret the transition path, unemployment risk, and welfare consequences of trade shocks. These frameworks are especially useful once students ask whether consumer gains, imported-input gains, and worker losses can coexist. The answer is yes, and the coexistence is precisely why local employment losses are not the same object as aggregate welfare.
 
 ### Global evidence and frontier directions
 
@@ -233,7 +233,7 @@ Week 12 completes the major shock-and-adjustment block of Labor II. Week 11 aske
 
 ## Research Lab
 
-The Week 12 lab follows the standard `Reproduce -> Diagnose -> Transfer` design and keeps the bounded student path fully local. The primary anchor is `@autorDornHanson2013ChinaSyndrome`, where students build a small commuting-zone trade-exposure object and track place-level employment, unemployment, and nonparticipation margins. The challenge anchor is `@dixCarneiroKovak2017TradeLiberalizationRegionalDynamics`, which turns the discussion from one-period incidence to multi-period adjustment. The optional extension anchor is `@dauthFindeisenSuedekum2017TradeManufacturingJobsGermany`, which brings structural change and entry margins into the interpretation.
+The Week 12 lab follows the standard `Reproduce -> Diagnose -> Transfer` design and keeps the bounded student path fully local. The primary anchor is [@autorDornHanson2013ChinaSyndrome], where students build a small commuting-zone trade-exposure object and track place-level employment, unemployment, and nonparticipation margins. The challenge anchor is [@dixCarneiroKovak2017TradeLiberalizationRegionalDynamics], which turns the discussion from one-period incidence to multi-period adjustment. The optional extension anchor is [@dauthFindeisenSuedekum2017TradeManufacturingJobsGermany], which brings structural change and entry margins into the interpretation.
 
 The local handout lives at [labs/12-trade-offshoring-and-labor-market-adjustment/lab.md](labs/12-trade-offshoring-and-labor-market-adjustment/lab.md). The key discipline is to force students to name the trade channel, the treatment object, the observed labor margin, and the key reallocation margin before they interpret any result.
 
@@ -254,39 +254,39 @@ Keep these distinctions explicit throughout the week.
 
 ### Ladder A. Core channel map and local exposure logic
 
-- `@autorDornHanson2013ChinaSyndrome`
-- `@pierceSchott2016SurprisinglySwiftDecline`
-- `@feenstraHanson1999OutsourcingHighTechnologyWages`
+- [@autorDornHanson2013ChinaSyndrome]
+- [@pierceSchott2016SurprisinglySwiftDecline]
+- [@feenstraHanson1999OutsourcingHighTechnologyWages]
 
 ### Ladder B. Dynamic adjustment and structural change
 
-- `@dixCarneiroKovak2017TradeLiberalizationRegionalDynamics`
-- `@dauthFindeisenSuedekum2017TradeManufacturingJobsGermany`
-- `@cravinoSotelo2019TradeInducedStructuralChange`
+- [@dixCarneiroKovak2017TradeLiberalizationRegionalDynamics]
+- [@dauthFindeisenSuedekum2017TradeManufacturingJobsGermany]
+- [@cravinoSotelo2019TradeInducedStructuralChange]
 
 ### Ladder C. Welfare and equilibrium frameworks
 
-- `@kimVogel2021TradeShocksLaborMarketAdjustment`
-- `@caliendoDvorkinParro2019TradeLaborMarketDynamics`
+- [@kimVogel2021TradeShocksLaborMarketAdjustment]
+- [@caliendoDvorkinParro2019TradeLaborMarketDynamics]
 
 ### Ladder D. Long-run worker trajectories and frontier directions
 
-- `@kovakMorrow2025LongRunCUSFTA`
-- Optional revisit: `@dauthFindeisenSuedekum2017TradeManufacturingJobsGermany`
+- [@kovakMorrow2025LongRunCUSFTA]
+- Optional revisit: [@dauthFindeisenSuedekum2017TradeManufacturingJobsGermany]
 
 ## Exercises / discussion prompts
 
 1. Use Equations {eq}`eq:trade_exposure` and {eq}`eq:trade_labor_outcome` to explain why a commuting-zone import-exposure estimate is a place-level object rather than a worker-level treatment effect.
 2. Why can import competition, export exposure, and offshoring generate different wage effects even when they all originate from trade integration?
 3. Use Equation {eq}`eq:structural_change` to give two reasons why manufacturing-to-service transition after a trade shock need not imply incumbent-worker recovery.
-4. Compare `@autorDornHanson2013ChinaSyndrome` and `@dixCarneiroKovak2017TradeLiberalizationRegionalDynamics`. What is the identifying variation, unit of observation, observed labor margin, and key offstage equilibrium margin in each paper?
-5. Why is `@dauthFindeisenSuedekum2017TradeManufacturingJobsGermany` especially useful for distinguishing place reallocation from incumbent-worker transitions?
-6. What additional assumptions or structure do `@kimVogel2021TradeShocksLaborMarketAdjustment` and `@caliendoDvorkinParro2019TradeLaborMarketDynamics` add before one can make welfare or policy statements?
+4. Compare [@autorDornHanson2013ChinaSyndrome] and [@dixCarneiroKovak2017TradeLiberalizationRegionalDynamics]. What is the identifying variation, unit of observation, observed labor margin, and key offstage equilibrium margin in each paper?
+5. Why is [@dauthFindeisenSuedekum2017TradeManufacturingJobsGermany] especially useful for distinguishing place reallocation from incumbent-worker transitions?
+6. What additional assumptions or structure do [@kimVogel2021TradeShocksLaborMarketAdjustment] and [@caliendoDvorkinParro2019TradeLaborMarketDynamics] add before one can make welfare or policy statements?
 7. Suppose a region loses manufacturing employment after an import shock but gains service employment later. What outcomes would you still need to observe before concluding that workers were fully insured?
 
 ## Reproducibility or code lab note
 
-The bounded Week 12 lab is fully local and synthetic. Students first reproduce a compact China-syndrome-style commuting-zone exposure object and recover its relationship to manufacturing employment, unemployment, and nonparticipation. They then diagnose why that design identifies place effects rather than worker welfare. The transfer exercise asks them to carry the same exposure idea into a bounded structural-change setting by comparing manufacturing-share decline, service-share growth, and unemployment under a small synthetic region-year panel inspired by `@dixCarneiroKovak2017TradeLiberalizationRegionalDynamics`. The optional extension asks them to reinterpret the same transition logic through the manufacturing-to-service evidence in `@dauthFindeisenSuedekum2017TradeManufacturingJobsGermany`.
+The bounded Week 12 lab is fully local and synthetic. Students first reproduce a compact China-syndrome-style commuting-zone exposure object and recover its relationship to manufacturing employment, unemployment, and nonparticipation. They then diagnose why that design identifies place effects rather than worker welfare. The transfer exercise asks them to carry the same exposure idea into a bounded structural-change setting by comparing manufacturing-share decline, service-share growth, and unemployment under a small synthetic region-year panel inspired by [@dixCarneiroKovak2017TradeLiberalizationRegionalDynamics]. The optional extension asks them to reinterpret the same transition logic through the manufacturing-to-service evidence in [@dauthFindeisenSuedekum2017TradeManufacturingJobsGermany].
 
 ## Slide companion note
 

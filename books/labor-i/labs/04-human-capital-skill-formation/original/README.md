@@ -1,6 +1,6 @@
 # Original benchmark note
 
-The Week 4 reproduction anchor is `@attanasioEtAl2020HumanCapital`.
+The Week 4 reproduction anchor is [@attanasioEtAl2020HumanCapital].
 
 The bounded course path does not ship the full official replication package. Instead, it uses a deterministic synthetic dataset that preserves the teaching logic of:
 

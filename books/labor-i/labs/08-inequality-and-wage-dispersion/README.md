@@ -19,10 +19,10 @@ conda run -n research python src/transfer_worker_firm_inequality.py \
 ## Recommended workflow
 
 1. Generate the local synthetic teaching files and verify the environment.
-2. Run the bounded inequality factbook reproduction in the spirit of `@autorKatzKearney2008`.
+2. Run the bounded inequality factbook reproduction in the spirit of [@autorKatzKearney2008].
 3. Read `original/source-notes.md` before interpreting the outputs as a literal paper replication.
-4. Use the transfer step to move from repeated-cross-section inequality objects to a synthetic worker-firm decomposition in the spirit of `@cardCardosoHeiningKline2018` and `@songPriceGuvenenBloomVonWachter2019`.
-5. Treat the optional extension in `lab.md` as a bridge to broader distributional synthesis in `@haanwinckel2025`.
+4. Use the transfer step to move from repeated-cross-section inequality objects to a synthetic worker-firm decomposition in the spirit of [@cardCardosoHeiningKline2018] and [@songPriceGuvenenBloomVonWachter2019].
+5. Treat the optional extension in `lab.md` as a bridge to broader distributional synthesis in [@haanwinckel2025].
 
 ## Notes
 

@@ -56,8 +56,8 @@ Figure {numref}`fig-week5-mincer` is a useful first lecture picture because it s
 
 :::{admonition} Optional Extension Block
 :class: note
-- deeper worker-firm decompositions in the spirit of `@abowdKramarzMargolis1999` and `@cardCardosoHeiningKline2018`
-- spatial sorting and skill-price differences across cities in the spirit of `@diamond2016`
+- deeper worker-firm decompositions in the spirit of [@abowdKramarzMargolis1999] and [@cardCardosoHeiningKline2018]
+- spatial sorting and skill-price differences across cities in the spirit of [@diamond2016]
 :::
 
 ## Field Core
@@ -151,7 +151,7 @@ Week 5 is where Labor I stops treating wages as simple reduced-form outcomes. We
 
 The frontier challenge is not whether schooling matters, but which return object matters for the question at hand and through which market margin that return is realized. Modern wage-determination research sits at the intersection of human capital, selection, institutions, and market assignment. That is why Week 5 has to speak both to the classical returns-to-schooling literature and to modern worker-firm and worker-place decompositions [@oreopoulos2006; @cardCardosoHeiningKline2018; @engbomMoser2017].
 
-The bounded Week 5 lab reflects that agenda in a teachable way. Students reproduce an `Oreopoulos`-style compulsory-schooling comparison on a deterministic synthetic dataset, diagnose why the OLS and IV estimates target different objects, and then transfer the workflow to a `Stephens and Yang`-style trend-sensitivity exercise. An optional reflection note asks how a measured schooling return might partly operate through access to better firms or cities in the spirit of `@engbomMoser2017` or `@diamond2016`.
+The bounded Week 5 lab reflects that agenda in a teachable way. Students reproduce an `Oreopoulos`-style compulsory-schooling comparison on a deterministic synthetic dataset, diagnose why the OLS and IV estimates target different objects, and then transfer the workflow to a `Stephens and Yang`-style trend-sensitivity exercise. An optional reflection note asks how a measured schooling return might partly operate through access to better firms or cities in the spirit of [@engbomMoser2017] or [@diamond2016].
 
 The chapter should also leave students with open research questions:
 
@@ -207,7 +207,7 @@ Week 5 adds one discipline to the Week 4 toolkit: never interpret a wage coeffic
 
 ## Reproducibility or code lab note
 
-The Week 5 lab is organized around a bounded `Reproduce -> Diagnose -> Transfer -> Reflect` path that runs fully locally. Students reproduce one synthetic compulsory-schooling design in the spirit of `@oreopoulos2006`, diagnose why the resulting OLS and IV estimates are different empirical objects, and then transfer the workflow to a `@stephensYang2014`-style trend-sensitivity exercise. The smoke path avoids restricted matched employer-employee data and keeps the sorting extension optional and conceptual. The bounded workflow is documented in [labs/05-wage-determination-returns-to-skill/lab.md](labs/05-wage-determination-returns-to-skill/lab.md).
+The Week 5 lab is organized around a bounded `Reproduce -> Diagnose -> Transfer -> Reflect` path that runs fully locally. Students reproduce one synthetic compulsory-schooling design in the spirit of [@oreopoulos2006], diagnose why the resulting OLS and IV estimates are different empirical objects, and then transfer the workflow to a trend-sensitivity exercise in the spirit of [@stephensYang2014]. The smoke path avoids restricted matched employer-employee data and keeps the sorting extension optional and conceptual. The bounded workflow is documented in [labs/05-wage-determination-returns-to-skill/lab.md](labs/05-wage-determination-returns-to-skill/lab.md).
 
 ## Slide companion note
 

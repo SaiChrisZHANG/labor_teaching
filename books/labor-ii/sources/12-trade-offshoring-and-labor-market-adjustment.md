@@ -151,34 +151,34 @@ The chapter must explicitly distinguish worker losses, place losses, and aggrega
 Use the following backbone.
 
 #### A. U.S. local import competition
-- `@autorDornHanson2013ChinaSyndrome`
-- `@pierceSchott2016SurprisinglySwiftDecline`
+- [@autorDornHanson2013ChinaSyndrome]
+- [@pierceSchott2016SurprisinglySwiftDecline]
 
 This section should establish the local-labor-market exposure logic, manufacturing decline, wage/employment effects, and the difference between trade shocks and other concurrent shocks.
 
 #### B. Dynamic regional adjustment in Brazil
-- `@dixCarneiroKovak2017TradeLiberalizationRegionalDynamics`
+- [@dixCarneiroKovak2017TradeLiberalizationRegionalDynamics]
 
 This should be the core section on dynamic adjustment, persistence, and why short-run regional estimates can understate or mischaracterize long-run transition dynamics.
 
 #### C. Manufacturing-to-service transition in Germany
-- `@dauthFindeisenSuedekum2017TradeManufacturingJobsGermany`
+- [@dauthFindeisenSuedekum2017TradeManufacturingJobsGermany]
 
 This should be the key structural-change section. Be explicit that the transition margin is not simply incumbent manufacturing workers smoothly moving into services.
 
 #### D. Trade-induced structural change and the skill premium
-- `@cravinoSotelo2019TradeInducedStructuralChange`
+- [@cravinoSotelo2019TradeInducedStructuralChange]
 
 Use this to connect trade to sectoral reallocation and inequality through relative prices, demand, and skill intensity.
 
 #### E. General framework for labor-market adjustment and welfare
-- `@kimVogel2021TradeShocksLaborMarketAdjustment`
-- `@caliendoDvorkinParro2019TradeLaborMarketDynamics`
+- [@kimVogel2021TradeShocksLaborMarketAdjustment]
+- [@caliendoDvorkinParro2019TradeLaborMarketDynamics]
 
 Use these to show what a more structured labor-market-adjustment framework adds beyond local reduced-form estimates.
 
 #### F. Long-run FTA evidence / newer direction
-- `@kovakMorrow2025LongRunCUSFTA`
+- [@kovakMorrow2025LongRunCUSFTA]
 
 Use this section to foreshadow where the literature is going:
 - long-run worker panels,
@@ -191,7 +191,7 @@ Use this section to foreshadow where the literature is going:
 Do not treat offshoring as a side comment.
 
 Use at least one classic anchor:
-- `@feenstraHanson1999OutsourcingHighTechnologyWages`
+- [@feenstraHanson1999OutsourcingHighTechnologyWages]
 
 The purpose is not to turn the week into an outsourcing history lesson. The purpose is to make clear that offshoring / fragmentation / services trade is a distinct transmission channel from classic final-goods import competition.
 
@@ -235,13 +235,13 @@ The Research Lab should be especially strong this week.
 Use Reproduce -> Diagnose -> Transfer.
 
 ### Primary lab anchor
-- `@autorDornHanson2013ChinaSyndrome`
+- [@autorDornHanson2013ChinaSyndrome]
 
 ### Secondary / challenge anchor
-- `@dixCarneiroKovak2017TradeLiberalizationRegionalDynamics`
+- [@dixCarneiroKovak2017TradeLiberalizationRegionalDynamics]
 
 ### Optional extension anchor
-- `@dauthFindeisenSuedekum2017TradeManufacturingJobsGermany`
+- [@dauthFindeisenSuedekum2017TradeManufacturingJobsGermany]
 
 ### What students should learn
 - how a local-exposure design is constructed,

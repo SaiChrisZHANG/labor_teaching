@@ -9,13 +9,13 @@
 **Estimated student time:** 4 core hours + 2 optional hours  
 **Prerequisites:** Weeks 4 and 9, grouped-data intuition, basic `pandas`, simple plots, and comfort distinguishing measured hazards from inferred residuals  
 **Core economic question:** Which aggregate labor-market object is being measured, which margin is directly observed, which margin is inferred, and how does that answer change when we move from matching residuals to stock-flow decompositions and job-to-job mobility?  
-**Primary source anchor:** `@barnichonFigura2015AggregateMatching`  
-**Secondary / challenge anchor:** `@elsbyMichaelsSolon2009InsOuts`  
-**Optional extension anchor:** `@karahanMichaelsPugsleySahinSchuh2017JobToJob`
+**Primary source anchor:** [@barnichonFigura2015AggregateMatching]  
+**Secondary / challenge anchor:** [@elsbyMichaelsSolon2009InsOuts]  
+**Optional extension anchor:** [@karahanMichaelsPugsleySahinSchuh2017JobToJob]
 
 ## Why this lab exists
 
-Week 10 becomes muddy fast if students say “the labor market got worse” without naming whether they mean higher unemployment, lower job finding, higher separations, lower matching efficiency, weaker job ladders, or slower wage growth. `@barnichonFigura2015AggregateMatching` is the right reproduction anchor because it forces the distinction between observed stocks and an inferred matching residual. `@elsbyMichaelsSolon2009InsOuts` is the challenge anchor because it reminds us that unemployment is a stock governed by inflow and outflow hazards. `@karahanMichaelsPugsleySahinSchuh2017JobToJob` is the optional extension because cyclical wage growth also moves through employed search and direct job-to-job mobility.
+Week 10 becomes muddy fast if students say “the labor market got worse” without naming whether they mean higher unemployment, lower job finding, higher separations, lower matching efficiency, weaker job ladders, or slower wage growth. [@barnichonFigura2015AggregateMatching] is the right reproduction anchor because it forces the distinction between observed stocks and an inferred matching residual. [@elsbyMichaelsSolon2009InsOuts] is the challenge anchor because it reminds us that unemployment is a stock governed by inflow and outflow hazards. [@karahanMichaelsPugsleySahinSchuh2017JobToJob] is the optional extension because cyclical wage growth also moves through employed search and direct job-to-job mobility.
 
 ## Learning objectives
 
@@ -144,7 +144,7 @@ Shift from unemployment and matching to employed search, direct job-to-job mobil
 1. Inspect `output/transfer/job_to_job_wage_panel.csv`.
 2. Compare incumbent wage growth, mover wage growth, and the aggregate series.
 3. Explain why a weak labor market can flatten wage growth by compressing job-to-job mobility even if incumbent wages barely move.
-4. Write one paragraph connecting the transfer outputs back to `@karahanMichaelsPugsleySahinSchuh2017JobToJob`.
+4. Write one paragraph connecting the transfer outputs back to [@karahanMichaelsPugsleySahinSchuh2017JobToJob].
 
 ### Transfer directions you are allowed to propose
 
@@ -165,9 +165,9 @@ Choose one extension only.
 
 Students should say these plainly.
 
-1. The bounded reproduction path uses synthetic aggregate data; it does not reproduce the original heterogeneity-rich data environment in `@barnichonFigura2015AggregateMatching`.
-2. The diagnosis path uses synthetic hazards; it does not reproduce the full CPS accounting and classification challenges in `@elsbyMichaelsSolon2009InsOuts`.
-3. The transfer path uses synthetic job-to-job and wage-growth components; it does not recover the full matched worker-firm structure in `@karahanMichaelsPugsleySahinSchuh2017JobToJob`.
+1. The bounded reproduction path uses synthetic aggregate data; it does not reproduce the original heterogeneity-rich data environment in [@barnichonFigura2015AggregateMatching].
+2. The diagnosis path uses synthetic hazards; it does not reproduce the full CPS accounting and classification challenges in [@elsbyMichaelsSolon2009InsOuts].
+3. The transfer path uses synthetic job-to-job and wage-growth components; it does not recover the full matched worker-firm structure in [@karahanMichaelsPugsleySahinSchuh2017JobToJob].
 4. None of the bounded paths identify the full equilibrium search environment, the full offer distribution, or the complete general-equilibrium response of vacancies and wages.
 
 ## Deliverables checklist

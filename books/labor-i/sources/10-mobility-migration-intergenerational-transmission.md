@@ -85,28 +85,28 @@ These are the starter references that should appear in the Week 10 chapter, slid
 
 ### Core conceptual and synthesis references
 
-- `@roy1951`
-- `@borjas1987`
-- `@kennanWalker2011`
-- `@jiaMolloySmithWozniak2023`
+- [@roy1951]
+- [@borjas1987]
+- [@kennanWalker2011]
+- [@jiaMolloySmithWozniak2023]
 
 ### Worker mobility and measurement references
 
-- `@cardHeiningKline2013`
-- `@fujitaMoscariniPostelVinay2024`
+- [@cardHeiningKline2013]
+- [@fujitaMoscariniPostelVinay2024]
 
 ### Migration and labor-market reallocation references
 
-- `@beerliRuffnerSiegenthalerPeri2021`
-- `@fogedPeri2016`
-- `@vanDoornikGomesSchoenherrSkrastins2024`
+- [@beerliRuffnerSiegenthalerPeri2021]
+- [@fogedPeri2016]
+- [@vanDoornikGomesSchoenherrSkrastins2024]
 
 ### Intergenerational transmission references
 
-- `@chettyHendrenKlineSaezTurner2014`
-- `@acciariPoloViolante2022`
-- `@haeckLaliberte2025`
-- `@abramitzkyBoustanJacomePerez2021`
+- [@chettyHendrenKlineSaezTurner2014]
+- [@acciariPoloViolante2022]
+- [@haeckLaliberte2025]
+- [@abramitzkyBoustanJacomePerez2021]
 
 ## Section-level content requirements
 
@@ -301,7 +301,7 @@ Use the standard Reproduce -> Diagnose -> Transfer workflow.
 
 ### Primary lab anchor
 
-- `@vanDoornikGomesSchoenherrSkrastins2024`
+- [@vanDoornikGomesSchoenherrSkrastins2024]
 
 Why:
 - it is labor-focused geographic mobility rather than a broad place-policy paper;
@@ -310,7 +310,7 @@ Why:
 
 ### Secondary / challenge anchor
 
-- `@beerliRuffnerSiegenthalerPeri2021`
+- [@beerliRuffnerSiegenthalerPeri2021]
 
 Why:
 - it turns migration policy into a labor-market reallocation design;
@@ -318,9 +318,9 @@ Why:
 
 ### Optional extension anchors
 
-- `@haeckLaliberte2025`
-- `@fujitaMoscariniPostelVinay2024`
-- `@abramitzkyBoustanJacomePerez2021`
+- [@haeckLaliberte2025]
+- [@fujitaMoscariniPostelVinay2024]
+- [@abramitzkyBoustanJacomePerez2021]
 
 ## Code-lab transfer ideas
 

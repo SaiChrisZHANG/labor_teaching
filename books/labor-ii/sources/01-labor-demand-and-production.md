@@ -56,16 +56,16 @@ These are the starter references that should appear in the Week 1 chapter, slide
 
 ### Core benchmark references
 
-- `@hicks1932`
-- `@hamermesh1993`
-- `@acemogluAutor2011`
+- [@hicks1932]
+- [@hamermesh1993]
+- [@acemogluAutor2011]
 
 ### Core empirical and modern labor-demand references
 
-- `@beaudryGreenSand2018`
-- `@saezSchoeferSeim2019`
-- `@buttersSacksSeo2022`
-- `@cardCardosoHeiningKline2018`
+- [@beaudryGreenSand2018]
+- [@saezSchoeferSeim2019]
+- [@buttersSacksSeo2022]
+- [@cardCardosoHeiningKline2018]
 
 ## Section-level content requirements
 
@@ -275,15 +275,15 @@ The chapter should end with a real reading ladder.
 
 ### Core reading ladder
 
-- `@hamermesh1993`
-- `@beaudryGreenSand2018`
-- `@saezSchoeferSeim2019`
+- [@hamermesh1993]
+- [@beaudryGreenSand2018]
+- [@saezSchoeferSeim2019]
 
 ### Supporting/extension ladder
 
-- `@buttersSacksSeo2022`
-- `@cardCardosoHeiningKline2018`
-- `@acemogluAutor2011`
+- [@buttersSacksSeo2022]
+- [@cardCardosoHeiningKline2018]
+- [@acemogluAutor2011]
 
 The reading ladder should say explicitly:
 - what is benchmark theory,
@@ -308,7 +308,7 @@ Keep the standard **Reproduce -> Diagnose -> Transfer** structure.
 
 ### Primary lab anchor
 
-- `@beaudryGreenSand2018`
+- [@beaudryGreenSand2018]
 
 Rationale:
 - directly about labor demand;
@@ -317,7 +317,7 @@ Rationale:
 
 ### Secondary / challenge anchor
 
-- `@saezSchoeferSeim2019`
+- [@saezSchoeferSeim2019]
 
 Rationale:
 - excellent for static labor-demand and incidence intuition;
@@ -326,7 +326,7 @@ Rationale:
 
 ### Optional extension anchor
 
-- `@buttersSacksSeo2022`
+- [@buttersSacksSeo2022]
 
 Rationale:
 - strong product-market/cost-shock perspective;

@@ -1,6 +1,6 @@
 # Original-study anchor
 
-The primary anchor for the bounded Week 4 lab is `@hallSchulhoferWohl2018`.
+The primary anchor for the bounded Week 4 lab is [@hallSchulhoferWohl2018].
 
 This folder does not contain the published paper's full data environment. Instead, it contains a synthetic teaching dataset that preserves the main pedagogical object for Week 4:
 

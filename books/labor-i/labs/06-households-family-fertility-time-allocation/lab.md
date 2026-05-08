@@ -16,7 +16,7 @@
 
 ## Why this lab exists
 
-Week 6 asks students to stop treating children as a regression control and start treating fertility and caregiving as labor-market shocks that reallocate time inside the household. The bounded lab makes that move concrete: students first estimate a causal fertility effect in the spirit of `@lundborgPlugRasmussen2017`, then trace dynamic child-penalty paths in the spirit of `@klevenLandaisSogaard2019`.
+Week 6 asks students to stop treating children as a regression control and start treating fertility and caregiving as labor-market shocks that reallocate time inside the household. The bounded lab makes that move concrete: students first estimate a causal fertility effect in the spirit of [@lundborgPlugRasmussen2017], then trace dynamic child-penalty paths in the spirit of [@klevenLandaisSogaard2019].
 
 ## Learning objectives
 
@@ -169,7 +169,7 @@ Run `src/transfer_child_penalty_event_study.py` on the synthetic panel file and 
 
 ## Part IV. Optional policy extension
 
-Use `@gelbach2002`, `@cortesTessada2011`, or `@klevenLandaisPoschSteinhauerZweimueller2024` to write a short note on how a cheaper care substitute or a family-policy expansion could move the same household-allocation problem. The goal is not to estimate a full policy model here. The goal is to translate Week 6 theory into a clean comparative-static or design memo.
+Use [@gelbach2002], [@cortesTessada2011], or [@klevenLandaisPoschSteinhauerZweimueller2024] to write a short note on how a cheaper care substitute or a family-policy expansion could move the same household-allocation problem. The goal is not to estimate a full policy model here. The goal is to translate Week 6 theory into a clean comparative-static or design memo.
 
 ## Part V. Reflection
 

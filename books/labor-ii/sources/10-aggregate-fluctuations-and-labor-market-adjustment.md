@@ -65,29 +65,29 @@ By the end of the week, students should be able to:
 ## Canonical references for Week 10
 
 ### Conceptual and framework references
-- Shimer, equilibrium unemployment and vacancy volatility @shimer2005CyclicalBehavior
-- Hall, equilibrium wage stickiness @hall2005EquilibriumWageStickiness
-- Mortensen and Pissarides, endogenous job creation and destruction @mortensenPissarides1994JobCreation
-- Rogerson, Shimer, and Wright, survey of search-theoretic labor models @rogersonShimerWright2005Survey
-- Elsby, Michaels, and Ratner, Beveridge-curve survey @elsbyMichaelsRatner2015Beveridge
+- Shimer, equilibrium unemployment and vacancy volatility [@shimer2005CyclicalBehavior]
+- Hall, equilibrium wage stickiness [@hall2005EquilibriumWageStickiness]
+- Mortensen and Pissarides, endogenous job creation and destruction [@mortensenPissarides1994JobCreation]
+- Rogerson, Shimer, and Wright, survey of search-theoretic labor models [@rogersonShimerWright2005Survey]
+- Elsby, Michaels, and Ratner, Beveridge-curve survey [@elsbyMichaelsRatner2015Beveridge]
 
 ### Core evidence on stocks, flows, and cyclical unemployment
-- Elsby, Michaels, and Solon, ins and outs of cyclical unemployment @elsbyMichaelsSolon2009InsOuts
-- Krusell, Mukoyama, Rogerson, and Şahin, gross worker flows over the cycle @krusellMukoyamaRogersonSahin2017GrossFlows
-- Fujita and Ramey, endogenous separation and Beveridge dynamics @fujitaRamey2012EndogenousSeparation
+- Elsby, Michaels, and Solon, ins and outs of cyclical unemployment [@elsbyMichaelsSolon2009InsOuts]
+- Krusell, Mukoyama, Rogerson, and Şahin, gross worker flows over the cycle [@krusellMukoyamaRogersonSahin2017GrossFlows]
+- Fujita and Ramey, endogenous separation and Beveridge dynamics [@fujitaRamey2012EndogenousSeparation]
 
 ### Matching efficiency and Beveridge-curve shifts
-- Barnichon and Figura, aggregate matching function and heterogeneity @barnichonFigura2015AggregateMatching
-- Barlevy, Faberman, Hobijn, and Şahin, shifting reasons for Beveridge-curve shifts @barlevyFabermanHobijnSahin2024BeveridgeShifts
+- Barnichon and Figura, aggregate matching function and heterogeneity [@barnichonFigura2015AggregateMatching]
+- Barlevy, Faberman, Hobijn, and Şahin, shifting reasons for Beveridge-curve shifts [@barlevyFabermanHobijnSahin2024BeveridgeShifts]
 
 ### Separations, job ladders, and composition of unemployment
-- Mueller, separations, sorting, and cyclical unemployment @mueller2017SeparationsSorting
-- Haltiwanger, Hyatt, Kahn, and McEntarfer, cyclical job ladders @haltiwangerHyattKahnMcEntarfer2018CyclicalJobLadders
+- Mueller, separations, sorting, and cyclical unemployment [@mueller2017SeparationsSorting]
+- Haltiwanger, Hyatt, Kahn, and McEntarfer, cyclical job ladders [@haltiwangerHyattKahnMcEntarfer2018CyclicalJobLadders]
 
 ### Wages, job-to-job transitions, and sorting
-- Karahan, Michaels, Pugsley, Şahin, and Schuh, job-to-job transitions and wage fluctuations @karahanMichaelsPugsleySahinSchuh2017JobToJob
-- Figueiredo, wage cyclicality and labor-market sorting @figueiredo2022WageCyclicality
-- Morales-Jiménez, unemployment and wages under information frictions [optional theory extension] @moralesJimenez2022InformationFrictions
+- Karahan, Michaels, Pugsley, Şahin, and Schuh, job-to-job transitions and wage fluctuations [@karahanMichaelsPugsleySahinSchuh2017JobToJob]
+- Figueiredo, wage cyclicality and labor-market sorting [@figueiredo2022WageCyclicality]
+- Morales-Jiménez, unemployment and wages under information frictions [optional theory extension] [@moralesJimenez2022InformationFrictions]
 
 ## Non-negotiable formal core
 
@@ -176,7 +176,7 @@ Then define match surplus
 S_t = J_t + W_t - U_t,
 ```
 
-and explain that the Shimer volatility problem is fundamentally about why plausible aggregate shocks do not move the surplus enough in the benchmark model @shimer2005CyclicalBehavior, while Hall’s wage-stickiness argument effectively keeps wages from absorbing too much of the shock and thereby amplifies vacancy creation @hall2005EquilibriumWageStickiness.
+and explain that the Shimer volatility problem is fundamentally about why plausible aggregate shocks do not move the surplus enough in the benchmark model [@shimer2005CyclicalBehavior], while Hall’s wage-stickiness argument effectively keeps wages from absorbing too much of the shock and thereby amplifies vacancy creation [@hall2005EquilibriumWageStickiness].
 
 You do **not** need to turn the week into a full wage-bargaining lecture, but you do need enough math for students to see why the surplus is the object that matters.
 
@@ -189,7 +189,7 @@ Do not present “matching efficiency” only as a verbal concept. Write down th
 \mu_t = \frac{m_t}{u_t^{\alpha} v_t^{1-\alpha}}.
 ```
 
-Then immediately warn that this is not automatically a structural primitive. The same residual can move because of search intensity, heterogeneity, vacancy composition, worker composition, or segmentation @barnichonFigura2015AggregateMatching; @barlevyFabermanHobijnSahin2024BeveridgeShifts.
+Then immediately warn that this is not automatically a structural primitive. The same residual can move because of search intensity, heterogeneity, vacancy composition, worker composition, or segmentation [@barnichonFigura2015AggregateMatching]; [@barlevyFabermanHobijnSahin2024BeveridgeShifts].
 
 Under exogenous separation, the steady-state Beveridge object can be written as
 
@@ -216,7 +216,7 @@ or, if you want the integral form,
 s_t = \int \mathbf{1}\{S_t(z) < 0\}\, dG_t(z).
 ```
 
-The point is to show students that recessionary unemployment can rise because matches that were marginally viable in good times are no longer viable in bad times @mortensenPissarides1994JobCreation; @fujitaRamey2012EndogenousSeparation.
+The point is to show students that recessionary unemployment can rise because matches that were marginally viable in good times are no longer viable in bad times [@mortensenPissarides1994JobCreation]; [@fujitaRamey2012EndogenousSeparation].
 
 ### F. On-the-job search, job ladders, and churning
 
@@ -227,7 +227,7 @@ The lecture should also include one simple job-to-job object. A reduced-form on-
 EE_t = \lambda_t^{e}\Pr\!\left(w' > w\right),
 ```
 
-where {math}`\lambda_t^{e}` is the employed offer-arrival rate. Students should see that cyclical wage growth can collapse partly because the {math}`EE_t` margin collapses, not only because the unemployed find jobs less often @karahanMichaelsPugsleySahinSchuh2017JobToJob.
+where {math}`\lambda_t^{e}` is the employed offer-arrival rate. Students should see that cyclical wage growth can collapse partly because the {math}`EE_t` margin collapses, not only because the unemployed find jobs less often [@karahanMichaelsPugsleySahinSchuh2017JobToJob].
 
 For churning/excess worker reallocation, include one accounting identity such as
 
@@ -247,43 +247,43 @@ There should be at least one explicit measurement equation showing why wage cycl
 \Delta \log \bar w_t = \beta^{I} \, cyc_t + \omega_t^{EE}\beta^{EE} \, cyc_t + comp_t + sort_t,
 ```
 
-where {math}`\beta^{I}` captures incumbent wage cyclicality, {math}`\beta^{EE}` captures mover/job-ladder cyclicality, and {math}`comp_t` and {math}`sort_t` capture selection and sorting. The point is not the exact parametric form; the point is to make students see why “wages are weakly cyclical” is often a composition statement, not a clean structural claim @figueiredo2022WageCyclicality.
+where {math}`\beta^{I}` captures incumbent wage cyclicality, {math}`\beta^{EE}` captures mover/job-ladder cyclicality, and {math}`comp_t` and {math}`sort_t` capture selection and sorting. The point is not the exact parametric form; the point is to make students see why “wages are weakly cyclical” is often a composition statement, not a clean structural claim [@figueiredo2022WageCyclicality].
 
 ## Reading-ladder design
 
 ### Ladder A. Canonical framework and the volatility puzzle
-- @rogersonShimerWright2005Survey
-- @shimer2005CyclicalBehavior
-- @hall2005EquilibriumWageStickiness
+- [@rogersonShimerWright2005Survey]
+- [@shimer2005CyclicalBehavior]
+- [@hall2005EquilibriumWageStickiness]
 
 ### Ladder B. Flow accounting and Beveridge-curve interpretation
-- @elsbyMichaelsSolon2009InsOuts
-- @elsbyMichaelsRatner2015Beveridge
-- @barnichonFigura2015AggregateMatching
+- [@elsbyMichaelsSolon2009InsOuts]
+- [@elsbyMichaelsRatner2015Beveridge]
+- [@barnichonFigura2015AggregateMatching]
 
 ### Ladder C. Endogenous separation, reallocation, and job ladders
-- @mortensenPissarides1994JobCreation
-- @fujitaRamey2012EndogenousSeparation
-- @mueller2017SeparationsSorting
-- @haltiwangerHyattKahnMcEntarfer2018CyclicalJobLadders
+- [@mortensenPissarides1994JobCreation]
+- [@fujitaRamey2012EndogenousSeparation]
+- [@mueller2017SeparationsSorting]
+- [@haltiwangerHyattKahnMcEntarfer2018CyclicalJobLadders]
 
 ### Ladder D. Wages, job-to-job transitions, and match quality
-- @karahanMichaelsPugsleySahinSchuh2017JobToJob
-- @figueiredo2022WageCyclicality
-- @barlevyFabermanHobijnSahin2024BeveridgeShifts
+- [@karahanMichaelsPugsleySahinSchuh2017JobToJob]
+- [@figueiredo2022WageCyclicality]
+- [@barlevyFabermanHobijnSahin2024BeveridgeShifts]
 
 ## Lab design spine
 
 The lab should follow the standard Reproduce -> Diagnose -> Transfer structure.
 
 ### Primary anchor
-- `@barnichonFigura2015AggregateMatching`
+- [@barnichonFigura2015AggregateMatching]
 
 ### Secondary / challenge anchor
-- `@elsbyMichaelsSolon2009InsOuts`
+- [@elsbyMichaelsSolon2009InsOuts]
 
 ### Optional extension anchor
-- `@karahanMichaelsPugsleySahinSchuh2017JobToJob`
+- [@karahanMichaelsPugsleySahinSchuh2017JobToJob]
 
 ### Transfer ideas
 
@@ -411,12 +411,12 @@ If figures do not yet exist, create clean schematic figures with these stable fi
 ## Optional extension block
 
 ### Extension A. Beveridge-curve shifts and post-2020 labor markets
-- use @barlevyFabermanHobijnSahin2024BeveridgeShifts
+- use [@barlevyFabermanHobijnSahin2024BeveridgeShifts]
 - discuss why the source of Beveridge shifts changed across eras
 - connect measurement to policy interpretation
 
 ### Extension B. Job ladders, match quality, and wage composition
-- use @haltiwangerHyattKahnMcEntarfer2018CyclicalJobLadders and @figueiredo2022WageCyclicality
+- use [@haltiwangerHyattKahnMcEntarfer2018CyclicalJobLadders] and [@figueiredo2022WageCyclicality]
 - focus on how reallocation margins change measured wages and job quality over the cycle
 
 ## What to avoid

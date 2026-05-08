@@ -9,13 +9,13 @@
 **Estimated student time:** 4 core hours + 2 optional hours  
 **Prerequisites:** Week 1 module, basic command-line work, introductory `pandas`, comfort reading time paths and event-study style figures  
 **Core economic question:** How do economists learn about adjustment frictions from dynamic response paths rather than from one-shot employment elasticities?  
-**Primary source anchor:** `@dibiasiMikoschSarferaz2025`  
-**Challenge anchor:** `@caballeroEngelHaltiwanger1997`  
-**Optional extension anchor:** `@saezSchoeferSeim2019`
+**Primary source anchor:** [@dibiasiMikoschSarferaz2025]  
+**Challenge anchor:** [@caballeroEngelHaltiwanger1997]  
+**Optional extension anchor:** [@saezSchoeferSeim2019]
 
 ## Why this lab exists
 
-Week 2 should not stop at saying that employment is persistent. `@dibiasiMikoschSarferaz2025` is a strong teaching anchor because it keeps firm beliefs, uncertainty, and timing in view. The local bounded path therefore teaches students to read target-versus-actual gaps, adjustment speeds, and hours-headcount differences rather than treating a single employment slope as the whole story.
+Week 2 should not stop at saying that employment is persistent. [@dibiasiMikoschSarferaz2025] is a strong teaching anchor because it keeps firm beliefs, uncertainty, and timing in view. The local bounded path therefore teaches students to read target-versus-actual gaps, adjustment speeds, and hours-headcount differences rather than treating a single employment slope as the whole story.
 
 ## Learning objectives
 
@@ -48,7 +48,7 @@ This lab is intentionally bounded.
 
 ### Official package reality
 
-The bounded path here is not a literal replication package for `@dibiasiMikoschSarferaz2025`. It is a synthetic teaching workflow inspired by the paper's design logic: firm beliefs, uncertainty, and adjustment paths. The goal is to practice Week 2 reasoning cleanly, not to ship the full data environment of the published paper.
+The bounded path here is not a literal replication package for [@dibiasiMikoschSarferaz2025]. It is a synthetic teaching workflow inspired by the paper's design logic: firm beliefs, uncertainty, and adjustment paths. The goal is to practice Week 2 reasoning cleanly, not to ship the full data environment of the published paper.
 
 ### First commands to run
 
@@ -96,7 +96,7 @@ Move from "employment adjusts slowly" to "I know what this dynamic object means.
 2. Name the observed margin in one sentence.
 3. Explain the difference between target employment and actual employment in the bounded panel.
 4. Explain whether the synthetic design is closer to policy timing evidence, uncertainty evidence, or structural estimation.
-5. Say what the challenge paper `@caballeroEngelHaltiwanger1997` adds that the bounded path does not.
+5. Say what the challenge paper [@caballeroEngelHaltiwanger1997] adds that the bounded path does not.
 
 ### Minimum output
 
@@ -116,7 +116,7 @@ Use the Week 2 framework on a small scenario file that compares convex adjustmen
 2. Inspect `output/transfer/dynamic_adjustment_paths.csv`.
 3. Open `output/transfer/dynamic_adjustment_transfer.png`.
 4. Compare how the same target shift can produce different headcount paths under convex versus nonconvex costs.
-5. Explain why the payroll-tax scenario is the natural bridge to `@saezSchoeferSeim2019`.
+5. Explain why the payroll-tax scenario is the natural bridge to [@saezSchoeferSeim2019].
 
 ### Acceptable transfer interpretations
 
@@ -128,8 +128,8 @@ Use the Week 2 framework on a small scenario file that compares convex adjustmen
 
 Use one extension only.
 
-1. Read `@caballeroEngelHaltiwanger1997` and explain why micro-level lumpiness can coexist with smoother aggregate adjustment.
-2. Read `@saezSchoeferSeim2019` and explain why a payroll-tax reform should be interpreted over event time rather than at one horizon only.
+1. Read [@caballeroEngelHaltiwanger1997] and explain why micro-level lumpiness can coexist with smoother aggregate adjustment.
+2. Read [@saezSchoeferSeim2019] and explain why a payroll-tax reform should be interpreted over event time rather than at one horizon only.
 
 ## Deliverables checklist
 
@@ -137,7 +137,7 @@ Use one extension only.
 - [ ] reproduced event-path table and figure  
 - [ ] one-page diagnose memo  
 - [ ] transfer path table and figure  
-- [ ] short bridge note to `@caballeroEngelHaltiwanger1997`  
+- [ ] short bridge note to [@caballeroEngelHaltiwanger1997]  
 - [ ] final reflection memo
 
 ## Instructor notes

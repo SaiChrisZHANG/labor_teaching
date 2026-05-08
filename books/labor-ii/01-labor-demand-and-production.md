@@ -220,9 +220,9 @@ Week 1 also previews why firm heterogeneity matters. Firms with different cost s
 
 An optional extension can go in either of two directions.
 
-The first is rent sharing. `@cardCardosoHeiningKline2018` is a useful bridge because it shows how firm-specific rents map into wage inequality. That evidence sits at the boundary between pure derived demand and wage-setting, which makes it a natural preview of Weeks 5 and 6.
+The first is rent sharing. [@cardCardosoHeiningKline2018] is a useful bridge because it shows how firm-specific rents map into wage inequality. That evidence sits at the boundary between pure derived demand and wage-setting, which makes it a natural preview of Weeks 5 and 6.
 
-The second is product-market pass-through. `@buttersSacksSeo2022` is a useful extension because it shows why local cost shocks need not translate one-for-one into local employment changes when multi-market or national firms can absorb shocks through broader pricing and production margins.
+The second is product-market pass-through. [@buttersSacksSeo2022] is a useful extension because it shows why local cost shocks need not translate one-for-one into local employment changes when multi-market or national firms can absorb shocks through broader pricing and production margins.
 
 ## Methods Box
 
@@ -242,19 +242,19 @@ The practical rule is simple: do not report an empirical result without naming t
 
 ### Bridge
 
-- `@hicks1932` for the original derived-demand logic and the language behind the Hicks--Marshall laws.
-- `@hamermesh1993` for the canonical labor-demand benchmark and the cleanest field-style treatment of elasticities.
+- [@hicks1932] for the original derived-demand logic and the language behind the Hicks--Marshall laws.
+- [@hamermesh1993] for the canonical labor-demand benchmark and the cleanest field-style treatment of elasticities.
 
 ### Field Core
 
-- `@beaudryGreenSand2018` for a modern city-industry labor-demand design that emphasizes local demand variation and equilibrium spillovers.
-- `@saezSchoeferSeim2019` for payroll-tax incidence, labor-cost wedges, and the link from static demand to wage-setting.
-- `@acemogluAutor2011` for the broader technology, task, and substitution perspective that places Week 1 inside contemporary labor economics.
+- [@beaudryGreenSand2018] for a modern city-industry labor-demand design that emphasizes local demand variation and equilibrium spillovers.
+- [@saezSchoeferSeim2019] for payroll-tax incidence, labor-cost wedges, and the link from static demand to wage-setting.
+- [@acemogluAutor2011] for the broader technology, task, and substitution perspective that places Week 1 inside contemporary labor economics.
 
 ### Research Lab
 
-- `@buttersSacksSeo2022` for product-market absorption of local cost shocks.
-- `@cardCardosoHeiningKline2018` for firm rents, wage inequality, and the boundary between derived demand and surplus sharing.
+- [@buttersSacksSeo2022] for product-market absorption of local cost shocks.
+- [@cardCardosoHeiningKline2018] for firm rents, wage inequality, and the boundary between derived demand and surplus sharing.
 
 ## Exercises / discussion prompts
 
@@ -266,7 +266,7 @@ The practical rule is simple: do not report an empirical result without naming t
 
 ## Reproducibility or code lab note
 
-The Week 1 lab follows the standard `Reproduce -> Diagnose -> Transfer` workflow. The bounded reproduction path uses a local synthetic city-industry panel inspired by `@beaudryGreenSand2018` so students can estimate a compact labor-demand relationship without confidential microdata. The diagnose step asks students to say clearly which object the local-demand design identifies and which margins it misses. The transfer step then uses a stylized payroll-tax scenario file to compare conditional and total labor-demand logic, with `@saezSchoeferSeim2019` as the challenge anchor and `@buttersSacksSeo2022` as the optional extension on product-market absorption. The local handout lives at [labs/01-labor-demand-and-production/lab.md](labs/01-labor-demand-and-production/lab.md).
+The Week 1 lab follows the standard `Reproduce -> Diagnose -> Transfer` workflow. The bounded reproduction path uses a local synthetic city-industry panel inspired by [@beaudryGreenSand2018] so students can estimate a compact labor-demand relationship without confidential microdata. The diagnose step asks students to say clearly which object the local-demand design identifies and which margins it misses. The transfer step then uses a stylized payroll-tax scenario file to compare conditional and total labor-demand logic, with [@saezSchoeferSeim2019] as the challenge anchor and [@buttersSacksSeo2022] as the optional extension on product-market absorption. The local handout lives at [labs/01-labor-demand-and-production/lab.md](labs/01-labor-demand-and-production/lab.md).
 
 ## Slide companion note
 

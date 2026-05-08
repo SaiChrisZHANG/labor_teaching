@@ -77,47 +77,47 @@ By the end of the week, students should be able to:
 This week does not need a large new reading load. Instead, it should use a compact menu of anchor papers that represent the main blocks of Labor II.
 
 ### Firm behavior and labor demand
-- Hicks, *The Theory of Wages* @hicks1932
-- Hamermesh, *Labor Demand* @hamermesh1993
-- Beaudry, Green, and Sand, labor demand and product-demand channels @beaudryGreenSand2018
-- Saez, Schoefer, and Seim, labor costs, incidence, and rent sharing @saezSchoeferSeim2019
+- Hicks, *The Theory of Wages* [@hicks1932]
+- Hamermesh, *Labor Demand* [@hamermesh1993]
+- Beaudry, Green, and Sand, labor demand and product-demand channels [@beaudryGreenSand2018]
+- Saez, Schoefer, and Seim, labor costs, incidence, and rent sharing [@saezSchoeferSeim2019]
 
 ### Search, wage-setting, and power
-- Mortensen and Pissarides, job creation and job destruction @mortensenPissarides1994
-- Hall and Milgrom, bargaining and the value of nonemployment @hallMilgrom2008
-- Yeh, Macaluso, and Hershbein, monopsony measurement @yehMacalusoHershbein2022
+- Mortensen and Pissarides, job creation and job destruction [@mortensenPissarides1994]
+- Hall and Milgrom, bargaining and the value of nonemployment [@hallMilgrom2008]
+- Yeh, Macaluso, and Hershbein, monopsony measurement [@yehMacalusoHershbein2022]
 
 ### Institutions and regulation
-- Cengiz et al., minimum wages and low-wage jobs @cengizDubeLindnerZipperer2019
-- Jäger, Naidu, and Schoefer, collective bargaining and the wage structure @jagerNaiduSchoefer2024
-- MacLeod, labor law and incomplete contracts @macleod2011GreatExpectations
+- Cengiz et al., minimum wages and low-wage jobs [@cengizDubeLindnerZipperer2019]
+- Jäger, Naidu, and Schoefer, collective bargaining and the wage structure [@jagerNaiduSchoefer2024]
+- MacLeod, labor law and incomplete contracts [@macleod2011GreatExpectations]
 
 ### Market-level shocks and adjustment
-- Shimer, cyclical unemployment and vacancies @shimer2005CyclicalBehavior
-- Acemoglu and Restrepo, robots and local labor markets @acemogluRestrepo2020RobotsJobs
-- Autor, Dorn, and Hanson, local trade exposure @autorDornHanson2013ChinaSyndrome
-- Kim and Vogel, trade shocks and labor-market adjustment @kimVogel2021TradeShocksLaborMarketAdjustment
+- Shimer, cyclical unemployment and vacancies [@shimer2005CyclicalBehavior]
+- Acemoglu and Restrepo, robots and local labor markets [@acemogluRestrepo2020RobotsJobs]
+- Autor, Dorn, and Hanson, local trade exposure [@autorDornHanson2013ChinaSyndrome]
+- Kim and Vogel, trade shocks and labor-market adjustment [@kimVogel2021TradeShocksLaborMarketAdjustment]
 
 ## Reading ladder design
 
 There should be no large set of new required readings. The reading ladder should function as a synthesis menu.
 
 ### Ladder A. Course architecture and classic foundations
-- @hicks1932
-- @hamermesh1993
-- @mortensenPissarides1994
+- [@hicks1932]
+- [@hamermesh1993]
+- [@mortensenPissarides1994]
 
 ### Ladder B. Wage-setting, power, and institutions
-- @saezSchoeferSeim2019
-- @yehMacalusoHershbein2022
-- @cengizDubeLindnerZipperer2019
-- @jagerNaiduSchoefer2024
+- [@saezSchoeferSeim2019]
+- [@yehMacalusoHershbein2022]
+- [@cengizDubeLindnerZipperer2019]
+- [@jagerNaiduSchoefer2024]
 
 ### Ladder C. Shocks and adjustment
-- @shimer2005CyclicalBehavior
-- @acemogluRestrepo2020RobotsJobs
-- @autorDornHanson2013ChinaSyndrome
-- @kimVogel2021TradeShocksLaborMarketAdjustment
+- [@shimer2005CyclicalBehavior]
+- [@acemogluRestrepo2020RobotsJobs]
+- [@autorDornHanson2013ChinaSyndrome]
+- [@kimVogel2021TradeShocksLaborMarketAdjustment]
 
 ### Ladder D. Frontier menu for dissertation ideas
 - one paper from the labor-power block,
@@ -136,12 +136,12 @@ Use **Diagnose -> Compare -> Design**.
 Students should choose one anchor paper, or one tightly related pair, from a menu spanning the course.
 
 Required menu entries:
-- `@saezSchoeferSeim2019`
-- `@yehMacalusoHershbein2022`
-- `@cengizDubeLindnerZipperer2019`
-- `@jagerNaiduSchoefer2024`
-- `@acemogluRestrepo2020RobotsJobs`
-- `@autorDornHanson2013ChinaSyndrome`
+- [@saezSchoeferSeim2019]
+- [@yehMacalusoHershbein2022]
+- [@cengizDubeLindnerZipperer2019]
+- [@jagerNaiduSchoefer2024]
+- [@acemogluRestrepo2020RobotsJobs]
+- [@autorDornHanson2013ChinaSyndrome]
 
 ### What students should learn
 - how to diagnose the central mechanism in a paper,

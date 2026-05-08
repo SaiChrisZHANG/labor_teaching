@@ -39,19 +39,19 @@ These are the starter references that should appear in the Week 1 chapter, slide
 
 ### Core references
 
-- `@katzMurphy1992`
-- `@juhnMurphyPierce1993`
-- `@katzAutor1999`
-- `@acemogluAutor2011`
-- `@autorKatzKearney2008`
-- `@blauKahn2017`
-- `@cardCardosoHeiningKline2018`
-- `@dalyHobijn2017`
+- [@katzMurphy1992]
+- [@juhnMurphyPierce1993]
+- [@katzAutor1999]
+- [@acemogluAutor2011]
+- [@autorKatzKearney2008]
+- [@blauKahn2017]
+- [@cardCardosoHeiningKline2018]
+- [@dalyHobijn2017]
 
 ### Data and measurement references
 
-- `@blsCpsOverview2025`
-- `@blsEarnings2026`
+- [@blsCpsOverview2025]
+- [@blsEarnings2026]
 
 ## Section-level content requirements
 
@@ -76,7 +76,7 @@ It should introduce the idea that labor economics relies on a relatively small s
 
 ### 2. Measurement architecture
 
-This section should state clearly that the Current Population Survey is the core source for U.S. labor-force status, hours, and many earnings measures `@blsCpsOverview2025; @blsEarnings2026`.
+This section should state clearly that the Current Population Survey is the core source for U.S. labor-force status, hours, and many earnings measures [@blsCpsOverview2025; @blsEarnings2026].
 
 It should define the main objects students will see throughout the sequence:
 - employment-population ratio,
@@ -93,9 +93,9 @@ The chapter should frame the facts around a few durable themes rather than a lau
 
 Recommended themes:
 - participation and work attachment are highly heterogeneous across demographic groups and over the life cycle;
-- observed wage and earnings dispersion reflect both prices and composition `@juhnMurphyPierce1993; @dalyHobijn2017`;
-- inequality trends require both demand-side and worker-side interpretations `@katzMurphy1992; @autorKatzKearney2008; @acemogluAutor2011`;
-- group gaps cannot be understood only through worker characteristics because occupations, firms, and institutions matter `@blauKahn2017; @cardCardosoHeiningKline2018`.
+- observed wage and earnings dispersion reflect both prices and composition [@juhnMurphyPierce1993; @dalyHobijn2017];
+- inequality trends require both demand-side and worker-side interpretations [@katzMurphy1992; @autorKatzKearney2008; @acemogluAutor2011];
+- group gaps cannot be understood only through worker characteristics because occupations, firms, and institutions matter [@blauKahn2017; @cardCardosoHeiningKline2018].
 
 ### 4. Why this matters for the rest of the sequence
 
@@ -133,7 +133,7 @@ Suggested form:
 \bar w_t = \sum_g s_{gt}\,\bar w_{gt}
 ```
 
-Then explain that changes in aggregate wages can reflect changes in group shares `s_{gt}` or within-group wage changes `\bar w_{gt}`. Keep the explanation intuitive, but make the link to `@dalyHobijn2017` explicit.
+Then explain that changes in aggregate wages can reflect changes in group shares `s_{gt}` or within-group wage changes `\bar w_{gt}`. Keep the explanation intuitive, but make the link to [@dalyHobijn2017] explicit.
 
 ## Required figures and tables
 
@@ -192,15 +192,15 @@ Minimum columns:
 ## Required references by section
 
 Minimum expectations:
-- opening field-map section: `@katzAutor1999` and `@acemogluAutor2011`
-- inequality section: `@katzMurphy1992`, `@juhnMurphyPierce1993`, `@autorKatzKearney2008`
-- group gaps / gender / firms section: `@blauKahn2017`, `@cardCardosoHeiningKline2018`
-- measurement section: `@blsCpsOverview2025`, `@blsEarnings2026`
-- composition section: `@dalyHobijn2017`
+- opening field-map section: [@katzAutor1999] and [@acemogluAutor2011]
+- inequality section: [@katzMurphy1992], [@juhnMurphyPierce1993], [@autorKatzKearney2008]
+- group gaps / gender / firms section: [@blauKahn2017], [@cardCardosoHeiningKline2018]
+- measurement section: [@blsCpsOverview2025], [@blsEarnings2026]
+- composition section: [@dalyHobijn2017]
 
 ## Lab anchor
 
-The Week 1 lab should be explicitly tied to `@dalyHobijn2017`.
+The Week 1 lab should be explicitly tied to [@dalyHobijn2017].
 
 ### Reproduce
 

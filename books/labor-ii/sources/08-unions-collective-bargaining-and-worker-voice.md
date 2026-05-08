@@ -75,22 +75,22 @@ These are starter references that should appear in the Week 8 chapter, slides, o
 
 ### Conceptual and review references
 
-- `@jagerNaiduSchoefer2024`
-- `@hirsch2008`
-- `@kaplanNaidu2025`
+- [@jagerNaiduSchoefer2024]
+- [@hirsch2008]
+- [@kaplanNaidu2025]
 
 ### Direct effects, coverage, organizing, and takeup
 
-- `@dinardoLee2004`
-- `@frandsen2021`
-- `@dinlersozGreenwoodHyatt2017`
-- `@pezoldRothSchoefer2023`
+- [@dinardoLee2004]
+- [@frandsen2021]
+- [@dinlersozGreenwoodHyatt2017]
+- [@pezoldRothSchoefer2023]
 
 ### Wage structure, spillovers, and distribution
 
-- `@farberHerbstKuziemkoNaidu2021`
-- `@fortinLemieuxLloyd2021`
-- `@fortinLemieuxLloyd2022`
+- [@farberHerbstKuziemkoNaidu2021]
+- [@fortinLemieuxLloyd2021]
+- [@fortinLemieuxLloyd2022]
 
 ## Section-level content requirements
 
@@ -309,22 +309,22 @@ The chapter should include a real reading ladder with citations.
 
 ### Core required readings
 
-- `@jagerNaiduSchoefer2024`
-- `@farberHerbstKuziemkoNaidu2021`
-- `@dinardoLee2004`
+- [@jagerNaiduSchoefer2024]
+- [@farberHerbstKuziemkoNaidu2021]
+- [@dinardoLee2004]
 
 ### Strong recommended readings
 
-- `@frandsen2021`
-- `@fortinLemieuxLloyd2021`
-- `@dinlersozGreenwoodHyatt2017`
+- [@frandsen2021]
+- [@fortinLemieuxLloyd2021]
+- [@dinlersozGreenwoodHyatt2017]
 
 ### Optional extension readings
 
-- `@fortinLemieuxLloyd2022`
-- `@pezoldRothSchoefer2023`
-- `@kaplanNaidu2025`
-- `@hirsch2008`
+- [@fortinLemieuxLloyd2022]
+- [@pezoldRothSchoefer2023]
+- [@kaplanNaidu2025]
+- [@hirsch2008]
 
 ## Research Lab architecture
 
@@ -332,7 +332,7 @@ The lab should follow Reproduce -> Diagnose -> Transfer.
 
 ### Primary lab anchor
 
-- `@farberHerbstKuziemkoNaidu2021`
+- [@farberHerbstKuziemkoNaidu2021]
 
 Why:
 - strong public-data orientation,
@@ -342,7 +342,7 @@ Why:
 
 ### Secondary / challenge anchor
 
-- `@dinardoLee2004`
+- [@dinardoLee2004]
 
 Why:
 - canonical certification-election design,
@@ -351,7 +351,7 @@ Why:
 
 ### Optional extension anchor
 
-- `@fortinLemieuxLloyd2021`
+- [@fortinLemieuxLloyd2021]
 
 Why:
 - sharp introduction to spillovers and threat effects,

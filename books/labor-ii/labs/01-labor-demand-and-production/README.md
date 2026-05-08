@@ -24,5 +24,5 @@ conda run -n research python src/transfer_static_labor_demand.py \
 ## Notes
 
 - Synthetic data are included only to keep the pipeline local and deterministic.
-- `@beaudryGreenSand2018` is the design anchor, not a fully shipped replication package.
-- `@saezSchoeferSeim2019` and `@buttersSacksSeo2022` are interpretation bridges for the transfer step.
+- [@beaudryGreenSand2018] is the design anchor, not a fully shipped replication package.
+- [@saezSchoeferSeim2019] and [@buttersSacksSeo2022] are interpretation bridges for the transfer step.

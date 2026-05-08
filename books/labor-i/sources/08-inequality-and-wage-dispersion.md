@@ -64,24 +64,24 @@ These are the starter references that should appear in the Week 8 chapter, slide
 
 ### Core facts, measurement, and decomposition references
 
-- `@katzMurphy1992`
-- `@juhnMurphyPierce1993`
-- `@diNardoFortinLemieux1996`
-- `@autorKatzKearney2008`
-- `@lemieux2006`
-- `@firpoFortinLemieux2009`
+- [@katzMurphy1992]
+- [@juhnMurphyPierce1993]
+- [@diNardoFortinLemieux1996]
+- [@autorKatzKearney2008]
+- [@lemieux2006]
+- [@firpoFortinLemieux2009]
 
 ### Mechanism and synthesis references
 
-- `@katzAutor1999`
-- `@acemogluAutor2011`
-- `@autorDorn2013`
-- `@cardCardosoHeiningKline2018`
-- `@songPriceGuvenenBloomVonWachter2019`
+- [@katzAutor1999]
+- [@acemogluAutor2011]
+- [@autorDorn2013]
+- [@cardCardosoHeiningKline2018]
+- [@songPriceGuvenenBloomVonWachter2019]
 
 ### Frontier / extension references
 
-- `@haanwinckel2025`
+- [@haanwinckel2025]
 
 ## Section-level content requirements
 
@@ -354,7 +354,7 @@ The code lab should follow the established structure:
 Because the most canonical inequality papers predate modern replication repositories or use restricted data, the Week 8 lab should be slightly more flexible than some earlier weeks.
 
 #### Primary anchor
-- `@autorKatzKearney2008`
+- [@autorKatzKearney2008]
 
 Use a bounded pedagogical path that reconstructs a small inequality factbook from public or synthetic CPS-style wage data:
 - percentile gaps,
@@ -362,13 +362,13 @@ Use a bounded pedagogical path that reconstructs a small inequality factbook fro
 - upper-tail versus lower-tail changes.
 
 #### Secondary / challenge anchor
-- `@songPriceGuvenenBloomVonWachter2019`
-- `@cardCardosoHeiningKline2018`
+- [@songPriceGuvenenBloomVonWachter2019]
+- [@cardCardosoHeiningKline2018]
 
 These should be used to introduce the worker-firm inequality logic, ideally with a synthetic linked employer--employee dataset for the bounded student path.
 
 #### Optional frontier extension
-- `@haanwinckel2025`
+- [@haanwinckel2025]
 
 Use this only as an advanced extension on the interaction of supply, firms, institutions, and the full wage distribution.
 

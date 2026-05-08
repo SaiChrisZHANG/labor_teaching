@@ -226,7 +226,7 @@ Week 11 studied technology as a shock generated inside production, task choice, 
 
 ## Research Lab
 
-The Week 11 lab follows the standard `Reproduce -> Diagnose -> Transfer` structure and keeps the bounded student path fully local. The primary anchor is `@aghionEtAl2025HowDifferentUsesAI`, where the core teaching object is realized AI adoption by use type inside firms. The challenge anchor is `@acemogluRestrepo2020RobotsJobs`, where the contrast is a local-labor-market exposure design rather than a within-firm adoption design. The optional extension anchor is `@brynjolfssonLiRaymond2025GenerativeAIWork`, which helps students connect worker-level productivity and learning evidence to the broader demand-side and equilibrium framework.
+The Week 11 lab follows the standard `Reproduce -> Diagnose -> Transfer` structure and keeps the bounded student path fully local. The primary anchor is [@aghionEtAl2025HowDifferentUsesAI], where the core teaching object is realized AI adoption by use type inside firms. The challenge anchor is [@acemogluRestrepo2020RobotsJobs], where the contrast is a local-labor-market exposure design rather than a within-firm adoption design. The optional extension anchor is [@brynjolfssonLiRaymond2025GenerativeAIWork], which helps students connect worker-level productivity and learning evidence to the broader demand-side and equilibrium framework.
 
 The local handout lives at [labs/11-technology-automation-ai-and-labor-market/lab.md](labs/11-technology-automation-ai-and-labor-market/lab.md). The point of the lab is not to turn students loose on a vague “AI and jobs” exercise. It is to force them to state whether the object is supply-side, demand-side, or market-level; whether the technology measure is exposure or adoption; what the unit of observation is; which labor margin is observed; and which equilibrium margin remains offstage.
 
@@ -247,36 +247,36 @@ Keep these distinctions explicit throughout the week.
 
 ### Ladder A. Core framework
 
-- @autor2015WhyStillManyJobs
-- @acemogluRestrepo2019AutomationNewTasks
-- @acemogluAutor2011SkillsTasksTechnologies
+- [@autor2015WhyStillManyJobs]
+- [@acemogluRestrepo2019AutomationNewTasks]
+- [@acemogluAutor2011SkillsTasksTechnologies]
 
 ### Ladder B. Historical and global evidence
 
-- @michaelsNatrajVanReenen2014ICTPolarizedSkillDemand
-- @graetzMichaels2018RobotsWork
-- @dauthFindeisenSuedekumWoessner2021AdjustmentRobots
-- @acemogluRestrepo2020RobotsJobs
+- [@michaelsNatrajVanReenen2014ICTPolarizedSkillDemand]
+- [@graetzMichaels2018RobotsWork]
+- [@dauthFindeisenSuedekumWoessner2021AdjustmentRobots]
+- [@acemogluRestrepo2020RobotsJobs]
 
 ### Ladder C. Worker adaptation and labor supply
 
-- @bartelSicherman1998TechnologicalChangeSkillAcquisition
-- @demingNoray2020EarningsDynamicsChangingJobSkills
-- @brynjolfssonLiRaymond2025GenerativeAIWork
+- [@bartelSicherman1998TechnologicalChangeSkillAcquisition]
+- [@demingNoray2020EarningsDynamicsChangingJobSkills]
+- [@brynjolfssonLiRaymond2025GenerativeAIWork]
 
 ### Ladder D. Contemporary AI, measurement, and frontier directions
 
-- @acemogluAutorHazellRestrepo2020AIJobsVacancies
-- @feltenRajSeamans2018MethodAIAbilities
-- @aghionEtAl2025HowDifferentUsesAI
-- @labaschinEtAl2025ExtendingGPTsFirms
-- Optional frontier extension: @liuPapanikolaouSchmidtSeegmiller2025TechnologyLaborMarkets
+- [@acemogluAutorHazellRestrepo2020AIJobsVacancies]
+- [@feltenRajSeamans2018MethodAIAbilities]
+- [@aghionEtAl2025HowDifferentUsesAI]
+- [@labaschinEtAl2025ExtendingGPTsFirms]
+- Optional frontier extension: [@liuPapanikolaouSchmidtSeegmiller2025TechnologyLaborMarkets]
 
 ## Exercises / discussion prompts
 
 1. Pick one paper from the week and name the identifying variation, unit of observation, observed margin, and key equilibrium margin left offstage.
 2. Suppose a new AI system raises output per worker in a call-center setting. List at least four labor-market objects that could still move in opposite directions: employment, wage inequality, vacancy content, and worker progression are good starting candidates.
-3. Compare `@acemogluRestrepo2020RobotsJobs` with `@aghionEtAl2025HowDifferentUsesAI`. Which one is closer to exposure, which one is closer to adoption, and which one is closer to market-level equilibrium incidence?
+3. Compare [@acemogluRestrepo2020RobotsJobs] with [@aghionEtAl2025HowDifferentUsesAI]. Which one is closer to exposure, which one is closer to adoption, and which one is closer to market-level equilibrium incidence?
 4. Design a bounded empirical exercise that distinguishes skill obsolescence from skill acquisition using either public occupation cells or a synthetic worker panel.
 
 ## Reproducibility or code lab note

@@ -19,10 +19,10 @@ conda run -n research python src/transfer_dynamic_response.py \
 ## Recommended workflow
 
 1. Generate the synthetic teaching files and verify the environment.
-2. Run the bounded reproduction in the spirit of `@fehrGoette2007`.
+2. Run the bounded reproduction in the spirit of [@fehrGoette2007].
 3. Read `original/source-notes.md` before interpreting the output as a paper replication.
 4. Use the transfer step to compare immediate bonus responses across persistence environments.
-5. Treat the lifecycle extension in `lab.md` as optional and conceptually linked to `@attanasioLowSanchezMarcos2008`.
+5. Treat the lifecycle extension in `lab.md` as optional and conceptually linked to [@attanasioLowSanchezMarcos2008].
 
 ## Notes
 

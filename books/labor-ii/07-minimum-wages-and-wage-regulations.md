@@ -96,13 +96,13 @@ Treatment intensity also clarifies why evidence on low-wage jobs, rather than on
 
 The employment debate is not a single disagreement over one elasticity. It is a disagreement over theory, identifying variation, units of observation, time horizon, and which employment margin counts as the relevant one.
 
-`@cardKrueger1994` changed the debate by treating fast-food employment in New Jersey and Pennsylvania as an empirical design problem rather than a calibration exercise. The identifying variation is a state policy change. The unit of observation is the fast-food establishment. The observed margin is sector employment. The key unobserved object is what would have happened in treated stores absent the policy change. Their result was provocative because it challenged the default view that a binding wage floor must reduce employment in a low-wage sector.
+[@cardKrueger1994] changed the debate by treating fast-food employment in New Jersey and Pennsylvania as an empirical design problem rather than a calibration exercise. The identifying variation is a state policy change. The unit of observation is the fast-food establishment. The observed margin is sector employment. The key unobserved object is what would have happened in treated stores absent the policy change. Their result was provocative because it challenged the default view that a binding wage floor must reduce employment in a low-wage sector.
 
-`@neumarkWascher2007` pushed back by emphasizing broader panel evidence and the fragility of some case-study results. The identifying variation is mostly state-by-time minimum-wage changes across panels. The unit of observation is typically the state-year or subgroup-state-year cell. The observed margin is employment or employment rates for low-skill groups. The key unobserved object is differential trends across treated and comparison locations. Their critique mattered because it shifted the debate toward whether local shocks, policy timing, and composition differences are adequately controlled.
+[@neumarkWascher2007] pushed back by emphasizing broader panel evidence and the fragility of some case-study results. The identifying variation is mostly state-by-time minimum-wage changes across panels. The unit of observation is typically the state-year or subgroup-state-year cell. The observed margin is employment or employment rates for low-skill groups. The key unobserved object is differential trends across treated and comparison locations. Their critique mattered because it shifted the debate toward whether local shocks, policy timing, and composition differences are adequately controlled.
 
-`@dubeLesterReich2010` reframed the issue with contiguous-border designs. The identifying variation is minimum-wage changes across state borders within local labor markets. The unit of observation is the county-pair by period panel, often focused on restaurants. The observed margin is employment and earnings in a low-wage sector. The key unobserved object is whether bordering counties provide a sufficiently credible local counterfactual. This design narrowed the debate from "treated states versus all other states" to "treated local labor markets versus adjacent comparison markets."
+[@dubeLesterReich2010] reframed the issue with contiguous-border designs. The identifying variation is minimum-wage changes across state borders within local labor markets. The unit of observation is the county-pair by period panel, often focused on restaurants. The observed margin is employment and earnings in a low-wage sector. The key unobserved object is whether bordering counties provide a sufficiently credible local counterfactual. This design narrowed the debate from "treated states versus all other states" to "treated local labor markets versus adjacent comparison markets."
 
-`@cengizDubeLindnerZipperer2019` then changed the outcome object itself. The identifying variation is state and federal minimum-wage changes over time. The unit of observation is a state-by-wage-bin panel built from administrative job counts. The observed margin is jobs below, at, and above the new floor rather than total employment alone. The key unobserved object is how much of the observed reshuffling reflects genuine employment effects versus reclassification, spillovers, or broader equilibrium change. This is why the paper matters pedagogically: it asks whether low-wage jobs disappear and where they reappear in the wage distribution.
+[@cengizDubeLindnerZipperer2019] then changed the outcome object itself. The identifying variation is state and federal minimum-wage changes over time. The unit of observation is a state-by-wage-bin panel built from administrative job counts. The observed margin is jobs below, at, and above the new floor rather than total employment alone. The key unobserved object is how much of the observed reshuffling reflects genuine employment effects versus reclassification, spillovers, or broader equilibrium change. This is why the paper matters pedagogically: it asks whether low-wage jobs disappear and where they reappear in the wage distribution.
 
 ```{include} assets/tables/07-employment-debate-map.md
 ```
@@ -120,11 +120,11 @@ Figure {numref}`fig-lii-w7-debate-landscape` turns the debate into a design map.
 
 The cleanest area of agreement is on wages. Minimum-wage increases raise pay at the lower tail and compress the wage distribution near the new floor. The identifying variation is statutory wage-floor changes. The unit is usually the worker, establishment, or state-by-wage-bin cell. The observed margin is hourly pay or earnings. The key unobserved object is the counterfactual lower-tail wage path without the policy. On this margin, the literature is much more settled than on employment [@cengizDubeLindnerZipperer2019; @dubeLindner2024].
 
-Low-wage job counts are the next core object. `@cengizDubeLindnerZipperer2019` shows why grouped wage-bin panels are helpful: they ask whether jobs below the new floor disappear and whether jobs just above the floor expand. The observed margin is not total employment alone but the composition of jobs across wage bins. That design helps reconcile strong wage effects with muted total employment effects.
+Low-wage job counts are the next core object. [@cengizDubeLindnerZipperer2019] shows why grouped wage-bin panels are helpful: they ask whether jobs below the new floor disappear and whether jobs just above the floor expand. The observed margin is not total employment alone but the composition of jobs across wage bins. That design helps reconcile strong wage effects with muted total employment effects.
 
-Hours are conceptually distinct from headcount. `@jardimEtAl2022` is valuable in class because the identifying variation is a large city-specific increase, the unit is worker-job or payroll-based local observations, the observed margin includes hours and earnings, and the key unobserved object is whether Seattle would have tracked its synthetic control absent the policy. A discussion of this paper helps students see why a stable headcount can coexist with reduced hours for some low-wage workers.
+Hours are conceptually distinct from headcount. [@jardimEtAl2022] is valuable in class because the identifying variation is a large city-specific increase, the unit is worker-job or payroll-based local observations, the observed margin includes hours and earnings, and the key unobserved object is whether Seattle would have tracked its synthetic control absent the policy. A discussion of this paper helps students see why a stable headcount can coexist with reduced hours for some low-wage workers.
 
-Turnover, hiring, and separation margins matter because wage floors can alter the cost of vacancy filling and the value of keeping incumbent workers. In a frictional market, higher wages can reduce quits and lower vacancy durations even if the firm becomes more selective in hiring. `@butschek2022` is useful here because the identifying variation is again minimum-wage policy, the observed unit is employer or vacancy-level hiring, the observed margin is hiring standards or worker composition, and the key unobserved object is the quality or productivity distribution of applicants.
+Turnover, hiring, and separation margins matter because wage floors can alter the cost of vacancy filling and the value of keeping incumbent workers. In a frictional market, higher wages can reduce quits and lower vacancy durations even if the firm becomes more selective in hiring. [@butschek2022] is useful here because the identifying variation is again minimum-wage policy, the observed unit is employer or vacancy-level hiring, the observed margin is hiring standards or worker composition, and the key unobserved object is the quality or productivity distribution of applicants.
 
 Firm reallocation matters because some of the policy response can occur through which firms survive, expand, or contract rather than through one representative establishment changing employment in isolation. This is especially important in settings with substantial firm heterogeneity, weak compliance, or large formal-informal margins. The observed unit may be the firm, plant, or local market. The observed margin may be firm entry, exit, wage upgrading, or reallocation across employers. The key unobserved object is the general-equilibrium counterfactual path of worker-firm matching.
 
@@ -143,7 +143,7 @@ The United States remains the canonical debate setting because of staggered stat
 
 Europe and Germany matter because they bring different institutional structure. National floors and stronger formal-sector coverage make the lecture less about whether a fast-food employment estimate is precisely zero and more about how wage floors change firm composition, job quality, prices, and reallocation under broader coverage. The same design language still applies: what varies is the reform timing and exposure, the unit is a firm, worker, or region panel, the observed margins include wages, hours, prices, and firm outcomes, and the key unobserved object is the untreated equilibrium path under national reform [@dubeLindner2024].
 
-Brazil and other Latin American or emerging-market settings matter because informality and compliance become first-order objects rather than side comments. `@engbomMoser2022` is especially useful because the identifying variation comes from national minimum-wage changes interacting with differential exposure across workers and firms. The unit is a worker-firm or region panel. The observed margins include wages, earnings inequality, and reallocation. The key unobserved object is how formal and informal opportunities would have evolved without the policy. In these settings, minimum wages can have large distributional effects even when measured formal-sector employment losses are muted.
+Brazil and other Latin American or emerging-market settings matter because informality and compliance become first-order objects rather than side comments. [@engbomMoser2022] is especially useful because the identifying variation comes from national minimum-wage changes interacting with differential exposure across workers and firms. The unit is a worker-firm or region panel. The observed margins include wages, earnings inequality, and reallocation. The key unobserved object is how formal and informal opportunities would have evolved without the policy. In these settings, minimum wages can have large distributional effects even when measured formal-sector employment losses are muted.
 
 ```{include} assets/tables/07-global-evidence-map.md
 ```
@@ -161,11 +161,11 @@ Figure {numref}`fig-lii-w7-global-map` provides a clean classroom map of that he
 
 Minimum wages are the natural entry point into wage law because they are simple to state and central to labor economics. But the broader literature asks how legal wage-setting rules change information, compliance, and within-firm wage structures.
 
-Labor-standards enforcement is the closest extension because it asks whether the legal rule is even implemented in practice. `@almeidaCarneiro2012` and `@samaniegoFernandez2024` are useful precisely because the identifying variation comes from inspections, enforcement shocks, or changes in expected penalties. The unit is often the municipality, establishment, or worker. The observed margins are formality, wages, and employment transitions. The key unobserved object is the counterfactual compliance environment absent the enforcement change. These papers are the cleanest way to teach the distinction between legal incidence and observed incidence.
+Labor-standards enforcement is the closest extension because it asks whether the legal rule is even implemented in practice. [@almeidaCarneiro2012] and [@samaniegoFernandez2024] are useful precisely because the identifying variation comes from inspections, enforcement shocks, or changes in expected penalties. The unit is often the municipality, establishment, or worker. The observed margins are formality, wages, and employment transitions. The key unobserved object is the counterfactual compliance environment absent the enforcement change. These papers are the cleanest way to teach the distinction between legal incidence and observed incidence.
 
-Pay transparency laws target wage-setting through information rather than through a direct floor. `@bakerHalberstamKroftMasMessacar2023` and `@gulyasSeitzSinha2023` ask what happens when workers or applicants learn more about pay schedules. The identifying variation is a disclosure reform. The unit is usually the worker, firm, vacancy, or occupation-region cell. The observed margins are wage gaps, wage compression, bargaining outcomes, or worker sorting. The key unobserved object is how beliefs, outside options, and internal wage policies would have evolved without the information shock.
+Pay transparency laws target wage-setting through information rather than through a direct floor. [@bakerHalberstamKroftMasMessacar2023] and [@gulyasSeitzSinha2023] ask what happens when workers or applicants learn more about pay schedules. The identifying variation is a disclosure reform. The unit is usually the worker, firm, vacancy, or occupation-region cell. The observed margins are wage gaps, wage compression, bargaining outcomes, or worker sorting. The key unobserved object is how beliefs, outside options, and internal wage policies would have evolved without the information shock.
 
-Equal-pay rules extend the same logic to within-firm wage differentials. `@gentilePassaroKojimaPakzadHurson2026` is a useful course-facing reference because it frames equal-pay rules as restrictions on feasible within-firm wage differences for similar work. The identifying variation is legal reform or rule-induced constraint. The unit is the worker-job or firm-job cell. The observed margins are within-firm pay gaps, sorting, and wage compression. The key unobserved object is the unconstrained wage-setting rule that would otherwise have prevailed.
+Equal-pay rules extend the same logic to within-firm wage differentials. [@gentilePassaroKojimaPakzadHurson2026] is a useful course-facing reference because it frames equal-pay rules as restrictions on feasible within-firm wage differences for similar work. The identifying variation is legal reform or rule-induced constraint. The unit is the worker-job or firm-job cell. The observed margins are within-firm pay gaps, sorting, and wage compression. The key unobserved object is the unconstrained wage-setting rule that would otherwise have prevailed.
 
 ```{include} assets/tables/07-wage-law-toolkit-map.md
 ```
@@ -229,11 +229,11 @@ Fifth, compliance and worker sorting remain an underdeveloped connection point b
 
 The Week 7 lab is built around `Reproduce -> Diagnose -> Transfer`.
 
-The reproduction anchor is `@cengizDubeLindnerZipperer2019`. Students work with a bounded synthetic grouped wage-bin panel to track what happens to jobs below and just above a new minimum wage. The key lesson is that the employment object is low-wage jobs around the threshold, not total state employment.
+The reproduction anchor is [@cengizDubeLindnerZipperer2019]. Students work with a bounded synthetic grouped wage-bin panel to track what happens to jobs below and just above a new minimum wage. The key lesson is that the employment object is low-wage jobs around the threshold, not total state employment.
 
-The diagnose anchor is `@dubeLesterReich2010`. Students then compare that threshold-based job-distribution object to a contiguous-border design where the observed unit is a county pair and the outcome is restaurant employment and earnings. The point is to make the identification challenge explicit rather than rhetorical.
+The diagnose anchor is [@dubeLesterReich2010]. Students then compare that threshold-based job-distribution object to a contiguous-border design where the observed unit is a county pair and the outcome is restaurant employment and earnings. The point is to make the identification challenge explicit rather than rhetorical.
 
-The optional extension anchor is `@engbomMoser2022`. Students are asked how they would transfer the same design logic to a national reform setting with heterogeneous bite, firm reallocation, and informality margins. The local handout lives at [labs/07-minimum-wages-and-wage-regulations/lab.md](labs/07-minimum-wages-and-wage-regulations/lab.md).
+The optional extension anchor is [@engbomMoser2022]. Students are asked how they would transfer the same design logic to a national reform setting with heterogeneous bite, firm reallocation, and informality margins. The local handout lives at [labs/07-minimum-wages-and-wage-regulations/lab.md](labs/07-minimum-wages-and-wage-regulations/lab.md).
 
 ## Methods Box
 
@@ -254,34 +254,34 @@ Week 7 only works if ten distinctions stay visible throughout the lecture.
 
 ### Required / field core
 
-- `@dubeLindner2024` for the modern synthesis of minimum-wage theory, evidence, and policy interpretation.
-- `@cengizDubeLindnerZipperer2019` for threshold-based low-wage job counts and the job-distribution approach.
-- `@dubeLesterReich2010` for the contiguous-border design and the logic of local comparison markets.
-- `@engbomMoser2022` for a global, distributional, and reallocation-oriented extension beyond the United States.
+- [@dubeLindner2024] for the modern synthesis of minimum-wage theory, evidence, and policy interpretation.
+- [@cengizDubeLindnerZipperer2019] for threshold-based low-wage job counts and the job-distribution approach.
+- [@dubeLesterReich2010] for the contiguous-border design and the logic of local comparison markets.
+- [@engbomMoser2022] for a global, distributional, and reallocation-oriented extension beyond the United States.
 
 ### Strong complements
 
-- `@cardKrueger1994` for the fast-food case study that reorganized the debate.
-- `@neumarkWascher2007` for the critique and broader panel perspective.
-- `@jardimEtAl2022` for a large local increase with explicit hours and earnings margins.
-- `@dubeZipperer2024` for dynamic design interpretation and quantitative synthesis.
-- `@dube2019familyincome` for the distributional and household-incidence perspective.
+- [@cardKrueger1994] for the fast-food case study that reorganized the debate.
+- [@neumarkWascher2007] for the critique and broader panel perspective.
+- [@jardimEtAl2022] for a large local increase with explicit hours and earnings margins.
+- [@dubeZipperer2024] for dynamic design interpretation and quantitative synthesis.
+- [@dube2019familyincome] for the distributional and household-incidence perspective.
 
 ### Wage-law extension
 
-- `@almeidaCarneiro2012` for enforcement, formality, and compliance.
-- `@samaniegoFernandez2024` for modern evidence on the cost of informal employment and labor-standards enforcement.
-- `@bakerHalberstamKroftMasMessacar2023` and `@gulyasSeitzSinha2023` for pay transparency and information-based wage regulation.
-- `@gentilePassaroKojimaPakzadHurson2026` for equal-pay constraints and within-firm wage structure.
-- `@butschek2022` for hiring standards as a nonemployment margin under wage floors.
+- [@almeidaCarneiro2012] for enforcement, formality, and compliance.
+- [@samaniegoFernandez2024] for modern evidence on the cost of informal employment and labor-standards enforcement.
+- [@bakerHalberstamKroftMasMessacar2023] and [@gulyasSeitzSinha2023] for pay transparency and information-based wage regulation.
+- [@gentilePassaroKojimaPakzadHurson2026] for equal-pay constraints and within-firm wage structure.
+- [@butschek2022] for hiring standards as a nonemployment margin under wage floors.
 
 ## Exercises / discussion prompts
 
 1. Use Equations {eq}`eq-lii-w7-competitive` and {eq}`eq-lii-w7-monopsony` to explain why the same binding wage floor can imply different employment responses under different market structures.
 2. Why is Equation {eq}`eq-lii-w7-kaitz` often more informative than the raw nominal increase in the minimum wage?
-3. In `@cardKrueger1994`, what varies, what unit is observed, what margin is observed, and what key object remains unobserved?
-4. In `@dubeLesterReich2010`, why are contiguous-border counties a more credible comparison group than broad state panels in some settings?
-5. In `@cengizDubeLindnerZipperer2019`, is the main employment object total jobs, hours, or jobs below a threshold? Why does that distinction matter?
+3. In [@cardKrueger1994], what varies, what unit is observed, what margin is observed, and what key object remains unobserved?
+4. In [@dubeLesterReich2010], why are contiguous-border counties a more credible comparison group than broad state panels in some settings?
+5. In [@cengizDubeLindnerZipperer2019], is the main employment object total jobs, hours, or jobs below a threshold? Why does that distinction matter?
 6. How can a paper find little change in headcount employment but meaningful changes in hours, hiring, or worker turnover without contradiction?
 7. Use Table {numref}`tbl:global-mw-map` to explain why evidence from Brazil or another high-informality setting cannot be interpreted as a simple clone of the U.S. case.
 8. Why does Equation {eq}`eq-lii-w7-compliance` matter for both minimum wages and broader wage-law literatures?
@@ -290,7 +290,7 @@ Week 7 only works if ten distinctions stay visible throughout the lecture.
 
 ## Reproducibility or code lab note
 
-The Week 7 code lab is deliberately bounded and local. The reproduction step uses a synthetic grouped wage-bin panel inspired by `@cengizDubeLindnerZipperer2019` so students can measure wage gains, disappearing sub-minimum jobs, and reappearing jobs just above the new floor. The diagnose step compares that object to a synthetic contiguous-border county design in the spirit of `@dubeLesterReich2010`, making students state plainly whether they are observing headcount employment, hours, or jobs below a threshold and what the main identification challenge is in each case. The optional extension asks how the same logic transfers to a national high-bite setting anchored to `@engbomMoser2022`. The bounded path runs locally without confidential microdata; the local handout lives at [labs/07-minimum-wages-and-wage-regulations/lab.md](labs/07-minimum-wages-and-wage-regulations/lab.md).
+The Week 7 code lab is deliberately bounded and local. The reproduction step uses a synthetic grouped wage-bin panel inspired by [@cengizDubeLindnerZipperer2019] so students can measure wage gains, disappearing sub-minimum jobs, and reappearing jobs just above the new floor. The diagnose step compares that object to a synthetic contiguous-border county design in the spirit of [@dubeLesterReich2010], making students state plainly whether they are observing headcount employment, hours, or jobs below a threshold and what the main identification challenge is in each case. The optional extension asks how the same logic transfers to a national high-bite setting anchored to [@engbomMoser2022]. The bounded path runs locally without confidential microdata; the local handout lives at [labs/07-minimum-wages-and-wage-regulations/lab.md](labs/07-minimum-wages-and-wage-regulations/lab.md).
 
 ## Slide companion note
 

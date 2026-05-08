@@ -56,19 +56,19 @@ These are the starter references that should appear in the Week 2 chapter, slide
 
 ### Core benchmark references
 
-- `@nickell1986`
-- `@shapiro1986`
-- `@hamermesh1989`
+- [@nickell1986]
+- [@shapiro1986]
+- [@hamermesh1989]
 
 ### Dynamic adjustment and friction references
 
-- `@bentolilaBertola1990`
-- `@caballeroEngelHaltiwanger1997`
-- `@dibiasiMikoschSarferaz2025`
+- [@bentolilaBertola1990]
+- [@caballeroEngelHaltiwanger1997]
+- [@dibiasiMikoschSarferaz2025]
 
 ### Policy-timing bridge reference
 
-- `@saezSchoeferSeim2019`
+- [@saezSchoeferSeim2019]
 
 ## Section-level content requirements
 
@@ -278,32 +278,32 @@ The chapter should include at least four figures and three tables.
 The reading ladder should be organized in four buckets.
 
 ### Bucket A: dynamic benchmark
-- `@nickell1986`
-- `@shapiro1986`
-- `@hamermesh1989`
+- [@nickell1986]
+- [@shapiro1986]
+- [@hamermesh1989]
 
 ### Bucket B: adjustment frictions and firing costs
-- `@bentolilaBertola1990`
-- `@caballeroEngelHaltiwanger1997`
+- [@bentolilaBertola1990]
+- [@caballeroEngelHaltiwanger1997]
 
 ### Bucket C: modern empirical measurement of adjustment frictions
-- `@dibiasiMikoschSarferaz2025`
+- [@dibiasiMikoschSarferaz2025]
 
 ### Bucket D: policy timing and incidence bridge
-- `@saezSchoeferSeim2019`
+- [@saezSchoeferSeim2019]
 
 ## Lab design requirements
 
 The week's code lab should follow the established Reproduce -> Diagnose -> Transfer format.
 
 ### Primary lab anchor
-- `@dibiasiMikoschSarferaz2025`
+- [@dibiasiMikoschSarferaz2025]
 
 ### Secondary / challenge anchor
-- `@caballeroEngelHaltiwanger1997`
+- [@caballeroEngelHaltiwanger1997]
 
 ### Optional extension anchor
-- `@saezSchoeferSeim2019`
+- [@saezSchoeferSeim2019]
 
 ### Lab logic
 

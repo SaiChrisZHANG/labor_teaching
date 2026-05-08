@@ -19,7 +19,7 @@ conda run -n research python src/transfer_skill_formation.py \
 ## Recommended workflow
 
 1. Run the bounded synthetic path to verify the environment and plotting workflow.
-2. Read `original/source-notes.md` for the relationship between the local teaching data and `@attanasioEtAl2020HumanCapital`.
+2. Read `original/source-notes.md` for the relationship between the local teaching data and [@attanasioEtAl2020HumanCapital].
 3. Keep the reproduction target to one treatment-effect contrast and one compact figure.
 4. Use the transfer step for one quality-heterogeneity comparison only.
 5. Document clearly which outputs come from the synthetic path and which would require official external replication materials.

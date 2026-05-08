@@ -74,22 +74,22 @@ These are the starter references that should appear in the Week 9 chapter, slide
 
 ### Core theory and synthesis references
 
-- `@becker1957`
-- `@phelps1972`
-- `@arrow1973`
-- `@altonjiBlank1999`
-- `@heckman1998`
-- `@neumark2018`
+- [@becker1957]
+- [@phelps1972]
+- [@arrow1973]
+- [@altonjiBlank1999]
+- [@heckman1998]
+- [@neumark2018]
 
 ### Core empirical identification references
 
-- `@bertrandMullainathan2004`
-- `@langManove2011`
+- [@bertrandMullainathan2004]
+- [@langManove2011]
 
 ### Frontier / extension references
 
-- `@klineRoseWalters2024`
-- `@hurstRubinsteinShimizu2024`
+- [@klineRoseWalters2024]
+- [@hurstRubinsteinShimizu2024]
 
 ## Section-level content requirements
 
@@ -337,17 +337,17 @@ The reading ladder should be organized into four buckets.
 The chapter should support the standard Reproduce -> Diagnose -> Transfer lab structure.
 
 ### Primary lab anchor
-- `@bertrandMullainathan2004`
+- [@bertrandMullainathan2004]
 
 This is the cleanest reproduction anchor because it transparently illustrates a direct treatment-gap design at the callback stage.
 
 ### Secondary / challenge anchor
-- `@klineRoseWalters2024`
+- [@klineRoseWalters2024]
 
 This is the best challenge anchor because it moves students from a single average treatment gap to firm-level discrimination measurement with uncertainty and ranking.
 
 ### Optional extension anchor
-- `@hurstRubinsteinShimizu2024`
+- [@hurstRubinsteinShimizu2024]
 
 This is the natural advanced extension because it links discrimination to occupational sorting and task structure.
 

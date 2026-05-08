@@ -140,7 +140,7 @@ The unifying question is not "which model is correct?" It is "which wage-setting
 3. In a modern monopsony setting, wages depend on labor supply to the firm, mobility frictions, and rents.
 4. In an institutional setting, wages also depend on coverage, bargaining coordination, legal standards, and enforcement.
 
-`@saezSchoeferSeim2019` is useful here because it makes incidence, labor demand, and rent sharing interact rather than treating them as separate literatures. `@yehMacalusoHershbein2022` clarifies that concentration, markdowns, and mobility are related but not identical objects. `@jagerNaiduSchoefer2024` shows that bargaining institutions reshape the wage structure in ways that cannot be reduced to one competitive benchmark.
+[@saezSchoeferSeim2019] is useful here because it makes incidence, labor demand, and rent sharing interact rather than treating them as separate literatures. [@yehMacalusoHershbein2022] clarifies that concentration, markdowns, and mobility are related but not identical objects. [@jagerNaiduSchoefer2024] shows that bargaining institutions reshape the wage structure in ways that cannot be reduced to one competitive benchmark.
 
 The big synthesis point is that labor market power is not an optional add-on to wage-setting. It is one of the mechanisms that determines how wages, employment, pass-through, and policy incidence are translated into observed outcomes.
 
@@ -284,12 +284,12 @@ The Week 13 lab is a capstone studio rather than a standard single-paper replica
 
 Students should choose one anchor paper, or one tightly related pair, from the required capstone menu:
 
-1. `@saezSchoeferSeim2019`
-2. `@yehMacalusoHershbein2022`
-3. `@cengizDubeLindnerZipperer2019`
-4. `@jagerNaiduSchoefer2024`
-5. `@acemogluRestrepo2020RobotsJobs`
-6. `@autorDornHanson2013ChinaSyndrome`
+1. [@saezSchoeferSeim2019]
+2. [@yehMacalusoHershbein2022]
+3. [@cengizDubeLindnerZipperer2019]
+4. [@jagerNaiduSchoefer2024]
+5. [@acemogluRestrepo2020RobotsJobs]
+6. [@autorDornHanson2013ChinaSyndrome]
 
 For the chosen anchor, the lab requires students to identify:
 
@@ -318,24 +318,24 @@ Keep these distinctions explicit throughout the capstone.
 
 ### Ladder A. Architecture and classic foundations
 
-- `@hicks1932`
-- `@hamermesh1993`
-- `@mortensenPissarides1994`
+- [@hicks1932]
+- [@hamermesh1993]
+- [@mortensenPissarides1994]
 
 ### Ladder B. Wage-setting, power, and institutions
 
-- `@saezSchoeferSeim2019`
-- `@yehMacalusoHershbein2022`
-- `@cengizDubeLindnerZipperer2019`
-- `@jagerNaiduSchoefer2024`
-- `@macleod2011GreatExpectations`
+- [@saezSchoeferSeim2019]
+- [@yehMacalusoHershbein2022]
+- [@cengizDubeLindnerZipperer2019]
+- [@jagerNaiduSchoefer2024]
+- [@macleod2011GreatExpectations]
 
 ### Ladder C. Shocks and adjustment
 
-- `@shimer2005CyclicalBehavior`
-- `@acemogluRestrepo2020RobotsJobs`
-- `@autorDornHanson2013ChinaSyndrome`
-- `@kimVogel2021TradeShocksLaborMarketAdjustment`
+- [@shimer2005CyclicalBehavior]
+- [@acemogluRestrepo2020RobotsJobs]
+- [@autorDornHanson2013ChinaSyndrome]
+- [@kimVogel2021TradeShocksLaborMarketAdjustment]
 
 ### Ladder D. Capstone studio and frontier directions
 

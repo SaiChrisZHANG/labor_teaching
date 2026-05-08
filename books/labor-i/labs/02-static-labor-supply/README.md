@@ -26,7 +26,7 @@ conda run -n research python src/transfer_bunching_design.py \
 ## Recommended workflow
 
 1. Run the bounded synthetic path to verify the environment and plotting workflow.
-2. Read `original/source-notes.md` to understand what the official `@saez2010` package would add.
+2. Read `original/source-notes.md` to understand what the official [@saez2010] package would add.
 3. Keep the reproduction target to one histogram or one binned-density object.
 4. Use the transfer step for one alternative bin width, subgroup, or kink window only.
 5. Document clearly which outputs come from the synthetic teaching path and which require external files.

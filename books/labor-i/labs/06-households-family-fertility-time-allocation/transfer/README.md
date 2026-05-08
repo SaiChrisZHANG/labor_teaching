@@ -1,6 +1,6 @@
 # Transfer note
 
-The transfer exercise uses a local synthetic panel in the spirit of `@klevenLandaisSogaard2019`.
+The transfer exercise uses a local synthetic panel in the spirit of [@klevenLandaisSogaard2019].
 
 The point is not to recreate the article in full detail. The point is to keep students inside the same family-labor empirical family while changing the object:
 

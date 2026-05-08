@@ -94,7 +94,7 @@ In the Burdett--Mortensen logic, on-the-job search means some firms post higher 
 
 This is the first place to connect directly back to Week 4. Job ladders create a worker-side mobility option even when an observed outside offer is not in hand. That is why a posted-wage equilibrium can generate persistent wage dispersion and systematic quit patterns without requiring a fresh bilateral negotiation in every match.
 
-`@lachowskaMasSaggioWoodbury2022` is especially useful here because it asks whether wage changes in one job transmit to another job held by the same worker. The identifying variation comes from shocks to compensation in a worker's secondary job. The unit of observation is the dual-jobholder spell. The observed margins are primary-job wage responses and separations. The key latent object is the full menu of unobserved offers and employer responses available to the worker. That makes the paper ideal for Week 5: it is explicit about the difference between a posting prediction and a bargaining prediction.
+[@lachowskaMasSaggioWoodbury2022] is especially useful here because it asks whether wage changes in one job transmit to another job held by the same worker. The identifying variation comes from shocks to compensation in a worker's secondary job. The unit of observation is the dual-jobholder spell. The observed margins are primary-job wage responses and separations. The key latent object is the full menu of unobserved offers and employer responses available to the worker. That makes the paper ideal for Week 5: it is explicit about the difference between a posting prediction and a bargaining prediction.
 
 ### Bargaining, outside options, and the Hall--Milgrom critique
 
@@ -130,7 +130,7 @@ Equation {eq}`eq-lii-w5-nonemployment-pass` asks how much an exogenous change in
 Week 5 separates the value of nonemployment, realized outside offers, reservation wages, and bargaining threat points. Empirically, these objects are related but not identical.
 ```
 
-`@jaegerSchoeferYoungZweimueller2020` is the field-core empirical anchor because the paper names the object explicitly. The identifying variation comes from quasi-experimental shifts in fallback values. The unit of observation is the worker or worker-firm relationship. The observed margin is wage pass-through. The key latent object is the full dynamic opportunity set facing the worker, including any unobserved offers and beliefs about future search. This is exactly why the paper belongs in Week 5 rather than only in a policy week: it teaches students to separate the value of nonemployment from a realized outside offer.
+[@jaegerSchoeferYoungZweimueller2020] is the field-core empirical anchor because the paper names the object explicitly. The identifying variation comes from quasi-experimental shifts in fallback values. The unit of observation is the worker or worker-firm relationship. The observed margin is wage pass-through. The key latent object is the full dynamic opportunity set facing the worker, including any unobserved offers and beliefs about future search. This is exactly why the paper belongs in Week 5 rather than only in a policy week: it teaches students to separate the value of nonemployment from a realized outside offer.
 
 Week 5 should also be explicit that pass-through from outside-option shocks and pass-through from firm shocks are different empirical questions. A wage response to more generous nonemployment benefits is not the same object as a wage response to higher firm value added. The first speaks to fallback values. The second speaks to rent-sharing. Conflating the two makes later monopsony discussions much less clear.
 
@@ -143,7 +143,7 @@ The interior of the firm matters because many large employers do not bargain fro
 Standardized pay compresses wages within job cells and makes progression more transparent. Discretionary pay leaves more room for bargaining, local managerial choice, and within-cell inequality.
 ```
 
-`@massenkoffWilmers2023` is a good empirical bridge because it studies the decline of standardized pay rates and links that decline to wage stagnation and changing within-firm wage-setting practices. The identifying variation comes from changes in observed rate structures over time. The unit of observation is the occupation-establishment or worker-job cell. The observed margins include the prevalence of standardized rates, wage compression, and within-cell dispersion. The key latent object is the informal discretion that may coexist with formal schedules. `@biasi2021` adds a policy-relevant version of the same logic: teacher labor markets reveal how salary schedules and flexible pay generate different sorting and staffing outcomes, with school districts or teachers as the observed units and the nonwage job bundle still partly latent.
+[@massenkoffWilmers2023] is a good empirical bridge because it studies the decline of standardized pay rates and links that decline to wage stagnation and changing within-firm wage-setting practices. The identifying variation comes from changes in observed rate structures over time. The unit of observation is the occupation-establishment or worker-job cell. The observed margins include the prevalence of standardized rates, wage compression, and within-cell dispersion. The key latent object is the informal discretion that may coexist with formal schedules. [@biasi2021] adds a policy-relevant version of the same logic: teacher labor markets reveal how salary schedules and flexible pay generate different sorting and staffing outcomes, with school districts or teachers as the observed units and the nonwage job bundle still partly latent.
 
 The main Week 5 lesson is not that one regime is universally better. It is that the wage rule itself is a substantive economic object. Standardization can compress wages and limit within-job bargaining. Discretion can facilitate targeted retention and local adaptation, but it can also amplify inequality and obscure the wage-setting protocol that students are trying to identify.
 
@@ -154,15 +154,15 @@ The main Week 5 lesson is not that one regime is universally better. It is that 
 
 Table {numref}`tbl:identification-pass-through-week5` should organize the empirical lecture by design family rather than by chronology.
 
-Dual-jobholder or revealed-preference tests use wage shifts in a secondary job or in a realized outside opportunity. The unit is the worker-job spell. The observed margin is whether wages respond in-place or whether separation is the main adjustment margin. The hardest latent object is the full offer set the worker faces, not only the realized second job. That is why `@lachowskaMasSaggioWoodbury2022` is informative but not fully structural.
+Dual-jobholder or revealed-preference tests use wage shifts in a secondary job or in a realized outside opportunity. The unit is the worker-job spell. The observed margin is whether wages respond in-place or whether separation is the main adjustment margin. The hardest latent object is the full offer set the worker faces, not only the realized second job. That is why [@lachowskaMasSaggioWoodbury2022] is informative but not fully structural.
 
-Policy or institutional reforms to pay rules use contract expirations, salary-schedule changes, or flexibility reforms. The unit may be the worker, school district, or establishment. The observed margins are wage compression, mobility, sorting, and composition. The hardest latent object is the set of simultaneously changing nonwage conditions. `@biasi2021` is especially useful because the pay rule changes are clear while amenities and mission differences remain important.
+Policy or institutional reforms to pay rules use contract expirations, salary-schedule changes, or flexibility reforms. The unit may be the worker, school district, or establishment. The observed margins are wage compression, mobility, sorting, and composition. The hardest latent object is the set of simultaneously changing nonwage conditions. [@biasi2021] is especially useful because the pay rule changes are clear while amenities and mission differences remain important.
 
 Outside-option or nonemployment-value designs use shocks to benefits, eligibility, or fallback values. The unit is typically the worker or worker-firm match. The observed margin is wage pass-through, mobility, or retention. The hardest latent object is the full counterfactual search environment that the worker expects.
 
-Matched worker-firm designs with firm shocks use variation in value added, productivity, demand, or revenues. The unit is the worker-firm relationship. The observed margin is wage pass-through, firm wage premia, or rent-sharing. The hardest latent object is how much of the wage effect reflects sorting, match quality, or changing composition. `@cardCardosoHeiningKline2018` and `@rudanko2023` are the natural anchors here because they separate firm wage premia, wage dispersion, and frictional wage setting without claiming that reduced-form pass-through by itself fully identifies the protocol.
+Matched worker-firm designs with firm shocks use variation in value added, productivity, demand, or revenues. The unit is the worker-firm relationship. The observed margin is wage pass-through, firm wage premia, or rent-sharing. The hardest latent object is how much of the wage effect reflects sorting, match quality, or changing composition. [@cardCardosoHeiningKline2018] and [@rudanko2023] are the natural anchors here because they separate firm wage premia, wage dispersion, and frictional wage setting without claiming that reduced-form pass-through by itself fully identifies the protocol.
 
-Survey and establishment-by-occupation evidence on wage rules or bargaining protocols can say much more about what firms report doing, but it remains difficult to map self-reports one-to-one into structural primitives. `@caldwellHaegeleHeining2025` is a useful frontier anchor precisely because bargaining intensity, wage inequality, and protocol heterogeneity are likely to coexist inside the same labor market.
+Survey and establishment-by-occupation evidence on wage rules or bargaining protocols can say much more about what firms report doing, but it remains difficult to map self-reports one-to-one into structural primitives. [@caldwellHaegeleHeining2025] is a useful frontier anchor precisely because bargaining intensity, wage inequality, and protocol heterogeneity are likely to coexist inside the same labor market.
 
 ### Rent-sharing, pass-through, and the bridge to market power
 
@@ -186,9 +186,9 @@ This is the key bridge to Week 6. Week 5 says that posted wages, bargaining, and
 
 The optional extension block for Week 5 should feel like a research workshop on wage-setting heterogeneity, not a miscellaneous appendix. One strong line of inquiry asks how worker beliefs about outside options shape bargaining and retention. A second asks how within-firm inequality changes when more pay is discretionary rather than standardized. A third asks how pay transparency, salary-history restrictions, or algorithmic offer management reshape the mapping from outside options to wages. A fourth asks how measured pass-through interacts with monopsony metrics once the firm's labor supply curve is not infinitely elastic [@massenkoffWilmers2023; @rudanko2023; @caldwellHaegeleHeining2025].
 
-`@bhullerMoeneMogstadVestad2022` is useful for the frontier discussion because it reminds students that collective bargaining and coordinated wage-setting are not merely policy add-ons. They are alternative wage-setting protocols that can compress pay, reshape outside options, and change what a bargaining or pass-through estimate means. The extension block should therefore ask students to name the data opportunity, the identifying variation, the observed margin, and the unresolved latent object in any frontier paper they read.
+[@bhullerMoeneMogstadVestad2022] is useful for the frontier discussion because it reminds students that collective bargaining and coordinated wage-setting are not merely policy add-ons. They are alternative wage-setting protocols that can compress pay, reshape outside options, and change what a bargaining or pass-through estimate means. The extension block should therefore ask students to name the data opportunity, the identifying variation, the observed margin, and the unresolved latent object in any frontier paper they read.
 
-The bounded Week 5 lab follows `Reproduce -> Diagnose -> Transfer`. The reproduction anchor is `@lachowskaMasSaggioWoodbury2022`, where the protocol under test is posting versus bargaining and the key observed margin is whether a wage shock in one job changes wages or separations in another job held by the same worker. The transfer anchor is `@massenkoffWilmers2023`, where the protocol under study is a wage-rule change from standardized to less standardized pay, and the key observed margin is compression versus dispersion within comparable job cells. `@biasi2021` is the optional extension because public teacher salary schedules make it easier to transfer the same logic to open data.
+The bounded Week 5 lab follows `Reproduce -> Diagnose -> Transfer`. The reproduction anchor is [@lachowskaMasSaggioWoodbury2022], where the protocol under test is posting versus bargaining and the key observed margin is whether a wage shock in one job changes wages or separations in another job held by the same worker. The transfer anchor is [@massenkoffWilmers2023], where the protocol under study is a wage-rule change from standardized to less standardized pay, and the key observed margin is compression versus dispersion within comparable job cells. [@biasi2021] is the optional extension because public teacher salary schedules make it easier to transfer the same logic to open data.
 
 ## Methods Box
 
@@ -206,38 +206,38 @@ Week 5 only works if the objects stay separate.
 
 ### Required / field core
 
-- `@burdettMortensen1998` for wage posting, job ladders, and equilibrium wage dispersion.
-- `@hallMilgrom2008` for why bargaining protocol assumptions matter and why delay can weaken the unemployment-wage link.
-- `@jaegerSchoeferYoungZweimueller2020` for the value of nonemployment as a wage-setting object.
-- `@lachowskaMasSaggioWoodbury2022` for a direct empirical test of posting versus bargaining using dual jobholders.
+- [@burdettMortensen1998] for wage posting, job ladders, and equilibrium wage dispersion.
+- [@hallMilgrom2008] for why bargaining protocol assumptions matter and why delay can weaken the unemployment-wage link.
+- [@jaegerSchoeferYoungZweimueller2020] for the value of nonemployment as a wage-setting object.
+- [@lachowskaMasSaggioWoodbury2022] for a direct empirical test of posting versus bargaining using dual jobholders.
 
 ### Strong empirical complements
 
-- `@massenkoffWilmers2023` for standardized versus discretionary pay-setting inside firms.
-- `@biasi2021` for salary schedules, flexible pay, and worker sorting in teacher labor markets.
-- `@cardCardosoHeiningKline2018` for firm wage premia, inequality, and the limits of a purely worker-side wage interpretation.
+- [@massenkoffWilmers2023] for standardized versus discretionary pay-setting inside firms.
+- [@biasi2021] for salary schedules, flexible pay, and worker sorting in teacher labor markets.
+- [@cardCardosoHeiningKline2018] for firm wage premia, inequality, and the limits of a purely worker-side wage interpretation.
 
 ### Optional / frontier / bridge to Week 6
 
-- `@mortensen2003` for the broader frictional wage-setting perspective.
-- `@rudanko2023` for firm wages in a frictional labor market and the bridge to market power.
-- `@bhullerMoeneMogstadVestad2022` for collective bargaining as a wage-setting protocol rather than an institutional afterthought.
-- `@caldwellHaegeleHeining2025` for frontier work on bargaining and inequality.
+- [@mortensen2003] for the broader frictional wage-setting perspective.
+- [@rudanko2023] for firm wages in a frictional labor market and the bridge to market power.
+- [@bhullerMoeneMogstadVestad2022] for collective bargaining as a wage-setting protocol rather than an institutional afterthought.
+- [@caldwellHaegeleHeining2025] for frontier work on bargaining and inequality.
 
 ## Exercises / discussion prompts
 
 1. Use Equation {eq}`eq-lii-w5-acceptance` to explain why a reservation wage is not the same thing as a realized outside offer.
 2. Compare Equations {eq}`eq-lii-w5-posting` and {eq}`eq-lii-w5-bargaining`. Which margins move if the worker receives a stronger outside option under each protocol?
 3. Why does Hall--Milgrom imply that a weak empirical unemployment-wage gradient need not mean that wage-setting is purely rigid?
-4. In `@lachowskaMasSaggioWoodbury2022`, what varies, what unit is observed, what margin is observed, and what key wage-setting object remains latent?
-5. In `@jaegerSchoeferYoungZweimueller2020`, why is the value of nonemployment conceptually more primitive than an observed outside offer?
+4. In [@lachowskaMasSaggioWoodbury2022], what varies, what unit is observed, what margin is observed, and what key wage-setting object remains latent?
+5. In [@jaegerSchoeferYoungZweimueller2020], why is the value of nonemployment conceptually more primitive than an observed outside offer?
 6. Use Figure {numref}`fig-lii-w5-standardized-discretionary` to explain how standardized and discretionary pay regimes could produce different within-job wage distributions even with similar workers.
 7. Why does Equation {eq}`eq-lii-w5-rentshare` not by itself reveal whether observed wage pass-through reflects bargaining, firm wage premia, or match-specific rents?
 8. Propose one transfer design using a public teacher salary schedule dataset, a public contract dataset, or a small synthetic offer-and-separation panel. Name the observed unit, the observed margin, and the main latent object.
 
 ## Reproducibility or code lab note
 
-The Week 5 lab is built around `Reproduce -> Diagnose -> Transfer`. The bounded reproduction path uses a local synthetic dual-jobholder panel inspired by `@lachowskaMasSaggioWoodbury2022` so students can measure whether an outside wage shock primarily changes incumbent wages or separations. The diagnose step forces students to say whether the paper is testing posting or bargaining, what the observed outside-option margin is, what the main identification challenge is, and what remains latent. The transfer step then uses a synthetic wage-rule panel anchored to `@massenkoffWilmers2023` so students can compare standardized and discretionary pay compression, while `@biasi2021` is the optional extension to public teacher salary schedules. The local handout lives at [labs/05-wage-posting-bargaining-and-wage-setting/lab.md](labs/05-wage-posting-bargaining-and-wage-setting/lab.md).
+The Week 5 lab is built around `Reproduce -> Diagnose -> Transfer`. The bounded reproduction path uses a local synthetic dual-jobholder panel inspired by [@lachowskaMasSaggioWoodbury2022] so students can measure whether an outside wage shock primarily changes incumbent wages or separations. The diagnose step forces students to say whether the paper is testing posting or bargaining, what the observed outside-option margin is, what the main identification challenge is, and what remains latent. The transfer step then uses a synthetic wage-rule panel anchored to [@massenkoffWilmers2023] so students can compare standardized and discretionary pay compression, while [@biasi2021] is the optional extension to public teacher salary schedules. The local handout lives at [labs/05-wage-posting-bargaining-and-wage-setting/lab.md](labs/05-wage-posting-bargaining-and-wage-setting/lab.md).
 
 ## Slide companion note
 

@@ -9,13 +9,13 @@
 **Estimated student time:** 4 core hours + 2 optional hours  
 **Prerequisites:** Weeks 1, 4, 6, and 10; comfort with grouped data, simple regressions, and the distinction between exposure and realized treatment  
 **Core economic question:** When technology changes work, are we measuring supply-side, demand-side, or market-level effects; are we using exposure or actual adoption; and which labor-market margin is directly observed?  
-**Primary source anchor:** `@aghionEtAl2025HowDifferentUsesAI`  
-**Secondary / challenge anchor:** `@acemogluRestrepo2020RobotsJobs`  
-**Optional extension anchor:** `@brynjolfssonLiRaymond2025GenerativeAIWork`
+**Primary source anchor:** [@aghionEtAl2025HowDifferentUsesAI]  
+**Secondary / challenge anchor:** [@acemogluRestrepo2020RobotsJobs]  
+**Optional extension anchor:** [@brynjolfssonLiRaymond2025GenerativeAIWork]
 
 ## Why this lab exists
 
-Week 11 becomes blurry if students jump directly from “AI is important” to “AI helps or hurts jobs.” `@aghionEtAl2025HowDifferentUsesAI` is the right reproduction anchor because it forces the class to work with actual adoption categories inside firms rather than only exposure scores. `@acemogluRestrepo2020RobotsJobs` is the right challenge anchor because it flips the design to local-labor-market exposure and equilibrium incidence. `@brynjolfssonLiRaymond2025GenerativeAIWork` is the right optional extension because it makes worker learning and heterogeneity visible without pretending that a worker-productivity treatment already identifies market-wide labor outcomes.
+Week 11 becomes blurry if students jump directly from “AI is important” to “AI helps or hurts jobs.” [@aghionEtAl2025HowDifferentUsesAI] is the right reproduction anchor because it forces the class to work with actual adoption categories inside firms rather than only exposure scores. [@acemogluRestrepo2020RobotsJobs] is the right challenge anchor because it flips the design to local-labor-market exposure and equilibrium incidence. [@brynjolfssonLiRaymond2025GenerativeAIWork] is the right optional extension because it makes worker learning and heterogeneity visible without pretending that a worker-productivity treatment already identifies market-wide labor outcomes.
 
 ## Learning objectives
 
@@ -31,7 +31,7 @@ By the end of this lab, students should be able to:
 
 This lab is intentionally bounded.
 
-- Reproduce one firm-level AI-use design from a local synthetic panel inspired by `@aghionEtAl2025HowDifferentUsesAI`.
+- Reproduce one firm-level AI-use design from a local synthetic panel inspired by [@aghionEtAl2025HowDifferentUsesAI].
 - Diagnose the difference between actual adoption and exposure using the generated outputs.
 - Transfer one exposure idea to a small synthetic occupation-market panel.
 - Keep the smoke path fully local and synthetic.
@@ -159,7 +159,7 @@ It is narrow, reproducible, and disciplined. Students are not asked to “do som
 
 ### Objective
 
-Contrast the within-firm AI adoption design with a market-level exposure design inspired by `@acemogluRestrepo2020RobotsJobs`.
+Contrast the within-firm AI adoption design with a market-level exposure design inspired by [@acemogluRestrepo2020RobotsJobs].
 
 ### Be explicit before you interpret the challenge outputs
 
@@ -180,9 +180,9 @@ Contrast the within-firm AI adoption design with a market-level exposure design 
 
 Students should say these plainly.
 
-1. The reproduction path uses synthetic firm-quarter data rather than the original French adoption environment in `@aghionEtAl2025HowDifferentUsesAI`.
+1. The reproduction path uses synthetic firm-quarter data rather than the original French adoption environment in [@aghionEtAl2025HowDifferentUsesAI].
 2. The transfer path uses a public-like synthetic occupation-market panel rather than real vacancy, firm, or worker microdata.
-3. The challenge path mimics a local-labor-market exposure design but does not reproduce the full institutional and data structure in `@acemogluRestrepo2020RobotsJobs`.
+3. The challenge path mimics a local-labor-market exposure design but does not reproduce the full institutional and data structure in [@acemogluRestrepo2020RobotsJobs].
 4. None of the bounded paths identify full general equilibrium, long-run diffusion, or welfare incidence across all workers.
 
 ## Deliverables checklist

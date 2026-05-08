@@ -72,19 +72,19 @@ These are starter references that should appear in the Week 6 chapter, slides, o
 
 ### Core conceptual references
 
-- `@robinson1933`
-- `@manning2021monopsonyreview`
-- `@sokolovaSorensen2021`
-- `@ashenfelterCardFarberRansom2022`
+- [@robinson1933]
+- [@manning2021monopsonyreview]
+- [@sokolovaSorensen2021]
+- [@ashenfelterCardFarberRansom2022]
 
 ### Measurement and modern empirical evidence
 
-- `@azarMarinescuSteinbaum2019`
-- `@dubeJacobsNaiduSuri2020`
-- `@yehMacalusoHershbein2022`
-- `@bergerHerkenhoffMongey2022`
-- `@pragerSchmitt2021`
-- `@jaroschNimczikSorkin2024`
+- [@azarMarinescuSteinbaum2019]
+- [@dubeJacobsNaiduSuri2020]
+- [@yehMacalusoHershbein2022]
+- [@bergerHerkenhoffMongey2022]
+- [@pragerSchmitt2021]
+- [@jaroschNimczikSorkin2024]
 
 ## Section-level content requirements
 
@@ -302,7 +302,7 @@ If figures are missing, create clean schematic figures with these stable names:
 The lab should be built around **Reproduce -> Diagnose -> Transfer**.
 
 ### Primary anchor
-- `@dubeJacobsNaiduSuri2020`
+- [@dubeJacobsNaiduSuri2020]
 
 Why this paper works:
 - it measures labor-supply-to-the-firm elasticity in a setting with unusually clean wage variation;
@@ -310,7 +310,7 @@ Why this paper works:
 - it makes the measurement object concrete.
 
 ### Secondary / challenge anchor
-- `@yehMacalusoHershbein2022`
+- [@yehMacalusoHershbein2022]
 
 Why this paper works:
 - it forces students to confront markdown measurement;
@@ -318,7 +318,7 @@ Why this paper works:
 - it is ideal for the Diagnose part of the lab because the bounded student path will have to explain what cannot be directly reproduced without confidential inputs.
 
 ### Optional extension anchor
-- `@pragerSchmitt2021`
+- [@pragerSchmitt2021]
 
 Why this paper works:
 - it connects monopsony to a clear source of power: employer consolidation;
@@ -341,20 +341,20 @@ The lab should be explicit about:
 ## Reading ladder
 
 ### Core theory and review
-- `@robinson1933`
-- `@manning2021monopsonyreview`
-- `@sokolovaSorensen2021`
+- [@robinson1933]
+- [@manning2021monopsonyreview]
+- [@sokolovaSorensen2021]
 
 ### Core empirical papers
-- `@azarMarinescuSteinbaum2019`
-- `@dubeJacobsNaiduSuri2020`
-- `@yehMacalusoHershbein2022`
-- `@pragerSchmitt2021`
-- `@bergerHerkenhoffMongey2022`
+- [@azarMarinescuSteinbaum2019]
+- [@dubeJacobsNaiduSuri2020]
+- [@yehMacalusoHershbein2022]
+- [@pragerSchmitt2021]
+- [@bergerHerkenhoffMongey2022]
 
 ### Optional frontier / synthesis
-- `@jaroschNimczikSorkin2024`
-- `@ashenfelterCardFarberRansom2022`
+- [@jaroschNimczikSorkin2024]
+- [@ashenfelterCardFarberRansom2022]
 
 ## Bridge notes for the chapter ending
 

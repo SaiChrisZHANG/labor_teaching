@@ -40,26 +40,26 @@ These are the starter references that should appear in the Week 3 chapter, slide
 
 ### Core theory and lifecycle references
 
-- `@maCurdy1981`
-- `@imaiKeane2004`
-- `@keane2011`
-- `@blundellPistaferriSaportaEksten2016`
+- [@maCurdy1981]
+- [@imaiKeane2004]
+- [@keane2011]
+- [@blundellPistaferriSaportaEksten2016]
 
 ### Dynamic evidence and intertemporal substitution references
 
-- `@fehrGoette2007`
-- `@chettyFriedmanOlsenPistaferri2011`
+- [@fehrGoette2007]
+- [@chettyFriedmanOlsenPistaferri2011]
 
 ### Lifecycle and household/labor-supply evolution references
 
-- `@attanasioLowSanchezMarcos2008`
-- `@hokayemZiliak2014`
-- `@goldinMitchell2017`
+- [@attanasioLowSanchezMarcos2008]
+- [@hokayemZiliak2014]
+- [@goldinMitchell2017]
 
 ### Bridge back to Week 2 and empirical interpretation
 
-- `@chetty2012`
-- `@blundellMaCurdy1999`
+- [@chetty2012]
+- [@blundellMaCurdy1999]
 
 ## Section-level content requirements
 
@@ -254,10 +254,10 @@ Minimum columns:
 ## Required references by section
 
 Minimum expectations:
-- opening and dynamic benchmark: `@maCurdy1981`, `@blundellMaCurdy1999`, `@keane2011`
-- dynamic empirical interpretation: `@chetty2012`, `@fehrGoette2007`, `@chettyFriedmanOlsenPistaferri2011`
-- lifecycle section: `@attanasioLowSanchezMarcos2008`, `@blundellPistaferriSaportaEksten2016`, `@goldinMitchell2017`
-- health or lifecycle constraints bridge: `@hokayemZiliak2014`
+- opening and dynamic benchmark: [@maCurdy1981], [@blundellMaCurdy1999], [@keane2011]
+- dynamic empirical interpretation: [@chetty2012], [@fehrGoette2007], [@chettyFriedmanOlsenPistaferri2011]
+- lifecycle section: [@attanasioLowSanchezMarcos2008], [@blundellPistaferriSaportaEksten2016], [@goldinMitchell2017]
+- health or lifecycle constraints bridge: [@hokayemZiliak2014]
 
 ## Lab anchor
 
@@ -265,7 +265,7 @@ The Week 3 lab should be built around one official replication package and one b
 
 ### Primary lab candidate
 
-Use `@fehrGoette2007` because the article has an official AEA/openICPSR replication package and gives students a direct encounter with temporary wage variation and intertemporal substitution.
+Use [@fehrGoette2007] because the article has an official AEA/openICPSR replication package and gives students a direct encounter with temporary wage variation and intertemporal substitution.
 
 #### Reproduce
 
@@ -281,7 +281,7 @@ Students should apply the same design logic to one bounded alternative:
 
 ### Secondary lab candidate
 
-Use `@attanasioLowSanchezMarcos2008` if the goal is to emphasize lifecycle timing and structural interpretation.
+Use [@attanasioLowSanchezMarcos2008] if the goal is to emphasize lifecycle timing and structural interpretation.
 
 #### Reproduce
 
@@ -297,7 +297,7 @@ Students adapt the profile-building workflow to one bounded alternative:
 
 ### Optional bridge lab candidate
 
-If you want a cleaner link to optimization frictions and micro versus macro elasticities, use `@chettyFriedmanOlsenPistaferri2011` as an optional instructor-led extension rather than the default student lab.
+If you want a cleaner link to optimization frictions and micro versus macro elasticities, use [@chettyFriedmanOlsenPistaferri2011] as an optional instructor-led extension rather than the default student lab.
 
 ## Slide sync requirements
 

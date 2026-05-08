@@ -1,6 +1,6 @@
 # Transfer note
 
-The transfer exercise uses a local synthetic dataset in the spirit of `@stephensYang2014`.
+The transfer exercise uses a local synthetic dataset in the spirit of [@stephensYang2014].
 
 The point is not to recreate the article in full detail. The point is to keep students inside the same compulsory-schooling empirical family while changing the trend environment:
 

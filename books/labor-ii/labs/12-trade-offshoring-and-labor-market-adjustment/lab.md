@@ -9,19 +9,19 @@
 **Estimated student time:** 4 core hours + 2 optional hours  
 **Prerequisites:** Weeks 1, 4, 10, and 11; comfort with grouped data, weighted exposure objects, and the distinction between place effects and worker effects  
 **Core economic question:** When trade exposure rises, which channel are we measuring, what unit is treated, which labor margin is observed, and what transition or equilibrium margin still sits offstage?  
-**Primary source anchor:** `@autorDornHanson2013ChinaSyndrome`  
-**Secondary / challenge anchor:** `@dixCarneiroKovak2017TradeLiberalizationRegionalDynamics`  
-**Optional extension anchor:** `@dauthFindeisenSuedekum2017TradeManufacturingJobsGermany`
+**Primary source anchor:** [@autorDornHanson2013ChinaSyndrome]  
+**Secondary / challenge anchor:** [@dixCarneiroKovak2017TradeLiberalizationRegionalDynamics]  
+**Optional extension anchor:** [@dauthFindeisenSuedekum2017TradeManufacturingJobsGermany]
 
 ## Why this lab exists
 
-Week 12 gets muddy when students move too quickly from a famous trade shock to a broad statement like "trade hurts workers." `@autorDornHanson2013ChinaSyndrome` is the right reproduction anchor because it forces the class to construct a local-labor-market trade-exposure object and to confront the fact that the resulting estimate is a place effect. `@dixCarneiroKovak2017TradeLiberalizationRegionalDynamics` is the right challenge anchor because it makes clear that one-period place effects are not the same as dynamic adjustment. `@dauthFindeisenSuedekum2017TradeManufacturingJobsGermany` is the right optional extension because it shows why service-sector expansion is not enough to infer smooth incumbent-worker transition.
+Week 12 gets muddy when students move too quickly from a famous trade shock to a broad statement like "trade hurts workers." [@autorDornHanson2013ChinaSyndrome] is the right reproduction anchor because it forces the class to construct a local-labor-market trade-exposure object and to confront the fact that the resulting estimate is a place effect. [@dixCarneiroKovak2017TradeLiberalizationRegionalDynamics] is the right challenge anchor because it makes clear that one-period place effects are not the same as dynamic adjustment. [@dauthFindeisenSuedekum2017TradeManufacturingJobsGermany] is the right optional extension because it shows why service-sector expansion is not enough to infer smooth incumbent-worker transition.
 
 ## Learning objectives
 
 By the end of this lab, students should be able to:
 
-1. reproduce a bounded local-labor-market import-exposure exercise inspired by `@autorDornHanson2013ChinaSyndrome`;
+1. reproduce a bounded local-labor-market import-exposure exercise inspired by [@autorDornHanson2013ChinaSyndrome];
 2. state explicitly whether the design identifies worker effects, firm effects, place effects, or sector effects;
 3. name the trade channel being measured and the exposure object used to measure it;
 4. distinguish manufacturing-share decline, service-share growth, unemployment, and nonparticipation as separate labor-market margins;
@@ -157,7 +157,7 @@ It is narrow, reproducible, and on-theme. Students are not told to "do something
 
 ### Objective
 
-Contrast one-period place incidence with multi-period regional adjustment inspired by `@dixCarneiroKovak2017TradeLiberalizationRegionalDynamics`.
+Contrast one-period place incidence with multi-period regional adjustment inspired by [@dixCarneiroKovak2017TradeLiberalizationRegionalDynamics].
 
 ### Be explicit before you interpret the challenge outputs
 
@@ -178,9 +178,9 @@ Contrast one-period place incidence with multi-period regional adjustment inspir
 
 Students should say these plainly.
 
-1. The reproduction path uses a local synthetic commuting-zone panel rather than the original U.S. exposure environment in `@autorDornHanson2013ChinaSyndrome`.
+1. The reproduction path uses a local synthetic commuting-zone panel rather than the original U.S. exposure environment in [@autorDornHanson2013ChinaSyndrome].
 2. The transfer path uses synthetic structural-change outcomes rather than actual service reallocation data.
-3. The challenge path mimics dynamic regional adjustment but does not reproduce the full Brazilian tariff-reform design in `@dixCarneiroKovak2017TradeLiberalizationRegionalDynamics`.
+3. The challenge path mimics dynamic regional adjustment but does not reproduce the full Brazilian tariff-reform design in [@dixCarneiroKovak2017TradeLiberalizationRegionalDynamics].
 4. None of the bounded paths identify full worker welfare, aggregate gains from trade, or a complete dynamic equilibrium.
 
 ## Deliverables checklist

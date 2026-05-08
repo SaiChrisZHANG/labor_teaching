@@ -16,7 +16,7 @@
 
 ## Why this lab exists
 
-Week 10 is the course's mobility-architecture week. The bounded lab turns that architecture into a local workflow. Students first reproduce a lottery-based mobility design in the spirit of `@vanDoornikGomesSchoenherrSkrastins2024`, then diagnose what relaxing a credit friction identifies, and finally transfer the logic to a reform-exposure design in the spirit of `@beerliRuffnerSiegenthalerPeri2021`.
+Week 10 is the course's mobility-architecture week. The bounded lab turns that architecture into a local workflow. Students first reproduce a lottery-based mobility design in the spirit of [@vanDoornikGomesSchoenherrSkrastins2024], then diagnose what relaxing a credit friction identifies, and finally transfer the logic to a reform-exposure design in the spirit of [@beerliRuffnerSiegenthalerPeri2021].
 
 ## Learning objectives
 
@@ -169,7 +169,7 @@ Run `src/transfer_beerli_migration_exposure.py` on the synthetic regional panel 
 
 ## Part IV. Optional frontier extension
 
-Use `@haeckLaliberte2025` to write a short note on how career structure mediates intergenerational mobility. Use `@fujitaMoscariniPostelVinay2024` to explain why a mismeasured employer-to-employer series can distort the very object students think they are interpreting. The goal is not to estimate a structural model or use restricted data here. The goal is to recognize which parts of Week 10 remain outside the bounded path.
+Use [@haeckLaliberte2025] to write a short note on how career structure mediates intergenerational mobility. Use [@fujitaMoscariniPostelVinay2024] to explain why a mismeasured employer-to-employer series can distort the very object students think they are interpreting. The goal is not to estimate a structural model or use restricted data here. The goal is to recognize which parts of Week 10 remain outside the bounded path.
 
 ## Part V. Reflection
 

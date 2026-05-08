@@ -74,24 +74,24 @@ These are starter references that should appear in the Week 4 chapter, slides, o
 
 ### Core conceptual references
 
-- `@rogersonShimerWright2005`
-- `@mortensenPissarides1994`
-- `@burdettMortensen1998`
-- `@pissarides2000`
+- [@rogersonShimerWright2005]
+- [@mortensenPissarides1994]
+- [@burdettMortensen1998]
+- [@pissarides2000]
 
 ### Worker flows, transitions, and matching evidence
 
-- `@hallSchulhoferWohl2018`
-- `@haltiwangerHyattKahnMcEntarfer2018`
-- `@fabermanKudlyak2019`
+- [@hallSchulhoferWohl2018]
+- [@haltiwangerHyattKahnMcEntarfer2018]
+- [@fabermanKudlyak2019]
 
 ### Duration dependence, search behavior, and unemployment consequences
 
-- `@kroftLangeNotowidigdo2013`
-- `@muellerSpinnewijnTopa2021`
-- `@nekoeiWeber2017`
-- `@schmiederVonWachterBender2016`
-- `@huckfeldt2022`
+- [@kroftLangeNotowidigdo2013]
+- [@muellerSpinnewijnTopa2021]
+- [@nekoeiWeber2017]
+- [@schmiederVonWachterBender2016]
+- [@huckfeldt2022]
 
 ## Section-level content requirements
 

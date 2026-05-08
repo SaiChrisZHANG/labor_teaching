@@ -9,13 +9,13 @@
 **Estimated student time:** 4 core hours + 2 optional hours  
 **Prerequisites:** Weeks 1--3, basic command-line work, introductory `pandas`, comfort reading transition rates and grouped summaries  
 **Core economic question:** How do economists distinguish changes in the U-to-E job-finding hazard from changes in worker composition, and how do those objects differ from E-to-E job-ladder mobility?  
-**Primary source anchor:** `@hallSchulhoferWohl2018`  
-**Challenge anchor:** `@haltiwangerHyattKahnMcEntarfer2018`  
-**Optional extension anchor:** `@huckfeldt2022`
+**Primary source anchor:** [@hallSchulhoferWohl2018]  
+**Challenge anchor:** [@haltiwangerHyattKahnMcEntarfer2018]  
+**Optional extension anchor:** [@huckfeldt2022]
 
 ## Why this lab exists
 
-Week 4 introduces several objects that students often compress into "the unemployment rate." That is too coarse. `@hallSchulhoferWohl2018` is a strong teaching anchor because it forces the composition-versus-efficiency distinction into the measured job-finding rate. `@haltiwangerHyattKahnMcEntarfer2018` is the right challenge anchor because it shows that a large share of labor-market adjustment happens through E-to-E mobility and job ladders rather than only through unemployment transitions.
+Week 4 introduces several objects that students often compress into "the unemployment rate." That is too coarse. [@hallSchulhoferWohl2018] is a strong teaching anchor because it forces the composition-versus-efficiency distinction into the measured job-finding rate. [@haltiwangerHyattKahnMcEntarfer2018] is the right challenge anchor because it shows that a large share of labor-market adjustment happens through E-to-E mobility and job ladders rather than only through unemployment transitions.
 
 ## Learning objectives
 
@@ -48,7 +48,7 @@ This lab is intentionally bounded.
 
 ### Official package reality
 
-The bounded path here is not a literal replication package for `@hallSchulhoferWohl2018`. It is a synthetic teaching workflow inspired by the paper's design logic: heterogeneous job seekers, aggregate job-finding rates, and composition-adjusted interpretation. The goal is to practice Week 4 reasoning cleanly, not to reproduce every data and modeling layer of the published paper.
+The bounded path here is not a literal replication package for [@hallSchulhoferWohl2018]. It is a synthetic teaching workflow inspired by the paper's design logic: heterogeneous job seekers, aggregate job-finding rates, and composition-adjusted interpretation. The goal is to practice Week 4 reasoning cleanly, not to reproduce every data and modeling layer of the published paper.
 
 ### First commands to run
 
@@ -111,7 +111,7 @@ Move from "job finding changed" to "I know what changed in the measured object a
 2. Name the unit of observation in one sentence.
 3. Explain the difference between the observed aggregate rate and the fixed-composition rate.
 4. State one reason the residual gap should not be over-interpreted as pure matching efficiency.
-5. Explain what additional data you would want if you were trying to move toward the full logic of `@hallSchulhoferWohl2018`.
+5. Explain what additional data you would want if you were trying to move toward the full logic of [@hallSchulhoferWohl2018].
 
 ### Minimum output
 
@@ -130,7 +130,7 @@ Use a synthetic job-ladder file to shift from U->E hazards to E->E mobility and 
 1. **Transition margin being measured:** employment to employment, or E->E.
 2. **Hazard or flow object being approximated:** the E→E mobility rate and the share of moves that upgrade job quality.
 3. **Why this is a different Week 4 object:** it measures sorting and mobility among employed workers rather than reemployment from unemployment.
-4. **Connection to the challenge anchor:** `@haltiwangerHyattKahnMcEntarfer2018` studies cyclical job ladders, which are invisible if we look only at unemployment transitions.
+4. **Connection to the challenge anchor:** [@haltiwangerHyattKahnMcEntarfer2018] studies cyclical job ladders, which are invisible if we look only at unemployment transitions.
 
 ### Student tasks
 
@@ -151,15 +151,15 @@ Use a synthetic job-ladder file to shift from U->E hazards to E->E mobility and 
 
 Use one extension only.
 
-1. Read `@huckfeldt2022` and explain how recession timing changes post-unemployment job quality or scarring.
+1. Read [@huckfeldt2022] and explain how recession timing changes post-unemployment job quality or scarring.
 2. Propose a bridge from the Week 4 reproduction path to a public CPS/JOLTS-style teaching exercise, naming the observed unit, observed margin, and most important missing object.
 
 ## Limitations relative to the original papers
 
 Students should say these plainly.
 
-1. The bounded reproduction path measures a synthetic U→E hazard and a simple composition decomposition, not the full search environment in `@hallSchulhoferWohl2018`.
-2. The bounded transfer path measures synthetic E→E mobility by firm tier, not the full administrative job-ladder structure in `@haltiwangerHyattKahnMcEntarfer2018`.
+1. The bounded reproduction path measures a synthetic U→E hazard and a simple composition decomposition, not the full search environment in [@hallSchulhoferWohl2018].
+2. The bounded transfer path measures synthetic E→E mobility by firm tier, not the full administrative job-ladder structure in [@haltiwangerHyattKahnMcEntarfer2018].
 3. Neither path identifies wages, reservation values, vacancy quality, or equilibrium spillovers directly.
 4. Neither path can, on its own, distinguish reduced-form duration gradients from fully structural search behavior.
 
@@ -169,7 +169,7 @@ Students should say these plainly.
 - [ ] reproduced decomposition table and figure  
 - [ ] one-page diagnose memo  
 - [ ] transfer summary tables and figure  
-- [ ] short bridge note to `@haltiwangerHyattKahnMcEntarfer2018`  
+- [ ] short bridge note to [@haltiwangerHyattKahnMcEntarfer2018]  
 - [ ] final reflection memo
 
 ## Instructor notes

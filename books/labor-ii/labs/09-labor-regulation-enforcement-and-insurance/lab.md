@@ -9,19 +9,19 @@
 **Estimated student time:** 4 core hours + 2 optional hours  
 **Prerequisites:** Weeks 7--8, grouped-data intuition, basic `pandas`, simple plots, and comfort distinguishing partial-equilibrium from equilibrium effects  
 **Core economic question:** When does a labor regulation bind in practice, who is directly treated, which uncovered margin adjusts, and what welfare tradeoff changes the interpretation of the result?  
-**Primary source anchor:** `@almeidaCarneiro2012`  
-**Secondary / challenge anchor:** `@laliveLandaisZweimueller2015`  
-**Optional extension anchor:** `@vanDoornikGerardNaritomi2023`
+**Primary source anchor:** [@almeidaCarneiro2012]  
+**Secondary / challenge anchor:** [@laliveLandaisZweimueller2015]  
+**Optional extension anchor:** [@vanDoornikGerardNaritomi2023]
 
 ## Why this lab exists
 
-Week 9 becomes fuzzy quickly if students say "the policy effect" without naming the treatment margin, the spillover margin, or the welfare benchmark. `@almeidaCarneiro2012` is the reproduction anchor because it forces the distinction between regulation on the books and effective enforcement. `@laliveLandaisZweimueller2015` is the diagnose anchor because it shows that insurance policy can reshape untreated outcomes through market externalities. The optional extension anchor `@vanDoornikGerardNaritomi2023` makes the uncovered informal margin explicit.
+Week 9 becomes fuzzy quickly if students say "the policy effect" without naming the treatment margin, the spillover margin, or the welfare benchmark. [@almeidaCarneiro2012] is the reproduction anchor because it forces the distinction between regulation on the books and effective enforcement. [@laliveLandaisZweimueller2015] is the diagnose anchor because it shows that insurance policy can reshape untreated outcomes through market externalities. The optional extension anchor [@vanDoornikGerardNaritomi2023] makes the uncovered informal margin explicit.
 
 ## Learning objectives
 
 By the end of this lab, students should be able to:
 
-1. reproduce a bounded enforcement-and-formality exercise in the spirit of `@almeidaCarneiro2012`;
+1. reproduce a bounded enforcement-and-formality exercise in the spirit of [@almeidaCarneiro2012];
 2. name the regulation, policy margin, directly treated side of the market, spillover margin, and welfare tradeoff before interpreting any estimate;
 3. explain why effective regulation differs from formal law once enforcement, knowledge, and compliance matter;
 4. diagnose the difference between a partial-equilibrium enforcement estimate and an equilibrium unemployment-insurance estimate;
@@ -39,8 +39,8 @@ This lab is intentionally bounded.
 
 ## Lab roadmap
 
-1. **Reproduce** a bounded enforcement-and-formality object in the spirit of `@almeidaCarneiro2012`.
-2. **Diagnose** how that object differs from an equilibrium unemployment-insurance design in `@laliveLandaisZweimueller2015`.
+1. **Reproduce** a bounded enforcement-and-formality object in the spirit of [@almeidaCarneiro2012].
+2. **Diagnose** how that object differs from an equilibrium unemployment-insurance design in [@laliveLandaisZweimueller2015].
 3. **Transfer** the logic to synthetic UI spillover and formality-margin panels.
 4. **Extend** the framework to a small public or synthetic dataset with a clear uncovered margin.
 
@@ -107,9 +107,9 @@ Compare an enforcement-and-formality design to an equilibrium unemployment-insur
 
 | Paper | Core object | Directly treated side | Spillover / uncovered margin | Identifying variation | Key unobserved object |
 | --- | --- | --- | --- | --- | --- |
-| `@almeidaCarneiro2012` | effective labor regulation through inspections | firms / regulators | informality and wage adjustment | locality-level enforcement intensity | local state capacity and untreated labor demand |
-| `@laliveLandaisZweimueller2015` | equilibrium effects of UI extensions | eligible workers first | noneligible workers and vacancies | regional UI extension program | market tightness counterfactual |
-| `@vanDoornikGerardNaritomi2023` | UI incentives with informal labor markets | formally employed workers and firms | informal transitions and strategic layoffs | policy-induced eligibility or timing variation | value of uncovered informal options |
+| [@almeidaCarneiro2012] | effective labor regulation through inspections | firms / regulators | informality and wage adjustment | locality-level enforcement intensity | local state capacity and untreated labor demand |
+| [@laliveLandaisZweimueller2015] | equilibrium effects of UI extensions | eligible workers first | noneligible workers and vacancies | regional UI extension program | market tightness counterfactual |
+| [@vanDoornikGerardNaritomi2023] | UI incentives with informal labor markets | formally employed workers and firms | informal transitions and strategic layoffs | policy-induced eligibility or timing variation | value of uncovered informal options |
 
 ### Diagnosis checklist
 
@@ -161,16 +161,16 @@ Move from enforcement to equilibrium UI and uncovered informal margins using syn
 Choose one extension only.
 
 1. Transfer the Almeida-Carneiro logic to a small synthetic cross-region enforcement panel with a different uncovered margin.
-2. Write a short memo comparing `@bertrandCrepon2021` and `@cullen2024PayTransparency` as information-based labor regulations.
+2. Write a short memo comparing [@bertrandCrepon2021] and [@cullen2024PayTransparency] as information-based labor regulations.
 3. Build a small aggregate UI panel and say explicitly which market-level outcome you need to observe before making a welfare claim.
 
 ## Limitations relative to the original papers
 
 Students should say these plainly.
 
-1. The bounded reproduction path uses synthetic locality-year data; it is not the original enforcement and informality setting in `@almeidaCarneiro2012`.
-2. The diagnose step is conceptual and synthetic; it does not reproduce the full market-level Austrian UI design in `@laliveLandaisZweimueller2015`.
-3. The optional extension is a bounded synthetic treatment of uncovered informal margins; it does not reproduce the full Brazil administrative setting in `@vanDoornikGerardNaritomi2023`.
+1. The bounded reproduction path uses synthetic locality-year data; it is not the original enforcement and informality setting in [@almeidaCarneiro2012].
+2. The diagnose step is conceptual and synthetic; it does not reproduce the full market-level Austrian UI design in [@laliveLandaisZweimueller2015].
+3. The optional extension is a bounded synthetic treatment of uncovered informal margins; it does not reproduce the full Brazil administrative setting in [@vanDoornikGerardNaritomi2023].
 4. None of the bounded paths recover the full welfare object because worker valuation, firm incidence, and equilibrium market tightness are only partially observed.
 
 ## Deliverables checklist

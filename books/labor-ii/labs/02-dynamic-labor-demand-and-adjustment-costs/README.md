@@ -24,6 +24,6 @@ conda run -n research python src/transfer_dynamic_adjustment.py \
 ## Notes
 
 - Synthetic data are included only to keep the pipeline local and deterministic.
-- `@dibiasiMikoschSarferaz2025` is the design anchor, not a full shipped replication package.
-- `@caballeroEngelHaltiwanger1997` is the challenge bridge for lumpiness.
-- `@saezSchoeferSeim2019` is the optional extension bridge for policy timing and incidence.
+- [@dibiasiMikoschSarferaz2025] is the design anchor, not a full shipped replication package.
+- [@caballeroEngelHaltiwanger1997] is the challenge bridge for lumpiness.
+- [@saezSchoeferSeim2019] is the optional extension bridge for policy timing and incidence.

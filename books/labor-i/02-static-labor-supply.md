@@ -172,7 +172,7 @@ The point is to keep Equations {eq}`eq-week2-static-problem`, {eq}`eq-week2-foc`
 
 ## Reproducibility or code lab note
 
-The Week 2 lab is built around a bounded teaching path for @saez2010. Students reproduce a stylized bunching figure using the local synthetic dataset and the Python scripts in `labs/02-static-labor-supply/src/`, then transfer the same workflow to an alternative subgroup or bin-width choice. The full official AEA replication package remains the intellectual benchmark, but the bounded path deliberately avoids requiring the full external package for the smoke test. The lab note at [labs/02-static-labor-supply/lab.md](labs/02-static-labor-supply/lab.md) documents the exact external files still needed for a closer reproduction using the official materials.
+The Week 2 lab is built around a bounded teaching path for [@saez2010]. Students reproduce a stylized bunching figure using the local synthetic dataset and the Python scripts in `labs/02-static-labor-supply/src/`, then transfer the same workflow to an alternative subgroup or bin-width choice. The full official AEA replication package remains the intellectual benchmark, but the bounded path deliberately avoids requiring the full external package for the smoke test. The lab note at [labs/02-static-labor-supply/lab.md](labs/02-static-labor-supply/lab.md) documents the exact external files still needed for a closer reproduction using the official materials.
 
 ## Slide companion note
 

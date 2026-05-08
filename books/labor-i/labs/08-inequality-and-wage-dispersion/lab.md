@@ -16,7 +16,7 @@
 
 ## Why this lab exists
 
-Week 8 is the course's architecture week for distributional analysis. The bounded lab turns that architecture into a local workflow. Students first build a small synthetic inequality factbook in the spirit of `@autorKatzKearney2008`, then diagnose what those objects do and do not identify, and finally transfer the workflow to a synthetic worker-firm panel that introduces AKM-style logic without needing proprietary administrative data.
+Week 8 is the course's architecture week for distributional analysis. The bounded lab turns that architecture into a local workflow. Students first build a small synthetic inequality factbook in the spirit of [@autorKatzKearney2008], then diagnose what those objects do and do not identify, and finally transfer the workflow to a synthetic worker-firm panel that introduces AKM-style logic without needing proprietary administrative data.
 
 ## Learning objectives
 
@@ -170,7 +170,7 @@ Run `src/transfer_worker_firm_inequality.py` on the synthetic panel and compute 
 
 ## Part IV. Optional frontier extension
 
-Use `@haanwinckel2025` to write a short note on how supply, firms, and institutions might interact across the full wage distribution rather than within a single decomposition framework. The goal is not to estimate a structural model here. The goal is to recognize what the bounded descriptive path still abstracts from.
+Use [@haanwinckel2025] to write a short note on how supply, firms, and institutions might interact across the full wage distribution rather than within a single decomposition framework. The goal is not to estimate a structural model here. The goal is to recognize what the bounded descriptive path still abstracts from.
 
 ## Part V. Reflection
 

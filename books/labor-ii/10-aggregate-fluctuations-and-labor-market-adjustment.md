@@ -283,7 +283,7 @@ Week 10 studied cyclical labor-market adjustment: how shocks move unemployment, 
 
 ## Research Lab
 
-The Week 10 lab follows the standard `Reproduce -> Diagnose -> Transfer` structure and is intentionally bounded. The primary anchor is `@barnichonFigura2015AggregateMatching`, where the measured object is an aggregate matching residual rather than an individual worker outcome. The challenge anchor is `@elsbyMichaelsSolon2009InsOuts`, where the central task is to decompose unemployment into inflows and outflows. The optional extension anchor is `@karahanMichaelsPugsleySahinSchuh2017JobToJob`, where the margin of interest is job-to-job mobility rather than unemployment itself. The local handout lives at [labs/10-aggregate-fluctuations-and-labor-market-adjustment/lab.md](labs/10-aggregate-fluctuations-and-labor-market-adjustment/lab.md).
+The Week 10 lab follows the standard `Reproduce -> Diagnose -> Transfer` structure and is intentionally bounded. The primary anchor is [@barnichonFigura2015AggregateMatching], where the measured object is an aggregate matching residual rather than an individual worker outcome. The challenge anchor is [@elsbyMichaelsSolon2009InsOuts], where the central task is to decompose unemployment into inflows and outflows. The optional extension anchor is [@karahanMichaelsPugsleySahinSchuh2017JobToJob], where the margin of interest is job-to-job mobility rather than unemployment itself. The local handout lives at [labs/10-aggregate-fluctuations-and-labor-market-adjustment/lab.md](labs/10-aggregate-fluctuations-and-labor-market-adjustment/lab.md).
 
 The key research habit is to force the object into the open before discussing results.
 
@@ -316,28 +316,28 @@ Week 10 only works if the distinctions stay sharp.
 
 ### Ladder A. Canonical framework and the volatility puzzle
 
-- `@rogersonShimerWright2005Survey` for a compact field-course survey of labor-market search models.
-- `@shimer2005CyclicalBehavior` for the vacancy-unemployment volatility puzzle in the benchmark model.
-- `@hall2005EquilibriumWageStickiness` for wage-stickiness amplification through surplus and vacancy creation.
+- [@rogersonShimerWright2005Survey] for a compact field-course survey of labor-market search models.
+- [@shimer2005CyclicalBehavior] for the vacancy-unemployment volatility puzzle in the benchmark model.
+- [@hall2005EquilibriumWageStickiness] for wage-stickiness amplification through surplus and vacancy creation.
 
 ### Ladder B. Flow accounting and Beveridge-curve interpretation
 
-- `@elsbyMichaelsSolon2009InsOuts` for unemployment as an inflow-outflow object.
-- `@elsbyMichaelsRatner2015Beveridge` for the Beveridge curve as a labor-market organizing device.
-- `@barnichonFigura2015AggregateMatching` for heterogeneity inside aggregate matching residuals.
+- [@elsbyMichaelsSolon2009InsOuts] for unemployment as an inflow-outflow object.
+- [@elsbyMichaelsRatner2015Beveridge] for the Beveridge curve as a labor-market organizing device.
+- [@barnichonFigura2015AggregateMatching] for heterogeneity inside aggregate matching residuals.
 
 ### Ladder C. Separations, reallocation, and job ladders
 
-- `@mortensenPissarides1994JobCreation` for endogenous job creation and destruction.
-- `@fujitaRamey2012EndogenousSeparation` for recession dynamics with endogenous separation.
-- `@mueller2017SeparationsSorting` for separation, sorting, and cyclical unemployment.
-- `@haltiwangerHyattKahnMcEntarfer2018CyclicalJobLadders` for cyclical job ladders and E-to-E upgrading.
+- [@mortensenPissarides1994JobCreation] for endogenous job creation and destruction.
+- [@fujitaRamey2012EndogenousSeparation] for recession dynamics with endogenous separation.
+- [@mueller2017SeparationsSorting] for separation, sorting, and cyclical unemployment.
+- [@haltiwangerHyattKahnMcEntarfer2018CyclicalJobLadders] for cyclical job ladders and E-to-E upgrading.
 
 ### Ladder D. Wages, job-to-job transitions, and composition
 
-- `@karahanMichaelsPugsleySahinSchuh2017JobToJob` for job-to-job transitions as a cyclical wage margin.
-- `@figueiredo2022WageCyclicality` for wage cyclicality under labor-market sorting.
-- `@barlevyFabermanHobijnSahin2024BeveridgeShifts` for recent evidence on why Beveridge-curve shifts differ across eras.
+- [@karahanMichaelsPugsleySahinSchuh2017JobToJob] for job-to-job transitions as a cyclical wage margin.
+- [@figueiredo2022WageCyclicality] for wage cyclicality under labor-market sorting.
+- [@barlevyFabermanHobijnSahin2024BeveridgeShifts] for recent evidence on why Beveridge-curve shifts differ across eras.
 
 ## Exercises / discussion prompts
 
@@ -350,7 +350,7 @@ Week 10 only works if the distinctions stay sharp.
 
 ## Reproducibility or code lab note
 
-The bounded Week 10 lab is fully local and synthetic. Students first reproduce a Barnichon-Figura-style aggregate matching exercise, then diagnose how much of a Beveridge-style movement is in observed stocks and how much is bundled into an inferred residual, and finally transfer the same reasoning to an Elsby-Michaels-Solon-style stock-flow decomposition and a small synthetic job-to-job cyclicality exercise anchored to `@karahanMichaelsPugsleySahinSchuh2017JobToJob`. The point is to make stocks, flows, efficiency residuals, and job ladders explicit without requiring confidential microdata.
+The bounded Week 10 lab is fully local and synthetic. Students first reproduce a Barnichon-Figura-style aggregate matching exercise, then diagnose how much of a Beveridge-style movement is in observed stocks and how much is bundled into an inferred residual, and finally transfer the same reasoning to an Elsby-Michaels-Solon-style stock-flow decomposition and a small synthetic job-to-job cyclicality exercise anchored to [@karahanMichaelsPugsleySahinSchuh2017JobToJob]. The point is to make stocks, flows, efficiency residuals, and job ladders explicit without requiring confidential microdata.
 
 ## Slide companion note
 

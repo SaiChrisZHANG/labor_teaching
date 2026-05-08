@@ -147,19 +147,19 @@ Table {numref}`tbl:monopsony-measurement-identification` is the empirical backbo
 
 #### Labor-supply and recruiting elasticities
 
-The cleanest direct object is labor supply to the firm or a closely related recruiting elasticity. `@dubeJacobsNaiduSuri2020` is the ideal field-core anchor because wage variation is unusually clean in an online labor market. The identifying variation is within-platform wage posting or experimental wage differences. The observed unit is the task, applicant pool, or requester-task cell. The observed margin is recruiting intensity or staffing probability. The unobserved object is how that elasticity maps to broader labor market behavior outside the platform. The design therefore identifies a firm-facing labor-supply object very well, but in a narrow institutional environment.
+The cleanest direct object is labor supply to the firm or a closely related recruiting elasticity. [@dubeJacobsNaiduSuri2020] is the ideal field-core anchor because wage variation is unusually clean in an online labor market. The identifying variation is within-platform wage posting or experimental wage differences. The observed unit is the task, applicant pool, or requester-task cell. The observed margin is recruiting intensity or staffing probability. The unobserved object is how that elasticity maps to broader labor market behavior outside the platform. The design therefore identifies a firm-facing labor-supply object very well, but in a narrow institutional environment.
 
 Quit and separation elasticity approaches observe worker-firm spells rather than vacancy-task cells. The identifying variation is wage differences across otherwise similar jobs or firms. The observed margins are retention, separations, or employment-to-employment flows. The unobserved object is the full job-ladder structure, including offers the researcher never sees. These methods are often the most direct bridge between search models and modern monopsony because they treat worker mobility as the source of employer power [@manning2021monopsonyreview; @sokolovaSorensen2021].
 
 #### Production-side markdowns
 
-Production-side methods use plant or firm production moments to recover the wedge between wages and marginal revenue product. `@yehMacalusoHershbein2022` is the core challenge paper for this week because it forces students to distinguish a production-side markdown object from a recruiting elasticity. The identifying variation comes from observed production and compensation moments under additional structure. The unit of observation is the plant or firm. The observed margin is the relationship among labor shares, revenue productivity, and wages. The key unobserved object is the true marginal revenue product and the validity of the production structure used to infer it.
+Production-side methods use plant or firm production moments to recover the wedge between wages and marginal revenue product. [@yehMacalusoHershbein2022] is the core challenge paper for this week because it forces students to distinguish a production-side markdown object from a recruiting elasticity. The identifying variation comes from observed production and compensation moments under additional structure. The unit of observation is the plant or firm. The observed margin is the relationship among labor shares, revenue productivity, and wages. The key unobserved object is the true marginal revenue product and the validity of the production structure used to infer it.
 
 Markdown estimates can therefore be economically large even when reduced-form concentration or pass-through estimates look more modest. That is not necessarily a contradiction. The methods are using different observed margins, different units, and different latent objects.
 
 #### Concentration proxies and market-structure shocks
 
-Concentration designs observe market-level structure and link it to wages or mobility. `@azarMarinescuSteinbaum2019` is central because it shows how concentration proxies and direct labor-supply objects can be read together rather than as substitutes. The identifying variation is cross-market employer concentration. The unit is a local labor market, often geography by occupation. The observed margin is wage level or wage growth. The key unobserved object is whether the measured market coincides with worker substitution possibilities.
+Concentration designs observe market-level structure and link it to wages or mobility. [@azarMarinescuSteinbaum2019] is central because it shows how concentration proxies and direct labor-supply objects can be read together rather than as substitutes. The identifying variation is cross-market employer concentration. The unit is a local labor market, often geography by occupation. The observed margin is wage level or wage growth. The key unobserved object is whether the measured market coincides with worker substitution possibilities.
 
 Merger or consolidation designs sharpen the causal claim by using quasi-experimental shifts in employer structure:
 
@@ -172,11 +172,11 @@ Merger or consolidation designs sharpen the causal claim by using quasi-experime
 + \varepsilon_{it}.
 ```
 
-Equation {eq}`eq-lii-w6-concentration-regression` is intentionally reduced-form. It captures the idea that wages may change when measured market structure changes, but it does not by itself identify the full underlying monopsony wedge. `@pragerSchmitt2021` is the flagship design here. The identifying variation is hospital mergers that change employer concentration. The unit is the market or worker-market setting. The observed margin is wage change after consolidation. The key unobserved object is how fully the merger-induced wage effect maps to a deeper labor-supply or markdown parameter.
+Equation {eq}`eq-lii-w6-concentration-regression` is intentionally reduced-form. It captures the idea that wages may change when measured market structure changes, but it does not by itself identify the full underlying monopsony wedge. [@pragerSchmitt2021] is the flagship design here. The identifying variation is hospital mergers that change employer concentration. The unit is the market or worker-market setting. The observed margin is wage change after consolidation. The key unobserved object is how fully the merger-induced wage effect maps to a deeper labor-supply or markdown parameter.
 
 #### Firm shocks and pass-through
 
-Pass-through and firm-shock approaches sit at the boundary between Week 5 and Week 6. `@bergerHerkenhoffMongey2022` and related work use firm-side shocks or labor share moments to infer labor market power from wage responses or allocative wedges. The identifying variation can be firm demand, productivity, or tax changes. The observed unit is a worker-firm panel or firm panel. The observed margin is wage pass-through or dispersion in wages and employment. The unobserved object is how much of that pass-through reflects bargaining, sorting, or monopsonistic conduct. These approaches are powerful precisely because they force students to keep wage-setting protocol and labor-market-power objects conceptually distinct.
+Pass-through and firm-shock approaches sit at the boundary between Week 5 and Week 6. [@bergerHerkenhoffMongey2022] and related work use firm-side shocks or labor share moments to infer labor market power from wage responses or allocative wedges. The identifying variation can be firm demand, productivity, or tax changes. The observed unit is a worker-firm panel or firm panel. The observed margin is wage pass-through or dispersion in wages and employment. The unobserved object is how much of that pass-through reflects bargaining, sorting, or monopsonistic conduct. These approaches are powerful precisely because they force students to keep wage-setting protocol and labor-market-power objects conceptually distinct.
 
 ```{figure} assets/figures/06-markdown-measurement-map.png
 :name: fig-lii-w6-measurement-map
@@ -210,15 +210,15 @@ The best way to teach the empirical literature is to require four sentences for 
 3. what observed margin is measured;
 4. what important monopsony object remains unobserved.
 
-`@dubeJacobsNaiduSuri2020` uses direct wage variation in an online labor platform. The unit is the task or task-requester cell. The measured margin is applications or fill probability. The unobserved object is how that platform elasticity generalizes to off-platform mobility, amenities, and longer-run equilibrium adjustment.
+[@dubeJacobsNaiduSuri2020] uses direct wage variation in an online labor platform. The unit is the task or task-requester cell. The measured margin is applications or fill probability. The unobserved object is how that platform elasticity generalizes to off-platform mobility, amenities, and longer-run equilibrium adjustment.
 
-`@yehMacalusoHershbein2022` uses production-side moments in a matched employer setting. The unit is the plant or firm. The measured margin is the wedge between wages and inferred marginal revenue product. The unobserved object is the true production structure, the correct marginal product mapping, and any dynamic mobility margins not directly seen in the production-side object.
+[@yehMacalusoHershbein2022] uses production-side moments in a matched employer setting. The unit is the plant or firm. The measured margin is the wedge between wages and inferred marginal revenue product. The unobserved object is the true production structure, the correct marginal product mapping, and any dynamic mobility margins not directly seen in the production-side object.
 
-`@pragerSchmitt2021` uses merger-induced changes in concentration. The unit is the hospital labor market or worker-market environment. The measured margin is post-merger wage change. The unobserved object is the full general-equilibrium response, including worker resorting and any nonwage adjustments.
+[@pragerSchmitt2021] uses merger-induced changes in concentration. The unit is the hospital labor market or worker-market environment. The measured margin is post-merger wage change. The unobserved object is the full general-equilibrium response, including worker resorting and any nonwage adjustments.
 
-`@azarMarinescuSteinbaum2019` uses cross-market concentration. The unit is a local labor market cell. The measured margin is wage differences across concentration environments. The unobserved object is the correct labor market boundary and any omitted amenity or product-market differences correlated with concentration.
+[@azarMarinescuSteinbaum2019] uses cross-market concentration. The unit is a local labor market cell. The measured margin is wage differences across concentration environments. The unobserved object is the correct labor market boundary and any omitted amenity or product-market differences correlated with concentration.
 
-`@bergerHerkenhoffMongey2022` asks how labor market power reshapes wages, allocations, and welfare in a more structural equilibrium framework. The identifying variation is broader because the paper combines theory and data moments rather than leaning on one reduced-form shock. The observed unit is firm or market aggregates together with wage objects. The unobserved object is any single sufficient statistic for monopsony, which is precisely why structural synthesis is attractive and difficult.
+[@bergerHerkenhoffMongey2022] asks how labor market power reshapes wages, allocations, and welfare in a more structural equilibrium framework. The identifying variation is broader because the paper combines theory and data moments rather than leaning on one reduced-form shock. The observed unit is firm or market aggregates together with wage objects. The unobserved object is any single sufficient statistic for monopsony, which is precisely why structural synthesis is attractive and difficult.
 
 ### Frontier extension block: unresolved measurement issues
 
@@ -232,11 +232,11 @@ This extension block is also where the bridge to inequality and sorting should b
 
 The Week 6 lab is built around `Reproduce -> Diagnose -> Transfer`.
 
-The reproduction anchor is `@dubeJacobsNaiduSuri2020`. Students work with a bounded synthetic online-task setting where the wage varies cleanly and the observable outcome is recruiting intensity. The goal is to make the labor-supply-to-the-firm elasticity concrete rather than abstract.
+The reproduction anchor is [@dubeJacobsNaiduSuri2020]. Students work with a bounded synthetic online-task setting where the wage varies cleanly and the observable outcome is recruiting intensity. The goal is to make the labor-supply-to-the-firm elasticity concrete rather than abstract.
 
-The diagnose anchor is `@yehMacalusoHershbein2022`. Students then confront a different monopsony object: the markdown. The lab asks them to say plainly why a production-side markdown object is not the same as a recruiting elasticity, what identifying structure is added, and what remains latent.
+The diagnose anchor is [@yehMacalusoHershbein2022]. Students then confront a different monopsony object: the markdown. The lab asks them to say plainly why a production-side markdown object is not the same as a recruiting elasticity, what identifying structure is added, and what remains latent.
 
-The transfer and optional extension anchor is `@pragerSchmitt2021`. Students move to a stylized employer concentration or merger panel and ask what a reduced-form wage response to changing market structure does and does not identify. The local handout lives at [labs/06-monopsony-measurement-and-sources-of-power/lab.md](labs/06-monopsony-measurement-and-sources-of-power/lab.md).
+The transfer and optional extension anchor is [@pragerSchmitt2021]. Students move to a stylized employer concentration or merger panel and ask what a reduced-form wage response to changing market structure does and does not identify. The local handout lives at [labs/06-monopsony-measurement-and-sources-of-power/lab.md](labs/06-monopsony-measurement-and-sources-of-power/lab.md).
 
 ## Methods Box
 
@@ -255,38 +255,38 @@ Week 6 only works if eight distinctions remain explicit.
 
 ### Required / field core
 
-- `@robinson1933` for the classic benchmark and the original wage-setting-power logic.
-- `@manning2021monopsonyreview` for the modern conceptual map from classic monopsony to dynamic labor market power.
-- `@sokolovaSorensen2021` for a field-wide synthesis of labor-supply elasticity evidence.
-- `@dubeJacobsNaiduSuri2020` for a direct labor-supply-to-the-firm design with clean wage variation.
-- `@yehMacalusoHershbein2022` for production-side markdown measurement.
+- [@robinson1933] for the classic benchmark and the original wage-setting-power logic.
+- [@manning2021monopsonyreview] for the modern conceptual map from classic monopsony to dynamic labor market power.
+- [@sokolovaSorensen2021] for a field-wide synthesis of labor-supply elasticity evidence.
+- [@dubeJacobsNaiduSuri2020] for a direct labor-supply-to-the-firm design with clean wage variation.
+- [@yehMacalusoHershbein2022] for production-side markdown measurement.
 
 ### Strong empirical complements
 
-- `@azarMarinescuSteinbaum2019` for the relationship between concentration proxies and other monopsony measures.
-- `@pragerSchmitt2021` for causal evidence from employer consolidation.
-- `@bergerHerkenhoffMongey2022` for structural equilibrium labor market power.
+- [@azarMarinescuSteinbaum2019] for the relationship between concentration proxies and other monopsony measures.
+- [@pragerSchmitt2021] for causal evidence from employer consolidation.
+- [@bergerHerkenhoffMongey2022] for structural equilibrium labor market power.
 
 ### Optional / frontier / synthesis
 
-- `@jaroschNimczikSorkin2024` for granular search and market structure in modern labor markets.
-- `@ashenfelterCardFarberRansom2022` for synthesis and policy-facing takeaways from the modern empirical literature.
+- [@jaroschNimczikSorkin2024] for granular search and market structure in modern labor markets.
+- [@ashenfelterCardFarberRansom2022] for synthesis and policy-facing takeaways from the modern empirical literature.
 
 ## Exercises / discussion prompts
 
 1. Use Equation {eq}`eq-lii-w6-labor-supply-firm` to explain why a firm can face monopsonistic labor supply even when market labor supply is fairly elastic.
 2. Compare Equations {eq}`eq-lii-w6-mcl` and {eq}`eq-lii-w6-markdown`. Which one is a labor-cost object and which one is a wage-productivity wedge?
 3. Why does high concentration in Equation {eq}`eq-lii-w6-hhi` not by itself prove monopsony?
-4. In `@dubeJacobsNaiduSuri2020`, what varies, what unit is observed, what margin is observed, and what key object remains latent?
-5. In `@yehMacalusoHershbein2022`, why can a markdown estimate move differently from a recruiting elasticity estimate without contradiction?
-6. In `@pragerSchmitt2021`, what does a wage response to consolidation identify well, and what deeper labor-market-power object remains only partially identified?
+4. In [@dubeJacobsNaiduSuri2020], what varies, what unit is observed, what margin is observed, and what key object remains latent?
+5. In [@yehMacalusoHershbein2022], why can a markdown estimate move differently from a recruiting elasticity estimate without contradiction?
+6. In [@pragerSchmitt2021], what does a wage response to consolidation identify well, and what deeper labor-market-power object remains only partially identified?
 7. Use Table {numref}`tbl:sources-of-monopsony-power` to propose two markets with similar concentration but different sources of monopsony power.
 8. Why is it useful to teach monopsony as a spectrum of wage-setting power rather than as a binary "competitive versus one-employer" classification?
 9. Propose one transfer design using public vacancy data, a stylized concentration panel, or a simulated plant markdown panel. Name the observed unit, observed margin, identifying variation, and the key unobserved object.
 
 ## Reproducibility or code lab note
 
-The Week 6 code lab is deliberately bounded and local. The reproduction step uses a synthetic online-task dataset inspired by `@dubeJacobsNaiduSuri2020` to estimate a labor-supply-to-the-firm object from direct wage variation. The diagnose step uses a synthetic plant panel inspired by `@yehMacalusoHershbein2022` to force a comparison between recruiting elasticities and markdowns. The transfer step uses a synthetic concentration-and-merger panel in the spirit of `@pragerSchmitt2021` so students can see what a reduced-form structure shock identifies and what it does not. The bounded path runs locally without confidential microdata; the local handout lives at [labs/06-monopsony-measurement-and-sources-of-power/lab.md](labs/06-monopsony-measurement-and-sources-of-power/lab.md).
+The Week 6 code lab is deliberately bounded and local. The reproduction step uses a synthetic online-task dataset inspired by [@dubeJacobsNaiduSuri2020] to estimate a labor-supply-to-the-firm object from direct wage variation. The diagnose step uses a synthetic plant panel inspired by [@yehMacalusoHershbein2022] to force a comparison between recruiting elasticities and markdowns. The transfer step uses a synthetic concentration-and-merger panel in the spirit of [@pragerSchmitt2021] so students can see what a reduced-form structure shock identifies and what it does not. The bounded path runs locally without confidential microdata; the local handout lives at [labs/06-monopsony-measurement-and-sources-of-power/lab.md](labs/06-monopsony-measurement-and-sources-of-power/lab.md).
 
 ## Slide companion note
 

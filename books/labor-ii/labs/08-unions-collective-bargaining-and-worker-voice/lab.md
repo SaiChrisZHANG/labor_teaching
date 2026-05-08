@@ -9,19 +9,19 @@
 **Estimated student time:** 4 core hours + 2 optional hours  
 **Prerequisites:** Weeks 5--7, basic command-line use, introductory `pandas`, comfort reading grouped summaries, simple plots, and RD-style design intuition  
 **Core economic question:** Are we studying union membership, bargaining coverage, or organizing success, and is the estimated effect direct on covered workers, indirect through spillovers, or threat-based on uncovered workers?  
-**Primary source anchor:** `@farberHerbstKuziemkoNaidu2021`  
-**Secondary / challenge anchor:** `@dinardoLee2004`  
-**Optional extension anchor:** `@fortinLemieuxLloyd2021`
+**Primary source anchor:** [@farberHerbstKuziemkoNaidu2021]  
+**Secondary / challenge anchor:** [@dinardoLee2004]  
+**Optional extension anchor:** [@fortinLemieuxLloyd2021]
 
 ## Why this lab exists
 
-Week 8 gets muddy fast if students say "the union effect" without naming the object. `@farberHerbstKuziemkoNaidu2021` is the reproduction anchor because it makes unions a wage-structure and inequality object rather than only a point wage premium. `@dinardoLee2004` is the diagnose anchor because it is explicit about organizing success near a certification threshold. `@fortinLemieuxLloyd2021` is the optional extension because it pushes students to ask what happens to uncovered workers when bargaining institutions are strong or weak.
+Week 8 gets muddy fast if students say "the union effect" without naming the object. [@farberHerbstKuziemkoNaidu2021] is the reproduction anchor because it makes unions a wage-structure and inequality object rather than only a point wage premium. [@dinardoLee2004] is the diagnose anchor because it is explicit about organizing success near a certification threshold. [@fortinLemieuxLloyd2021] is the optional extension because it pushes students to ask what happens to uncovered workers when bargaining institutions are strong or weak.
 
 ## Learning objectives
 
 By the end of this lab, students should be able to:
 
-1. reproduce a bounded coverage-and-inequality exercise in the spirit of `@farberHerbstKuziemkoNaidu2021`;
+1. reproduce a bounded coverage-and-inequality exercise in the spirit of [@farberHerbstKuziemkoNaidu2021];
 2. state clearly whether the object is union membership, bargaining coverage, or an organizing / certification margin;
 3. say whether the estimated effect is direct, spillover, or threat-based;
 4. explain the main identification challenge in a long-run decomposition and in a certification-election RD;
@@ -39,10 +39,10 @@ This lab is intentionally bounded.
 
 ## Lab roadmap
 
-1. **Reproduce** a bounded coverage-and-inequality panel in the spirit of `@farberHerbstKuziemkoNaidu2021`.
-2. **Diagnose** how that object differs from a close-election organizing design in `@dinardoLee2004`.
+1. **Reproduce** a bounded coverage-and-inequality panel in the spirit of [@farberHerbstKuziemkoNaidu2021].
+2. **Diagnose** how that object differs from a close-election organizing design in [@dinardoLee2004].
 3. **Transfer** the logic to a synthetic certification-election panel and a synthetic nonunion spillover panel.
-4. **Extend** the design to a public CPS/Unionstats panel or an uncovered-worker spillover exercise in the spirit of `@fortinLemieuxLloyd2021`.
+4. **Extend** the design to a public CPS/Unionstats panel or an uncovered-worker spillover exercise in the spirit of [@fortinLemieuxLloyd2021].
 
 ## Part 0. Setup and orientation
 
@@ -100,9 +100,9 @@ Compare a long-run coverage-and-inequality object to a certification-election RD
 
 | Paper | Core object | Effect type | Identifying variation | Observed unit | Key unobserved object |
 | --- | --- | --- | --- | --- | --- |
-| `@farberHerbstKuziemkoNaidu2021` | bargaining coverage and union presence | direct plus spillover compression | long-run union decline and distributional decomposition | worker-year or state-year cell | untreated wage structure absent deunionization |
-| `@dinardoLee2004` | organizing success near the threshold | direct effect of union victory for close elections | close certification wins versus losses | establishment / election | outcomes away from the threshold and broader equilibrium effects |
-| `@fortinLemieuxLloyd2021` | union spillovers onto uncovered workers | indirect or threat-based effects | institutional exposure and wage-distribution variation | worker / region / wage cell | untreated nonunion wage structure absent spillovers |
+| [@farberHerbstKuziemkoNaidu2021] | bargaining coverage and union presence | direct plus spillover compression | long-run union decline and distributional decomposition | worker-year or state-year cell | untreated wage structure absent deunionization |
+| [@dinardoLee2004] | organizing success near the threshold | direct effect of union victory for close elections | close certification wins versus losses | establishment / election | outcomes away from the threshold and broader equilibrium effects |
+| [@fortinLemieuxLloyd2021] | union spillovers onto uncovered workers | indirect or threat-based effects | institutional exposure and wage-distribution variation | worker / region / wage cell | untreated nonunion wage structure absent spillovers |
 
 ### Diagnosis checklist
 
@@ -160,9 +160,9 @@ Choose one extension only.
 
 Students should say these plainly.
 
-1. The bounded reproduction path uses a synthetic state-year panel; it is not the original survey microdata and historical decomposition in `@farberHerbstKuziemkoNaidu2021`.
-2. The bounded transfer path uses a stylized close-election panel; it does not reproduce the full private-sector employer panel in `@dinardoLee2004`.
-3. The optional spillover extension is conceptual and synthetic; it does not reproduce the full wage-distribution analysis in `@fortinLemieuxLloyd2021`.
+1. The bounded reproduction path uses a synthetic state-year panel; it is not the original survey microdata and historical decomposition in [@farberHerbstKuziemkoNaidu2021].
+2. The bounded transfer path uses a stylized close-election panel; it does not reproduce the full private-sector employer panel in [@dinardoLee2004].
+3. The optional spillover extension is conceptual and synthetic; it does not reproduce the full wage-distribution analysis in [@fortinLemieuxLloyd2021].
 4. None of the bounded paths recover the full general-equilibrium counterfactual or the complete political environment around bargaining institutions.
 
 ## Deliverables checklist

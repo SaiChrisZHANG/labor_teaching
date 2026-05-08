@@ -16,7 +16,7 @@
 
 ## Why this lab exists
 
-Week 9 is the course's discrimination-architecture week. The bounded lab turns that architecture into a local workflow. Students first reproduce callback-gap objects from a synthetic correspondence-study file in the spirit of `@bertrandMullainathan2004`, then diagnose what those objects do and do not identify, and finally transfer the workflow to synthetic employer-level report cards in the spirit of `@klineRoseWalters2024`.
+Week 9 is the course's discrimination-architecture week. The bounded lab turns that architecture into a local workflow. Students first reproduce callback-gap objects from a synthetic correspondence-study file in the spirit of [@bertrandMullainathan2004], then diagnose what those objects do and do not identify, and finally transfer the workflow to synthetic employer-level report cards in the spirit of [@klineRoseWalters2024].
 
 ## Learning objectives
 
@@ -169,7 +169,7 @@ Run `src/transfer_discrimination_report_cards.py` on the synthetic employer data
 
 ## Part IV. Optional frontier extension
 
-Use `@hurstRubinsteinShimizu2024` to write a short note on how discrimination can operate through task assignment and occupational structure even when direct hiring-stage treatment effects are modest. The goal is not to estimate a structural model here. The goal is to recognize what the bounded callback path still abstracts from.
+Use [@hurstRubinsteinShimizu2024] to write a short note on how discrimination can operate through task assignment and occupational structure even when direct hiring-stage treatment effects are modest. The goal is not to estimate a structural model here. The goal is to recognize what the bounded callback path still abstracts from.
 
 ## Part V. Reflection
 

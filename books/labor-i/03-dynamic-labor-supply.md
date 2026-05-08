@@ -95,7 +95,7 @@ Table {numref}`tbl:week3-shocks` is the shortest route from incentive change to 
 ```{include} assets/tables/03-design-map.md
 ```
 
-Table {numref}`tbl:week3-designs` turns that logic into an evidence map. Randomized temporary wage variation, such as the experiment in @fehrGoette2007, is attractive because it isolates short-run substitution incentives. Tax timing reforms or nonlinear schedule changes are useful because they create horizon-specific changes in the net reward to work, but anticipation and salience matter immediately [@chetty2012]. Panel wage-hours variation can recover dynamic reduced-form responses, yet only after taking wage endogeneity and serial correlation seriously [@maCurdy1981]. Structural lifecycle models ask more of the reader, but they are often the only way to carry savings, family timing, and human-capital accumulation into policy counterfactuals [@attanasioLowSanchezMarcos2008; @keane2011].
+Table {numref}`tbl:week3-designs` turns that logic into an evidence map. Randomized temporary wage variation, such as the experiment in [@fehrGoette2007], is attractive because it isolates short-run substitution incentives. Tax timing reforms or nonlinear schedule changes are useful because they create horizon-specific changes in the net reward to work, but anticipation and salience matter immediately [@chetty2012]. Panel wage-hours variation can recover dynamic reduced-form responses, yet only after taking wage endogeneity and serial correlation seriously [@maCurdy1981]. Structural lifecycle models ask more of the reader, but they are often the only way to carry savings, family timing, and human-capital accumulation into policy counterfactuals [@attanasioLowSanchezMarcos2008; @keane2011].
 
 The practical teaching lesson is that two papers can disagree numerically without disagreeing economically. One may target short-run intertemporal substitution. Another may target a long-run policy response after assets, spouses, fertility, and experience have adjusted. Dynamic labor supply becomes useful precisely when we stop forcing those objects into one statistic.
 
@@ -113,7 +113,7 @@ One transparent way to formalize this point is to add an adjustment-cost term:
 \Phi(h_t-h_{t-1}) = \frac{\kappa}{2}(h_t-h_{t-1})^2.
 ```
 
-Equation {eq}`eq-week3-adjustment` says that changing hours is itself costly. Even when Equation {eq}`eq-week3-frisch` suggests a strong contemporaneous incentive to reoptimize, a large {math}`\kappa` slows the observed response. That interpretation is central to the micro-versus-macro elasticity discussion in @chettyFriedmanOlsenPistaferri2011. Short-run administrative or firm-level data may reveal limited immediate adjustment even when longer-run responses after renegotiation or job mobility are larger.
+Equation {eq}`eq-week3-adjustment` says that changing hours is itself costly. Even when Equation {eq}`eq-week3-frisch` suggests a strong contemporaneous incentive to reoptimize, a large {math}`\kappa` slows the observed response. That interpretation is central to the micro-versus-macro elasticity discussion in [@chettyFriedmanOlsenPistaferri2011]. Short-run administrative or firm-level data may reveal limited immediate adjustment even when longer-run responses after renegotiation or job mobility are larger.
 
 The same logic keeps Week 3 connected to later parts of the course. Adjustment costs and entry-exit costs forecast the household timing issues of Week 6, the horizon problems in Week 11 policy evaluation, and the broader friction-based interpretation of Week 12. Persistence in hours or participation is therefore not a nuisance pattern to difference away. It is itself part of the labor-supply problem.
 
@@ -167,7 +167,7 @@ Week 3 adds one discipline to the Week 2 workflow: identify the horizon before i
 
 ## Reproducibility or code lab note
 
-The Week 3 lab is built around a bounded pedagogical version of @fehrGoette2007. Students reproduce one reduced-form response to randomized temporary wage variation using local synthetic shift-level data, diagnose whether that response is best read as intertemporal substitution or something broader, and then transfer the workflow to a persistence comparison that contrasts low- and high-adjustment-cost environments. The optional lifecycle extension uses @attanasioLowSanchezMarcos2008 as the conceptual bridge from short-run experimental variation to lifecycle profile construction. The bounded path and smoke test are documented in [labs/03-dynamic-labor-supply/lab.md](labs/03-dynamic-labor-supply/lab.md).
+The Week 3 lab is built around a bounded pedagogical version of [@fehrGoette2007]. Students reproduce one reduced-form response to randomized temporary wage variation using local synthetic shift-level data, diagnose whether that response is best read as intertemporal substitution or something broader, and then transfer the workflow to a persistence comparison that contrasts low- and high-adjustment-cost environments. The optional lifecycle extension uses [@attanasioLowSanchezMarcos2008] as the conceptual bridge from short-run experimental variation to lifecycle profile construction. The bounded path and smoke test are documented in [labs/03-dynamic-labor-supply/lab.md](labs/03-dynamic-labor-supply/lab.md).
 
 ## Slide companion note
 

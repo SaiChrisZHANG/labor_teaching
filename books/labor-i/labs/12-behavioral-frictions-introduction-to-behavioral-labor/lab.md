@@ -16,7 +16,7 @@
 
 ## Why this lab exists
 
-Week 12 asks students to stop treating behavioral labor as a vocabulary list and start treating it as a design problem. The bounded lab makes one central point concrete: a complicated incentive schedule can generate a muted or distorted response even when the true economic stakes are large. Students first reproduce a synthetic incentive-opacity factbook in the spirit of `@abelerHuffmanRaymond2025`, then diagnose whether the observed pattern is about low incentives or low perception, and finally transfer the workflow to a synthetic workplace gift-exchange design in the spirit of `@dellaVignaListMalmendierRao2022`.
+Week 12 asks students to stop treating behavioral labor as a vocabulary list and start treating it as a design problem. The bounded lab makes one central point concrete: a complicated incentive schedule can generate a muted or distorted response even when the true economic stakes are large. Students first reproduce a synthetic incentive-opacity factbook in the spirit of [@abelerHuffmanRaymond2025], then diagnose whether the observed pattern is about low incentives or low perception, and finally transfer the workflow to a synthetic workplace gift-exchange design in the spirit of [@dellaVignaListMalmendierRao2022].
 
 ## Learning objectives
 
@@ -170,11 +170,11 @@ Run `src/transfer_della_vigna_gift_exchange.py` on the synthetic worker-shift ex
 
 ## Part IV. Challenge block
 
-Use `@royerStehrSydnor2015` conceptually to sketch how commitment demand reveals a dynamic self-control problem rather than merely a taste for incentives. The challenge prompt is not to estimate a structural model. It is to state clearly why voluntary commitment is informative, what the standard exponential benchmark would predict, and which outcomes would distinguish short-run incentive response from long-run habit formation.
+Use [@royerStehrSydnor2015] conceptually to sketch how commitment demand reveals a dynamic self-control problem rather than merely a taste for incentives. The challenge prompt is not to estimate a structural model. It is to state clearly why voluntary commitment is informative, what the standard exponential benchmark would predict, and which outcomes would distinguish short-run incentive response from long-run habit formation.
 
 ## Part V. Optional frontier extension
 
-Use `@dellaVignaPaserman2005` to connect present bias to search intensity and unemployment duration. Use `@dellaVignaPope2018` to compare standard incentives, social preferences, and nonmonetary motivators in real-effort settings. The goal is not to exhaust the literature. The goal is to use Week 12 to organize a mechanism map.
+Use [@dellaVignaPaserman2005] to connect present bias to search intensity and unemployment duration. Use [@dellaVignaPope2018] to compare standard incentives, social preferences, and nonmonetary motivators in real-effort settings. The goal is not to exhaust the literature. The goal is to use Week 12 to organize a mechanism map.
 
 ## Part VI. Reflection
 

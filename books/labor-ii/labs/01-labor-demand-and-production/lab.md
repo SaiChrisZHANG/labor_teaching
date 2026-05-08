@@ -9,13 +9,13 @@
 **Estimated student time:** 4 core hours + 2 optional hours  
 **Prerequisites:** Week 1 module, command-line basics, introductory `pandas`, comfort reading scatterplots and elasticity tables  
 **Core economic question:** What does a local labor-demand design identify, and how does that differ from the conditional-versus-total decomposition in the static model?  
-**Primary source anchor:** `@beaudryGreenSand2018`  
-**Challenge anchor:** `@saezSchoeferSeim2019`  
-**Optional extension anchor:** `@buttersSacksSeo2022`
+**Primary source anchor:** [@beaudryGreenSand2018]  
+**Challenge anchor:** [@saezSchoeferSeim2019]  
+**Optional extension anchor:** [@buttersSacksSeo2022]
 
 ## Why this lab exists
 
-Week 1 should not end with a blackboard elasticity. `@beaudryGreenSand2018` is a strong pedagogical anchor because it makes students name the source of variation and the margin observed. A city-industry demand shift is not the same thing as a wage shock holding output fixed. The lab keeps that distinction explicit while staying runnable on local synthetic data.
+Week 1 should not end with a blackboard elasticity. [@beaudryGreenSand2018] is a strong pedagogical anchor because it makes students name the source of variation and the margin observed. A city-industry demand shift is not the same thing as a wage shock holding output fixed. The lab keeps that distinction explicit while staying runnable on local synthetic data.
 
 ## Learning objectives
 
@@ -31,7 +31,7 @@ By the end of this lab, students should be able to:
 
 This lab is intentionally bounded.
 
-- Reproduce one compact `@beaudryGreenSand2018`-style city-industry relationship.
+- Reproduce one compact [@beaudryGreenSand2018]-style city-industry relationship.
 - Diagnose the estimand in a short memo.
 - Transfer the logic to one stylized labor-cost scenario file.
 - Do not turn the lab into a full shift-share, equilibrium, or confidential-data replication.
@@ -48,7 +48,7 @@ This lab is intentionally bounded.
 
 ### Official package reality
 
-The bounded path here is not a literal replication package for `@beaudryGreenSand2018`. It is a synthetic teaching workflow inspired by the design logic of local demand shifts. The goal is to practice Week 1 reasoning cleanly, not to mimic the full data environment of the published paper.
+The bounded path here is not a literal replication package for [@beaudryGreenSand2018]. It is a synthetic teaching workflow inspired by the design logic of local demand shifts. The goal is to practice Week 1 reasoning cleanly, not to mimic the full data environment of the published paper.
 
 ### First commands to run
 
@@ -113,7 +113,7 @@ Use the Week 1 static benchmark on a small scenario file that compares payroll-t
 1. Run `src/transfer_static_labor_demand.py`.
 2. Inspect `output/transfer/static_labor_demand_transfer_summary.csv`.
 3. Compare conditional and total elasticities across the supplied scenarios.
-4. Explain why the payroll-tax case is the natural bridge to `@saezSchoeferSeim2019`.
+4. Explain why the payroll-tax case is the natural bridge to [@saezSchoeferSeim2019].
 
 ### Acceptable transfer interpretations
 
@@ -125,8 +125,8 @@ Use the Week 1 static benchmark on a small scenario file that compares payroll-t
 
 Use one extension only.
 
-1. Read `@saezSchoeferSeim2019` and explain how wage-setting complicates the clean Week 1 incidence benchmark.
-2. Read `@buttersSacksSeo2022` and explain why multi-market firms can absorb local cost shocks through prices rather than local employment alone.
+1. Read [@saezSchoeferSeim2019] and explain how wage-setting complicates the clean Week 1 incidence benchmark.
+2. Read [@buttersSacksSeo2022] and explain why multi-market firms can absorb local cost shocks through prices rather than local employment alone.
 
 ## Deliverables checklist
 
@@ -134,7 +134,7 @@ Use one extension only.
 - [ ] reproduced scatterplot and delta table  
 - [ ] one-page design memo  
 - [ ] transfer summary table and figure  
-- [ ] short bridge note to `@saezSchoeferSeim2019`  
+- [ ] short bridge note to [@saezSchoeferSeim2019]  
 - [ ] final reflection memo
 
 ## Instructor notes

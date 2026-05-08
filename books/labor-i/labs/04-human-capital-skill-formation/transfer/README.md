@@ -1,6 +1,6 @@
 # Transfer note
 
-The transfer exercise uses a local synthetic dataset in the spirit of `@walters2015`.
+The transfer exercise uses a local synthetic dataset in the spirit of [@walters2015].
 
 The point is not to recreate Head Start in detail. The point is to keep students inside the same empirical family while changing the environment:
 

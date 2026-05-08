@@ -56,22 +56,22 @@ These are the starter references that should appear in the Week 3 chapter, slide
 
 ### Core conceptual references
 
-- `@hoffmanStanton2024`
-- `@holmstromMilgrom1991`
-- `@lazearRosen1981`
-- `@lazear2000`
+- [@hoffmanStanton2024]
+- [@holmstromMilgrom1991]
+- [@lazearRosen1981]
+- [@lazear2000]
 
 ### Internal labor markets, incentives, and personnel evidence
 
-- `@friebelHeinzKruegerZubanov2017`
-- `@bensonLiShue2019`
-- `@masMoretti2009`
-- `@bloomEtAl2019`
+- [@friebelHeinzKruegerZubanov2017]
+- [@bensonLiShue2019]
+- [@masMoretti2009]
+- [@bloomEtAl2019]
 
 ### Recent frontier and policy-extension references
 
-- `@emanuelHarrington2024`
-- `@harjuJagerSchoefer2025`
+- [@emanuelHarrington2024]
+- [@harjuJagerSchoefer2025]
 
 ## Section-level content requirements
 
@@ -268,22 +268,22 @@ If the figures do not yet exist, create clean schematic figures at these stable 
 
 ### Core theory / framework
 
-- `@hoffmanStanton2024`
-- `@holmstromMilgrom1991`
-- `@lazearRosen1981`
-- `@lazear2000`
+- [@hoffmanStanton2024]
+- [@holmstromMilgrom1991]
+- [@lazearRosen1981]
+- [@lazear2000]
 
 ### Core empirical personnel economics
 
-- `@friebelHeinzKruegerZubanov2017`
-- `@bensonLiShue2019`
-- `@masMoretti2009`
-- `@bloomEtAl2019`
+- [@friebelHeinzKruegerZubanov2017]
+- [@bensonLiShue2019]
+- [@masMoretti2009]
+- [@bloomEtAl2019]
 
 ### Recent extension / frontier
 
-- `@emanuelHarrington2024`
-- `@harjuJagerSchoefer2025`
+- [@emanuelHarrington2024]
+- [@harjuJagerSchoefer2025]
 
 ## Suggested lab direction
 
@@ -291,7 +291,7 @@ The lab should follow the now-standard two-part structure:
 
 ### Part A: Reproduce
 
-Primary anchor: `@friebelHeinzKruegerZubanov2017`
+Primary anchor: [@friebelHeinzKruegerZubanov2017]
 
 Students should reproduce one or two key moments about team incentives, effort complementarities, or profit consequences using the bounded pedagogical path.
 

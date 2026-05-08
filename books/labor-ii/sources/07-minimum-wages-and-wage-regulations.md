@@ -76,24 +76,24 @@ These are starter references that should appear in the Week 7 chapter, slides, o
 
 ### Core debate and modern minimum-wage literature
 
-- `@cardKrueger1994`
-- `@neumarkWascher2007`
-- `@dubeLesterReich2010`
-- `@cengizDubeLindnerZipperer2019`
-- `@jardimEtAl2022`
-- `@dubeLindner2024`
-- `@dubeZipperer2024`
-- `@engbomMoser2022`
+- [@cardKrueger1994]
+- [@neumarkWascher2007]
+- [@dubeLesterReich2010]
+- [@cengizDubeLindnerZipperer2019]
+- [@jardimEtAl2022]
+- [@dubeLindner2024]
+- [@dubeZipperer2024]
+- [@engbomMoser2022]
 
 ### Broader wage-law and enforcement literature
 
-- `@dube2019familyincome`
-- `@almeidaCarneiro2012`
-- `@samaniegoFernandez2024`
-- `@bakerHalberstamKroftMasMessacar2023`
-- `@gulyasSeitzSinha2023`
-- `@gentilePassaroKojimaPakzadHurson2026`
-- `@butschek2022`
+- [@dube2019familyincome]
+- [@almeidaCarneiro2012]
+- [@samaniegoFernandez2024]
+- [@bakerHalberstamKroftMasMessacar2023]
+- [@gulyasSeitzSinha2023]
+- [@gentilePassaroKojimaPakzadHurson2026]
+- [@butschek2022]
 
 ## Section-level content requirements
 
@@ -329,7 +329,7 @@ The lab should be organized around **Reproduce -> Diagnose -> Transfer**.
 
 ### Primary anchor
 
-- `@cengizDubeLindnerZipperer2019`
+- [@cengizDubeLindnerZipperer2019]
 
 Why:
 - clean modern design around low-wage jobs below and around the new minimum;
@@ -338,7 +338,7 @@ Why:
 
 ### Secondary / challenge anchor
 
-- `@dubeLesterReich2010`
+- [@dubeLesterReich2010]
 
 Why:
 - canonical border design;
@@ -347,7 +347,7 @@ Why:
 
 ### Optional extension anchor
 
-- `@engbomMoser2022`
+- [@engbomMoser2022]
 
 Why:
 - brings in global evidence, equilibrium reallocation, inequality, and firm-side adjustment;
@@ -373,25 +373,25 @@ The chapter should have a real reading ladder.
 
 ### Core
 
-- `@dubeLindner2024`
-- `@cengizDubeLindnerZipperer2019`
-- `@dubeLesterReich2010`
-- `@engbomMoser2022`
+- [@dubeLindner2024]
+- [@cengizDubeLindnerZipperer2019]
+- [@dubeLesterReich2010]
+- [@engbomMoser2022]
 
 ### Strong complements
 
-- `@neumarkWascher2007`
-- `@jardimEtAl2022`
-- `@dubeZipperer2024`
-- `@dube2019familyincome`
+- [@neumarkWascher2007]
+- [@jardimEtAl2022]
+- [@dubeZipperer2024]
+- [@dube2019familyincome]
 
 ### Wage-law extension
 
-- `@almeidaCarneiro2012`
-- `@samaniegoFernandez2024`
-- `@bakerHalberstamKroftMasMessacar2023`
-- `@gulyasSeitzSinha2023`
-- `@gentilePassaroKojimaPakzadHurson2026`
+- [@almeidaCarneiro2012]
+- [@samaniegoFernandez2024]
+- [@bakerHalberstamKroftMasMessacar2023]
+- [@gulyasSeitzSinha2023]
+- [@gentilePassaroKojimaPakzadHurson2026]
 
 ## Bridge sentences the chapter should make explicit
 

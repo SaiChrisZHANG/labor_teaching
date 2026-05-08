@@ -100,23 +100,23 @@ These are the starter references that should appear in the Week 13 chapter, slid
 
 ### Semester-synthesis references
 
-- `@blundellMaCurdy1999`
-- `@becker1964`
-- `@benPorath1967`
-- `@card1999`
-- `@autorKatzKearney2008`
-- `@cardCardosoHeiningKline2018`
-- `@neumark2018`
-- `@dellavigna2009`
-- `@dellavigna2018`
+- [@blundellMaCurdy1999]
+- [@becker1964]
+- [@benPorath1967]
+- [@card1999]
+- [@autorKatzKearney2008]
+- [@cardCardosoHeiningKline2018]
+- [@neumark2018]
+- [@dellavigna2009]
+- [@dellavigna2018]
 
 ### Bridge-to-Labor-II references
 
-- `@acemogluAutor2011`
-- `@mortensenPissarides1994`
-- `@burdettMortensen1998`
-- `@manning2003`
-- `@songEtAl2019`
+- [@acemogluAutor2011]
+- [@mortensenPissarides1994]
+- [@burdettMortensen1998]
+- [@manning2003]
+- [@songEtAl2019]
 
 ## Section-level content requirements
 
@@ -362,11 +362,11 @@ The bounded pedagogical path should avoid large restricted data and should run l
 ## Suggested anchor-paper menu for the Week 13 lab
 
 Use a small menu rather than a single required paper. Good options include:
-- `@card1999` as the returns-to-education anchor;
-- `@autorKatzKearney2008` as the inequality anchor;
-- `@cardCardosoHeiningKline2018` or `@songEtAl2019` as the worker--firm bridge anchor;
-- `@neumark2018` as the discrimination-identification anchor;
-- `@dellavigna2009` as the behavioral bridge anchor.
+- [@card1999] as the returns-to-education anchor;
+- [@autorKatzKearney2008] as the inequality anchor;
+- [@cardCardosoHeiningKline2018] or [@songEtAl2019] as the worker--firm bridge anchor;
+- [@neumark2018] as the discrimination-identification anchor;
+- [@dellavigna2009] as the behavioral bridge anchor.
 
 The point is not to re-teach the whole paper, but to help students see how to extend an established design.
 

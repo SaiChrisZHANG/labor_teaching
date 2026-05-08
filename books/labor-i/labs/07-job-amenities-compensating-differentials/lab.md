@@ -16,7 +16,7 @@
 
 ## Why this lab exists
 
-Week 7 asks students to stop treating wages as the whole job and start treating wages as one component of a broader compensation bundle. The bounded lab makes that move concrete: students first estimate wage-equivalent values for explicit amenities in the spirit of `@masPallais2017`, then transfer the same valuation logic to a broader working-conditions and inequality exercise in the spirit of `@maestasMullenPowellVonWachterWenger2023`.
+Week 7 asks students to stop treating wages as the whole job and start treating wages as one component of a broader compensation bundle. The bounded lab makes that move concrete: students first estimate wage-equivalent values for explicit amenities in the spirit of [@masPallais2017], then transfer the same valuation logic to a broader working-conditions and inequality exercise in the spirit of [@maestasMullenPowellVonWachterWenger2023].
 
 ## Learning objectives
 
@@ -169,7 +169,7 @@ Run `src/transfer_working_conditions_value.py` on the synthetic accepted-job fil
 
 ## Part IV. Optional extension
 
-Use `@sorkin2018` to write a short note on how worker flows or job-to-job mobility could recover latent firm value when the researcher does not directly observe a full amenity bundle. The goal is not to estimate a full revealed-preference model here. The goal is to connect Week 7's explicit-attribute logic to broader firm ranking and sorting.
+Use [@sorkin2018] to write a short note on how worker flows or job-to-job mobility could recover latent firm value when the researcher does not directly observe a full amenity bundle. The goal is not to estimate a full revealed-preference model here. The goal is to connect Week 7's explicit-attribute logic to broader firm ranking and sorting.
 
 ## Part V. Reflection
 

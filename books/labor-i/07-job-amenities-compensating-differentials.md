@@ -55,8 +55,8 @@ Figure {numref}`fig-week7-hedonic` is the lecture picture that should anchor the
 
 :::{admonition} Optional Extension Block
 :class: note
-- risky jobs, compensating differentials, and the value of statistical life in the spirit of `@viscusiAldy2003`
-- search-friction and worker-flow interpretations of firm value in the spirit of `@hwangMortensenReed1998`, `@bonhommeJolivet2009`, and `@sorkin2018`
+- risky jobs, compensating differentials, and the value of statistical life in the spirit of [@viscusiAldy2003]
+- search-friction and worker-flow interpretations of firm value in the spirit of [@hwangMortensenReed1998], [@bonhommeJolivet2009], and [@sorkin2018]
 :::
 
 ## Field Core
@@ -161,11 +161,11 @@ Week 7 changes what counts as compensation. Week 5 showed that observed wages em
 
 ## Research Lab
 
-The bounded Week 7 lab is built around a `Reproduce -> Diagnose -> Transfer` path that is fully local and does not require proprietary microdata. The reproduction step uses a synthetic job-choice dataset in the spirit of `@masPallais2017`, where workers choose between offers that differ in wages and explicit amenities. Students recover willingness to pay for schedule predictability, remote work, and worker-controlled flexibility using a discrete-choice approximation that keeps the design transparent.
+The bounded Week 7 lab is built around a `Reproduce -> Diagnose -> Transfer` path that is fully local and does not require proprietary microdata. The reproduction step uses a synthetic job-choice dataset in the spirit of [@masPallais2017], where workers choose between offers that differ in wages and explicit amenities. Students recover willingness to pay for schedule predictability, remote work, and worker-controlled flexibility using a discrete-choice approximation that keeps the design transparent.
 
 The diagnostic step asks students to interpret those estimates correctly. A willingness-to-pay parameter is not the same thing as a cross-sectional wage premium, and it is not automatically constant across workers. The lab therefore highlights heterogeneity by showing how care-constrained or commute-burdened workers can place larger value on the same amenity.
 
-The transfer step moves from named attributes to broader working conditions in the spirit of `@maestasMullenPowellVonWachterWenger2023`. Students use a synthetic working-conditions panel to compare wage-only rankings with value-adjusted rankings that incorporate amenity bundles. An optional extension note points to `@sorkin2018` as the next step from explicit attribute valuation toward revealed-preference rankings over firms and job ladders.
+The transfer step moves from named attributes to broader working conditions in the spirit of [@maestasMullenPowellVonWachterWenger2023]. Students use a synthetic working-conditions panel to compare wage-only rankings with value-adjusted rankings that incorporate amenity bundles. An optional extension note points to [@sorkin2018] as the next step from explicit attribute valuation toward revealed-preference rankings over firms and job ladders.
 
 Open research questions should remain visible:
 
@@ -217,7 +217,7 @@ Week 7 adds one discipline to the wage-setting and household tools from Weeks 5 
 
 ## Reproducibility or code lab note
 
-The Week 7 lab is organized around a bounded `Reproduce -> Diagnose -> Transfer` path that runs fully locally. Students reproduce a synthetic discrete-choice amenity valuation exercise in the spirit of `@masPallais2017`, diagnose what a willingness-to-pay estimate does and does not identify relative to a hedonic wage slope, and then transfer the workflow to a synthetic working-conditions and inequality exercise in the spirit of `@maestasMullenPowellVonWachterWenger2023`. An optional extension note points to worker-flow revealed preference in `@sorkin2018`. The bounded workflow is documented in [labs/07-job-amenities-compensating-differentials/lab.md](labs/07-job-amenities-compensating-differentials/lab.md).
+The Week 7 lab is organized around a bounded `Reproduce -> Diagnose -> Transfer` path that runs fully locally. Students reproduce a synthetic discrete-choice amenity valuation exercise in the spirit of [@masPallais2017], diagnose what a willingness-to-pay estimate does and does not identify relative to a hedonic wage slope, and then transfer the workflow to a synthetic working-conditions and inequality exercise in the spirit of [@maestasMullenPowellVonWachterWenger2023]. An optional extension note points to worker-flow revealed preference in [@sorkin2018]. The bounded workflow is documented in [labs/07-job-amenities-compensating-differentials/lab.md](labs/07-job-amenities-compensating-differentials/lab.md).
 
 ## Slide companion note
 

@@ -75,20 +75,20 @@ These are starter references that should appear in the Week 5 chapter, slides, o
 
 ### Core conceptual references
 
-- `@burdettMortensen1998`
-- `@hallMilgrom2008`
-- `@mortensen2003`
-- `@jaegerSchoeferYoungZweimueller2020`
+- [@burdettMortensen1998]
+- [@hallMilgrom2008]
+- [@mortensen2003]
+- [@jaegerSchoeferYoungZweimueller2020]
 
 ### Wage-setting protocols, firm pay rules, and empirical evidence
 
-- `@lachowskaMasSaggioWoodbury2022`
-- `@massenkoffWilmers2023`
-- `@biasi2021`
-- `@cardCardosoHeiningKline2018`
-- `@rudanko2023`
-- `@bhullerMoeneMogstadVestad2022`
-- `@caldwellHaegeleHeining2025`
+- [@lachowskaMasSaggioWoodbury2022]
+- [@massenkoffWilmers2023]
+- [@biasi2021]
+- [@cardCardosoHeiningKline2018]
+- [@rudanko2023]
+- [@bhullerMoeneMogstadVestad2022]
+- [@caldwellHaegeleHeining2025]
 
 ## Section-level content requirements
 
@@ -302,20 +302,20 @@ These tables are editable inputs and should be embedded or adapted directly.
 The reading ladder should be explicit and tiered.
 
 ### Required / field-core
-- `@burdettMortensen1998`
-- `@hallMilgrom2008`
-- `@jaegerSchoeferYoungZweimueller2020`
-- `@lachowskaMasSaggioWoodbury2022`
+- [@burdettMortensen1998]
+- [@hallMilgrom2008]
+- [@jaegerSchoeferYoungZweimueller2020]
+- [@lachowskaMasSaggioWoodbury2022]
 
 ### Strong empirical complements
-- `@massenkoffWilmers2023`
-- `@biasi2021`
-- `@cardCardosoHeiningKline2018`
+- [@massenkoffWilmers2023]
+- [@biasi2021]
+- [@cardCardosoHeiningKline2018]
 
 ### Optional / frontier / bridge to later weeks
-- `@rudanko2023`
-- `@bhullerMoeneMogstadVestad2022`
-- `@caldwellHaegeleHeining2025`
+- [@rudanko2023]
+- [@bhullerMoeneMogstadVestad2022]
+- [@caldwellHaegeleHeining2025]
 
 ## Research lab design
 
@@ -325,19 +325,19 @@ The Week 5 research lab should follow the standardized structure:
 - Transfer
 
 ### Primary lab anchor
-- `@lachowskaMasSaggioWoodbury2022`
+- [@lachowskaMasSaggioWoodbury2022]
 
 Why:
 - it is the cleanest direct empirical test in the week's title question: posting or bargaining?
 
 ### Secondary / challenge anchor
-- `@massenkoffWilmers2023`
+- [@massenkoffWilmers2023]
 
 Why:
 - it shifts the focus from match-level wage determination to the firm's wage-setting regime.
 
 ### Optional extension anchor
-- `@biasi2021`
+- [@biasi2021]
 
 Why:
 - it provides a concrete institutional case where standardized versus flexible pay schedules can be compared.

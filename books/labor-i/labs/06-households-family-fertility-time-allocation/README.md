@@ -19,10 +19,10 @@ conda run -n research python src/transfer_child_penalty_event_study.py \
 ## Recommended workflow
 
 1. Generate the local synthetic teaching files and verify the environment.
-2. Run the bounded reproduction in the spirit of `@lundborgPlugRasmussen2017`.
+2. Run the bounded reproduction in the spirit of [@lundborgPlugRasmussen2017].
 3. Read `original/source-notes.md` before interpreting the outputs as a literal paper replication.
-4. Use the transfer step to trace dynamic child penalties in the spirit of `@klevenLandaisSogaard2019`.
-5. Treat the optional extension in `lab.md` as a policy bridge to `@gelbach2002`, `@cortesTessada2011`, or `@klevenLandaisPoschSteinhauerZweimueller2024`.
+4. Use the transfer step to trace dynamic child penalties in the spirit of [@klevenLandaisSogaard2019].
+5. Treat the optional extension in `lab.md` as a policy bridge to [@gelbach2002], [@cortesTessada2011], or [@klevenLandaisPoschSteinhauerZweimueller2024].
 
 ## Notes
 

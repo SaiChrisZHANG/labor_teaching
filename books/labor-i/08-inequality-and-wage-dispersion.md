@@ -36,9 +36,9 @@ That move matters because inequality is not one number attached to one outcome. 
 
 :::{admonition} Optional Extension Block
 :class: note
-- linked employer-employee decompositions, firm wage premia, and sorting in the spirit of `@cardCardosoHeiningKline2018`
-- workplace concentration, rents, and distributional incidence in the spirit of `@songPriceGuvenenBloomVonWachter2019`
-- supply, firms, institutions, and the full wage distribution in the spirit of `@haanwinckel2025`
+- linked employer-employee decompositions, firm wage premia, and sorting in the spirit of [@cardCardosoHeiningKline2018]
+- workplace concentration, rents, and distributional incidence in the spirit of [@songPriceGuvenenBloomVonWachter2019]
+- supply, firms, institutions, and the full wage distribution in the spirit of [@haanwinckel2025]
 :::
 
 ## Field Core
@@ -167,11 +167,11 @@ Figure {numref}`fig-week8-value` shows why the bridge matters. If high-wage firm
 
 ## Research Lab
 
-The bounded Week 8 lab is built around a local `Reproduce -> Diagnose -> Transfer` workflow that does not require restricted administrative data. The reproduction step uses a synthetic CPS-style file to recover a small inequality factbook in the spirit of `@autorKatzKearney2008`: percentile gaps, a college premium comparison, a between-versus-within decomposition, and a residual-inequality summary. This keeps the core inequality objects transparent and reproducible.
+The bounded Week 8 lab is built around a local `Reproduce -> Diagnose -> Transfer` workflow that does not require restricted administrative data. The reproduction step uses a synthetic CPS-style file to recover a small inequality factbook in the spirit of [@autorKatzKearney2008]: percentile gaps, a college premium comparison, a between-versus-within decomposition, and a residual-inequality summary. This keeps the core inequality objects transparent and reproducible.
 
-The diagnostic step asks students to separate descriptive decomposition from causal explanation. A rising residual component in Equation {eq}`eq-week8-residual` is not a stand-alone mechanism. Students must say what the residual may bundle together and which facts it helps discipline. The transfer step then moves to a synthetic linked employer-employee panel that supports a simple worker-firm decomposition in the spirit of `@cardCardosoHeiningKline2018` and `@songPriceGuvenenBloomVonWachter2019`. The aim is not to mimic confidential-data scale. It is to teach the logic of worker effects, firm premia, and sorting.
+The diagnostic step asks students to separate descriptive decomposition from causal explanation. A rising residual component in Equation {eq}`eq-week8-residual` is not a stand-alone mechanism. Students must say what the residual may bundle together and which facts it helps discipline. The transfer step then moves to a synthetic linked employer-employee panel that supports a simple worker-firm decomposition in the spirit of [@cardCardosoHeiningKline2018] and [@songPriceGuvenenBloomVonWachter2019]. The aim is not to mimic confidential-data scale. It is to teach the logic of worker effects, firm premia, and sorting.
 
-An optional extension note points students toward `@haanwinckel2025` for a broader synthesis of supply, firms, institutions, and the wage distribution. The bounded path stays deliberately local and pedagogical. It teaches the architecture of modern inequality analysis without pretending that a teaching dataset can replicate the entire administrative-data frontier.
+An optional extension note points students toward [@haanwinckel2025] for a broader synthesis of supply, firms, institutions, and the wage distribution. The bounded path stays deliberately local and pedagogical. It teaches the architecture of modern inequality analysis without pretending that a teaching dataset can replicate the entire administrative-data frontier.
 
 Open research questions should remain visible:
 
@@ -238,7 +238,7 @@ Table {numref}`tbl:ineq-mechanism-map` is the parallel mechanism summary. It pre
 
 ## Reproducibility or code lab note
 
-The Week 8 lab follows the standard bounded `Reproduce -> Diagnose -> Transfer` path. Students first build a synthetic inequality factbook in the spirit of `@autorKatzKearney2008`, then diagnose what percentile gaps, between-within decompositions, and residual inequality do and do not identify, and finally transfer the workflow to a synthetic worker-firm decomposition in the spirit of `@cardCardosoHeiningKline2018` and `@songPriceGuvenenBloomVonWachter2019`. The bounded workflow is documented in [labs/08-inequality-and-wage-dispersion/lab.md](labs/08-inequality-and-wage-dispersion/lab.md).
+The Week 8 lab follows the standard bounded `Reproduce -> Diagnose -> Transfer` path. Students first build a synthetic inequality factbook in the spirit of [@autorKatzKearney2008], then diagnose what percentile gaps, between-within decompositions, and residual inequality do and do not identify, and finally transfer the workflow to a synthetic worker-firm decomposition in the spirit of [@cardCardosoHeiningKline2018] and [@songPriceGuvenenBloomVonWachter2019]. The bounded workflow is documented in [labs/08-inequality-and-wage-dispersion/lab.md](labs/08-inequality-and-wage-dispersion/lab.md).
 
 ## Slide companion note
 

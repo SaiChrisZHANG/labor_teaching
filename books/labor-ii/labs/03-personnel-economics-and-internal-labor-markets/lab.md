@@ -9,13 +9,13 @@
 **Estimated student time:** 4 core hours + 2 optional hours  
 **Prerequisites:** Weeks 1--2, basic command-line work, introductory `pandas`, comfort reading grouped summaries and simple reduced-form figures  
 **Core economic question:** How do economists distinguish effort incentives, assignment, and promotion effects when studying internal labor markets?  
-**Primary source anchor:** `@friebelHeinzKruegerZubanov2017`  
-**Challenge anchor:** `@bensonLiShue2019`  
-**Optional extension anchor:** `@emanuelHarrington2024`
+**Primary source anchor:** [@friebelHeinzKruegerZubanov2017]  
+**Challenge anchor:** [@bensonLiShue2019]  
+**Optional extension anchor:** [@emanuelHarrington2024]
 
 ## Why this lab exists
 
-Week 3 should not stop at saying that firms use incentives and promotions. Students should practice saying what varies, what unit is observed, what margin is measured, and which interpretation is still too strong. `@friebelHeinzKruegerZubanov2017` is a strong teaching anchor because the variation is a clear firm-side incentive change. `@bensonLiShue2019` is a strong challenge anchor because it forces the assignment-versus-incentives distinction into the data.
+Week 3 should not stop at saying that firms use incentives and promotions. Students should practice saying what varies, what unit is observed, what margin is measured, and which interpretation is still too strong. [@friebelHeinzKruegerZubanov2017] is a strong teaching anchor because the variation is a clear firm-side incentive change. [@bensonLiShue2019] is a strong challenge anchor because it forces the assignment-versus-incentives distinction into the data.
 
 ## Learning objectives
 
@@ -48,7 +48,7 @@ This lab is intentionally bounded.
 
 ### Official package reality
 
-The bounded path here is not a literal replication package for `@friebelHeinzKruegerZubanov2017`. It is a synthetic teaching workflow inspired by the paper's design logic: team incentives, complementarity, and profits. The goal is to practice Week 3 reasoning cleanly, not to ship the full proprietary firm environment of the published study.
+The bounded path here is not a literal replication package for [@friebelHeinzKruegerZubanov2017]. It is a synthetic teaching workflow inspired by the paper's design logic: team incentives, complementarity, and profits. The goal is to practice Week 3 reasoning cleanly, not to ship the full proprietary firm environment of the published study.
 
 ### First commands to run
 
@@ -117,7 +117,7 @@ Use the Week 3 framework on a synthetic promotion file that compares performance
 2. Inspect `output/transfer/personnel_assignment_summary.csv`.
 3. Open `output/transfer/personnel_assignment_tradeoff.png`.
 4. Compare how the promoted group's current-job performance differs from its post-promotion output under each rule.
-5. Explain why this transfer file is the natural bridge to `@bensonLiShue2019`.
+5. Explain why this transfer file is the natural bridge to [@bensonLiShue2019].
 
 ### Acceptable transfer interpretations
 
@@ -129,8 +129,8 @@ Use the Week 3 framework on a synthetic promotion file that compares performance
 
 Use one extension only.
 
-1. Read `@bensonLiShue2019` and explain how promotion data separate current performance from next-job fit.
-2. Read `@emanuelHarrington2024` and explain why remote-work productivity estimates must separate who selects into remote work from what remote work does to comparable workers once assigned.
+1. Read [@bensonLiShue2019] and explain how promotion data separate current performance from next-job fit.
+2. Read [@emanuelHarrington2024] and explain why remote-work productivity estimates must separate who selects into remote work from what remote work does to comparable workers once assigned.
 
 ## Deliverables checklist
 
@@ -138,7 +138,7 @@ Use one extension only.
 - [ ] reproduced event-path table and figure  
 - [ ] one-page diagnose memo  
 - [ ] transfer summary table and figure  
-- [ ] short bridge note to `@bensonLiShue2019`  
+- [ ] short bridge note to [@bensonLiShue2019]  
 - [ ] final reflection memo
 
 ## Instructor notes

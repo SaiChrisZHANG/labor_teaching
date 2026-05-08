@@ -40,22 +40,22 @@ These are the starter references that should appear in the Week 2 chapter, slide
 
 ### Core theory and review references
 
-- `@blundellMaCurdy1999`
-- `@hausman1985`
-- `@chetty2012`
+- [@blundellMaCurdy1999]
+- [@hausman1985]
+- [@chetty2012]
 
 ### Intensive/extensive margin and tax-policy references
 
-- `@eissaLiebman1996`
-- `@eissaHoynes2004`
-- `@eissaHoynes2006`
-- `@saez2010`
-- `@chettyFriedmanSaez2013`
+- [@eissaLiebman1996]
+- [@eissaHoynes2004]
+- [@eissaHoynes2006]
+- [@saez2010]
+- [@chettyFriedmanSaez2013]
 
 ### Optional structural / nonconvexity references
 
-- `@heimMeyer2004`
-- `@fullertonGan2004`
+- [@heimMeyer2004]
+- [@fullertonGan2004]
 
 ## Section-level content requirements
 
@@ -108,18 +108,18 @@ Minimum distinctions:
 - micro versus macro;
 - taxable income versus real labor-supply responses.
 
-The section should explain why Chetty's synthesis is useful: the literature disagrees partly because adjustment and optimization frictions make different empirical designs recover different objects `@chetty2012`.
+The section should explain why Chetty's synthesis is useful: the literature disagrees partly because adjustment and optimization frictions make different empirical designs recover different objects [@chetty2012].
 
 ### 5. Policy applications: EITC, participation, and bunching
 
 This section should use the EITC as the main applied bridge.
 
 Minimum content:
-- participation responses for single mothers `@eissaLiebman1996`;
-- married-couple participation effects `@eissaHoynes2004`;
-- broad lessons from the EITC literature `@eissaHoynes2006`;
-- bunching and schedule salience `@saez2010`;
-- local knowledge and information frictions `@chettyFriedmanSaez2013`.
+- participation responses for single mothers [@eissaLiebman1996];
+- married-couple participation effects [@eissaHoynes2004];
+- broad lessons from the EITC literature [@eissaHoynes2006];
+- bunching and schedule salience [@saez2010];
+- local knowledge and information frictions [@chettyFriedmanSaez2013].
 
 The chapter should end by making clear that the static benchmark will be revisited in Weeks 3, 11, and 12 once dynamics, policy evaluation, and informational/behavioral frictions are added.
 
@@ -225,11 +225,11 @@ Minimum columns:
 ## Required references by section
 
 Minimum expectations:
-- opening and benchmark section: `@blundellMaCurdy1999`, `@hausman1985`
-- elasticity interpretation section: `@chetty2012`
-- EITC extensive-margin evidence: `@eissaLiebman1996`, `@eissaHoynes2004`, `@eissaHoynes2006`
-- bunching / nonlinear schedules: `@saez2010`
-- information / knowledge / salience bridge: `@chettyFriedmanSaez2013`
+- opening and benchmark section: [@blundellMaCurdy1999], [@hausman1985]
+- elasticity interpretation section: [@chetty2012]
+- EITC extensive-margin evidence: [@eissaLiebman1996], [@eissaHoynes2004], [@eissaHoynes2006]
+- bunching / nonlinear schedules: [@saez2010]
+- information / knowledge / salience bridge: [@chettyFriedmanSaez2013]
 
 ## Lab anchor
 
@@ -237,7 +237,7 @@ The Week 2 lab should be built around one official replication package and one b
 
 ### Primary lab candidate
 
-Use `@saez2010` because the article has an official AEA replication package and gives students a direct encounter with nonlinear budget sets, kinks, and bunching behavior.
+Use [@saez2010] because the article has an official AEA replication package and gives students a direct encounter with nonlinear budget sets, kinks, and bunching behavior.
 
 #### Reproduce
 
@@ -253,7 +253,7 @@ Students should apply the same binning/bunching workflow to one bounded alternat
 
 ### Secondary lab candidate
 
-Use `@chettyFriedmanSaez2013` if the goal is to emphasize information and knowledge frictions in static labor-supply responses to the EITC.
+Use [@chettyFriedmanSaez2013] if the goal is to emphasize information and knowledge frictions in static labor-supply responses to the EITC.
 
 #### Reproduce
 

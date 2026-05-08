@@ -24,6 +24,6 @@ conda run -n research python src/transfer_personnel_assignment.py \
 ## Notes
 
 - Synthetic data are included only to keep the pipeline local and deterministic.
-- `@friebelHeinzKruegerZubanov2017` is the primary design anchor, not a full shipped replication package.
-- `@bensonLiShue2019` is the challenge bridge for promotions and assignment.
-- `@emanuelHarrington2024` is the optional extension bridge for selection versus treatment in remote-work settings.
+- [@friebelHeinzKruegerZubanov2017] is the primary design anchor, not a full shipped replication package.
+- [@bensonLiShue2019] is the challenge bridge for promotions and assignment.
+- [@emanuelHarrington2024] is the optional extension bridge for selection versus treatment in remote-work settings.

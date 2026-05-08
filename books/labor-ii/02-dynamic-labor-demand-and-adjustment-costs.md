@@ -152,7 +152,7 @@ Plant and establishment panels track repeated outcomes for the same firm or prod
 
 Policy timing designs use labor-cost reforms or payroll-tax changes as the shock. The identifying variation is a change in labor cost, and the observed margin may include employment, hours, wages, or profits over event time. These designs identify dynamic incidence paths rather than a timeless elasticity [@saezSchoeferSeim2019].
 
-Survey or expectation-based designs are especially useful when the question is whether uncertainty changes the timing of adjustment. In `@dibiasiMikoschSarferaz2025`, the identifying variation comes from differences in uncertainty and firm beliefs, while the observed objects are expected and realized employment responses. That is informative about delay and state dependence, but it is not the same as observing every margin of actual headcount change in administrative payroll records.
+Survey or expectation-based designs are especially useful when the question is whether uncertainty changes the timing of adjustment. In [@dibiasiMikoschSarferaz2025], the identifying variation comes from differences in uncertainty and firm beliefs, while the observed objects are expected and realized employment responses. That is informative about delay and state dependence, but it is not the same as observing every margin of actual headcount change in administrative payroll records.
 
 Structural dynamic estimation goes one step further by imposing a model like Equation {eq}`eq-lii-w2-bellman` and estimating deep cost parameters. That can support counterfactual policy analysis, but only if the state space, the choice set, and measurement of margins are credible. This is why a reduced-form speed-of-adjustment estimate and a structural cost estimate answer related but distinct questions.
 
@@ -173,7 +173,7 @@ Equation {eq}`eq-lii-w2-policy-timing` forces the timing question into the notat
 The employment effect of a labor-cost shock often builds over time. Short-run, medium-run, and long-run incidence need not coincide.
 ```
 
-Figure {numref}`fig-lii-w2-policy-timing` is the clean bridge from theory to applied policy work. `@saezSchoeferSeim2019` is useful here because the identifying variation is a payroll-tax reform, the observed margins include both wages and employment, and the key result is dynamic incidence rather than a single static elasticity. The same reform can look small in the short run and substantial over longer horizons because the firm's adjustment margins are sequenced.
+Figure {numref}`fig-lii-w2-policy-timing` is the clean bridge from theory to applied policy work. [@saezSchoeferSeim2019] is useful here because the identifying variation is a payroll-tax reform, the observed margins include both wages and employment, and the key result is dynamic incidence rather than a single static elasticity. The same reform can look small in the short run and substantial over longer horizons because the firm's adjustment margins are sequenced.
 
 The dynamic policy lesson is broader than payroll taxes. Employment protection, firing costs, and hiring subsidies all reshape the timing margin. The central Week 2 habit is therefore to report both the shock and the horizon.
 
@@ -181,7 +181,7 @@ The dynamic policy lesson is broader than payroll taxes. Employment protection, 
 
 The frontier lesson from Week 2 is that observed persistence is economically ambiguous until we name the target, the horizon, and the observed margin. A plant panel with many zero employment changes points toward nonconvex adjustment, but it may also reflect uncertainty, measurement intervals, or the availability of off-margin responses. A policy event study with a flat contemporaneous estimate may still hide meaningful medium-run employment adjustment if firms move hours or wages first.
 
-`@dibiasiMikoschSarferaz2025` is a strong lab anchor because it pushes students to interpret dynamic responses through firm beliefs and uncertainty rather than through one-shot elasticities alone. `@caballeroEngelHaltiwanger1997` is the complementary challenge anchor because it asks what aggregate employment dynamics imply once micro-level inaction and lumpiness are present.
+[@dibiasiMikoschSarferaz2025] is a strong lab anchor because it pushes students to interpret dynamic responses through firm beliefs and uncertainty rather than through one-shot elasticities alone. [@caballeroEngelHaltiwanger1997] is the complementary challenge anchor because it asks what aggregate employment dynamics imply once micro-level inaction and lumpiness are present.
 
 ### Optional extension block
 
@@ -205,22 +205,22 @@ Week 2 only works if the empirical language stays disciplined.
 
 ### Bucket A. Dynamic benchmark
 
-- `@nickell1986` for the canonical field-style overview of dynamic labor-demand models.
-- `@shapiro1986` for a dynamic factor-demand benchmark that helps students see why adjustment speed is an equilibrium object inside the firm.
-- `@hamermesh1989` for the structure of adjustment costs and the distinction between reduced-form adjustment patterns and underlying cost primitives.
+- [@nickell1986] for the canonical field-style overview of dynamic labor-demand models.
+- [@shapiro1986] for a dynamic factor-demand benchmark that helps students see why adjustment speed is an equilibrium object inside the firm.
+- [@hamermesh1989] for the structure of adjustment costs and the distinction between reduced-form adjustment patterns and underlying cost primitives.
 
 ### Bucket B. Adjustment frictions and firing costs
 
-- `@bentolilaBertola1990` for the logic of firing costs and asymmetric adjustment.
-- `@caballeroEngelHaltiwanger1997` for the connection between establishment-level lumpiness and aggregate employment dynamics.
+- [@bentolilaBertola1990] for the logic of firing costs and asymmetric adjustment.
+- [@caballeroEngelHaltiwanger1997] for the connection between establishment-level lumpiness and aggregate employment dynamics.
 
 ### Bucket C. Modern measurement of dynamic frictions
 
-- `@dibiasiMikoschSarferaz2025` for evidence linking uncertainty, firm beliefs, and adjustment costs to employment timing.
+- [@dibiasiMikoschSarferaz2025] for evidence linking uncertainty, firm beliefs, and adjustment costs to employment timing.
 
 ### Bucket D. Policy timing and incidence bridge
 
-- `@saezSchoeferSeim2019` for payroll-tax incidence over the adjustment path and the bridge from dynamic labor demand to later wage-setting weeks.
+- [@saezSchoeferSeim2019] for payroll-tax incidence over the adjustment path and the bridge from dynamic labor demand to later wage-setting weeks.
 
 ## Exercises / discussion prompts
 
@@ -232,7 +232,7 @@ Week 2 only works if the empirical language stays disciplined.
 
 ## Reproducibility or code lab note
 
-The Week 2 lab follows the standard `Reproduce -> Diagnose -> Transfer` structure. The bounded reproduction path uses a local synthetic firm panel inspired by `@dibiasiMikoschSarferaz2025` so students can trace target versus actual employment, hours, and uncertainty without confidential microdata. The diagnose step asks them to name the identifying variation, the observed margin, and the implied dynamic object. The transfer step then compares convex and nonconvex adjustment paths with `@caballeroEngelHaltiwanger1997` as the challenge anchor and `@saezSchoeferSeim2019` as the optional policy-timing extension. The local handout lives at [labs/02-dynamic-labor-demand-and-adjustment-costs/lab.md](labs/02-dynamic-labor-demand-and-adjustment-costs/lab.md).
+The Week 2 lab follows the standard `Reproduce -> Diagnose -> Transfer` structure. The bounded reproduction path uses a local synthetic firm panel inspired by [@dibiasiMikoschSarferaz2025] so students can trace target versus actual employment, hours, and uncertainty without confidential microdata. The diagnose step asks them to name the identifying variation, the observed margin, and the implied dynamic object. The transfer step then compares convex and nonconvex adjustment paths with [@caballeroEngelHaltiwanger1997] as the challenge anchor and [@saezSchoeferSeim2019] as the optional policy-timing extension. The local handout lives at [labs/02-dynamic-labor-demand-and-adjustment-costs/lab.md](labs/02-dynamic-labor-demand-and-adjustment-costs/lab.md).
 
 ## Slide companion note
 

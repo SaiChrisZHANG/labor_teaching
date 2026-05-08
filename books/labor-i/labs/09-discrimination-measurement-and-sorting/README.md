@@ -19,10 +19,10 @@ conda run -n research python src/transfer_discrimination_report_cards.py \
 ## Recommended workflow
 
 1. Generate the local synthetic teaching files and verify the environment.
-2. Run the bounded callback-gap reproduction in the spirit of `@bertrandMullainathan2004`.
+2. Run the bounded callback-gap reproduction in the spirit of [@bertrandMullainathan2004].
 3. Read `original/source-notes.md` before interpreting the outputs as a literal paper replication.
-4. Use the transfer step to move from an average callback effect to employer-level report cards in the spirit of `@klineRoseWalters2024`.
-5. Treat the optional extension in `lab.md` as a bridge to task-based discrimination in `@hurstRubinsteinShimizu2024`.
+4. Use the transfer step to move from an average callback effect to employer-level report cards in the spirit of [@klineRoseWalters2024].
+5. Treat the optional extension in `lab.md` as a bridge to task-based discrimination in [@hurstRubinsteinShimizu2024].
 
 ## Notes
 

@@ -16,7 +16,7 @@
 
 ## Why this lab exists
 
-Week 4 is where productive capacity becomes an explicit state variable. The bounded lab is designed to keep that transition concrete. Students see one treatment-induced investment contrast in the spirit of `@attanasioEtAl2020HumanCapital`, then ask whether observed gains vary with baseline preparedness or program quality in the spirit of `@walters2015`.
+Week 4 is where productive capacity becomes an explicit state variable. The bounded lab is designed to keep that transition concrete. Students see one treatment-induced investment contrast in the spirit of [@attanasioEtAl2020HumanCapital], then ask whether observed gains vary with baseline preparedness or program quality in the spirit of [@walters2015].
 
 ## Learning objectives
 
@@ -168,7 +168,7 @@ Run `src/transfer_skill_formation.py` on the synthetic center-quality file and c
 
 ## Part IV. Optional finance extension
 
-Use `@lochnerMongeNaranjo2011` to write a short note on how the same investment logic changes when schooling must be financed under limited commitment. The goal is not to estimate a full credit model here. The goal is to explain why high-return investments can still be underprovided when borrowing or repayment is difficult.
+Use [@lochnerMongeNaranjo2011] to write a short note on how the same investment logic changes when schooling must be financed under limited commitment. The goal is not to estimate a full credit model here. The goal is to explain why high-return investments can still be underprovided when borrowing or repayment is difficult.
 
 ## Part V. Reflection
 

@@ -9,13 +9,13 @@
 **Estimated student time:** 4 core hours + 2 optional hours  
 **Prerequisites:** Week 4 search and matching, basic command-line use, introductory `pandas`, comfort reading grouped summaries and simple plots  
 **Core economic question:** When wages move, are we seeing a posted-wage response, individualized bargaining, or a change in the wage rule itself?  
-**Primary source anchor:** `@lachowskaMasSaggioWoodbury2022`  
-**Secondary / challenge anchor:** `@massenkoffWilmers2023`  
-**Optional extension anchor:** `@biasi2021`
+**Primary source anchor:** [@lachowskaMasSaggioWoodbury2022]  
+**Secondary / challenge anchor:** [@massenkoffWilmers2023]  
+**Optional extension anchor:** [@biasi2021]
 
 ## Why this lab exists
 
-Week 5 can easily become too verbal. The lab is designed to make students state the wage-setting protocol under test before they interpret a coefficient or a graph. `@lachowskaMasSaggioWoodbury2022` is the core anchor because it poses the cleanest version of the title question: posting or bargaining? `@massenkoffWilmers2023` is the challenge anchor because it shifts attention from one match to the firm's wage rule. `@biasi2021` is the extension because teacher salary schedules make standardized versus flexible pay concrete and transferable to public data.
+Week 5 can easily become too verbal. The lab is designed to make students state the wage-setting protocol under test before they interpret a coefficient or a graph. [@lachowskaMasSaggioWoodbury2022] is the core anchor because it poses the cleanest version of the title question: posting or bargaining? [@massenkoffWilmers2023] is the challenge anchor because it shifts attention from one match to the firm's wage rule. [@biasi2021] is the extension because teacher salary schedules make standardized versus flexible pay concrete and transferable to public data.
 
 ## Learning objectives
 
@@ -39,10 +39,10 @@ This lab is intentionally bounded.
 
 ## Lab roadmap
 
-1. **Reproduce** a dual-jobholder test in the spirit of `@lachowskaMasSaggioWoodbury2022`.
+1. **Reproduce** a dual-jobholder test in the spirit of [@lachowskaMasSaggioWoodbury2022].
 2. **Diagnose** the outside-option object, observed margin, and identification challenge.
-3. **Transfer** the Week 5 logic to a wage-rule panel inspired by `@massenkoffWilmers2023`.
-4. **Extend** the design to teacher salary schedules in the spirit of `@biasi2021`.
+3. **Transfer** the Week 5 logic to a wage-rule panel inspired by [@massenkoffWilmers2023].
+4. **Extend** the design to teacher salary schedules in the spirit of [@biasi2021].
 
 ## Part 0. Setup and orientation
 
@@ -135,7 +135,7 @@ Use a synthetic wage-rule panel to compare standardized and discretionary pay-se
 
 ### Transfer directions you are allowed to propose
 
-- a public teacher-contract or salary-schedule dataset in the spirit of `@biasi2021`;
+- a public teacher-contract or salary-schedule dataset in the spirit of [@biasi2021];
 - a public salary-grid dataset comparing within-cell wage compression before and after flexibility reforms;
 - a small synthetic offer-and-separation panel that asks whether outside-option shocks move wages or mostly trigger turnover.
 
@@ -143,15 +143,15 @@ Use a synthetic wage-rule panel to compare standardized and discretionary pay-se
 
 Choose one extension only.
 
-1. Use `@biasi2021` to explain how teacher salary schedules isolate a wage-rule difference even when school amenities remain partly latent.
+1. Use [@biasi2021] to explain how teacher salary schedules isolate a wage-rule difference even when school amenities remain partly latent.
 2. Design a small synthetic offer-and-separation panel that distinguishes realized outside offers from the value of nonemployment.
 
 ## Limitations relative to the original papers
 
 Students should say these plainly.
 
-1. The bounded reproduction path tests a synthetic outside-option shock in a dual-jobholder setting; it is not the full administrative design in `@lachowskaMasSaggioWoodbury2022`.
-2. The bounded transfer path studies a synthetic wage-rule panel; it does not recover the full historical and organizational detail in `@massenkoffWilmers2023`.
+1. The bounded reproduction path tests a synthetic outside-option shock in a dual-jobholder setting; it is not the full administrative design in [@lachowskaMasSaggioWoodbury2022].
+2. The bounded transfer path studies a synthetic wage-rule panel; it does not recover the full historical and organizational detail in [@massenkoffWilmers2023].
 3. Neither path directly observes the value of nonemployment, the full offer distribution, or the full internal pay rule.
 4. Neither path alone can separate reduced-form rent-sharing evidence from a complete structural interpretation of wage-setting.
 

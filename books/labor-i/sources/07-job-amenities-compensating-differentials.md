@@ -55,24 +55,24 @@ These are the starter references that should appear in the Week 7 chapter, slide
 
 ### Core theory and equilibrium references
 
-- `@rosen1986`
-- `@hwangMortensenReed1998`
-- `@bonhommeJolivet2009`
+- [@rosen1986]
+- [@hwangMortensenReed1998]
+- [@bonhommeJolivet2009]
 
 ### Risk and classic compensating-differentials references
 
-- `@viscusiAldy2003`
+- [@viscusiAldy2003]
 
 ### Modern experimental and revealed-preference references
 
-- `@masPallais2017`
-- `@maestasMullenPowellVonWachterWenger2023`
-- `@sorkin2018`
+- [@masPallais2017]
+- [@maestasMullenPowellVonWachterWenger2023]
+- [@sorkin2018]
 
 ### Optional synthesis and inequality references
 
-- `@hamermesh1999`
-- `@cardCardosoHeiningKline2018`
+- [@hamermesh1999]
+- [@cardCardosoHeiningKline2018]
 
 ## Section-level content requirements
 
@@ -277,7 +277,7 @@ Week 7 is a very good week for the standard two-part lab structure.
 
 ### Primary lab anchor
 
-- `@masPallais2017`
+- [@masPallais2017]
 
 Why:
 - excellent for teaching willingness to pay for amenities,
@@ -286,7 +286,7 @@ Why:
 
 ### Secondary or challenge anchor
 
-- `@maestasMullenPowellVonWachterWenger2023`
+- [@maestasMullenPowellVonWachterWenger2023]
 
 Why:
 - expands the object from a few job attributes to a richer working-conditions bundle,
@@ -295,7 +295,7 @@ Why:
 
 ### Optional extension anchor
 
-- `@sorkin2018`
+- [@sorkin2018]
 
 Why:
 - good bridge from explicit amenity attributes to revealed-preference rankings of firms/jobs,
@@ -322,20 +322,20 @@ The bounded pedagogical path should not require proprietary microdata.
 
 ### Core required reading
 
-- `@rosen1986`
-- `@masPallais2017`
-- `@maestasMullenPowellVonWachterWenger2023`
+- [@rosen1986]
+- [@masPallais2017]
+- [@maestasMullenPowellVonWachterWenger2023]
 
 ### Recommended supporting reading
 
-- `@hwangMortensenReed1998`
-- `@bonhommeJolivet2009`
-- `@viscusiAldy2003`
+- [@hwangMortensenReed1998]
+- [@bonhommeJolivet2009]
+- [@viscusiAldy2003]
 
 ### Optional extension reading
 
-- `@sorkin2018`
-- `@hamermesh1999`
+- [@sorkin2018]
+- [@hamermesh1999]
 
 ## Explicit bridge to other weeks
 

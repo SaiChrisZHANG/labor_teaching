@@ -107,28 +107,28 @@ These are the starter references that should appear in the Week 11 chapter, slid
 
 ### Core worker-policy references
 
-- `@eissaLiebman1996`
-- `@eissaHoynes2004`
-- `@chettyFriedmanSaez2013`
-- `@linosProhofskyRameshRothsteinUnrath2022`
+- [@eissaLiebman1996]
+- [@eissaHoynes2004]
+- [@chettyFriedmanSaez2013]
+- [@linosProhofskyRameshRothsteinUnrath2022]
 
 ### Unemployment insurance and search-policy references
 
-- `@kolsrudLandaisNilssonSpinnewijn2018`
-- `@lindnerReizer2020`
-- `@verhoHamalainenKanninen2022`
-- `@wheelerGarlickJohnsonShawGargano2022`
+- [@kolsrudLandaisNilssonSpinnewijn2018]
+- [@lindnerReizer2020]
+- [@verhoHamalainenKanninen2022]
+- [@wheelerGarlickJohnsonShawGargano2022]
 
 ### Disability and retirement policy references
 
-- `@frenchSong2014`
-- `@autorKostolMogstadSetzler2019`
-- `@manoliWeber2016`
+- [@frenchSong2014]
+- [@autorKostolMogstadSetzler2019]
+- [@manoliWeber2016]
 
 ### Synthesis and design references
 
-- `@chetty2012`
-- `@bastian2020`
+- [@chetty2012]
+- [@bastian2020]
 
 ## Section-level content requirements
 
@@ -328,7 +328,7 @@ The Week 11 lab should follow the standard Reproduce -> Diagnose -> Transfer tem
 
 ### Primary lab anchor
 
-- `@chettyFriedmanSaez2013`
+- [@chettyFriedmanSaez2013]
 
 Why primary:
 - it is directly worker-policy focused;
@@ -338,16 +338,16 @@ Why primary:
 
 ### Secondary or challenge anchors
 
-- `@linosProhofskyRameshRothsteinUnrath2022`
-- `@lindnerReizer2020`
+- [@linosProhofskyRameshRothsteinUnrath2022]
+- [@lindnerReizer2020]
 
 ### Optional extension anchors
 
-- `@frenchSong2014`
-- `@autorKostolMogstadSetzler2019`
-- `@manoliWeber2016`
-- `@wheelerGarlickJohnsonShawGargano2022`
-- `@verhoHamalainenKanninen2022`
+- [@frenchSong2014]
+- [@autorKostolMogstadSetzler2019]
+- [@manoliWeber2016]
+- [@wheelerGarlickJohnsonShawGargano2022]
+- [@verhoHamalainenKanninen2022]
 
 ### Transfer ideas
 

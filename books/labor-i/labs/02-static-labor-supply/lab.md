@@ -12,12 +12,12 @@
 **Core economic question:** What can bunching near a kink teach us about labor-supply responses to nonlinear schedules, and what can it not teach us on its own?  
 **Core design / estimator:** binned earnings density around a policy kink, reduced bunching diagnostic  
 **Source paper for reproduction:** Saez, Emmanuel. 2010. *Do Taxpayers Bunch at Kink Points?* *American Economic Journal: Economic Policy* 2(3): 180--212.  
-**Replication package source:** AEA data and code archive for `@saez2010`  
+**Replication package source:** AEA data and code archive for [@saez2010]  
 **Transfer dataset source:** local synthetic teaching files included in this folder, plus an optional instructor-provided extension sample
 
 ## Why this lab exists
 
-Week 2 is where the course stops treating labor supply as a single linear-budget diagram and starts treating schedule geometry as empirical content. `@saez2010` is a strong anchor because it forces students to look at a nonlinear budget set through data: if marginal incentives change sharply at a kink, do earnings cluster locally? The lab keeps that logic but uses a bounded teaching path so students can run the workflow immediately without needing the full external package.
+Week 2 is where the course stops treating labor supply as a single linear-budget diagram and starts treating schedule geometry as empirical content. [@saez2010] is a strong anchor because it forces students to look at a nonlinear budget set through data: if marginal incentives change sharply at a kink, do earnings cluster locally? The lab keeps that logic but uses a bounded teaching path so students can run the workflow immediately without needing the full external package.
 
 ## Learning objectives
 
@@ -50,13 +50,13 @@ This lab is intentionally bounded.
 
 ### Official package reality
 
-The official `@saez2010` replication materials are the benchmark source for the paper's data workflow. The bounded course path does **not** ship those external files. Instead, the local lab includes a synthetic reduced dataset that preserves the logic of the bunching exercise while keeping the smoke test lightweight and deterministic.
+The official [@saez2010] replication materials are the benchmark source for the paper's data workflow. The bounded course path does **not** ship those external files. Instead, the local lab includes a synthetic reduced dataset that preserves the logic of the bunching exercise while keeping the smoke test lightweight and deterministic.
 
 ### External files still needed for a closer official replication
 
 The following items are still required if the class wants to move beyond the bounded teaching path:
 
-- the official AEA `@saez2010` replication package itself;
+- the official AEA [@saez2010] replication package itself;
 - the package readme describing exact file dependencies and run order;
 - any earnings microdata extracts or processed files referenced by the official scripts;
 - the original do-files or scripts that construct the paper's target bunching objects.
@@ -190,8 +190,8 @@ Choose one:
 ### Student prompts
 
 1. What does the bounded teaching path teach especially well about Week 2?
-2. What does it fail to recover from the full `@saez2010` exercise?
-3. How would information frictions, as in `@chettyFriedmanSaez2013`, change the way you read the bunching graph?
+2. What does it fail to recover from the full [@saez2010] exercise?
+3. How would information frictions, as in [@chettyFriedmanSaez2013], change the way you read the bunching graph?
 
 ## Deliverables checklist
 

@@ -52,24 +52,24 @@ These are the starter references that should appear in the Week 6 chapter, slide
 
 ### Core theory and household-allocation references
 
-- `@becker1965`
-- `@gronau1977`
-- `@chiappori1992`
-- `@lundbergPollakWales1997`
-- `@blundellPistaferriSaportaEksten2016`
+- [@becker1965]
+- [@gronau1977]
+- [@chiappori1992]
+- [@lundbergPollakWales1997]
+- [@blundellPistaferriSaportaEksten2016]
 
 ### Empirical family-labor and care-constraint references
 
-- `@gelbach2002`
-- `@cortesTessada2011`
-- `@lundborgPlugRasmussen2017`
-- `@klevenLandaisSogaard2019`
-- `@cortesPan2023`
+- [@gelbach2002]
+- [@cortesTessada2011]
+- [@lundborgPlugRasmussen2017]
+- [@klevenLandaisSogaard2019]
+- [@cortesPan2023]
 
 ### Optional extension and policy references
 
-- `@klevenLandaisPoschSteinhauerZweimueller2024`
-- `@bertrandKamenicaPan2015`
+- [@klevenLandaisPoschSteinhauerZweimueller2024]
+- [@bertrandKamenicaPan2015]
 
 ## Section-level content requirements
 
@@ -259,7 +259,7 @@ The chapter should support the standard lab structure: **Reproduce -> Diagnose -
 
 ### Primary lab anchor
 
-- `@lundborgPlugRasmussen2017`
+- [@lundborgPlugRasmussen2017]
 
 Reason to anchor here:
 - it is a clean causal fertility design using IVF-induced variation;
@@ -268,7 +268,7 @@ Reason to anchor here:
 
 ### Secondary lab anchor
 
-- `@klevenLandaisSogaard2019`
+- [@klevenLandaisSogaard2019]
 
 Reason to use as secondary or challenge anchor:
 - it operationalizes child penalties with a dynamic event-study design;
@@ -278,9 +278,9 @@ Reason to use as secondary or challenge anchor:
 ### Optional policy or outsourcing extension
 
 Use one of:
-- `@gelbach2002`
-- `@cortesTessada2011`
-- `@klevenLandaisPoschSteinhauerZweimueller2024`
+- [@gelbach2002]
+- [@cortesTessada2011]
+- [@klevenLandaisPoschSteinhauerZweimueller2024]
 
 ### Transfer-exercise idea
 
@@ -297,22 +297,22 @@ The chapter must contain a real reading ladder, not placeholders.
 
 ### Bridge / foundation readings
 
-- `@becker1965`
-- `@gronau1977`
-- `@lundbergPollakWales1997`
+- [@becker1965]
+- [@gronau1977]
+- [@lundbergPollakWales1997]
 
 ### Field-core readings
 
-- `@chiappori1992`
-- `@blundellPistaferriSaportaEksten2016`
-- `@lundborgPlugRasmussen2017`
-- `@klevenLandaisSogaard2019`
+- [@chiappori1992]
+- [@blundellPistaferriSaportaEksten2016]
+- [@lundborgPlugRasmussen2017]
+- [@klevenLandaisSogaard2019]
 
 ### Frontier / synthesis readings
 
-- `@cortesPan2023`
-- `@klevenLandaisPoschSteinhauerZweimueller2024`
-- `@bertrandKamenicaPan2015`
+- [@cortesPan2023]
+- [@klevenLandaisPoschSteinhauerZweimueller2024]
+- [@bertrandKamenicaPan2015]
 
 ## Slide requirements
 

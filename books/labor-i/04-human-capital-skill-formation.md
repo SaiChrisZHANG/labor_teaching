@@ -66,8 +66,8 @@ Figure {numref}`fig-week4-lifecycle` is the shortest visual route from Week 3 to
 
 :::{admonition} Optional Extension Block
 :class: note
-- deeper production-function estimation in the spirit of `@attanasioEtAl2020HumanCapital`
-- credit constraints, schooling finance, and limited commitment in the spirit of `@lochnerMongeNaranjo2011`
+- deeper production-function estimation in the spirit of [@attanasioEtAl2020HumanCapital]
+- credit constraints, schooling finance, and limited commitment in the spirit of [@lochnerMongeNaranjo2011]
 :::
 
 ## Field Core
@@ -167,7 +167,7 @@ The frontier challenge is no longer whether human capital matters. It is whether
 
 That shift creates genuine research opportunities. How portable are production-function estimates across countries, cohorts, or delivery systems? When do employer-side frictions dominate family-side frictions? Which observed inputs proxy well for latent investments, and which merely co-move with them? The answer matters for labor economics because the eventual outcomes are labor-market objects: wages, employment, task content, promotion paths, and inequality.
 
-The course lab reflects that research agenda in a bounded way. Students reproduce one local synthetic treatment-effect contrast in the spirit of `@attanasioEtAl2020HumanCapital`, diagnose what that reduced-form contrast does and does not reveal about Equation {eq}`eq-week4-skill`, and then transfer the workflow to a quality-heterogeneity setting in the spirit of `@walters2015`. The optional instructor extension uses `@lochnerMongeNaranjo2011` to show how schooling finance changes the same underlying investment problem.
+The course lab reflects that research agenda in a bounded way. Students reproduce one local synthetic treatment-effect contrast in the spirit of [@attanasioEtAl2020HumanCapital], diagnose what that reduced-form contrast does and does not reveal about Equation {eq}`eq-week4-skill`, and then transfer the workflow to a quality-heterogeneity setting in the spirit of [@walters2015]. The optional instructor extension uses [@lochnerMongeNaranjo2011] to show how schooling finance changes the same underlying investment problem.
 
 ## Methods Box
 
@@ -215,7 +215,7 @@ Week 4 adds one discipline to the dynamic toolkit from Week 3: always separate t
 
 ## Reproducibility or code lab note
 
-The Week 4 lab is organized around a bounded synthetic teaching path that mirrors the logic of `@attanasioEtAl2020HumanCapital` without requiring restricted or heavyweight external files. Students reproduce one treatment-induced investment and endline-skill contrast using the local synthetic dataset, diagnose what that contrast reveals about Equation {eq}`eq-week4-skill`, and then transfer the workflow to a center-quality heterogeneity exercise in the spirit of `@walters2015`. A short optional instructor extension connects the same investment problem to schooling finance using `@lochnerMongeNaranjo2011`. The bounded path and smoke test are documented in [labs/04-human-capital-skill-formation/lab.md](labs/04-human-capital-skill-formation/lab.md).
+The Week 4 lab is organized around a bounded synthetic teaching path that mirrors the logic of [@attanasioEtAl2020HumanCapital] without requiring restricted or heavyweight external files. Students reproduce one treatment-induced investment and endline-skill contrast using the local synthetic dataset, diagnose what that contrast reveals about Equation {eq}`eq-week4-skill`, and then transfer the workflow to a center-quality heterogeneity exercise in the spirit of [@walters2015]. A short optional instructor extension connects the same investment problem to schooling finance using [@lochnerMongeNaranjo2011]. The bounded path and smoke test are documented in [labs/04-human-capital-skill-formation/lab.md](labs/04-human-capital-skill-formation/lab.md).
 
 ## Slide companion note
 

@@ -19,10 +19,10 @@ conda run -n research python src/transfer_schooling_trends.py \
 ## Recommended workflow
 
 1. Generate the local synthetic teaching files and verify the environment.
-2. Run the bounded reproduction in the spirit of `@oreopoulos2006`.
+2. Run the bounded reproduction in the spirit of [@oreopoulos2006].
 3. Read `original/source-notes.md` before interpreting the outputs as a literal paper replication.
-4. Use the transfer step to compare a pooled IV object with a trend-adjusted one in the spirit of `@stephensYang2014`.
-5. Treat the optional sorting extension in `lab.md` as a conceptual bridge to `@engbomMoser2017` and `@diamond2016`.
+4. Use the transfer step to compare a pooled IV object with a trend-adjusted one in the spirit of [@stephensYang2014].
+5. Treat the optional sorting extension in `lab.md` as a conceptual bridge to [@engbomMoser2017] and [@diamond2016].
 
 ## Notes
 

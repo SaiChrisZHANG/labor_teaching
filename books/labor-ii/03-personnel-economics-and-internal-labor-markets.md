@@ -75,7 +75,7 @@ The classic risk-incentive tradeoff says that stronger pay-for-performance sharp
 
 Personnel economics quickly moved beyond the narrow question "what is the optimal contract?" because firms also choose who enters the job and who stays. The same incentive system can affect both effort and selection. High-powered incentives may raise effort among incumbents, but they can also attract workers who are more confident in performance-based environments and repel workers who prefer insurance or teamwork. This is the first major Week 3 distinction: incentives can change behavior on the job, but they can also reshape the composition of who sorts into the job in the first place [@hoffmanStanton2024].
 
-`@friebelHeinzKruegerZubanov2017` is a good anchor because the variation comes from a firm-side experiment that changes team incentives directly. The observed units are teams or stores, and the main observed margins are performance and profits. The design is especially useful for effort effects inside one organization, but it is less informative about long-run sorting or whether the same contract would work in a different firm or occupation.
+[@friebelHeinzKruegerZubanov2017] is a good anchor because the variation comes from a firm-side experiment that changes team incentives directly. The observed units are teams or stores, and the main observed margins are performance and profits. The design is especially useful for effort effects inside one organization, but it is less informative about long-run sorting or whether the same contract would work in a different firm or occupation.
 
 ### Multitasking, subjective evaluation, and career incentives
 
@@ -112,7 +112,7 @@ A compact promotion object is
 
 where {math}`y_i` is current measured performance, {math}`z_i` captures collaboration or other soft-skill proxies, and {math}`\widehat{m}_i` is expected productivity in the next role. Equation {eq}`eq-lii-w3-promotion` disciplines the promotion discussion. If the firm promotes only on {math}`y_i`, it may maximize incentives in the current job while making weak assignments into future jobs. If it promotes only on {math}`\widehat{m}_i`, it may weaken tournament incentives for current performance.
 
-This is exactly where the Peter Principle enters. `@bensonLiShue2019` uses personnel records to study a setting where strong current sales performance predicts promotion, while post-promotion managerial performance need not rise in lockstep. The identifying variation comes from promotion decisions in administrative personnel data. The unit is the worker-job transition. The observed outcomes are promotion probabilities and performance in the next role. The external-validity caveat is that internal promotion rules and managerial tasks differ sharply across firms and occupations.
+This is exactly where the Peter Principle enters. [@bensonLiShue2019] uses personnel records to study a setting where strong current sales performance predicts promotion, while post-promotion managerial performance need not rise in lockstep. The identifying variation comes from promotion decisions in administrative personnel data. The unit is the worker-job transition. The observed outcomes are promotion probabilities and performance in the next role. The external-validity caveat is that internal promotion rules and managerial tasks differ sharply across firms and occupations.
 
 The Week 3 distinction students should retain is precise.
 
@@ -132,11 +132,11 @@ y_i = a_i e_i + \rho \bar e_{-i} + u_i,
 
 where {math}`\rho` captures spillovers from coworkers. Equation {eq}`eq-lii-w3-peers` is deliberately reduced form. A positive spillover can reflect knowledge transfer, peer pressure, or better coordination, and those interpretations imply different policies.
 
-`@masMoretti2009` is a clean peer-effects anchor because the variation comes from coworker exposure within a workplace setting, the unit is the worker-shift or worker-day, and the observed outcome margin is worker productivity. The main caveat is interpretation: a measured peer effect does not by itself tell us whether the mechanism is pressure, learning, or composition.
+[@masMoretti2009] is a clean peer-effects anchor because the variation comes from coworker exposure within a workplace setting, the unit is the worker-shift or worker-day, and the observed outcome margin is worker productivity. The main caveat is interpretation: a measured peer effect does not by itself tell us whether the mechanism is pressure, learning, or composition.
 
-Managers are a different object. Manager effects ask how much worker outcomes change when supervisory assignment changes, holding worker composition as fixed as possible. That is not the same as peer effects, and it is not the same as the broader management-practice literature. `@bloomEtAl2019` is especially useful here because it separates the measurement of management practices from the harder question of causal management shocks. Surveys linked to outcomes tell us that management differs substantially across firms, but causal claims require cleaner variation than cross-sectional management scores alone.
+Managers are a different object. Manager effects ask how much worker outcomes change when supervisory assignment changes, holding worker composition as fixed as possible. That is not the same as peer effects, and it is not the same as the broader management-practice literature. [@bloomEtAl2019] is especially useful here because it separates the measurement of management practices from the harder question of causal management shocks. Surveys linked to outcomes tell us that management differs substantially across firms, but causal claims require cleaner variation than cross-sectional management scores alone.
 
-Team incentives complicate the picture again. They can internalize complementarities when production is joint, but they also invite free-riding when individual effort is difficult to verify. `@friebelHeinzKruegerZubanov2017` is therefore not just an incentives paper. It is also a teams paper because it asks whether shared incentives improve performance when tasks are interdependent.
+Team incentives complicate the picture again. They can internalize complementarities when production is joint, but they also invite free-riding when individual effort is difficult to verify. [@friebelHeinzKruegerZubanov2017] is therefore not just an incentives paper. It is also a teams paper because it asks whether shared incentives improve performance when tasks are interdependent.
 
 ```{figure} assets/figures/03-managers-peers-teams.png
 :name: fig-lii-w3-managers-peers
@@ -167,9 +167,9 @@ Management surveys linked to firm outcomes vary measured practices across firms.
 
 Digital traces, time-use data, and communication records vary at high frequency within work processes. The unit may be a message, meeting, task, project, or worker-day. The observed margins are time allocation, collaboration, responsiveness, and workflow sequencing. These data are rich enough to study coordination and monitoring directly, but they are often proprietary, setting-specific, and easy to over-interpret if the missing margins of value are large [@hoffmanStanton2024].
 
-Public policies that change workplace practices vary outside the firm but affect what happens inside it. The unit may be the worker, establishment, or firm. The observed margins include wage dispersion, communication, retention, productivity, and promotion patterns. `@harjuJagerSchoefer2025` is useful because it moves the field from internal policy variation to public policy that changes worker voice, while still keeping the personnel-economics object inside the workplace.
+Public policies that change workplace practices vary outside the firm but affect what happens inside it. The unit may be the worker, establishment, or firm. The observed margins include wage dispersion, communication, retention, productivity, and promotion patterns. [@harjuJagerSchoefer2025] is useful because it moves the field from internal policy variation to public policy that changes worker voice, while still keeping the personnel-economics object inside the workplace.
 
-Remote-work and technology settings require especially careful separation of selection and treatment. The variation may come from eligibility rules, office re-openings, or staggered tool deployment. The unit is often the worker or team. The observed margins are productivity, promotions, quits, or collaboration. The core identification lesson from `@emanuelHarrington2024` is that a remote-work premium or penalty is hard to interpret unless we separate who selects into remote jobs from what remote work does to a comparable worker once assigned.
+Remote-work and technology settings require especially careful separation of selection and treatment. The variation may come from eligibility rules, office re-openings, or staggered tool deployment. The unit is often the worker or team. The observed margins are productivity, promotions, quits, or collaboration. The core identification lesson from [@emanuelHarrington2024] is that a remote-work premium or penalty is hard to interpret unless we separate who selects into remote jobs from what remote work does to a comparable worker once assigned.
 
 The cross-cutting research habit is simple: never present a personnel result without naming the variation, the unit of observation, the outcome margin, and the main external-validity caveat. Table {numref}`tbl:personnel-map-week3` is helpful here because it keeps the theoretical object and the observable margin in the same frame.
 
@@ -195,11 +195,11 @@ One major frontier is identifying good managers before the promotion decision is
 
 ### Remote and hybrid work as a personnel-economics problem
 
-Remote work is not merely a location choice. It changes monitoring, collaboration, promotion visibility, retention, and sorting. `@emanuelHarrington2024` is a strong anchor because it forces the selection-versus-treatment distinction into the design. Promising data include eligibility rules, staged return-to-office policies, project-assignment records, and communication traces. The unanswered questions concern career effects, manager adaptation, and whether remote-work policies compress or widen within-firm inequality.
+Remote work is not merely a location choice. It changes monitoring, collaboration, promotion visibility, retention, and sorting. [@emanuelHarrington2024] is a strong anchor because it forces the selection-versus-treatment distinction into the design. Promising data include eligibility rules, staged return-to-office policies, project-assignment records, and communication traces. The unanswered questions concern career effects, manager adaptation, and whether remote-work policies compress or widen within-firm inequality.
 
 ### Voice, communication, and internal governance
 
-Worker voice is a natural personnel-economics topic because it changes how information flows upward and how discretion is constrained inside the firm. `@harjuJagerSchoefer2025` provides a bridge from public policy to internal governance. The relevant quasi-experimental openings include representation thresholds, disclosure rules, communication reforms, and workplace complaint systems. The open question is when voice mainly improves information and productivity, and when it mainly redistributes rents or changes bargaining power without improving organization.
+Worker voice is a natural personnel-economics topic because it changes how information flows upward and how discretion is constrained inside the firm. [@harjuJagerSchoefer2025] provides a bridge from public policy to internal governance. The relevant quasi-experimental openings include representation thresholds, disclosure rules, communication reforms, and workplace complaint systems. The open question is when voice mainly improves information and productivity, and when it mainly redistributes rents or changes bargaining power without improving organization.
 
 ### Training, digital traces, algorithmic management, and AI
 
@@ -230,35 +230,35 @@ Week 3 requires more identification discipline than students often expect from a
 
 ### Bridge
 
-- `@hoffmanStanton2024` for a modern map of personnel economics as labor economics inside firms.
-- `@lazear2000` for the field-defining case that incentives, pay, and productivity are central labor-economics objects.
+- [@hoffmanStanton2024] for a modern map of personnel economics as labor economics inside firms.
+- [@lazear2000] for the field-defining case that incentives, pay, and productivity are central labor-economics objects.
 
 ### Field Core
 
-- `@holmstromMilgrom1991` for multitasking and the limits of narrow performance measurement.
-- `@lazearRosen1981` for tournaments and career incentives.
-- `@friebelHeinzKruegerZubanov2017` for a clean firm experiment on team incentives, output, and profits.
-- `@bensonLiShue2019` for promotions as assignment rather than merely reward.
-- `@masMoretti2009` for peer spillovers and social production environments.
-- `@bloomEtAl2019` for management-practice heterogeneity and the measurement-versus-causality distinction.
+- [@holmstromMilgrom1991] for multitasking and the limits of narrow performance measurement.
+- [@lazearRosen1981] for tournaments and career incentives.
+- [@friebelHeinzKruegerZubanov2017] for a clean firm experiment on team incentives, output, and profits.
+- [@bensonLiShue2019] for promotions as assignment rather than merely reward.
+- [@masMoretti2009] for peer spillovers and social production environments.
+- [@bloomEtAl2019] for management-practice heterogeneity and the measurement-versus-causality distinction.
 
 ### Research Lab
 
-- `@emanuelHarrington2024` for remote work with explicit selection-versus-treatment discipline.
-- `@harjuJagerSchoefer2025` for worker voice and internal governance as a personnel-economics object.
+- [@emanuelHarrington2024] for remote work with explicit selection-versus-treatment discipline.
+- [@harjuJagerSchoefer2025] for worker voice and internal governance as a personnel-economics object.
 
 ## Exercises / discussion prompts
 
 1. Use Equations {eq}`eq-lii-w3-effort` and {eq}`eq-lii-w3-multitask` to explain why high-powered incentives can raise measured performance while lowering firm value.
 2. Why is a promotion tournament potentially useful even if the firm knows that current job performance is an imperfect predictor of managerial quality?
-3. In `@bensonLiShue2019`, what is the identifying variation, what is the unit of observation, and which observed margin most clearly speaks to the Peter Principle?
+3. In [@bensonLiShue2019], what is the identifying variation, what is the unit of observation, and which observed margin most clearly speaks to the Peter Principle?
 4. How would you distinguish manager effects from peer effects in a matched personnel panel where both supervisors and coworkers change over time?
-5. Why is `@emanuelHarrington2024` a remote-work paper for Week 3 rather than only a labor-supply or amenity paper?
+5. Why is [@emanuelHarrington2024] a remote-work paper for Week 3 rather than only a labor-supply or amenity paper?
 6. Pick one row from Table {numref}`tbl:frontier-opportunities-week3` and propose a credible quasi-experimental design, naming the treatment, unit, outcome margin, and main external-validity concern.
 
 ## Reproducibility or code lab note
 
-The Week 3 lab follows the standard `Reproduce -> Diagnose -> Transfer` structure. The bounded reproduction path uses a local synthetic team-level dataset inspired by `@friebelHeinzKruegerZubanov2017` so students can estimate a compact team-incentive effect without confidential data. The diagnose step forces them to separate effort effects from selection or sorting claims. The transfer step uses a synthetic promotion dataset tied to `@bensonLiShue2019` so students can study assignment-versus-incentive tradeoffs, while `@emanuelHarrington2024` serves as the optional extension on selection versus treatment in remote-work settings. The local handout lives at [labs/03-personnel-economics-and-internal-labor-markets/lab.md](labs/03-personnel-economics-and-internal-labor-markets/lab.md).
+The Week 3 lab follows the standard `Reproduce -> Diagnose -> Transfer` structure. The bounded reproduction path uses a local synthetic team-level dataset inspired by [@friebelHeinzKruegerZubanov2017] so students can estimate a compact team-incentive effect without confidential data. The diagnose step forces them to separate effort effects from selection or sorting claims. The transfer step uses a synthetic promotion dataset tied to [@bensonLiShue2019] so students can study assignment-versus-incentive tradeoffs, while [@emanuelHarrington2024] serves as the optional extension on selection versus treatment in remote-work settings. The local handout lives at [labs/03-personnel-economics-and-internal-labor-markets/lab.md](labs/03-personnel-economics-and-internal-labor-markets/lab.md).
 
 ## Slide companion note
 

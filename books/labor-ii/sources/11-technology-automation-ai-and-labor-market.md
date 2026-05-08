@@ -102,63 +102,63 @@ By the end of the week, students should be able to:
 These are starter references that should appear in the week-specific bibliography and shape the chapter.
 
 ### Conceptual and framework references
-- Autor, *Why Are There Still So Many Jobs?* @autor2015WhyStillManyJobs
-- Acemoglu and Restrepo, *Automation and New Tasks* @acemogluRestrepo2019AutomationNewTasks
-- Acemoglu and Autor, *Skills, Tasks and Technologies* @acemogluAutor2011SkillsTasksTechnologies
-- Autor, *The Labor Market Impacts of Technological Change* @autor2022LaborMarketImpactsTechChange
+- Autor, *Why Are There Still So Many Jobs?* [@autor2015WhyStillManyJobs]
+- Acemoglu and Restrepo, *Automation and New Tasks* [@acemogluRestrepo2019AutomationNewTasks]
+- Acemoglu and Autor, *Skills, Tasks and Technologies* [@acemogluAutor2011SkillsTasksTechnologies]
+- Autor, *The Labor Market Impacts of Technological Change* [@autor2022LaborMarketImpactsTechChange]
 
 ### Historical and cross-country technology evidence
-- Michaels, Natraj, and Van Reenen, ICT and skill demand @michaelsNatrajVanReenen2014ICTPolarizedSkillDemand
-- Graetz and Michaels, robots in 17 countries @graetzMichaels2018RobotsWork
-- Dauth et al., labor-market adjustment to robots in Germany @dauthFindeisenSuedekumWoessner2021AdjustmentRobots
+- Michaels, Natraj, and Van Reenen, ICT and skill demand [@michaelsNatrajVanReenen2014ICTPolarizedSkillDemand]
+- Graetz and Michaels, robots in 17 countries [@graetzMichaels2018RobotsWork]
+- Dauth et al., labor-market adjustment to robots in Germany [@dauthFindeisenSuedekumWoessner2021AdjustmentRobots]
 
 ### U.S. local and market-level automation evidence
-- Acemoglu and Restrepo, robots in U.S. local labor markets @acemogluRestrepo2020RobotsJobs
+- Acemoglu and Restrepo, robots in U.S. local labor markets [@acemogluRestrepo2020RobotsJobs]
 
 ### Contemporary AI evidence
-- Acemoglu et al., AI and jobs from online vacancies @acemogluAutorHazellRestrepo2020AIJobsVacancies
-- Brynjolfsson, Li, and Raymond, generative AI at work @brynjolfssonLiRaymond2025GenerativeAIWork
-- Aghion et al., how different uses of AI shape labor demand @aghionEtAl2025HowDifferentUsesAI
-- Felten, Raj, and Seamans, occupation-level AI exposure measurement @feltenRajSeamans2018MethodAIAbilities
-- Labaschin et al., extending GPT-style AI exposure to firms @labaschinEtAl2025ExtendingGPTsFirms
+- Acemoglu et al., AI and jobs from online vacancies [@acemogluAutorHazellRestrepo2020AIJobsVacancies]
+- Brynjolfsson, Li, and Raymond, generative AI at work [@brynjolfssonLiRaymond2025GenerativeAIWork]
+- Aghion et al., how different uses of AI shape labor demand [@aghionEtAl2025HowDifferentUsesAI]
+- Felten, Raj, and Seamans, occupation-level AI exposure measurement [@feltenRajSeamans2018MethodAIAbilities]
+- Labaschin et al., extending GPT-style AI exposure to firms [@labaschinEtAl2025ExtendingGPTsFirms]
 
 ### Worker adaptation / supply-side adjustment references
-- Deming and Noray, changing job skills and career dynamics @demingNoray2020EarningsDynamicsChangingJobSkills
-- Bartel and Sicherman, technological change and worker skill acquisition @bartelSicherman1998TechnologicalChangeSkillAcquisition
+- Deming and Noray, changing job skills and career dynamics [@demingNoray2020EarningsDynamicsChangingJobSkills]
+- Bartel and Sicherman, technological change and worker skill acquisition [@bartelSicherman1998TechnologicalChangeSkillAcquisition]
 
 ## Reading-ladder design
 
 The chapter should use a real reading ladder with grouping and citations.
 
 ### Ladder A. Core framework
-- @autor2015WhyStillManyJobs
-- @acemogluRestrepo2019AutomationNewTasks
-- @acemogluAutor2011SkillsTasksTechnologies
+- [@autor2015WhyStillManyJobs]
+- [@acemogluRestrepo2019AutomationNewTasks]
+- [@acemogluAutor2011SkillsTasksTechnologies]
 
 ### Ladder B. Historical and global evidence
-- @michaelsNatrajVanReenen2014ICTPolarizedSkillDemand
-- @graetzMichaels2018RobotsWork
-- @dauthFindeisenSuedekumWoessner2021AdjustmentRobots
-- @acemogluRestrepo2020RobotsJobs
+- [@michaelsNatrajVanReenen2014ICTPolarizedSkillDemand]
+- [@graetzMichaels2018RobotsWork]
+- [@dauthFindeisenSuedekumWoessner2021AdjustmentRobots]
+- [@acemogluRestrepo2020RobotsJobs]
 
 ### Ladder C. Worker adaptation and labor supply
-- @bartelSicherman1998TechnologicalChangeSkillAcquisition
-- @demingNoray2020EarningsDynamicsChangingJobSkills
-- @brynjolfssonLiRaymond2025GenerativeAIWork
+- [@bartelSicherman1998TechnologicalChangeSkillAcquisition]
+- [@demingNoray2020EarningsDynamicsChangingJobSkills]
+- [@brynjolfssonLiRaymond2025GenerativeAIWork]
 
 ### Ladder D. Contemporary AI, measurement, and frontier directions
-- @acemogluAutorHazellRestrepo2020AIJobsVacancies
-- @feltenRajSeamans2018MethodAIAbilities
-- @aghionEtAl2025HowDifferentUsesAI
-- @labaschinEtAl2025ExtendingGPTsFirms
-- optional frontier reading: @liuPapanikolaouSchmidtSeegmiller2025TechnologyLaborMarkets
+- [@acemogluAutorHazellRestrepo2020AIJobsVacancies]
+- [@feltenRajSeamans2018MethodAIAbilities]
+- [@aghionEtAl2025HowDifferentUsesAI]
+- [@labaschinEtAl2025ExtendingGPTsFirms]
+- optional frontier reading: [@liuPapanikolaouSchmidtSeegmiller2025TechnologyLaborMarkets]
 
 ## Lab design spine
 
 The lab should follow the standard Reproduce -> Diagnose -> Transfer structure.
 
 ### Primary anchor
-- `@aghionEtAl2025HowDifferentUsesAI`
+- [@aghionEtAl2025HowDifferentUsesAI]
 
 Why:
 - recent and directly about AI adoption and labor demand;
@@ -167,7 +167,7 @@ Why:
 - connects directly to firm-level adoption data and modern AI measurement.
 
 ### Secondary / challenge anchor
-- `@acemogluRestrepo2020RobotsJobs`
+- [@acemogluRestrepo2020RobotsJobs]
 
 Why:
 - canonical causal local-labor-market design;
@@ -175,7 +175,7 @@ Why:
 - useful contrast with within-firm AI evidence.
 
 ### Optional extension anchor
-- `@brynjolfssonLiRaymond2025GenerativeAIWork`
+- [@brynjolfssonLiRaymond2025GenerativeAIWork]
 
 Why:
 - worker-side adaptation and learning complement the demand-side focus;
@@ -293,7 +293,7 @@ Minimum content:
 - skill-biased and routine-biased technological change;
 - ICT, polarization, and occupational restructuring.
 
-This is where @autor2015WhyStillManyJobs, @acemogluRestrepo2019AutomationNewTasks, @acemogluAutor2011SkillsTasksTechnologies, and @michaelsNatrajVanReenen2014ICTPolarizedSkillDemand should appear.
+This is where [@autor2015WhyStillManyJobs], [@acemogluRestrepo2019AutomationNewTasks], [@acemogluAutor2011SkillsTasksTechnologies], and [@michaelsNatrajVanReenen2014ICTPolarizedSkillDemand] should appear.
 
 ### 5. Demand-side evidence: technology inside firms and across local labor markets
 
@@ -305,7 +305,7 @@ Minimum content:
 - local or regional exposure designs;
 - distinction between within-firm effects and equilibrium effects.
 
-This is where @acemogluRestrepo2020RobotsJobs, @graetzMichaels2018RobotsWork, @dauthFindeisenSuedekumWoessner2021AdjustmentRobots, @acemogluAutorHazellRestrepo2020AIJobsVacancies, and @aghionEtAl2025HowDifferentUsesAI should be central.
+This is where [@acemogluRestrepo2020RobotsJobs], [@graetzMichaels2018RobotsWork], [@dauthFindeisenSuedekumWoessner2021AdjustmentRobots], [@acemogluAutorHazellRestrepo2020AIJobsVacancies], and [@aghionEtAl2025HowDifferentUsesAI] should be central.
 
 ### 6. Supply-side evidence: worker learning, training, and skill obsolescence
 
@@ -318,7 +318,7 @@ Minimum content:
 - sorting out of faster-changing occupations;
 - how AI tools alter learning curves, supervision, and worker progression.
 
-This is where @bartelSicherman1998TechnologicalChangeSkillAcquisition, @demingNoray2020EarningsDynamicsChangingJobSkills, and @brynjolfssonLiRaymond2025GenerativeAIWork should be central.
+This is where [@bartelSicherman1998TechnologicalChangeSkillAcquisition], [@demingNoray2020EarningsDynamicsChangingJobSkills], and [@brynjolfssonLiRaymond2025GenerativeAIWork] should be central.
 
 The lecture should explicitly note that supply-side adjustment is not just schooling. It includes:
 - retraining,
@@ -354,7 +354,7 @@ Minimum content:
 - matched worker-firm data and digital trace data;
 - the difference between “AI exposure” and actual adoption or realized effects.
 
-This is where @feltenRajSeamans2018MethodAIAbilities, @labaschinEtAl2025ExtendingGPTsFirms, and @acemogluAutorHazellRestrepo2020AIJobsVacancies should be highlighted.
+This is where [@feltenRajSeamans2018MethodAIAbilities], [@labaschinEtAl2025ExtendingGPTsFirms], and [@acemogluAutorHazellRestrepo2020AIJobsVacancies] should be highlighted.
 
 ### 9. Global and comparative evidence
 

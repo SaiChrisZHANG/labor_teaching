@@ -9,19 +9,19 @@
 **Estimated student time:** 4 core hours + 2 optional hours  
 **Prerequisites:** Week 6 monopsony, basic command-line use, introductory `pandas`, comfort reading grouped summaries and event-study style plots  
 **Core economic question:** When minimum wages change, what exactly is the employment object, what is the treatment-intensity object, and how do different empirical designs observe different adjustment margins?  
-**Primary source anchor:** `@cengizDubeLindnerZipperer2019`  
-**Secondary / challenge anchor:** `@dubeLesterReich2010`  
-**Optional extension anchor:** `@engbomMoser2022`
+**Primary source anchor:** [@cengizDubeLindnerZipperer2019]  
+**Secondary / challenge anchor:** [@dubeLesterReich2010]  
+**Optional extension anchor:** [@engbomMoser2022]
 
 ## Why this lab exists
 
-Week 7 can become vague if students say "the minimum wage had no effect" or "the minimum wage killed jobs" without naming the object studied. This lab forces precision. `@cengizDubeLindnerZipperer2019` is the reproduction anchor because it reframes the employment question around jobs below and around the new floor. `@dubeLesterReich2010` is the diagnose anchor because it teaches why local comparison groups matter in policy evaluation. `@engbomMoser2022` is the optional extension because it adds bite, reallocation, and inequality in a high-exposure national setting.
+Week 7 can become vague if students say "the minimum wage had no effect" or "the minimum wage killed jobs" without naming the object studied. This lab forces precision. [@cengizDubeLindnerZipperer2019] is the reproduction anchor because it reframes the employment question around jobs below and around the new floor. [@dubeLesterReich2010] is the diagnose anchor because it teaches why local comparison groups matter in policy evaluation. [@engbomMoser2022] is the optional extension because it adds bite, reallocation, and inequality in a high-exposure national setting.
 
 ## Learning objectives
 
 By the end of this lab, students should be able to:
 
-1. reproduce a bounded grouped wage-bin exercise in the spirit of `@cengizDubeLindnerZipperer2019`;
+1. reproduce a bounded grouped wage-bin exercise in the spirit of [@cengizDubeLindnerZipperer2019];
 2. state clearly whether the employment object is headcount, hours, or jobs below a threshold;
 3. identify the treatment-intensity or bite object rather than relying only on the nominal legal change;
 4. explain the main identification challenge in a threshold design and in a border-county design;
@@ -39,10 +39,10 @@ This lab is intentionally bounded.
 
 ## Lab roadmap
 
-1. **Reproduce** a grouped wage-bin panel in the spirit of `@cengizDubeLindnerZipperer2019`.
-2. **Diagnose** how that object differs from the border-county design in `@dubeLesterReich2010`.
+1. **Reproduce** a grouped wage-bin panel in the spirit of [@cengizDubeLindnerZipperer2019].
+2. **Diagnose** how that object differs from the border-county design in [@dubeLesterReich2010].
 3. **Transfer** the logic to a synthetic border-county panel with explicit treatment intensity.
-4. **Extend** the design to a national exposure setting in the spirit of `@engbomMoser2022`.
+4. **Extend** the design to a national exposure setting in the spirit of [@engbomMoser2022].
 
 ## Part 0. Setup and orientation
 
@@ -100,9 +100,9 @@ Compare a threshold-based job-distribution object to a border-county employment 
 
 | Paper | Employment object | Identifying variation | Observed unit | Observed margin | Key unobserved object |
 | --- | --- | --- | --- | --- | --- |
-| `@cengizDubeLindnerZipperer2019` | jobs below and around the threshold | minimum-wage changes with differential bite | region-month by wage-bin | low-wage job counts and wages | untreated low-wage distribution |
-| `@dubeLesterReich2010` | local sector employment | state-border minimum-wage differences | contiguous county pair by period | restaurant employment and earnings | untreated local labor-market path |
-| `@engbomMoser2022` | wages, inequality, and reallocation under high bite | national reform with heterogeneous exposure | worker-firm or region panel | earnings distribution, reallocation | untreated formal/informal adjustment path |
+| [@cengizDubeLindnerZipperer2019] | jobs below and around the threshold | minimum-wage changes with differential bite | region-month by wage-bin | low-wage job counts and wages | untreated low-wage distribution |
+| [@dubeLesterReich2010] | local sector employment | state-border minimum-wage differences | contiguous county pair by period | restaurant employment and earnings | untreated local labor-market path |
+| [@engbomMoser2022] | wages, inequality, and reallocation under high bite | national reform with heterogeneous exposure | worker-firm or region panel | earnings distribution, reallocation | untreated formal/informal adjustment path |
 
 ### Diagnosis checklist
 
@@ -157,7 +157,7 @@ Use a synthetic border panel to connect a local diff-in-diff design to an explic
 
 Choose one extension only.
 
-1. Sketch a national exposure design in the spirit of `@engbomMoser2022` using heterogeneous bite across regions or industries.
+1. Sketch a national exposure design in the spirit of [@engbomMoser2022] using heterogeneous bite across regions or industries.
 2. Add an hours margin to the border panel and explain how that changes interpretation.
 3. Add a compliance margin and explain how legal incidence could differ from observed incidence.
 
@@ -165,9 +165,9 @@ Choose one extension only.
 
 Students should say these plainly.
 
-1. The bounded reproduction path uses a synthetic grouped low-wage panel; it is not the original administrative job-bin panel in `@cengizDubeLindnerZipperer2019`.
-2. The bounded transfer path uses a stylized border-county panel; it does not reproduce the full QCEW-based border design in `@dubeLesterReich2010`.
-3. The optional extension is conceptual; it does not reproduce the full worker-firm and national exposure structure in `@engbomMoser2022`.
+1. The bounded reproduction path uses a synthetic grouped low-wage panel; it is not the original administrative job-bin panel in [@cengizDubeLindnerZipperer2019].
+2. The bounded transfer path uses a stylized border-county panel; it does not reproduce the full QCEW-based border design in [@dubeLesterReich2010].
+3. The optional extension is conceptual; it does not reproduce the full worker-firm and national exposure structure in [@engbomMoser2022].
 4. None of the bounded paths directly recover the full general-equilibrium counterfactual.
 
 ## Deliverables checklist

@@ -95,25 +95,25 @@ These are the starter references that should appear in the Week 12 chapter, slid
 
 ### Framework and synthesis references
 
-- `@dellavigna2009`
-- `@dellavigna2018`
-- `@dellaVignaPope2018`
+- [@dellavigna2009]
+- [@dellavigna2018]
+- [@dellaVignaPope2018]
 
 ### Labor-focused behavioral applications
 
-- `@dellaVignaPaserman2005`
-- `@royerStehrSydnor2015`
-- `@dellaVignaListMalmendierRao2022`
-- `@oh2023`
-- `@abelerHuffmanRaymond2025`
+- [@dellaVignaPaserman2005]
+- [@royerStehrSydnor2015]
+- [@dellaVignaListMalmendierRao2022]
+- [@oh2023]
+- [@abelerHuffmanRaymond2025]
 
 ### Classic behavioral-labor bridges
 
-- `@akerlof1982`
-- `@akerlofYellen1990`
-- `@laibson1997`
-- `@odonoghueRabin1999`
-- `@koszegiRabin2006`
+- [@akerlof1982]
+- [@akerlofYellen1990]
+- [@laibson1997]
+- [@odonoghueRabin1999]
+- [@koszegiRabin2006]
 
 ## Section-level content requirements
 
@@ -305,7 +305,7 @@ Use the standard Reproduce -> Diagnose -> Transfer workflow.
 
 ### Primary lab anchor
 
-- `@abelerHuffmanRaymond2025`
+- [@abelerHuffmanRaymond2025]
 
 Why:
 - it is directly about worker bounded rationality, incentive complexity, and effort provision;
@@ -314,8 +314,8 @@ Why:
 
 ### Secondary / challenge anchors
 
-- `@dellaVignaListMalmendierRao2022`
-- `@royerStehrSydnor2015`
+- [@dellaVignaListMalmendierRao2022]
+- [@royerStehrSydnor2015]
 
 Why:
 - they give two different preference-based behavioral labor settings:
@@ -324,9 +324,9 @@ Why:
 
 ### Optional extension anchors
 
-- `@oh2023`
-- `@dellaVignaPaserman2005`
-- `@dellaVignaPope2018`
+- [@oh2023]
+- [@dellaVignaPaserman2005]
+- [@dellaVignaPope2018]
 
 ## Code-lab transfer ideas
 

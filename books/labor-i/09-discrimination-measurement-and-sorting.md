@@ -36,8 +36,8 @@ That sharper question is difficult because observed gaps mix many channels. Grou
 
 :::{admonition} Optional Extension Block
 :class: note
-- employer-level report cards and ranking uncertainty in the spirit of `@klineRoseWalters2024`
-- task-based discrimination and equilibrium occupational assignment in the spirit of `@hurstRubinsteinShimizu2024`
+- employer-level report cards and ranking uncertainty in the spirit of [@klineRoseWalters2024]
+- task-based discrimination and equilibrium occupational assignment in the spirit of [@hurstRubinsteinShimizu2024]
 - algorithmic screening, monopsony, and the interaction between discrimination and firm power
 :::
 
@@ -193,9 +193,9 @@ The right Week 9 conclusion is therefore disciplined rather than cynical. No sin
 
 ## Research Lab
 
-The bounded Week 9 lab follows the standard `Reproduce -> Diagnose -> Transfer` structure with a teaching-safe path that stays fully local. The reproduction step uses a synthetic correspondence-study file in the spirit of `@bertrandMullainathan2004` to estimate an average callback gap, quality-specific callback gaps, and firm-segment heterogeneity. The diagnostic step asks students to explain why that treatment effect is narrower than a general labor-market discrimination object. The transfer step then moves to synthetic employer-level report cards in the spirit of `@klineRoseWalters2024`, where students estimate firm-specific callback gaps, think about noise in rankings, and see how measurement uncertainty complicates employer comparisons.
+The bounded Week 9 lab follows the standard `Reproduce -> Diagnose -> Transfer` structure with a teaching-safe path that stays fully local. The reproduction step uses a synthetic correspondence-study file in the spirit of [@bertrandMullainathan2004] to estimate an average callback gap, quality-specific callback gaps, and firm-segment heterogeneity. The diagnostic step asks students to explain why that treatment effect is narrower than a general labor-market discrimination object. The transfer step then moves to synthetic employer-level report cards in the spirit of [@klineRoseWalters2024], where students estimate firm-specific callback gaps, think about noise in rankings, and see how measurement uncertainty complicates employer comparisons.
 
-An optional extension note points to `@hurstRubinsteinShimizu2024`, where discrimination operates partly through task assignment and equilibrium occupational structure. That extension is deliberately conceptual in the bounded path. Students do not need restricted employer microdata or a real field experiment to learn the core logic of discrimination measurement and sorting.
+An optional extension note points to [@hurstRubinsteinShimizu2024], where discrimination operates partly through task assignment and equilibrium occupational structure. That extension is deliberately conceptual in the bounded path. Students do not need restricted employer microdata or a real field experiment to learn the core logic of discrimination measurement and sorting.
 
 Open research questions should remain visible:
 
@@ -250,7 +250,7 @@ Equation {eq}`eq-week9-audit` gives a sharp experimental object at the callback 
 
 ## Reproducibility or code lab note
 
-The Week 9 lab uses a bounded local workflow rather than a literal field-experiment replication. Students first reproduce callback-gap summaries from a synthetic correspondence-study dataset in the spirit of `@bertrandMullainathan2004`, then diagnose what that treatment effect does and does not identify, and finally transfer the logic to firm-level discrimination report cards in the spirit of `@klineRoseWalters2024`. The student-facing workflow is documented in [labs/09-discrimination-measurement-and-sorting/lab.md](labs/09-discrimination-measurement-and-sorting/lab.md).
+The Week 9 lab uses a bounded local workflow rather than a literal field-experiment replication. Students first reproduce callback-gap summaries from a synthetic correspondence-study dataset in the spirit of [@bertrandMullainathan2004], then diagnose what that treatment effect does and does not identify, and finally transfer the logic to firm-level discrimination report cards in the spirit of [@klineRoseWalters2024]. The student-facing workflow is documented in [labs/09-discrimination-measurement-and-sorting/lab.md](labs/09-discrimination-measurement-and-sorting/lab.md).
 
 ## Slide companion note
 

@@ -57,8 +57,8 @@ Figure {numref}`fig-week6-time` is the right opening picture because it makes cl
 
 :::{admonition} Optional Extension Block
 :class: note
-- relative-income constraints and household norms in the spirit of `@bertrandKamenicaPan2015`
-- long-run family-policy experimentation and gender inequality in the spirit of `@klevenLandaisPoschSteinhauerZweimueller2024`
+- relative-income constraints and household norms in the spirit of [@bertrandKamenicaPan2015]
+- long-run family-policy experimentation and gender inequality in the spirit of [@klevenLandaisPoschSteinhauerZweimueller2024]
 :::
 
 ## Field Core
@@ -155,7 +155,7 @@ The frontier issue is no longer whether family structure matters. It is which em
 
 That plurality is a feature, not a weakness. Labor economists need different designs because childbirth affects multiple margins at once: participation, hours, occupation, commuting tolerance, job flexibility, promotion timing, and future wage growth. The research challenge is therefore to keep causal language matched to the design and to avoid turning every family-labor paper into a generic statement about "women versus men."
 
-The bounded Week 6 lab reflects that discipline. Students first reproduce a synthetic IVF-style fertility design in the spirit of `@lundborgPlugRasmussen2017`, diagnose the resulting local birth effect on employment, hours, and earnings, and then transfer the workflow to a synthetic child-penalty event study in the spirit of `@klevenLandaisSogaard2019`. An optional extension note asks how school entry, childcare, outsourcing, or long-run family policy could move the same family-allocation problem using `@gelbach2002`, `@cortesTessada2011`, or `@klevenLandaisPoschSteinhauerZweimueller2024`.
+The bounded Week 6 lab reflects that discipline. Students first reproduce a synthetic IVF-style fertility design in the spirit of [@lundborgPlugRasmussen2017], diagnose the resulting local birth effect on employment, hours, and earnings, and then transfer the workflow to a synthetic child-penalty event study in the spirit of [@klevenLandaisSogaard2019]. An optional extension note asks how school entry, childcare, outsourcing, or long-run family policy could move the same family-allocation problem using [@gelbach2002], [@cortesTessada2011], or [@klevenLandaisPoschSteinhauerZweimueller2024].
 
 Open research questions should remain visible:
 
@@ -210,7 +210,7 @@ Week 6 adds one discipline to the worker-side models from Weeks 2--5: always sta
 
 ## Reproducibility or code lab note
 
-The Week 6 lab is organized around a bounded `Reproduce -> Diagnose -> Transfer` path that runs fully locally. Students reproduce one synthetic IVF-style fertility design in the spirit of `@lundborgPlugRasmussen2017`, diagnose what the resulting first stage and Wald object do and do not identify about family labor supply, and then transfer the workflow to a synthetic first-birth event study in the spirit of `@klevenLandaisSogaard2019`. An optional extension asks how school entry, household-service outsourcing, or broad family-policy reform changes the same time-allocation problem. The bounded workflow is documented in [labs/06-households-family-fertility-time-allocation/lab.md](labs/06-households-family-fertility-time-allocation/lab.md).
+The Week 6 lab is organized around a bounded `Reproduce -> Diagnose -> Transfer` path that runs fully locally. Students reproduce one synthetic IVF-style fertility design in the spirit of [@lundborgPlugRasmussen2017], diagnose what the resulting first stage and Wald object do and do not identify about family labor supply, and then transfer the workflow to a synthetic first-birth event study in the spirit of [@klevenLandaisSogaard2019]. An optional extension asks how school entry, household-service outsourcing, or broad family-policy reform changes the same time-allocation problem. The bounded workflow is documented in [labs/06-households-family-fertility-time-allocation/lab.md](labs/06-households-family-fertility-time-allocation/lab.md).
 
 ## Slide companion note
 

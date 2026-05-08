@@ -54,29 +54,29 @@ These are the starter references that should appear in the Week 5 chapter, slide
 
 ### Core benchmark and selection references
 
-- `@roy1951`
-- `@mincer1974`
-- `@willisRosen1979`
-- `@card1999`
-- `@heckmanLochnerTodd2006`
+- [@roy1951]
+- [@mincer1974]
+- [@willisRosen1979]
+- [@card1999]
+- [@heckmanLochnerTodd2006]
 
 ### Returns-to-schooling identification references
 
-- `@oreopoulos2006`
-- `@stephensYang2014`
-- `@carneiroHeckmanVytlacil2011`
+- [@oreopoulos2006]
+- [@stephensYang2014]
+- [@carneiroHeckmanVytlacil2011]
 
 ### Sorting, firms, and place references
 
-- `@abowdKramarzMargolis1999`
-- `@cardCardosoHeiningKline2018`
-- `@engbomMoser2017`
-- `@diamond2016`
+- [@abowdKramarzMargolis1999]
+- [@cardCardosoHeiningKline2018]
+- [@engbomMoser2017]
+- [@diamond2016]
 
 ### Bridge to later weeks
 
-- `@juhnMurphyPierce1993`
-- `@katzAutor1999`
+- [@juhnMurphyPierce1993]
+- [@katzAutor1999]
 
 ## Section-level content requirements
 
@@ -315,7 +315,7 @@ This week's lab should follow the standard `Reproduce -> Diagnose -> Transfer ->
 
 ### Primary anchor
 
-- `@oreopoulos2006`
+- [@oreopoulos2006]
 
 Why:
 - clean causal-returns-to-schooling anchor;
@@ -324,14 +324,14 @@ Why:
 
 ### Secondary / challenge anchor
 
-- `@stephensYang2014`
+- [@stephensYang2014]
 
 Why:
 - excellent foil showing that law-based IV designs depend heavily on trend assumptions and research design details.
 
 ### Optional sorting anchor
 
-- `@engbomMoser2017` or `@diamond2016`
+- [@engbomMoser2017] or [@diamond2016]
 
 Why:
 - these make the important point that some returns to schooling work through access to firms or cities rather than only within-job pay.

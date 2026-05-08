@@ -16,7 +16,7 @@
 
 ## Why this lab exists
 
-Week 5 is where wage coefficients stop being self-explanatory. The bounded lab is designed to make that discipline operational. Students first compare a descriptive Mincer return with a compulsory-schooling IV return in the spirit of `@oreopoulos2006`, then test how sensitive a familiar schooling instrument can be to cohort-trend assumptions in the spirit of `@stephensYang2014`.
+Week 5 is where wage coefficients stop being self-explanatory. The bounded lab is designed to make that discipline operational. Students first compare a descriptive Mincer return with a compulsory-schooling IV return in the spirit of [@oreopoulos2006], then test how sensitive a familiar schooling instrument can be to cohort-trend assumptions in the spirit of [@stephensYang2014].
 
 ## Learning objectives
 
@@ -168,7 +168,7 @@ Run `src/transfer_schooling_trends.py` on the synthetic trend file and compare t
 
 ## Part IV. Optional sorting extension
 
-Use `@engbomMoser2017` or `@diamond2016` to write a short note on how an education premium might be mediated by better firms or better cities rather than only by within-job pay. The goal is not to estimate a full worker-firm or spatial model here. The goal is to make explicit what the bounded IV design still leaves outside the wage-determination problem.
+Use [@engbomMoser2017] or [@diamond2016] to write a short note on how an education premium might be mediated by better firms or better cities rather than only by within-job pay. The goal is not to estimate a full worker-firm or spatial model here. The goal is to make explicit what the bounded IV design still leaves outside the wage-determination problem.
 
 ## Part V. Reflection
 

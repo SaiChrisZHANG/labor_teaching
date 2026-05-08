@@ -56,32 +56,32 @@ These are the starter references that should appear in the Week 4 chapter, slide
 
 ### Core theory and benchmark references
 
-- `@becker1962`
-- `@benPorath1967`
-- `@mincer1974`
-- `@willisRosen1979`
+- [@becker1962]
+- [@benPorath1967]
+- [@mincer1974]
+- [@willisRosen1979]
 
 ### Training and imperfect labor-market references
 
-- `@becker1964`
-- `@acemogluPischke1999`
-- `@autor2001`
+- [@becker1964]
+- [@acemogluPischke1999]
+- [@autor2001]
 
 ### Skill formation and early-childhood references
 
-- `@cunhaHeckman2007`
-- `@cunhaHeckman2008`
-- `@cunhaHeckmanSchennach2010`
-- `@heckman2006`
-- `@attanasioEtAl2020HumanCapital`
-- `@walters2015`
-- `@heckmanPintoSavelyev2013`
+- [@cunhaHeckman2007]
+- [@cunhaHeckman2008]
+- [@cunhaHeckmanSchennach2010]
+- [@heckman2006]
+- [@attanasioEtAl2020HumanCapital]
+- [@walters2015]
+- [@heckmanPintoSavelyev2013]
 
 ### Frictions, schooling finance, and policy references
 
-- `@lochnerMongeNaranjo2011`
-- `@angristChen2011`
-- `@deming2022`
+- [@lochnerMongeNaranjo2011]
+- [@angristChen2011]
+- [@deming2022]
 
 ## Section-level content requirements
 
@@ -313,11 +313,11 @@ Minimum columns:
 ## Required references by section
 
 Minimum expectations:
-- opening and Ben-Porath core: `@becker1962`, `@benPorath1967`, `@mincer1974`
-- schooling/training section: `@willisRosen1979`, `@acemogluPischke1999`, `@autor2001`
-- skill-formation section: `@cunhaHeckman2007`, `@cunhaHeckman2008`, `@cunhaHeckmanSchennach2010`, `@heckman2006`
-- empirical and policy section: `@attanasioEtAl2020HumanCapital`, `@walters2015`, `@heckmanPintoSavelyev2013`, `@lochnerMongeNaranjo2011`, `@angristChen2011`
-- perspective or synthesis bridge: `@deming2022`
+- opening and Ben-Porath core: [@becker1962], [@benPorath1967], [@mincer1974]
+- schooling/training section: [@willisRosen1979], [@acemogluPischke1999], [@autor2001]
+- skill-formation section: [@cunhaHeckman2007], [@cunhaHeckman2008], [@cunhaHeckmanSchennach2010], [@heckman2006]
+- empirical and policy section: [@attanasioEtAl2020HumanCapital], [@walters2015], [@heckmanPintoSavelyev2013], [@lochnerMongeNaranjo2011], [@angristChen2011]
+- perspective or synthesis bridge: [@deming2022]
 
 ## Lab anchor
 
@@ -325,7 +325,7 @@ The Week 4 lab should be built around one official replication package and one b
 
 ### Primary lab candidate
 
-Use `@attanasioEtAl2020HumanCapital` because the American Economic Review article page includes an official replication package and the paper lets students see how parental investments and skill-production estimation fit together.
+Use [@attanasioEtAl2020HumanCapital] because the American Economic Review article page includes an official replication package and the paper lets students see how parental investments and skill-production estimation fit together.
 
 #### Reproduce
 
@@ -341,7 +341,7 @@ Students should adapt the workflow to one bounded alternative:
 
 ### Secondary lab candidate
 
-Use `@walters2015` if you want a cleaner reduced-form lab focused on variation in early-childhood program inputs rather than structural estimation.
+Use [@walters2015] if you want a cleaner reduced-form lab focused on variation in early-childhood program inputs rather than structural estimation.
 
 #### Reproduce
 
@@ -356,7 +356,7 @@ Students adapt the same workflow to one bounded alternative:
 
 ### Optional theory/quantitative extension
 
-Use `@lochnerMongeNaranjo2011` as an optional instructor-led extension if you want a policy-finance bridge.
+Use [@lochnerMongeNaranjo2011] as an optional instructor-led extension if you want a policy-finance bridge.
 
 #### Reproduce
 

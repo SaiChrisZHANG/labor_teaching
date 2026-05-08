@@ -16,7 +16,7 @@
 
 ## Why this lab exists
 
-Week 11 is the course's worker-policy capstone. The bounded lab makes one central point concrete: a policy's statutory schedule is not the same thing as actual worker exposure. Students first reproduce a synthetic effective-exposure design in the spirit of `@chettyFriedmanSaez2013`, then diagnose why neighborhood knowledge changes interpretation, and finally transfer the workflow to a synthetic take-up experiment in the spirit of `@linosProhofskyRameshRothsteinUnrath2022`.
+Week 11 is the course's worker-policy capstone. The bounded lab makes one central point concrete: a policy's statutory schedule is not the same thing as actual worker exposure. Students first reproduce a synthetic effective-exposure design in the spirit of [@chettyFriedmanSaez2013], then diagnose why neighborhood knowledge changes interpretation, and finally transfer the workflow to a synthetic take-up experiment in the spirit of [@linosProhofskyRameshRothsteinUnrath2022].
 
 ## Learning objectives
 
@@ -170,11 +170,11 @@ Run `src/transfer_linos_takeup.py` on the synthetic claimant-level experiment an
 
 ## Part IV. Challenge block
 
-Use `@lindnerReizer2020` conceptually to sketch how front-loading would change the continuation value of nonemployment from the Week 11 chapter's dynamic UI object. The challenge prompt is not to estimate a full structural model. It is to state clearly how a timing reform differs from a level reform, which outcomes would move first, and which design would best identify the response.
+Use [@lindnerReizer2020] conceptually to sketch how front-loading would change the continuation value of nonemployment from the Week 11 chapter's dynamic UI object. The challenge prompt is not to estimate a full structural model. It is to state clearly how a timing reform differs from a level reform, which outcomes would move first, and which design would best identify the response.
 
 ## Part V. Optional frontier extension
 
-Use `@frenchSong2014` and `@autorKostolMogstadSetzler2019` to write a short note on why disability-insurance receipt is both a labor-supply and a household-insurance object. Use `@manoliWeber2016` to explain why retirement thresholds invite bunching logic. Use `@wheelerGarlickJohnsonShawGargano2022` or `@verhoHamalainenKanninen2022` to compare search-help and welfare-trap interventions to the Week 11 take-up exercises.
+Use [@frenchSong2014] and [@autorKostolMogstadSetzler2019] to write a short note on why disability-insurance receipt is both a labor-supply and a household-insurance object. Use [@manoliWeber2016] to explain why retirement thresholds invite bunching logic. Use [@wheelerGarlickJohnsonShawGargano2022] or [@verhoHamalainenKanninen2022] to compare search-help and welfare-trap interventions to the Week 11 take-up exercises.
 
 ## Part VI. Reflection
 

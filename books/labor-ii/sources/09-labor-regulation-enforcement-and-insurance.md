@@ -102,46 +102,46 @@ By the end of the week, students should be able to:
 These are starter references that should appear in the week-specific bibliography and shape the chapter. They are organized by role, not by chronology.
 
 ### Conceptual and framework references
-- MacLeod, *Great Expectations: Law, Employment Contracts, and Labor Market Performance* @macleod2011GreatExpectations
+- MacLeod, *Great Expectations: Law, Employment Contracts, and Labor Market Performance* [@macleod2011GreatExpectations]
 - Krueger and Meyer, social insurance and labor supply [optional older bridge if useful]
 
 ### Employment protection / dismissal / firing-cost references
-- Autor, Donohue, and Schwab, wrongful-discharge laws @autorDonohueSchwab2006
-- Autor, Kerr, and Kugler, employment protection and productivity @autorKerrKugler2007
-- Kugler, job security regulations and worker flows @kugler2004JobSecurity
+- Autor, Donohue, and Schwab, wrongful-discharge laws [@autorDonohueSchwab2006]
+- Autor, Kerr, and Kugler, employment protection and productivity [@autorKerrKugler2007]
+- Kugler, job security regulations and worker flows [@kugler2004JobSecurity]
 
 ### Enforcement and compliance references
-- Almeida and Carneiro, enforcement of labor regulation and informality @almeidaCarneiro2012
-- Bertrand and Crépon, teaching labor laws / information frictions @bertrandCrepon2021
+- Almeida and Carneiro, enforcement of labor regulation and informality [@almeidaCarneiro2012]
+- Bertrand and Crépon, teaching labor laws / information frictions [@bertrandCrepon2021]
 
 ### Insurance / unemployment-benefit equilibrium references
-- Lalive, Landais, and Zweimüller, equilibrium effects of UI @laliveLandaisZweimueller2015
-- Lindner, front-loading benefits and insurance/incentive tradeoffs @lindner2020FrontLoading
-- Van Doornik, Gerard, and Naritomi, UI and informal labor markets @vanDoornikGerardNaritomi2023
+- Lalive, Landais, and Zweimüller, equilibrium effects of UI [@laliveLandaisZweimueller2015]
+- Lindner, front-loading benefits and insurance/incentive tradeoffs [@lindner2020FrontLoading]
+- Van Doornik, Gerard, and Naritomi, UI and informal labor markets [@vanDoornikGerardNaritomi2023]
 
 ### Information / transparency / newer wage-law references
-- Cullen, pay transparency as labor-market regulation @cullen2024PayTransparency
+- Cullen, pay transparency as labor-market regulation [@cullen2024PayTransparency]
 
 ## Reading-ladder design
 
 The chapter should use a real reading ladder with citations and grouping. A good structure is:
 
 ### Ladder A. Framework and classification
-- @macleod2011GreatExpectations
-- @autorDonohueSchwab2006
-- @autorKerrKugler2007
+- [@macleod2011GreatExpectations]
+- [@autorDonohueSchwab2006]
+- [@autorKerrKugler2007]
 
 ### Ladder B. Enforcement, compliance, and effective regulation
-- @almeidaCarneiro2012
-- @bertrandCrepon2021
+- [@almeidaCarneiro2012]
+- [@bertrandCrepon2021]
 
 ### Ladder C. Insurance, search, and equilibrium effects
-- @laliveLandaisZweimueller2015
-- @lindner2020FrontLoading
-- @vanDoornikGerardNaritomi2023
+- [@laliveLandaisZweimueller2015]
+- [@lindner2020FrontLoading]
+- [@vanDoornikGerardNaritomi2023]
 
 ### Ladder D. Information, transparency, and frontier directions
-- @cullen2024PayTransparency
+- [@cullen2024PayTransparency]
 - optional frontier add-ons on leave, scheduling, noncompetes, or disability insurance if they help the final draft
 
 ## Lab design spine
@@ -149,7 +149,7 @@ The chapter should use a real reading ladder with citations and grouping. A good
 The lab should follow the standard Reproduce -> Diagnose -> Transfer structure.
 
 ### Primary anchor
-- `@almeidaCarneiro2012`
+- [@almeidaCarneiro2012]
 
 Why:
 - excellent for the distinction between regulation on the books and effective enforcement;
@@ -158,7 +158,7 @@ Why:
 - useful for teaching students that effective regulation depends on state capacity.
 
 ### Secondary / challenge anchor
-- `@laliveLandaisZweimueller2015`
+- [@laliveLandaisZweimueller2015]
 
 Why:
 - forces students to think about equilibrium effects and untreated workers;
@@ -166,7 +166,7 @@ Why:
 - helps students see when partial-equilibrium estimates are not enough.
 
 ### Optional extension anchor
-- `@vanDoornikGerardNaritomi2023`
+- [@vanDoornikGerardNaritomi2023]
 
 Why:
 - useful bridge to developing-country settings, informal labor markets, and rule evasion;
@@ -253,7 +253,7 @@ Minimum content:
 - why informality or uncovered work can absorb policy pressure;
 - why the same formal rule can have very different effects in high- and low-enforcement settings.
 
-This section should use @almeidaCarneiro2012 and @bertrandCrepon2021 prominently.
+This section should use [@almeidaCarneiro2012] and [@bertrandCrepon2021] prominently.
 
 ### 5. Insurance, search, and labor-market equilibrium
 
@@ -266,7 +266,7 @@ Minimum content:
 - why the interpretation of a UI estimate changes once equilibrium effects matter;
 - why insurance design should be discussed jointly with distortions and market conditions.
 
-This section should use @laliveLandaisZweimueller2015, @lindner2020FrontLoading, and @vanDoornikGerardNaritomi2023 prominently.
+This section should use [@laliveLandaisZweimueller2015], [@lindner2020FrontLoading], and [@vanDoornikGerardNaritomi2023] prominently.
 
 ### 6. Inequality, spillovers, and welfare
 

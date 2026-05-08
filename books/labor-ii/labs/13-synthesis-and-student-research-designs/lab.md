@@ -42,12 +42,12 @@ This lab is intentionally bounded.
 
 The required anchor menu spans the major Labor II blocks.
 
-1. `@saezSchoeferSeim2019`
-2. `@yehMacalusoHershbein2022`
-3. `@cengizDubeLindnerZipperer2019`
-4. `@jagerNaiduSchoefer2024`
-5. `@acemogluRestrepo2020RobotsJobs`
-6. `@autorDornHanson2013ChinaSyndrome`
+1. [@saezSchoeferSeim2019]
+2. [@yehMacalusoHershbein2022]
+3. [@cengizDubeLindnerZipperer2019]
+4. [@jagerNaiduSchoefer2024]
+5. [@acemogluRestrepo2020RobotsJobs]
+6. [@autorDornHanson2013ChinaSyndrome]
 
 ## Lab roadmap
 
