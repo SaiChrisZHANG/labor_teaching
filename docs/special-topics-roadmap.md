@@ -74,6 +74,12 @@ Every special-topics course should begin with the same structural shell:
 
 Until real week chapters exist, the live reading sequence should expose the landing page and keep the rest of the scaffolding out of the visible book navigation unless there is a concrete reason to surface it.
 
+## Chapter defaults
+
+Every special-topics chapter should include a visible **Core points** box near the top, after the opening orientation and before the layered sections. Extension boxes are optional rather than default. Frontier, advanced, or optional material should usually live inside **Field Core** or **Research Lab**, where it can be tied directly to the labor question, evidence, and open research margins.
+
+In prose markdown, citations must use linked citation syntax, such as `[@citekey]`. Bare citation keys like `@citekey` and backticked citation keys like `` `@citekey` `` should survive only in true code or example contexts.
+
 ## Relationship to Labor I and Labor II
 
 The special-topics family is not a replacement for the labor sequence. Labor I and Labor II remain the core spine:

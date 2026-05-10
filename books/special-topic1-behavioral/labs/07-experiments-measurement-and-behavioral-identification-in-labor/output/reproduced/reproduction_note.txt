@@ -1,0 +1,1 @@
+This bounded reproduction uses synthetic job-search information data to connect an information treatment to OLS/ANCOVA-style contrasts and a discrete-time hazard summary. It is not an official replication of Altmann, Falk, Jaeger, and Zimmermann.

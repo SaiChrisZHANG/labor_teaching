@@ -1,0 +1,5 @@
+arm,workers,information_content,planning_support,salience_boost,baseline_belief,post_belief,applications_week1,search_plan_score,exit_by_week4,observed_duration_weeks,post_belief_adjusted,applications_adjusted,exit_adjusted
+control,200,0.0,0.0,0.0,0.321,0.31562,2.8645,41.6259,0.68,3.52,0.31562,2.8645,0.68
+belief_info,200,1.0,0.2,0.35,0.321,0.446395,4.68125,53.1259,0.72,3.28,0.446395,4.68125,0.72
+planning_prompt,200,0.25,1.0,0.45,0.321,0.39063000000000003,4.95425,58.29885,0.705,3.315,0.39063000000000003,4.954249999999999,0.705
+belief_planning,200,1.0,1.0,0.65,0.321,0.48188000000000003,6.0575,64.723,0.735,3.085,0.48188000000000003,6.0575,0.735

@@ -1,0 +1,5 @@
+default_group,firm_response_type,workers,participation,passive_choice,contribution_rate,welfare_distance,undersaving,oversaving_liquidity_risk,interpretation
+low_default,exploit_or_underinsure,300,1.0,0.6566666666666666,0.04213,0.04901,0.47333333333333333,0.0,low default raises undersaving risk for passive workers
+standard_default,insure,300,1.0,0.6833333333333333,0.06172333333333333,0.02916,0.13,0.13666666666666666,standard default moves passive workers toward a middle benchmark
+high_default,insure_or_oversteer,300,1.0,0.6366666666666667,0.08709333333333333,0.06074333333333333,0.0,0.29,high default can insure present bias but creates liquidity risk
+active_choice,accommodate,300,1.0,0.0,0.05994,0.0051333333333333335,0.0,0.0,active choice reduces passive defaults but relies on attention

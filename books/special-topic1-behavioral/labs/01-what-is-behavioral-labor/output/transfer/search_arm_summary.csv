@@ -1,0 +1,4 @@
+arm,seekers,weekly_applications,subjective_job_finding_prob,employed_within_8_weeks
+control,80,4.1,0.3095,0.275
+information,80,4.9,0.3895,0.35
+information_planning,80,5.4,0.4295,0.425

@@ -6,6 +6,16 @@ project:
     - references.bib
   toc:
     - file: index.md
+    - file: 01-what-is-behavioral-labor.md
+    - file: 02-nonstandard-preferences-in-labor.md
+    - file: 03-beliefs-expectations-and-job-search.md
+    - file: 04-attention-salience-complexity-and-learning.md
+    - file: 05-incentives-contracts-reciprocity-and-workplace-behavior.md
+    - file: 06-identity-norms-fairness-and-labor-market-allocation.md
+    - file: 07-experiments-measurement-and-behavioral-identification-in-labor.md
+    - file: 08-firm-market-and-equilibrium-responses-to-behavioral-frictions.md
+    - file: 09-behavioral-public-policy-in-labor-markets.md
+    - file: 10-synthesis-welfare-and-student-research-designs.md
 site:
   template: book-theme
   title: Behavioral Labor

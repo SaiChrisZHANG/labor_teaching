@@ -1,0 +1,1 @@
+This bounded reproduction uses synthetic panel data to compare true tax-benefit net returns, perceived net returns, exposure to the schedule, information letters, and annual hours. It is not an official replication of Kostol and Myhre.

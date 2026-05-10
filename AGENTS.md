@@ -48,6 +48,15 @@ Each module should contain, in this order:
 8. reproducibility or code lab note
 9. slide companion note
 
+## Special-topics chapter conventions
+
+Special-topics chapters follow the standard audience layers, with these additional defaults:
+- include a clearly visible **Core points** box near the top of every chapter
+- do not require an Extension or Optional Extension box by default
+- place genuine frontier or optional material inside **Field Core** or **Research Lab** unless a separate extension box is truly warranted
+- use linked citation syntax for prose markdown citations: `[@citekey]`
+- do not use bare prose citations like `@citekey` or backticked prose citations like `` `@citekey` `` outside true code/example contexts
+
 ## Writing style
 
 - Clear, high-signal, and graduate-level

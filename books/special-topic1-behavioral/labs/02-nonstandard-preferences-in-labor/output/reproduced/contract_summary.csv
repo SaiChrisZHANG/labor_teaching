@@ -1,0 +1,3 @@
+contract,workers,commitment_takeup,average_output,target_rate,close_payday_output,far_payday_output,close_minus_far_payday_output
+standard,96,0.0,54.949999999999996,0.7666666666666666,57.730555555555554,52.208333333333336,5.522222222222219
+commitment,64,1.0,57.65,1.0,60.041666666666664,55.2,4.8416666666666615

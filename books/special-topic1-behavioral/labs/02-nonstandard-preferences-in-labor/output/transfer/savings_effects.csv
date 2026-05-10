@@ -1,0 +1,4 @@
+regime,employees,participation,contribution_rate,contribution_rate_conditional,participation_vs_active_choice,contribution_rate_vs_active_choice,contribution_rate_conditional_vs_active_choice
+active_choice,120,0.475,0.0259,0.05452631578947369,0.0,0.0,0.0
+auto_enrollment,120,0.7333333333333333,0.054075,0.07373863636363635,0.2583333333333333,0.028175,0.019212320574162667
+auto_enrollment_match,120,0.8166666666666667,0.0717,0.08779591836734695,0.3416666666666667,0.0458,0.03326960257787326

@@ -33,6 +33,8 @@ Compact 6-week advanced electives:
 
 Each special-topics course is a standalone MyST book shell with its own course-local bibliography at `books/<course-slug>/references.bib`.
 
+Special-topics chapters use a visible **Core points** box near the top. Extension boxes are optional, not a default requirement; frontier material should normally sit inside **Field Core** or **Research Lab**. Prose markdown citations should use linked citation syntax, for example `[@citekey]`.
+
 ## Working philosophy
 
 1. Build shared modules before full courses.

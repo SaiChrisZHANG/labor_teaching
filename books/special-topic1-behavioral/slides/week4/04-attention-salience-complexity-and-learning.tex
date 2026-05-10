@@ -1,0 +1,228 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs, array}
+
+\title{Attention, Salience, Complexity, and Learning}
+\subtitle{Behavioral Labor -- Week 4}
+\author{Teaching deck draft}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Central question}
+\begin{itemize}
+    \item How do attention, salience, complexity, learning, and costly information acquisition shape labor choices?
+    \item Week 3 studied beliefs and expectations in job search.
+    \item Week 4 asks what happens when the relevant labor rule exists but is hard to notice, understand, or update.
+    \item Core margins: earnings, hours, take-up, claiming, effort, saving, training.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Bridge from Week 3}
+\small
+\begin{tabular}{p{0.30\linewidth} p{0.58\linewidth}}
+\toprule
+Week 3 object & Week 4 shift \\
+\midrule
+Subjective beliefs & Workers must notice and process relevant signals \\
+Job search information & Broader labor schedules, contracts, benefits, and programs \\
+Perceived returns & Perceived tax, benefit, bonus, saving, and training maps \\
+Updating over unemployment & Learning from repeated payroll, policy, and workplace exposure \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{DellaVigna taxonomy: Week 4 highlighted}
+\small
+\begin{tabular}{p{0.31\linewidth} p{0.57\linewidth}}
+\toprule
+Branch & Labor interpretation \\
+\midrule
+Nonstandard preferences & Present bias, reference points, reciprocity, fairness \\
+Nonstandard beliefs & Subjective expectations about wages, job finding, returns \\
+\textbf{Nonstandard decision-making} & \textbf{Attention, salience, complexity, limited consideration, learning} \\
+Responses & Firms and policies redesign the information environment \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.5em}
+\textbf{This week:} workers respond to the schedule they perceive and learn, not only the schedule written down.
+\end{frame}
+
+\begin{frame}{Benchmark transparent labor choice}
+\[
+a_i^\star \in \arg\max_{a \in \mathcal{A}} U_i(a;\theta_i)
+\quad \text{s.t.} \quad c_i = y_i + w_i a - T_i(a)
+\]
+
+\small
+\begin{tabular}{p{0.17\linewidth} p{0.70\linewidth}}
+\toprule
+Object & Interpretation \\
+\midrule
+$a$ & hours, earnings, effort, claiming, saving, or training \\
+$T_i(a)$ & true tax-benefit, payroll, or contract schedule \\
+$U_i$ & payoff from consumption, work, effort, time, or program participation \\
+Assumption & the worker understands the local action-to-payoff map \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Salience wedge: perceived incentives}
+\[
+a_i \in \arg\max_{a \in \mathcal{A}} U_i(a;\theta_i)
+\quad \text{s.t.} \quad \tilde{T}_i(a) \neq T(a)
+\]
+
+\begin{itemize}
+    \item The worker responds to the perceived schedule $\tilde{T}_i(a)$.
+    \item Low salience: the relevant incentive is not prominent at the moment of choice.
+    \item Misperception: the worker holds the wrong local slope, threshold, or eligibility rule.
+    \item Heuristic response: average incentives replace marginal incentives.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Salience versus complexity versus information}
+\scriptsize
+\begin{tabular}{p{0.20\linewidth} p{0.25\linewidth} p{0.30\linewidth}}
+\toprule
+Object & Distortion & Labor signature \\
+\midrule
+Low salience & incentive exists but is not prominent & stronger response when highlighted \\
+Complexity or opacity & action-to-payoff map is hard to decode & mistakes persist despite disclosure \\
+Missing information & worker lacks a rule or fact & response to letters or tutorials \\
+Endogenous information & worker chooses attention effort & response depends on stakes and costs \\
+Dynamic learning & representation evolves with exposure & wedges shrink or change over time \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.6em}
+Do not infer attention from attenuation alone. Name the margin and the behavioral object.
+\end{frame}
+
+\begin{frame}{Dynamic learning and costly attention}
+\[
+a_{it}, m_{it} \in \arg\max \tilde{U}_{it}(a;\theta_i,b_{it}) - C(m_{it})
+\quad \text{with} \quad
+b_{i,t+1}=B(b_{it},m_{it},x_{it+1})
+\]
+
+\begin{itemize}
+    \item $m_{it}$ is costly information acquisition or attention effort.
+    \item $b_{it}$ is the worker's representation of the schedule or contract.
+    \item $x_{it+1}$ includes experience, letters, payroll feedback, peers, and caseworkers.
+    \item Policy and firms can change current salience and the speed of learning.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Labor supply under nonlinear schedules}
+\begin{itemize}
+    \item EITC, taxes, benefits, and earnings tests create nonlinear local incentives.
+    \item Observed margins: earnings, hours, employment, bunching, and adjustment timing.
+    \item Chetty-Friedman-Saez: local knowledge and EITC earnings responses.
+    \item Kostol-Myhre: labor supply responses to learning the tax and benefit schedule.
+    \item Main caution: muted bunching can reflect information, adjustment costs, constraints, or true low elasticity.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Take-up, claiming, and policy navigation}
+\small
+\begin{tabular}{p{0.26\linewidth} p{0.25\linewidth} p{0.33\linewidth}}
+\toprule
+Intervention & Margin & Mechanism caution \\
+\midrule
+Information letter & application or take-up & awareness versus salience \\
+Reminder & filing or claiming timing & attention versus pressure \\
+Simplified notice & completed claim & complexity versus hassle cost \\
+Trusted messenger & program participation & information versus legitimacy \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.6em}
+Bhargava-Manoli style designs identify treatment effects on claiming, but not a single mechanism without additional diagnostics.
+\end{frame}
+
+\begin{frame}{Opaque incentives and workplace effort}
+\begin{itemize}
+    \item Firms write piece rates, bonuses, thresholds, penalties, and performance metrics.
+    \item Workers may know there is an incentive while misunderstanding the formula.
+    \item Observed margins: effort, output, task allocation, bonus attainment.
+    \item Abeler-Huffman-Raymond style designs vary complexity and observe effort response.
+    \item Workplace opacity can be accidental, productivity-enhancing, or strategic.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Savings, retirement, and training}
+\begin{itemize}
+    \item Payroll-linked saving depends on defaults, disclosures, and contribution understanding.
+    \item Social Security and retirement claiming require mapping current work to future benefits.
+    \item Training decisions require learning returns, subsidies, deadlines, and procedural steps.
+    \item Observed margins: participation, contributions, claiming, enrollment, completion.
+    \item Same diagnostic habit: what rule is perceived, what action moves, what remains confounded?
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Methods and identification map}
+\scriptsize
+\begin{tabular}{p{0.28\linewidth} p{0.28\linewidth} p{0.30\linewidth}}
+\toprule
+Design & Best identified object & What it cannot separate alone \\
+\midrule
+Information letter or tutorial & missing information response & salience, trust, reminders \\
+Simplification or disclosure & complexity and legibility & hassle costs, salience \\
+Schedule change plus exposure & learning and attenuated response & sorting and diffusion \\
+Monitored attention & costly information acquisition & experiment behavior \\
+Workplace incentive experiment & effort under opacity & morale, peer effects, reciprocity \\
+Structural learning model & welfare and counterfactuals & functional-form dependence \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Welfare and design}
+\begin{itemize}
+    \item Stable inattention: observed choices may poorly reveal welfare.
+    \item State-dependent inattention: workers may err after new rules, transitions, or shocks.
+    \item Learning: short-run wedges and long-run wedges can differ sharply.
+    \item Endogenous attention: optimal policy may reduce information costs rather than change payoffs.
+    \item Design question: who makes the environment legible, and who benefits from opacity?
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Week 4 lab}
+\begin{itemize}
+    \item Reproduce: synthetic Kostol-Myhre-style schedule-learning factbook.
+    \item Diagnose: true incentives, perceived incentives, exposure, information, and hours response.
+    \item Transfer: Bhargava-Manoli-style policy navigation with reminders and simplification.
+    \item Optional extension: Abeler-Huffman-Raymond-style workplace incentive opacity.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Bridge to Week 5}
+\begin{itemize}
+    \item Week 4: workers respond to perceived and learned schedules.
+    \item Week 5: firms design incentives, contracts, monitoring, and workplace communication.
+    \item The bridge is contract legibility.
+    \item Once workers are bounded, employer design becomes part of the labor mechanism.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item Attention, salience, complexity, and learning are dynamic labor mechanisms.
+    \item The same reduced-form response can mix information, salience, hassle, optimization frictions, and learning.
+    \item Labor applications must name the observed margin before naming the behavioral object.
+    \item Welfare depends on persistence, heterogeneity, endogenous attention, and institutional design.
+\end{itemize}
+\end{frame}
+
+\end{document}

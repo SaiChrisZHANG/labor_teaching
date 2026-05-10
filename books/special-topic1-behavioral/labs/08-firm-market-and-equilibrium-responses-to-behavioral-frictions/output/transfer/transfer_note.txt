@@ -1,0 +1,1 @@
+This bounded transfer uses synthetic outside-option belief and plan-market data. It distinguishes worker belief response, search and bargaining margins, segmentation diagnostics, demand elasticity, switching costs, and sales-force interpretation. It is not an official replication of the cited papers.

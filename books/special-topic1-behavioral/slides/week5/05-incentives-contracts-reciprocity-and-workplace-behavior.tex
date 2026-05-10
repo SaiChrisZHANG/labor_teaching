@@ -1,0 +1,238 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs, array}
+
+\title{Incentives, Contracts, Reciprocity, and Workplace Behavior}
+\subtitle{Behavioral Labor -- Week 5}
+\author{Teaching deck draft}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Central question}
+\begin{itemize}
+    \item How do behavioral mechanisms reshape incentives and effort inside the employment relationship?
+    \item Week 5 moves inside firms: pay, contracts, monitoring, supervision, and evaluation.
+    \item The core issue is not whether incentives matter.
+    \item The issue is how workers interpret incentives and which margin actually moves.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Bridge from Weeks 2--4}
+\small
+\begin{tabular}{p{0.26\linewidth} p{0.60\linewidth}}
+\toprule
+Earlier object & Week 5 workplace shift \\
+\midrule
+Nonstandard preferences & Reciprocity, reference points, fairness, and loss framing at work \\
+Beliefs and expectations & Workers infer what the firm values and what supervisors reward \\
+Attention and complexity & Contracts, bonuses, and monitoring dashboards must be understood \\
+Policy and firm design & Employers choose pay rules, messages, visibility, and evaluation systems \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Workplace behavior as behavioral labor}
+\small
+\begin{tabular}{p{0.25\linewidth} p{0.31\linewidth} p{0.28\linewidth}}
+\toprule
+Contract object & Behavioral channel & Labor outcome \\
+\midrule
+Gift or wage gesture & reciprocity and fairness & extra work or productivity \\
+Bonus frame & reference point and loss aversion & target response or gaming \\
+Monitoring regime & visibility and salience & compliance or measured effort \\
+Supervisor rating & subjective evaluation & influence activity or output \\
+Performance pay & heterogeneous response & output, sorting, earnings dispersion \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.6em}
+The empirical question: what changed, which margin moved, and what remains hidden?
+\end{frame}
+
+\begin{frame}{Benchmark effort and contract problem}
+\[
+\max_{e \ge 0} \; u\!\left(w(y(e))\right) - c(e)
+\]
+
+\small
+\begin{tabular}{p{0.18\linewidth} p{0.68\linewidth}}
+\toprule
+Object & Interpretation \\
+\midrule
+$e$ & workplace effort \\
+$y(e)$ & measured output or task completion \\
+$w(y(e))$ & compensation schedule tied to output \\
+$c(e)$ & effort cost \\
+Benchmark & firms change pay rules and workers move effort \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Behavioral contracts plus monitoring}
+\[
+\max_{e \ge 0} \; u\!\left(w(y(e),m)\right) - c(e)
+ + B\!\left(g_i, r_i, f_i, s_i, m_i; e\right)
+\]
+
+\begin{itemize}
+    \item $m$: monitoring regime or information technology.
+    \item $g_i$: perceived generosity or employer effort.
+    \item $r_i$: reference point for pay, bonus, target, or treatment.
+    \item $f_i$: framing and contract presentation.
+    \item $s_i$: social preferences, reciprocity, fairness, and workplace norms.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Incentives plus monitoring}
+\small
+\begin{tabular}{p{0.24\linewidth} p{0.31\linewidth} p{0.29\linewidth}}
+\toprule
+Monitoring role & Possible benefit & Possible cost \\
+\midrule
+Make output visible & incentives bite on productive effort & workers optimize the metric \\
+Increase feedback & learning and task correction & stress or crowd-out \\
+Signal managerial attention & relational treatment or accountability & surveillance and mistrust \\
+Support evaluation & better information for pay or promotion & influence activity and bias \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.7em}
+Monitoring is part of incentive design, not a neutral add-on.
+\end{frame}
+
+\begin{frame}{Reciprocity and gift exchange}
+\begin{itemize}
+    \item Core object: workers may reciprocate employer generosity.
+    \item Kube-Marechal-Puppe: gifts and wage gestures in workplace effort.
+    \item DellaVigna-List-Malmendier-Rao: social preferences and gift exchange at work.
+    \item Key diagnostic: does the treatment raise extra work, productivity, or both?
+    \item Do not stop at ``gift exchange exists.'' Ask what margin moved.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Reference dependence and loss framing}
+\[
+U(e) = u\!\left(w(y(e))\right) - c(e)
+  + \lambda \min\{0,\, b(e)-r\}
+\]
+
+\begin{itemize}
+    \item A bonus can be framed as a gain or as something at risk of being lost.
+    \item Loss framing can increase urgency around a target.
+    \item But target response is not the same as total performance.
+    \item Frontier question: when does loss framing motivate, and when does it induce gaming?
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Subjective evaluation and supervision}
+\[
+\max_{e,a \ge 0} \; u\!\left(w\big(z(e), \hat q^S(e,a)\big)\right)
+  - c(e) - \psi(a)
+\]
+
+\small
+\begin{tabular}{p{0.16\linewidth} p{0.70\linewidth}}
+\toprule
+Object & Interpretation \\
+\midrule
+$z(e)$ & objective productive output \\
+$\hat q^S(e,a)$ & supervisor's subjective assessment \\
+$a$ & influence activity or supervisor-facing effort \\
+Risk & workers please evaluators instead of improving production \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Performance pay, heterogeneity, and sorting}
+\[
+k_i^\star \in \arg\max_{k \in \mathcal{K}}
+ \; \mathbb{E}\!\left[U_i\!\left(w_k(y_i(e),m), e\right)\right]
+\]
+
+\begin{itemize}
+    \item Performance-pay estimates can mix treatment and selection.
+    \item Workers differ in monetary responsiveness, risk tolerance, reciprocity, and monitoring aversion.
+    \item Contract choice can change the workforce, not only effort of incumbents.
+    \item Average effects can hide large gains, crowd-out, or unequal responses by type.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Productivity versus extra work versus gaming}
+\small
+\begin{tabular}{p{0.26\linewidth} p{0.28\linewidth} p{0.30\linewidth}}
+\toprule
+Margin & Looks like success when... & Risk \\
+\midrule
+Productive effort & valuable output rises & hard to measure fully \\
+Extra work & time or tasks increase & activity is not value \\
+Gaming & target attainment rises & metric improves, production does not \\
+Influence activity & ratings improve & supervisor-facing effort crowds out work \\
+Sorting & high responders enter & treatment effect is overstated \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Frontier: digital and algorithmic monitoring}
+\begin{itemize}
+    \item Remote work and platform work bundle pay, monitoring, feedback, and discipline.
+    \item Digital tools can reveal output, process, time, location, communication, and compliance.
+    \item Behavioral questions: visibility, trust, stress, gaming, reciprocity, and privacy costs.
+    \item Identification question: does monitoring change productivity, measured effort, evaluation, or worker sorting?
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Methods map}
+\scriptsize
+\begin{tabular}{p{0.28\linewidth} p{0.31\linewidth} p{0.27\linewidth}}
+\toprule
+Design & Identifying object & Main caution \\
+\midrule
+Gift experiment & reciprocity and generosity response & kindness versus surprise \\
+Framing experiment & reference dependence and loss response & target attainment versus value \\
+Monitoring experiment & observation and supervision effects & visibility versus motivation \\
+Subjective evaluation & influence activity and ratings & true quality versus relationship capital \\
+Real-effort contracts & relative motivator strength & workplace external validity \\
+Contract choice & treatment versus sorting & endogenous selection \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Week 5 lab}
+\begin{itemize}
+    \item Reproduce: synthetic gift-exchange workplace factbook.
+    \item Diagnose: behavioral object, contract element, labor margin, and identification claim.
+    \item Transfer: monitoring intensity and productivity versus compliance.
+    \item Frontier extension: subjective evaluation and influence activity.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Bridge to Week 6}
+\begin{itemize}
+    \item Week 5: firms govern behavior inside the employment relationship.
+    \item Pay, monitoring, gifts, loss frames, and evaluation change effort composition.
+    \item Week 6 widens the lens to identity, norms, fairness, and labor-market allocation.
+    \item The bridge is social meaning: contracts are interpreted inside organizations and markets.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item Incentives work through pay, interpretation, monitoring, and evaluation.
+    \item Extra work, productivity, gaming, and influence activity are different outcomes.
+    \item Stronger incentives are not automatically better workplace design.
+    \item Credible evidence names the behavioral object, labor margin, outcome metric, and identification claim.
+\end{itemize}
+\end{frame}
+
+\end{document}

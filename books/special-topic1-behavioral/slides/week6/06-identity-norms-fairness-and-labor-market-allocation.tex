@@ -1,0 +1,255 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs, array}
+
+\title{Identity, Norms, Fairness, and Labor-Market Allocation}
+\subtitle{Behavioral Labor -- Week 6}
+\author{Teaching deck draft}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Central question}
+\begin{itemize}
+    \item How do identity, norms, fairness concerns, peer pressure, and firm culture shape who works where?
+    \item Week 6 studies micro social objects in labor markets: roles, reference groups, teams, cultures, and supervisors.
+    \item The labor margins are effort, morale, quits, promotion, pay satisfaction, applications, and worker-firm sorting.
+    \item The discipline: name the social object, the margin, the reference group, and the identifying variation.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Bridge from Weeks 1--5}
+\small
+\begin{tabular}{p{0.25\linewidth} p{0.60\linewidth}}
+\toprule
+Earlier object & Week 6 shift \\
+\midrule
+Behavioral taxonomy & Identity, norms, fairness, and culture become labor primitives \\
+Nonstandard preferences & Social preferences and reference groups enter effort and job choice \\
+Beliefs and attention & Workers form beliefs about what ``people like me'' do at work \\
+Workplace contracts & Pay and monitoring are interpreted inside teams and firms \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.7em}
+Week 5: contracts and supervision. Week 6: social meaning, micro norms, and allocation.
+\end{frame}
+
+\begin{frame}{Why this is behavioral labor}
+\small
+\begin{tabular}{p{0.25\linewidth} p{0.30\linewidth} p{0.29\linewidth}}
+\toprule
+Behavioral object & Labor margin & Empirical question \\
+\midrule
+Identity & job choice, effort, promotion & does role fit move behavior? \\
+Fairness & morale, effort, quits & who is the reference group? \\
+Peer pressure & productivity, attendance & learning or social sanction? \\
+Firm culture & applications, retention & sorting or treatment? \\
+Manager norms & promotion, pay gaps & quality or transmission? \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Boundary with institutions course}
+\small
+\begin{tabular}{p{0.42\linewidth} p{0.42\linewidth}}
+\toprule
+Week 6: micro norms and allocation & Institutions course: macro/political rules \\
+\midrule
+teams, shifts, coworkers, supervisors & labor law and state capacity \\
+fairness, comparison wages, morale & unions as political organizations \\
+firm culture and job sorting & historical institutional change \\
+manager transmission inside firms & macro cultural persistence \\
+quits, effort, promotion, applications & political conflict over labor-market rules \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.7em}
+If the norm works through workplace interaction or worker-firm sorting, it belongs here.
+\end{frame}
+
+\begin{frame}{Identity and self-image at work}
+\[
+U_i(a,j) = u\!\left(w_j\right) - c_i(a)
+  + I_i\!\left(a, j, N_j, C_j\right)
+\]
+
+\small
+\begin{tabular}{p{0.18\linewidth} p{0.68\linewidth}}
+\toprule
+Object & Interpretation \\
+\midrule
+$a$ & effort, compliance, application, promotion effort, or staying \\
+$j$ & job, team, occupation, or firm \\
+$N_j$ & local social norms in the job or team \\
+$C_j$ & firm culture \\
+$I_i(\cdot)$ & identity utility and role fit \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Identity as a labor allocation object}
+\begin{itemize}
+    \item Identity can change the perceived cost or benefit of a job role.
+    \item It can substitute for incentives when workers internalize role expectations.
+    \item It can make incentives less effective when contracts conflict with self-image.
+    \item It can shape occupational entry, firm sorting, promotion aspirations, and retention.
+    \item Empirical discipline: identity object, labor margin, relevant group, and standard alternative.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Fairness and pay comparisons}
+\[
+U_i = u\!\left(w_i\right) - c(e_i)
+ - \phi_i \max\{0, w^{ref}_i - w_i\}
+ - \psi_i \max\{0, w_i - w^{ref}_i\}
+\]
+
+\begin{itemize}
+    \item $w^{ref}_i$ can be a peer wage, team wage, occupation wage, or manager wage.
+    \item Fairness can move effort, attendance, morale, quits, cooperation, and pay satisfaction.
+    \item Pay transparency may change fairness, beliefs about promotion, and outside search.
+    \item Identification must separate relative-pay utility from information about career prospects.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Peer pressure and coworker norms}
+\[
+U_i(e_i) = u\!\left(w_i\right) - c(e_i)
+  - P_i\!\left(e_i,\bar e_{-i},N_g\right)
+\]
+
+\small
+\begin{tabular}{p{0.22\linewidth} p{0.64\linewidth}}
+\toprule
+Object & Interpretation \\
+\midrule
+$\bar e_{-i}$ & coworker effort or visible peer behavior \\
+$N_g$ & group norm \\
+$P_i(\cdot)$ & social penalties from deviating from coworker behavior \\
+Mas--Moretti & peers at work and productivity response \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Learning or pressure?}
+\small
+\begin{tabular}{p{0.28\linewidth} p{0.27\linewidth} p{0.29\linewidth}}
+\toprule
+Channel & What changes? & Design clue \\
+\midrule
+Peer learning & information about productivity or technique & effects persist after exposure \\
+Peer pressure & social cost of deviating & stronger when effort is visible \\
+Productivity spillover & coworkers directly affect output & mechanical task complementarity \\
+Common shock & shared demand or manager condition & same shift or team shock \\
+Sorting & worker types choose peers or teams & exposure is endogenous \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Firm culture and job sorting}
+\[
+j_i^\star \in \arg\max_{j \in \mathcal{J}}
+ \; \mathbb{E}\!\left[U_i(j; X_i, N_j, C_j)\right]
+\]
+
+\begin{itemize}
+    \item Culture affects applications, acceptance, retention, match quality, and mobility.
+    \item Firms communicate culture through job postings, recruiting, managers, and rewards.
+    \item Workers sort on expected norms and role fit.
+    \item Huang--Pacelli--Shi--Zou: culture communication in labor markets.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Sorting, treatment, and selection}
+\small
+\begin{tabular}{p{0.25\linewidth} p{0.32\linewidth} p{0.27\linewidth}}
+\toprule
+Claim & What must move? & Main caution \\
+\midrule
+Sorting & applicant or hire composition & culture text may reveal firm type \\
+Treatment & incumbent behavior after exposure & workers may already fit culture \\
+Retention & quits and tenure & exits change composition \\
+Transmission & norms move through people & manager quality confounding \\
+Equilibrium selection & worker and firm distributions shift & partial-equilibrium evidence \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Managers and micro culture}
+\[
+C_{f,t+1} = \Gamma\!\left(C_{f,t}, M_{f,t}, H_{f,t}, R_{f,t}\right)
+\]
+
+\begin{itemize}
+    \item Managers are not only monitors or evaluators.
+    \item They transmit norms about effort, flexibility, ambition, belonging, and promotion.
+    \item Culture evolves with managers, hiring, and reward systems.
+    \item Frontier design: manager rotation or assignment plus worker outcomes.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Empirical designs}
+\scriptsize
+\begin{tabular}{p{0.29\linewidth} p{0.28\linewidth} p{0.28\linewidth}}
+\toprule
+Design & Object identified & Interpretation problem \\
+\midrule
+Peer exposure field experiment & coworker norms and pressure & pressure versus learning \\
+Pay-comparison experiment & fairness and reference wages & fairness versus career beliefs \\
+Survey plus admin data & wage beliefs, morale, quits & stated beliefs versus behavior \\
+Job-posting text design & culture communication & sorting versus firm type \\
+Manager assignment design & norm transmission & manager quality versus culture \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Week 6 lab}
+\begin{itemize}
+    \item Reproduce: synthetic peer-at-work factbook anchored on Mas--Moretti.
+    \item Diagnose: norm or identity object, reference group, labor margin, identifying variation.
+    \item Transfer: fairness and pay comparison anchored on Breza--Kaur--Shamdasani.
+    \item Frontier extension: culture communication or manager-driven norm transmission.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Frontier directions}
+\begin{itemize}
+    \item Measuring culture with postings, reviews, communications, and manager histories.
+    \item Pay transparency with rich morale, effort, quit, and promotion outcomes.
+    \item Algorithmic teams and digital peer pressure.
+    \item Manager rotation as cultural transmission, not only supervision.
+    \item Linking micro culture to worker-firm reallocation and inequality.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Bridge to Week 7}
+\begin{itemize}
+    \item Week 6 names the social objects: identity, fairness, peer pressure, culture, manager norms.
+    \item The next challenge is identification.
+    \item Week 7 asks how to distinguish behavioral wedges from constraints, institutions, sorting, and measurement error.
+    \item The recurring rule: object, margin, reference group, variation, interpretation.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item Identity and norms matter when they move labor allocation and workplace behavior.
+    \item Fairness and pay comparisons require explicit reference groups.
+    \item Peer pressure, peer learning, and productivity spillovers are different mechanisms.
+    \item Firm culture affects sorting, retention, and match quality.
+    \item Managers can transmit norms, but credible evidence must separate transmission from assignment and quality.
+\end{itemize}
+\end{frame}
+
+\end{document}

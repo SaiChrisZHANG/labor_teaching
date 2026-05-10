@@ -1,0 +1,221 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs, array, tabularx}
+
+\title{Firm, Market, and Equilibrium Responses to Behavioral Frictions}
+\subtitle{Behavioral Labor -- Week 8}
+\author{Teaching deck draft}
+\date{}
+
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Central question}
+\begin{itemize}
+    \item Once worker-level behavioral wedges exist, how do firms and markets respond?
+    \item Week 8 follows the course sequence:
+    \begin{itemize}
+        \item Weeks 2--4: worker wedges in preferences, beliefs, attention, and complexity.
+        \item Weeks 5--6: workplace and allocation environments.
+        \item Week 7: measurement and identification.
+    \end{itemize}
+    \item Today: what survives after firm strategy, search, sorting, and competition?
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Worker-level wedges are not enough}
+\[
+Y_{im}=g\!\left(\theta_i,\;R_f(\theta_i,\mathcal{M}_m),\;\mathcal{M}_m\right)
+\]
+
+\begin{itemize}
+    \item $\theta_i$: worker-level wedge such as inertia, misperception, or low salience.
+    \item $R_f(\cdot)$: firm response through menus, defaults, messages, fees, wages, or recruiting.
+    \item $\mathcal{M}_m$: market environment: competition, transparency, switching costs, search frictions, heterogeneity, market power.
+    \item Observed choices are already equilibrium-shaped.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Taxonomy of firm responses}
+\scriptsize
+\begin{tabularx}{\linewidth}{p{0.18\linewidth} Y Y}
+\toprule
+Response & Firm action & Empirical objects \\
+\midrule
+Exploit & design fees, defaults, or menus around inertia and confusion & shrouded attributes, switching, fee sensitivity, passive choice \\
+Accommodate & simplify choices or make valuable actions easier & active choice, clearer menus, reduced mistakes, better matching \\
+Insure & use defaults, restricted menus, or benefits to protect workers & contribution floors, benefit design, risk exposure, retention \\
+Screen / sort & use messages, contracts, or menus to separate worker types & applicant pools, wage bids, plan choice by type, match quality \\
+\bottomrule
+\end{tabularx}
+
+\vspace{0.6em}
+The same practice can insure some workers and exploit or segment others.
+\end{frame}
+
+\begin{frame}{Employer-sponsored benefits as market response}
+\begin{itemize}
+    \item Benefits are compensation, but they are delivered through menus, defaults, deadlines, fees, and employer interfaces.
+    \item Worker margin: enrollment, contribution, plan choice, switching.
+    \item Firm or intermediary margin: menu design, default choice, disclosure, sales effort.
+    \item Market margin: fee competition, demand elasticity, sorting, welfare.
+    \item Core anchors: Bernheim--Fradkin--Popov; Handel--Kolstad; Duarte--Hastings; Hastings--Hortacsu--Syverson.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{401(k) defaults and welfare}
+\small
+\begin{tabularx}{\linewidth}{p{0.27\linewidth} Y}
+\toprule
+Question & Bernheim--Fradkin--Popov logic \\
+\midrule
+Identifying variation & workers face different retirement-plan defaults and menu environments \\
+Observed margin & participation, contribution rates, asset allocation, default persistence \\
+Worker-level effect & inertia, procrastination, passive choice \\
+Firm response margin & employer default and menu design \\
+Welfare issue & default-induced saving is not automatically welfare-improving \\
+\bottomrule
+\end{tabularx}
+
+\vspace{0.6em}
+Large default effects are evidence of a behavioral wedge; they are not a complete welfare statement.
+\end{frame}
+
+\begin{frame}{Plan choice, inertia, and transparency}
+\scriptsize
+\begin{tabularx}{\linewidth}{p{0.28\linewidth} Y Y}
+\toprule
+Paper domain & Observed margin & Equilibrium lesson \\
+\midrule
+Health insurance for ``humans'' & plan choice, expected costs, risk exposure & information frictions create welfare losses inside employer-mediated menus \\
+Mexico social security disclosure & switching, fee sensitivity, account choice & transparency can raise demand elasticity, but firms may adjust marketing and sales effort \\
+Sales force and competition & demand, fees, switching, plan shares & competition works through sales-force strategy, disclosure, and consumer sophistication \\
+\bottomrule
+\end{tabularx}
+
+\vspace{0.6em}
+The question is not only whether workers make mistakes. It is whether markets discipline or monetize those mistakes.
+\end{frame}
+
+\begin{frame}{Distorted outside-option beliefs}
+\[
+\tilde w_i^{out}=w_i^{out}-\mu_i
+\]
+
+\begin{itemize}
+    \item Jager--Roth--Roussille--Schoefer: workers may misperceive outside options.
+    \item Observed margins: beliefs, search, bargaining, mobility, wage response.
+    \item If $\mu_i>0$, workers perceive outside options as worse than they are.
+    \item Firms may retain workers at lower wages when perceived mobility is low.
+    \item The belief object becomes a segmentation and market-power object.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Search equilibrium and segmentation}
+\begin{itemize}
+    \item Week 3 question: do beliefs affect worker search?
+    \item Week 8 question: do belief distortions change market allocation?
+    \item Menzio's stubborn-beliefs logic asks when market experience fails to correct beliefs.
+    \item Search frictions, weak wage transparency, and low mobility can preserve distorted beliefs.
+    \item Frontier: behavioral monopsony, segmentation, and wage markdowns under distorted outside options.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Firm messages, sorting, and search direction}
+\begin{itemize}
+    \item Horton--Kuchler--Stanton: employer messages can affect applications, wage bids, and sorting.
+    \item Communication may reduce uncertainty and improve match quality.
+    \item Communication may also screen worker types or steer search strategically.
+    \item The empirical distinction:
+    \begin{itemize}
+        \item worker response to messages;
+        \item firm choice of messages;
+        \item market effect on matching and wage dispersion.
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{When do wedges survive?}
+\scriptsize
+\begin{tabularx}{\linewidth}{p{0.23\linewidth} Y Y}
+\toprule
+Condition & Attenuation & Survival or amplification \\
+\midrule
+Competition & clear total compensation and better menus & competition on salient attributes while shrouding hidden costs \\
+Transparency & workers compare wages, benefits, fees, outside options & attributes are opaque, delayed, or broker mediated \\
+Switching costs & workers can change plans or jobs cheaply & default persistence and slow job or plan switching \\
+Search frictions & offers and outside options are learned quickly & low search and segmented information networks \\
+Heterogeneity & sophisticated workers discipline markets & firms target less sophisticated workers \\
+Labor market power & workers can credibly leave & firms retain workers with pessimistic beliefs or low mobility \\
+\bottomrule
+\end{tabularx}
+\end{frame}
+
+\begin{frame}{Identification map}
+\scriptsize
+\begin{tabularx}{\linewidth}{p{0.25\linewidth} Y Y}
+\toprule
+Block & Identifying variation & First object identified \\
+\midrule
+Retirement defaults & default exposure and menu variation & worker default response under a given menu \\
+Health-plan choice & information and plan-choice environment & plan-choice mistakes and welfare losses \\
+Retirement account markets & disclosure, sales force, competition & demand elasticity, switching, fee sensitivity \\
+Outside-option beliefs & elicited beliefs and objective outside-option measures & belief distortion and worker search response \\
+Labor-market messages & message or platform variation & application, bid, and sorting response \\
+\bottomrule
+\end{tabularx}
+
+\vspace{0.5em}
+Equilibrium interpretation needs extra evidence on firm response and market outcomes.
+\end{frame}
+
+\begin{frame}{Partial versus equilibrium welfare}
+\begin{itemize}
+    \item Attenuation is not always correction.
+    \item Amplification is not always manipulation.
+    \item A partial effect can disappear or reverse after firms redesign menus, fees, wages, or messages.
+    \item Revealed preference is weaker when choice architecture is endogenous.
+    \item Welfare requires a benchmark: full information, low hassle, sophisticated choice, structural utility, or planner target.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Research lab}
+\begin{itemize}
+    \item Reproduce: retirement-default exercise anchored on Bernheim--Fradkin--Popov.
+    \item Diagnose: menu design, default quality, passive choice, and welfare distance.
+    \item Transfer: outside-option beliefs and segmentation anchored on Jager--Roth--Roussille--Schoefer.
+    \item Optional extension: disclosure, sales effort, demand elasticity, and switching costs from Duarte--Hastings or Hastings--Hortacsu--Syverson.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Bridge to Week 9 policy}
+\begin{itemize}
+    \item Week 9 asks how policy should be designed once firms and markets respond.
+    \item Defaults, disclosure, simplification, and nudges are not implemented in a vacuum.
+    \item Policy can change worker behavior and firm strategy at the same time.
+    \item The policy target must name the worker wedge, firm response, market condition, and welfare benchmark.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item Worker-level behavioral wedges are not observed market outcomes.
+    \item Firms can exploit, accommodate, insure, screen, sort, and segment.
+    \item Competition helps only under the right transparency, switching, and search conditions.
+    \item The empirical frontier links worker behavior to firm response and market outcomes.
+    \item Welfare and policy require equilibrium interpretation, not only strong reduced forms.
+\end{itemize}
+\end{frame}
+
+\end{document}

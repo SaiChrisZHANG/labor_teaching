@@ -1,0 +1,1 @@
+This bounded reproduction uses synthetic belief-panel data to compare subjective job-finding probabilities, model-predicted probabilities, realized exits, applications, and reservation wages by unemployment duration. It is not an official replication of Mueller, Spinnewijn, and Topa.

@@ -1,0 +1,215 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs, array}
+
+\title{Nonstandard Preferences in Labor Supply, Effort, Savings, and Training}
+\subtitle{Behavioral Labor --- Week 2}
+\author{Teaching deck draft}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Central question}
+\begin{itemize}
+    \item How do nonstandard preferences alter labor supply, effort, savings, and training?
+    \item Week 1 gave the full Behavioral Labor map.
+    \item Week 2 isolates the preference branch before beliefs, expectations, attention, firms, and policy design.
+    \item The discipline remains: preference object, labor margin, identifying variation, welfare.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Bridge from Week 1}
+\small
+\begin{tabular}{p{0.30\linewidth} p{0.58\linewidth}}
+\toprule
+Week 1 object & Week 2 narrowing \\
+\midrule
+Benchmark labor choice & Workers choose hours, effort, saving, training, and task completion \\
+Behavioral taxonomy & Focus only on nonstandard preferences \\
+Identification habit & Name the margin and the counterfactual \\
+Welfare caution & Observed choices may not reveal stable welfare rankings \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{DellaVigna taxonomy: Week 2 highlighted}
+\small
+\begin{tabular}{p{0.29\linewidth} p{0.58\linewidth}}
+\toprule
+Branch & Labor interpretation \\
+\midrule
+\textbf{Nonstandard preferences} & \textbf{Present bias, commitment demand, risk aversion, reference dependence, reciprocity, fairness} \\
+Nonstandard beliefs & Subjective expectations, perceived returns, optimism, job-search beliefs \\
+Nonstandard decision-making & Attention, salience, complexity, limited consideration, defaults \\
+Responses & Firms, markets, and policies adapt to predictable behavioral patterns \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.5em}
+\textbf{This week:} preferences mapped to labor supply timing, effort intensity, savings, and training completion.
+\end{frame}
+
+\begin{frame}{Preference choice object}
+\[
+a_i^B \in \arg\max_{a \in \mathcal{A}_i}
+\tilde{U}_i(a;\beta_i,\rho_i,r_i,\eta_i)
+\]
+
+\small
+\begin{tabular}{p{0.16\linewidth} p{0.70\linewidth}}
+\toprule
+Parameter & Interpretation \\
+\midrule
+$\beta_i$ & present bias and self-control \\
+$\rho_i$ & risk exposure or curvature relevant for saving, pay, and training \\
+$r_i$ & reference point for earnings, effort, targets, or evaluations \\
+$\eta_i$ & social preferences, reciprocity, fairness, employer surplus \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Present bias}
+\[
+U_t = u(c_t,\ell_t) + \beta \sum_{\tau=t+1}^{T} \delta^{\tau-t}u(c_\tau,\ell_\tau),
+\qquad \beta \in (0,1]
+\]
+
+\begin{itemize}
+    \item Preference object: current utility receives extra weight relative to future utility.
+    \item Labor margin: effort today, hours timing, training completion, saving now.
+    \item Empirical design: compare planned or committed future behavior to realized behavior when current costs arrive.
+    \item Key caution: distinguish self-control from liquidity constraints, fatigue, and learning.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Commitment demand at work}
+\small
+\begin{tabular}{p{0.26\linewidth} p{0.28\linewidth} p{0.30\linewidth}}
+\toprule
+Object & Operationalization & Observed margin \\
+\midrule
+Self-control problem & Choice of dominated or restrictive work contract & Output and contract take-up \\
+Payday timing & Effort around paydays & Daily or weekly productivity \\
+Training commitment & Deadlines, deposits, cohorts & Attendance and completion \\
+Savings commitment & Payroll deduction or default enrollment & Participation and contribution rates \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.6em}
+Kaur, Kremer, and Mullainathan make commitment a labor-design object: the question is not only whether incentives work, but whether workers value discipline against future selves.
+\end{frame}
+
+\begin{frame}{Savings and self-control in work-linked environments}
+\begin{itemize}
+    \item Savings is labor-relevant when tied to employment, payroll systems, retirement, or worker planning.
+    \item Default enrollment designs observe participation and contribution behavior.
+    \item Savings-incentive designs observe take-up and contribution response when returns become salient.
+    \item Interpretation problem: low saving can reflect procrastination, transaction costs, information, liquidity, or true low demand.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Risk aversion: keep it worker-side}
+\small
+\begin{tabular}{p{0.30\linewidth} p{0.30\linewidth} p{0.27\linewidth}}
+\toprule
+Labor object & Preference role & Design burden \\
+\midrule
+Retirement saving & Precaution and portfolio risk & Separate risk tastes from information and default effects \\
+Variable pay & Exposure to output or earnings risk & Separate risk aversion from effort costs and selection \\
+Training & Uncertain returns to self-investment & Separate risk from credit constraints and expected returns \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.5em}
+Risk aversion matters here, but it should not turn Week 2 into an occupational-sorting lecture.
+\end{frame}
+
+\begin{frame}{Reference dependence and loss aversion}
+\[
+u(x \mid r) = m(x) + \mu\!\left(m(x)-m(r)\right)
+\]
+
+\begin{itemize}
+    \item Preference object: outcomes are evaluated relative to a reference point.
+    \item Labor margin: target labor supply, performance after wage disappointment, training milestones.
+    \item Identifying variation: earnings targets, arbitration shocks, wage expectations, target changes.
+    \item Caution: rule out standard nonlinear incentives, income effects, fatigue, learning, and composition.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Social preferences and workplace effort}
+\[
+U_i = w_i - c(e_i) + \eta_i S(e_i,\pi_f,g_f)
+\]
+
+\begin{itemize}
+    \item Preference object: worker utility includes fairness, reciprocity, employer surplus, or social meaning.
+    \item Labor margin: effort, productivity, extra work, cooperation.
+    \item Identifying variation: gifts, employer returns, whether work benefits the employer, pay framing.
+    \item Caution: distinguish social preferences from monitoring, repeated-game incentives, and selection.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Empirical designs and what they identify}
+\scriptsize
+\begin{tabular}{p{0.23\linewidth} p{0.24\linewidth} p{0.22\linewidth} p{0.20\linewidth}}
+\toprule
+Preference & Variation & Margin & Main threat \\
+\midrule
+Present bias & contract choice, payday timing, deadlines & effort, completion & liquidity, fatigue \\
+Commitment & restrictive contracts, defaults, deposits & take-up, future action & selection, monitoring \\
+Savings self-control & default enrollment, match incentives & participation, contribution & information, transaction costs \\
+Reference dependence & targets, arbitration, wage surprises & hours, performance & standard incentives \\
+Social preferences & gifts, employer surplus, pay framing & effort, productivity & career concerns, supervision \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Welfare and policy interpretation}
+\begin{itemize}
+    \item Present bias: ex ante and ex post selves can disagree.
+    \item Commitment: restrictions can raise effort while reducing future flexibility.
+    \item Defaults: participation may rise without proving every worker is better off.
+    \item Reference dependence: welfare depends on how reference points are formed or manipulated.
+    \item Social preferences: higher effort can be meaningful motivation, costly pressure, or surplus transfer.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Week 2 lab}
+\begin{itemize}
+    \item Reproduce: synthetic Kaur-Kremer-Mullainathan-style workplace self-control factbook.
+    \item Diagnose: contract choice, output, payday timing, and alternative explanations.
+    \item Transfer: synthetic work-linked savings default design.
+    \item Challenge: Mas-style pay reference points and performance.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Bridge to Week 3}
+\begin{itemize}
+    \item Week 2 treats behavior as a preference problem.
+    \item Week 3 asks when the observed behavior is instead a beliefs or expectations problem.
+    \item Core next margins: job search, perceived returns, wage expectations, and training payoffs.
+    \item Same empirical habit: object, margin, variation, counterfactual, welfare.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item Nonstandard preferences become labor economics only when mapped to concrete worker-side margins.
+    \item Present bias, commitment, reference dependence, and social preferences imply different empirical designs.
+    \item Savings and training are labor-facing when connected to work, payroll, retirement, and self-investment.
+    \item Welfare requires more than an observed behavioral response.
+\end{itemize}
+\end{frame}
+
+\end{document}

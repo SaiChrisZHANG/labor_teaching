@@ -1,0 +1,1 @@
+The transfer path uses synthetic data to classify monitoring and subjective-evaluation effects. It distinguishes pay, observation, feedback, productive output, compliance, gaming, subjective ratings, and influence activity. These are teaching analogs, not official replications.

@@ -33,23 +33,23 @@ Behavioral Labor builds directly on Labor I's worker-side architecture. Labor I 
 
 ## Weekly Sequence
 
-- **Week 1. What is Behavioral Labor?** The opening week defines the field, sets the taxonomy, and explains why labor markets are a natural domain for disciplined behavioral analysis rather than a loose collection of anomalies.
-- **Week 2. Nonstandard Preferences in Work and Investment.** Present bias, commitment demand, social preferences, and reference dependence are mapped into labor supply, effort, savings, training, and other labor investments.
-- **Week 3. Beliefs, Expectations, and Job Search.** The course turns to subjective expectations, perceived returns, and misperceived opportunities in search, training, and career decisions.
-- **Week 4. Attention, Salience, and Complexity.** Workers often respond to the contract they perceive rather than the contract on paper, making attention and design central for taxes, transfers, deadlines, and labor-market programs.
-- **Week 5. Incentives, Contracts, and Workplace Behavior.** Behavioral labor moves inside the firm through reciprocity, gift exchange, effort provision, incentive framing, and contract interpretation.
-- **Week 6. Identity, Norms, Fairness, and Allocation.** Social meaning, fairness judgments, and group norms shape job choice, household allocation, occupational sorting, and workplace response.
-- **Week 7. Experiments, Measurement, and Behavioral Identification.** The empirical toolkit week asks how labor economists distinguish behavioral wedges from standard alternatives using experiments, expectation data, administrative behavior, and structural discipline.
-- **Week 8. Behavioral Public Policy in Labor Markets.** Worker-facing policy is revisited through take-up, simplification, reminders, default design, targeting, and implementation.
-- **Week 9. Firm, Market, and Equilibrium Responses.** The course studies what happens once firms adapt, markets learn, and policy interacts with organizational and equilibrium adjustment.
-- **Week 10. Welfare, Synthesis, and Research Designs.** The closing week integrates mechanism, evidence, and policy into a behavioral labor research agenda and asks what counts as a credible welfare statement.
+- **Week 1. [What is Behavioral Labor?](01-what-is-behavioral-labor.md)** The opening week defines the field, sets the taxonomy, and explains why labor markets are a natural domain for disciplined behavioral analysis rather than a loose collection of anomalies.
+- **Week 2. [Nonstandard Preferences in Labor Supply, Effort, Savings, and Training.](02-nonstandard-preferences-in-labor.md)** Present bias, commitment demand, risk aversion, reference dependence, and social preferences are mapped into labor supply timing, workplace effort, work-linked savings, and training completion.
+- **Week 3. [Beliefs, Expectations, and Job Search.](03-beliefs-expectations-and-job-search.md)** The course turns to subjective expectations, perceived job-finding probabilities, limited information, perceived competition, and two-sided frictions in job search.
+- **Week 4. [Attention, Salience, Complexity, and Learning.](04-attention-salience-complexity-and-learning.md)** Workers often respond to the contract, schedule, or program they perceive rather than the one on paper, making learning and information design central for taxes, transfers, workplace incentives, claiming, saving, and training.
+- **Week 5. [Incentives, Contracts, Reciprocity, and Workplace Behavior.](05-incentives-contracts-reciprocity-and-workplace-behavior.md)** Behavioral labor moves inside the firm through reciprocity, gift exchange, effort provision, incentive framing, monitoring, supervision, and contract interpretation.
+- **Week 6. [Identity, Norms, Fairness, and Allocation.](06-identity-norms-fairness-and-labor-market-allocation.md)** Social meaning, fairness judgments, peer pressure, team norms, firm culture, and manager transmission shape workplace behavior, job choice, retention, promotion, and worker-firm sorting.
+- **Week 7. [Experiments, Measurement, and Behavioral Identification.](07-experiments-measurement-and-behavioral-identification-in-labor.md)** The empirical toolkit week asks how labor economists distinguish behavioral wedges from standard alternatives using experiments, expectation data, administrative behavior, and structural discipline.
+- **Week 8. [Firm, Market, and Equilibrium Responses.](08-firm-market-and-equilibrium-responses-to-behavioral-frictions.md)** The course studies what happens once worker-level behavioral wedges enter firms, plan-design markets, search, sorting, and equilibrium adjustment.
+- **Week 9. [Behavioral Public Policy in Labor Markets.](09-behavioral-public-policy-in-labor-markets.md)** Worker-facing policy is revisited through take-up, simplification, reminders, default design, targeting, implementation, and endogenous market response.
+- **Week 10. [Synthesis, Welfare, and Student Research Designs.](10-synthesis-welfare-and-student-research-designs.md)** The closing week integrates mechanism, evidence, welfare, and policy into a behavioral labor research agenda and asks how students can build credible frontier projects.
 
 ## Internal Roadmap
 
 - **Foundational weeks:** 1 to 4 build the field definition, taxonomy, and core worker-side mechanisms.
 - **Application-heavy weeks:** 5 and 6 move the framework into workplaces, contracts, identity, and allocation.
 - **Empirical and methodological week:** 7 centers on measurement, design, and identification.
-- **Policy, equilibrium, and frontier weeks:** 8 to 10 focus on public policy, firm and market response, welfare, and student research design.
+- **Equilibrium, policy, and frontier weeks:** 8 to 10 focus on firm and market response, public policy, welfare, and student research design.
 
 ## Research Orientation
 

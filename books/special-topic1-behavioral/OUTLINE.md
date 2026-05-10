@@ -81,21 +81,21 @@ This methodological week organizes the empirical toolkit: field experiments, exp
 
 **Why this is specifically labor economics:** Labor evidence is often policy-relevant and high-stakes, so behavioral claims need designs that separate worker mistakes from firm responses, market frictions, and institutional rules.
 
-### Week 8. Behavioral Public Policy in Labor Markets
-
-**Central question:** How should labor-market policy be designed when take-up, response, and understanding are behaviorally bounded?
-
-This week revisits worker-facing policy through program take-up, simplification, reminders, defaults, and targeting. The point is not only that behavioral design can improve implementation, but also that statutory generosity and effective exposure can diverge sharply when workers misunderstand eligibility, underreact to incentives, or face burdens that standard models treat as second order.
-
-**Why this is specifically labor economics:** Labor policy is delivered through earnings, participation, search, and take-up margins, making behavioral implementation a labor-market question rather than just a public-finance question.
-
-### Week 9. Firm, Market, and Equilibrium Responses to Behavioral Frictions
+### Week 8. Firm, Market, and Equilibrium Responses to Behavioral Frictions
 
 **Central question:** What happens once firms, markets, and institutions adapt to predictable behavioral patterns?
 
-The ninth week studies behavioral labor beyond partial equilibrium. Firms may exploit, offset, or accommodate behavioral frictions through contract design, recruiting, communication, and monitoring. Markets may dampen some frictions and amplify others. Policy may have different effects once employer response, market learning, and equilibrium incidence are brought back in. This is the week that most directly connects the course to Labor II.
+The eighth week studies behavioral labor beyond partial equilibrium. Firms may exploit, accommodate, insure, screen, sort, or segment around behavioral frictions through menus, defaults, benefits, recruiting, communication, and search environments. Markets may dampen some frictions and amplify others. Policy will have different effects once employer response, market learning, switching costs, and equilibrium incidence are brought back in. This is the week that most directly connects the course to Labor II.
 
 **Why this is specifically labor economics:** Behavioral wedges matter differently once employer strategy, labor demand, and equilibrium incidence are on the page.
+
+### Week 9. Behavioral Public Policy in Labor Markets
+
+**Central question:** How should labor-market policy be designed when take-up, response, understanding, and firm or market response are behaviorally bounded?
+
+This week revisits worker-facing policy through program take-up, simplification, reminders, defaults, and targeting after Week 8 has made firm and market response explicit. The point is not only that behavioral design can improve implementation, but also that statutory generosity and effective exposure can diverge sharply when workers misunderstand eligibility, underreact to incentives, face burdens that standard models treat as second order, or encounter firms and intermediaries that respond strategically.
+
+**Why this is specifically labor economics:** Labor policy is delivered through earnings, participation, search, take-up, employer menus, and intermediaries, making behavioral implementation a labor-market question rather than just a public-finance question.
 
 ### Week 10. Synthesis, Welfare, and Student Research Designs
 

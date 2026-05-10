@@ -1,0 +1,4 @@
+contract,workers,true_bonus_rate,perceived_bonus_rate,perception_gap,attention_minutes,effort_units,bonus_earned
+simple,120,0.21,0.21,0.0,4.5,82.3,17.3525
+opaque,120,0.21,0.13499999999999998,0.075,6.5,76.25,16.0525
+opaque_with_tutorial,120,0.21,0.18000000000000002,0.029999999999999995,8.8,83.58,17.622500000000002

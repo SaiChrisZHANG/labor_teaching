@@ -1,0 +1,5 @@
+high_switching_cost,sales_contact,accounts,fee_salience_index,demand_elasticity_index,switched_plan,chose_low_fee_plan,realized_fee_bps,interpretation
+0,0,150,0.59,0.5856666666666667,0.2866666666666667,0.62,101.57333333333334,transparency more likely to discipline firms
+0,1,150,0.47,0.4116666666666667,0.24666666666666667,0.3933333333333333,134.24,transparency more likely to discipline firms
+1,0,300,0.59,0.3556666666666667,0.08666666666666667,0.5533333333333333,105.04,transparency more likely to discipline firms
+1,1,300,0.47,0.20800000000000002,0.07333333333333333,0.3466666666666667,136.93333333333334,transparency weakened by switching costs and sales contact

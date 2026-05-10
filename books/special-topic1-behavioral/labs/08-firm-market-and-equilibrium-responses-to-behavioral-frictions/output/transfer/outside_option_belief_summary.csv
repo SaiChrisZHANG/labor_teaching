@@ -1,0 +1,5 @@
+arm,workers,information,bargaining_support,current_wage,true_outside_wage,perceived_outside_wage,belief_gap,applications_next_month,bargaining_attempt,moved_job,wage_growth_next_quarter,segmentation_index
+control,250,0.0,0.0,24.79288,26.391759999999998,23.27228,3.11892,0.6264,0.036,0.004,0.006396,0.504256
+outside_option_info,250,1.0,0.0,25.04288,26.65752,25.33424,1.323,2.59368,0.128,0.072,0.026316,0.431184
+bargaining_prompt,250,0.0,1.0,25.29288,26.923599999999997,24.31408,2.60904,1.52916,0.18,0.028,0.014916,0.481572
+info_bargaining,250,1.0,1.0,25.54288,27.18912,26.41796,0.7712,3.5837600000000003,0.256,0.1,0.034456,0.40856400000000004

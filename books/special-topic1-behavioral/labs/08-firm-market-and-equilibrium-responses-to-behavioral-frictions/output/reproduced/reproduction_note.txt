@@ -1,0 +1,1 @@
+This bounded reproduction uses synthetic employer-sponsored retirement-default data. It separates worker-level default response from the firm response margin and reports a simple welfare-distance diagnostic. It is not an official replication of Bernheim, Fradkin, and Popov.

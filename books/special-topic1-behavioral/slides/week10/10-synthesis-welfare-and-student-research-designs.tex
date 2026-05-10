@@ -1,0 +1,245 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs, array}
+
+\title{Synthesis, Welfare, and Student Research Designs}
+\subtitle{Behavioral Labor -- Week 10}
+\author{Teaching deck draft}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Central question}
+\begin{itemize}
+    \item How do we translate behavioral labor ideas into welfare-relevant, empirically credible, frontier research projects?
+    \item Week 10 is a capstone studio, not a review lecture.
+    \item The goal is to move from a labor-market puzzle to a wedge, setting, design, method, welfare interpretation, and contribution.
+    \item A good project integrates workers, workplaces, firms, markets, and policy design.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Why a final synthesis week matters}
+\begin{itemize}
+    \item Students can know many papers and still lack a research design.
+    \item Behavioral labor claims are easy to overstate if treatment effects, mechanisms, welfare, and equilibrium are blurred.
+    \item The field is strongest when behavioral objects are tied to labor-market margins and institutions.
+    \item The final deliverable is a draftable research memo.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Course architecture in one map}
+\small
+\begin{tabular}{p{0.22\linewidth} p{0.28\linewidth} p{0.34\linewidth}}
+\toprule
+Course block & Behavioral object & Research-design task \\
+\midrule
+Weeks 1--4 & preferences, beliefs, attention, learning & define the wedge and labor margin \\
+Weeks 5--6 & incentives, reciprocity, identity, norms & embed the wedge inside workplaces and social settings \\
+Week 7 & experiments, measurement, identification & separate treatment effects from behavioral objects \\
+Weeks 8--9 & firm response, markets, policy & add equilibrium, implementation, and welfare \\
+Week 10 & synthesis and project design & build a credible frontier question \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{What counts as a behavioral-labor contribution?}
+\[
+Y = g(B, I, M, P, X; \theta)
+\]
+
+\small
+\begin{tabular}{p{0.12\linewidth} p{0.70\linewidth}}
+\toprule
+Object & Interpretation \\
+\midrule
+$B$ & behavioral wedge: beliefs, attention, present bias, fairness, identity, norms, learning \\
+$I$ & institution or environment: tax schedule, contract, benefit rule, workplace, platform \\
+$M$ & firm or market response: menus, monitoring, sorting, exploitation, accommodation \\
+$P$ & policy or program design: defaults, simplification, information, assistance, targeting \\
+$Y$ & labor outcome: work, effort, search, take-up, saving, training, sorting, earnings \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{A contribution needs all four pieces}
+\begin{itemize}
+    \item A real labor margin: search, effort, hours, saving, training, take-up, sorting, retention, promotion.
+    \item A specific behavioral wedge, not a generic ``friction.''
+    \item An institution where the wedge changes the labor prediction.
+    \item A design that identifies the object being claimed.
+    \item A bounded interpretation: treatment effect, behavioral parameter, welfare wedge, or equilibrium response.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Welfare and interpretation}
+\[
+W = \int \Psi_i\big(a_i, a_i^\star, M, P\big)\, dF(i)
+\]
+
+\begin{itemize}
+    \item Observed choice may not fully reveal welfare when choices are distorted.
+    \item The hard object is $a_i^\star$: full-information action, commitment-consistent action, long-run learned action, or model benchmark.
+    \item Defaults, take-up, search beliefs, and attention interventions all require explicit normative criteria.
+    \item A large behavioral response is not automatically a welfare gain.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Topic $\rightarrow$ wedge $\rightarrow$ setting}
+\small
+\begin{tabular}{p{0.25\linewidth} p{0.26\linewidth} p{0.31\linewidth}}
+\toprule
+Topic family & Candidate wedge & Labor setting \\
+\midrule
+Labor supply, saving, training & present bias, commitment, reference points & daily work, payroll saving, training enrollment \\
+Job search and beliefs & biased expectations, slow learning & unemployment spells, applications, wage expectations \\
+Attention and salience & perceived schedules, complexity & taxes, transfers, claiming, nonlinear contracts \\
+Workplace behavior & reciprocity, fairness, monitoring response & effort, output, attendance, subjective evaluation \\
+Identity, norms, culture & social image, norm compliance & sorting, retention, team behavior, promotion \\
+Policy and firms & defaults, burden, targeting, market response & benefit design, menus, platforms, employer policy \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Estimand versus interpretation}
+\[
+\tau = \mathbb{E}[Y_i(1)-Y_i(0) \mid S_i=1]
+\]
+
+\begin{itemize}
+    \item Sometimes $\tau$ is exactly the object: did the intervention change the labor outcome?
+    \item Sometimes the target is a behavioral parameter: belief bias, present bias, attention, reciprocity.
+    \item Sometimes the target is welfare: corrected choice, targeting, or benchmark utility.
+    \item Sometimes the target is equilibrium: firm response, spillovers, pass-through, or market adaptation.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Mapping setting to design and method}
+\scriptsize
+\begin{tabular}{p{0.30\linewidth} p{0.31\linewidth} p{0.23\linewidth}}
+\toprule
+Setting & Common methods & Diagnostic question \\
+\midrule
+Commitment or labor-supply menus & field experiments, treatment contrasts, structural recovery & does the design isolate self-control or schedule perception? \\
+Repeated job-search beliefs & panel FE, forecast errors, hazards & do beliefs predict or respond to search outcomes? \\
+Nonlinear schedules and knowledge & bunching, local elasticities, learning panels & statutory or perceived incentive? \\
+Workplace reciprocity and monitoring & field experiments, heterogeneity, interactions & incentive response or social-preference channel? \\
+Take-up and implementation & encouragement, hazard timing, admin data & claiming value or burden reduction? \\
+Welfare and targeting & sufficient statistics, calibration, structure & what benchmark action is respected? \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{When reduced form is enough}
+\begin{itemize}
+    \item The project asks whether a clearly defined intervention changes a labor outcome.
+    \item The behavioral channel is sharply embedded in treatment design.
+    \item The contribution is local but meaningful: take-up, effort, search, training, saving, or claiming.
+    \item Welfare and equilibrium claims are stated as limits or supported by auxiliary evidence.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{When structure is needed}
+\[
+\hat \psi \in \arg\min_{\psi \in \Psi}
+\left[m^{data}-m^{model}(\psi)\right]'W\left[m^{data}-m^{model}(\psi)\right]
+\]
+
+\begin{itemize}
+    \item The project needs unobserved parameters: present bias, learning, search costs, social preferences.
+    \item The project makes counterfactual policy or targeting claims outside the treatment support.
+    \item Welfare depends on a distorted-choice benchmark that is not directly observed.
+    \item Equilibrium response or firm adaptation is central to interpretation.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Frontier project families}
+\begin{itemize}
+    \item Dynamic learning of policy schedules, eligibility, claiming, and training rules.
+    \item Belief formation in rapidly changing labor markets.
+    \item Algorithmic interfaces in search, scheduling, productivity, and benefits.
+    \item Behavioral contracting, monitoring, feedback, and subjective evaluation inside firms.
+    \item Behavioral heterogeneity, targeting, and distributional welfare.
+    \item Firm-side exploitation, accommodation, insurance, and sorting around worker biases.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Why the frontier is still open}
+\begin{itemize}
+    \item Behavioral objects are hard to measure at scale.
+    \item Worker response may mix beliefs, attention, constraints, trust, and stigma.
+    \item Short-run treatment effects can decay, persist, diffuse, or reverse through learning.
+    \item Firms and platforms adapt to predictable worker behavior.
+    \item Welfare requires a normative benchmark, not just a coefficient.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Common failure modes}
+\begin{itemize}
+    \item Behavior is measured, but the behavioral wedge is not.
+    \item The wedge is identified, but the labor-market margin is weak.
+    \item A reduced-form effect is interpreted as a structural parameter.
+    \item Learning dynamics are ignored.
+    \item Firm or market response is offstage but central.
+    \item A welfare claim is made without a benchmark.
+    \item The project is interesting but not distinctly behavioral or not distinctly labor.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Research memo template}
+\[
+Contribution = Question + Mechanism + Data + Design + Interpretation
+\]
+
+\small
+\begin{tabular}{p{0.25\linewidth} p{0.56\linewidth}}
+\toprule
+Memo component & What it must say \\
+\midrule
+Question & labor-market puzzle or fact \\
+Mechanism & behavioral wedge and standard alternative \\
+Data & observed labor margin and behavioral object \\
+Design & identifying variation, method, and estimand \\
+Interpretation & welfare, policy, firm response, or equilibrium scope \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Week 10 lab as proposal studio}
+\begin{itemize}
+    \item Reproduce: reverse-engineer one or two anchor papers' question and design logic.
+    \item Diagnose: name the behavioral object, labor margin, method, welfare claim, and limit.
+    \item Transfer: develop a mini-project memo in a new setting.
+    \item Anchor menu: job-search beliefs, workplace social preferences, take-up frictions, retirement defaults.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Bridge outward}
+\begin{itemize}
+    \item A dissertation-quality project usually starts as a disciplined memo.
+    \item The frontier rewards sharper objects, not broader lists of anomalies.
+    \item The strongest projects connect worker behavior, firm response, policy design, and welfare.
+    \item Behavioral Labor should leave students with open questions and research traction.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item Start from a labor margin and name the behavioral wedge.
+    \item Embed the wedge in an institution, firm, market, or policy environment.
+    \item Match the empirical method to the object being identified.
+    \item Treat welfare and equilibrium as interpretation choices that need evidence.
+    \item Turn synthesis into a research-design memo.
+\end{itemize}
+\end{frame}
+
+\end{document}

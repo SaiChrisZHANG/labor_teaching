@@ -1,0 +1,1 @@
+This bounded reproduction uses synthetic benefit take-up data to connect salience, simplification, and assistance to extensive-margin treatment effects and a duration-style claim hazard. It is not an official replication of Bhargava and Manoli.

@@ -1,0 +1,1 @@
+The bounded reproduction separates the short-run incentive margin from commitment take-up and post-program persistence. It is a teaching analog, not an official replication with employer microdata.

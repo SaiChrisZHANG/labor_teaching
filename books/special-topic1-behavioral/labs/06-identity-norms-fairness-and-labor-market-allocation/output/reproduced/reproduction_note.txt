@@ -1,0 +1,1 @@
+This bounded reproduction uses synthetic peer-at-work data to compare peer effort, visibility, learning signals, social pressure, effort, deviation from group norms, productivity, and attendance. It is not an official replication of Mas and Moretti.

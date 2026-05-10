@@ -1,0 +1,1 @@
+This bounded reproduction uses synthetic workplace data to separate commitment-contract take-up, output under the chosen contract, and effort near paydays. It is not an official replication of Kaur, Kremer, and Mullainathan.

@@ -1,0 +1,10 @@
+## Empirical setting to econometric methods map
+
+| Empirical setting | Typical estimand | Common econometric methods | Why these methods fit | Common add-ons |
+| --- | --- | --- | --- | --- |
+| Randomized field experiment in a labor setting | ITT / ATE / policy-relevant treatment effect | OLS, ANCOVA, randomization inference | assignment is randomized and outcomes are usually observed at worker/job level | heterogeneity by baseline beliefs, randomization checks, clustered SEs |
+| Repeated subjective expectations panel | persistence, forecast errors, updating, correlation with choices | panel fixed effects, validation regressions, forecast-error decompositions | repeated elicitation creates within-person variation and allows direct comparison of beliefs and realizations | measurement-error diagnostics, Bayesian-updating tests |
+| Job-search duration / unemployment exit | hazard of exit, duration dependence, treatment effect on search duration | discrete-time hazard models, logit/probit hazards, Cox models | outcomes are durations and censoring/state dependence matter | competing risks, dynamic controls |
+| Nonlinear tax-benefit / incentive schedule | local elasticity, bunching mass, attenuation under low knowledge | bunching estimators, local reduced-form elasticities, kink/notch designs | the institutional environment creates sharp local variation in incentives | knowledge/salience interactions, policy-counterfactual calibration |
+| Quasi-experimental policy or information shock | local causal effect of changed information, incentives, or eligibility | IV, RD, DiD, event studies | identifying variation comes from thresholds, timing, or exposure | dynamic treatment effects, heterogeneity, spillovers |
+| Latent-parameter recovery / dynamic behavioral model | present bias, social preference parameters, learning rules, search frictions | MLE, SMM, dynamic discrete-choice estimation, calibrated moments | reduced-form estimates alone do not recover the behavioral parameter of interest | model fit checks, sensitivity, external validity |

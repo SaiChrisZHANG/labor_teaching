@@ -1,0 +1,1 @@
+The transfer path uses synthetic data to classify policy-navigation effects into information, salience, hassle, and perceived eligibility objects, then applies the same logic to workplace incentive opacity and effort. These are teaching analogs, not official replications.

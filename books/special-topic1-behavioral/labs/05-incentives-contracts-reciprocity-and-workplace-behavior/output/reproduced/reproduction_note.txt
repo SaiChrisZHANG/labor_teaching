@@ -1,0 +1,1 @@
+This bounded reproduction uses synthetic workplace data to compare gift treatments, employer-effort treatments, standard piece-rate incentives, extra work, output, quality, and productivity. It is not an official replication of DellaVigna, List, Malmendier, and Rao.
