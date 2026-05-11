@@ -1,0 +1,5 @@
+group,observations,mean_vote_share,mean_demand,mean_tightness,mean_opposition,mean_wage_change,mean_employment_change,mean_payroll_change,survival_share
+close loser,21,0.4787,0.5517,0.5543,0.5555,0.0186,3.5714,5.9778,0.9048
+close winner,27,0.5225,0.5875,0.5925,0.5207,0.0495,1.963,7.8118,0.8889
+not close loser,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+not close winner,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

@@ -1,0 +1,6 @@
+Week 7 synthetic Dell-style reproduction note
+
+This is a pedagogical boundary exercise inspired by Dell 2010.
+The output compares formerly exposed and non-exposed districts overall and near the boundary.
+Mechanism differences are reported separately from labor outcome differences.
+Do not interpret these synthetic differences as an official replication or as proof of persistence without mechanism evidence.

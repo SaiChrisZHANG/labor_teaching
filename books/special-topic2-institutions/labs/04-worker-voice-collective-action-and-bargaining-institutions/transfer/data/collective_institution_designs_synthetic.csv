@@ -1,0 +1,8 @@
+design_id,anchor,variation,unit,observed_margin,expected_object
+close_certification_election_rd,DiNardo-Lee 2004,union vote share barely crosses the recognition threshold,establishment or bargaining unit,"recognition, wages, employment, payroll, survival",close_election_recognition
+matched_worker_establishment_event,Frandsen 2021,linked workers and establishments around new unionization,worker-establishment-year,"wages, separations, worker composition, payroll",matched_worker_establishment_incidence
+sectoral_coverage_decomposition,Fortin-Lemieux-Lloyd 2021,wage distribution under observed and counterfactual coverage,worker or wage cell,"covered wages, uncovered wages, wage compression",spillover_distribution
+works_council_threshold_design,Harju-Jager-Schoefer 2021,representation rights change at a legal or firm-size threshold,firm or establishment,"voice, governance, productivity, retention, wages",voice_governance
+tightness_organizing_demand_survey,Pezold-Jager-Nuss 2023,labor-market tightness changes worker outside options and organizing activity,"worker, campaign, or local labor market","organizing demand, activity, fear, willingness to support representation",organizing_demand
+right_to_work_policy_reform,Feigenbaum-Hertel-Fernandez-Williamson 2018,state right-to-work law changes union security and resources,state-year or worker-year,"union strength, wages, turnout, political participation",political_feedback
+international_bargaining_regime_comparison,Jager-Naidu-Schoefer 2024,"countries differ in membership, coverage, bargaining level, and extension rules","country, sector, or wage cell","coverage, wage structure, inequality, membership",comparative_coverage

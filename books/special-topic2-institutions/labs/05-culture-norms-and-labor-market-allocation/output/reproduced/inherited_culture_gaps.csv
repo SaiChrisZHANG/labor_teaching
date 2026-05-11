@@ -1,0 +1,9 @@
+comparison,field,gap,interpretation
+restrictive_minus_egalitarian,origin_female_lfp,-0.4,origin-country proxy for inherited work norms
+restrictive_minus_egalitarian,family_role_norm_index,0.6,direct synthetic proxy for family-role norms
+restrictive_minus_egalitarian,current_peer_pressure_index,0.46,current local social-pressure proxy
+restrictive_minus_egalitarian,host_labor_demand_index,0.0,"host-market demand control, not a norm proxy"
+restrictive_minus_egalitarian,host_wage_index,0.0033,"host wage control, not a norm proxy"
+restrictive_minus_egalitarian,childcare_cost_index,0.0046,price or constraint proxy
+restrictive_minus_egalitarian,work_rate,-0.3333,labor-supply outcome
+restrictive_minus_egalitarian,mean_weekly_hours,-10.3969,hours outcome conditional and unconditional on work

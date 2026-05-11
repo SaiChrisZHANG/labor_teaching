@@ -1,0 +1,5 @@
+origin_norm_group,observations,origin_female_lfp,origin_fertility,family_role_norm_index,current_peer_pressure_index,host_labor_demand_index,host_wage_index,childcare_cost_index,education_years,children_under6_share,work_rate,mean_weekly_hours
+egalitarian_family_role,96,0.7199,1.75,0.2195,0.3,0.6325,1.0167,0.4021,13.9479,0.3438,0.5521,15.1125
+moderate_family_role,96,0.5999,2.05,0.4195,0.44,0.6325,1.0211,0.405,14.0521,0.4062,0.4896,12.7625
+traditional_family_role,96,0.4399,2.55,0.6495,0.61,0.6325,1.0222,0.4079,14.0104,0.4792,0.4271,10.0958
+restrictive_family_role,96,0.3199,3.05,0.8195,0.76,0.6325,1.02,0.4067,13.9688,0.5312,0.2188,4.7156

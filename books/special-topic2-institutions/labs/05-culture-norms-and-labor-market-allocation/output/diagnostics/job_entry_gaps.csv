@@ -1,0 +1,6 @@
+job_frame,women_minus_men_norm_fit,women_minus_men_application_rate,diagnostic_question
+competitive,-0.29,-0.0375,"Is the entry gap caused by norm fit, wage framing, care constraints, or expected ability?"
+competitive_with_flexibility,-0.1,-0.025,"Is the entry gap caused by norm fit, wage framing, care constraints, or expected ability?"
+neutral,-0.02,-0.0125,"Is the entry gap caused by norm fit, wage framing, care constraints, or expected ability?"
+pink_collar,0.28,0.05,"Is the entry gap caused by norm fit, wage framing, care constraints, or expected ability?"
+team_based,0.02,0.0125,"Is the entry gap caused by norm fit, wage framing, care constraints, or expected ability?"

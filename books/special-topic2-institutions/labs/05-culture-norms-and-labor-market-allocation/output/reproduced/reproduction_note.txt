@@ -1,0 +1,6 @@
+Week 5 inherited-culture reproduction note
+
+This synthetic file is a teaching analog for Fernandez-Fogli style inherited-culture reasoning.
+Origin_female_lfp and family_role_norm_index are proxies for transmitted norms.
+Host_labor_demand_index, host_wage_index, childcare_cost_index, education, and children are price or constraint controls.
+A gap by origin group is not automatically a norm effect; students must diagnose selection, prices, and current peer pressure.

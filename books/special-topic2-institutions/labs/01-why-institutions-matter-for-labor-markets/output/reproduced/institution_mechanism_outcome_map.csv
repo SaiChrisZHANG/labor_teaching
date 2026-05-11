@@ -1,0 +1,8 @@
+variable,classification,interpretation
+origin_norm_group,institutional_object,Inherited informal institution used to group workers by family-obligation norms.
+family_obligation_index,mechanism,Potential family-insurance and local-obligation channel.
+generalized_trust_index,mechanism,Potential trust and compliance channel.
+formal_protection_index,formal_institution_control,"Local formal protection environment, not the inherited norm itself."
+employed,labor_outcome,Employment margin.
+changed_region_for_work,labor_outcome,Mobility margin.
+supports_employment_protection,political_labor_outcome,Demand for formal labor regulation.

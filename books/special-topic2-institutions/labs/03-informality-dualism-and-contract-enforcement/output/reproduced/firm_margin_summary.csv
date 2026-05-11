@@ -1,0 +1,13 @@
+metric,value
+observations,64
+mean_productivity,0.5489
+mean_enforcement,0.5098
+registered_firm_share,0.4688
+mean_payroll_reported_share,0.4753
+mean_hidden_worker_share,0.5247
+mean_effective_enforceability,0.4102
+mean_firm_size,20.1562
+mean_formal_informal_wage_gap,0.0755
+corr_enforcement_payroll_reporting,0.906
+corr_productivity_registration,0.8677
+corr_payroll_tax_hidden_workers,-0.1191

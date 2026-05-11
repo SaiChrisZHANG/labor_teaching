@@ -1,0 +1,4 @@
+enforcement_tier,observations,mean_inspector_access,mean_effective_law,mean_compliance,mean_benefit_receipt,mean_formal_share,mean_formal_wage_index
+lower enforcement,24,0.3185,0.1148,0.3981,0.5005,0.5275,1.06
+middle enforcement,24,0.5135,0.2618,0.5012,0.5861,0.6615,1.036
+higher enforcement,24,0.6985,0.4565,0.6374,0.697,0.8053,1.015

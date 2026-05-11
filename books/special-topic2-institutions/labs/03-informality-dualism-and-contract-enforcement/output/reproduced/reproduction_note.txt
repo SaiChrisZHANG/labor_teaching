@@ -1,0 +1,7 @@
+Week 3 synthetic reproduction note
+
+The synthetic panel separates firm registration from payroll reporting.
+registered_firm is the extensive firm-side formality margin.
+payroll_reported_share and hidden_worker_share are intensive employment-reporting margins.
+effective_enforceability_index combines contract quality with enforcement intensity.
+Interpretation should remain diagnostic: a real causal design would need credible variation in enforcement, registration costs, payroll taxes, or policy thresholds.

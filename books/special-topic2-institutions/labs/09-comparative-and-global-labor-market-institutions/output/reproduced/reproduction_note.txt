@@ -1,0 +1,7 @@
+Week 9 synthetic labor-regulation index reproduction note
+
+This is a pedagogical exercise inspired by Botero et al. 2004.
+The rules-on-paper index averages employment law, collective relations law, and social-security law components.
+The effective-protection index multiplies that legal index by legal coverage and enforcement capacity.
+The gap between the two indices is the teaching object: legal text is not implementation.
+Do not interpret these synthetic values as country data or an official replication.

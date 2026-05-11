@@ -1,0 +1,8 @@
+variable,proxy_class,design_question,diagnostic_caution,week_boundary
+origin_female_lfp,inherited_norm_proxy,Does an origin-linked work norm predict labor supply in a host environment?,Transmission is not the same as current peer pressure; migrant selection may remain.,Week 5 conduct norm
+family_role_norm_index,direct_norm_proxy,Does a role expectation make market work socially costly?,"Check whether the proxy is correlated with childcare costs, wages, or legal constraints.",Week 5 conduct norm
+current_peer_pressure_index,current_social_pressure,Does the local social environment discipline work or nonwork?,Current peer pressure can be endogenous to local labor demand and worker sorting.,Week 5 conduct norm
+host_wage_index,price_control,Are observed choices responding to wages rather than norms?,A norm interpretation is weak if wage differences explain the pattern.,Labor-market price
+childcare_cost_index,constraint_control,Are observed choices responding to care prices rather than role norms?,Care constraints and gender-role norms can interact; do not treat either as automatic.,Price or constraint
+perceived_norm_fit_index,job_entry_norm_proxy,Does the job frame feel acceptable or role-consistent to the applicant?,"Field-experimental framing identifies an entry response, not all sources of the norm.",Week 5 conduct norm
+category_hierarchy_signal,structural_hierarchy_proxy,"Does category membership change access, authority, or employer evaluation?",This belongs in Week 6 unless the mechanism is explicitly acceptable conduct.,Reserve for Week 6

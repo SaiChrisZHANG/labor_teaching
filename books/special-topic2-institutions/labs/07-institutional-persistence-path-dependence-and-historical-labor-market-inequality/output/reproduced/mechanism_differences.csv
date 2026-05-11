@@ -1,0 +1,21 @@
+sample,variable,treated_mean,control_mean,treated_minus_control,interpretation
+all_districts,schooling_years,7.6273,8.431,-0.8037,human-capital channel and labor-market readiness
+all_districts,migration_rate,0.1628,0.2008,-0.038,mobility and outside-option channel
+all_districts,nonfarm_share,0.4653,0.5363,-0.071,occupational structure and market access
+all_districts,wage_index,0.9903,1.051,-0.0607,modern labor-market outcome
+all_districts,employer_power_index,0.5783,0.487,0.0913,bargaining and employer-power channel
+all_districts,public_goods_index,0.5224,0.6415,-0.1191,local public goods mechanism
+all_districts,road_access_index,0.5962,0.6957,-0.0995,market-access mechanism
+all_districts,altitude_index,0.725,0.695,0.03,persistent fundamental check
+all_districts,ruggedness_index,0.385,0.385,0.0,persistent fundamental check
+all_districts,precolonial_density,0.55,0.54,0.01,pre-treatment settlement check
+near_boundary,schooling_years,7.6334,8.437,-0.8036,human-capital channel and labor-market readiness
+near_boundary,migration_rate,0.1629,0.2009,-0.038,mobility and outside-option channel
+near_boundary,nonfarm_share,0.4643,0.5353,-0.071,occupational structure and market access
+near_boundary,wage_index,0.9903,1.051,-0.0607,modern labor-market outcome
+near_boundary,employer_power_index,0.5761,0.4849,0.0912,bargaining and employer-power channel
+near_boundary,public_goods_index,0.5293,0.6484,-0.1191,local public goods mechanism
+near_boundary,road_access_index,0.5976,0.6971,-0.0995,market-access mechanism
+near_boundary,altitude_index,0.71,0.68,0.03,persistent fundamental check
+near_boundary,ruggedness_index,0.3657,0.3657,0.0,persistent fundamental check
+near_boundary,precolonial_density,0.55,0.54,0.01,pre-treatment settlement check

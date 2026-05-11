@@ -1,0 +1,9 @@
+:::{table} Informality, dualism, and the main conceptual views
+:label: tbl:informality-dualism-map
+| Lens | Core intuition | Worker-side implication | Firm-side implication | What would support it empirically? |
+| --- | --- | --- | --- | --- |
+| Dualist / segmented | Formal and informal sectors are fundamentally different and not close substitutes | Informal workers are rationed out of better jobs or trapped in low-quality work | Informal firms are persistently low productivity and weakly integrated with the formal economy | Large persistent productivity and earnings gaps, low transition rates, weak growth among informal firms |
+| Competitive / choice-based | Workers and firms sort across formal and informal arrangements given costs and benefits | Some workers may accept lower wages for flexibility or because benefits are not salient/valuable | Firms choose legal status, payroll reporting, and contract form based on costs, taxes, and enforcement | Wage differentials partly offset by amenities/benefits; switching responds to costs and enforcement |
+| Modern equilibrium / mixed view | Segmentation and sorting coexist under heterogeneity and institutional frictions | Worker mobility and outside options matter, but transitions can still be constrained | Heterogeneous firms exploit multiple extensive and intensive informality margins | Worker- and firm-side margins both move when policy changes; structural models fit multiple margins |
+| Institutional-enforcement view | Informality is jointly shaped by legal rules, enforceability, and state capacity | Worker protection depends on knowledge and the credibility of claims | Firms weigh compliance against expected detection, sanctions, and access to formal institutions | Enforcement or information shocks move formalization, wages, and firm behavior differently |
+:::

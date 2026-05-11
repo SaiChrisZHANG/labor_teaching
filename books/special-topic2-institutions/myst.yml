@@ -6,6 +6,16 @@ project:
     - references.bib
   toc:
     - file: index.md
+    - file: 01-why-institutions-matter-for-labor-markets.md
+    - file: 02-labor-law-enforcement-and-state-capacity.md
+    - file: 03-informality-dualism-and-contract-enforcement.md
+    - file: 04-worker-voice-collective-action-and-bargaining-institutions.md
+    - file: 05-culture-norms-and-labor-market-allocation.md
+    - file: 06-identity-social-hierarchy-and-labor-market-institutions.md
+    - file: 07-institutional-persistence-path-dependence-and-historical-labor-market-inequality.md
+    - file: 08-institutional-reform-implementation-and-labor-market-adjustment.md
+    - file: 09-comparative-and-global-labor-market-institutions.md
+    - file: 10-synthesis-frontier-questions-and-student-research-designs.md
 site:
   template: book-theme
   title: Institutions and Labor

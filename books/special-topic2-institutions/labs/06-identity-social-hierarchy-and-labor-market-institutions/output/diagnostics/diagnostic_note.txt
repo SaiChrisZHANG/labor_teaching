@@ -1,0 +1,5 @@
+Week 6 hierarchy diagnostic note
+
+The diagnostic table separates belief, credential, network, contact, public-rule, spatial, and macro barriers.
+The evidence-level table distinguishes micro gates from meso institutions and macro allocation frameworks.
+The boundary row is intentional: conduct norms belong in Week 5 unless category membership governs access.

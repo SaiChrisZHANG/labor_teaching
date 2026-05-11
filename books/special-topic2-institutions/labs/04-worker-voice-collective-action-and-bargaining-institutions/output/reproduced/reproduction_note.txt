@@ -1,0 +1,7 @@
+Week 4 synthetic reproduction note
+
+The close-election file treats won_recognition as the institutional threshold treatment.
+union_vote_share is the running variable and 0.50 is the recognition threshold.
+The summaries are diagnostic teaching objects, not causal estimates from real elections.
+Interpret close bandwidths as the DiNardo-Lee style margin: barely winning recognition among campaigns that reached an election.
+The matched worker-establishment file separates establishment recognition from worker wages, separations, and grievance channels.

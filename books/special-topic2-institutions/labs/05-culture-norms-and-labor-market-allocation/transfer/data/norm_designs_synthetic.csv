@@ -1,0 +1,11 @@
+design_id,anchor,variation,unit,observed_margin,expected_object
+second_generation_inherited_culture,Fernandez-Fogli 2009,origin-country work and fertility proxies among descendants in a common host setting,worker or household,"labor-force participation, fertility, hours",inherited_culture_transmission
+historical_plough_persistence,Alesina-Giuliano-Nunn 2013,historical agricultural technology predicts modern role norms,"ethnic group, country, or region","gender-role beliefs, female labor supply",historical_persistence
+competitive_job_entry_field_experiment,Flory-Leibbrandt-List 2015,job advertisement randomly varies competitive compensation or framing,potential applicant,application and job-entry decisions,job_entry_response
+gender_coded_occupation_entry,Delfino 2024,information or recruitment changes entry into gender-coded occupations,potential applicant,occupational entry,job_entry_response
+religion_reputation_acceptable_work,Carvalho 2013,reputation-preserving conduct changes public work or mobility choices,"worker, household, or community","public work, mobility, sector choice",religion_reputation_norm
+workplace_networking_promotion,Cullen-Perez-Truglia 2023,informal interaction with managers affects promotion opportunities,worker-manager pair or worker-year,"networking, visibility, promotion",workplace_promotion_norm
+local_unemployment_social_norm,Clark 2003,local unemployment changes the social cost of nonemployment,worker-year or local labor market,"well-being, unemployment stigma, search",local_social_environment
+swiss_language_border_work_attitudes,Eugster-Lalive-Steinhauer-Zweimuller 2017,language-region border shifts work attitudes under shared national policy,worker or region,"job search, benefit use, work attitudes",local_social_environment
+market_level_labor_supply_suppression,Breza-Kaur-Krishnaswamy 2019,wage offers and social visibility change labor-supply acceptance,worker or local labor market,"wage acceptance, labor supply, undercutting",market_supply_discipline
+category_hierarchy_audit,Week 6 boundary case,group names or category signals change employer callbacks,application or employer,hiring access and employer beliefs,structural_hierarchy_week6

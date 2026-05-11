@@ -1,0 +1,3 @@
+sample,historical_mita_exposure,districts,mean_distance_to_boundary,schooling_years,migration_rate,nonfarm_share,wage_index,employer_power_index
+all_districts,0,48,14.225,8.431,0.2008,0.5363,1.051,0.487
+all_districts,1,48,13.875,7.6273,0.1628,0.4653,0.9903,0.5783

@@ -1,0 +1,11 @@
+## Methods box: historical identification in labor institutions
+
+| Design family | What it uses | What it can identify well | Main threat | Representative paper(s) |
+| --- | --- | --- | --- | --- |
+| Historical border / geographic discontinuity | old institutional boundary, tax line, colonial map, labor-draft boundary | local treatment effects of historical institutional exposure | boundary may coincide with geography or later administration | [@dell2010mita] |
+| Wars, conflicts, occupation, or abrupt political shocks | timing/intensity of mobilization, destruction, defense demand, occupation zones | labor-demand shifts, discrimination changes, occupational openings, migration shocks | war bundles many mechanisms; treatment must be narrowed | [@aizerBooneLlerasMuneyVogel2020wwii]; [@ferrara2023wars] |
+| Regime abolition / liberalization / reform | serf emancipation, Reconstruction-era schooling, legal abolition, market transition | effects of institutional removal or expansion on labor outcomes | reforms are rarely isolated; compositional change matters | [@markevichZhuravskaya2018serfdom]; [@jonesSchmick2025reconstruction] |
+| Linked historical microdata | linked census, school rosters, military files, payrolls, court archives | individual or household-level dynamic effects and intergenerational persistence | linkage bias, attrition, coverage error, name matching | [@jonesSchmick2025reconstruction] |
+| Lineage / ancestry / ethnic-share persistence | surnames, ancestry shares, ethnic homeland exposure, population composition | persistence through family/community transmission or local composition | proxy mixes culture, selection, and institutions | [@munshiRosenzweig2006traditional]; [@michalopoulosPapaioannou2020historical] |
+| Historical GIS / spatial overlays | cadastral maps, colonial districts, roads, rail, conflict maps, school locations | spatial persistence through access, infrastructure, land institutions | mismeasured boundaries, spatial correlation, modern sorting | [@dell2010mita]; [@chevalierEtAl2024forcedmigration] |
+| Archival legal / contract records | labor contracts, courts, breach cases, plant records, personnel ledgers | mechanism-rich evidence on employer-worker power and contract enforcement | external validity and selective survival of archives | [@naiduYuchtman2013coercive] |

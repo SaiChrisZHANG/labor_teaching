@@ -1,0 +1,4 @@
+network_group,workers,informal_insurance_index,network_job_share,community_obligation_index,urban_wage_offer_ratio,urban_job_access_index,migration_rate,network_job_rate
+weak_network_insurance,80,0.28,0.18,0.279,1.31,0.579,0.625,0.175
+middle_network_insurance,80,0.52,0.33,0.389,1.24,0.509,0.45,0.338
+strong_network_insurance,80,0.78,0.54,0.519,1.18,0.439,0.3,0.525

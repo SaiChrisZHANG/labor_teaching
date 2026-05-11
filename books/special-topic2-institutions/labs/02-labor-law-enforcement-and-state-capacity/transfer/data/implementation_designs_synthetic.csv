@@ -1,0 +1,7 @@
+design_id,anchor,variation,unit,observed_margin,expected_object
+wrongful_discharge_doctrine,Autor-Donohue-Schwab,court-made wrongful-discharge doctrine changes across states,state-year or worker-state-year,employment and dismissal-sensitive outcomes,law_on_books
+inspector_distance,Almeida-Carneiro,locality exposure to labor inspectors,locality-year,"compliance, wages, formality",enforcement
+rights_information_rct,Bertrand-Crepon,randomized information about labor-law rules,firm or worker,"beliefs, claims, employment behavior",knowledge
+labor_rights_capacity_index,Berliner-Greenleaf-Lake-Noveck,cross-country state-capacity and labor-rights measures,country-year,broad labor-rights performance,state_capacity_bundle
+linked_payroll_inspection_records,matched employer-employee design,linked inspection and payroll records,worker-firm-year,"wages, benefits, worker flows, sorting",incidence_and_sorting
+coenforcement_complaint_program,Amengual,inspector linkages with unions and worker organizations,workplace or locality,"complaints, inspections, compliance",effective_compliance

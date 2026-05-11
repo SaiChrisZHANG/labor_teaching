@@ -1,0 +1,9 @@
+sample,variable,treated_mean,control_mean,treated_minus_control,interpretation
+higher_baseline_knowledge,followup_knowledge_index,0.71,0.47,0.24,legal-knowledge margin
+higher_baseline_knowledge,claim_intention_index,0.3794,0.3114,0.068,take-up and bargaining intention
+higher_baseline_knowledge,formal_contract,0.5625,0.0208,0.5417,contract-form labor margin
+higher_baseline_knowledge,wage_index,1.0044,0.9273,0.0771,wage labor margin
+lower_baseline_knowledge,followup_knowledge_index,0.69,0.3899,0.3001,legal-knowledge margin
+lower_baseline_knowledge,claim_intention_index,0.3754,0.2954,0.08,take-up and bargaining intention
+lower_baseline_knowledge,formal_contract,0.5208,0.0625,0.4583,contract-form labor margin
+lower_baseline_knowledge,wage_index,1.0023,0.9394,0.0629,wage labor margin

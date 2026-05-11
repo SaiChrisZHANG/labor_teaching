@@ -1,0 +1,6 @@
+Week 8 synthetic legal-information reproduction note
+
+This is a pedagogical exercise inspired by Bertrand-Crepon 2021.
+The output separates knowledge and belief margins from realized labor-market outcomes.
+Large knowledge differences with smaller employment or wage differences are a feature of the teaching design.
+Do not interpret these synthetic differences as an official replication.

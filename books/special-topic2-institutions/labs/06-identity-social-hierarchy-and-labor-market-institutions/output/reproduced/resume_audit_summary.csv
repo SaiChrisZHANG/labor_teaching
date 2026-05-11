@@ -1,0 +1,5 @@
+group_signal,observations,high_quality_share,foreign_credential_share,local_experience_share,disadvantaged_neighborhood_share,public_employer_share,callback_rate
+white_name_local_credential,120,0.4,0.0,1.0,0.25,0.1667,0.2417
+black_name_local_credential,120,0.4,0.0,1.0,0.25,0.1667,0.1833
+immigrant_name_local_credential,120,0.4,0.0,1.0,0.25,0.1667,0.1917
+immigrant_name_foreign_credential,120,0.4,1.0,0.6667,0.25,0.1667,0.1417

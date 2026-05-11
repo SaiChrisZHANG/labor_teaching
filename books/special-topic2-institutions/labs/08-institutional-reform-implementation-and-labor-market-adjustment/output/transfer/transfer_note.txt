@@ -1,0 +1,5 @@
+Week 8 transfer note
+
+Each reform design identifies a particular part of the reform-transmission chain.
+Use the observed-margin column to avoid interpreting a compliance result as a full welfare result.
+Use the spillover and caution columns to state what the bounded design cannot identify.

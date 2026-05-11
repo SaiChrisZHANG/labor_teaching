@@ -1,0 +1,9 @@
+group_signal,resume_quality,observations,callback_rate
+white_name_local_credential,standard,72,0.2361
+white_name_local_credential,high,48,0.25
+black_name_local_credential,standard,72,0.125
+black_name_local_credential,high,48,0.2708
+immigrant_name_local_credential,standard,72,0.1528
+immigrant_name_local_credential,high,48,0.25
+immigrant_name_foreign_credential,standard,72,0.1111
+immigrant_name_foreign_credential,high,48,0.1875

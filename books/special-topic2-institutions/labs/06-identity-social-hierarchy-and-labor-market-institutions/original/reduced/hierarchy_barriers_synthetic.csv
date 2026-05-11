@@ -1,0 +1,9 @@
+case_id,anchor,category_signal,institutional_gate,expected_barrier,evidence_level,observed_margin,week_boundary
+race_name_resume_audit,Bertrand-Mullainathan 2004,race-coded name,first-stage hiring callback,belief_based_screening,micro,callback access,Week 6 hierarchy
+skilled_immigrant_foreign_credentials,Oreopoulos 2011,immigrant background and foreign credential,resume screening and credential recognition,credential_recognition,micro,interview access and occupational matching,Week 6 hierarchy
+caste_network_occupation_persistence,Munshi-Rosenzweig 2006,caste network,"schooling, referrals, and occupation choice",network_based_access,meso,occupation persistence and mobility,Week 6 hierarchy
+collaborative_caste_contact,Lowe 2021,caste category in designed interaction,team assignment and contact structure,contact_integration_design,micro,cooperation and social distance,Week 6 hierarchy
+federal_employment_segregation,Aneja-Xu 2020,race in public employment,public-sector assignment and promotion,legal_public_rule,meso,public jobs and earnings,Week 6 hierarchy
+segregated_commuting_zone,local governance extension,neighborhood and group residence,"commuting, safety, and local enforcement",spatial_local_governance,meso,job access and protection,Week 6 hierarchy
+race_gender_talent_misallocation,Hsieh-Hurst-Jones-Klenow 2019,race and gender barriers,occupation entry and talent allocation,macro_misallocation,macro,aggregate output and occupation shares,Week 6 hierarchy
+family_role_conduct_boundary,Week 5 boundary case,gendered family-role expectation,acceptable conduct and labor supply,conduct_norm_boundary,micro,work entry and hours,Week 5 conduct norm

@@ -1,0 +1,4 @@
+comparison,callback_gap,interpretation
+black_name_local_credential_minus_white_name_local_credential,-0.0584,race-coded name signal in a resume audit
+immigrant_name_local_credential_minus_white_name_local_credential,-0.05,immigrant-name signal with local credentials visible
+immigrant_name_foreign_credential_minus_white_name_local_credential,-0.1,immigrant-name and foreign-credential signal combined

@@ -1,0 +1,6 @@
+Week 6 resume-audit reproduction note
+
+This synthetic file is a teaching analog for Bertrand-Mullainathan style audit reasoning.
+The callback gap identifies differential access at the first hiring gate.
+The Oreopoulos-style challenge is visible in the immigrant and foreign-credential rows.
+Do not interpret this table as a wage, productivity, promotion, or lifecycle estimate.

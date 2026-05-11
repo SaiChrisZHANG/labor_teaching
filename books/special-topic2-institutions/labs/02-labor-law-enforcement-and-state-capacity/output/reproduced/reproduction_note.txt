@@ -1,0 +1,6 @@
+Week 2 synthetic reproduction note
+
+The legal_rule_index is constant in the bounded path, so the exercise is not a law-adoption design.
+The moving treatment is inspector_access_index, mediated by worker_knowledge_index into effective_law_index.
+The observed labor margins are compliance, benefit receipt, formal employment share, informal employment share, and formal wages.
+Interpretation should remain diagnostic: a real causal design would need exogenous inspection variation or stronger controls for local demand and state capacity.

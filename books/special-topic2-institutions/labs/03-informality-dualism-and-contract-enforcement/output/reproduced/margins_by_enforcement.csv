@@ -1,0 +1,4 @@
+enforcement_tier,observations,registered_firm_share,mean_payroll_reported_share,mean_hidden_worker_share,mean_effective_enforceability,mean_firm_size
+lower enforcement,17,0,0.181,0.819,0.1688,9.6471
+middle enforcement,33,0.4848,0.4857,0.5143,0.4105,20.6667
+higher enforcement,14,1,0.8083,0.1917,0.7024,31.7143

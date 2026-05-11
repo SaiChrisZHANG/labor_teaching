@@ -1,0 +1,5 @@
+Week 8 reform-transmission diagnostic note
+
+Every reform case should identify the legal change, the implementation actor, exposure, and the observed labor margin.
+The bottleneck column says which part of the transmission chain is most likely to limit the reform.
+The welfare column reminds students that compliance, take-up, incidence, spillovers, and inequality are distinct objects.

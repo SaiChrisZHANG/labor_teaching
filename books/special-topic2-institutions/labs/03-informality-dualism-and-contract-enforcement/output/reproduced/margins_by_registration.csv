@@ -1,0 +1,3 @@
+registration_status,observations,mean_productivity,mean_enforcement,mean_payroll_reported_share,mean_hidden_worker_share,mean_contract_quality,mean_effective_enforceability,mean_firm_size
+unregistered,34,0.4054,0.4078,0.2007,0.7993,0.2728,0.1843,11.5588
+registered,30,0.7116,0.6255,0.7865,0.2135,0.8386,0.6661,29.9
