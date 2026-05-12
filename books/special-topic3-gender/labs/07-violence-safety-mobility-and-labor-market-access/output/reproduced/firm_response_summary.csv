@@ -1,0 +1,5 @@
+event_firm,period,worker_periods,new_hires,female_hire_share,mean_separation,mean_sick_days
+0,-1,960,0,NA,0.0510,2.3930
+0,1,960,34,0.5294,0.0427,2.4419
+1,-1,240,0,NA,0.0292,2.4191
+1,1,240,23,0.5652,0.1083,3.5448

@@ -1,0 +1,6 @@
+setting,binding_constraint,portable_mechanism,setting_specific_detail,what_should_generalize,what_should_not_generalize
+care_bind_high_service,norms,constraint changes feasible labor supply or labor demand,transport norm mechanism only after naming norm content and enforcement,the mechanism under similar context variables,the policy label or synthetic effect size
+informality_bind_legal_reform,informality,constraint changes feasible labor supply or labor demand,formal policy transfer may miss uncovered workers,the mechanism under similar context variables,the policy label or synthetic effect size
+mobility_bind_transition,mobility,constraint changes feasible labor supply or labor demand,employment effects may be muted until search radius or commute safety changes,the mechanism under similar context variables,the policy label or synthetic effect size
+norm_bind_high_service,norms,constraint changes feasible labor supply or labor demand,transport norm mechanism only after naming norm content and enforcement,the mechanism under similar context variables,the policy label or synthetic effect size
+public_jobs_with_care,service-sector demand,constraint changes feasible labor supply or labor demand,demand-side mechanism depends on sector task mix and job quality,the mechanism under similar context variables,the policy label or synthetic effect size

@@ -1,0 +1,3 @@
+This transfer exercise compares application, matched worker-firm, and job-posting designs.
+Each setting observes a different labor margin and supports a different econometric toolkit.
+Use the design map to state what is observed, what identifies the comparison, and what remains missing.

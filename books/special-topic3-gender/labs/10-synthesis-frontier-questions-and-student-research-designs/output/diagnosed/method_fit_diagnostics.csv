@@ -1,0 +1,9 @@
+project_id,key_margin,data_source,method,fit_score,fit_comment
+P01,retention and firm sorting,administrative worker-firm panel linked to childcare openings,difference-in-differences event study,2,Data source observes the proposed labor margin directly enough for a bounded design.
+P02,promotion ratings and promotion transitions,personnel records with manager identifiers and evaluation text,manager-mover event study,2,Data source observes the proposed labor margin directly enough for a bounded design.
+P03,applications by distance and shift time,job-board applications linked to route safety improvements,difference-in-differences with route fixed effects,2,Data source observes the proposed labor margin directly enough for a bounded design.
+P04,"wages, bonuses, vacancies, and task titles","firm payroll, job postings, and reporting-threshold records",threshold difference-in-differences,1,Data source may observe a proxy; add linkage or narrow the claim.
+P05,callback probability,correspondence audit with pre-registered identity signals,randomized audit experiment,1,Data source may observe a proxy; add linkage or narrow the claim.
+P06,"employment, hours, and job-to-job transitions",administrative earnings panel linked to reproductive-health access measures,event study with cohort-by-county exposure,2,Data source observes the proposed labor margin directly enough for a bounded design.
+P07,"hours, schedule predictability, quits, and earnings",retail payroll schedules linked to software rollout,staggered rollout event study,2,Data source observes the proposed labor margin directly enough for a bounded design.
+P08,"complaints, inspections, and labor-force attachment",local election returns linked to enforcement and employment records,close-election regression discontinuity,1,Data source may observe a proxy; add linkage or narrow the claim.

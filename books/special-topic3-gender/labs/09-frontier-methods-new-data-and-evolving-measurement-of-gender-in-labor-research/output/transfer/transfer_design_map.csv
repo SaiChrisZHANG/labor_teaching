@@ -1,0 +1,4 @@
+setting,observed_margin,identifying_variation,main_missing_margin,best_use
+application data,applications by worker-job pair,choice-set and job-attribute variation; causal work needs exogenous exposure or rules,"jobs not shown, later firm treatment, hidden welfare costs",search and sorting decomposition
+matched worker-firm data,"wages, firm matches, moves, promotion",worker mobility across firms and policy or manager variation if available,"nonapplications, unobserved tasks, climate, reasons for sorting",worker sorting versus firm treatment diagnosis
+job-posting policy data,"ad language, stated restrictions, applications","policy timing, posting bans, or platform rule changes",realized treatment after hire and equilibrium firm adaptation,demand-side text and posting-rule designs

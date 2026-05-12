@@ -1,0 +1,4 @@
+This reproduction summarizes a synthetic administrative-linkage exercise.
+The observed event is a reported workplace-violence incident, not all latent exposure.
+The observed labor margins are separation, retention, sick leave, wages, and firm hiring.
+Use the outputs to diagnose victim effects, coworker spillovers, and firm response.

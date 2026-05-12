@@ -1,0 +1,8 @@
+| Labor margin | Mechanism to isolate | Typical empirical setting | Representative papers |
+| --- | --- | --- | --- |
+| Participation and employment | social acceptability of women's work; legal barriers; local beliefs | country/region panels, norm interventions, second-generation samples | [@fernandezFogli2009beliefsWorkFertility]; [@hylandDjankovGoldberg2020genderedLawsWorkforce]; [@bursztynGonzalezYanagizawaDrott2020misperceivedSocialNorms] |
+| Hours and specialization | caregiving norms vs bargaining vs prices | household data, policy shifts, dynamic labor-supply settings | [@lundbergPollak1996bargainingDistributionMarriage]; [@goldin2014grandGenderConvergence] |
+| Education and labor-market investments | marriage-market incentives and anticipated sanctions | field experiments, belief elicitation, education-to-marriage settings | [@bursztynFujiwaraPallais2017actingWife]; [@andrewCattanCostaDiasFarquharsonKraftKrutikova2025revealedBeliefsMarriageMarket] |
+| Workplace competition and authority | norms around competition, availability, overwork, leadership | natural field experiments, professional-services panels | [@floryLeibbrandtList2015competitiveWorkplaces]; [@bertrandGoldinKatz2010dynamicsGenderGapProfessionals] |
+| Search, commuting, and mobility | acceptable jobs, commute trade-offs, local mobility constraints | administrative search data, commuting-choice designs | [@leBarbanchonRathelotRoulet2021commuteWageTradeoff] |
+| Historical/cultural persistence | inherited beliefs and long-run institutions | ancestry designs, historical origins, cross-country evidence | [@alesinaGiulianoNunn2013originsGenderRoles]; [@fernandez2013evolutionFemaleLaborForceParticipation] |

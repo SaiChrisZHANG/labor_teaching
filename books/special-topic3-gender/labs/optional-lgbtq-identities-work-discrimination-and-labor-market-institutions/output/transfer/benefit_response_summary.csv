@@ -1,0 +1,7 @@
+sector,employers,pre_domestic_partner_benefit_share,post_retained_partner_benefit_share,post_expanded_spousal_coverage_share,large_employer_share,unionized_share
+finance,62,0.5161,0.2581,0.7419,0.7097,0.1452
+health,58,0.4483,0.2931,0.7931,0.4828,0.3276
+private_services,45,0.3556,0.2000,0.7111,0.3778,0.1111
+public,67,0.7015,0.5224,0.7910,0.7313,0.3731
+tech,68,0.5588,0.2206,0.8088,0.7206,0.0882
+all,300,0.5300,0.3067,0.7733,0.6233,0.2133

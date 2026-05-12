@@ -1,0 +1,9 @@
+project_id,title,primary_threat,strengthening_move
+P01,Childcare access and retention at high-premium firms,childcare openings may target neighborhoods with changing labor demand,"Document pre-trends, anticipation windows, and untreated comparison-group logic."
+P02,Manager assignment and gendered promotion ratings,manager moves may be correlated with team performance shocks,"Document pre-trends, anticipation windows, and untreated comparison-group logic."
+P03,Commuting safety and application radius,route upgrades may coincide with local economic development,"Document pre-trends, anticipation windows, and untreated comparison-group logic."
+P04,Pay transparency and firm job redesign,firms may manipulate headcount around the threshold,Test manipulation around the reporting threshold and track firm adjustment margins.
+P05,Nonbinary identity signals and callback heterogeneity,resume signal may not represent disclosure or perceived identity in real workplaces,Clarify that the estimand is treatment of a visible signal at the screening margin.
+P06,Reproductive-health access and early-career job continuity,clinic access changes may track other county-level policy shifts,"Document pre-trends, anticipation windows, and untreated comparison-group logic."
+P07,AI scheduling tools and gendered hours volatility,software adoption may be chosen by stores with worsening staffing problems,"Document pre-trends, anticipation windows, and untreated comparison-group logic."
+P08,Representation in local councils and enforcement of workplace protections,complaints measure reporting behavior as well as underlying violations,Show balance and density checks around the cutoff or close-election threshold.

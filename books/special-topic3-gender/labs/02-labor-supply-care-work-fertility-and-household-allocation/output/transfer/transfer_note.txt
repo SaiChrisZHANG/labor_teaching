@@ -1,0 +1,3 @@
+This transfer exercise uses IVF success as a fertility shifter.
+The first stage is the induced change in birth probability.
+The Wald ratio is a local causal fertility object, not a dynamic child-penalty path.

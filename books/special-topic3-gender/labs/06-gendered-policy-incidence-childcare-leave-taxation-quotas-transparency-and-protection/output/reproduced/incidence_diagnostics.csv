@@ -1,0 +1,5 @@
+object,observed_output,value,interpretation
+average_outcome_effect,gender_gap_change,-1786.5432,threshold-style transparency effect on the synthetic total-pay gap
+incidence,men_total_pay_growth; women_total_pay_growth; bonus_growth,men growth difference -866.2698; women growth difference 920.2734,"gap change can reflect raises, slower men's pay growth, or bonus compression"
+firm_response,bonus growth; retention change,bonus incidence 479.5245; women retention -0.0026,observed firm margins are pay and retention; promotion and hiring remain missing
+welfare,not directly observed,NA,"smaller gaps do not identify utility, autonomy, job quality, or firm surplus"

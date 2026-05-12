@@ -1,0 +1,5 @@
+component,estimate,interpretation
+total_gap_man_minus_woman,0.0145,descriptive difference in mean firm premium among applied jobs
+between_occupation_sorting,0.0139,part associated with different occupation shares among applications
+within_occupation_job_quality,0.0006,part associated with different firm premiums within occupation cells
+residual_rounding,0.0000,rounding and interaction residual in this simple teaching decomposition

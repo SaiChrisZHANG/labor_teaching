@@ -1,0 +1,1 @@
+This synthetic factbook is inspired by gendered-law research. It is useful for classifying outcomes, comparison groups, mechanisms, and design types, but it is not an official replication and not a causal estimate.

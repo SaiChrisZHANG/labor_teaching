@@ -1,0 +1,8 @@
+Week 10 reproduction note
+==========================
+
+Candidate ideas: 8
+Distinct methods: 8
+Distinct labor objects: 8
+
+The reproduction step does not estimate causal effects. It verifies that each idea is represented as a labor object, mechanism, comparison group, data source, method, welfare object, and contribution-ready design sentence.

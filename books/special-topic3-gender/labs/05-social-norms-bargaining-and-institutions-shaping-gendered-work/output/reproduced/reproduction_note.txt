@@ -1,0 +1,3 @@
+This reproduction summarizes a synthetic norm-misperception information exercise.
+The observed margins are posterior perceived support, job-matching sign-up, follow-up job search, and follow-up employment.
+The design is a teaching analog for a belief-about-acceptability channel; it does not estimate wage effects, legal rights, or long-run household bargaining.

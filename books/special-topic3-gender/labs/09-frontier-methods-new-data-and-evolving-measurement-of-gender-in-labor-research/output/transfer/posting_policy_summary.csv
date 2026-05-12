@@ -1,0 +1,4 @@
+period,ads,explicit_gender_preference_share,mean_gendered_language,mean_female_application_share,mean_posted_wage,mean_flexibility
+pre_ban,120,0.1750,0.4142,0.4801,39.8431,0.4796
+post_ban,120,0.0000,0.2590,0.6088,38.5677,0.5020
+post_minus_pre,0,-0.1750,-0.1552,0.1287,-1.2754,0.0224

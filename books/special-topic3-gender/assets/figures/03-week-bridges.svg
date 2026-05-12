@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="560" viewBox="0 0 1100 560" role="img" aria-labelledby="title desc">
+  <title id="title">Week bridges around education, sorting, firms, and norms</title>
+  <desc id="desc">Week 3 links Week 2 household allocation to Week 4 firms and Week 5 norms.</desc>
+  <rect width="1100" height="560" fill="#ffffff"/>
+  <text x="550" y="44" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#17202a">Where Week 3 Sits In The Course</text>
+  <text x="550" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#4b5563">Sorting connects household expectations to firm-side allocation, with norms as a short bridge.</text>
+
+  <rect x="70" y="165" width="220" height="160" rx="12" fill="#e8f4f8" stroke="#2b6f86" stroke-width="3"/>
+  <text x="180" y="198" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#123543">Week 2</text>
+  <text x="180" y="227" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#123543">Care and household</text>
+  <text x="180" y="253" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#123543">allocation</text>
+  <text x="180" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#123543">Expected family roles</text>
+
+  <rect x="350" y="135" width="400" height="220" rx="12" fill="#eaf3ea" stroke="#3b7d3f" stroke-width="3"/>
+  <text x="550" y="174" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#1d3b20">Week 3</text>
+  <text x="550" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#1d3b20">Education, skills, aspirations,</text>
+  <text x="550" y="231" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#1d3b20">and occupational sorting</text>
+  <text x="550" y="273" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#315334">Main objects: field choice, first job,</text>
+  <text x="550" y="297" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#315334">career path dependence, adjustment frictions</text>
+
+  <rect x="810" y="135" width="220" height="160" rx="12" fill="#f7f0d6" stroke="#9a7b18" stroke-width="3"/>
+  <text x="920" y="168" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#453509">Week 4</text>
+  <text x="920" y="197" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#453509">Firms, hiring, pay,</text>
+  <text x="920" y="223" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#453509">promotion</text>
+  <text x="920" y="262" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#453509">Demand side and careers</text>
+
+  <rect x="810" y="330" width="220" height="110" rx="12" fill="#f3e8ee" stroke="#8b3f63" stroke-width="3"/>
+  <text x="920" y="363" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#462033">Week 5</text>
+  <text x="920" y="392" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#462033">Norms, bargaining,</text>
+  <text x="920" y="418" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#462033">institutions</text>
+
+  <path d="M292 245 L338 245" stroke="#374151" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <path d="M752 215 L798 215" stroke="#374151" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <path d="M752 315 C785 340 795 360 805 380" stroke="#6b7280" stroke-width="3" fill="none" stroke-dasharray="8,8" marker-end="url(#arrow-light)"/>
+  <text x="560" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#4b5563">Norms shape aspirations and perceived feasibility, but Week 3 keeps the main focus on sorting mechanisms and evidence.</text>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#374151"/>
+    </marker>
+    <marker id="arrow-light" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#6b7280"/>
+    </marker>
+  </defs>
+</svg>

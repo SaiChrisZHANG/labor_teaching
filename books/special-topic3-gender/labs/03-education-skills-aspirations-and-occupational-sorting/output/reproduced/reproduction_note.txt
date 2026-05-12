@@ -1,0 +1,3 @@
+This reproduction summarizes a synthetic role-model intervention.
+The observed margin is economics major choice, with beliefs and belonging as diagnostic intermediates.
+The reduced form speaks to early choices; it does not estimate later wages, promotion, or occupational persistence.

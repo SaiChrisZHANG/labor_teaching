@@ -1,0 +1,9 @@
+parent,event_time,earnings_index_relative_to_year_minus_1,hours_relative_to_year_minus_1,employment_rate_relative_to_year_minus_1,job_quality_index_relative_to_year_minus_1,weekly_care_hours_relative_to_year_minus_1
+father,0,0.0269,0.0188,-0.0006,-0.2039,-0.1159
+father,2,0.6256,0.1803,-0.0041,0.1147,2.0583
+father,5,1.0210,0.3106,-0.0083,0.2954,3.6171
+father,8,1.5875,0.2821,-0.0091,0.3991,4.5816
+mother,0,-4.1421,-2.9812,0.0001,-0.2280,-0.0920
+mother,2,-14.1258,-4.5490,-0.1012,-4.8407,11.5022
+mother,5,-20.2327,-6.5804,-0.1465,-7.0317,16.4545
+mother,8,-21.6561,-7.0772,-0.1567,-7.3272,17.7418

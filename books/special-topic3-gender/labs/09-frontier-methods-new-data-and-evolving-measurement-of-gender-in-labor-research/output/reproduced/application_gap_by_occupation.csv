@@ -1,0 +1,7 @@
+occupation,woman_application_rate,woman_share_of_applications,woman_mean_applied_firm_premium,woman_mean_applied_wage,man_application_rate,man_share_of_applications,man_mean_applied_firm_premium,man_mean_applied_wage,application_rate_gap_man_minus_woman
+admin,0.4952,0.1651,0.2599,31.1394,0.4881,0.1441,0.2628,31.2439,-0.0071
+care,0.4714,0.1571,0.2119,28.5960,0.4952,0.1462,0.2135,28.6731,0.0238
+logistics,0.3214,0.1071,0.4987,37.9333,0.4429,0.1307,0.4958,37.7903,0.1215
+management,0.6167,0.2056,0.7441,53.8069,0.7238,0.2136,0.7425,53.6875,0.1071
+public,0.5357,0.1786,0.3331,34.6533,0.5571,0.1644,0.3379,34.8974,0.0214
+tech,0.5595,0.1865,0.6173,47.4851,0.6810,0.2010,0.6152,47.3497,0.1215

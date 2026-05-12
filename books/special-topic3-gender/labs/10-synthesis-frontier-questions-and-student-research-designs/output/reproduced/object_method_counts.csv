@@ -1,0 +1,9 @@
+domain,method,candidate_ideas
+care_firms,difference-in-differences event study,1
+firms_authority,manager-mover event study,1
+health_reproduction,event study with cohort-by-county exposure,1
+identity_hiring,randomized audit experiment,1
+policy_firms,threshold difference-in-differences,1
+political_economy,close-election regression discontinuity,1
+technology_ai,staggered rollout event study,1
+urban_safety,difference-in-differences with route fixed effects,1

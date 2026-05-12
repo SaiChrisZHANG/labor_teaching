@@ -1,0 +1,278 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs, array}
+
+\title{Frontier Methods, New Data, And Evolving Measurement}
+\subtitle{Gender Study --- Week 9}
+\author{Teaching deck draft}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Central question}
+\begin{itemize}
+    \item How are new data, designs, and measurement choices changing gender-and-labor research?
+    \item Where are the main empirical shortfalls in the existing literature?
+    \item How do we turn those shortfalls into research designs?
+\end{itemize}
+\vspace{0.25cm}
+\[
+\text{labor object} \rightarrow \text{data family} \rightarrow \text{observed margin}
+\rightarrow \text{identification} \rightarrow \text{welfare interpretation}.
+\]
+\end{frame}
+
+\begin{frame}{Why methods matter for gender and labor}
+\begin{itemize}
+    \item Gender gaps are not one outcome: employment, hours, applications, wages, promotion, authority, safety, climate, identity, and welfare all matter.
+    \item Better data reveal new margins but do not automatically identify mechanisms.
+    \item The same substantive question may require different data: admin panels, matched worker-firm records, audits, postings, platforms, surveys, or time use.
+    \item Week 9 is a research-career bridge: find the observed margin, then name what remains missing.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Bridge from Weeks 2--8}
+\scriptsize
+\begin{tabular}{p{0.18\linewidth} p{0.32\linewidth} p{0.38\linewidth}}
+\toprule
+Week & Substantive object & Week 9 methods question \\
+\midrule
+2 & care, fertility, household allocation & Which event, time-use, or policy variation isolates the care margin? \\
+3 & education, aspirations, sorting & Do we observe expectations, applications, or only realized choices? \\
+4 & firms, promotion, pay-setting & Is the gap worker sorting or firm treatment? \\
+5 & norms and bargaining & Is the norm measured or inferred from outcomes? \\
+6 & policy incidence & Which workers, firms, and households bear the incidence? \\
+7 & safety and hidden harms & Do we observe exposure, reporting, or labor response? \\
+8 & comparative mechanisms & What transports across institutional settings? \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Descriptive gap vs causal identification}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{0.47\linewidth}
+\textbf{Descriptive gap}
+\[
+\Delta^Y = E[Y_i\mid G_i=1] - E[Y_i\mid G_i=0]
+\]
+\begin{itemize}
+    \item Locates where gender differences appear.
+    \item Requires clarity about outcome, population, and gender measure.
+\end{itemize}
+\end{column}
+\begin{column}{0.47\linewidth}
+\textbf{Causal object}
+\[
+\tau = E[Y_i(1)-Y_i(0)\mid i\in \mathcal{P}]
+\]
+\begin{itemize}
+    \item Requires a counterfactual.
+    \item Requires identifying variation and a target population.
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Data-family taxonomy}
+\scriptsize
+\begin{tabular}{p{0.26\linewidth} p{0.31\linewidth} p{0.31\linewidth}}
+\toprule
+Data family & Margin seen well & Persistent blind spot \\
+\midrule
+Matched worker--firm & firm premiums, moves, within/between gaps & nonapplications, hidden harms \\
+Administrative panels & lifecycle dynamics, policy timing & care burden, climate, beliefs \\
+Audits/field experiments & screening, callbacks, evaluation & long-run careers, equilibrium response \\
+Surveys/expectations & beliefs, norms, anticipated discrimination & persistence, response selection \\
+Time-use data & unpaid work, care, scheduling & firm treatment if unlinked \\
+Postings/text & employer demand, language, stated constraints & realized treatment after hire \\
+Platform data & high-frequency supply, tasks, pay & outside options, nonplatform careers \\
+Identity/climate & lived treatment, belonging, exposure & small cells, privacy, comparability \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Setting-to-methods map}
+\scriptsize
+\begin{tabular}{p{0.25\linewidth} p{0.29\linewidth} p{0.34\linewidth}}
+\toprule
+Empirical setting & Observed margin & Practical tools \\
+\midrule
+Childbirth or family shock & earnings, hours, employment event time & event studies, dynamic treatment effects \\
+Matched worker--firm panel & worker moves, wages, firm identifiers & worker and firm fixed effects, mover designs \\
+Resume or hiring audit & callback, interview, offer & randomized signals, heterogeneity \\
+Job-board reform & applications, callbacks, match composition & difference-in-differences, ad-level event studies \\
+Time-use diary & care time, market hours & time-budget decompositions \\
+Platform panel & hours, timing, tasks, earnings & within-worker decompositions \\
+Climate or harassment linkage & complaints, exits, wages, turnover & linked survey-admin, hazards, selection diagnosis \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Matched employer--employee methods}
+\begin{itemize}
+    \item Core question: how much of the gender wage gap reflects firm sorting versus firm treatment?
+    \item Observed margin: worker-firm matches, wages, mobility, tenure, sometimes occupation or establishment.
+    \item Identifying variation: movers across firms and changes in pay around firm transitions.
+    \item Tools: AKM-style worker and firm fixed effects, mover designs, within-firm and between-firm decompositions.
+\end{itemize}
+\vspace{0.2cm}
+\[
+\bar w_m-\bar w_f =
+\sum_j (s_{mj}-s_{fj})\bar w_j
++ \sum_j s_{fj}(\bar w_{mj}-\bar w_{fj}).
+\]
+\end{frame}
+
+\begin{frame}{Administrative event-study methods}
+\begin{itemize}
+    \item Core question: how do earnings, hours, employment, and firm outcomes evolve around childbirth, leave, policy, or job transitions?
+    \item Observed margin: event time in administrative panels.
+    \item Identifying variation: timing around an event or reform.
+    \item Tools: event studies, stacked event studies, dynamic treatment effects, outcome decompositions.
+    \item Threats: anticipation, endogenous timing, selected event populations, and hidden care or climate margins.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Audits and field experiments}
+\begin{itemize}
+    \item Core question: does the screening or evaluation stage treat otherwise comparable applicants differently?
+    \item Observed margin: callback, interview, offer, evaluation score, application response.
+    \item Identifying variation: randomized names, gender signals, identity signals, information, or recruiting messages.
+    \item Strength: clean treatment variation at a specific stage.
+    \item Limit: may not observe later retention, promotion, workplace treatment, or equilibrium adjustment.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Applications, postings, and text}
+\begin{itemize}
+    \item Application data reveal the pre-match margin: who applies to which jobs before accepted jobs are observed.
+    \item Posting data reveal employer demand: stated restrictions, flexibility, pay, tasks, seniority, culture signals, and language.
+    \item Text-as-data tools include dictionaries, supervised classifiers, validated language measures, and ad-level fixed effects.
+    \item Identifying variation can come from platform rule changes, posting bans, randomized ad text, or quasi-experimental ad exposure.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Platform data and hidden margins}
+\begin{itemize}
+    \item Platform records observe high-frequency behavior: hours, timing, location, task choice, speed, ratings, and earnings.
+    \item Within-worker decompositions can separate hours, experience, task selection, and scheduling.
+    \item The design often sees behavior conditional on platform participation.
+    \item Hidden margins remain: outside options, safety, harassment, care constraints, algorithmic exposure, and nonplatform career effects.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Incidence vs hidden harms}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{0.47\linewidth}
+\textbf{Incidence}
+\begin{itemize}
+    \item Who bears the effect?
+    \item Workers, firms, coworkers, applicants, households, consumers.
+    \item Example margins: wages, hiring, compliance, sorting, hours.
+\end{itemize}
+\end{column}
+\begin{column}{0.47\linewidth}
+\textbf{Hidden harms}
+\begin{itemize}
+    \item What does the direct outcome miss?
+    \item Fear, harassment, retaliation, concealment, mobility avoidance, dignity.
+    \item A wage effect is not a complete welfare object.
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Measurement of gender and identity}
+\scriptsize
+\begin{tabular}{p{0.26\linewidth} p{0.32\linewidth} p{0.30\linewidth}}
+\toprule
+Measurement object & Why it matters & Main challenge \\
+\midrule
+Legal sex/admin category & linkage and long panels & may not match identity or treatment \\
+Self-identified gender & lived identity and experience & small cells, privacy, nonresponse \\
+Perceived gender & hiring, promotion, harassment mechanism & rarely observed directly \\
+Workplace climate & retention, authority, welfare & selective and imperfect measures \\
+Intersectional categories & realistic heterogeneity & precision and disclosure risk \\
+Cross-time categories & trend interpretation & forms and categories change \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Legal categories vs lived treatment}
+\begin{itemize}
+    \item Administrative data may record legal sex because that is what the form collects.
+    \item Employers and coworkers may respond to perceived gender, pregnancy, parenthood, name, presentation, sexuality, race-gender stereotypes, or disclosure.
+    \item The data category and the mechanism may differ.
+    \item A strong paper states which object is measured and which object is theoretically relevant.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Empirical challenges and shortfalls}
+\begin{itemize}
+    \item Selection into observed employment, firms, applications, surveys, and reports.
+    \item Sorting versus treatment in occupations, firms, teams, policies, and platforms.
+    \item Anticipation before childbirth, leave, promotion, reporting, and exits.
+    \item Underreporting and hidden harms in safety, climate, and harassment research.
+    \item Firm adaptation to transparency, quotas, compliance, and anti-discrimination rules.
+    \item Small cells, privacy, and category changes in identity and intersectional research.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Research openings}
+\scriptsize
+\begin{tabular}{p{0.29\linewidth} p{0.56\linewidth}}
+\toprule
+Opening & Publishable contribution \\
+\midrule
+Hidden harms & connect safety, climate, or dignity to labor behavior and welfare \\
+Firm-side measurement & observe tasks, supervisors, evaluations, internal ladders \\
+Identity/treatment mismatch & distinguish legal category, self-identity, perception, and treatment \\
+Search and applications & observe nonapplication, callback, match, and sorting margins \\
+Comparative portability & identify what mechanism travels across institutions \\
+Intersectional gender & use privacy-safe aggregation with honest precision limits \\
+Policy as mechanism test & decompose which margin moves and why \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Week 9 lab}
+\begin{itemize}
+    \item Reproduce: synthetic application-gap decompositions inspired by Fluchtmann, Glenny, Harmon, and Maibom.
+    \item Diagnose: what application data see and what they miss; compare to matched employer--employee and job-posting designs.
+    \item Transfer: platform within-worker decompositions and posting-policy design logic.
+    \item Optional memo: how evolving identity measurement changes audit or application designs.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Bridge to Week 10}
+\begin{enumerate}
+    \item State the labor object.
+    \item Define the gender concept.
+    \item Name the observed margin.
+    \item Identify the variation.
+    \item Diagnose sorting, treatment, and hidden harms.
+    \item State the welfare object and limits.
+    \item Say what readers should update.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item New data expand the gender-and-labor frontier by making margins visible.
+    \item The research design still turns on identification, measurement, and welfare interpretation.
+    \item The best projects convert empirical shortfalls into disciplined contributions.
+    \item Week 10 uses this toolkit to build student research designs.
+\end{itemize}
+\end{frame}
+
+\end{document}

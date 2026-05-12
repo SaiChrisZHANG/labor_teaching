@@ -1,0 +1,9 @@
+variable,mechanism,primary_labor_margin,corr_with_female_lfp,corr_with_female_hours,corr_with_job_continuity,corr_with_gender_wage_gap,portable_mechanism,setting_specific_warning
+care_index,care infrastructure,labor supply and job continuity,0.9704,0.9763,0.9895,-0.9709,care and continuity constraints shape labor supply,"coverage, financing, and informal care substitutes differ"
+leave_generosity,family policy design,retention and continuity,0.9601,0.9712,0.9848,-0.9664,care and continuity constraints shape labor supply,"coverage, financing, and informal care substitutes differ"
+service_share,service-sector labor demand,participation and hours,0.9571,0.9757,0.9544,-0.9458,sectoral demand changes feasible jobs,"jobs may differ in safety, hours, and acceptability"
+legal_access_index,legal regime,formal feasibility,0.9760,0.9767,0.9861,-0.9876,institution changes feasible or observed labor-market margin,"enforcement, coverage, and data visibility differ"
+formality_rate,formality,coverage and measured wage work,0.9514,0.9497,0.9552,-0.9663,institution changes feasible or observed labor-market margin,"enforcement, coverage, and data visibility differ"
+norm_restrictiveness,norms,acceptable work and household allocation,-0.9568,-0.9595,-0.9391,0.9546,constraint raises fixed cost of market work,content and enforcement vary across settings
+mobility_cost,mobility,search radius and feasible jobs,-0.9749,-0.9750,-0.9637,0.9803,constraint raises fixed cost of market work,content and enforcement vary across settings
+public_employment_share,public employment,state labor demand,0.7275,0.6893,0.7130,-0.7495,institution changes feasible or observed labor-market margin,"enforcement, coverage, and data visibility differ"

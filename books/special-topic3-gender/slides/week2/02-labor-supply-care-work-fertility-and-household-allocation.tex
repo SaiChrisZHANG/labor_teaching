@@ -1,0 +1,201 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs}
+
+\title{Labor Supply, Care Work, Fertility, And Household Allocation}
+\subtitle{Gender Study --- Week 2}
+\author{Teaching deck draft}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Central question}
+\begin{itemize}
+    \item How do care responsibilities, fertility, and household allocation shape labor supply and earnings trajectories?
+    \item This is labor economics because care work changes employment, hours, earnings, occupations, firms, schedules, and job quality.
+    \item Week 2 discipline: match each empirical object to the margin it identifies.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Week 1 to Week 2 bridge}
+\begin{itemize}
+    \item Week 1: name the labor object before naming the mechanism.
+    \item Week 2: move from person-level gaps to household and lifecycle allocation.
+    \item A post-birth earnings gap can reflect care time, hours, employment, occupation, firm attachment, bargaining, policy, or norms.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Labor supply inside the household}
+\small
+\begin{tabular}{p{0.28\linewidth} p{0.58\linewidth}}
+\toprule
+Object & Labor-market margin \\
+\midrule
+Market work & participation, hours, earnings, wage growth \\
+Unpaid care & time constraints, availability for work, fatigue, schedule limits \\
+Household production & substitution between parental time and market inputs \\
+Fertility timing & interruptions, experience, promotion, firm continuity \\
+Control over resources & labor supply, spending, care allocation, outside options \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Time allocation object}
+\[
+T_i = h_i + a_i + \ell_i
+\]
+\begin{itemize}
+    \item \(h_i\): market work.
+    \item \(a_i\): unpaid care or home production.
+    \item \(\ell_i\): leisure.
+    \item A birth shock raises care demand and changes the feasible allocation of time.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Household production}
+\[
+\max U(c_f,c_m,\ell_f,\ell_m,q)
+\quad \text{s.t.} \quad
+c_f+c_m+p_xx=w_fh_f+w_mh_m+y,
+\quad q=F(a_f,a_m,x)
+\]
+\begin{itemize}
+    \item Care quality \(q\) is produced with parental time and market inputs.
+    \item Childcare policy changes \(p_x\), availability, reliability, or timing.
+    \item The labor response can be participation, hours, earnings, occupation, firm choice, or job quality.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Why comparative advantage is not enough}
+\begin{itemize}
+    \item Wage differences can rationalize some specialization, but they do not explain all gendered care allocation.
+    \item Persistent asymmetry may also reflect childcare constraints, bargaining, employer flexibility, and norms.
+    \item The empirical task is to avoid labeling every post-birth outcome as preferences or as discrimination.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Fertility and child penalties}
+\begin{itemize}
+    \item Fertility changes care demand and lifecycle timing.
+    \item Child penalties trace dynamic post-birth paths for mothers and fathers.
+    \item Outcomes include employment, hours, earnings, occupation, firm attachment, promotion, and job quality.
+    \item The child penalty is a labor-market object, not a mechanism by itself.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Child-penalty event-study object}
+\[
+Y_{it}^{g} =
+\sum_{k \neq -1}\beta_k^{g}\mathbf{1}\{t-B_i=k\}
++\alpha_i+\gamma_t+\varepsilon_{it}
+\]
+\begin{itemize}
+    \item \(B_i\) is first birth and \(k\) is event time.
+    \item \(\beta_k^{g}\) traces the dynamic path relative to the pre-birth period.
+    \item Best for timing and persistence; not automatically a causal fertility estimate.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Fertility effects are a different object}
+\[
+Y_i = \alpha + \tau K_i + X_i'\delta + u_i,
+\qquad K_i \leftarrow Z_i
+\]
+\begin{itemize}
+    \item \(K_i\) is fertility and \(Z_i\) is a fertility shifter such as IVF success.
+    \item The target is a causal fertility effect for a specific margin.
+    \item External validity depends on which families and fertility margins the shifter moves.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Bargaining and control over resources}
+\[
+\max \lambda U_f(c_f,\ell_f,q)+(1-\lambda)U_m(c_m,\ell_m,q)
+\]
+\begin{itemize}
+    \item Unitary models pool resources and provide a clean benchmark.
+    \item Collective models allow resource control and outside options to move \(\lambda\).
+    \item A policy effect may be a price effect, income effect, or bargaining effect.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Childcare and policy constraints}
+\begin{itemize}
+    \item Childcare can relax a binding time constraint without changing wages.
+    \item Single-parent and coupled households may respond on different margins.
+    \item The relevant outcome may be employment, hours, earnings, retention, occupation, firm choice, or job quality.
+    \item Policy evidence is strongest when it states the margin moved and the counterfactual.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Designs and what they identify}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{p{0.25\linewidth} p{0.23\linewidth} p{0.18\linewidth} p{0.16\linewidth}}
+\toprule
+Setting & Object & Method & Main caution \\
+\midrule
+Birth event study & child penalty path & event time / panel FE & descriptive by itself \\
+IVF or infertility & causal fertility effect & IV / quasi-experiment & local margin \\
+Childcare reform & constraint relaxation & RCT / DID & multiple channels \\
+Resource-control shift & bargaining response & RF / structural & map shift to power \\
+Time-use panel & care reallocation & descriptive / panel & weak on earnings dynamics \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Margin discipline}
+\begin{itemize}
+    \item Extensive margin: does the worker participate?
+    \item Intensive margin: how many hours and which schedule?
+    \item Earnings: hours, wages, employment, and career progression combined.
+    \item Job quality: flexibility, predictability, commute, promotion, authority, and firm attachment.
+    \item Care time: unpaid work can move even when payroll outcomes do not.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Norms bridge to Week 5}
+\begin{itemize}
+    \item Domestic responsibility allocation partly reflects gender norms and traditions.
+    \item Norms about caregiving, motherhood, breadwinning, and relative earnings can sustain specialization.
+    \item Week 2 flags this mechanism; Week 5 studies norms, beliefs, identity, and institutions directly.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Week 2 lab}
+\begin{itemize}
+    \item Reproduce: synthetic child-penalty event-time summaries.
+    \item Diagnose: what the event study shows, and what it cannot identify alone.
+    \item Transfer: synthetic IVF-style fertility design and local causal fertility effects.
+    \item Optional policy prompt: how childcare availability changes the same household allocation problem.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Bridge forward}
+\begin{itemize}
+    \item Week 3: care responsibilities and fertility timing shape skills, aspirations, and occupational sorting.
+    \item Week 5: norms and institutions help explain persistent domestic responsibility allocation.
+    \item Later policy weeks ask which interventions move the actual labor margin: care time, employment, hours, earnings, or job quality.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item Care work is a production and allocation problem.
+    \item Child penalties, fertility effects, bargaining shifts, and childcare policy effects identify different objects.
+    \item The labor margins are multidimensional: participation, hours, earnings, occupations, firms, promotions, care time, and job quality.
+    \item Week 2 is the household and lifecycle foundation for the rest of the course.
+\end{itemize}
+\end{frame}
+
+\end{document}

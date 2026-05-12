@@ -1,0 +1,7 @@
+occupation,applications,customer_facing_share,cis_signal_callback_rate,trans_signal_callback_rate,trans_minus_cis_gap,interpretation
+admin,70,0.0000,0.4000,0.3714,-0.0286,challenge audit margin; not evidence on within-job treatment after hire
+care,114,1.0000,0.4035,0.3158,-0.0877,challenge audit margin; not evidence on within-job treatment after hire
+logistics,90,0.0000,0.5111,0.2889,-0.2222,challenge audit margin; not evidence on within-job treatment after hire
+public,60,1.0000,0.4667,0.3333,-0.1333,challenge audit margin; not evidence on within-job treatment after hire
+retail,62,1.0000,0.4194,0.4194,0.0000,challenge audit margin; not evidence on within-job treatment after hire
+tech,84,0.0000,0.4048,0.3810,-0.0238,challenge audit margin; not evidence on within-job treatment after hire

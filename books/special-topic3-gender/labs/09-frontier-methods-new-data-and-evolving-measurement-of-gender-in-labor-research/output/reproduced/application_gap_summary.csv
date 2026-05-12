@@ -1,0 +1,3 @@
+gender,workers,choice_set_rows,applications,application_rate,mean_applications_per_worker,callback_rate_among_applications,share_applications_high_wage,share_applications_high_premium,mean_applied_wage,mean_applied_commute,mean_applied_flexibility,mean_applied_gendered_language,mean_worker_care_constraint,mean_worker_search_intensity
+man,210,2520,1423,0.5647,6.7762,0.4800,0.4146,0.4926,40.3563,32.4048,0.5300,0.4253,0.3766,0.6020
+woman,210,2520,1260,0.5000,6.0000,0.4556,0.3921,0.4611,39.8032,31.5746,0.5466,0.4035,0.5727,0.5792

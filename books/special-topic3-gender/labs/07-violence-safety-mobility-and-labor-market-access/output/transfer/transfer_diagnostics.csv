@@ -1,0 +1,4 @@
+diagnostic,value,interpretation
+reporting_gap,0.2335,survey risk exceeds reports; reports are selected measures of exposure
+female_minus_male_quit_rate,0.0604,quit margin may reveal harassment-risk sorting and hidden welfare costs
+observed_margin,quit_next_year; moves_to_safer_job; wage; job_quality_score,"labor response and welfare proxies, not full utility"

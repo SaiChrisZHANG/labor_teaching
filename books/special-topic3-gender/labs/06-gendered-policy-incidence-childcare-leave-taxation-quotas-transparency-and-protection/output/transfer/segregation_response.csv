@@ -1,0 +1,5 @@
+rule_exposed,period,worker_periods,share_adjusted_job_cell,share_female_concentrated_cell,share_male_concentrated_cell,female_share,mean_wage
+0,-1,2240,0.0000,0.0000,0.0000,0.4830,62031.7328
+0,1,2240,0.0000,0.0000,0.0000,0.4830,62995.7263
+1,-1,2240,0.1496,0.0777,0.0719,0.4826,62468.9237
+1,1,2240,0.1496,0.0777,0.0719,0.4826,63612.1017

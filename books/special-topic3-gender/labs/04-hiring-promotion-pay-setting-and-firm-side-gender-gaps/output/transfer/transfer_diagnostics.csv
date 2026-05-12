@@ -1,0 +1,4 @@
+female,blind_minus_nonblind_advancement,observed_margin,interpretation
+0,-0.0358,entry-stage advancement,"screening design, not downstream promotion or wage-setting"
+1,0.0989,entry-stage advancement,"screening design, not downstream promotion or wage-setting"
+gap_female_minus_male,0.1347,change in gender advancement gap,procedure changes entry screen; later outcomes remain unobserved

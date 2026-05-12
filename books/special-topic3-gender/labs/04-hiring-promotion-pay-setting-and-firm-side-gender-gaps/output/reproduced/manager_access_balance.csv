@@ -1,0 +1,5 @@
+female,manager_overlap,workers,mean_baseline_performance,mean_pre_level,mean_prior_wage
+0,0,216,-0.0420,3.0000,62066.6084
+0,1,144,0.1011,3.0000,62269.1754
+1,0,216,-0.0073,2.0000,59359.0080
+1,1,144,-0.0297,2.0000,59422.0566

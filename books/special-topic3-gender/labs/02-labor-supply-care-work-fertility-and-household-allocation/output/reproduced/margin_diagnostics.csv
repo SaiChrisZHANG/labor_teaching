@@ -1,0 +1,5 @@
+event_time,earnings_mother_minus_father,hours_mother_minus_father,care_hours_mother_minus_father,interpretation
+0,-4.1690,-3.0000,0.0239,"dynamic child penalty, not a stand-alone causal fertility estimate"
+2,-14.7514,-4.7293,9.4439,"dynamic child penalty, not a stand-alone causal fertility estimate"
+5,-21.2537,-6.8910,12.8374,"dynamic child penalty, not a stand-alone causal fertility estimate"
+8,-23.2436,-7.3593,13.1602,"dynamic child penalty, not a stand-alone causal fertility estimate"

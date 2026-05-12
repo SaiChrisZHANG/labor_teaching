@@ -6,6 +6,17 @@ project:
     - references.bib
   toc:
     - file: index.md
+    - file: 01-why-gender-matters-for-labor-economics.md
+    - file: 02-labor-supply-care-work-fertility-and-household-allocation.md
+    - file: 03-education-skills-aspirations-and-occupational-sorting.md
+    - file: 04-hiring-promotion-pay-setting-and-firm-side-gender-gaps.md
+    - file: 05-social-norms-bargaining-and-institutions-shaping-gendered-work.md
+    - file: 06-gendered-policy-incidence-childcare-leave-taxation-quotas-transparency-and-protection.md
+    - file: 07-violence-safety-mobility-and-labor-market-access.md
+    - file: 08-comparative-and-global-gender-in-labor-market-development.md
+    - file: 09-frontier-methods-new-data-and-evolving-measurement-of-gender-in-labor-research.md
+    - file: optional-lgbtq-identities-work-discrimination-and-labor-market-institutions.md
+    - file: 10-synthesis-frontier-questions-and-student-research-designs.md
 site:
   template: book-theme
   title: Gender Study

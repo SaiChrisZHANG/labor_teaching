@@ -1,0 +1,5 @@
+female,high_risk_job,workers,mean_survey_harassment_risk,mean_reported_harassment,mean_wage,mean_quit_next_year,mean_moves_to_safer_job,mean_job_quality_score
+0,0,160,0.2341,0.0750,45726.1506,0.1500,0.0437,0.6161
+0,1,320,0.3293,0.0969,62180.9406,0.1719,0.0750,0.5220
+1,0,320,0.3004,0.0719,48378.7242,0.2250,0.1875,0.5866
+1,1,160,0.4949,0.1750,56225.0796,0.2250,0.1938,0.4546

@@ -1,0 +1,4 @@
+exposure_group,female,treated_separation_change,comparison_separation_change,difference_in_differences,treated_sick_days_change,interpretation
+victim,1,0.5000,-0.0208,0.5208,6.9764,"reported-event response, not total latent exposure"
+coworker,0,0.0667,0.0041,0.0626,-0.2082,"reported-event response, not total latent exposure"
+coworker,1,0.0625,-0.0208,0.0833,2.1370,"reported-event response, not total latent exposure"

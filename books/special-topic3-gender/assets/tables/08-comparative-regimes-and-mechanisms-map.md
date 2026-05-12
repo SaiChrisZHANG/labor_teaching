@@ -1,0 +1,8 @@
+| Regime / setting | Core labor mechanism | Typical gender margin | Why it matters for labor economics |
+|---|---|---|---|
+| High-income welfare states | Family policy, care infrastructure, tax design, wage-setting institutions | Hours, retention, promotion, child penalties | Reveals how policy and institutions shape labor supply and career trajectories |
+| Middle-income structural transformation settings | Service-sector growth, informality, migration, public employment | Participation, sectoral allocation, formality | Shows how labor demand and structural change interact with gendered supply |
+| Low-income / high-informality settings | Household production, mobility constraints, legal barriers, unpaid care | Market entry, self-employment, informal work | Highlights feasibility constraints rather than only wage gaps |
+| High-migration settings | Internal/external mobility rules, network effects, safety, legal status | Search radius, migration, occupation choice | Connects gender gaps to movement and access |
+| Strong-norm / restrictive legal settings | Social norms, family law, labor restrictions, public employment | Participation, acceptable jobs, public/private sector sorting | Distinguishes norm-driven and institution-driven labor allocation |
+| Public-employment-heavy settings | Civil-service recruitment, benefits, wage compression, stability | Sector sorting, retention, authority | Shows how state demand can change gendered career patterns |

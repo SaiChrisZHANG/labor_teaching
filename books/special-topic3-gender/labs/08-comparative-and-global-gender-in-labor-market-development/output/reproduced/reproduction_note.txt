@@ -1,0 +1,4 @@
+This reproduction summarizes deterministic synthetic comparative gender-and-labor data.
+The exercise is inspired by comparative family-policy evidence, not an official replication.
+Use the outputs to distinguish labor-supply, labor-demand, care, legal, formality, mobility, and norms mechanisms.
+Transport mechanisms across settings; do not mechanically transport policy labels or effect sizes.

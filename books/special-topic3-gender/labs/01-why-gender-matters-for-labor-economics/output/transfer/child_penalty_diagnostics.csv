@@ -1,0 +1,5 @@
+comparison,female_change_earnings_index,male_change_earnings_index,differential_child_penalty_earnings_index,female_change_hours_index,male_change_hours_index,differential_child_penalty_hours_index,female_change_employment_index,male_change_employment_index,differential_child_penalty_employment_index
+event_0_minus_event_-1,-29.4,2.7,-32.1,-22.0,1.2,-23.2,-14.0,0.1,-14.1
+event_2_minus_event_-1,-23.2,4.1,-27.3,-18.4,1.6,-20.0,-11.8,0.3,-12.1
+event_5_minus_event_-1,-14.4,6.2,-20.6,-13.0,2.2,-15.2,-9.0,0.6,-9.6
+event_8_minus_event_-1,-12.6,8.3,-20.9,-13.0,2.8,-15.8,-9.0,0.9,-9.9

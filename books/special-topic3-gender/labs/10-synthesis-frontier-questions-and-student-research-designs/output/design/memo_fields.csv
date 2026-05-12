@@ -1,0 +1,12 @@
+field,draft
+research_question,How does care constraints reduce feasible job continuity shape retention at high-premium firms?
+labor_market_object,retention at high-premium firms
+mechanism,care constraints reduce feasible job continuity
+comparison_group_or_counterfactual,workers near newly expanded childcare slots vs similar workers farther away
+key_labor_margin,retention and firm sorting
+data_source,administrative worker-firm panel linked to childcare openings
+identification_strategy,difference-in-differences event study
+main_threats,childcare openings may target neighborhoods with changing labor demand
+portability_and_broad_relevance,portable mechanism if care availability constrains access to high-premium firms
+welfare_or_distributional_object,"earnings, job continuity, and care-time constraints"
+contribution,"This project uses difference-in-differences event study in a administrative worker-firm panel linked to childcare openings setting to identify how care constraints reduce feasible job continuity changes retention at high-premium firms, with implications for earnings, job continuity, and care-time constraints."

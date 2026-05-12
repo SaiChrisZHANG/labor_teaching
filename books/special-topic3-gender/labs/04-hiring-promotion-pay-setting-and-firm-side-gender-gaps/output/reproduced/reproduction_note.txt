@@ -1,0 +1,3 @@
+This reproduction summarizes a synthetic within-firm manager-access exercise.
+The observed margins are informal interaction, mentoring, promotion, wage growth, and retention.
+The design is a teaching analog for personnel-data evidence; it does not estimate sorting into firms.

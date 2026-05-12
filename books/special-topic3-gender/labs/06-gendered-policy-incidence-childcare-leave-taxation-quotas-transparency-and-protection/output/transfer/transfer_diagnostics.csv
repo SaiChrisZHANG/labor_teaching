@@ -1,0 +1,5 @@
+object,observed_output,value,interpretation
+average_outcome_effect,aggregate_wage_gap_did,-1321.4030,effect of equal-pay exposure on the synthetic aggregate wage gap
+firm_response,adjusted_job_cell_share,0.0000,job-cell segregation response induced by constraining similar-work pay gaps
+incidence,gap_did plus segregation response,tracked across pay and job cells,workers may gain in comparable-cell pay while losing through sorting or classification
+welfare,not directly observed,NA,"welfare requires utility, mobility, job quality, firm surplus, and compliance costs"

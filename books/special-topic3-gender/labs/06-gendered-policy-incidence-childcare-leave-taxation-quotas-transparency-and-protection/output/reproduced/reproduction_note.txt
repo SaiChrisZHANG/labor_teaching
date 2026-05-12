@@ -1,0 +1,4 @@
+This reproduction summarizes a synthetic pay-transparency threshold exercise.
+The treated unit is the firm above the reporting threshold.
+The observed margins are base pay, bonuses, total pay, and retention.
+Use the diagnostics to separate gap effects, incidence, firm response, and missing welfare objects.

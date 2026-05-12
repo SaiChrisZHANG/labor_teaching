@@ -1,0 +1,3 @@
+This reproduction traces event-time paths around first birth.
+The outputs separate labor-market reallocation from care-time reallocation.
+The event-study path is descriptive unless paired with a separate causal design or policy counterfactual.

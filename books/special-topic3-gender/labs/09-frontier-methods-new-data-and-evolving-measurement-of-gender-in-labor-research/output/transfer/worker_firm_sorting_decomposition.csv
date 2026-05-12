@@ -1,0 +1,6 @@
+component,estimate,interpretation
+total_log_wage_gap_man_minus_woman,0.0749,descriptive wage gap in the synthetic worker-firm panel
+between_firm_type_sorting,0.0380,part associated with different firm-type shares
+within_firm_type_gap,0.0368,part associated with wage differences within firm-type cells
+promotion_gap_man_minus_woman,0.0000,"direct promotion margin, still descriptive without identifying variation"
+residual_rounding,-0.0000,rounding and interaction residual in this simple teaching decomposition

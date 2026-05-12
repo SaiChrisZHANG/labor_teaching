@@ -1,0 +1,6 @@
+shortfall,why_it_matters,diagnosis,possible_fix
+selection into observed choice set,workers may not see the same vacancies or may avoid platforms entirely,application gaps are conditional on observed jobs,observe vacancy exposure or randomize information about jobs
+sorting versus firm treatment,"application data reveal where workers apply, not how firms treat hired workers over time","callbacks are a screening margin, not a promotion or wage-setting margin",link applications to matched employer-employee or personnel records
+posted attributes versus lived job quality,"flexibility, climate, safety, and authority may differ from posted language",text and postings proxy job design but do not observe workplace treatment,"link postings to worker surveys, retention, reviews, or internal records"
+hidden harms and welfare,"wages and callbacks miss fear, harassment, retaliation, dignity, and identity concealment","standard outcomes are direct outcomes, not complete welfare objects","add climate, safety, disclosure, and retention measures"
+gender measurement,"legal category, self-identity, perceived gender, and workplace treatment can differ",binary categories can be useful for teaching but incomplete for frontier research,design privacy-safe identity measurement and pre-specify aggregation rules

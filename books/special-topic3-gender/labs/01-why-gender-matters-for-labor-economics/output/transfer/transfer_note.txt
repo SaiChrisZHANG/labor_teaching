@@ -1,0 +1,1 @@
+The transfer exercise converts the Week 1 diagnostic framework to lifecycle timing. It highlights that child-penalty evidence is dynamic: the comparison period and outcome choice are part of the estimand.

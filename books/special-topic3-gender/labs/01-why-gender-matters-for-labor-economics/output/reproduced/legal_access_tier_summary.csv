@@ -1,0 +1,4 @@
+legal_access_tier,country_years,legal_access_score,workplace_protection_score,family_law_score,paid_leave_weeks,female_lfp_rate,male_lfp_rate,lfp_gap_female_minus_male,employment_gap_female_minus_male,hours_gap_female_minus_male,female_authority_share
+low_legal_access,19,0.408,0.397,0.357,7.95,0.422,0.75,-0.327,-0.336,-7.84,0.207
+middle_legal_access,16,0.586,0.576,0.523,10.44,0.544,0.784,-0.24,-0.245,-7.14,0.31
+high_legal_access,15,0.806,0.793,0.733,13.67,0.662,0.811,-0.149,-0.152,-6.39,0.427

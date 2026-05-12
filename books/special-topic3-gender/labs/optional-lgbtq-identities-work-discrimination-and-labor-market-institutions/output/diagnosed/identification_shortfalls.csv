@@ -1,0 +1,6 @@
+shortfall,why_it_matters,diagnosis,possible_fix
+underlying membership versus disclosed signal,"audit estimates treatment of visible signals, not outcomes for everyone in the population",identity_signal is randomized; LGBTQ+ identity itself is not,combine audits with privacy-safe worker identity and disclosure surveys
+hiring versus within-job treatment,"callback gaps may coexist with different pay, promotion, benefits, climate, or exits after hire",callback is the only direct employer outcome in the audit path,"link applications to accepted jobs, payroll, benefit records, and climate measures"
+firm heterogeneity,discrimination may be concentrated in low-climate employers rather than spread evenly,synthetic low-climate gap is -0.1087 and high-climate gap is -0.1250,use large-employer audit platforms or repeated applications by firm
+legal protection versus workplace treatment,formal protection can change law without changing climate or worker beliefs,state_protection is observed but not randomly assigned in this synthetic path,use policy timing plus outcomes that separately measure employer and worker response
+hidden harms,"wages and callbacks miss concealment, harassment, safety, dignity, and stress",the audit observes callback only,"add survey/list experiments, climate modules, retention, and wellbeing measures"

@@ -1,0 +1,4 @@
+This reproduction summarizes deterministic synthetic application choice-set data.
+The exercise is inspired by administrative application-gap evidence, not an official replication.
+The decomposition is descriptive: it separates observed application sorting from causal firm treatment.
+Use the outputs to ask what application data observe and what remains hidden after the match.

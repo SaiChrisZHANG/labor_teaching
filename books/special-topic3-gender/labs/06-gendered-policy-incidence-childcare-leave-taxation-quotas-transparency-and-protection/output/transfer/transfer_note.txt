@@ -1,0 +1,3 @@
+This transfer exercise summarizes a synthetic equal-pay-for-similar-work setting.
+The observed margins are within-job-family wage gaps and adjusted job-cell segregation.
+Use the diagnostics to explain why equal-pay rules can affect both pay and sorting.

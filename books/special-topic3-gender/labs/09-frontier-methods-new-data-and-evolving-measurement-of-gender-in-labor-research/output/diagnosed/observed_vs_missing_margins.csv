@@ -1,0 +1,5 @@
+design_object,observed_margin,what_it_identifies_well,what_it_misses,stronger_linkage
+application choice set,worker-job rows and application decisions,descriptive search and sorting patterns conditional on observed choice sets,"jobs never shown, informal search, identity disclosure, climate after hiring",platform exposure logs or survey modules on beliefs and constraints
+callback among applications,employer response conditional on applying,screening gap among applicants in the observed pool,workers deterred from applying and later treatment after hire,audit randomization or employer-side personnel data
+job attributes,"posted wage, commute, flexibility, language, firm premium",which posted attributes correlate with application behavior,"true amenities, supervisor behavior, promotion ladders, harassment risk","matched worker-firm data, climate surveys, and internal vacancy records"
+gender variable,binary synthetic gender category,teaching contrast for application behavior,legal sex versus self-identified gender versus perceived workplace treatment,privacy-safe identity and climate measurement

@@ -1,0 +1,4 @@
+outcome,first_stage_birth_rate,reduced_form,wald_effect_of_birth,interpretation
+employment_after,0.4320,-0.0562,-0.1301,local fertility effect for the IVF-shifted margin
+hours_after,0.4320,-2.7339,-6.3285,local fertility effect for the IVF-shifted margin
+earnings_after_index,0.4320,-5.3609,-12.4095,local fertility effect for the IVF-shifted margin

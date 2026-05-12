@@ -1,0 +1,7 @@
+Week 10 diagnosis note
+======================
+
+Highest-scoring idea: P01 -- Childcare access and retention at high-premium firms (14/14).
+Lowest-scoring idea: P05 -- Nonbinary identity signals and callback heterogeneity (11/14).
+
+Scores are pedagogical diagnostics, not quality rankings. The goal is to force explicit discussion of labor focus, mechanism clarity, counterfactuals, data fit, identification, welfare, and portability.

@@ -1,0 +1,4 @@
+This reproduction summarizes deterministic synthetic correspondence-audit data.
+The exercise is inspired by Tilcsik's Pride and Prejudice design, not an official replication.
+The randomized object is an identity signal in otherwise comparable resumes.
+The observed margin is callback; the design does not observe applications avoided, post-hire treatment, or hidden welfare costs.

@@ -1,0 +1,6 @@
+setting,cells,mean_care_index,mean_service_share,mean_norm_restrictiveness,mean_mobility_cost,mean_informality_rate,mean_legal_access_index,mean_demand_opportunity,mean_supply_feasibility,mean_female_lfp,mean_acceptable_service_jobs,mean_transportability_score
+care_bind_high_service,40,0.7800,0.8455,0.3760,0.2250,0.2459,0.7892,0.7727,0.4829,0.5954,0.4008,0.5721
+informality_bind_legal_reform,40,0.4170,0.5188,0.5087,0.4405,0.6980,0.7341,0.5566,0.2792,0.3978,0.1737,0.3191
+mobility_bind_transition,40,0.4640,0.6299,0.5664,0.7036,0.4812,0.5388,0.6402,0.1989,0.4162,0.1603,0.3031
+norm_bind_high_service,40,0.3821,0.7795,0.7485,0.4938,0.2844,0.5795,0.7375,0.1689,0.4515,0.2178,0.3342
+public_jobs_with_care,40,0.6262,0.5471,0.4408,0.3207,0.3487,0.8180,0.6249,0.4036,0.5101,0.2308,0.4591

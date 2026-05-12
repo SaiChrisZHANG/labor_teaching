@@ -1,0 +1,5 @@
+share_bin,households,mean_wife_earning_share,mean_wife_weekly_hours,mean_husband_weekly_hours,mean_wife_home_hours
+40_to_50,483,0.4541,32.6026,39.6987,16.5356
+50_to_60,145,0.5282,29.8479,40.1070,21.0137
+above_60,15,0.6177,31.7940,39.8878,21.2896
+below_40,197,0.3524,30.7997,40.1339,16.6359
