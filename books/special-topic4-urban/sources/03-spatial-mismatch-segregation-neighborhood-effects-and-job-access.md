@@ -159,17 +159,17 @@ used only as a framing device for why age, timing, and duration of neighborhood 
 ## Must-cover papers
 
 ### Mechanisms and mismatch framing
-- `[@kainHousingSegregationNegro1968]`
-- `[@gobillonSelodZenou2007]`
+- `[@kain1968HousingSegregation]`
+- `[@gobillonSelodZenou2007SpatialMismatch]`
 
 ### Networks and spatial access
-- `[@bayerRossTopa2008]`
+- `[@bayerRossTopa2008InformalHiringNetworks]`
 - `[@hellersteinMcInerneyNeumark2011]`
 - `[@hellersteinKutzbachNeumark2014]`
 - `[@millerWhenWorkMoves2023]`
 
 ### Causal neighborhood exposure
-- `[@chettyHendrenKatz2016]`
+- `[@chettyHendrenKatz2016MTO]`
 - `[@chettyHendren2018]`
 - `[@chynPublicHousingDemolition2018]`
 - `[@bergmanChettyDeLucaEtAl2024]`
@@ -251,7 +251,7 @@ At minimum, the deck should include:
 Build the week around **Reproduce -> Diagnose -> Transfer**.
 
 Primary lab anchor:
-- `[@chettyHendrenKatz2016]`
+- `[@chettyHendrenKatz2016MTO]`
 
 Secondary / challenge anchor:
 - `[@millerWhenWorkMoves2023]`

@@ -1,0 +1,9 @@
+metro_id,metro_name,region,productivity_growth,wage_growth,rent_growth,house_price_growth,population_growth,employment_growth,in_commuting_growth,housing_supply_elasticity,price_pressure_index,quantity_response_index,real_access_growth,adjustment_pattern,likely_binding_friction,incidence_reading,misallocation_teaching_flag
+M01,coastal-tech,coastal,0.32,0.24,0.33,0.45,0.04,0.12,0.08,0.35,0.555,0.16,-0.162,price_adjustment,housing_supply_and_moving_costs,landlords_homeowners_or_excluded_migrants,1
+M02,coastal-biotech,coastal,0.28,0.21,0.27,0.38,0.06,0.11,0.07,0.45,0.46,0.17,-0.119,price_adjustment,housing_supply_constraint,landlords_homeowners_or_excluded_migrants,1
+M03,interior-logistics,interior,0.18,0.16,0.08,0.1,0.18,0.2,0.05,1.6,0.13,0.38,0.039,quantity_adjustment,not_binding_in_reduced_path,mixed_or_ambiguous,0
+M04,sunbelt-growth,sunbelt,0.22,0.18,0.1,0.13,0.23,0.24,0.04,1.8,0.165,0.47,0.031,quantity_adjustment,not_binding_in_reduced_path,mixed_or_ambiguous,0
+M05,college-town,interior,0.15,0.13,0.17,0.24,0.04,0.08,0.03,0.55,0.29,0.12,-0.095,mixed_adjustment,housing_supply_constraint,landlords_homeowners_or_excluded_migrants,0
+M06,legacy-manufacturing,interior,0.05,0.04,0.02,0.01,-0.02,-0.04,-0.01,1.2,0.025,-0.06,-0.018,mixed_adjustment,not_binding_in_reduced_path,mixed_or_ambiguous,0
+M07,energy-boom,interior,0.2,0.22,0.14,0.16,0.14,0.18,0.08,1.3,0.22,0.32,0.006,mixed_adjustment,moving_cost_friction,mixed_or_ambiguous,0
+M08,transit-open-core,coastal,0.26,0.19,0.21,0.3,0.07,0.18,0.16,0.6,0.36,0.25,-0.052,commuting_adjustment,housing_supply_constraint,landlords_homeowners_or_excluded_migrants,1

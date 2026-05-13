@@ -145,7 +145,7 @@ The Week 1 lab trains students to think like researchers about spatial labor mar
 
 **Diagnose.** Students classify each output as an access object, commute object, wage object, rent object, amenity object, or equilibrium object. They explain why access is not realized employment, why workplace wages are not residential welfare, why high nominal wages may not imply high real opportunity, and why spatial selection is different from causal local effects.
 
-**Transfer.** The challenge anchor is Monte, Redding, and Rossi-Hansberg on commuting, migration, and local employment elasticities [@monteReddingRossiHansberg2018]. Students transfer the logic from one synthetic city to a local shock: what changes if workers commute across zones rather than migrate? What is the equilibrium object? Which workers are treated as residents, workers, or commuters? The optional frontier prompt uses Miller's job-suburbanization evidence to ask how a change in the geography of work can matter for racial employment gaps even without confidential microdata [@miller2023].
+**Transfer.** The challenge anchor is Monte, Redding, and Rossi-Hansberg on commuting, migration, and local employment elasticities [@monteReddingRossiHansberg2018]. Students transfer the logic from one synthetic city to a local shock: what changes if workers commute across zones rather than migrate? What is the equilibrium object? Which workers are treated as residents, workers, or commuters? The optional frontier prompt uses Miller's job-suburbanization evidence to ask how a change in the geography of work can matter for racial employment gaps even without confidential microdata [@millerWhenWorkMoves2023].
 
 The lab does not claim to reproduce the official data or estimates in any anchor paper. It is a bounded teaching path that runs locally and teaches five habits: define the local labor market, state what counts as access, name the equilibrium object, separate sorting from productivity and commuting frictions, and explain why a place-specific result can reveal a portable labor-market mechanism.
 
@@ -178,7 +178,7 @@ Key empirical objects include commuting flows, workplace and residential wage me
 
 **Urban wage premia and learning versus sorting.** Use Glaeser and Mare to ask whether dense places raise wages through learning, worker selection, or other city-linked channels [@glaeserMare2001].
 
-**Job access and the geography of work.** Use Miller to connect job suburbanization and workplace relocation to unequal employment access [@miller2023].
+**Job access and the geography of work.** Use Miller to connect job suburbanization and workplace relocation to unequal employment access [@millerWhenWorkMoves2023].
 
 **Broad labor-market framework across places.** Use Moretti as the broad labor-market map for local labor demand, labor supply, productivity, amenities, migration, and adjustment [@moretti2011].
 

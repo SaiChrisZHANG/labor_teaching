@@ -1,0 +1,5 @@
+worker_group,row_count,avg_wage_change,avg_rent_change,avg_population_change,avg_employment_change,avg_commuting_change,avg_real_access_change,negative_real_access_cases
+in_commuters,4,0.0471,0.045,0.0211,0.0415,0.028,0.0363,1
+incumbent_homeowners,4,0.0471,0.045,0.0211,0.0415,0.028,0.0515,1
+low_wealth_renters,4,0.0471,0.045,0.0211,0.0415,0.028,-0.0077,3
+would_be_migrants,4,0.0471,0.045,0.0211,0.0415,0.028,-0.0056,2

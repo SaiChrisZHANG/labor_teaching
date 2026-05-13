@@ -12,7 +12,7 @@ Week 1 established that local labor markets are bundles of jobs, wages, amenitie
 :class: important
 - Housing matters for labor because workers care about **real access** to jobs, not nominal wages alone.
 - Local shocks can be absorbed through wages, rents, commuting, migration, or reduced access, depending on the housing and mobility margins.
-- A central research task is to identify which friction is binding: housing supply, moving costs, wealth/credit constraints, commuting technology, or regulation.
+- A central research task is to identify which friction is binding: housing supply, moving costs, wealth/liquidity and credit constraints, commuting technology, regulation, or rent capitalization.
 - The incidence of local opportunity can fall on workers, firms, landlords/homeowners, or incumbent residents rather than on migrants alone.
 - The best research in this area connects a clean labor question to a disciplined spatial framework, credible local variation, and housing data that measure access and adjustment directly.
 :::
@@ -92,12 +92,12 @@ This is the unifying logic behind [@notowidigdo2020LocalDemandShocks], [@suarezs
 This field is unusually data-intensive, and students often need a roadmap more than another theory paragraph. A practical data survey should therefore cover at least:
 
 - **ACS / ACS PUMS**: migration, commuting, rents, housing tenure, worker characteristics;
-- **Decennial Census / historical Census**: long-run migration, housing and neighborhood structure;
+- **Decennial Census / Census long form**: long-run migration, housing and neighborhood structure;
 - **LEHD / LODES / QWI**: worker-job flows, workplace/residence linkages, employment by location;
 - **IRS migration data**: inter-county/state mobility;
-- **FHFA / Zillow / CoreLogic / assessor or transaction data**: prices, rents, capitalization, turnover;
+- **Zillow / FHFA / CoreLogic / transaction-level housing data**: prices, rents, capitalization, turnover;
+- **HUD administrative data / voucher data**: housing assistance, mobility, neighborhood access where program access is relevant;
 - **HMDA**: mortgage access and financing conditions where homeownership or wealth is relevant;
-- **HUD administrative data / voucher data**: housing assistance, mobility, neighborhood access;
 - **commuting-zone / MSA / tract / ZIP-level definitions**: the geography choice is itself a design decision;
 - **housing-supply and regulation measures**: Saiz-style elasticities, zoning restrictions, permit data, land-use regulations.
 
@@ -113,7 +113,7 @@ A useful way to organize the empirical literature is into five buckets:
    [@roback1982; @moretti2011; @diamond2016LocationChoices]
 
 2. **Housing constraints and misallocation**  
-   [@hsiehMoretti2019HousingConstraints; @ganongShoag2017RegionalConvergence; @hoxieMovingDensityHalf2023]
+   [@hsiehMoretti2019HousingConstraints; @ganongShoag2017RegionalConvergence; @hoxieMovingDensityHalf2023; @saizGeographicDeterminantsHousing2010]
 
 3. **Moving costs and migration adjustment**  
    [@notowidigdo2020LocalDemandShocks; @zabelMigrationHousingMarket2012; @amiorEducationGeographicalMobility2024]
@@ -122,7 +122,7 @@ A useful way to organize the empirical literature is into five buckets:
    [@monteReddingRossiHansberg2018; @severenCommutingLaborHousing2023; @broughEliminatingFaresExpand2025]
 
 5. **Local shocks, incidence, and complementary evidence**  
-   [@suarezserratoWhoBenefitsState2016; @morettiLocalMultipliers2010; @saizGeographicDeterminantsHousing2010]
+   [@suarezserratoWhoBenefitsState2016; @morettiLocalMultipliers2010]
 
 ### Dominant empirical designs
 
@@ -131,7 +131,7 @@ Students should recognize several recurring research designs:
 - **spatial equilibrium / calibrated quantitative counterfactuals**  
   Used when the question is aggregate access, misallocation, or incidence.
 
-- **local labor-demand shocks**  
+- **Bartik-style or shift-share local labor-demand shocks**  
   Useful for asking how housing changes the incidence of place-level shocks.
 
 - **housing-supply heterogeneity**  

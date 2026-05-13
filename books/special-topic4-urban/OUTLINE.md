@@ -39,7 +39,7 @@ The opening week defines local labor markets as linked systems of jobs, workers,
 
 **Why this is specifically labor economics:** Space matters because workers do not choose jobs from a placeless menu; commuting, amenities, wages, and outside options determine the feasible labor-market set.
 
-### Week 2. Housing, Rents, Mobility Constraints, and Labor-Market Adjustment
+### Week 2. Housing, Rents, Moving Costs, and Labor-Market Adjustment
 
 **Central question:** When do housing markets and moving costs prevent workers from reaching better labor-market opportunities?
 

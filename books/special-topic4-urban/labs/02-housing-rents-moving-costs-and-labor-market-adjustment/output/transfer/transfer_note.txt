@@ -1,0 +1,1 @@
+This transfer exercise is inspired by Notowidigdo's incidence logic for local labor-demand shocks. It uses synthetic place-by-group data to separate wage, rent, population, employment, commuting, ownership, moving-cost, and real-access margins. It is not an official replication package.

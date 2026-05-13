@@ -4,7 +4,7 @@
 
 This lab turns Week 3 into a bounded empirical workflow. It does not replicate the confidential or full data in the anchor papers. Instead, it uses deterministic synthetic data to practice the objects behind age-at-move exposure designs and job-access shocks.
 
-Primary anchor: Chetty, Hendren, and Katz on Moving to Opportunity [@chettyHendrenKatz2016].
+Primary anchor: Chetty, Hendren, and Katz on Moving to Opportunity [@chettyHendrenKatz2016MTO].
 
 Challenge anchor: Miller on job suburbanization and Black employment [@millerWhenWorkMoves2023].
 

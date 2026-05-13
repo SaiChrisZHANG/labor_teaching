@@ -138,7 +138,7 @@ The narrative spine should rely on the following papers.
 - `[@glaeserMare2001]`
 
 ### Job access / geography of work anchor
-- `[@miller2023]`
+- `[@millerWhenWorkMoves2023]`
 
 ## Methods and measurement requirements
 
@@ -206,7 +206,7 @@ Secondary / challenge anchor:
 - `[@monteReddingRossiHansberg2018]`
 
 Optional extension anchor:
-- `[@miller2023]`
+- `[@millerWhenWorkMoves2023]`
 
 The bounded student path must run locally without confidential microdata.
 

@@ -8,7 +8,7 @@ Primary anchor: Manning and Petrongolo on spatial job search and local labor mar
 
 Challenge anchor: Monte, Redding, and Rossi-Hansberg on commuting, migration, and local employment elasticities [@monteReddingRossiHansberg2018].
 
-Optional frontier anchor: Miller on job suburbanization and unequal employment access [@miller2023].
+Optional frontier anchor: Miller on job suburbanization and unequal employment access [@millerWhenWorkMoves2023].
 
 ## Workflow
 
@@ -51,7 +51,7 @@ Write a short paragraph answering:
 - Who gains access when travel costs fall?
 - Does the local wage distribution change, or does the feasible set change?
 - What would be different if the shock induced residential migration?
-- How could the same logic apply to job suburbanization in the spirit of Miller [@miller2023]?
+- How could the same logic apply to job suburbanization in the spirit of Miller [@millerWhenWorkMoves2023]?
 
 ## Running The Lab
 

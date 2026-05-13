@@ -1,4 +1,4 @@
-# Housing, Rents, Moving Costs, And Labor-Market Adjustment
+# Housing, Rents, Moving Costs, and Labor-Market Adjustment
 
 ## Learning Objectives
 
@@ -52,7 +52,7 @@ Housing enters labor outcomes through six channels:
 - **Rents and real wages.** Nominal wage gains may disappear once housing costs and commuting burdens adjust [@roback1982; @albouyLue2015].
 - **Moving costs and mobility frictions.** Workers may not leave declining places or enter booming places even when wage gaps are large.
 - **Housing supply elasticity.** Productive places with inelastic housing supply adjust through prices more than population [@hsiehMoretti2019HousingConstraints; @ganongShoag2017RegionalConvergence].
-- **Residential sorting and wealth constraints.** High housing costs select workers by income, wealth, credit access, tenure, family structure, and risk exposure.
+- **Residential sorting and wealth/liquidity constraints.** High housing costs select workers by income, wealth, credit access, tenure, family structure, and risk exposure.
 - **Commuting as a substitute for migration.** Workers can sometimes access a productive labor market without changing residence [@monteReddingRossiHansberg2018].
 - **Local shocks and incidence.** A labor-demand shock changes wages, rents, employment, population, firm location, and commuting flows in equilibrium [@notowidigdo2020LocalDemandShocks].
 
@@ -129,9 +129,7 @@ where {math}`w` is wages, {math}`R` rents or housing costs, {math}`N` residents,
 
 For example, a demand shock with rising wages, rising rents, and little population growth points toward housing supply limits or entry constraints. Rising employment with strong in-commuting but weak residential growth points toward commuting as the adjustment margin. Rising house prices with weak renter gains points toward capitalization to incumbent owners. A strong paper makes this pattern explicit.
 
-## Research Lab
-
-### Paper Architecture
+### Research Designs And Frontier Questions
 
 The week uses roughly 15 papers, but the architecture matters more than the count. Students should read the papers as research roles:
 
@@ -140,9 +138,7 @@ The week uses roughly 15 papers, but the architecture matters more than the coun
 
 The buckets are cumulative. The foundational framework teaches why wages and rents must be interpreted together. The misallocation papers ask whether housing constraints block workers from productive places. The migration papers ask why workers fail to adjust when opportunities diverge. The commuting papers ask whether access can change without moving. The incidence papers ask who captures the gains from local shocks.
 
-### Dominant Research Designs
-
-This field has a recognizable design map:
+This field also has a recognizable design map:
 
 ```{include} assets/tables/02-methods-and-design-map.md
 ```
@@ -150,8 +146,6 @@ This field has a recognizable design map:
 The design choice should follow the friction. Spatial-equilibrium and calibrated counterfactuals are natural when the question is aggregate misallocation or welfare incidence. Bartik-style or shift-share local demand shocks are natural when the question is how wages, rents, and employment adjust after labor demand changes. Housing-supply elasticity heterogeneity is useful when the hypothesis is price rather than population adjustment. Transport shocks help separate job access from residential migration. Migration event studies help identify timing, persistence, and heterogeneity in relocation.
 
 The contribution margin is often narrow and important: identify which friction is binding. A paper may contribute by showing that the obstacle is not simply "housing" but housing supply regulation, liquidity, landlord capture, commuting technology, homeownership lock-in, or a mismatch between residential geography and workplace opportunity.
-
-### Frontier Questions
 
 Several frontier questions are especially natural for urban-labor research:
 
@@ -163,12 +157,26 @@ Several frontier questions are especially natural for urban-labor research:
 - Do local regulations change firm location and hiring enough to alter worker incidence?
 - How should researchers measure labor markets when residence, workplace, commuting, and housing data disagree?
 
+## Research Lab
+
+The Week 2 lab should be a bounded teaching path rather than a full official replication. The workflow is **Reproduce -> Diagnose -> Transfer**.
+
+**Primary anchor.** The main paper anchor is Hsieh and Moretti on housing constraints and spatial misallocation [@hsiehMoretti2019HousingConstraints]. Students should use the public replication materials when feasible, but the teaching target is narrower than rerunning the full quantitative model: construct the core city-level objects, compare constrained and less-constrained places, and ask whether high-productivity places adjust through rents, house prices, population, or worker access.
+
+**Reproduce.** Students reproduce a small version of the paper's empirical architecture. They build or use a documented teaching extract with a city-level productivity or wage measure, rents or housing prices, population or employment, and a housing-supply or regulation measure. The output is a compact adjustment table: which places look productive, which places look housing constrained, and whether the observed response is mostly price adjustment, quantity adjustment, or real-access loss.
+
+**Diagnose.** Students classify each result by margin: nominal wage, rent, house value, resident population, employment, commuting flow, and real access. The diagnostic questions are: Is the apparent friction housing supply, moving cost, sorting, or commuting access? Who captures the local surplus: workers, landlords, incumbent homeowners, firms, commuters, or excluded would-be migrants? What would be misread if the analysis reported wages without rents, or rents without population and access?
+
+**Transfer.** The challenge anchor is Notowidigdo on the incidence of local labor-demand shocks [@notowidigdo2020LocalDemandShocks]. Students transfer the Hsieh-Moretti logic from high-productivity constrained places to a positive or negative local demand shock. They ask whether the same shock changes wages, rents, population, and worker composition symmetrically; whether low-skill workers face different real-access changes; and whether lower housing costs or transfers can partly insure immobile workers. The transfer should remain bounded: it can use a synthetic shock panel or public-use aggregate data, and it should state conservatively if it is not using an official replication package.
+
+The lab trains four habits: interpret wages with rents, separate housing-supply constraints from moving frictions, describe adjustment as a vector rather than one coefficient, and state the incidence of local opportunity.
+
 ## Methods Box
 
 :::{admonition} Methods Box: Data Used In Housing-Labor Research
 :class: note
 
-The practical skill this week is knowing what each data source can and cannot answer. Researchers usually combine labor, housing, mobility, and geography files rather than relying on a single dataset.
+The practical skill this week is knowing what each data source can and cannot answer. Researchers usually combine labor, housing, mobility, and geography files rather than relying on a single dataset. The research design usually starts by deciding whether the outcome is residence-based, workplace-based, commute-flow-based, or housing-market-based.
 
 ```{include} assets/tables/02-data-sources-map.md
 ```
@@ -199,9 +207,7 @@ Three measurement choices deserve special care. First, geography is a design cho
 
 ## Reproducibility And Code Lab Note
 
-The Week 2 replication opportunity is a data-architecture exercise rather than an official replication. Students can build a county or commuting-zone panel that merges ACS rents and commuting, LEHD/LODES workplace-residence flows, a local demand shifter, and a housing-supply or regulation measure. The teaching goal is to diagnose whether a shock is absorbed through wages, rents, employment, population, or commuting.
-
-A future bounded lab could extend the Week 1 synthetic city by imposing a demand shock in one workplace zone and varying housing supply elasticity, moving costs, and commuting costs. The outputs would reproduce the core Week 2 objects: nominal wages, real access, rent capitalization, migration response, commuting response, and incidence.
+The Week 2 code lab lives at `labs/02-housing-rents-moving-costs-and-labor-market-adjustment/`. The code path should support the Research Lab rather than replace it. A bounded implementation can use public Hsieh-Moretti materials or a documented teaching extract, then add a small synthetic transfer exercise for local demand shocks. The smoke path should produce the core Week 2 objects: nominal wages, rents or prices, population or employment, real access, and an incidence diagnosis. It should state clearly when it is a teaching replication rather than an official replication package.
 
 ## Slide Companion Note
 

@@ -29,7 +29,7 @@ Week 6 turns the course into research design. The goal is not to recap cities in
 
 ## Bridge
 
-Across Weeks 1-5, the course built a cumulative picture of cities as labor-market systems. Week 1 defined local labor markets as job-residence bundles with commuting costs, rents, amenities, and outside options [@robackWagesRentsQuality1982; @morettiLocalLaborMarkets2011]. Week 2 showed how housing supply, rents, and moving costs govern access to high-opportunity places [@hsiehHousingConstraintsSpatial2019; @ganongWhyHasRegional2017]. Week 3 moved from aggregate opportunity to unequal access through segregation, neighborhoods, schools, networks, and employer response [@chettyEffectsExposureBetter2016; @bayerPlaceBasedPoliciesLabor2023]. Week 4 treated safety and environmental exposure as constraints on feasible work and welfare [@hannaProductivityImpactsAirPollution2011; @graffZivinTemperatureHumanCapital2018]. Week 5 studied dynamic reallocation through migration, commuting, rents, firms, and local demand [@monteCommutingMigrationLocal2018; @notowidigdoTradeLaborMarket2013].
+Across Weeks 1-5, the course built a cumulative picture of cities as labor-market systems. Week 1 defined local labor markets as job-residence bundles with commuting costs, rents, amenities, and outside options [@roback1982; @moretti2011]. Week 2 showed how housing supply, rents, and moving costs govern access to high-opportunity places [@hsiehMoretti2019HousingConstraints; @ganongShoag2017RegionalConvergence]. Week 3 moved from aggregate opportunity to unequal access through segregation, neighborhoods, schools, networks, and employer response [@chettyHendrenKatz2016MTO; @bayerPlaceBasedPoliciesLabor2023]. Week 4 treated safety and environmental exposure as constraints on feasible work and welfare [@hannaOliva2015; @graffZivinTemperatureHumanCapital2018]. Week 5 studied dynamic reallocation through migration, commuting, rents, firms, and local demand [@monteReddingRossiHansberg2018; @notowidigdo2020LocalDemandShocks].
 
 The capstone question is therefore: what does a credible urban-labor research design look like?
 
@@ -90,13 +90,13 @@ Sixth, define the welfare object. Does the paper identify nominal wages, real wa
 
 The field has converged on several lessons.
 
-One, wages, rents, amenities, and mobility must be interpreted together. Spatial equilibrium remains the baseline language, even when mobility is constrained and equilibrium is incomplete [@robackWagesRentsQuality1982; @diamondUrbanLocalLabor2016].
+One, wages, rents, amenities, and mobility must be interpreted together. Spatial equilibrium remains the baseline language, even when mobility is constrained and equilibrium is incomplete [@roback1982; @diamond2016LocationChoices].
 
-Two, local labor demand shocks are spatial-incidence problems. The same demand shift can affect incumbent residents, in-commuters, migrants, firms, landlords, and local governments differently [@notowidigdoTradeLaborMarket2013; @monteCommutingMigrationLocal2018].
+Two, local labor demand shocks are spatial-incidence problems. The same demand shift can affect incumbent residents, in-commuters, migrants, firms, landlords, and local governments differently [@notowidigdo2020LocalDemandShocks; @monteReddingRossiHansberg2018].
 
-Three, housing is not an add-on. Housing supply, rents, tenure, credit, wealth, and moving costs decide whether workers can reach productive places and whether gains are capitalized away [@hsiehHousingConstraintsSpatial2019; @ganongWhyHasRegional2017].
+Three, housing is not an add-on. Housing supply, rents, tenure, credit, wealth, and moving costs decide whether workers can reach productive places and whether gains are capitalized away [@hsiehMoretti2019HousingConstraints; @ganongShoag2017RegionalConvergence].
 
-Four, access is richer than distance. Transit, schedules, employer beliefs, referrals, public goods, safety, and neighborhood exposure all determine whether proximity becomes work [@chettyEffectsExposureBetter2016; @bayerPlaceBasedPoliciesLabor2023].
+Four, access is richer than distance. Transit, schedules, employer beliefs, referrals, public goods, safety, and neighborhood exposure all determine whether proximity becomes work [@chettyHendrenKatz2016MTO; @bayerPlaceBasedPoliciesLabor2023].
 
 Five, welfare increasingly matters more than nominal outcomes. A wage gain can be offset by rent, commute burden, risk, heat, pollution, or displacement. A place can recover while incumbent workers remain harmed.
 
@@ -109,9 +109,9 @@ Several frontier directions are especially promising for student research.
 
 **Remote work and hybrid geography.** Remote and hybrid work may relax some spatial frictions while creating new ones by occupation, skill, home quality, broadband access, management technology, and local service demand. The labor question is not whether downtowns shrink. It is who gains outside options, who loses workplace networks, which places capture remote-work spending, and how wage-setting changes when jobs are less tied to residence [@vannieuerburghRemoteWorkRevolution2023].
 
-**Housing reform and labor access.** Zoning reform, permitting changes, public housing, vouchers, and rental-market rules can alter access to productive labor markets. The frontier is distributional: which workers can enter, whether incumbent renters remain, whether landlords capture gains, and whether job access improves after commuting is counted [@hsiehHousingConstraintsSpatial2019].
+**Housing reform and labor access.** Zoning reform, permitting changes, public housing, vouchers, and rental-market rules can alter access to productive labor markets. The frontier is distributional: which workers can enter, whether incumbent renters remain, whether landlords capture gains, and whether job access improves after commuting is counted [@hsiehMoretti2019HousingConstraints].
 
-**Climate, heat, and urban labor.** Heat, pollution, wildfire smoke, flood risk, and disaster adaptation change labor supply, productivity, migration, and sorting. Urban labor research can connect high-frequency exposure to longer-run mobility and housing responses [@graffZivinTemperatureHumanCapital2018; @hannaProductivityImpactsAirPollution2011].
+**Climate, heat, and urban labor.** Heat, pollution, wildfire smoke, flood risk, and disaster adaptation change labor supply, productivity, migration, and sorting. Urban labor research can connect high-frequency exposure to longer-run mobility and housing responses [@graffZivinTemperatureHumanCapital2018; @hannaOliva2015].
 
 **Commuting, monopsony, and local labor market power.** Commuting costs make outside options spatial. Employers may have more wage-setting power over workers with limited feasible commutes, unsafe routes, weak transit, or family schedule constraints. This is a natural bridge from urban access to modern labor-market power.
 
@@ -119,7 +119,7 @@ Several frontier directions are especially promising for student research.
 
 **AI, digital infrastructure, and urban opportunity.** Digital infrastructure can change job search, remote work, employer screening, commuting substitution, and the geography of high-skill and service work. The key labor question is whether digital access broadens opportunity or reinforces spatial inequality.
 
-**Child opportunity and intergenerational mobility in cities.** Urban labor research increasingly links housing, schools, safety, neighborhood exposure, and adult earnings. The frontier is mechanism separation: which specific urban changes produce long-run labor-market gains for children [@chettyEffectsExposureBetter2016].
+**Child opportunity and intergenerational mobility in cities.** Urban labor research increasingly links housing, schools, safety, neighborhood exposure, and adult earnings. The frontier is mechanism separation: which specific urban changes produce long-run labor-market gains for children [@chettyHendrenKatz2016MTO].
 
 **Redevelopment, gentrification, and displacement.** Redevelopment can create amenities and jobs while displacing residents, firms, and networks. A labor paper should ask which jobs are created or lost, whether incumbents remain near opportunity, how commutes change, and whether observed gains are composition effects.
 
@@ -234,15 +234,15 @@ The memo is intentionally short. If a project cannot survive this page, it is no
 
 ## Reading Ladder And References
 
-**Architecture and spatial equilibrium.** Start with Roback and Moretti for the language of wages, rents, amenities, mobility, and local labor markets [@robackWagesRentsQuality1982; @morettiLocalLaborMarkets2011].
+**Architecture and spatial equilibrium.** Start with Roback and Moretti for the language of wages, rents, amenities, mobility, and local labor markets [@roback1982; @moretti2011].
 
-**Housing, access, and incidence.** Use Hsieh and Moretti, Ganong and Shoag, Diamond, and Notowidigdo to interpret housing constraints, location choice, and local shock incidence [@hsiehHousingConstraintsSpatial2019; @ganongWhyHasRegional2017; @diamondUrbanLocalLabor2016; @notowidigdoTradeLaborMarket2013].
+**Housing, access, and incidence.** Use Hsieh and Moretti, Ganong and Shoag, Diamond, and Notowidigdo to interpret housing constraints, location choice, and local shock incidence [@hsiehMoretti2019HousingConstraints; @ganongShoag2017RegionalConvergence; @diamond2016LocationChoices; @notowidigdo2020LocalDemandShocks].
 
-**Neighborhoods, segregation, and opportunity.** Use Chetty, Hendren, and Katz plus the broader place-based and network-access literature to connect neighborhood exposure to labor outcomes [@chettyEffectsExposureBetter2016; @bayerPlaceBasedPoliciesLabor2023].
+**Neighborhoods, segregation, and opportunity.** Use Chetty, Hendren, and Katz plus the broader place-based and network-access literature to connect neighborhood exposure to labor outcomes [@chettyHendrenKatz2016MTO; @bayerPlaceBasedPoliciesLabor2023].
 
-**Risk, environment, and feasible work.** Use Hanna and Oliva and Graff Zivin and Neidell to see why environmental exposure and hidden harms belong in labor research [@hannaProductivityImpactsAirPollution2011; @graffZivinTemperatureHumanCapital2018].
+**Risk, environment, and feasible work.** Use Hanna and Oliva and Graff Zivin and Neidell to see why environmental exposure and hidden harms belong in labor research [@hannaOliva2015; @graffZivinTemperatureHumanCapital2018].
 
-**Migration, commuting, and local adjustment.** Use Monte, Redding, and Rossi-Hansberg and Notowidigdo to study adjustment through commuting, migration, wages, and rents [@monteCommutingMigrationLocal2018; @notowidigdoTradeLaborMarket2013].
+**Migration, commuting, and local adjustment.** Use Monte, Redding, and Rossi-Hansberg and Notowidigdo to study adjustment through commuting, migration, wages, and rents [@monteReddingRossiHansberg2018; @notowidigdo2020LocalDemandShocks].
 
 **Frontier directions.** Use Van Nieuwerburgh for remote work and Kline and Moretti for place-based policy welfare questions, then connect those ideas to housing reform, climate, commuting-linked labor power, redevelopment, child opportunity, and digital access [@vannieuerburghRemoteWorkRevolution2023; @klineMoretti2014PeoplePlaces].
 

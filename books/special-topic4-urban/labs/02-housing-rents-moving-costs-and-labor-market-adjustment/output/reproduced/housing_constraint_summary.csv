@@ -1,0 +1,3 @@
+constraint_group,metro_count,avg_productivity_growth,avg_wage_growth,avg_rent_growth,avg_population_growth,avg_real_access_growth,misallocation_flags
+constrained,4,0.253,0.193,0.245,0.053,-0.107,3
+less_constrained,4,0.163,0.15,0.085,0.133,0.015,0
