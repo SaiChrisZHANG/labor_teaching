@@ -1,0 +1,6 @@
+arm,transparency,human_override,replacement_risk,performance_feedback,monitoring_intensity,predicted_acceptance,predicted_usage_intent,design_note
+opaque_monitoring_no_override,0.2,0.1,0.8,0.2,0.85,0.051,0.182,tests_whether_performance_information_offsets_replacement_risk
+transparent_with_human_override,0.78,0.82,0.28,0.62,0.36,0.605,0.551,tests_transparency_and_control_as_acceptance_mechanisms
+high_performance_high_replacement,0.6,0.48,0.76,0.88,0.58,0.412,0.485,tests_whether_performance_information_offsets_replacement_risk
+training_first_low_monitoring,0.7,0.76,0.22,0.54,0.22,0.588,0.526,tests_transparency_and_control_as_acceptance_mechanisms
+manager_discretion_low_feedback,0.46,0.9,0.34,0.18,0.4,0.44,0.364,baseline_or_mixed_mechanism_arm

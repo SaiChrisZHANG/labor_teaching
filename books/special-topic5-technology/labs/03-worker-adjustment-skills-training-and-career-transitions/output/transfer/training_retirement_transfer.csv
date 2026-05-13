@@ -1,0 +1,5 @@
+local_market,technology_exposure,training_capacity,older_exposed_share,retirement_option,vacancy_growth,training_response_index,retirement_response_index,dominant_margin
+Motor Belt,0.72,0.3,0.42,0.7,0.02,0.24,0.4,retirement_or_exit_adjustment
+Logistics Corridor,0.58,0.48,0.34,0.52,0.07,0.318,0.269,mixed_training_and_exit
+Service Metro,0.44,0.68,0.22,0.35,0.08,0.405,0.121,training_adjustment
+AI Services City,0.38,0.84,0.14,0.22,0.11,0.483,0.02,training_adjustment

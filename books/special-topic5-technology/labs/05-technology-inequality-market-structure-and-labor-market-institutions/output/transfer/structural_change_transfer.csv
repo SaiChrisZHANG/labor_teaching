@@ -1,0 +1,6 @@
+region,initial_sector,destination_sector,employment_reallocation,productivity_gain,job_quality_change,welfare_reallocation_index,technology_sophistication,transfer_label
+coastal high income,manufacturing,formal business services,0.22,0.16,0.023,0.046,0.82,mixed_structural_change
+legacy manufacturing region,manufacturing,low-wage local services,0.28,0.03,-0.139,-0.141,0.48,employment_reallocation_without_job_quality_gain
+agrarian middle income,agriculture,light manufacturing,0.31,0.14,0.035,0.036,0.54,mixed_structural_change
+urban global south,agriculture,informal services,0.36,0.02,-0.118,-0.112,0.36,employment_reallocation_without_job_quality_gain
+digital services hub,routine services,knowledge services,0.24,0.18,0.053,0.076,0.74,technology_enabled_service_upgrade

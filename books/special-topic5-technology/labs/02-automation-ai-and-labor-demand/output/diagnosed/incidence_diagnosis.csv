@@ -1,0 +1,6 @@
+commuting_zone,employment_change_pp,wage_change_pp,incidence_pattern,interpretation
+Motor Belt,-2.48,-1.95,displacement_dominates,robot_exposure_and_routine_task_share_are_high
+Logistics Corridor,5.3,0.74,offsetting_robot_and_ai_channels,direct_displacement_and_productivity_offsets_coexist
+Service Metro,13.47,4.1,output_or_augmentation_dominates,productivity_and_complementary_demand_offset_displacement
+Care And Admin Hub,13.7,4.15,output_or_augmentation_dominates,productivity_and_complementary_demand_offset_displacement
+AI Services City,16.92,5.23,output_or_augmentation_dominates,productivity_and_complementary_demand_offset_displacement

@@ -1,0 +1,5 @@
+outcome,x_variable,slope,interpretation
+employment incidence,robot_exposure,-0.13,teaching reduced form; not a published estimate
+wage incidence,robot_exposure,-0.0558,teaching reduced form; not a published estimate
+welfare proxy,robot_exposure,-0.2693,teaching reduced form; not a published estimate
+adjustment cost,robot_exposure,0.3924,teaching reduced form; not a published estimate

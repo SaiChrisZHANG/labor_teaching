@@ -1,0 +1,6 @@
+place,setting,ai_adoption_capacity,electricity_reliability,data_center_demand,outsourced_service_exposure,infrastructure_labor_demand,service_channel,institution_adjusted_incidence,frontier_label
+desert data corridor,high-income infrastructure buildout,0.82,0.88,0.9,0.24,0.704,0.37,0.406,ai_infrastructure_spatial_incidence
+outsourced service city,AI-assisted knowledge services,0.64,0.66,0.34,0.82,0.381,0.604,0.344,outsourced_digital_service_channel
+grid-constrained exporter,AI adoption under electricity scarcity,0.46,0.38,0.22,0.62,0.244,0.426,0.213,energy_constraint_limits_ai_adoption
+informal services metro,labor-absorbing services with low diffusion,0.32,0.54,0.18,0.4,0.237,0.163,0.02,low_quality_service_absorption_risk
+public-sector digital hub,state-supported AI diffusion,0.58,0.72,0.44,0.46,0.429,0.41,0.344,institution_dependent_ai_diffusion

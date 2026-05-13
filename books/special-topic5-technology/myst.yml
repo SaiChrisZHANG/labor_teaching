@@ -6,6 +6,12 @@ project:
     - references.bib
   toc:
     - file: index.md
+    - file: 01-technology-tasks-and-labor-market-adjustment-core-frameworks.md
+    - file: 02-automation-ai-and-labor-demand.md
+    - file: 03-worker-adjustment-skills-training-and-career-transitions.md
+    - file: 04-firms-hiring-management-and-organizational-response-to-new-technology.md
+    - file: 05-technology-inequality-market-structure-and-labor-market-institutions.md
+    - file: 06-synthesis-frontier-questions-and-student-research-designs.md
 site:
   template: book-theme
   title: Technology and Labor

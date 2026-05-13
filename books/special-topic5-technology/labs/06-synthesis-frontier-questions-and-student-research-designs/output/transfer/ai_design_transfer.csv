@@ -1,0 +1,6 @@
+setting,unit,technology_margin,adoption_or_use,organization_complement,worker_training,monitoring_risk,wage_pass_through,augmentation_score,worker_risk
+customer-support generative AI rollout,worker-team,worker use,0.78,0.62,0.7,0.36,0.42,0.676,0.175
+firm-level AI adoption in business services,firm,firm adoption,0.66,0.74,0.58,0.4,0.34,0.632,0.195
+algorithmic scheduling platform,platform-worker,organizational implementation,0.84,0.5,0.3,0.78,0.18,0.537,0.483
+regional data-center buildout,local labor market,compute infrastructure,0.54,0.44,0.46,0.22,0.28,0.464,0.114
+AI-assisted global service outsourcing,country-sector,task tradability,0.6,0.56,0.52,0.34,0.3,0.538,0.169

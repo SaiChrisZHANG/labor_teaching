@@ -1,0 +1,6 @@
+firm,workforce_task_exposure,realized_ai_adoption,vacancy_ai_demand,output_demand_growth,displacement_risk,augmentation_index,net_labor_demand_index,likely_margin
+Auto parts producer,0.72,0.24,0.22,0.02,0.499,0.201,0.055,task_displacement_risk
+National logistics platform,0.58,0.46,0.62,0.07,0.388,0.45,0.109,desired_skill_demand_ahead_of_adoption
+Claims processing center,0.64,0.58,0.7,0.04,0.438,0.535,0.115,desired_skill_demand_ahead_of_adoption
+Clinical services network,0.39,0.52,0.48,0.06,0.258,0.439,0.117,mixed_reorganization_margin
+Enterprise software firm,0.44,0.86,0.9,0.1,0.283,0.758,0.171,employment_growth_from_augmentation_and_scale

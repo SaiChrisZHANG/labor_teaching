@@ -1,0 +1,1 @@
+Synthetic Week 2 automation, AI, and labor-demand lab complete. Outputs reproduce local robot exposure logic, diagnose employment-wage incidence, and transfer the design to firm AI adoption.

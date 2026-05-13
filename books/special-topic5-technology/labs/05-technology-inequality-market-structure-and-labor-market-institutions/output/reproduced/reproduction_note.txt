@@ -1,0 +1,1 @@
+Synthetic Week 5 market-incidence lab complete. Outputs reproduce a concentration and labor-share decomposition, diagnose rent capture and institutional mediation, and transfer the logic to structural change, Global South diffusion, outsourcing, and AI infrastructure.

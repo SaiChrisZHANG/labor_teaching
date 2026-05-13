@@ -1,0 +1,6 @@
+place,robot_exposure,ai_task_exposure,training_capacity,worker_voice,service_absorption,manufacturing_share,employment_change,wage_change,mobility_cost,welfare_proxy
+Harbor City,0.2876,0.5962,0.6912,0.316,0.7532,0.12,0.0371,0.0473,0.0663,0.0769
+Lake Metro,0.3076,0.5722,0.6716,0.336,0.7164,0.18,0.0342,0.0463,0.0808,0.0704
+Mesa Labor Market,0.278,0.5258,0.4356,0.1456,0.6164,0.1,0.0251,0.0345,0.0764,0.047
+Prairie Works,0.47,0.5074,0.4386,0.1788,0.4784,0.42,0.0064,0.0302,0.1478,0.0102
+River County,0.4256,0.5372,0.534,0.2688,0.5794,0.34,0.0163,0.0368,0.1233,0.0332

@@ -1,0 +1,1 @@
+This synthetic teaching path reproduces the design logic of a local technology-exposure exercise. It does not use official robot, Census, firm-adoption, worker telemetry, platform, or linked employer-employee data and does not claim to reproduce published magnitudes.

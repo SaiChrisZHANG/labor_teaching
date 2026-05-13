@@ -1,0 +1,4 @@
+industry,technology_intensity,intangible_intensity,labor_share_change,employer_power_risk,institutional_mediation,incidence_risk_score,incidence_label,measurement_warning
+retail platforms,0.613,0.554,-0.066,0.631,0.264,0.416,mixed_incidence_requires_worker_outcomes,product_market_growth_may_hide_labor_market_power
+business services,0.598,0.543,-0.067,0.503,0.325,0.35,mixed_incidence_requires_worker_outcomes,interpret_as_market_level_incidence_not_worker_welfare
+advanced manufacturing,0.603,0.45,-0.054,0.39,0.493,0.246,institutions_may_mediate_rent_capture,interpret_as_market_level_incidence_not_worker_welfare

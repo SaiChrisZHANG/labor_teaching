@@ -1,0 +1,8 @@
+occupation,patent_rank,robot_rank,vacancy_rank,rank_spread,measurement_lesson
+Production assembler,7,1,7,6,measure_choice_changes_substantive_ranking
+Maintenance technician,6,2,6,4,measure_choice_changes_substantive_ranking
+Payroll clerk,2,4,4,2,measure_choice_changes_emphasis
+Customer support specialist,4,7,2,5,measure_choice_changes_substantive_ranking
+Software developer,1,6,1,5,measure_choice_changes_substantive_ranking
+Nurse coordinator,5,5,5,0,measures_broadly_agree
+Logistics planner,3,3,3,0,measures_broadly_agree

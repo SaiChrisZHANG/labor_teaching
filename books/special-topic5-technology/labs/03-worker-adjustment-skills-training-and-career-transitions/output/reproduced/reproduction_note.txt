@@ -1,0 +1,1 @@
+Synthetic Week 3 worker-adjustment lab complete. Outputs reproduce worker-level exposure logic, diagnose adjustment routes, and transfer the design to training, retirement, and AI-training settings.

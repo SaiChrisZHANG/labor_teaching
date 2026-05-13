@@ -1,0 +1,6 @@
+design_element,diagnosis,risk,fix
+technology measure,robot exposure uses baseline industry shares times adoption intensity,exposure is not firm adoption or worker use,state the margin and compare with adoption or use measures when possible
+unit of analysis,commuting-zone logic captures local incidence,"firm hiring, incumbent training, and internal reallocation are hidden","add firm, establishment, or worker panels for mechanism tests"
+counterfactual,less-exposed places serve as comparison units,places may have different pre-trends or industry shocks,inspect pre-trends and isolate plausibly exogenous adoption variation
+timing,short-run employment and wage effects may precede training and mobility,one post period can miss delayed adjustment,"separate immediate, medium-run, and long-run outcomes"
+welfare object,"wages and employment miss autonomy, risk, mobility cost, and voice",the design can understate worker welfare losses,add job-quality and bargaining-power measures where feasible

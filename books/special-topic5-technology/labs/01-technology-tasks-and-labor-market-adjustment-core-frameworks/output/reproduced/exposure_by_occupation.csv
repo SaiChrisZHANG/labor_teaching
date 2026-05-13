@@ -1,0 +1,8 @@
+occupation,patent_text_capability,robot_embodied_adoption,vacancy_ai_skill_demand,dominant_measure,likely_channel
+Production assembler,0.212,0.683,0.177,robot_embodied_adoption,automation_or_substitution
+Maintenance technician,0.342,0.498,0.297,robot_embodied_adoption,automation_or_substitution
+Payroll clerk,0.548,0.163,0.469,patent_text_capability,automation_or_substitution
+Customer support specialist,0.486,0.086,0.508,vacancy_ai_skill_demand,augmentation
+Software developer,0.701,0.1,0.783,vacancy_ai_skill_demand,new_task_or_reorganization
+Nurse coordinator,0.349,0.119,0.391,vacancy_ai_skill_demand,augmentation
+Logistics planner,0.523,0.28,0.492,patent_text_capability,automation_or_substitution

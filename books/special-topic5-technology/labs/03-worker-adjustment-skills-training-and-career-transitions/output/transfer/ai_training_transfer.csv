@@ -1,0 +1,6 @@
+firm,ai_adoption,exposed_incumbent_share,incumbent_training,new_hire_training,vacancy_ai_demand,hidden_incumbent_risk,interpretation
+Auto parts producer,0.28,0.62,0.22,0.36,0.24,0.466,mixed_incumbent_and_new_hire_adjustment
+National logistics platform,0.56,0.48,0.46,0.62,0.66,0.464,hiring_demand_runs_ahead_of_realized_use
+Claims processing center,0.64,0.58,0.34,0.74,0.72,0.596,skill_upgrading_may_bypass_incumbents
+Clinical services network,0.48,0.32,0.52,0.42,0.5,0.339,incumbent_training_supports_adaptation
+Enterprise software firm,0.88,0.26,0.8,0.86,0.92,0.402,hiring_demand_runs_ahead_of_realized_use

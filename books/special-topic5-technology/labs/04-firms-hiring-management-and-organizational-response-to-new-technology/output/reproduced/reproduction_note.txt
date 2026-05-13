@@ -1,0 +1,1 @@
+Synthetic Week 4 firm-adoption lab complete. Outputs reproduce firm AI-adoption and workforce-composition logic, diagnose adoption mechanisms and principal-agent tensions, and transfer the design to worker and manager AI-attitude measurement.
