@@ -1,0 +1,207 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs}
+
+\title{Spatial Mismatch, Segregation, Neighborhood Effects}
+\subtitle{And Job Access}
+\author{Special Topic 4: Urban and Labor -- Week 3}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Central question}
+\begin{itemize}
+    \item How do residential segregation and neighborhood exposure shape access to jobs, networks, and long-run labor-market opportunity?
+    \item This is a labor question because place changes search, hiring, commuting, networks, skills, earnings, employment, and mobility.
+    \item Week 3 discipline: separate mechanisms before interpreting neighborhood or segregation gaps.
+    \item The goal is unequal access, not aggregate access.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{From aggregate access to unequal access}
+\begin{itemize}
+    \item Week 1: local labor markets are systems of jobs, residences, commuting costs, rents, amenities, and outside options.
+    \item Week 2: housing and moving costs can block access to high-opportunity places.
+    \item Week 3: workers in the same metro area can face different feasible job sets.
+    \item Strong metro labor demand can coexist with weak access for segregated or transit-constrained neighborhoods.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Job-access object}
+\[
+A_i = \sum_j v_j \exp\{-\kappa \tau_{ij}\}
+\]
+\small
+\begin{tabular}{p{0.20\linewidth} p{0.64\linewidth}}
+\toprule
+Term & Interpretation \\
+\midrule
+$A_i$ & effective job access for worker or residence $i$ \\
+$v_j$ & job opportunities, vacancies, or job quality at location $j$ \\
+$\tau_{ij}$ & generalized travel cost: time, money, reliability, transfers, safety, schedules \\
+$\kappa$ & rate at which access decays with travel cost \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Mechanism taxonomy}
+\small
+\begin{tabular}{p{0.32\linewidth} p{0.46\linewidth}}
+\toprule
+Mechanism & Main labor object \\
+\midrule
+Distance to jobs & reachable vacancies and commute feasibility \\
+Transit and schedules & generalized travel cost and feasible shifts \\
+Address stigma & employer callbacks, interviews, offers \\
+Residential networks & referrals, information, coworker links \\
+Peers and social capital & search behavior, aspirations, expectations \\
+Schools and institutions & human capital and long-run opportunity \\
+Safety and exposure & work timing, search radius, retention, welfare \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Mechanism decomposition}
+\[
+Y_i = \beta_A A_i + \beta_N N_i + \beta_P P_i + \beta_S S_i + u_i
+\]
+\begin{itemize}
+    \item $A_i$: job access and commuting feasibility.
+    \item $N_i$: referral networks and neighbor-coworker links.
+    \item $P_i$: peers, social capital, safety, local expectations.
+    \item $S_i$: schools, public goods, and local institutions.
+    \item The warning: one neighborhood coefficient can bundle several mechanisms.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Spatial mismatch, networks, neighborhood effects}
+\small
+\begin{tabular}{p{0.25\linewidth} p{0.30\linewidth} p{0.30\linewidth}}
+\toprule
+Channel & Counterfactual & Natural design \\
+\midrule
+Spatial mismatch & same worker, lower travel cost to jobs & travel-time, transit, job-location shocks \\
+Networks & same worker, different referral environment & matched worker-firm and neighbor links \\
+Address stigma & same applicant, different address signal & audit or correspondence experiment \\
+Neighborhood exposure & same child, different duration or timing of exposure & mover or policy-induced relocation design \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Job suburbanization and unequal access}
+\begin{itemize}
+    \item Jobs can move even when residential segregation persists.
+    \item A suburban job center may raise total metro employment but lower effective access for transit-dependent central-city residents.
+    \item The labor margin may be employment, commute burden, job quality, or search scope.
+    \item Proximity is not access: employers, referrals, schedules, and transport all mediate the connection.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Neighborhood exposure and long-run outcomes}
+\[
+Y_i = \alpha + \theta \, \text{Exposure}_{ig} + \lambda_g + \varepsilon_i
+\]
+\begin{itemize}
+    \item Exposure designs ask whether duration or age at exposure changes adult outcomes.
+    \item Earlier moves can reveal causal place effects when timing is plausibly comparable.
+    \item Labor outcomes include later earnings, employment, college, occupational mobility, and search scope.
+    \item Mechanisms may run through schools, peers, safety, institutions, networks, or expectations.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Mover designs and policy shocks}
+\small
+\begin{tabular}{p{0.28\linewidth} p{0.34\linewidth} p{0.25\linewidth}}
+\toprule
+Design & Best for & Main threat \\
+\midrule
+Mover / age-at-move & long-run exposure timing & endogenous moves and disruption \\
+Cohort exposure & cumulative duration and age profiles & omitted family trends \\
+MTO or vouchers & neighborhood opportunity change & treatment bundles \\
+Public housing demolition & policy-induced relocation & displacement channels \\
+Transit or job-location shock & current access change & equilibrium resorting \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{School-boundary, audit, matched-firm designs}
+\small
+\begin{tabular}{p{0.30\linewidth} p{0.42\linewidth} p{0.16\linewidth}}
+\toprule
+Design & Best use & Key limit \\
+\midrule
+School boundary or admission & separate schools from neighborhoods & capitalization \\
+Audit or correspondence & address stigma, distance, employer beliefs & callback margin \\
+Matched employer-employee & referrals, coworker geography, workplace segregation & data access \\
+Neighbor-coworker overlap & residential labor-market networks & sorting \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{What good empirical design does}
+\begin{itemize}
+    \item Maps the treatment to one main mechanism.
+    \item Defines geography using commuting, schools, institutions, or employer markets.
+    \item Measures actual access, exposure, or employer response.
+    \item Distinguishes residence, workplace, school, and neighborhood channels.
+    \item Addresses residential sorting and timing.
+    \item Discusses resorting, displacement, and capitalization when relevant.
+    \item States which labor margin moves.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Data sources}
+\small
+\begin{tabular}{p{0.31\linewidth} p{0.50\linewidth}}
+\toprule
+Source & Typical use \\
+\midrule
+LEHD / LODES / QWI & residence-workplace flows and job geography \\
+Census / ACS / Decennial & segregation, commuting, earnings, sorting \\
+Opportunity Atlas / tax-linked data & childhood exposure and adult outcomes \\
+School boundaries / assignment & school versus neighborhood channels \\
+GTFS / travel-time matrices & generalized job access \\
+Audit data & employer response to address or commute signals \\
+Matched employer-employee data & referrals and workplace segregation \\
+Housing or relocation admin data & policy-induced moves and exposure \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Week 3 lab}
+\begin{itemize}
+    \item Reproduce: synthetic age-at-move exposure logic anchored in MTO.
+    \item Diagnose: classify mechanisms and identify the counterfactual.
+    \item Transfer: apply the same discipline to job suburbanization.
+    \item Goal: separate access from employment, neighborhood effects from sorting, schools from neighborhoods, and policy shocks from mover designs.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Bridge to Week 4}
+\begin{itemize}
+    \item Week 3 treats safety as one mechanism inside unequal access.
+    \item Week 4 studies safety and environmental exposure directly as constraints on work.
+    \item The same design discipline carries forward: define the labor margin, mechanism, geography, and counterfactual.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item Segregation matters for labor when it changes access, networks, stigma, schools, exposure, safety, or institutions.
+    \item Proximity to jobs is not the same as access to jobs.
+    \item Neighborhood effects require designs that confront sorting and channel bundling.
+    \item The best papers identify a mechanism and a labor margin, not a generic place effect.
+\end{itemize}
+\end{frame}
+
+\end{document}

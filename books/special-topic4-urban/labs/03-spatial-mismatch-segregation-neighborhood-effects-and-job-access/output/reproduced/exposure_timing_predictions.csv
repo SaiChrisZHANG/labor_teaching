@@ -1,0 +1,8 @@
+family_id,origin,destination,child_age_at_move,childhood_destination_exposure,destination_opportunity_gain,school_channel_gain,network_channel_gain,predicted_adult_earnings_index,design_logic
+F01,East River,Lakeview,3,0.833,26.0,31.0,26.0,59.18,age_at_move_exposure_not_current_access
+F02,East River,Lakeview,9,0.5,26.0,31.0,26.0,56.31,age_at_move_exposure_not_current_access
+F03,East River,Lakeview,15,0.167,26.0,31.0,26.0,53.44,age_at_move_exposure_not_current_access
+F04,East River,West Heights,4,0.778,34.0,40.0,21.0,63.34,age_at_move_exposure_not_current_access
+F05,East River,West Heights,12,0.333,34.0,40.0,21.0,58.57,age_at_move_exposure_not_current_access
+F06,East River,South Junction,6,0.667,8.0,7.0,34.0,53.36,age_at_move_exposure_not_current_access
+F07,East River,South Junction,14,0.222,8.0,7.0,34.0,51.79,age_at_move_exposure_not_current_access

@@ -1,0 +1,8 @@
+object,classification,week1_question
+commuting_flow,flow_based_market_definition,Which residences and workplaces are connected by feasible travel costs?
+workplace_wage,nominal_workplace_measure,"What does the job pay before rents, commuting costs, and amenities?"
+residential_rent,residence_based_cost,How much of the wage is capitalized into housing access?
+accessible_jobs,opportunity_set,Which jobs are feasible under a generalized commuting-cost budget?
+realized_commute,chosen_match_not_access,"Which commute is chosen after offers, search, housing, and preferences?"
+best_net_opportunity,spatial_equilibrium_object,"How do wages, rents, commuting costs, and amenities combine in welfare?"
+urban_wage_premium,channel_decomposition,"Is the premium productivity, learning, sorting, or compensation?"

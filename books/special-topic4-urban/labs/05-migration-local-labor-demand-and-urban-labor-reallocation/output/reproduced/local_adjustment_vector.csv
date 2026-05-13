@@ -1,0 +1,5 @@
+place,demand_shock_index,delta_wage_pct,delta_employment_pct,delta_unemployment_pp,delta_resident_population_pct,delta_in_commuting_pct,delta_rent_pct,delta_firm_entry_pct,delta_sector_composition_index,incumbent_real_access_delta,interpretation
+Metro Center,12.0,2.1,2.82,-1.48,0.33,1.57,1.88,0.6,0.33,0.17,rent_capitalization_limits_incumbent_gain
+Milltown,-9.0,-1.8,-1.91,0.68,-0.22,-0.52,-1.04,-0.15,-0.1,-0.85,persistent_worker_loss_risk
+Riverport,6.5,1.23,1.49,-0.7,0.35,0.57,0.56,0.28,0.16,0.65,mixed_adjustment_requires_incidence_data
+Lake Junction,-4.0,-0.73,-0.88,0.38,-0.1,-0.44,-0.58,-0.11,-0.08,-0.2,mixed_adjustment_requires_incidence_data

@@ -1,0 +1,4 @@
+place_type,specialization_index,diversity_index,skill_transferability_index,sector_shock_index,direct_job_loss_index,reallocation_capacity_index,net_employment_loss_index,migration_pressure_index,worker_insurance_value_index,interpretation
+Single-industry mill city,0.86,0.22,0.34,-10.0,9.37,4.9,7.17,6.17,-4.47,specialization_exposes_workers_to_loss
+Diversified regional hub,0.38,0.76,0.68,-10.0,7.21,12.16,1.74,0.58,4.95,diversification_buffers_worker_shock
+Amenity tech center,0.54,0.64,0.72,-10.0,7.93,10.64,3.14,2.5,2.71,diversification_buffers_worker_shock

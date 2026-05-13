@@ -1,0 +1,7 @@
+failure_mode,weak_design,repair
+mechanism_slippage,"treatment changes transit, rents, safety, and schools but claims one neighborhood effect",state the main channel and measure or bracket the bundled channels
+geography_mismatch,county-level estimates are used to claim a tract-level exposure mechanism,"choose geography using commuting flows, boundaries, routes, or institutions"
+ignoring_equilibrium,"employment gains are reported without rents, migration, or commuting",trace the most likely adjustment margins and define the incidence unit
+nominal_outcome_bias,wage increases are treated as welfare despite rent and commute changes,state what wages identify and add real-access or welfare measures where possible
+localism_without_mechanism,the paper documents one city but never explains what travels,write a portability claim tied to a general spatial labor mechanism
+sorting_treatment_confusion,neighborhood differences are interpreted causally without selection diagnostics,"use timing, boundaries, shocks, mover logic, or explicit selection checks"

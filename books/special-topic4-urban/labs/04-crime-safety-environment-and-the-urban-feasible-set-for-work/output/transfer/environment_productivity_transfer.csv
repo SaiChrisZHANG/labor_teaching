@@ -1,0 +1,9 @@
+worker_id,day,setting,heat_f,pm25,noise_db,scheduled_hours,predicted_hours,base_output,exposure_penalty,predicted_output,interpretation
+W01,day_1,moderate,74.0,11.0,53.0,8.0,8.0,100.0,0.0,100.0,environment_to_productivity_transfer
+W01,day_2,heat,91.0,14.0,56.0,8.0,7.89,100.0,0.089,91.1,environment_to_productivity_transfer
+W02,day_1,pollution,82.0,41.0,58.0,8.0,7.88,96.0,0.149,81.7,environment_to_productivity_transfer
+W02,day_2,combined,94.0,44.0,68.0,8.0,7.61,96.0,0.263,70.75,environment_to_productivity_transfer
+W03,day_1,moderate,76.0,10.0,52.0,8.0,8.0,104.0,0.0,104.0,environment_to_productivity_transfer
+W03,day_2,noise,80.0,13.0,74.0,8.0,8.0,104.0,0.073,96.41,environment_to_productivity_transfer
+W04,day_1,heat,89.0,15.0,59.0,8.0,7.96,98.0,0.09,89.18,environment_to_productivity_transfer
+W04,day_2,combined,96.0,38.0,71.0,8.0,7.66,98.0,0.26,72.52,environment_to_productivity_transfer

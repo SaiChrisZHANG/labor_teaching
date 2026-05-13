@@ -1,0 +1,13 @@
+residence,residence_admin_area,threshold,accessible_workplaces,accessible_vacancies,average_accessible_wage,average_commute_cost,best_net_opportunity,access_based_market
+Northside,city,25,2,80,32.31,20.62,16.88,narrow_flow_market
+Northside,city,35,3,105,33.19,21.9,18.52,intermediate_flow_market
+Northside,city,45,5,210,29.31,32.48,18.52,broad_flow_market
+Central,city,25,3,105,33.19,13.57,17.16,intermediate_flow_market
+Central,city,35,4,155,31.19,20.16,17.16,broad_flow_market
+Central,city,45,6,240,30.9,26.73,19.2,broad_flow_market
+West Flats,suburb,25,2,105,25.43,21.9,11.58,intermediate_flow_market
+West Flats,suburb,35,4,180,29.58,25.86,26.22,broad_flow_market
+West Flats,suburb,45,6,240,30.9,29.31,26.22,broad_flow_market
+South Gate,suburb,25,1,55,24.0,18.0,9.96,narrow_flow_market
+South Gate,suburb,35,2,105,25.43,22.76,11.16,intermediate_flow_market
+South Gate,suburb,45,4,180,29.58,30.28,24.72,broad_flow_market

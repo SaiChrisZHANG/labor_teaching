@@ -6,6 +6,12 @@ project:
     - references.bib
   toc:
     - file: index.md
+    - file: 01-space-and-labor-markets-urban-access-commuting-amenities-and-local-opportunity.md
+    - file: 02-housing-rents-moving-costs-and-labor-market-adjustment.md
+    - file: 03-spatial-mismatch-segregation-neighborhood-effects-and-job-access.md
+    - file: 04-crime-safety-environment-and-the-urban-feasible-set-for-work.md
+    - file: 05-migration-local-labor-demand-and-urban-labor-reallocation.md
+    - file: 06-synthesis-frontier-questions-and-student-research-designs.md
 site:
   template: book-theme
   title: Urban and Labor

@@ -1,0 +1,7 @@
+topic,labor_focus,mechanism_clarity,design_plausibility,external_relevance,total_score,readiness,next_narrowing_step
+remote work and hybrid geography,5,4,4,5,18,memo_ready,choose an occupation-specific labor outcome and a remote-work exposure measure
+housing reform and labor access,5,5,4,5,19,memo_ready,"define rent, entry, commute, and incumbent-worker incidence measures"
+climate heat and urban labor,5,5,5,5,20,memo_ready,match worker or workplace outcomes to high-frequency exposure data
+commuting and local labor market power,5,4,3,5,17,needs_narrowing,identify a commute shock or spatial outside-option measure
+AI and digital infrastructure,4,3,3,5,15,needs_narrowing,"narrow to job search, remote work, screening, or local service demand"
+redevelopment and displacement,5,4,4,5,18,memo_ready,"define incumbents before treatment and measure moves, rents, jobs, and commutes"

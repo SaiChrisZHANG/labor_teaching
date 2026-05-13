@@ -1,0 +1,217 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs}
+
+\title{Housing, Rents, Moving Costs}
+\subtitle{And Labor-Market Adjustment}
+\author{Special Topic 4: Urban and Labor -- Week 2}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Central question}
+\begin{itemize}
+    \item When do housing markets and moving costs prevent workers from reaching better labor-market opportunities?
+    \item Housing is a labor-market constraint because it governs who can live near, commute to, and remain attached to jobs.
+    \item The key object is real access, not nominal wages alone.
+    \item The research task is to identify which friction is binding.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Labor-space-housing framework}
+\[
+U_{ijr} = w_j - R_r - \tau(d_{jr}) + A_r - M_{ir} + \varepsilon_{ijr}
+\]
+\small
+\begin{tabular}{p{0.22\linewidth} p{0.62\linewidth}}
+\toprule
+Term & Interpretation \\
+\midrule
+$w_j$ & wage at workplace $j$ \\
+$R_r$ & rent or housing cost at residence $r$ \\
+$\tau(d_{jr})$ & generalized commute cost between workplace and residence \\
+$A_r$ & local amenity or disamenity value \\
+$M_{ir}$ & worker-specific moving or attachment cost \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{How housing enters labor outcomes}
+\begin{itemize}
+    \item Rents convert nominal wages into real access.
+    \item Housing supply elasticity determines whether shocks move prices or population.
+    \item Moving costs make migration responses unequal and sometimes slow.
+    \item Wealth, credit, tenure, and liquidity constraints shape who can enter high-opportunity places.
+    \item Commuting can substitute for migration, but only when transport access is feasible.
+    \item Local shocks are absorbed through wages, rents, employment, population, firms, and flows.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Nominal wage gain versus real access gain}
+\[
+\Delta RA_i = \Delta w_i - \Delta R_i - \Delta \tau_i + \Delta A_i - \Delta M_i
+\]
+\begin{itemize}
+    \item A higher wage is not automatically a higher-opportunity place.
+    \item Rent capitalization can transfer part of the gain to landlords or incumbent homeowners.
+    \item Commute costs can preserve access without migration, or erase the practical value of a wage gain.
+    \item Worker heterogeneity matters: skill, wealth, tenure, family constraints, and credit access change the net gain.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Supply constraints versus moving costs}
+\small
+\begin{tabular}{p{0.25\linewidth} p{0.32\linewidth} p{0.32\linewidth}}
+\toprule
+Friction & Signature & Counterfactual \\
+\midrule
+Housing supply constraint & high rents, high prices, limited population growth & allow more housing in productive places \\
+Moving-cost friction & workers do not relocate despite wage gaps & reduce relocation, search, liquidity, or tenure barriers \\
+Credit or wealth constraint & access differs by liquidity, ownership, or borrowing capacity & relax financing or upfront-cost barriers \\
+Regulatory constraint & price adjustment concentrated where building is hard & change land-use or permitting limits \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Migration and commuting}
+\begin{itemize}
+    \item Migration changes residence and the whole job-residence bundle.
+    \item Commuting links workers to jobs without residential relocation.
+    \item A local shock can increase in-commuting even when local population barely changes.
+    \item Commuting openness changes local employment elasticities and incidence.
+    \item Inequality appears when some workers can move, others can commute, and others can do neither.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Incidence: who captures local opportunity?}
+\small
+\begin{tabular}{p{0.27\linewidth} p{0.55\linewidth}}
+\toprule
+Claim & What to check \\
+\midrule
+Workers gain & real wages rise after rents and commuting costs \\
+Landlords gain & rents rise faster than worker real access \\
+Homeowners gain & house prices capitalize the shock \\
+Firms gain & labor supply expands with limited wage pressure \\
+Commuters gain & workplace employment rises without resident gains \\
+Would-be migrants lose & productive places price out entrants \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Equilibrium adjustment}
+\[
+\Delta Y_\ell =
+\left(
+\Delta w_\ell,\,
+\Delta R_\ell,\,
+\Delta N_\ell,\,
+\Delta E_\ell,\,
+\Delta C_\ell,\,
+\Delta P_\ell
+\right)
+\]
+\begin{itemize}
+    \item $w$: wages, $R$: rents, $N$: residents, $E$: employment.
+    \item $C$: commuting flows, $P$: house prices or local prices.
+    \item The pattern across margins reveals the likely binding friction.
+    \item One coefficient rarely tells the whole incidence story.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Paper architecture}
+\small
+\begin{tabular}{p{0.28\linewidth} p{0.55\linewidth}}
+\toprule
+Bucket & Research role \\
+\midrule
+Foundational framework & wages, rents, amenities, and location choice \\
+Housing constraints and misallocation & productive places blocked by housing costs or supply \\
+Moving costs and migration adjustment & workers fail to move after opportunity or decline \\
+Commuting and within-metro access & workers reach jobs without changing residence \\
+Local shocks and incidence & surplus divided among workers, firms, owners, and landlords \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Data sources researchers use}
+\small
+\begin{tabular}{p{0.28\linewidth} p{0.56\linewidth}}
+\toprule
+Source & Typical use \\
+\midrule
+ACS / ACS PUMS & rents, tenure, migration, commutes, worker traits \\
+Decennial Census & long-run population, housing, and sorting \\
+LEHD / LODES / QWI & workplace-residence links and flows \\
+IRS migration & county and state mobility responses \\
+Zillow / FHFA / CoreLogic & prices, rents, transactions, capitalization \\
+HUD / vouchers / HMDA & assistance, mobility supports, credit access \\
+CZ / MSA / tract / ZIP definitions & labor-market and housing-market geography \\
+Supply and regulation measures & elasticity, zoning, permits, land constraints \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Research design map}
+\small
+\begin{tabular}{p{0.30\linewidth} p{0.50\linewidth}}
+\toprule
+Design family & Best use \\
+\midrule
+Spatial equilibrium / counterfactual & aggregate misallocation and welfare incidence \\
+Bartik or shift-share shock & wage, rent, employment, and population incidence \\
+Housing-supply heterogeneity & price versus quantity adjustment \\
+Migration event study & timing and heterogeneity of relocation \\
+Transport or commuting shock & access changes without migration \\
+Administrative linkage & worker, firm, residence, and workplace heterogeneity \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{What makes a contribution}
+\begin{itemize}
+    \item Identify the binding friction rather than naming housing generically.
+    \item Separate nominal wage effects from real access effects.
+    \item Use a geography that matches the labor-market margin.
+    \item Measure both residence and workplace outcomes when possible.
+    \item State incidence: workers, landlords, homeowners, firms, commuters, or excluded entrants.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Discussion prompts}
+\begin{itemize}
+    \item A city has higher nominal wages. What data are needed before calling it a better opportunity?
+    \item A demand shock raises employment and rents. Who gained?
+    \item How would you distinguish a housing supply constraint from a moving-cost friction?
+    \item When does transit policy create labor access without migration?
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Bridge to Week 3}
+\begin{itemize}
+    \item Week 2 asks when housing blocks or redirects access to productive places.
+    \item Week 3 moves inside the metro area: spatial mismatch, segregation, neighborhoods, networks, and job access.
+    \item The same discipline carries forward: define reachable jobs, housing costs, feasible commutes, and incidence.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item Housing is part of labor-market adjustment, not background context.
+    \item Real access depends on wages, rents, commuting, amenities, and moving costs.
+    \item Migration and commuting are distinct adjustment margins.
+    \item The best papers identify which friction is binding and who captures the surplus.
+\end{itemize}
+\end{frame}
+
+\end{document}

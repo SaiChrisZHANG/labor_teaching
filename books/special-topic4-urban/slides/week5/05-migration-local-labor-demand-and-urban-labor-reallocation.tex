@@ -1,0 +1,202 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs}
+
+\title{Migration, Local Labor Demand}
+\subtitle{And Urban Labor Reallocation}
+\author{Special Topic 4: Urban and Labor -- Week 5}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Central question}
+\begin{itemize}
+    \item How do workers, firms, wages, rents, and commuting flows adjust when local labor demand changes?
+    \item Migration is one margin in a spatial labor-adjustment system.
+    \item Local shocks move people, jobs, firms, rents, commute flows, and neighborhoods.
+    \item The key empirical task is incidence: who can adjust, who gains, and who remains exposed?
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Where Week 5 fits}
+\begin{itemize}
+    \item Week 1: job-residence bundles define local labor opportunity.
+    \item Week 2: housing and moving costs limit access to productive places.
+    \item Week 3: segregation and neighborhoods create unequal job access.
+    \item Week 4: safety and environment change the feasible set for work.
+    \item Week 5: local shocks trigger dynamic reallocation across the whole system.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Spatial labor-adjustment value}
+\[
+V_{ijrt}
+=
+w_{jt}(D_{\ell t})
+- R_{rt}(D_{\ell t})
+- \tau_{jrt}
++ A_{rt}
+- M_{irt}
++ \varepsilon_{ijrt}
+\]
+\small
+\begin{tabular}{p{0.20\linewidth} p{0.64\linewidth}}
+\toprule
+Term & Interpretation \\
+\midrule
+$w(D)$ & workplace wage response to local demand \\
+$R(D)$ & rent or housing-cost capitalization \\
+$\tau$ & commute cost linking residence and workplace \\
+$A$ & amenities and disamenities \\
+$M$ & moving cost and attachment to place \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Adjustment margins}
+\small
+\begin{tabular}{p{0.23\linewidth} p{0.35\linewidth} p{0.26\linewidth}}
+\toprule
+Margin & What moves & Incidence question \\
+\midrule
+Wages & pay, earnings, job quality & do workers share gains? \\
+Employment & jobs, unemployment, LFPR & who remains attached? \\
+Migration & inflows and outflows & who can move? \\
+Commuting & residence-workplace flows & who accesses without moving? \\
+Rents & housing costs, prices & who captures surplus? \\
+Firms & entry, exit, relocation & are job ladders rebuilt? \\
+Composition & sector, skill, neighborhood mix & who is being compared? \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Migration and commuting}
+\begin{itemize}
+    \item Migration changes residence and the whole job-residence bundle.
+    \item Commuting changes access to workplaces without changing residence.
+    \item A job boom can raise workplace employment with little resident population growth.
+    \item Commuting openness can lower wage pressure and spread gains across places.
+    \item Housing constraints can convert labor demand into rent growth instead of worker inflow.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Incidence after a local shock}
+\small
+\begin{tabular}{p{0.24\linewidth} p{0.36\linewidth} p{0.25\linewidth}}
+\toprule
+Group & Possible gain & Possible loss \\
+\midrule
+Incumbent workers & higher wages, job access & rent pressure, scarring \\
+Migrants & entry to opportunity & moving costs, crowding \\
+Commuters & access to wage gains & time and transport costs \\
+Landlords/homeowners & capitalization & local risk if decline \\
+Firms & thicker labor market & higher labor and land costs \\
+Local government & tax base & service pressure, fiscal decline \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Persistence and hysteresis}
+\begin{itemize}
+    \item Shocks can scar workers through job loss, lost tenure, sectoral mismatch, and weaker networks.
+    \item Local employment can recover while incumbent workers remain on lower earnings paths.
+    \item Workers can recover by leaving even when the origin place declines.
+    \item Place recovery and person recovery are different estimands.
+    \item Dynamic designs must define incumbents before the shock.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Places versus people}
+\small
+\begin{tabular}{p{0.30\linewidth} p{0.48\linewidth}}
+\toprule
+Object & Outcomes \\
+\midrule
+Place & employment, population, establishments, rents, tax base, commuting flows \\
+Incumbent worker & earnings, employment, occupation, commute, moving cost, welfare \\
+Migrant & destination job access, housing cost, local networks, earnings path \\
+Commuter & workplace wage access, travel burden, residence-based welfare \\
+Firm & hiring costs, entry, exit, productivity, location choice \\
+Owner or landlord & capitalization, rent income, wealth exposure \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Gentrification as labor restructuring}
+\begin{itemize}
+    \item Gentrification changes more than rents and demographics.
+    \item It can shift local service demand, job composition, business turnover, and commute patterns.
+    \item Incumbent residents may gain from new jobs, safer amenities, or ownership wealth.
+    \item Incumbent renters may lose through rent pressure, network disruption, and longer commutes.
+    \item The labor question is which jobs are created, destroyed, upgraded, or made inaccessible.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Diversification as worker insurance}
+\begin{itemize}
+    \item Specialized places offer upside but expose workers to sector-specific shocks.
+    \item Diversified places may provide alternative local job ladders after downturns.
+    \item The insurance value depends on skill transferability, housing access, and local hiring networks.
+    \item Diversity can proxy for size, amenities, human capital, or institutions.
+    \item Good designs distinguish resilience from selection into already-strong cities.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Methods and data}
+\small
+\begin{tabular}{p{0.26\linewidth} p{0.32\linewidth} p{0.26\linewidth}}
+\toprule
+Setting & Design & Data \\
+\midrule
+Local demand shocks & shift-share, IV, event study & ACS, QWI, industry shares \\
+Migration incidence & predicted-destination IV & IRS flows, settlement shares \\
+Commuting access & transport or travel-time shocks & LEHD, LODES, GTFS \\
+Persistence & dynamic local-shock panels & matched workers, CZ panels \\
+Gentrification & job-location and tract panels & business data, rents, ACS \\
+Diversification & shock by industry mix & sector shares, worker outcomes \\
+Equilibrium incidence & spatial calibration & wages, rents, flows, housing \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{What a good design shows}
+\begin{itemize}
+    \item The shock is separated from endogenous local trends.
+    \item The geography matches the mechanism: residence, workplace, tract, county, CZ, or flow market.
+    \item Wages are interpreted with rents, commuting, migration, and composition.
+    \item Incumbents, migrants, commuters, firms, and landlords are not collapsed into one effect.
+    \item The design states whether the target is nominal earnings, real access, resilience, or welfare.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Week 5 lab}
+\begin{itemize}
+    \item Reproduce: synthetic local demand shock with wages, rents, population, commuting, and firms.
+    \item Diagnose: classify outputs as place objects or person objects and assign incidence.
+    \item Transfer: gentrification scenario with local service demand and rent pressure.
+    \item Transfer: diversification scenario with specialized and diversified places hit by a sector shock.
+    \item Goal: interpret an adjustment vector before interpreting one coefficient.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item Migration and commuting are linked margins in local labor adjustment.
+    \item Local shocks have incidence across workers, migrants, commuters, firms, and property owners.
+    \item Place recovery is not the same thing as worker recovery.
+    \item Gentrification and diversification are labor topics when they restructure jobs and risk.
+    \item Week 6 turns these objects into research designs.
+\end{itemize}
+\end{frame}
+
+\end{document}

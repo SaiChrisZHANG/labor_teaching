@@ -1,0 +1,5 @@
+residence,group,access_score_before,access_score_after,delta_access_score,reachable_vacancies_before,reachable_vacancies_after,delta_reachable_vacancies,interpretation
+Central Green,central_transit_reliant,137.47,131.13,-6.34,210,170,-40,job_suburbanization_access_shock_not_realized_employment
+East River,segregated_central,104.77,100.96,-3.81,210,170,-40,job_suburbanization_access_shock_not_realized_employment
+North Loop,mixed_access,112.16,124.03,11.87,255,250,-5,job_suburbanization_access_shock_not_realized_employment
+Outer Ridge,suburban_auto_access,88.02,128.88,40.86,80,175,95,job_suburbanization_access_shock_not_realized_employment

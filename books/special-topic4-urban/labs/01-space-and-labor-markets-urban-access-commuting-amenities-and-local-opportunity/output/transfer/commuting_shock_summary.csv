@@ -1,0 +1,5 @@
+residence,threshold,baseline_accessible_vacancies,shock_accessible_vacancies,delta_accessible_vacancies,baseline_best_net_opportunity,shock_best_net_opportunity,delta_best_net_opportunity,interpretation
+Northside,30,105,105,0,18.52,18.52,0.0,commuting_friction_change_not_migration
+Central,30,105,105,0,17.16,17.16,0.0,commuting_friction_change_not_migration
+West Flats,30,135,135,0,26.22,27.66,1.44,commuting_friction_change_not_migration
+South Gate,30,105,135,30,11.16,26.34,15.18,commuting_friction_change_not_migration

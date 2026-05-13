@@ -1,0 +1,6 @@
+event_time,displaced_formal_earnings,comparison_formal_earnings,diff_formal_earnings,did_vs_event_minus_1_formal_earnings,displaced_legal_opportunity_index,comparison_legal_opportunity_index,diff_legal_opportunity_index,did_vs_event_minus_1_legal_opportunity_index,displaced_credit_stress_index,comparison_credit_stress_index,diff_credit_stress_index,did_vs_event_minus_1_credit_stress_index,displaced_crime_risk_index,comparison_crime_risk_index,diff_crime_risk_index,did_vs_event_minus_1_crime_risk_index,interpretation
+-2,691.0,689.75,1.25,0.0,88.73,92.9,-4.17,0.0,3.34,1.96,1.38,0.0,4.49,3.77,0.72,0.0,synthetic_event_study_not_official_replication
+-1,703.0,701.75,1.25,0.0,89.92,94.1,-4.17,0.0,3.13,1.75,1.38,0.0,3.87,3.15,0.72,0.0,synthetic_event_study_not_official_replication
+0,465.0,713.75,-248.75,-250.0,66.12,95.3,-29.17,-25.0,103.22,1.54,101.68,100.3,28.72,2.52,26.2,25.48,synthetic_event_study_not_official_replication
+1,532.0,725.75,-193.75,-195.0,72.82,96.5,-23.68,-19.5,100.88,1.33,99.55,98.17,24.2,1.99,22.21,21.49,synthetic_event_study_not_official_replication
+2,599.0,737.75,-138.75,-140.0,79.53,97.7,-18.17,-14.0,98.53,1.12,97.41,96.03,19.68,1.66,18.02,17.3,synthetic_event_study_not_official_replication

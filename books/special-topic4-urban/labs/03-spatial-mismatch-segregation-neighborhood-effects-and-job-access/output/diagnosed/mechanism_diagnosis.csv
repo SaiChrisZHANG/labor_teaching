@@ -1,0 +1,6 @@
+claim,labor_object,counterfactual,clean_design_family,main_threat
+Longer childhood exposure to a higher-opportunity destination raises adult earnings.,adult_earnings,same family move with different child age or exposure duration,mover_age_at_move,endogenous timing and bundled school or peer channels
+A worker lives near many jobs but receives fewer callbacks because of address stigma.,callback_or_interview,same application with randomized address or commute signal,audit_correspondence,callback margin may not equal equilibrium employment
+Neighbors help each other enter the same establishments.,job_finding_through_referrals,same worker in a different neighbor-coworker network,matched_employer_employee_network,sorting into neighborhoods and firms
+A school boundary changes adult outcomes by changing school quality.,human_capital_and_later_earnings,same residence near the boundary assigned to a different school,school_boundary_or_admission,housing capitalization and selection around boundaries
+Job suburbanization lowers employment for transit-reliant central neighborhoods.,reachable_vacancies_and_employment,same residents facing the pre-suburbanization job geography,policy_or_job_location_shock,access effects may differ from realized employment effects

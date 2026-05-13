@@ -1,0 +1,1 @@
+Synthetic Week 1 access lab complete. Outputs distinguish access, realized commute, workplace wages, residential rents, and net opportunity.

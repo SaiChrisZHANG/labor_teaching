@@ -1,0 +1,6 @@
+claim,direction,labor_object,counterfactual,main_threat
+Job loss increases crime through lower legal opportunity.,labor_to_crime,formal_earnings_and_job_access,same worker without displacement at the event date,"job loss also changes credit, stress, networks, and enforcement exposure"
+Unsafe commuting routes reduce willingness to accept late shifts.,risk_to_labor,feasible_shift_set,same wage and job with lower route risk,route risk may be correlated with transit time and local demand
+Workplace harassment pushes workers out of high-wage occupations.,workplace_risk_to_sorting,retention_and_occupational_choice,same worker in a workplace with lower harassment risk,complaints measure reporting behavior as well as exposure
+Pollution lowers output while workers remain employed.,environment_to_productivity,within_worker_task_output,same worker and task under lower exposure,workers may select out of high-exposure shifts or tasks
+"A risky job pays more, so workers are fully compensated.",welfare_interpretation,risk_adjusted_value_not_wage_only,same worker with equal mobility and full risk information,compensation may be incomplete and rents may capitalize safety
