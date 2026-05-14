@@ -6,6 +6,12 @@ project:
     - references.bib
   toc:
     - file: index.md
+    - file: 01-health-risk-and-labor-markets-core-frameworks-and-measurement.md
+    - file: 02-disability-chronic-conditions-labor-supply-and-job-choice.md
+    - file: 03-fertility-mortality-caregiving-and-lifecycle-labor-allocation.md
+    - file: 04-mental-health-stress-workplace-productivity-and-worker-welfare.md
+    - file: 05-disease-exposure-environmental-health-demographic-change-and-labor-market-adjustment.md
+    - file: 06-synthesis-frontier-questions-and-student-research-designs.md
 site:
   template: book-theme
   title: Health, Population, and Labor

@@ -1,0 +1,8 @@
+diagnostic_margin,gap,dominant_issue,diagnostic_question
+absenteeism_gap,1.393,productivity_loss_or_leave_access,"Higher absence among high-distress workers may reflect symptoms, treatment time, leave rules, or job strain."
+presenteeism_gap,0.139,on_the_job_productivity_loss,Presenteeism is close to the lecture object but remains partly self-reported and job-task dependent.
+performance_gap,-0.057,productivity_and_job_quality_bundle,"Lower performance may mix symptoms, workload, supervision, conflict, and task assignment."
+quit_risk_gap,0.072,retention_and_dynamic_selection,"Quit risk can indicate worse job quality, lower mental health, constrained search, or selection out of observed employment."
+stigma_disclosure_gap,1.0,stigma_and_information,"Disclosure is lower in high-stigma settings, so observed accommodation may understate need."
+autonomy_welfare_gap,0.02,work_causing_mental_health_and_welfare,Autonomy changes the welfare meaning of the same observed distress group.
+treatment_performance_gap,0.028,treatment_selection,"Treatment users differ in access, severity, disclosure, and support; the gap is not a clean treatment effect."

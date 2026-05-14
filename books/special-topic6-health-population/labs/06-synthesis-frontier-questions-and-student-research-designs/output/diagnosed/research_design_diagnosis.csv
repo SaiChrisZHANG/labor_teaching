@@ -1,0 +1,7 @@
+diagnostic_margin,event_study_signal,dominant_issue,design_lesson
+capacity_loss_at_onset,-0.14,work_capacity_effect,"The immediate drop in capacity identifies the onset object, but not whether work conditions also caused health decline."
+employment_and_hours_path,-0.166,dynamic_labor_supply_and_selection,"Employment and hours keep changing after onset, so a one-year estimate misses adaptation, exit, and selection."
+accommodation_response,0.492,firm_response,"Accommodation rises after onset, but worker-only data would not reveal which firms can retain constrained workers."
+benefit_receipt_response,0.833,program_incentives_and_insurance,Benefit receipt protects income for some workers while also changing labor supply incentives and observed attachment.
+consumption_vs_earnings,40.858,household_insurance,Consumption falls less than earnings when transfers and household buffers partially insure the shock.
+welfare_beyond_earnings,0.347,hidden_welfare_incidence,"Welfare captures capacity loss, flexibility, benefits, mobility, and accommodation, not only earnings."

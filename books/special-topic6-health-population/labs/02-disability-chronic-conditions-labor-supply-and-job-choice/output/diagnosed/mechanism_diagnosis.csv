@@ -1,0 +1,10 @@
+event_time,phase,dominant_channel,capacity_gap,employment_gap,hours_gap,accommodation_gap,benefit_receipt_gap,job_mobility_gap,diagnostic_question
+-3,pre_onset_balance_window,selection_and_pre_trends,-0.0,0.0,0.0,0.0,0.0,0.0,Check whether treated and comparison paths are already diverging.
+-2,pre_onset_balance_window,selection_and_pre_trends,-0.0,0.0,0.0,0.0,0.0,0.0,Check whether treated and comparison paths are already diverging.
+-1,pre_onset_balance_window,selection_and_pre_trends,-0.0,0.0,0.0,0.0,0.0,0.0,Check whether treated and comparison paths are already diverging.
+0,short_run_disruption,direct_work_capacity_effect,-0.275,-0.562,-24.855,0.0,0.0,0.0,Capacity and hours move before benefit receipt is common.
+1,short_run_disruption,direct_work_capacity_effect,-0.31,-0.229,-13.259,0.75,0.0,0.0,Capacity and hours move before benefit receipt is common.
+2,medium_run_program_interaction,program_incentives_and_benefit_receipt,-0.325,-0.271,-14.686,0.75,0.208,0.0,Benefit receipt and employment gaps move together.
+3,medium_run_program_interaction,program_incentives_and_benefit_receipt,-0.34,-0.312,-16.129,0.75,0.25,0.0,Benefit receipt and employment gaps move together.
+4,medium_run_program_interaction,program_incentives_and_benefit_receipt,-0.355,-0.333,-16.852,0.75,0.25,0.0,Benefit receipt and employment gaps move together.
+5,medium_run_program_interaction,program_incentives_and_benefit_receipt,-0.37,-0.396,-18.756,0.75,0.25,0.0,Benefit receipt and employment gaps move together.

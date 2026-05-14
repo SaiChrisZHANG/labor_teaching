@@ -1,0 +1,5 @@
+scenario,health_object,labor_margin,identification_logic,main_remaining_threat,student_task
+acute_hospitalization,hospital admission as severe health shock,employment and hours before versus after shock,event-time comparison with matched nonshocked workers,pre-trends and unobserved severity,separate immediate work-capacity loss from insurance and employer retention responses
+disability_onset,administrative disability entry,"labor-force exit, earnings, and consumption",onset timing or examiner/threshold variation,program rules and application selection,explain why disability status is not pure health
+mental_health_treatment,treatment start or symptom scale,"attendance, hours, retention, and productivity",timing around access expansion or provider availability,"stigma, underreporting, and treatment selection",state which latent condition and workplace margin are visible
+insurance_linked_treatment_access,coverage and treatment access,"job lock, mobility, recovery, and hours","policy threshold, coverage change, or employer benefit variation",coverage changes both health and job incentives,separate recovery from job-lock and compensation-package channels

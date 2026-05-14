@@ -1,0 +1,9 @@
+measure,higher_value_meaning,employment_slope,employment_ses_adjusted_slope,hours_slope,feasible_jobs_slope,interpretation
+latent_work_capacity,better capacity,2.1667,2.3172,81.931,8.932,benchmark_unobserved_capacity_gradient
+self_reported_poor_health,worse health,-0.8791,-0.8852,-30.2228,-2.0055,private_information_plus_reporting_bias
+diagnosed_condition_severity,worse health,-1.366,-1.3815,-52.2837,-5.7581,health_proxy_requires_measurement_diagnosis
+biomarker_risk,worse health,-1.5189,-1.517,-56.7048,-5.4181,health_proxy_requires_measurement_diagnosis
+administrative_disability_status,worse health,-0.708,-0.7067,-23.591,-3.1542,program_status_blends_health_and_incentives
+mortality_risk_proxy,worse health,-2.2926,-2.2936,-83.7278,-8.5481,health_proxy_requires_measurement_diagnosis
+mental_health_burden,worse health,-0.8667,-0.8667,-29.512,-0.9667,health_proxy_requires_measurement_diagnosis
+treatment_access,better access,0.1465,0.193,6.9946,2.0788,access_margin_can_reflect_job_lock_or_recovery

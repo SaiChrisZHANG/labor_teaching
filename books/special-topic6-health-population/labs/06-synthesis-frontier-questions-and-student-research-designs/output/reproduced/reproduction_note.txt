@@ -1,0 +1,1 @@
+Synthetic Week 6 capstone lab complete. Outputs reproduce a disability-onset research profile, diagnose design objects and failure modes, and transfer the architecture to frontier health, population, and labor-market settings.

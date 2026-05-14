@@ -1,0 +1,9 @@
+measure,closest_object,main_threat,corr_with_latent_capacity,corr_with_ses,diagnostic_question
+latent_work_capacity,work capacity and feasible set,unobserved in most real data,1.0,0.285,What would be required to observe this object in real data?
+self_reported_poor_health,"private information on function, pain, and fatigue",reporting heterogeneity and justification bias,-0.751,-0.109,Is reporting shaped by employment status or benefit application?
+diagnosed_condition_severity,clinically recognized condition burden,misses undiagnosed conditions and task feasibility,-0.891,-0.151,"Who is diagnosed, and what severity or function remains hidden?"
+biomarker_risk,objective risk and physiological severity,may be distant from day-to-day work capacity,-0.839,-0.024,Does the biomarker predict the actual task and schedule constraint?
+administrative_disability_status,health plus program classification,"blends health, rules, applications, and incentives",-0.549,-0.101,How much is health and how much is program screening?
+mortality_risk_proxy,severe underlying risk,weak for nonfatal functional constraints,-0.736,0.004,Does severe risk proxy for routine work capacity?
+mental_health_burden,"latent mental health, stress, and functioning","stigma, underreporting, and reverse causality",-0.344,0.0,"What stigma, treatment, and workplace feedback remain unmeasured?"
+treatment_access,insurance-linked recovery and care access,jointly determined with employment and job quality,0.414,0.609,"Is access a recovery input, a job amenity, or both?"

@@ -1,0 +1,173 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs}
+
+\title{Health, Risk, And Labor Markets}
+\subtitle{Core Frameworks And Measurement}
+\author{Special Topic 6: Labor Market, Health, and Population -- Week 1}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Central question}
+\begin{itemize}
+    \item How should labor economists model and measure health when health affects both productivity and the feasible set for work?
+    \item Health is not only a control variable. It changes work capacity, job choice, productivity, mobility, wages, amenities, and welfare.
+    \item Week 1 discipline: name the health object before interpreting a health coefficient.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Why this is labor economics}
+\begin{itemize}
+    \item Health changes whether work is feasible and how much work is sustainable.
+    \item Health changes which jobs, schedules, commutes, risks, and amenities are tolerable.
+    \item Health changes productivity inside jobs and firm decisions about hiring, tasks, scheduling, insurance, and accommodation.
+    \item Labor outcomes are the organizing objects: employment, hours, job choice, wages, productivity, mobility, firm behavior, and welfare.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Health as human capital and work capacity}
+\small
+\begin{tabular}{p{0.24\linewidth} p{0.42\linewidth} p{0.22\linewidth}}
+\toprule
+Dimension & Labor interpretation & Typical proxy \\
+\midrule
+Work capacity & ability to sustain hours and tasks & limitations, disability, function \\
+Productivity & output conditional on working & performance, absence, demands \\
+Risk & future impairment, exit, mortality & shocks, conditions, mortality risk \\
+Feasible set & tolerable jobs and schedules & occupation, hours, mobility \\
+Welfare & value of work net of pain, stress, risk & amenities, insurance, job quality \\
+\bottomrule
+\end{tabular}
+\vspace{0.3cm}
+\begin{itemize}
+    \item Health shifts both the budget set and the feasible set.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Measurement choices}
+\small
+\begin{tabular}{p{0.28\linewidth} p{0.38\linewidth} p{0.22\linewidth}}
+\toprule
+Measure & What it may capture & Main warning \\
+\midrule
+Self-reported health & pain, fatigue, private functioning & reporting and justification bias \\
+Diagnosis / biomarker & clinical status or severity & may miss work capacity \\
+Disability status & health plus administrative criteria & blends health and program rules \\
+Hospitalization / shock & severe discrete event & narrow margin \\
+Mental health scale & cognition, stress, persistence & latent and stigmatized \\
+Insurance / treatment & access and recovery margin & jointly affects work and health \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Different measures, different objects}
+\begin{itemize}
+    \item Self-reports can reveal private information about function, pain, fatigue, or latent conditions.
+    \item Diagnoses and biomarkers can look objective but may miss severity, untreated illness, and task feasibility.
+    \item Disability status is an institutional outcome, not pure work capacity.
+    \item Mortality risk and acute shocks identify severe events, not routine chronic constraints.
+    \item Insurance and treatment access can change health, reported health, labor supply, and mobility at the same time.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Reverse causality and dynamic selection}
+\small
+\[
+Y_{it} =
+\beta H_{it}
++ X_{it}'\Gamma
++ \alpha_i
++ \lambda_t
++ \varepsilon_{it}
+\]
+\begin{itemize}
+    \item Reverse causality: work affects health through stress, injuries, income, insurance, schedules, and job conditions.
+    \item Omitted SES: education, wealth, early-life resources, occupation, and local labor demand shape both health and work.
+    \item Dynamic selection: healthier workers remain employed longer and sort into different firms, jobs, and schedules.
+    \item Program rules: disability and insurance institutions can move labor supply independently of latent health.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Worker-side versus firm-side channels}
+\small
+\begin{tabular}{p{0.28\linewidth} p{0.31\linewidth} p{0.28\linewidth}}
+\toprule
+Health channel & Worker-side margin & Firm-side margin \\
+\midrule
+Reduced capacity & hours, exit, job downgrading & screening, reassignment, accommodation \\
+Higher risk & safer jobs, retirement timing & insurance, safety investment \\
+Treatment access & recovery, job lock, mobility & benefit design, job packages \\
+Uncertainty & precautionary supply and saving & absenteeism and scheduling risk \\
+Chronic burden & commuting and mobility limits & flexibility, monitoring, retention \\
+\bottomrule
+\end{tabular}
+\vspace{0.25cm}
+\begin{itemize}
+    \item Reduced-form effects can mix supply, productivity, sorting, and employer response.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{A field map for the course}
+\small
+\begin{tabular}{p{0.30\linewidth} p{0.52\linewidth}}
+\toprule
+Later object & Week 1 preparation \\
+\midrule
+Disability and chronic conditions & separates health from program status and names the labor margin \\
+Fertility, mortality, caregiving & treats shocks as lifecycle labor-allocation events \\
+Mental health and productivity & makes latent conditions and welfare measurement explicit \\
+Disease and environment & scales health from individual heterogeneity to market condition \\
+Research synthesis & uses labor object -> health object -> design problem -> welfare object \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Research Lab design}
+\begin{itemize}
+    \item Primary anchor: Blundell, Britton, Costa Dias, and French on health measures and employment near retirement.
+    \item Challenge anchor: Bound on self-reported versus objective health measures.
+    \item Reproduce: compare reduced-form labor gradients across health measures.
+    \item Diagnose: classify measurement objects and threats from reverse causality, SES, and selection.
+    \item Transfer: move the logic to acute shocks, disability onset, mental health treatment, or insurance access.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Research design checklist}
+\begin{enumerate}
+    \item Name the labor margin: employment, hours, wages, productivity, job choice, mobility, amenities, or welfare.
+    \item Name the health object: self-report, diagnosis, biomarker, disability status, severe shock, mental health, insurance, or treatment.
+    \item State the timing and selection problem.
+    \item Separate worker-side and firm-side channels.
+    \item Say what welfare object is visible and what remains offstage.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Bridge to Week 2}
+\begin{itemize}
+    \item Week 1 builds the common language: health as capacity, risk, feasible set, measurement problem, and labor-market margin.
+    \item Week 2 applies that language to disability, chronic conditions, job choice, accommodations, and program interaction.
+    \item The next question: when does a health limitation become an employment constraint, a job-quality constraint, or an institutional response?
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item Health is a labor object when it changes capacity, productivity, risk, feasible work, firm behavior, or welfare.
+    \item Measurement is not a technical afterthought; it is one of the central open problems in the field.
+    \item Reverse causality, omitted SES, and dynamic selection are baseline threats, not footnotes.
+    \item Strong designs connect a health object to a labor margin, a channel, a counterfactual, and a welfare interpretation.
+\end{itemize}
+\end{frame}
+
+\end{document}

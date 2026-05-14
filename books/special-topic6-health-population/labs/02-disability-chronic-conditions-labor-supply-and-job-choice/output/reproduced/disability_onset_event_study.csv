@@ -1,0 +1,10 @@
+event_time,treated_mean_latent_work_capacity,comparison_mean_latent_work_capacity,treated_minus_comparison_latent_work_capacity,treated_mean_employed,comparison_mean_employed,treated_minus_comparison_employed,treated_mean_hours,comparison_mean_hours,treated_minus_comparison_hours,treated_mean_annual_earnings_index,comparison_mean_annual_earnings_index,treated_minus_comparison_annual_earnings_index,treated_mean_feasible_jobs,comparison_mean_feasible_jobs,treated_minus_comparison_feasible_jobs,treated_mean_accommodation_received,comparison_mean_accommodation_received,treated_minus_comparison_accommodation_received,treated_mean_benefit_receipt,comparison_mean_benefit_receipt,treated_minus_comparison_benefit_receipt,treated_mean_job_mobility,comparison_mean_job_mobility,treated_minus_comparison_job_mobility
+-3,0.915,0.915,-0.0,1.0,1.0,0.0,38.42,38.42,0.0,1534.256,1534.256,-0.0,6.125,6.125,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+-2,0.915,0.915,-0.0,1.0,1.0,0.0,38.42,38.42,0.0,1534.256,1534.256,-0.0,6.125,6.125,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+-1,0.915,0.915,-0.0,1.0,1.0,0.0,38.42,38.42,0.0,1534.256,1534.256,-0.0,6.125,6.125,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+0,0.64,0.915,-0.275,0.438,1.0,-0.562,13.565,38.42,-24.855,522.677,1534.256,-1011.58,3.958,6.125,-2.167,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+1,0.605,0.915,-0.31,0.771,1.0,-0.229,25.161,38.42,-13.259,993.741,1534.256,-540.515,4.875,6.125,-1.25,0.75,0.0,0.75,0.0,0.0,0.0,0.0,0.0,0.0
+2,0.59,0.915,-0.325,0.729,1.0,-0.271,23.734,38.42,-14.686,945.658,1534.256,-588.598,4.417,6.125,-1.708,0.75,0.0,0.75,0.208,0.0,0.208,0.0,0.0,0.0
+3,0.575,0.915,-0.34,0.688,1.0,-0.312,22.291,38.42,-16.129,891.614,1534.256,-642.642,4.25,6.125,-1.875,0.75,0.0,0.75,0.25,0.0,0.25,0.0,0.0,0.0
+4,0.56,0.915,-0.355,0.667,1.0,-0.333,21.568,38.42,-16.852,864.689,1534.256,-669.567,4.167,6.125,-1.958,0.75,0.0,0.75,0.25,0.0,0.25,0.0,0.0,0.0
+5,0.545,0.915,-0.37,0.604,1.0,-0.396,19.664,38.42,-18.756,794.435,1534.256,-739.821,4.125,6.125,-2.0,0.75,0.0,0.75,0.25,0.0,0.25,0.0,0.0,0.0

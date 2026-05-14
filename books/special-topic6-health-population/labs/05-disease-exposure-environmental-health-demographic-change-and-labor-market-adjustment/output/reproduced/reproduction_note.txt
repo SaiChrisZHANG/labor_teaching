@@ -1,0 +1,1 @@
+Synthetic Week 5 disease/environment/demography lab complete. Outputs compare COVID-style incidence across occupation, exposure, care burden, migrant status, environmental risk, demography, migration, automation, and welfare; diagnose causal limits; and transfer the design to historical, development, environmental, migration, and aging settings.

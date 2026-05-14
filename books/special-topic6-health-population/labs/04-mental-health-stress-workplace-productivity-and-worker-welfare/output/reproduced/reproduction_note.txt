@@ -1,0 +1,1 @@
+Synthetic Week 4 mental-health productivity lab complete. Outputs compare distress, absenteeism, presenteeism, performance, quits, disclosure, accommodations, stigma, treatment, job quality, and welfare; diagnose causal limits; and transfer the design to frontier settings.

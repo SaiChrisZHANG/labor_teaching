@@ -1,0 +1,9 @@
+group,worker_periods,mean_distress_index,mean_absenteeism_days,mean_presenteeism_score,mean_performance_index,mean_quit_risk,mean_safety_incident_risk,mean_treatment_use,mean_disclosed,mean_accommodation,mean_welfare_index
+low_distress,575,0.32,1.177,0.288,0.88,0.072,0.027,0.64,0.0,0.0,0.866
+high_distress,145,0.583,2.57,0.427,0.823,0.144,0.033,0.924,0.448,0.234,0.795
+high_distress_low_stigma,65,0.583,2.272,0.385,0.843,0.124,0.028,1.0,1.0,0.523,0.83
+high_distress_high_stigma,80,0.584,2.812,0.461,0.807,0.161,0.037,0.863,0.0,0.0,0.765
+high_distress_high_autonomy,72,0.567,2.632,0.416,0.823,0.133,0.048,0.875,0.417,0.236,0.805
+high_distress_low_autonomy,73,0.599,2.509,0.438,0.824,0.155,0.017,0.973,0.479,0.233,0.785
+high_distress_treatment_use,134,0.587,2.531,0.419,0.825,0.143,0.03,1.0,0.485,0.254,0.801
+high_distress_no_treatment,11,0.534,3.04,0.519,0.797,0.163,0.07,0.0,0.0,0.0,0.712

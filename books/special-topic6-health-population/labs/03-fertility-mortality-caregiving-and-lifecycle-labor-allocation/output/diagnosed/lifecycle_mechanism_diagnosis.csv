@@ -1,0 +1,10 @@
+event_time,phase,dominant_channel,informal_care_hours_gap,focal_hours_gap,spouse_hours_gap,household_earnings_gap,savings_drawdown_gap,retirement_claiming_gap,bridge_job_gap,post_retirement_work_gap,diagnostic_question
+-3,pre_shock_balance_window,selection_and_pre_trends,0.0,0.085,0.025,8.762,0.0,0.0,0.0,0.0,Check whether treated and comparison households were already diverging.
+-2,pre_shock_balance_window,selection_and_pre_trends,0.0,0.085,0.025,8.762,0.0,0.0,0.0,0.0,Check whether treated and comparison households were already diverging.
+-1,anticipation_window,dynamic_selection_and_anticipation,0.583,-0.44,0.025,-13.367,0.0,0.0,0.0,0.0,Pre-shock movement suggests expected decline or early care needs.
+0,short_run_care_disruption,care_time_demand,11.717,-3.072,-5.988,-350.773,3013.772,0.021,0.0,0.0,Care hours rise faster than any income-replacement labor response.
+1,short_run_care_disruption,care_time_demand,12.717,-6.031,-7.788,-548.674,3172.106,0.104,0.0,0.0,Care hours rise faster than any income-replacement labor response.
+2,retirement_and_pension_response,pension_or_benefit_incentives,13.717,-8.468,-9.588,-719.804,3363.773,0.125,0.188,0.021,Retirement claiming moves with care needs and late-career age.
+3,retirement_and_pension_response,pension_or_benefit_incentives,14.717,-9.805,-11.388,-842.731,3555.439,0.146,0.208,0.021,Retirement claiming moves with care needs and late-career age.
+4,retirement_and_pension_response,pension_or_benefit_incentives,15.568,-10.504,-13.188,-938.068,3680.445,0.146,0.229,0.021,Retirement claiming moves with care needs and late-career age.
+5,retirement_and_pension_response,pension_or_benefit_incentives,15.712,-10.794,-14.988,-1016.049,3679.587,0.167,0.25,0.042,Retirement claiming moves with care needs and late-career age.

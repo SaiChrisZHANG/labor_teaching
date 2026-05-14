@@ -1,0 +1,1 @@
+Synthetic Week 3 lifecycle labor-allocation lab complete. Outputs compare family health-shock event-time profiles, diagnose care/income/pension/flexibility/selection channels, and transfer the design to fertility, caregiving, pension, and bridge-job settings.

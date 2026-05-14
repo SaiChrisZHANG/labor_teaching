@@ -1,0 +1,1 @@
+Synthetic Week 2 disability and chronic-conditions lab complete. Outputs compare onset event-time profiles, diagnose capacity/program/accommodation/demand/selection channels, and transfer the design to alternative settings.

@@ -1,0 +1,1 @@
+Synthetic Week 1 health measurement lab complete. Outputs compare latent capacity, self-reported health, clinical/objective proxies, administrative disability status, mental health, and treatment access.

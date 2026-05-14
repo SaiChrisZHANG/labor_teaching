@@ -1,0 +1,8 @@
+diagnostic_margin,gap,dominant_issue,diagnostic_question
+frontline_vs_remote_employment_drop,-15.528,disease_risk_policy_and_occupation_sorting,"Frontline employment falls more than remote-feasible employment, but the gap bundles risk, demand, shutdowns, and occupation."
+care_burden_hours_drop,-2.359,caregiving_constraint,High-care groups lose more hours when school and household constraints arrive with the health shock.
+migrant_welfare_gap,42.324,migrant_vulnerability_and_limited_adjustment,High-migrant groups show larger welfare loss because exposure is high and migration or job-switching options are constrained.
+environment_productivity_gap,95.487,environmental_productivity_incidence,High environmental exposure lowers productivity even when employment is only one part of the incidence.
+older_automation_response,-0.004,aging_and_firm_reorganization,"Older-worker regions show stronger automation growth, linking demographic pressure to firm response."
+migration_as_adjustment_and_selection,-0.013,migration_selection,"Remote-feasible workers can move more easily, so movers and stayers are selected on job portability and resources."
+wage_vs_welfare_incidence,17.978,hidden_welfare_incidence,"Welfare losses rise much more than wages change, showing why wages alone miss risk, fatigue, care, and unsafe amenities."
