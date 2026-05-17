@@ -1,0 +1,151 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs}
+
+\title{Contracts, Incentives, Screening, And Moral Hazard}
+\subtitle{Contract Design Inside Employment Relationships}
+\author{Special Topic 7: Labor Market Design, Contracting, and Mechanism Design -- Week 3}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Central question}
+\begin{itemize}
+    \item How should labor contracts be designed when effort, type, commitment, and multitasking are imperfectly observed?
+    \item Week 3 moves inside the employment relationship after the worker-firm match is formed.
+    \item The labor objects are pay, performance measures, probation, promotion, monitoring, subjective ratings, retention, and risk.
+    \item The research standard is translation: hidden object $\rightarrow$ observed margin $\rightarrow$ institutional variation $\rightarrow$ welfare.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Principal-agent baseline}
+\small
+\[
+  y = f(e,\theta,x) + \varepsilon
+\]
+\begin{itemize}
+    \item Worker effort $e$ is costly and imperfectly observed.
+    \item Output $y$ depends on effort, hidden type $\theta$, job design $x$, and noise $\varepsilon$.
+    \item A contract conditions pay on an imperfect signal: output, attendance, quality, rating, or promotion score.
+    \item Stronger incentives raise returns to effort but shift risk to workers.
+    \item The core constraints are participation and incentive compatibility.
+\end{itemize}
+\[
+  \max_{a,b} \; \mathbb{E}[y-w(y)]
+  \quad \text{s.t. participation and incentive compatibility.}
+\]
+\end{frame}
+
+\begin{frame}{Screening and hidden type}
+\begin{itemize}
+    \item Hidden type is not hidden effort.
+    \item Type can mean productivity, reliability, patience, promotability, collaboration, risk, or self-control.
+    \item Screening devices: probation, promotion ladders, nonlinear bonuses, referral rules, benefit menus, and schedule flexibility.
+    \item A contract change can alter who enters, who exits, and how continuing workers behave.
+    \item Lazear's performance-pay setting is the teaching benchmark because productivity gains combine incentives and sorting.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Incentives and measured productivity}
+\small
+\begin{tabular}{p{0.25\linewidth} p{0.33\linewidth} p{0.31\linewidth}}
+\toprule
+Contract object & Observable labor margin & Interpretation risk \\
+\midrule
+Piece rate & output per hour, pay, quits & effort versus sorting \\
+Team bonus & store output, peer output & free riding versus peer pressure \\
+Manager incentive & worker allocation, output, inequality & effort versus favoritism \\
+Goal or prize & task completion, quality, persistence & motivation versus gaming \\
+\bottomrule
+\end{tabular}
+\vspace{0.25cm}
+\begin{itemize}
+    \item Output is useful, but it is not effort itself.
+    \item Good papers ask whether output rose through effort, time, sorting, task reallocation, learning, or gaming.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Multitasking, subjectivity, and relational incentives}
+\small
+\[
+  y_j = f_j(e_j) + \varepsilon_j,
+  \qquad j=1,\dots,J.
+\]
+\begin{itemize}
+    \item If only some tasks are measured, workers reallocate effort toward rewarded tasks.
+    \item Subjective evaluation can recover soft information: cooperation, judgment, mentoring, quality, and reliability.
+    \item Subjectivity also creates influence activities and evaluator-specific effort.
+    \item Relational incentives use repeated interaction, discretionary bonuses, promotion promises, and reputation.
+    \item The labor question is which signal is rewarded and which valuable work becomes invisible.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Commitment and worker-side demand}
+\begin{itemize}
+    \item Some contracts solve worker-side commitment problems, not only firm-side agency problems.
+    \item Workers may value targets, schedules, deadlines, or penalties that help them follow through on desired effort.
+    \item Contract take-up can reveal commitment demand, but it can also reflect risk preferences, liquidity constraints, or outside options.
+    \item Welfare interpretation changes when the contract provides discipline valued by the worker.
+    \item The empirical design must separate commitment from coercion and sorting.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Theory-to-applied translation}
+\small
+\begin{enumerate}
+    \item Hidden object: effort, type, commitment, evaluator favoritism, multitasking, peer effects, or relational enforcement.
+    \item Observable margin: output, quality, attendance, quits, task mix, ratings, promotions, wages, or contract take-up.
+    \item Variation: contract change, field experiment, menu, probation rule, evaluator assignment, promotion threshold, or platform policy.
+    \item Mechanism threats: incentives versus sorting, effort versus ability, quantity versus quality, output versus gaming.
+    \item Welfare object: productivity, worker risk, retention, inequality, organizational output, client welfare, or worker surplus.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Frontier methods for hidden objects}
+\small
+\begin{tabular}{p{0.30\linewidth} p{0.56\linewidth}}
+\toprule
+Method & Best use \\
+\midrule
+Output admin data & high-frequency productivity, quality, pay, and tenure \\
+Contract-change studies & real incentive, probation, bonus, or schedule redesigns \\
+Randomized experiments & pay formula, framing, goals, or contract menus \\
+Evaluator designs & favoritism, influence activities, subjective ratings \\
+Surveys linked to admin data & commitment, beliefs, fairness, risk, self-control \\
+Digital traces and attendance & effort timing, discipline, time use, platform activity \\
+Structural estimation & latent effort, type, commitment, and counterfactual contracts \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Research Lab design}
+\begin{itemize}
+    \item Primary anchor: performance pay and productivity as a contract-change labor design.
+    \item Challenge anchor: subjective evaluation and influence activities; optional commitment path through self-control at work.
+    \item Reproduce: show higher output after performance pay in a synthetic teaching panel.
+    \item Diagnose: decompose output change into within-worker incentive response and workforce-composition change.
+    \item Transfer: redesign the workflow for subjective evaluation or commitment contracts.
+    \item Deliverable: hidden object, margin, variation, identification strategy, welfare object, and main threat.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item Contracts are labor-market institutions: they allocate risk, elicit effort, reveal type, and govern retention.
+    \item Principal-agent logic is most useful when paired with a real workplace signal and a real empirical design.
+    \item Screening, effort incentives, multitasking, subjectivity, and relational enforcement are distinct mechanisms.
+    \item The frontier contribution is measurement: make hidden effort, type, commitment, and evaluator behavior empirically legible.
+\end{itemize}
+\end{frame}
+
+\end{document}

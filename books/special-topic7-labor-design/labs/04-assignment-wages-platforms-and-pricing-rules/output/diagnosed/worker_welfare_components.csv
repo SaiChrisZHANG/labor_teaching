@@ -1,0 +1,3 @@
+public_signal_treatment,workers,mean_earnings,earnings_standard_deviation,mean_earnings_risk_index,mean_flexibility_value_index,mean_future_jobs,welfare_warning
+0,32,2.7894,7.3813,0.6907,0.5908,0.7812,"Average earnings omit volatility, flexibility, future access, and platform monitoring burden."
+1,64,14.5405,11.6756,0.5256,0.5813,5.1094,"Average earnings omit volatility, flexibility, future access, and platform monitoring burden."

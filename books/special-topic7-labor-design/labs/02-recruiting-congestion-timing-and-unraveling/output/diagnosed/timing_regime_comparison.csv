@@ -1,0 +1,3 @@
+regime,cases,mean_offer_day,mean_deadline_days,share_information_complete,share_accepted_before_signal,mean_match_quality_index,mean_mobility_probability
+decentralized_early_offers,64,25.5,1.5,0.0,0.6719,0.6152,0.1719
+coordinated_timing,64,62.0,8.5,1.0,0.0,0.8024,0.5126

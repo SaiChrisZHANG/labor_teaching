@@ -1,0 +1,1 @@
+Synthetic teaching path for Week 6. This is not an official replication package. It reproduces the research-design logic of comparing mechanisms, stating a counterfactual, and diagnosing welfare and equilibrium threats in labor-market design.

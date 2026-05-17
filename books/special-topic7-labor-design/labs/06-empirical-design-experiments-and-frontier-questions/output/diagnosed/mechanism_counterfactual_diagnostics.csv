@@ -1,0 +1,6 @@
+object,diagnostic,observed_difference,interpretation,main_threat
+mechanism,deferred acceptance compared with early offers,rule changes assignment order and priority handling,direct design effect is clear in the synthetic path,real applicants may strategically rank or accept outside offers
+preference_rank,average assigned rank difference,-0.607,lower rank is better for applicant placement,"rank improvements need not equal welfare if wages, training, or risk change"
+match_quality,average match-quality difference,0.02,"combines affinity, program priority, training value, and assigned rank",real match quality may depend on unobserved fit and post-match outcomes
+worker_welfare,average worker-welfare difference,0.045,"synthetic welfare includes rank, fit, training, service value, outside options, and risk","real welfare requires preferences, wages, amenities, and outside options"
+equilibrium_response,average equilibrium-pressure difference,-0.011,higher pressure flags markets where spillovers and reallocation may matter,single-market estimates may miss congestion across linked markets

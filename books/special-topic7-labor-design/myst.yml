@@ -6,6 +6,12 @@ project:
     - references.bib
   toc:
     - file: index.md
+    - file: 01-matching-market-design-and-labor-allocation.md
+    - file: 02-recruiting-congestion-timing-and-unraveling.md
+    - file: 03-contracts-incentives-screening-and-moral-hazard.md
+    - file: 04-assignment-wages-platforms-and-pricing-rules.md
+    - file: 05-professional-labor-markets-and-public-sector-design.md
+    - file: 06-empirical-design-experiments-and-frontier-questions.md
 site:
   template: book-theme
   title: Labor Design

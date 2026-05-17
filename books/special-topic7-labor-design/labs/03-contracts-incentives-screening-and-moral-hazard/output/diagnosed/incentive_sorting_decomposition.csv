@@ -1,0 +1,6 @@
+metric,baseline_all,baseline_retained,post_retained,post_all,raw_gap,within_worker_change,baseline_selection_component,post_composition_component,interpretation
+output_units,71.8965,72.1255,87.1211,88.2586,16.3621,14.9955,0.2291,1.1375,Higher measured output is the headline performance-pay fact.
+quality_score,0.841,0.8432,0.8081,0.8113,-0.0297,-0.0351,0.0022,0.0032,Quality warns that measured output is not true performance.
+pay,158.2174,158.7872,223.1854,224.3243,66.1069,64.3982,0.5698,1.1388,"Pay captures worker surplus and risk exposure, not only productivity."
+measured_task_share,0.5767,0.5795,0.7328,0.7298,0.1532,0.1533,0.0029,-0.003,Task share diagnoses multitasking toward rewarded margins.
+ability_index,0.6974,0.7077,0.7077,0.7256,0.0282,0.0,0.0103,0.0179,Ability diagnoses workforce-composition change.

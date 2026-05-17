@@ -1,0 +1,3 @@
+period,workers,mean_output_units,mean_quality_score,mean_hours_worked,mean_pay,pay_standard_deviation,mean_measured_task_share,mean_ability_index,entrant_share
+hourly_baseline,96,71.896,0.841,7.45,158.217,4.977,0.5767,0.6974,0.0
+performance_pay,101,88.259,0.8113,7.777,224.324,8.541,0.7298,0.7256,0.1782

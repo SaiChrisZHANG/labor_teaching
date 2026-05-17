@@ -1,0 +1,4 @@
+rule_change,worker_margin,worker_effect,platform_or_employer_margin,platform_or_employer_effect,incidence_question,main_threat
+public_signal_and_ranking_lift,accepted wage,2.3209,employer invitations,1.9219,Does better information raise worker surplus or mainly reallocate attention?,"Exposure, beliefs, and worker quality are bundled in realized platform outcomes."
+platform_guarantee,worker net wage,-1.8575,buyer trust,0.2747,Does a guarantee improve trust while raising platform fees or changing worker net pay?,Guaranteed workers may differ in unobserved ways if the guarantee is not randomized.
+platform_guarantee,dispute risk,-0.0986,assignment rate,0.375,Does steering reduce transaction risk or concentrate opportunity?,Assignment effects may reflect platform credibility rather than worker productivity.

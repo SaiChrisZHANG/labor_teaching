@@ -1,0 +1,6 @@
+design_object,observed_margin,treated_minus_control,identification_design,remaining_threat,welfare_object
+visibility_or_ranking,visibility_score and ranking position,0.2049,random public signal with ranking lift,mechanical exposure can be mistaken for employer learning,access to vacancies and invitations
+employer_beliefs,employer_belief_index,0.0928,public reputation signal,beliefs are latent and proxied by behavior,match quality and worker reputation accumulation
+hiring,hire rate,0.4844,compare treated and control inexperienced workers,treatment may bundle exposure and perceived quality,employment access and future job ladder
+wage_bargaining,accepted hourly wage,2.3209,observe accepted pay under the information rule,"accepted wages mix bargaining power, selection, and job composition",earnings and surplus division
+future_reputation,future jobs,4.3281,follow future platform outcomes,"future jobs may reflect learning, persistence, or platform sorting",dynamic access to work

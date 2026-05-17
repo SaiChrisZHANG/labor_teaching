@@ -1,0 +1,170 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs}
+
+\title{Empirical Design, Experiments, And Frontier Questions}
+\subtitle{From Labor-Market Mechanisms To Applied Research Designs}
+\author{Special Topic 7: Labor Market Design, Contracting, and Mechanism Design -- Week 6}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Central question}
+\begin{itemize}
+    \item How can labor-market design interventions be evaluated credibly?
+    \item The capstone object is not a generic estimator.
+    \item It is mechanism $\rightarrow$ margin $\rightarrow$ counterfactual $\rightarrow$ equilibrium response $\rightarrow$ welfare.
+    \item Students leave with a template for theory-backed applied projects on matching, recruiting, contracts, platforms, and public-sector assignment.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Mechanism-first empirical design}
+\small
+\begin{tabular}{p{0.25\linewidth} p{0.29\linewidth} p{0.32\linewidth}}
+\toprule
+Mechanism & Labor margin & Empirical object \\
+\midrule
+Deferred acceptance & ranking and stability & assigned rank, blocking risk, match quality \\
+Timing rule & offer pressure and congestion & applications, interviews, acceptances \\
+Incentive contract & effort, sorting, multitasking & output, entry, retention, task allocation \\
+Platform ranking & attention and visibility & views, bids, hires, wages \\
+Public priority rule & staffing and legitimacy & hard-to-staff fill, worker welfare \\
+\bottomrule
+\end{tabular}
+\vspace{0.2cm}
+\[
+  \text{rule} \rightarrow \text{behavioral margin} \rightarrow \text{labor outcome} \rightarrow \text{welfare object}
+\]
+\end{frame}
+
+\begin{frame}{Counterfactuals and credible evaluation}
+\begin{itemize}
+    \item A design estimate is always relative to another rule or institution.
+    \item Matching: old algorithm, decentralized offers, modified priorities, or capacity changes.
+    \item Recruiting: different timing, application limits, signals, or information.
+    \item Contracts: different monitoring technology, wage rule, bonus formula, or probation design.
+    \item Platforms: ranking, disclosure, recommendation, wage floor, or fee rule.
+    \item Public assignment: different balance of worker preferences, priorities, staffing, and transparency.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Experiments, audits, and pilots}
+\small
+\begin{tabular}{p{0.27\linewidth} p{0.32\linewidth} p{0.29\linewidth}}
+\toprule
+Design & Best use & Main threat \\
+\midrule
+Field experiment & direct rule or information change & spillovers and anticipation \\
+Platform A/B test & ranking, visibility, wage, or message rule & equilibrium reallocation \\
+Audit & screening, discrimination, first-stage response & later match quality unobserved \\
+Institutional pilot & real assignment or staffing reform & bundled implementation changes \\
+Staggered rollout & administrative or legal reform & adoption and trend confounding \\
+\bottomrule
+\end{tabular}
+\vspace{0.2cm}
+\begin{itemize}
+    \item The right question is what the intervention moves and which agents can respond.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Administrative and platform data}
+\begin{itemize}
+    \item Rich process data reveal margins that final matches hide.
+    \item Applications, rankings, interviews, offers, waitlists, bids, messages, exposure, and acceptances show how the rule works.
+    \item Linked outcomes add wages, productivity, retention, promotions, training, exit, and public-service performance.
+    \item The key advantage is process visibility, not just sample size.
+    \item These data help separate mechanism effects from correlations in realized matches.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Structural matching and equilibrium evaluation}
+\small
+\[
+y_i(\rho)=d_i(\rho)+b_i(\rho)+e_i(\rho)
+\]
+\begin{itemize}
+    \item $d_i(\rho)$: direct design effect of the rule.
+    \item $b_i(\rho)$: behavioral response by workers, firms, programs, or managers.
+    \item $e_i(\rho)$: equilibrium adjustment through congestion, sorting, wages, or capacity.
+\end{itemize}
+\vspace{0.15cm}
+\begin{itemize}
+    \item Structural evaluation is useful when welfare depends on unchosen matches or unimplemented mechanisms.
+    \item Reduced-form and experimental evidence are strongest for local mechanisms.
+    \item Best projects make the two speak to each other.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Welfare and portability}
+\begin{itemize}
+    \item A better metric is not automatically a welfare gain.
+    \item A stable match may lower wages; faster recruiting may worsen fit; public staffing gains may reduce worker welfare.
+    \item Welfare claims must name whose welfare counts and whether surplus rises or rents shift.
+    \item Portability should be argued through the mechanism: congestion, information, incentives, assignment, priority design, or bargaining power.
+    \item External validity fails when outside options, legal constraints, wage setting, or equilibrium response differ in central ways.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Frontier project map}
+\small
+\begin{tabular}{p{0.27\linewidth} p{0.35\linewidth} p{0.26\linewidth}}
+\toprule
+Frontier area & Research question & Data/design \\
+\midrule
+Within-vacancy design & how are applicants screened under bottlenecks? & application-level admin data \\
+Platform wage rules & who bears pricing and transparency changes? & A/B tests, rollouts \\
+Internal assignment & do rules affect promotions and retention? & personnel panels, pilots \\
+Public staffing & can priorities improve service without exit? & assignment and outcome data \\
+AI screening & what margin does automation move? & audit plus process data \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Research Lab design}
+\begin{itemize}
+    \item Primary anchor: empirical evaluation of the medical match.
+    \item Challenge anchor: deferred acceptance in Army officer labor markets.
+    \item Reproduce: compare a decentralized early-offer rule with deferred-acceptance-style assignment in synthetic matching data.
+    \item Diagnose: separate preference rank, priority alignment, match quality, shortage staffing, spillovers, and welfare.
+    \item Transfer: write a frontier design memo for platforms, recruiting, contracts, teacher placement, public staffing, internal assignment, or AI screening.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Student project deliverable}
+\small
+\begin{tabular}{p{0.27\linewidth} p{0.60\linewidth}}
+\toprule
+Element & What the memo must state \\
+\midrule
+Institution & the labor market and rule being studied \\
+Mechanism & the design object that moves behavior \\
+Labor margin & applications, assignment, wages, effort, retention, or staffing \\
+Empirical leverage & randomization, pilot, rollout, cutoff, or model restriction \\
+Counterfactual & the alternative rule or institution \\
+Equilibrium threat & spillovers, sorting, congestion, or strategic response \\
+Welfare object & workers, firms, public agencies, clients, or communities \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item Labor-market design research starts with the mechanism, not the estimator.
+    \item Credible evaluation needs a counterfactual and an observable labor object.
+    \item Experiments, audits, pilots, process data, and structural models see different pieces of the same design problem.
+    \item Welfare requires equilibrium diagnosis and a clear account of who gains or loses.
+    \item The course ends with applied project design: theory-backed, institutionally serious, and empirically disciplined.
+\end{itemize}
+\end{frame}
+
+\end{document}

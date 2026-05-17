@@ -1,0 +1,1 @@
+# The Week 6 synthetic teaching path uses only the Python standard library.

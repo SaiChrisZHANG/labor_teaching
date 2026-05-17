@@ -1,39 +1,53 @@
 # Labor Market Design, Contracting, and Mechanism Design
 
-Labor Market Design, Contracting, and Mechanism Design is a compact 6-week advanced elective on how labor markets are actively designed through matching rules, application systems, contracts, incentives, and decentralized market institutions. It is the most specialized course in the special-topics family and is intentionally built as a tight advanced elective rather than a broad field survey.
+Labor Market Design, Contracting, and Mechanism Design is a compact 6-week advanced special topic on the design of labor-market institutions. The course studies how matching rules, recruiting timelines, application systems, contracts, screening devices, incentive schemes, assignment algorithms, wage rules, platforms, and public-sector staffing systems shape who works where, under what terms, and with what welfare consequences.
 
-The course sits closest to Labor II, especially its search, wage-setting, personnel, and institution blocks, but it also uses Labor I foundations on worker choice and incentives. Its purpose is to show how formal design choices reshape labor allocation and workplace behavior in settings where market rules are not neutral.
-
-## Course type
-
-6-week compact advanced elective
+The course exists as a labor special topic because labor markets are rarely governed by prices alone. Residency matches, teacher assignment systems, recruiting markets, internal labor contracts, platform allocation rules, public hiring procedures, and workplace incentive schemes all embed design choices that affect allocation, bargaining power, effort, information, congestion, timing, and fairness. The goal is not to teach abstract mechanism design as a standalone theory field. The goal is to ask how formal design choices reshape labor-market outcomes and how economists can evaluate those choices in real institutions.
 
 ## Prerequisites
 
-- Labor II or equivalent preparation in search, firms, and wage-setting
-- Graduate microeconomic theory
-- Willingness to engage with matching theory, contract theory, and empirical institutional design
+- Labor II or equivalent preparation in firms, search, wage-setting, personnel economics, and labor-market institutions
+- Labor I or a strong equivalent in worker choice, human capital, job amenities, and worker welfare
+- Graduate microeconomic theory, including comfort with information, incentives, and equilibrium reasoning
+- Applied econometrics and willingness to read empirical work on institutions, experiments, and administrative or platform data
 
-## Course goals
+## What Students Will Be Able To Do
 
-- understand how matching rules, application timing, and contract design shape labor-market outcomes;
-- connect mechanism design to real labor-market institutions such as clearinghouses, recruiting systems, and workplace incentive schemes;
-- study when decentralized labor markets unravel, congest, or misallocate talent;
-- prepare students to move between formal theory, institutional detail, and empirical evaluation.
+By the end of the course, students should be able to:
 
-## Course format
+1. explain when centralized matching, timing rules, or application limits can improve labor allocation relative to decentralized search;
+2. diagnose congestion, unraveling, exploding offers, and strategic timing as labor-market design failures;
+3. connect contract theory to employment relationships involving screening, effort, moral hazard, multitasking, promotions, and performance pay;
+4. evaluate how assignment algorithms, platform rules, wage-setting systems, and transparency policies change worker and firm behavior;
+5. design research questions that connect mechanism choice, institutional detail, empirical evaluation, and welfare in real labor markets.
 
-The course is deliberately compact and technical. Each week begins from a design problem, maps the relevant theory, and then asks how the mechanism performs in actual labor-market settings such as residency matches, recruiting markets, platform work, and internal contracting.
+## Course Format
 
-## Week-by-week path
+This is a 6-week compact advanced special topic for PhD students and strong advanced MA students. It is suitable for a half-semester elective, intensive module, or graduate reading group. The course is reading-heavy and research-oriented: each week centers on a design problem, a labor-market institution, and an empirical evaluation challenge.
 
-- Week 1. Matching, market design, and labor allocation. The course opens by asking when labor-market rules improve matching quality and stability.
-- Week 2. Recruiting, congestion, timing, and unraveling. Students study decentralized hiring systems where bad timing and strategic behavior create inefficiency.
-- Week 3. Contracts, incentives, screening, and moral hazard. The focus shifts from market rules to the design of labor contracts inside organizations.
-- Week 4. Assignment, wages, platforms, and pricing rules. Labor allocation is studied in environments where rules, prices, and algorithms jointly shape outcomes.
-- Week 5. Professional labor markets and public-sector design. The course examines institutional design in medicine, education, and other high-stakes labor-allocation settings.
-- Week 6. Empirical design, experiments, and frontier questions. The final week turns the course into a practical research agenda on labor-market mechanism design.
+Future weekly chapters will follow the portfolio's special-topics structure: Bridge, Field Core, Research Lab, Methods Box, reading ladder, exercises or discussion prompts, reproducibility note, and slide companion note. Special-topics chapters should include a visible **Core points** box near the top; extension boxes are optional rather than a default requirement.
 
-## Research orientation
+## Connection To Labor II And The Labor Sequence
 
-This elective is especially useful for students who want a tighter bridge between labor economics and mechanism design without drifting into an abstract theory course. The emphasis stays on labor allocation, institutional detail, and whether real-world design changes improve match quality, incentives, and welfare.
+The course connects most directly to Labor II. Labor II introduces firms, search frictions, wage-setting, personnel economics, monopsony, regulation, enforcement, and institutions. This course takes those ingredients and asks how the rules of the market or workplace are chosen, how they change incentives and allocation, and how their effects can be measured. Labor I remains in the background because design choices ultimately change worker search, effort, training, job choice, amenities, and welfare.
+
+## Weekly Sequence
+
+1. **[Matching, market design, and labor allocation.](01-matching-market-design-and-labor-allocation.md)** The course opens by studying when centralized matching rules improve stability, thickness, and allocation in labor markets such as residency and other professional entry markets.
+2. **[Recruiting, congestion, timing, and unraveling.](02-recruiting-congestion-timing-and-unraveling.md)** Students examine decentralized hiring systems where early offers, application overload, exploding deadlines, and strategic timing can make both sides worse off.
+3. **[Contracts, incentives, screening, and moral hazard.](03-contracts-incentives-screening-and-moral-hazard.md)** The focus shifts inside employment relationships to screening, effort provision, multitasking, performance pay, probation, promotions, and relational contracting.
+4. **[Assignment, wages, platforms, and pricing rules.](04-assignment-wages-platforms-and-pricing-rules.md)** The course studies labor allocation when intermediaries, platforms, algorithms, and wage rules jointly determine visibility, matching, scheduling, pay, and worker welfare.
+5. **[Professional labor markets and public-sector design.](05-professional-labor-markets-and-public-sector-design.md)** Students analyze residency matching, teacher assignment, public hiring, and structured professional markets as high-stakes design settings with fairness, transparency, and efficiency tradeoffs.
+6. **[Empirical design, experiments, and frontier questions.](06-empirical-design-experiments-and-frontier-questions.md)** The final week turns the sequence into a research-design capstone using experiments, natural experiments, structural models, audits, administrative data, and platform data.
+
+## Internal Roadmap
+
+- **Matching-market focused:** Weeks 1 and 2 build the matching, congestion, timing, and unraveling foundation.
+- **Contract and incentive focused:** Week 3 studies screening, incentives, moral hazard, multitasking, and employment contracts.
+- **Platform and algorithmic assignment focused:** Week 4 studies assignment, ranking, pricing, scheduling, wage rules, and transparency.
+- **Public-sector and professional-market focused:** Week 5 studies residency, teacher assignment, public hiring, and professional labor allocation.
+- **Empirical and synthesis capstone:** Week 6 converts the course into frontier research designs.
+
+## Research Orientation
+
+The course is designed to help students build labor-market design research that is institutionally serious and empirically disciplined. A successful project in this course starts from a labor-market allocation problem, names the rule or contract that creates incentives, defines the relevant worker and firm margins, and states the counterfactual needed to evaluate match quality, effort, wages, fairness, or welfare.

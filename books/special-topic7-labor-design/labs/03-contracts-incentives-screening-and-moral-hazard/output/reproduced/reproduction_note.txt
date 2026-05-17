@@ -1,0 +1,1 @@
+Synthetic Week 3 contracts-incentives lab complete. Outputs reproduce a performance-pay summary, diagnose incentives versus sorting, risk sharing, multitasking, subjective evaluation, and commitment, and transfer the design architecture to neighboring labor-contract settings.

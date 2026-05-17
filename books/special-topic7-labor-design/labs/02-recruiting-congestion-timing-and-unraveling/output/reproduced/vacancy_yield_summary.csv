@@ -1,0 +1,4 @@
+intensity_group,vacancies,mean_applications,mean_applicant_quality_index,mean_interviews,mean_interview_yield,mean_offer_yield,mean_vacancy_yield,fill_rate,mean_vacancy_duration_days,share_wage_transparent
+low_recruiting_intensity,28,80.679,0.605,8.75,0.1232,0.3422,0.0201,0.9286,68.071,0.3571
+middle_recruiting_intensity,40,87.725,0.608,9.75,0.1216,0.4379,0.029,0.975,60.375,0.5
+high_recruiting_intensity,28,88.25,0.621,13.071,0.1644,0.5461,0.0531,1.0,52.429,0.6429

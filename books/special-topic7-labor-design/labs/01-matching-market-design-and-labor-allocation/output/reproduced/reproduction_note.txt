@@ -1,0 +1,1 @@
+Synthetic Week 1 matching-design lab complete. Outputs reproduce a centralized many-to-one match, diagnose stability and timing differences against decentralized exploding offers, and transfer the design architecture to neighboring professional labor markets.

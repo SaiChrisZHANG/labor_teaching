@@ -1,0 +1,157 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs}
+
+\title{Assignment, Wages, Platforms, And Pricing Rules}
+\subtitle{Algorithmic Rules As Labor-Market Institutions}
+\author{Special Topic 7: Labor Market Design, Contracting, and Mechanism Design -- Week 4}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Central question}
+\begin{itemize}
+    \item How do assignment algorithms, platform rules, and wage-setting systems shape labor allocation and worker welfare?
+    \item Week 4 moves from contracts inside firms to rules chosen by labor-market intermediaries.
+    \item The labor objects are visibility, assignment, wages, commissions, monitoring, reputation, flexibility, risk, and future access to work.
+    \item The research standard is rule $\rightarrow$ labor margin $\rightarrow$ counterfactual design $\rightarrow$ welfare incidence.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Intermediary objective and rule framework}
+\small
+\[
+  \rho = (V, A, P, M)
+\]
+\begin{itemize}
+    \item $V$: visibility, search order, ranking, recommendations, invitations.
+    \item $A$: matching, routing, assignment, scheduling, queue discipline.
+    \item $P$: posted wage, bids, commissions, floors, bonuses, dynamic prices, transparency.
+    \item $M$: monitoring, ratings, guarantees, dispute rules, deactivation, evaluation.
+\end{itemize}
+\[
+  \max_{\rho} \; \Pi(\rho)
+  = \text{fees} + \text{future thickness} + \text{trust}
+  - \text{operational and legal costs}
+\]
+\begin{itemize}
+    \item The platform's objective can diverge from worker surplus or social surplus.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Worker welfare under platform rules}
+\small
+\[
+W_i(\rho)=
+\mathbb{E}[w_i(\rho)]
+- c_i(e_i,a_i)
+- \lambda_i \operatorname{Var}(w_i(\rho))
++ \phi_i \text{Flex}_i(\rho)
++ q_i(\rho)
+- s_i(\rho)
+\]
+\begin{itemize}
+    \item Earnings are only one part of platform worker welfare.
+    \item Rules affect time costs, volatility, flexibility, match quality, search burden, and monitoring pressure.
+    \item A design can raise fill rates and still shift risk or bargaining power onto workers.
+    \item Welfare claims need the relevant worker margin, not just platform output.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Assignment, visibility, and ranking}
+\small
+\begin{tabular}{p{0.25\linewidth} p{0.32\linewidth} p{0.31\linewidth}}
+\toprule
+Rule & Observable margin & Interpretation risk \\
+\midrule
+Search ranking & applications, invitations, hires & attention versus quality \\
+Recommendation & employer contact, match rate & platform steering versus fit \\
+Public signal & hire rate, wages, future jobs & information versus exposure \\
+Guarantee & buyer trust, selected workers & credibility versus favoritism \\
+\bottomrule
+\end{tabular}
+\vspace{0.25cm}
+\begin{itemize}
+    \item Workers and employers rarely see a neutral market menu.
+    \item Good papers separate mechanical visibility, belief updating, and equilibrium response.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Wages, prices, commissions, and transparency}
+\begin{itemize}
+    \item Compensation design includes posted wages, bargaining, bids, commissions, wage floors, surge pricing, bonuses, and pay transparency.
+    \item Wage information changes search targeting, applicant composition, employer screening, and accepted pay.
+    \item Commissions and dynamic prices can allocate workers across times and tasks, but also change risk incidence.
+    \item Pay-rule experiments are powerful because the rule itself is varied, not inferred from equilibrium wages alone.
+    \item The key question is who absorbs the incidence: workers, employers, consumers, or the platform.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Worker welfare, flexibility, and risk}
+\begin{itemize}
+    \item Flexibility can be a worker amenity when workers control timing and task choice.
+    \item Flexibility can also be a risk-shifting channel when workers absorb waiting time, cancellations, low demand, or algorithmic schedule pressure.
+    \item Platform welfare objects include earnings, volatility, unpaid time, autonomy, ratings, deactivation risk, and future access to work.
+    \item Average hourly pay is incomplete if task availability, risk, and continuation value change at the same time.
+    \item Ride-hailing and online labor markets make these nonwage margins empirically visible.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Theory-to-applied translation}
+\small
+\begin{enumerate}
+    \item Rule: visibility, assignment, disclosure, wage floor, commission, guarantee, monitoring, or deactivation.
+    \item Labor margin: applications, invitations, hires, wage bids, accepted wages, hours, ratings, retention, or future jobs.
+    \item Counterfactual: what would users have seen, paid, earned, or faced under the old rule?
+    \item Mechanism: information, attention, sorting, bargaining power, risk allocation, or platform steering.
+    \item Welfare object: worker surplus, match quality, employer surplus, platform revenue, fairness, flexibility, or access.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Frontier experimental methods}
+\small
+\begin{tabular}{p{0.33\linewidth} p{0.53\linewidth}}
+\toprule
+Design & Best use \\
+\midrule
+Platform A/B tests & ranking, visibility, recommendations, assignment \\
+Information disclosure & ratings, histories, wage info, employer messages \\
+Recommendation or guarantee randomization & trust, steering, platform credibility \\
+Wage-floor or pay-rule experiments & price incidence, participation, bids, fill rates \\
+Policy changes or redesigns & transparency, fees, governance, deactivation \\
+Survey, conjoint, lab-in-field & fairness, flexibility, algorithm aversion, worker preferences \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Research Lab design}
+\begin{itemize}
+    \item Primary anchor: information and visibility for inexperienced workers in an online labor market.
+    \item Challenge anchor: platform steering and guarantees; wage-rule extensions through transparency, compensation history, or minimum pay.
+    \item Reproduce: compare treated and control workers in a synthetic platform panel.
+    \item Diagnose: separate exposure, beliefs, wage changes, future reputation, risk, and welfare incidence.
+    \item Transfer: redesign the empirical architecture for ranking, guarantees, wage floors, dynamic pricing, or governance.
+    \item Deliverable: rule, labor margin, counterfactual, identification strategy, welfare object, and main threat.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item Platforms choose labor-market rules: visibility, assignment, prices, commissions, monitoring, and governance.
+    \item The same rule can reduce frictions and shift surplus or risk.
+    \item Applied work should identify the precise rule and the labor margin before making welfare claims.
+    \item The frontier is empirical design: experiments, policy changes, platform data, and worker-preference evidence.
+\end{itemize}
+\end{frame}
+
+\end{document}

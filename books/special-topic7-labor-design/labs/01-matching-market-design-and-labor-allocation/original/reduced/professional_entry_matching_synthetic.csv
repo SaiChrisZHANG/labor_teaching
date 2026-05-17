@@ -1,0 +1,961 @@
+applicant_id,program_id,program_name,program_region,capacity,rural_priority,applicant_region_preference,service_commitment,risk_aversion,couple_member,preference_score,priority_score,applicant_rank,program_rank
+A001,P01,Metro General Medicine,urban,14,0,coastal,1,0.35,1,47.613,40.21,4,105
+A001,P02,Lakeside Pediatrics,coastal,12,0,coastal,1,0.35,1,58.436,43.649,2,83
+A001,P03,Prairie Family Medicine,rural,12,1,coastal,1,0.35,1,42.911,50.245,6,56
+A001,P04,Capital Surgery,urban,10,0,coastal,1,0.35,1,49.493,40.74,3,105
+A001,P05,Valley Psychiatry,midwest,12,0,coastal,1,0.35,1,38.295,38.915,8,95
+A001,P06,Mountain Internal Medicine,rural,12,1,coastal,1,0.35,1,45.335,50.881,5,57
+A001,P07,Harbor Emergency Medicine,coastal,10,0,coastal,1,0.35,1,59.679,43.585,1,79
+A001,P08,River Public Service Track,rural,12,1,coastal,1,0.35,1,41.241,50.391,7,55
+A002,P01,Metro General Medicine,urban,14,0,rural,0,0.48,0,48.494,52.941,4,38
+A002,P02,Lakeside Pediatrics,coastal,12,0,rural,0,0.48,0,44.308,52.227,7,32
+A002,P03,Prairie Family Medicine,rural,12,1,rural,0,0.48,0,50.651,53.442,2,40
+A002,P04,Capital Surgery,urban,10,0,rural,0,0.48,0,49.754,52.869,3,41
+A002,P05,Valley Psychiatry,midwest,12,0,rural,0,0.48,0,38.362,50.441,8,36
+A002,P06,Mountain Internal Medicine,rural,12,1,rural,0,0.48,0,52.47,54.441,1,37
+A002,P07,Harbor Emergency Medicine,coastal,10,0,rural,0,0.48,0,44.989,51.441,6,34
+A002,P08,River Public Service Track,rural,12,1,rural,0,0.48,0,48.451,53.87,5,34
+A003,P01,Metro General Medicine,urban,14,0,midwest,0,0.61,0,49.376,40.382,3,102
+A003,P02,Lakeside Pediatrics,coastal,12,0,midwest,0,0.61,0,44.264,39.516,5,100
+A003,P03,Prairie Family Medicine,rural,12,1,midwest,0,0.61,0,35.475,37.207,7,109
+A003,P04,Capital Surgery,urban,10,0,midwest,0,0.61,0,50.931,41.566,2,100
+A003,P05,Valley Psychiatry,midwest,12,0,midwest,0,0.61,0,54.346,41.608,1,82
+A003,P06,Mountain Internal Medicine,rural,12,1,midwest,0,0.61,0,37.605,37.642,6,109
+A003,P07,Harbor Emergency Medicine,coastal,10,0,midwest,0,0.61,0,45.3,38.938,4,100
+A003,P08,River Public Service Track,rural,12,1,midwest,0,0.61,0,33.66,36.99,8,108
+A004,P01,Metro General Medicine,urban,14,0,urban,0,0.74,0,64.34,55.113,2,26
+A004,P02,Lakeside Pediatrics,coastal,12,0,urban,0,0.74,0,45.136,50.093,4,47
+A004,P03,Prairie Family Medicine,rural,12,1,urban,0,0.74,0,36.215,46.404,7,75
+A004,P04,Capital Surgery,urban,10,0,urban,0,0.74,0,66.192,55.694,1,26
+A004,P05,Valley Psychiatry,midwest,12,0,urban,0,0.74,0,39.413,48.063,5,48
+A004,P06,Mountain Internal Medicine,rural,12,1,urban,0,0.74,0,38.657,47.203,6,75
+A004,P07,Harbor Emergency Medicine,coastal,10,0,urban,0,0.74,0,45.611,48.794,3,50
+A004,P08,River Public Service Track,rural,12,1,urban,0,0.74,0,33.869,46.469,8,73
+A005,P01,Metro General Medicine,urban,14,0,coastal,1,0.22,0,50.222,61.844,4,4
+A005,P02,Lakeside Pediatrics,coastal,12,0,coastal,1,0.22,0,61.008,63.742,1,1
+A005,P03,Prairie Family Medicine,rural,12,1,coastal,1,0.22,0,44.038,68.529,6,4
+A005,P04,Capital Surgery,urban,10,0,coastal,1,0.22,0,52.37,61.823,3,7
+A005,P05,Valley Psychiatry,midwest,12,0,coastal,1,0.22,0,39.48,57.59,8,4
+A005,P06,Mountain Internal Medicine,rural,12,1,coastal,1,0.22,0,46.792,69.692,5,4
+A005,P07,Harbor Emergency Medicine,coastal,10,0,coastal,1,0.22,0,60.922,62.651,2,1
+A005,P08,River Public Service Track,rural,12,1,coastal,1,0.22,0,42.078,67.948,7,4
+A006,P01,Metro General Medicine,urban,14,0,rural,1,0.35,0,51.103,49.286,5,56
+A006,P02,Lakeside Pediatrics,coastal,12,0,rural,1,0.35,0,45.964,47.96,7,60
+A006,P03,Prairie Family Medicine,rural,12,1,rural,1,0.35,0,59.778,59.366,2,22
+A006,P04,Capital Surgery,urban,10,0,rural,1,0.35,0,52.631,50.52,4,51
+A006,P05,Valley Psychiatry,midwest,12,0,rural,1,0.35,0,40.464,44.757,8,67
+A006,P06,Mountain Internal Medicine,rural,12,1,rural,1,0.35,0,61.927,60.893,1,20
+A006,P07,Harbor Emergency Medicine,coastal,10,0,rural,1,0.35,0,47.149,46.147,6,64
+A006,P08,River Public Service Track,rural,12,1,rural,1,0.35,0,57.288,59.067,3,23
+A007,P01,Metro General Medicine,urban,14,0,midwest,0,0.48,0,47.966,50.258,3,50
+A007,P02,Lakeside Pediatrics,coastal,12,0,midwest,0,0.48,0,43.406,49.279,5,51
+A007,P03,Prairie Family Medicine,rural,12,1,midwest,0,0.48,0,34.544,48.494,7,65
+A007,P04,Capital Surgery,urban,10,0,midwest,0,0.48,0,49.497,50.176,2,53
+A007,P05,Valley Psychiatry,midwest,12,0,midwest,0,0.48,0,52.983,53.024,1,21
+A007,P06,Mountain Internal Medicine,rural,12,1,midwest,0,0.48,0,36.612,48.504,6,68
+A007,P07,Harbor Emergency Medicine,coastal,10,0,midwest,0,0.48,0,44.422,49.554,4,47
+A007,P08,River Public Service Track,rural,12,1,midwest,0,0.48,0,32.635,48.024,8,64
+A008,P01,Metro General Medicine,urban,14,0,urban,0,0.61,0,62.931,41.7,2,95
+A008,P02,Lakeside Pediatrics,coastal,12,0,urban,0,0.61,0,44.279,37.496,4,113
+A008,P03,Prairie Family Medicine,rural,12,1,urban,0,0.61,0,35.284,35.33,7,113
+A008,P04,Capital Surgery,urban,10,0,urban,0,0.61,0,64.757,42.873,1,91
+A008,P05,Valley Psychiatry,midwest,12,0,urban,0,0.61,0,38.05,36.191,5,111
+A008,P06,Mountain Internal Medicine,rural,12,1,urban,0,0.61,0,37.663,35.704,6,114
+A008,P07,Harbor Emergency Medicine,coastal,10,0,urban,0,0.61,0,44.733,37.051,3,111
+A008,P08,River Public Service Track,rural,12,1,urban,0,0.61,0,32.844,35.143,8,112
+A009,P01,Metro General Medicine,urban,14,0,coastal,0,0.74,0,48.813,48.431,4,61
+A009,P02,Lakeside Pediatrics,coastal,12,0,coastal,0,0.74,0,59.234,51.145,2,40
+A009,P03,Prairie Family Medicine,rural,12,1,coastal,0,0.74,0,35.107,45.456,7,79
+A009,P04,Capital Surgery,urban,10,0,coastal,0,0.74,0,50.935,49.002,3,63
+A009,P05,Valley Psychiatry,midwest,12,0,coastal,0,0.74,0,39.034,45.717,5,62
+A009,P06,Mountain Internal Medicine,rural,12,1,coastal,0,0.74,0,37.798,46.194,6,79
+A009,P07,Harbor Emergency Medicine,coastal,10,0,coastal,0,0.74,0,60.043,50.907,1,37
+A009,P08,River Public Service Track,rural,12,1,coastal,0,0.74,0,33.053,44.623,8,82
+A010,P01,Metro General Medicine,urban,14,0,rural,1,0.22,0,49.694,59.161,5,10
+A010,P02,Lakeside Pediatrics,coastal,12,0,rural,1,0.22,0,45.107,57.723,7,8
+A010,P03,Prairie Family Medicine,rural,12,1,rural,1,0.22,0,58.847,70.653,2,1
+A010,P04,Capital Surgery,urban,10,0,rural,1,0.22,0,51.196,59.13,4,10
+A010,P05,Valley Psychiatry,midwest,12,0,rural,1,0.22,0,39.101,56.173,8,8
+A010,P06,Mountain Internal Medicine,rural,12,1,rural,1,0.22,0,60.933,71.754,1,1
+A010,P07,Harbor Emergency Medicine,coastal,10,0,rural,1,0.22,0,45.354,56.764,6,9
+A010,P08,River Public Service Track,rural,12,1,rural,1,0.22,0,56.263,70.102,3,1
+A011,P01,Metro General Medicine,urban,14,0,midwest,1,0.35,0,49.659,46.603,3,72
+A011,P02,Lakeside Pediatrics,coastal,12,0,midwest,1,0.35,0,45.062,45.012,6,73
+A011,P03,Prairie Family Medicine,rural,12,1,midwest,1,0.35,0,43.671,54.418,7,34
+A011,P04,Capital Surgery,urban,10,0,midwest,1,0.35,0,51.457,47.827,2,69
+A011,P05,Valley Psychiatry,midwest,12,0,midwest,1,0.35,0,54.168,47.339,1,53
+A011,P06,Mountain Internal Medicine,rural,12,1,midwest,1,0.35,0,46.068,54.955,4,34
+A011,P07,Harbor Emergency Medicine,coastal,10,0,midwest,1,0.35,0,45.665,44.261,5,75
+A011,P08,River Public Service Track,rural,12,1,midwest,1,0.35,0,41.472,53.221,8,38
+A012,P01,Metro General Medicine,urban,14,0,urban,0,0.48,0,65.54,61.334,2,6
+A012,P02,Lakeside Pediatrics,coastal,12,0,urban,0,0.48,0,45.935,55.589,4,17
+A012,P03,Prairie Family Medicine,rural,12,1,urban,0,0.48,0,36.411,51.615,7,49
+A012,P04,Capital Surgery,urban,10,0,urban,0,0.48,0,67.635,61.956,1,5
+A012,P05,Valley Psychiatry,midwest,12,0,urban,0,0.48,0,40.151,52.866,5,22
+A012,P06,Mountain Internal Medicine,rural,12,1,urban,0,0.48,0,39.12,52.516,6,48
+A012,P07,Harbor Emergency Medicine,coastal,10,0,urban,0,0.48,0,46.892,54.117,3,19
+A012,P08,River Public Service Track,rural,12,1,urban,0,0.48,0,34.598,50.7,8,51
+A013,P01,Metro General Medicine,urban,14,0,coastal,0,0.61,0,47.404,35.018,4,118
+A013,P02,Lakeside Pediatrics,coastal,12,0,coastal,0,0.61,0,58.377,38.548,2,106
+A013,P03,Prairie Family Medicine,rural,12,1,coastal,0,0.61,0,35.093,33.454,7,119
+A013,P04,Capital Surgery,urban,10,0,coastal,0,0.61,0,48.583,35.252,3,118
+A013,P05,Valley Psychiatry,midwest,12,0,coastal,0,0.61,0,37.671,33.845,5,118
+A013,P06,Mountain Internal Medicine,rural,12,1,coastal,0,0.61,0,36.805,33.766,6,119
+A013,P07,Harbor Emergency Medicine,coastal,10,0,coastal,0,0.61,0,59.165,38.236,1,103
+A013,P08,River Public Service Track,rural,12,1,coastal,0,0.61,0,32.945,33.297,8,118
+A014,P01,Metro General Medicine,urban,14,0,rural,0,0.74,0,48.285,45.748,4,78
+A014,P02,Lakeside Pediatrics,coastal,12,0,rural,0,0.74,0,43.333,45.126,7,71
+A014,P03,Prairie Family Medicine,rural,12,1,rural,0,0.74,0,49.916,47.579,2,69
+A014,P04,Capital Surgery,urban,10,0,rural,0,0.74,0,49.761,46.309,3,80
+A014,P05,Valley Psychiatry,midwest,12,0,rural,0,0.74,0,38.654,44.3,8,71
+A014,P06,Mountain Internal Medicine,rural,12,1,rural,0,0.74,0,51.94,48.256,1,70
+A014,P07,Harbor Emergency Medicine,coastal,10,0,rural,0,0.74,0,44.476,45.021,6,69
+A014,P08,River Public Service Track,rural,12,1,rural,0,0.74,0,48.154,47.705,5,66
+A015,P01,Metro General Medicine,urban,14,0,midwest,1,0.22,0,48.25,56.479,3,18
+A015,P02,Lakeside Pediatrics,coastal,12,0,midwest,1,0.22,0,44.205,55.704,6,16
+A015,P03,Prairie Family Medicine,rural,12,1,midwest,1,0.22,0,43.656,64.776,7,9
+A015,P04,Capital Surgery,urban,10,0,midwest,1,0.22,0,50.022,56.438,2,22
+A015,P05,Valley Psychiatry,midwest,12,0,midwest,1,0.22,0,53.721,57.827,1,3
+A015,P06,Mountain Internal Medicine,rural,12,1,midwest,1,0.22,0,45.992,65.816,4,9
+A015,P07,Harbor Emergency Medicine,coastal,10,0,midwest,1,0.22,0,44.786,54.877,5,16
+A015,P08,River Public Service Track,rural,12,1,midwest,1,0.22,0,41.364,65.184,8,8
+A016,P01,Metro General Medicine,urban,14,0,urban,1,0.35,0,64.131,47.921,2,65
+A016,P02,Lakeside Pediatrics,coastal,12,0,urban,1,0.35,0,45.077,42.993,5,85
+A016,P03,Prairie Family Medicine,rural,12,1,urban,1,0.35,0,43.48,52.541,6,44
+A016,P04,Capital Surgery,urban,10,0,urban,1,0.35,0,66.2,49.135,1,62
+A016,P05,Valley Psychiatry,midwest,12,0,urban,1,0.35,0,38.788,40.993,8,87
+A016,P06,Mountain Internal Medicine,rural,12,1,urban,1,0.35,0,46.127,53.017,3,45
+A016,P07,Harbor Emergency Medicine,coastal,10,0,urban,1,0.35,0,45.097,42.374,4,85
+A016,P08,River Public Service Track,rural,12,1,urban,1,0.35,0,41.573,52.303,7,42
+A017,P01,Metro General Medicine,urban,14,0,coastal,0,0.48,0,50.012,54.651,4,28
+A017,P02,Lakeside Pediatrics,coastal,12,0,coastal,0,0.48,0,60.033,57.57,2,11
+A017,P03,Prairie Family Medicine,rural,12,1,coastal,0,0.48,0,36.22,49.738,7,58
+A017,P04,Capital Surgery,urban,10,0,coastal,0,0.48,0,51.461,55.263,3,31
+A017,P05,Valley Psychiatry,midwest,12,0,coastal,0,0.48,0,39.772,51.449,5,32
+A017,P06,Mountain Internal Medicine,rural,12,1,coastal,0,0.48,0,38.262,50.578,6,59
+A017,P07,Harbor Emergency Medicine,coastal,10,0,coastal,0,0.48,0,61.324,56.23,1,11
+A017,P08,River Public Service Track,rural,12,1,coastal,0,0.48,0,33.782,49.782,8,57
+A018,P01,Metro General Medicine,urban,14,0,rural,0,0.61,0,50.894,43.022,4,85
+A018,P02,Lakeside Pediatrics,coastal,12,0,rural,0,0.61,0,45.905,40.859,7,94
+A018,P03,Prairie Family Medicine,rural,12,1,rural,0,0.61,0,51.043,41.503,3,95
+A018,P04,Capital Surgery,urban,10,0,rural,0,0.61,0,52.638,43.032,2,88
+A018,P05,Valley Psychiatry,midwest,12,0,rural,0,0.61,0,39.839,38.615,8,97
+A018,P06,Mountain Internal Medicine,rural,12,1,rural,0,0.61,0,53.397,42.707,1,93
+A018,P07,Harbor Emergency Medicine,coastal,10,0,rural,0,0.61,0,46.635,39.727,6,97
+A018,P08,River Public Service Track,rural,12,1,rural,0,0.61,0,48.991,40.902,5,95
+A019,P01,Metro General Medicine,urban,14,0,midwest,0,0.74,0,50.859,52.824,3,39
+A019,P02,Lakeside Pediatrics,coastal,12,0,midwest,0,0.74,0,46.778,51.437,5,37
+A019,P03,Prairie Family Medicine,rural,12,1,midwest,0,0.74,0,36.783,46.7,7,74
+A019,P04,Capital Surgery,urban,10,0,midwest,0,0.74,0,52.899,54.089,2,37
+A019,P05,Valley Psychiatry,midwest,12,0,midwest,0,0.74,0,54.906,52.142,1,27
+A019,P06,Mountain Internal Medicine,rural,12,1,midwest,0,0.74,0,39.448,48.268,6,69
+A019,P07,Harbor Emergency Medicine,coastal,10,0,midwest,0,0.74,0,46.946,49.583,4,46
+A019,P08,River Public Service Track,rural,12,1,midwest,0,0.74,0,34.201,46.381,8,74
+A020,P01,Metro General Medicine,urban,14,0,urban,1,0.22,0,62.722,57.796,2,14
+A020,P02,Lakeside Pediatrics,coastal,12,0,urban,1,0.22,0,43.303,52.756,5,28
+A020,P03,Prairie Family Medicine,rural,12,1,urban,1,0.22,0,42.549,63.828,6,12
+A020,P04,Capital Surgery,urban,10,0,urban,1,0.22,0,64.765,57.745,1,15
+A020,P05,Valley Psychiatry,midwest,12,0,urban,1,0.22,0,38.342,52.409,8,26
+A020,P06,Mountain Internal Medicine,rural,12,1,urban,1,0.22,0,45.133,63.879,3,12
+A020,P07,Harbor Emergency Medicine,coastal,10,0,urban,1,0.22,0,44.219,52.991,4,25
+A020,P08,River Public Service Track,rural,12,1,urban,1,0.22,0,40.548,63.338,7,11
+A021,P01,Metro General Medicine,urban,14,0,coastal,1,0.35,0,48.603,41.238,4,98
+A021,P02,Lakeside Pediatrics,coastal,12,0,coastal,1,0.35,0,59.176,44.973,2,75
+A021,P03,Prairie Family Medicine,rural,12,1,coastal,1,0.35,0,43.289,50.665,6,53
+A021,P04,Capital Surgery,urban,10,0,coastal,1,0.35,0,50.026,42.442,3,94
+A021,P05,Valley Psychiatry,midwest,12,0,coastal,1,0.35,0,38.409,39.576,8,92
+A021,P06,Mountain Internal Medicine,rural,12,1,coastal,1,0.35,0,45.268,51.079,5,55
+A021,P07,Harbor Emergency Medicine,coastal,10,0,coastal,1,0.35,0,59.529,44.487,1,72
+A021,P08,River Public Service Track,rural,12,1,coastal,1,0.35,0,40.757,50.457,7,54
+A022,P01,Metro General Medicine,urban,14,0,rural,0,0.48,0,48.568,51.969,4,43
+A022,P02,Lakeside Pediatrics,coastal,12,0,rural,0,0.48,0,44.131,50.622,7,44
+A022,P03,Prairie Family Medicine,rural,12,1,rural,0,0.48,0,50.112,52.79,3,42
+A022,P04,Capital Surgery,urban,10,0,rural,0,0.48,0,50.287,52.571,2,44
+A022,P05,Valley Psychiatry,midwest,12,0,rural,0,0.48,0,38.476,49.103,8,41
+A022,P06,Mountain Internal Medicine,rural,12,1,rural,0,0.48,0,52.403,53.569,1,43
+A022,P07,Harbor Emergency Medicine,coastal,10,0,rural,0,0.48,0,44.84,50.344,6,41
+A022,P08,River Public Service Track,rural,12,1,rural,0,0.48,0,47.967,51.936,5,44
+A023,P01,Metro General Medicine,urban,14,0,midwest,0,0.61,0,49.45,40.339,3,103
+A023,P02,Lakeside Pediatrics,coastal,12,0,midwest,0,0.61,0,45.004,38.84,5,102
+A023,P03,Prairie Family Medicine,rural,12,1,midwest,0,0.61,0,35.852,35.627,7,112
+A023,P04,Capital Surgery,urban,10,0,midwest,0,0.61,0,51.464,40.339,2,108
+A023,P05,Valley Psychiatry,midwest,12,0,midwest,0,0.61,0,54.46,41.198,1,86
+A023,P06,Mountain Internal Medicine,rural,12,1,midwest,0,0.61,0,38.455,36.769,6,112
+A023,P07,Harbor Emergency Medicine,coastal,10,0,midwest,0,0.61,0,46.068,37.84,4,107
+A023,P08,River Public Service Track,rural,12,1,midwest,0,0.61,0,34.092,35.056,8,113
+A024,P01,Metro General Medicine,urban,14,0,urban,0,0.74,0,65.331,54.141,2,32
+A024,P02,Lakeside Pediatrics,coastal,12,0,urban,0,0.74,0,45.876,48.489,4,58
+A024,P03,Prairie Family Medicine,rural,12,1,urban,0,0.74,0,36.592,45.752,7,78
+A024,P04,Capital Surgery,urban,10,0,urban,0,0.74,0,66.725,55.396,1,29
+A024,P05,Valley Psychiatry,midwest,12,0,urban,0,0.74,0,39.527,46.724,5,56
+A024,P06,Mountain Internal Medicine,rural,12,1,urban,0,0.74,0,38.59,46.33,6,78
+A024,P07,Harbor Emergency Medicine,coastal,10,0,urban,0,0.74,0,46.378,47.697,3,56
+A024,P08,River Public Service Track,rural,12,1,urban,0,0.74,0,34.302,44.535,8,83
+A025,P01,Metro General Medicine,urban,14,0,coastal,1,0.22,0,51.212,60.872,4,8
+A025,P02,Lakeside Pediatrics,coastal,12,0,coastal,1,0.22,0,60.832,63.066,2,3
+A025,P03,Prairie Family Medicine,rural,12,1,coastal,1,0.22,0,44.416,66.949,6,7
+A025,P04,Capital Surgery,urban,10,0,coastal,1,0.22,0,52.903,61.525,3,9
+A025,P05,Valley Psychiatry,midwest,12,0,coastal,1,0.22,0,40.511,56.251,8,7
+A025,P06,Mountain Internal Medicine,rural,12,1,coastal,1,0.22,0,46.725,67.891,5,7
+A025,P07,Harbor Emergency Medicine,coastal,10,0,coastal,1,0.22,0,61.689,61.553,1,3
+A025,P08,River Public Service Track,rural,12,1,coastal,1,0.22,0,42.511,66.014,7,7
+A026,P01,Metro General Medicine,urban,14,0,rural,1,0.35,0,47.159,38.556,5,112
+A026,P02,Lakeside Pediatrics,coastal,12,0,rural,1,0.35,0,43.274,38.025,7,111
+A026,P03,Prairie Family Medicine,rural,12,1,rural,1,0.35,0,58.098,52.788,2,43
+A026,P04,Capital Surgery,urban,10,0,rural,1,0.35,0,48.852,38.821,4,112
+A026,P05,Valley Psychiatry,midwest,12,0,rural,1,0.35,0,38.03,37.23,8,106
+A026,P06,Mountain Internal Medicine,rural,12,1,rural,1,0.35,0,60.327,53.141,1,44
+A026,P07,Harbor Emergency Medicine,coastal,10,0,rural,1,0.35,0,43.962,37.672,6,108
+A026,P08,River Public Service Track,rural,12,1,rural,1,0.35,0,55.858,52.611,3,41
+A027,P01,Metro General Medicine,urban,14,0,midwest,0,0.48,0,48.04,49.286,3,57
+A027,P02,Lakeside Pediatrics,coastal,12,0,midwest,0,0.48,0,44.146,48.603,5,56
+A027,P03,Prairie Family Medicine,rural,12,1,midwest,0,0.48,0,34.921,46.913,7,72
+A027,P04,Capital Surgery,urban,10,0,midwest,0,0.48,0,50.029,49.878,2,56
+A027,P05,Valley Psychiatry,midwest,12,0,midwest,0,0.48,0,53.097,51.685,1,31
+A027,P06,Mountain Internal Medicine,rural,12,1,midwest,0,0.48,0,37.462,47.631,6,73
+A027,P07,Harbor Emergency Medicine,coastal,10,0,midwest,0,0.48,0,44.272,48.457,4,53
+A027,P08,River Public Service Track,rural,12,1,midwest,0,0.48,0,33.068,47.019,8,69
+A028,P01,Metro General Medicine,urban,14,0,urban,0,0.61,0,63.922,41.657,2,96
+A028,P02,Lakeside Pediatrics,coastal,12,0,urban,0,0.61,0,44.102,36.821,4,115
+A028,P03,Prairie Family Medicine,rural,12,1,urban,0,0.61,0,35.661,33.75,7,117
+A028,P04,Capital Surgery,urban,10,0,urban,0,0.61,0,65.29,41.647,1,99
+A028,P05,Valley Psychiatry,midwest,12,0,urban,0,0.61,0,39.081,34.852,5,116
+A028,P06,Mountain Internal Medicine,rural,12,1,urban,0,0.61,0,37.597,34.831,6,117
+A028,P07,Harbor Emergency Medicine,coastal,10,0,urban,0,0.61,0,45.5,35.953,3,116
+A028,P08,River Public Service Track,rural,12,1,urban,0,0.61,0,33.277,34.138,8,115
+A029,P01,Metro General Medicine,urban,14,0,coastal,0,0.74,0,49.803,47.459,4,67
+A029,P02,Lakeside Pediatrics,coastal,12,0,coastal,0,0.74,0,59.974,50.47,2,46
+A029,P03,Prairie Family Medicine,rural,12,1,coastal,0,0.74,0,35.485,43.875,7,85
+A029,P04,Capital Surgery,urban,10,0,coastal,0,0.74,0,51.468,48.704,3,65
+A029,P05,Valley Psychiatry,midwest,12,0,coastal,0,0.74,0,39.148,44.378,5,70
+A029,P06,Mountain Internal Medicine,rural,12,1,coastal,0,0.74,0,37.732,44.392,6,86
+A029,P07,Harbor Emergency Medicine,coastal,10,0,coastal,0,0.74,0,60.811,49.81,1,43
+A029,P08,River Public Service Track,rural,12,1,coastal,0,0.74,0,33.486,43.617,8,85
+A030,P01,Metro General Medicine,urban,14,0,rural,1,0.22,0,49.768,58.189,5,13
+A030,P02,Lakeside Pediatrics,coastal,12,0,rural,1,0.22,0,45.847,57.047,7,12
+A030,P03,Prairie Family Medicine,rural,12,1,rural,1,0.22,0,59.225,69.072,2,3
+A030,P04,Capital Surgery,urban,10,0,rural,1,0.22,0,51.729,58.832,4,12
+A030,P05,Valley Psychiatry,midwest,12,0,rural,1,0.22,0,39.215,54.834,8,13
+A030,P06,Mountain Internal Medicine,rural,12,1,rural,1,0.22,0,61.783,69.953,1,3
+A030,P07,Harbor Emergency Medicine,coastal,10,0,rural,1,0.22,0,46.121,55.667,6,14
+A030,P08,River Public Service Track,rural,12,1,rural,1,0.22,0,56.695,69.096,3,3
+A031,P01,Metro General Medicine,urban,14,0,midwest,1,0.35,0,50.649,46.56,3,73
+A031,P02,Lakeside Pediatrics,coastal,12,0,midwest,1,0.35,0,45.802,44.336,6,78
+A031,P03,Prairie Family Medicine,rural,12,1,midwest,1,0.35,0,44.048,52.838,7,41
+A031,P04,Capital Surgery,urban,10,0,midwest,1,0.35,0,52.906,46.6,2,78
+A031,P05,Valley Psychiatry,midwest,12,0,midwest,1,0.35,0,55.198,46.0,1,59
+A031,P06,Mountain Internal Medicine,rural,12,1,midwest,1,0.35,0,46.918,54.082,4,39
+A031,P07,Harbor Emergency Medicine,coastal,10,0,midwest,1,0.35,0,46.432,43.163,5,83
+A031,P08,River Public Service Track,rural,12,1,midwest,1,0.35,0,41.905,52.215,8,43
+A032,P01,Metro General Medicine,urban,14,0,urban,0,0.48,0,62.513,50.604,2,49
+A032,P02,Lakeside Pediatrics,coastal,12,0,urban,0,0.48,0,43.245,46.584,4,65
+A032,P03,Prairie Family Medicine,rural,12,1,urban,0,0.48,0,34.73,45.037,7,81
+A032,P04,Capital Surgery,urban,10,0,urban,0,0.48,0,63.855,51.185,1,47
+A032,P05,Valley Psychiatry,midwest,12,0,urban,0,0.48,0,37.717,45.339,5,66
+A032,P06,Mountain Internal Medicine,rural,12,1,urban,0,0.48,0,36.603,45.693,6,81
+A032,P07,Harbor Emergency Medicine,coastal,10,0,urban,0,0.48,0,43.705,45.642,3,66
+A032,P08,River Public Service Track,rural,12,1,urban,0,0.48,0,32.252,45.173,8,78
+A033,P01,Metro General Medicine,urban,14,0,coastal,0,0.61,0,47.478,34.974,4,119
+A033,P02,Lakeside Pediatrics,coastal,12,0,coastal,0,0.61,0,58.2,37.873,2,112
+A033,P03,Prairie Family Medicine,rural,12,1,coastal,0,0.61,0,34.554,32.802,7,120
+A033,P04,Capital Surgery,urban,10,0,coastal,0,0.61,0,49.116,34.954,3,120
+A033,P05,Valley Psychiatry,midwest,12,0,coastal,0,0.61,0,37.785,33.434,5,120
+A033,P06,Mountain Internal Medicine,rural,12,1,coastal,0,0.61,0,36.738,32.894,6,120
+A033,P07,Harbor Emergency Medicine,coastal,10,0,coastal,0,0.61,0,59.016,38.067,1,105
+A033,P08,River Public Service Track,rural,12,1,coastal,0,0.61,0,32.461,32.292,8,120
+A034,P01,Metro General Medicine,urban,14,0,rural,0,0.74,0,48.359,44.776,5,82
+A034,P02,Lakeside Pediatrics,coastal,12,0,rural,0,0.74,0,44.073,44.45,7,77
+A034,P03,Prairie Family Medicine,rural,12,1,rural,0,0.74,0,50.294,45.999,2,77
+A034,P04,Capital Surgery,urban,10,0,rural,0,0.74,0,50.294,46.011,3,82
+A034,P05,Valley Psychiatry,midwest,12,0,rural,0,0.74,0,38.768,42.961,8,77
+A034,P06,Mountain Internal Medicine,rural,12,1,rural,0,0.74,0,52.79,46.454,1,76
+A034,P07,Harbor Emergency Medicine,coastal,10,0,rural,0,0.74,0,45.243,43.923,6,77
+A034,P08,River Public Service Track,rural,12,1,rural,0,0.74,0,48.587,45.771,4,76
+A035,P01,Metro General Medicine,urban,14,0,midwest,1,0.22,0,49.24,55.507,3,23
+A035,P02,Lakeside Pediatrics,coastal,12,0,midwest,1,0.22,0,44.945,54.099,6,22
+A035,P03,Prairie Family Medicine,rural,12,1,midwest,1,0.22,0,44.034,64.124,7,11
+A035,P04,Capital Surgery,urban,10,0,midwest,1,0.22,0,50.555,56.139,2,23
+A035,P05,Valley Psychiatry,midwest,12,0,midwest,1,0.22,0,53.835,56.488,1,6
+A035,P06,Mountain Internal Medicine,rural,12,1,midwest,1,0.22,0,45.925,64.944,4,11
+A035,P07,Harbor Emergency Medicine,coastal,10,0,midwest,1,0.22,0,45.554,53.78,5,22
+A035,P08,River Public Service Track,rural,12,1,midwest,1,0.22,0,41.796,63.25,8,12
+A036,P01,Metro General Medicine,urban,14,0,urban,1,0.35,0,65.122,47.878,2,66
+A036,P02,Lakeside Pediatrics,coastal,12,0,urban,1,0.35,0,44.901,42.317,5,87
+A036,P03,Prairie Family Medicine,rural,12,1,urban,1,0.35,0,43.857,50.961,6,51
+A036,P04,Capital Surgery,urban,10,0,urban,1,0.35,0,66.732,47.908,1,68
+A036,P05,Valley Psychiatry,midwest,12,0,urban,1,0.35,0,39.819,40.583,8,88
+A036,P06,Mountain Internal Medicine,rural,12,1,urban,1,0.35,0,46.06,52.144,3,50
+A036,P07,Harbor Emergency Medicine,coastal,10,0,urban,1,0.35,0,45.864,41.276,4,88
+A036,P08,River Public Service Track,rural,12,1,urban,1,0.35,0,42.006,50.369,7,56
+A037,P01,Metro General Medicine,urban,14,0,coastal,0,0.48,1,50.086,51.68,4,45
+A037,P02,Lakeside Pediatrics,coastal,12,0,coastal,0,0.48,1,60.773,53.966,2,24
+A037,P03,Prairie Family Medicine,rural,12,1,coastal,0,0.48,1,36.597,47.086,7,71
+A037,P04,Capital Surgery,urban,10,0,coastal,0,0.48,1,51.993,52.965,3,40
+A037,P05,Valley Psychiatry,midwest,12,0,coastal,0,0.48,1,39.886,48.11,5,47
+A037,P06,Mountain Internal Medicine,rural,12,1,coastal,0,0.48,1,39.112,47.705,6,72
+A037,P07,Harbor Emergency Medicine,coastal,10,0,coastal,0,0.48,1,61.175,53.133,1,23
+A037,P08,River Public Service Track,rural,12,1,coastal,0,0.48,1,34.215,45.848,8,75
+A038,P01,Metro General Medicine,urban,14,0,rural,0,0.61,1,50.968,40.05,4,108
+A038,P02,Lakeside Pediatrics,coastal,12,0,rural,0,0.61,1,46.645,38.183,6,108
+A038,P03,Prairie Family Medicine,rural,12,1,rural,0,0.61,1,51.421,37.923,3,104
+A038,P04,Capital Surgery,urban,10,0,rural,0,0.61,1,53.171,40.733,2,106
+A038,P05,Valley Psychiatry,midwest,12,0,rural,0,0.61,1,39.953,35.276,8,114
+A038,P06,Mountain Internal Medicine,rural,12,1,rural,0,0.61,1,54.247,38.906,1,104
+A038,P07,Harbor Emergency Medicine,coastal,10,0,rural,0,0.61,1,46.486,36.629,7,114
+A038,P08,River Public Service Track,rural,12,1,rural,0,0.61,1,49.424,36.968,5,109
+A039,P01,Metro General Medicine,urban,14,0,midwest,0,0.74,0,47.831,42.094,3,91
+A039,P02,Lakeside Pediatrics,coastal,12,0,midwest,0,0.74,0,43.171,41.502,5,91
+A039,P03,Prairie Family Medicine,rural,12,1,midwest,0,0.74,0,35.103,40.122,7,100
+A039,P04,Capital Surgery,urban,10,0,midwest,0,0.74,0,49.12,42.39,2,95
+A039,P05,Valley Psychiatry,midwest,12,0,midwest,0,0.74,0,53.389,44.615,1,69
+A039,P06,Mountain Internal Medicine,rural,12,1,midwest,0,0.74,0,36.932,40.516,6,101
+A039,P07,Harbor Emergency Medicine,coastal,10,0,midwest,0,0.74,0,44.675,41.108,4,90
+A039,P08,River Public Service Track,rural,12,1,midwest,0,0.74,0,32.771,39.925,8,99
+A040,P01,Metro General Medicine,urban,14,0,urban,1,0.22,0,63.713,56.825,2,17
+A040,P02,Lakeside Pediatrics,coastal,12,0,urban,1,0.22,0,44.043,52.08,5,33
+A040,P03,Prairie Family Medicine,rural,12,1,urban,1,0.22,0,42.926,62.247,6,16
+A040,P04,Capital Surgery,urban,10,0,urban,1,0.22,0,65.297,57.447,1,17
+A040,P05,Valley Psychiatry,midwest,12,0,urban,1,0.22,0,38.456,51.07,8,34
+A040,P06,Mountain Internal Medicine,rural,12,1,urban,1,0.22,0,45.067,63.006,3,16
+A040,P07,Harbor Emergency Medicine,coastal,10,0,urban,1,0.22,0,44.986,51.893,4,31
+A040,P08,River Public Service Track,rural,12,1,urban,1,0.22,0,40.981,62.333,7,13
+A041,P01,Metro General Medicine,urban,14,0,coastal,1,0.35,0,48.677,41.195,4,99
+A041,P02,Lakeside Pediatrics,coastal,12,0,coastal,1,0.35,0,59.916,44.298,2,80
+A041,P03,Prairie Family Medicine,rural,12,1,coastal,1,0.35,0,43.666,49.084,6,62
+A041,P04,Capital Surgery,urban,10,0,coastal,1,0.35,0,50.558,41.215,3,103
+A041,P05,Valley Psychiatry,midwest,12,0,coastal,1,0.35,0,38.523,38.237,8,103
+A041,P06,Mountain Internal Medicine,rural,12,1,coastal,1,0.35,0,46.118,50.206,5,61
+A041,P07,Harbor Emergency Medicine,coastal,10,0,coastal,1,0.35,0,60.297,43.39,1,80
+A041,P08,River Public Service Track,rural,12,1,coastal,1,0.35,0,41.19,49.452,7,58
+A042,P01,Metro General Medicine,urban,14,0,rural,0,0.48,0,49.559,50.997,4,46
+A042,P02,Lakeside Pediatrics,coastal,12,0,rural,0,0.48,0,44.871,49.947,7,48
+A042,P03,Prairie Family Medicine,rural,12,1,rural,0,0.48,0,50.489,51.21,3,50
+A042,P04,Capital Surgery,urban,10,0,rural,0,0.48,0,51.736,52.272,2,46
+A042,P05,Valley Psychiatry,midwest,12,0,rural,0,0.48,0,39.507,47.764,8,49
+A042,P06,Mountain Internal Medicine,rural,12,1,rural,0,0.48,0,53.253,51.767,1,52
+A042,P07,Harbor Emergency Medicine,coastal,10,0,rural,0,0.48,0,45.607,49.246,6,49
+A042,P08,River Public Service Track,rural,12,1,rural,0,0.48,0,48.399,50.931,5,49
+A043,P01,Metro General Medicine,urban,14,0,midwest,0,0.61,0,50.44,39.368,3,109
+A043,P02,Lakeside Pediatrics,coastal,12,0,midwest,0,0.61,0,45.744,38.164,5,109
+A043,P03,Prairie Family Medicine,rural,12,1,midwest,0,0.61,0,36.23,34.046,7,116
+A043,P04,Capital Surgery,urban,10,0,midwest,0,0.61,0,51.997,40.041,2,110
+A043,P05,Valley Psychiatry,midwest,12,0,midwest,0,0.61,0,54.574,39.859,1,91
+A043,P06,Mountain Internal Medicine,rural,12,1,midwest,0,0.61,0,38.388,34.968,6,116
+A043,P07,Harbor Emergency Medicine,coastal,10,0,midwest,0,0.61,0,45.918,36.743,4,113
+A043,P08,River Public Service Track,rural,12,1,midwest,0,0.61,0,33.608,34.05,8,117
+A044,P01,Metro General Medicine,urban,14,0,urban,0,0.74,0,65.405,54.098,2,33
+A044,P02,Lakeside Pediatrics,coastal,12,0,urban,0,0.74,0,45.699,47.813,4,62
+A044,P03,Prairie Family Medicine,rural,12,1,urban,0,0.74,0,36.053,44.172,7,84
+A044,P04,Capital Surgery,urban,10,0,urban,0,0.74,0,67.258,54.169,1,36
+A044,P05,Valley Psychiatry,midwest,12,0,urban,0,0.74,0,39.641,45.386,5,65
+A044,P06,Mountain Internal Medicine,rural,12,1,urban,0,0.74,0,38.523,45.457,6,84
+A044,P07,Harbor Emergency Medicine,coastal,10,0,urban,0,0.74,0,46.229,46.599,3,61
+A044,P08,River Public Service Track,rural,12,1,urban,0,0.74,0,33.818,43.529,8,86
+A045,P01,Metro General Medicine,urban,14,0,coastal,1,0.22,0,47.268,50.142,4,51
+A045,P02,Lakeside Pediatrics,coastal,12,0,coastal,1,0.22,0,58.142,54.061,2,23
+A045,P03,Prairie Family Medicine,rural,12,1,coastal,1,0.22,0,42.735,60.371,6,19
+A045,P04,Capital Surgery,urban,10,0,coastal,1,0.22,0,49.123,50.754,3,49
+A045,P05,Valley Psychiatry,midwest,12,0,coastal,1,0.22,0,38.077,48.724,8,45
+A045,P06,Mountain Internal Medicine,rural,12,1,coastal,1,0.22,0,45.125,61.068,5,19
+A045,P07,Harbor Emergency Medicine,coastal,10,0,coastal,1,0.22,0,59.418,53.078,1,24
+A045,P08,River Public Service Track,rural,12,1,coastal,1,0.22,0,41.082,60.486,7,18
+A046,P01,Metro General Medicine,urban,14,0,rural,1,0.35,0,48.15,38.513,5,113
+A046,P02,Lakeside Pediatrics,coastal,12,0,rural,1,0.35,0,44.014,37.35,7,114
+A046,P03,Prairie Family Medicine,rural,12,1,rural,1,0.35,0,58.475,52.136,2,46
+A046,P04,Capital Surgery,urban,10,0,rural,1,0.35,0,49.384,38.523,4,113
+A046,P05,Valley Psychiatry,midwest,12,0,rural,1,0.35,0,38.144,36.82,8,109
+A046,P06,Mountain Internal Medicine,rural,12,1,rural,1,0.35,0,60.26,52.269,1,49
+A046,P07,Harbor Emergency Medicine,coastal,10,0,rural,1,0.35,0,44.729,37.503,6,110
+A046,P08,River Public Service Track,rural,12,1,rural,1,0.35,0,56.291,51.606,3,48
+A047,P01,Metro General Medicine,urban,14,0,midwest,0,0.48,0,49.031,48.315,3,62
+A047,P02,Lakeside Pediatrics,coastal,12,0,midwest,0,0.48,0,43.97,47.927,5,61
+A047,P03,Prairie Family Medicine,rural,12,1,midwest,0,0.48,0,35.298,45.333,7,80
+A047,P04,Capital Surgery,urban,10,0,midwest,0,0.48,0,50.562,49.58,2,58
+A047,P05,Valley Psychiatry,midwest,12,0,midwest,0,0.48,0,54.127,50.346,1,39
+A047,P06,Mountain Internal Medicine,rural,12,1,midwest,0,0.48,0,37.395,45.829,6,80
+A047,P07,Harbor Emergency Medicine,coastal,10,0,midwest,0,0.48,0,45.04,47.36,4,59
+A047,P08,River Public Service Track,rural,12,1,midwest,0,0.48,0,33.5,45.085,8,79
+A048,P01,Metro General Medicine,urban,14,0,urban,0,0.61,0,63.996,63.045,2,1
+A048,P02,Lakeside Pediatrics,coastal,12,0,urban,0,0.61,0,44.842,57.576,4,10
+A048,P03,Prairie Family Medicine,rural,12,1,urban,0,0.61,0,36.039,55.458,7,33
+A048,P04,Capital Surgery,urban,10,0,urban,0,0.61,0,65.823,63.708,1,1
+A048,P05,Valley Psychiatry,midwest,12,0,urban,0,0.61,0,39.195,55.873,5,9
+A048,P06,Mountain Internal Medicine,rural,12,1,urban,0,0.61,0,38.447,56.319,6,33
+A048,P07,Harbor Emergency Medicine,coastal,10,0,urban,0,0.61,0,45.351,57.216,3,7
+A048,P08,River Public Service Track,rural,12,1,urban,0,0.61,0,33.709,54.564,8,32
+A049,P01,Metro General Medicine,urban,14,0,coastal,0,0.74,0,49.877,47.416,4,69
+A049,P02,Lakeside Pediatrics,coastal,12,0,coastal,0,0.74,0,60.714,49.794,1,50
+A049,P03,Prairie Family Medicine,rural,12,1,coastal,0,0.74,0,35.862,42.295,7,91
+A049,P04,Capital Surgery,urban,10,0,coastal,0,0.74,0,52.0,47.477,3,72
+A049,P05,Valley Psychiatry,midwest,12,0,coastal,0,0.74,0,39.262,43.968,5,74
+A049,P06,Mountain Internal Medicine,rural,12,1,coastal,0,0.74,0,38.582,43.519,6,89
+A049,P07,Harbor Emergency Medicine,coastal,10,0,coastal,0,0.74,0,60.661,48.713,2,51
+A049,P08,River Public Service Track,rural,12,1,coastal,0,0.74,0,33.919,41.683,8,91
+A050,P01,Metro General Medicine,urban,14,0,rural,1,0.22,0,50.759,57.218,5,16
+A050,P02,Lakeside Pediatrics,coastal,12,0,rural,1,0.22,0,45.67,55.443,7,19
+A050,P03,Prairie Family Medicine,rural,12,1,rural,1,0.22,0,59.602,68.421,2,5
+A050,P04,Capital Surgery,urban,10,0,rural,1,0.22,0,52.261,58.534,4,13
+A050,P05,Valley Psychiatry,midwest,12,0,rural,1,0.22,0,40.245,53.495,8,17
+A050,P06,Mountain Internal Medicine,rural,12,1,rural,1,0.22,0,61.717,69.08,1,5
+A050,P07,Harbor Emergency Medicine,coastal,10,0,rural,1,0.22,0,46.889,54.569,6,18
+A050,P08,River Public Service Track,rural,12,1,rural,1,0.22,0,57.128,67.162,3,5
+A051,P01,Metro General Medicine,urban,14,0,midwest,1,0.35,0,47.622,35.83,3,116
+A051,P02,Lakeside Pediatrics,coastal,12,0,midwest,1,0.35,0,43.112,35.33,6,119
+A051,P03,Prairie Family Medicine,rural,12,1,midwest,1,0.35,0,42.367,46.259,7,76
+A051,P04,Capital Surgery,urban,10,0,midwest,1,0.35,0,49.127,35.83,2,116
+A051,P05,Valley Psychiatry,midwest,12,0,midwest,1,0.35,0,52.764,38.474,1,101
+A051,P06,Mountain Internal Medicine,rural,12,1,midwest,1,0.35,0,44.402,46.331,4,77
+A051,P07,Harbor Emergency Medicine,coastal,10,0,midwest,1,0.35,0,44.161,34.688,5,119
+A051,P08,River Public Service Track,rural,12,1,midwest,1,0.35,0,40.475,45.759,8,77
+A052,P01,Metro General Medicine,urban,14,0,urban,0,0.48,0,62.587,49.632,2,54
+A052,P02,Lakeside Pediatrics,coastal,12,0,urban,0,0.48,0,43.985,44.979,4,74
+A052,P03,Prairie Family Medicine,rural,12,1,urban,0,0.48,0,35.107,43.456,7,87
+A052,P04,Capital Surgery,urban,10,0,urban,0,0.48,0,64.388,49.959,1,55
+A052,P05,Valley Psychiatry,midwest,12,0,urban,0,0.48,0,37.831,44.0,5,73
+A052,P06,Mountain Internal Medicine,rural,12,1,urban,0,0.48,0,37.453,43.891,6,88
+A052,P07,Harbor Emergency Medicine,coastal,10,0,urban,0,0.48,0,44.472,44.544,3,71
+A052,P08,River Public Service Track,rural,12,1,urban,0,0.48,0,32.685,43.239,8,87
+A053,P01,Metro General Medicine,urban,14,0,coastal,0,0.61,0,48.468,56.363,4,19
+A053,P02,Lakeside Pediatrics,coastal,12,0,coastal,0,0.61,0,58.94,59.557,2,4
+A053,P03,Prairie Family Medicine,rural,12,1,coastal,0,0.61,0,34.931,53.582,7,38
+A053,P04,Capital Surgery,urban,10,0,coastal,0,0.61,0,50.565,57.016,3,19
+A053,P05,Valley Psychiatry,midwest,12,0,coastal,0,0.61,0,38.815,54.455,5,15
+A053,P06,Mountain Internal Medicine,rural,12,1,coastal,0,0.61,0,37.588,54.381,6,38
+A053,P07,Harbor Emergency Medicine,coastal,10,0,coastal,0,0.61,0,59.783,59.329,1,4
+A053,P08,River Public Service Track,rural,12,1,coastal,0,0.61,0,32.894,53.646,8,36
+A054,P01,Metro General Medicine,urban,14,0,rural,0,0.74,0,49.35,44.733,4,83
+A054,P02,Lakeside Pediatrics,coastal,12,0,rural,0,0.74,0,44.813,43.775,7,82
+A054,P03,Prairie Family Medicine,rural,12,1,rural,0,0.74,0,50.671,44.418,3,83
+A054,P04,Capital Surgery,urban,10,0,rural,0,0.74,0,50.826,44.784,2,83
+A054,P05,Valley Psychiatry,midwest,12,0,rural,0,0.74,0,38.882,41.622,8,81
+A054,P06,Mountain Internal Medicine,rural,12,1,rural,0,0.74,0,52.723,45.581,1,82
+A054,P07,Harbor Emergency Medicine,coastal,10,0,rural,0,0.74,0,45.094,42.826,6,84
+A054,P08,River Public Service Track,rural,12,1,rural,0,0.74,0,48.103,44.766,5,80
+A055,P01,Metro General Medicine,urban,14,0,midwest,1,0.22,0,49.314,54.535,3,29
+A055,P02,Lakeside Pediatrics,coastal,12,0,midwest,1,0.22,0,44.768,53.424,6,26
+A055,P03,Prairie Family Medicine,rural,12,1,midwest,1,0.22,0,43.494,62.544,7,15
+A055,P04,Capital Surgery,urban,10,0,midwest,1,0.22,0,51.087,55.841,2,25
+A055,P05,Valley Psychiatry,midwest,12,0,midwest,1,0.22,0,53.949,55.149,1,12
+A055,P06,Mountain Internal Medicine,rural,12,1,midwest,1,0.22,0,45.858,63.142,4,15
+A055,P07,Harbor Emergency Medicine,coastal,10,0,midwest,1,0.22,0,45.404,52.682,5,28
+A055,P08,River Public Service Track,rural,12,1,midwest,1,0.22,0,41.312,62.245,8,15
+A056,P01,Metro General Medicine,urban,14,0,urban,1,0.35,0,65.196,46.906,2,71
+A056,P02,Lakeside Pediatrics,coastal,12,0,urban,1,0.35,0,45.641,41.641,5,90
+A056,P03,Prairie Family Medicine,rural,12,1,urban,1,0.35,0,44.234,49.381,6,60
+A056,P04,Capital Surgery,urban,10,0,urban,1,0.35,0,67.265,47.61,1,71
+A056,P05,Valley Psychiatry,midwest,12,0,urban,1,0.35,0,39.933,39.244,8,93
+A056,P06,Mountain Internal Medicine,rural,12,1,urban,1,0.35,0,46.91,50.343,3,60
+A056,P07,Harbor Emergency Medicine,coastal,10,0,urban,1,0.35,0,46.632,40.179,4,94
+A056,P08,River Public Service Track,rural,12,1,urban,1,0.35,0,42.438,49.364,7,59
+A057,P01,Metro General Medicine,urban,14,0,coastal,0,0.48,0,51.077,53.636,4,36
+A057,P02,Lakeside Pediatrics,coastal,12,0,coastal,0,0.48,0,61.513,55.29,2,21
+A057,P03,Prairie Family Medicine,rural,12,1,coastal,0,0.48,0,36.974,47.506,7,70
+A057,P04,Capital Surgery,urban,10,0,coastal,0,0.48,0,52.526,53.738,3,38
+A057,P05,Valley Psychiatry,midwest,12,0,coastal,0,0.48,0,40.0,48.771,5,44
+A057,P06,Mountain Internal Medicine,rural,12,1,coastal,0,0.48,0,39.045,48.832,6,67
+A057,P07,Harbor Emergency Medicine,coastal,10,0,coastal,0,0.48,0,61.942,54.036,1,20
+A057,P08,River Public Service Track,rural,12,1,coastal,0,0.48,0,34.648,46.843,8,71
+A058,P01,Metro General Medicine,urban,14,0,rural,0,0.61,0,47.941,53.68,5,35
+A058,P02,Lakeside Pediatrics,coastal,12,0,rural,0,0.61,0,43.039,53.538,7,25
+A058,P03,Prairie Family Medicine,rural,12,1,rural,0,0.61,0,49.74,55.705,2,32
+A058,P04,Capital Surgery,urban,10,0,rural,0,0.61,0,49.391,54.323,3,34
+A058,P05,Valley Psychiatry,midwest,12,0,rural,0,0.61,0,38.436,52.109,8,28
+A058,P06,Mountain Internal Medicine,rural,12,1,rural,0,0.61,0,51.73,56.443,1,32
+A058,P07,Harbor Emergency Medicine,coastal,10,0,rural,0,0.61,0,44.215,52.514,6,29
+A058,P08,River Public Service Track,rural,12,1,rural,0,0.61,0,47.995,55.8,4,31
+A059,P01,Metro General Medicine,urban,14,0,midwest,0,0.74,0,47.905,42.051,3,92
+A059,P02,Lakeside Pediatrics,coastal,12,0,midwest,0,0.74,0,43.911,40.827,5,95
+A059,P03,Prairie Family Medicine,rural,12,1,midwest,0,0.74,0,35.48,39.47,7,102
+A059,P04,Capital Surgery,urban,10,0,midwest,0,0.74,0,49.652,42.092,2,96
+A059,P05,Valley Psychiatry,midwest,12,0,midwest,0,0.74,0,53.503,44.205,1,72
+A059,P06,Mountain Internal Medicine,rural,12,1,midwest,0,0.74,0,37.782,39.644,6,103
+A059,P07,Harbor Emergency Medicine,coastal,10,0,midwest,0,0.74,0,44.526,40.939,4,91
+A059,P08,River Public Service Track,rural,12,1,midwest,0,0.74,0,33.204,38.919,8,102
+A060,P01,Metro General Medicine,urban,14,0,urban,1,0.22,0,63.787,55.853,2,21
+A060,P02,Lakeside Pediatrics,coastal,12,0,urban,1,0.22,0,44.783,51.404,5,38
+A060,P03,Prairie Family Medicine,rural,12,1,urban,1,0.22,0,43.303,60.667,6,18
+A060,P04,Capital Surgery,urban,10,0,urban,1,0.22,0,65.83,57.149,1,18
+A060,P05,Valley Psychiatry,midwest,12,0,urban,1,0.22,0,38.57,49.731,8,40
+A060,P06,Mountain Internal Medicine,rural,12,1,urban,1,0.22,0,45.917,61.204,3,18
+A060,P07,Harbor Emergency Medicine,coastal,10,0,urban,1,0.22,0,44.837,50.796,4,38
+A060,P08,River Public Service Track,rural,12,1,urban,1,0.22,0,41.413,60.399,7,19
+A061,P01,Metro General Medicine,urban,14,0,coastal,1,0.35,0,49.668,40.223,4,104
+A061,P02,Lakeside Pediatrics,coastal,12,0,coastal,1,0.35,0,59.739,42.693,2,86
+A061,P03,Prairie Family Medicine,rural,12,1,coastal,1,0.35,0,44.043,48.433,6,66
+A061,P04,Capital Surgery,urban,10,0,coastal,1,0.35,0,51.091,40.917,3,104
+A061,P05,Valley Psychiatry,midwest,12,0,coastal,1,0.35,0,39.554,36.898,8,108
+A061,P06,Mountain Internal Medicine,rural,12,1,coastal,1,0.35,0,46.052,49.334,5,65
+A061,P07,Harbor Emergency Medicine,coastal,10,0,coastal,1,0.35,0,61.064,42.292,1,86
+A061,P08,River Public Service Track,rural,12,1,coastal,1,0.35,0,41.623,47.518,7,67
+A062,P01,Metro General Medicine,urban,14,0,rural,0,0.48,0,50.549,50.954,4,48
+A062,P02,Lakeside Pediatrics,coastal,12,0,rural,0,0.48,0,45.611,49.271,7,52
+A062,P03,Prairie Family Medicine,rural,12,1,rural,0,0.48,0,50.867,49.629,3,59
+A062,P04,Capital Surgery,urban,10,0,rural,0,0.48,0,52.269,51.045,2,48
+A062,P05,Valley Psychiatry,midwest,12,0,rural,0,0.48,0,39.621,47.353,8,52
+A062,P06,Mountain Internal Medicine,rural,12,1,rural,0,0.48,0,53.187,50.894,1,56
+A062,P07,Harbor Emergency Medicine,coastal,10,0,rural,0,0.48,0,46.375,48.149,6,55
+A062,P08,River Public Service Track,rural,12,1,rural,0,0.48,0,48.832,48.997,5,60
+A063,P01,Metro General Medicine,urban,14,0,midwest,0,0.61,0,50.514,60.756,3,9
+A063,P02,Lakeside Pediatrics,coastal,12,0,midwest,0,0.61,0,46.484,58.92,5,5
+A063,P03,Prairie Family Medicine,rural,12,1,midwest,0,0.61,0,36.607,55.755,7,31
+A063,P04,Capital Surgery,urban,10,0,midwest,0,0.61,0,52.529,62.103,2,4
+A063,P05,Valley Psychiatry,midwest,12,0,midwest,0,0.61,0,54.688,60.88,1,1
+A063,P06,Mountain Internal Medicine,rural,12,1,midwest,0,0.61,0,39.238,56.455,6,31
+A063,P07,Harbor Emergency Medicine,coastal,10,0,midwest,0,0.61,0,46.686,58.005,4,6
+A063,P08,River Public Service Track,rural,12,1,midwest,0,0.61,0,34.041,54.476,8,33
+A064,P01,Metro General Medicine,urban,14,0,urban,0,0.74,0,62.378,43.368,2,84
+A064,P02,Lakeside Pediatrics,coastal,12,0,urban,0,0.74,0,43.009,38.807,4,103
+A064,P03,Prairie Family Medicine,rural,12,1,urban,0,0.74,0,34.372,37.594,7,108
+A064,P04,Capital Surgery,urban,10,0,urban,0,0.74,0,64.395,43.399,1,86
+A064,P05,Valley Psychiatry,midwest,12,0,urban,0,0.74,0,38.124,37.859,5,105
+A064,P06,Mountain Internal Medicine,rural,12,1,urban,0,0.74,0,36.923,37.706,6,108
+A064,P07,Harbor Emergency Medicine,coastal,10,0,urban,0,0.74,0,43.958,38.124,3,104
+A064,P08,River Public Service Track,rural,12,1,urban,0,0.74,0,32.388,37.073,8,107
+A065,P01,Metro General Medicine,urban,14,0,coastal,1,0.22,0,48.259,49.17,4,58
+A065,P02,Lakeside Pediatrics,coastal,12,0,coastal,1,0.22,0,58.882,52.456,2,31
+A065,P03,Prairie Family Medicine,rural,12,1,coastal,1,0.22,0,43.112,58.79,6,25
+A065,P04,Capital Surgery,urban,10,0,coastal,1,0.22,0,49.656,49.527,3,59
+A065,P05,Valley Psychiatry,midwest,12,0,coastal,1,0.22,0,38.191,47.385,8,51
+A065,P06,Mountain Internal Medicine,rural,12,1,coastal,1,0.22,0,45.058,59.266,5,27
+A065,P07,Harbor Emergency Medicine,coastal,10,0,coastal,1,0.22,0,59.269,51.98,1,30
+A065,P08,River Public Service Track,rural,12,1,coastal,1,0.22,0,40.598,58.552,7,25
+A066,P01,Metro General Medicine,urban,14,0,rural,1,0.35,0,48.224,37.541,5,114
+A066,P02,Lakeside Pediatrics,coastal,12,0,rural,1,0.35,0,43.837,36.674,7,116
+A066,P03,Prairie Family Medicine,rural,12,1,rural,1,0.35,0,57.936,50.556,2,54
+A066,P04,Capital Surgery,urban,10,0,rural,1,0.35,0,49.917,38.224,4,114
+A066,P05,Valley Psychiatry,midwest,12,0,rural,1,0.35,0,38.258,35.481,8,113
+A066,P06,Mountain Internal Medicine,rural,12,1,rural,1,0.35,0,60.193,51.396,1,54
+A066,P07,Harbor Emergency Medicine,coastal,10,0,rural,1,0.35,0,44.58,36.406,6,115
+A066,P08,River Public Service Track,rural,12,1,rural,1,0.35,0,55.807,50.6,3,53
+A067,P01,Metro General Medicine,urban,14,0,midwest,0,0.48,0,49.105,48.272,3,63
+A067,P02,Lakeside Pediatrics,coastal,12,0,midwest,0,0.48,0,44.71,47.252,5,64
+A067,P03,Prairie Family Medicine,rural,12,1,midwest,0,0.48,0,35.676,43.753,7,86
+A067,P04,Capital Surgery,urban,10,0,midwest,0,0.48,0,51.095,48.353,2,66
+A067,P05,Valley Psychiatry,midwest,12,0,midwest,0,0.48,0,54.241,49.007,1,43
+A067,P06,Mountain Internal Medicine,rural,12,1,midwest,0,0.48,0,38.245,44.956,6,85
+A067,P07,Harbor Emergency Medicine,coastal,10,0,midwest,0,0.48,0,45.807,46.262,4,63
+A067,P08,River Public Service Track,rural,12,1,midwest,0,0.48,0,33.933,44.079,8,84
+A068,P01,Metro General Medicine,urban,14,0,urban,0,0.61,0,64.987,62.073,2,2
+A068,P02,Lakeside Pediatrics,coastal,12,0,urban,0,0.61,0,45.582,56.901,4,13
+A068,P03,Prairie Family Medicine,rural,12,1,urban,0,0.61,0,36.416,53.878,7,36
+A068,P04,Capital Surgery,urban,10,0,urban,0,0.61,0,66.355,63.41,1,2
+A068,P05,Valley Psychiatry,midwest,12,0,urban,0,0.61,0,39.309,54.534,5,14
+A068,P06,Mountain Internal Medicine,rural,12,1,urban,0,0.61,0,38.38,54.517,6,36
+A068,P07,Harbor Emergency Medicine,coastal,10,0,urban,0,0.61,0,46.118,56.119,3,12
+A068,P08,River Public Service Track,rural,12,1,urban,0,0.61,0,34.142,53.559,8,37
+A069,P01,Metro General Medicine,urban,14,0,coastal,0,0.74,0,50.868,46.444,4,75
+A069,P02,Lakeside Pediatrics,coastal,12,0,coastal,0,0.74,0,60.538,49.118,2,55
+A069,P03,Prairie Family Medicine,rural,12,1,coastal,0,0.74,0,36.239,40.715,7,98
+A069,P04,Capital Surgery,urban,10,0,coastal,0,0.74,0,52.533,47.178,3,74
+A069,P05,Valley Psychiatry,midwest,12,0,coastal,0,0.74,0,40.292,42.629,5,79
+A069,P06,Mountain Internal Medicine,rural,12,1,coastal,0,0.74,0,38.515,41.718,6,98
+A069,P07,Harbor Emergency Medicine,coastal,10,0,coastal,0,0.74,0,61.429,47.615,1,57
+A069,P08,River Public Service Track,rural,12,1,coastal,0,0.74,0,34.351,40.678,8,97
+A070,P01,Metro General Medicine,urban,14,0,rural,1,0.22,0,46.815,47.417,5,68
+A070,P02,Lakeside Pediatrics,coastal,12,0,rural,1,0.22,0,42.98,46.437,7,66
+A070,P03,Prairie Family Medicine,rural,12,1,rural,1,0.22,0,57.921,61.842,2,17
+A070,P04,Capital Surgery,urban,10,0,rural,1,0.22,0,48.482,46.835,4,77
+A070,P05,Valley Psychiatry,midwest,12,0,rural,1,0.22,0,37.811,45.968,8,60
+A070,P06,Mountain Internal Medicine,rural,12,1,rural,1,0.22,0,60.117,62.257,1,17
+A070,P07,Harbor Emergency Medicine,coastal,10,0,rural,1,0.22,0,43.701,46.094,6,65
+A070,P08,River Public Service Track,rural,12,1,rural,1,0.22,0,55.699,61.635,3,17
+A071,P01,Metro General Medicine,urban,14,0,midwest,1,0.35,0,47.696,34.859,3,120
+A071,P02,Lakeside Pediatrics,coastal,12,0,midwest,1,0.35,0,43.852,34.655,6,120
+A071,P03,Prairie Family Medicine,rural,12,1,midwest,1,0.35,0,42.745,44.679,7,82
+A071,P04,Capital Surgery,urban,10,0,midwest,1,0.35,0,49.66,35.532,2,117
+A071,P05,Valley Psychiatry,midwest,12,0,midwest,1,0.35,0,52.878,37.135,1,107
+A071,P06,Mountain Internal Medicine,rural,12,1,midwest,1,0.35,0,45.252,45.458,4,83
+A071,P07,Harbor Emergency Medicine,coastal,10,0,midwest,1,0.35,0,44.012,33.59,5,120
+A071,P08,River Public Service Track,rural,12,1,midwest,1,0.35,0,40.908,44.754,8,81
+A072,P01,Metro General Medicine,urban,14,0,urban,0,0.48,0,63.577,49.589,2,55
+A072,P02,Lakeside Pediatrics,coastal,12,0,urban,0,0.48,0,43.808,44.304,4,79
+A072,P03,Prairie Family Medicine,rural,12,1,urban,0,0.48,0,35.485,42.805,7,89
+A072,P04,Capital Surgery,urban,10,0,urban,0,0.48,0,64.921,49.66,1,57
+A072,P05,Valley Psychiatry,midwest,12,0,urban,0,0.48,0,38.862,43.59,5,75
+A072,P06,Mountain Internal Medicine,rural,12,1,urban,0,0.48,0,37.387,43.019,6,90
+A072,P07,Harbor Emergency Medicine,coastal,10,0,urban,0,0.48,0,45.239,44.375,3,74
+A072,P08,River Public Service Track,rural,12,1,urban,0,0.48,0,33.117,42.233,8,88
+A073,P01,Metro General Medicine,urban,14,0,coastal,0,0.61,0,49.459,55.391,4,24
+A073,P02,Lakeside Pediatrics,coastal,12,0,coastal,0,0.61,0,59.68,58.881,2,6
+A073,P03,Prairie Family Medicine,rural,12,1,coastal,0,0.61,0,35.308,52.001,7,47
+A073,P04,Capital Surgery,urban,10,0,coastal,0,0.61,0,51.098,56.717,3,20
+A073,P05,Valley Psychiatry,midwest,12,0,coastal,0,0.61,0,38.929,53.117,5,20
+A073,P06,Mountain Internal Medicine,rural,12,1,coastal,0,0.61,0,37.522,52.579,6,47
+A073,P07,Harbor Emergency Medicine,coastal,10,0,coastal,0,0.61,0,60.55,58.232,1,5
+A073,P08,River Public Service Track,rural,12,1,coastal,0,0.61,0,33.326,51.712,8,46
+A074,P01,Metro General Medicine,urban,14,0,rural,0,0.74,1,49.424,41.762,4,94
+A074,P02,Lakeside Pediatrics,coastal,12,0,rural,0,0.74,1,45.553,40.17,7,97
+A074,P03,Prairie Family Medicine,rural,12,1,rural,0,0.74,1,51.048,41.767,3,93
+A074,P04,Capital Surgery,urban,10,0,rural,0,0.74,1,51.359,42.486,2,93
+A074,P05,Valley Psychiatry,midwest,12,0,rural,0,0.74,1,38.996,38.283,8,102
+A074,P06,Mountain Internal Medicine,rural,12,1,rural,0,0.74,1,53.573,42.709,1,92
+A074,P07,Harbor Emergency Medicine,coastal,10,0,rural,0,0.74,1,45.861,39.728,6,96
+A074,P08,River Public Service Track,rural,12,1,rural,0,0.74,1,48.536,40.832,5,96
+A075,P01,Metro General Medicine,urban,14,0,midwest,1,0.22,1,50.305,52.492,3,42
+A075,P02,Lakeside Pediatrics,coastal,12,0,midwest,1,0.22,1,45.508,50.748,6,42
+A075,P03,Prairie Family Medicine,rural,12,1,midwest,1,0.22,1,43.872,58.964,7,24
+A075,P04,Capital Surgery,urban,10,0,midwest,1,0.22,1,52.537,52.614,2,43
+A075,P05,Valley Psychiatry,midwest,12,0,midwest,1,0.22,1,54.98,52.739,1,24
+A075,P06,Mountain Internal Medicine,rural,12,1,midwest,1,0.22,1,46.708,60.269,4,24
+A075,P07,Harbor Emergency Medicine,coastal,10,0,midwest,1,0.22,1,46.172,49.585,5,45
+A075,P08,River Public Service Track,rural,12,1,midwest,1,0.22,1,41.745,58.311,8,26
+A076,P01,Metro General Medicine,urban,14,0,urban,1,0.35,0,66.186,45.934,2,77
+A076,P02,Lakeside Pediatrics,coastal,12,0,urban,1,0.35,0,46.381,40.037,5,99
+A076,P03,Prairie Family Medicine,rural,12,1,urban,1,0.35,0,44.612,48.729,6,64
+A076,P04,Capital Surgery,urban,10,0,urban,1,0.35,0,67.798,47.311,1,73
+A076,P05,Valley Psychiatry,midwest,12,0,urban,1,0.35,0,40.047,37.905,8,104
+A076,P06,Mountain Internal Medicine,rural,12,1,urban,1,0.35,0,46.843,49.47,3,64
+A076,P07,Harbor Emergency Medicine,coastal,10,0,urban,1,0.35,0,46.482,39.082,4,99
+A076,P08,River Public Service Track,rural,12,1,urban,1,0.35,0,41.954,47.43,7,68
+A077,P01,Metro General Medicine,urban,14,0,coastal,0,0.48,0,47.133,42.907,4,86
+A077,P02,Lakeside Pediatrics,coastal,12,0,coastal,0,0.48,0,57.906,46.284,2,67
+A077,P03,Prairie Family Medicine,rural,12,1,coastal,0,0.48,0,34.377,40.928,7,97
+A077,P04,Capital Surgery,urban,10,0,coastal,0,0.48,0,48.747,42.968,3,89
+A077,P05,Valley Psychiatry,midwest,12,0,coastal,0,0.48,0,37.566,41.244,5,85
+A077,P06,Mountain Internal Medicine,rural,12,1,coastal,0,0.48,0,36.528,41.081,6,99
+A077,P07,Harbor Emergency Medicine,coastal,10,0,coastal,0,0.48,0,58.755,45.56,1,67
+A077,P08,River Public Service Track,rural,12,1,coastal,0,0.48,0,32.302,40.387,8,98
+A078,P01,Metro General Medicine,urban,14,0,rural,0,0.61,0,48.015,52.709,5,40
+A078,P02,Lakeside Pediatrics,coastal,12,0,rural,0,0.61,0,43.779,51.933,7,35
+A078,P03,Prairie Family Medicine,rural,12,1,rural,0,0.61,0,50.117,54.125,2,35
+A078,P04,Capital Surgery,urban,10,0,rural,0,0.61,0,49.924,53.096,3,39
+A078,P05,Valley Psychiatry,midwest,12,0,rural,0,0.61,0,38.55,50.771,8,35
+A078,P06,Mountain Internal Medicine,rural,12,1,rural,0,0.61,0,52.58,54.641,1,35
+A078,P07,Harbor Emergency Medicine,coastal,10,0,rural,0,0.61,0,44.983,51.417,6,35
+A078,P08,River Public Service Track,rural,12,1,rural,0,0.61,0,48.427,53.866,4,35
+A079,P01,Metro General Medicine,urban,14,0,midwest,0,0.74,0,48.896,41.079,3,100
+A079,P02,Lakeside Pediatrics,coastal,12,0,midwest,0,0.74,0,44.651,40.151,5,98
+A079,P03,Prairie Family Medicine,rural,12,1,midwest,0,0.74,0,35.857,37.89,7,105
+A079,P04,Capital Surgery,urban,10,0,midwest,0,0.74,0,50.185,41.793,2,98
+A079,P05,Valley Psychiatry,midwest,12,0,midwest,0,0.74,0,53.617,42.866,1,78
+A079,P06,Mountain Internal Medicine,rural,12,1,midwest,0,0.74,0,37.715,38.771,6,105
+A079,P07,Harbor Emergency Medicine,coastal,10,0,midwest,0,0.74,0,45.293,39.842,4,95
+A079,P08,River Public Service Track,rural,12,1,midwest,0,0.74,0,33.637,37.914,8,104
+A080,P01,Metro General Medicine,urban,14,0,urban,1,0.22,0,64.777,55.81,2,22
+A080,P02,Lakeside Pediatrics,coastal,12,0,urban,1,0.22,0,44.607,50.729,5,43
+A080,P03,Prairie Family Medicine,rural,12,1,urban,1,0.22,0,43.681,59.087,6,23
+A080,P04,Capital Surgery,urban,10,0,urban,1,0.22,0,66.363,55.922,1,24
+A080,P05,Valley Psychiatry,midwest,12,0,urban,1,0.22,0,39.601,48.393,8,46
+A080,P06,Mountain Internal Medicine,rural,12,1,urban,1,0.22,0,45.85,60.331,3,23
+A080,P07,Harbor Emergency Medicine,coastal,10,0,urban,1,0.22,0,45.604,49.698,4,44
+A080,P08,River Public Service Track,rural,12,1,urban,1,0.22,0,41.846,59.393,7,21
+A081,P01,Metro General Medicine,urban,14,0,coastal,1,0.35,0,49.742,39.252,4,111
+A081,P02,Lakeside Pediatrics,coastal,12,0,coastal,1,0.35,0,60.479,42.018,2,89
+A081,P03,Prairie Family Medicine,rural,12,1,coastal,1,0.35,0,44.421,46.852,6,73
+A081,P04,Capital Surgery,urban,10,0,coastal,1,0.35,0,51.624,40.619,3,107
+A081,P05,Valley Psychiatry,midwest,12,0,coastal,1,0.35,0,39.668,35.559,8,112
+A081,P06,Mountain Internal Medicine,rural,12,1,coastal,1,0.35,0,46.902,47.532,5,74
+A081,P07,Harbor Emergency Medicine,coastal,10,0,coastal,1,0.35,0,60.915,41.195,1,89
+A081,P08,River Public Service Track,rural,12,1,coastal,1,0.35,0,42.055,46.512,7,72
+A082,P01,Metro General Medicine,urban,14,0,rural,0,0.48,0,50.623,49.982,4,53
+A082,P02,Lakeside Pediatrics,coastal,12,0,rural,0,0.48,0,46.351,48.595,6,57
+A082,P03,Prairie Family Medicine,rural,12,1,rural,0,0.48,0,51.244,48.049,3,67
+A082,P04,Capital Surgery,urban,10,0,rural,0,0.48,0,52.801,50.747,2,50
+A082,P05,Valley Psychiatry,midwest,12,0,rural,0,0.48,0,39.735,46.015,8,58
+A082,P06,Mountain Internal Medicine,rural,12,1,rural,0,0.48,0,54.037,49.093,1,66
+A082,P07,Harbor Emergency Medicine,coastal,10,0,rural,0,0.48,0,46.225,47.051,7,60
+A082,P08,River Public Service Track,rural,12,1,rural,0,0.48,0,49.265,47.991,5,65
+A083,P01,Metro General Medicine,urban,14,0,midwest,0,0.61,0,47.487,50.955,3,47
+A083,P02,Lakeside Pediatrics,coastal,12,0,midwest,0,0.61,0,42.877,49.914,5,49
+A083,P03,Prairie Family Medicine,rural,12,1,midwest,0,0.61,0,34.926,49.176,7,61
+A083,P04,Capital Surgery,urban,10,0,midwest,0,0.61,0,48.75,50.404,2,52
+A083,P05,Valley Psychiatry,midwest,12,0,midwest,0,0.61,0,53.171,53.353,1,19
+A083,P06,Mountain Internal Medicine,rural,12,1,midwest,0,0.61,0,36.722,49.632,6,62
+A083,P07,Harbor Emergency Medicine,coastal,10,0,midwest,0,0.61,0,44.415,49.53,4,48
+A083,P08,River Public Service Track,rural,12,1,midwest,0,0.61,0,32.612,48.949,8,61
+A084,P01,Metro General Medicine,urban,14,0,urban,0,0.74,0,63.368,42.397,2,90
+A084,P02,Lakeside Pediatrics,coastal,12,0,urban,0,0.74,0,43.749,38.132,4,110
+A084,P03,Prairie Family Medicine,rural,12,1,urban,0,0.74,0,34.75,36.013,7,111
+A084,P04,Capital Surgery,urban,10,0,urban,0,0.74,0,64.928,43.101,1,87
+A084,P05,Valley Psychiatry,midwest,12,0,urban,0,0.74,0,38.238,36.52,5,110
+A084,P06,Mountain Internal Medicine,rural,12,1,urban,0,0.74,0,36.857,36.833,6,111
+A084,P07,Harbor Emergency Medicine,coastal,10,0,urban,0,0.74,0,44.726,37.026,3,112
+A084,P08,River Public Service Track,rural,12,1,urban,0,0.74,0,32.821,36.068,8,110
+A085,P01,Metro General Medicine,urban,14,0,coastal,1,0.22,0,48.333,49.127,4,59
+A085,P02,Lakeside Pediatrics,coastal,12,0,coastal,1,0.22,0,59.622,51.781,2,36
+A085,P03,Prairie Family Medicine,rural,12,1,coastal,1,0.22,0,43.49,58.139,6,28
+A085,P04,Capital Surgery,urban,10,0,coastal,1,0.22,0,50.189,49.229,3,61
+A085,P05,Valley Psychiatry,midwest,12,0,coastal,1,0.22,0,38.305,46.975,8,55
+A085,P06,Mountain Internal Medicine,rural,12,1,coastal,1,0.22,0,45.908,58.394,5,28
+A085,P07,Harbor Emergency Medicine,coastal,10,0,coastal,1,0.22,0,60.036,51.812,1,33
+A085,P08,River Public Service Track,rural,12,1,coastal,1,0.22,0,41.03,57.547,7,27
+A086,P01,Metro General Medicine,urban,14,0,rural,1,0.35,0,49.214,36.569,5,115
+A086,P02,Lakeside Pediatrics,coastal,12,0,rural,1,0.35,0,44.577,35.998,7,118
+A086,P03,Prairie Family Medicine,rural,12,1,rural,1,0.35,0,58.313,48.976,2,63
+A086,P04,Capital Surgery,urban,10,0,rural,1,0.35,0,51.366,37.926,4,115
+A086,P05,Valley Psychiatry,midwest,12,0,rural,1,0.35,0,39.288,34.142,8,117
+A086,P06,Mountain Internal Medicine,rural,12,1,rural,1,0.35,0,61.043,49.594,1,63
+A086,P07,Harbor Emergency Medicine,coastal,10,0,rural,1,0.35,0,45.347,35.308,6,118
+A086,P08,River Public Service Track,rural,12,1,rural,1,0.35,0,56.24,48.666,3,63
+A087,P01,Metro General Medicine,urban,14,0,midwest,0,0.48,0,50.096,47.3,3,70
+A087,P02,Lakeside Pediatrics,coastal,12,0,midwest,0,0.48,0,45.45,45.647,5,69
+A087,P03,Prairie Family Medicine,rural,12,1,midwest,0,0.48,0,36.053,43.101,7,88
+A087,P04,Capital Surgery,urban,10,0,midwest,0,0.48,0,51.627,48.055,2,67
+A087,P05,Valley Psychiatry,midwest,12,0,midwest,0,0.48,0,54.355,47.669,1,50
+A087,P06,Mountain Internal Medicine,rural,12,1,midwest,0,0.48,0,38.178,44.084,6,87
+A087,P07,Harbor Emergency Medicine,coastal,10,0,midwest,0,0.48,0,45.658,45.165,4,68
+A087,P08,River Public Service Track,rural,12,1,midwest,0,0.48,0,33.449,42.145,8,89
+A088,P01,Metro General Medicine,urban,14,0,urban,0,0.61,0,65.061,62.03,2,3
+A088,P02,Lakeside Pediatrics,coastal,12,0,urban,0,0.61,0,45.405,56.225,4,15
+A088,P03,Prairie Family Medicine,rural,12,1,urban,0,0.61,0,35.877,52.298,7,45
+A088,P04,Capital Surgery,urban,10,0,urban,0,0.61,0,66.888,62.183,1,3
+A088,P05,Valley Psychiatry,midwest,12,0,urban,0,0.61,0,39.423,54.124,5,16
+A088,P06,Mountain Internal Medicine,rural,12,1,urban,0,0.61,0,38.313,53.644,6,42
+A088,P07,Harbor Emergency Medicine,coastal,10,0,urban,0,0.61,0,45.969,55.021,3,15
+A088,P08,River Public Service Track,rural,12,1,urban,0,0.61,0,33.658,51.625,8,47
+A089,P01,Metro General Medicine,urban,14,0,coastal,0,0.74,0,50.942,45.472,4,81
+A089,P02,Lakeside Pediatrics,coastal,12,0,coastal,0,0.74,0,61.278,47.514,2,63
+A089,P03,Prairie Family Medicine,rural,12,1,coastal,0,0.74,0,36.617,40.063,7,101
+A089,P04,Capital Surgery,urban,10,0,coastal,0,0.74,0,53.066,46.88,3,76
+A089,P05,Valley Psychiatry,midwest,12,0,coastal,0,0.74,0,40.406,41.29,5,84
+A089,P06,Mountain Internal Medicine,rural,12,1,coastal,0,0.74,0,39.365,40.845,6,100
+A089,P07,Harbor Emergency Medicine,coastal,10,0,coastal,0,0.74,0,62.196,46.518,1,62
+A089,P08,River Public Service Track,rural,12,1,coastal,0,0.74,0,34.784,38.744,8,103
+A090,P01,Metro General Medicine,urban,14,0,rural,1,0.22,0,47.805,46.445,5,74
+A090,P02,Lakeside Pediatrics,coastal,12,0,rural,1,0.22,0,43.72,45.761,7,68
+A090,P03,Prairie Family Medicine,rural,12,1,rural,1,0.22,0,58.299,60.262,2,20
+A090,P04,Capital Surgery,urban,10,0,rural,1,0.22,0,49.015,46.537,4,79
+A090,P05,Valley Psychiatry,midwest,12,0,rural,1,0.22,0,37.925,44.629,8,68
+A090,P06,Mountain Internal Medicine,rural,12,1,rural,1,0.22,0,60.05,60.456,1,22
+A090,P07,Harbor Emergency Medicine,coastal,10,0,rural,1,0.22,0,44.469,44.996,6,70
+A090,P08,River Public Service Track,rural,12,1,rural,1,0.22,0,56.131,59.701,3,20
+A091,P01,Metro General Medicine,urban,14,0,midwest,1,0.35,0,48.687,56.247,3,20
+A091,P02,Lakeside Pediatrics,coastal,12,0,midwest,1,0.35,0,43.676,55.41,6,20
+A091,P03,Prairie Family Medicine,rural,12,1,midwest,1,0.35,0,43.122,65.459,7,8
+A091,P04,Capital Surgery,urban,10,0,midwest,1,0.35,0,50.192,56.665,2,21
+A091,P05,Valley Psychiatry,midwest,12,0,midwest,1,0.35,0,53.909,58.156,1,2
+A091,P06,Mountain Internal Medicine,rural,12,1,midwest,1,0.35,0,45.185,66.016,4,8
+A091,P07,Harbor Emergency Medicine,coastal,10,0,midwest,1,0.35,0,44.779,54.853,5,17
+A091,P08,River Public Service Track,rural,12,1,midwest,1,0.35,0,41.341,65.18,8,9
+A092,P01,Metro General Medicine,urban,14,0,urban,0,0.48,0,63.651,48.617,2,60
+A092,P02,Lakeside Pediatrics,coastal,12,0,urban,0,0.48,0,44.548,43.628,4,84
+A092,P03,Prairie Family Medicine,rural,12,1,urban,0,0.48,0,35.862,41.224,7,96
+A092,P04,Capital Surgery,urban,10,0,urban,0,0.48,0,65.453,49.362,1,60
+A092,P05,Valley Psychiatry,midwest,12,0,urban,0,0.48,0,38.976,42.251,5,80
+A092,P06,Mountain Internal Medicine,rural,12,1,urban,0,0.48,0,38.237,42.146,6,96
+A092,P07,Harbor Emergency Medicine,coastal,10,0,urban,0,0.48,0,45.09,43.278,3,82
+A092,P08,River Public Service Track,rural,12,1,urban,0,0.48,0,33.55,41.228,8,93
+A093,P01,Metro General Medicine,urban,14,0,coastal,0,0.61,0,49.533,55.348,4,25
+A093,P02,Lakeside Pediatrics,coastal,12,0,coastal,0,0.61,0,60.42,58.206,1,7
+A093,P03,Prairie Family Medicine,rural,12,1,coastal,0,0.61,0,35.686,50.421,7,55
+A093,P04,Capital Surgery,urban,10,0,coastal,0,0.61,0,51.631,55.491,3,28
+A093,P05,Valley Psychiatry,midwest,12,0,coastal,0,0.61,0,39.043,51.778,5,30
+A093,P06,Mountain Internal Medicine,rural,12,1,coastal,0,0.61,0,38.372,51.706,6,53
+A093,P07,Harbor Emergency Medicine,coastal,10,0,coastal,0,0.61,0,60.401,57.134,2,8
+A093,P08,River Public Service Track,rural,12,1,coastal,0,0.61,0,33.759,50.707,8,50
+A094,P01,Metro General Medicine,urban,14,0,rural,0,0.74,0,50.414,42.79,4,88
+A094,P02,Lakeside Pediatrics,coastal,12,0,rural,0,0.74,0,45.376,41.495,7,92
+A094,P03,Prairie Family Medicine,rural,12,1,rural,0,0.74,0,51.426,42.186,3,92
+A094,P04,Capital Surgery,urban,10,0,rural,0,0.74,0,51.892,44.188,2,84
+A094,P05,Valley Psychiatry,midwest,12,0,rural,0,0.74,0,40.027,38.944,8,94
+A094,P06,Mountain Internal Medicine,rural,12,1,rural,0,0.74,0,53.507,42.907,1,91
+A094,P07,Harbor Emergency Medicine,coastal,10,0,rural,0,0.74,0,46.628,40.631,6,92
+A094,P08,River Public Service Track,rural,12,1,rural,0,0.74,0,48.968,41.826,5,90
+A095,P01,Metro General Medicine,urban,14,0,midwest,1,0.22,0,51.296,53.52,3,37
+A095,P02,Lakeside Pediatrics,coastal,12,0,midwest,1,0.22,0,46.248,52.072,6,34
+A095,P03,Prairie Family Medicine,rural,12,1,midwest,1,0.22,0,44.249,59.383,7,21
+A095,P04,Capital Surgery,urban,10,0,midwest,1,0.22,0,53.069,54.316,2,35
+A095,P05,Valley Psychiatry,midwest,12,0,midwest,1,0.22,0,55.094,53.4,1,18
+A095,P06,Mountain Internal Medicine,rural,12,1,midwest,1,0.22,0,46.642,60.468,5,21
+A095,P07,Harbor Emergency Medicine,coastal,10,0,midwest,1,0.22,0,46.939,50.488,4,40
+A095,P08,River Public Service Track,rural,12,1,midwest,1,0.22,0,42.178,59.305,8,22
+A096,P01,Metro General Medicine,urban,14,0,urban,1,0.35,0,62.242,58.493,2,12
+A096,P02,Lakeside Pediatrics,coastal,12,0,urban,1,0.35,0,43.691,53.391,5,27
+A096,P03,Prairie Family Medicine,rural,12,1,urban,1,0.35,0,42.931,64.511,6,10
+A096,P04,Capital Surgery,urban,10,0,urban,1,0.35,0,64.018,57.972,1,14
+A096,P05,Valley Psychiatry,midwest,12,0,urban,1,0.35,0,37.613,52.738,8,25
+A096,P06,Mountain Internal Medicine,rural,12,1,urban,1,0.35,0,45.243,65.007,3,10
+A096,P07,Harbor Emergency Medicine,coastal,10,0,urban,1,0.35,0,44.212,52.966,4,26
+A096,P08,River Public Service Track,rural,12,1,urban,1,0.35,0,40.525,64.262,7,10
+A097,P01,Metro General Medicine,urban,14,0,coastal,0,0.48,0,48.124,41.935,4,93
+A097,P02,Lakeside Pediatrics,coastal,12,0,coastal,0,0.48,0,58.646,45.609,2,70
+A097,P03,Prairie Family Medicine,rural,12,1,coastal,0,0.48,0,34.754,39.348,7,103
+A097,P04,Capital Surgery,urban,10,0,coastal,0,0.48,0,50.196,42.669,3,92
+A097,P05,Valley Psychiatry,midwest,12,0,coastal,0,0.48,0,38.597,39.905,5,90
+A097,P06,Mountain Internal Medicine,rural,12,1,coastal,0,0.48,0,37.378,40.208,6,102
+A097,P07,Harbor Emergency Medicine,coastal,10,0,coastal,0,0.48,0,59.522,44.463,1,73
+A097,P08,River Public Service Track,rural,12,1,coastal,0,0.48,0,32.734,39.382,8,101
+A098,P01,Metro General Medicine,urban,14,0,rural,0,0.61,0,49.005,52.665,4,41
+A098,P02,Lakeside Pediatrics,coastal,12,0,rural,0,0.61,0,44.519,51.258,7,39
+A098,P03,Prairie Family Medicine,rural,12,1,rural,0,0.61,0,50.495,53.473,2,39
+A098,P04,Capital Surgery,urban,10,0,rural,0,0.61,0,50.457,52.798,3,42
+A098,P05,Valley Psychiatry,midwest,12,0,rural,0,0.61,0,38.664,50.36,8,38
+A098,P06,Mountain Internal Medicine,rural,12,1,rural,0,0.61,0,52.513,53.769,1,40
+A098,P07,Harbor Emergency Medicine,coastal,10,0,rural,0,0.61,0,44.833,51.248,6,36
+A098,P08,River Public Service Track,rural,12,1,rural,0,0.61,0,47.943,52.861,5,39
+A099,P01,Metro General Medicine,urban,14,0,midwest,0,0.74,0,48.97,40.107,3,106
+A099,P02,Lakeside Pediatrics,coastal,12,0,midwest,0,0.74,0,44.474,39.475,5,101
+A099,P03,Prairie Family Medicine,rural,12,1,midwest,0,0.74,0,35.318,36.31,7,110
+A099,P04,Capital Surgery,urban,10,0,midwest,0,0.74,0,50.718,41.495,2,101
+A099,P05,Valley Psychiatry,midwest,12,0,midwest,0,0.74,0,53.731,41.527,1,83
+A099,P06,Mountain Internal Medicine,rural,12,1,midwest,0,0.74,0,37.648,36.969,6,110
+A099,P07,Harbor Emergency Medicine,coastal,10,0,midwest,0,0.74,0,45.144,38.744,4,101
+A099,P08,River Public Service Track,rural,12,1,midwest,0,0.74,0,33.153,35.98,8,111
+A100,P01,Metro General Medicine,urban,14,0,urban,1,0.22,0,64.851,54.838,2,27
+A100,P02,Lakeside Pediatrics,coastal,12,0,urban,1,0.22,0,45.347,49.124,5,54
+A100,P03,Prairie Family Medicine,rural,12,1,urban,1,0.22,0,44.058,58.435,6,27
+A100,P04,Capital Surgery,urban,10,0,urban,1,0.22,0,66.895,55.623,1,27
+A100,P05,Valley Psychiatry,midwest,12,0,urban,1,0.22,0,39.715,47.054,8,54
+A100,P06,Mountain Internal Medicine,rural,12,1,urban,1,0.22,0,46.7,59.459,3,26
+A100,P07,Harbor Emergency Medicine,coastal,10,0,urban,1,0.22,0,46.371,48.601,4,52
+A100,P08,River Public Service Track,rural,12,1,urban,1,0.22,0,42.279,57.459,7,28
+A101,P01,Metro General Medicine,urban,14,0,coastal,1,0.35,0,50.733,61.569,4,5
+A101,P02,Lakeside Pediatrics,coastal,12,0,coastal,1,0.35,0,61.219,63.702,2,2
+A101,P03,Prairie Family Medicine,rural,12,1,coastal,1,0.35,0,44.798,67.632,6,6
+A101,P04,Capital Surgery,urban,10,0,coastal,1,0.35,0,52.156,61.752,3,8
+A101,P05,Valley Psychiatry,midwest,12,0,coastal,1,0.35,0,39.782,57.509,8,5
+A101,P06,Mountain Internal Medicine,rural,12,1,coastal,1,0.35,0,46.835,69.019,5,6
+A101,P07,Harbor Emergency Medicine,coastal,10,0,coastal,1,0.35,0,61.682,62.457,1,2
+A101,P08,River Public Service Track,rural,12,1,coastal,1,0.35,0,42.488,66.938,7,6
+A102,P01,Metro General Medicine,urban,14,0,rural,0,0.48,0,47.596,39.253,5,110
+A102,P02,Lakeside Pediatrics,coastal,12,0,rural,0,0.48,0,42.745,38.661,7,105
+A102,P03,Prairie Family Medicine,rural,12,1,rural,0,0.48,0,49.563,42.399,2,90
+A102,P04,Capital Surgery,urban,10,0,rural,0,0.48,0,49.022,39.977,3,111
+A102,P05,Valley Psychiatry,midwest,12,0,rural,0,0.48,0,38.217,38.488,8,100
+A102,P06,Mountain Internal Medicine,rural,12,1,rural,0,0.48,0,51.52,42.27,1,95
+A102,P07,Harbor Emergency Medicine,coastal,10,0,rural,0,0.48,0,43.955,38.576,6,102
+A102,P08,River Public Service Track,rural,12,1,rural,0,0.48,0,47.835,41.535,4,92
+A103,P01,Metro General Medicine,urban,14,0,midwest,0,0.61,0,47.561,49.983,3,52
+A103,P02,Lakeside Pediatrics,coastal,12,0,midwest,0,0.61,0,43.617,49.238,5,53
+A103,P03,Prairie Family Medicine,rural,12,1,midwest,0,0.61,0,35.304,47.596,7,68
+A103,P04,Capital Surgery,urban,10,0,midwest,0,0.61,0,49.283,50.105,2,54
+A103,P05,Valley Psychiatry,midwest,12,0,midwest,0,0.61,0,53.285,52.014,1,29
+A103,P06,Mountain Internal Medicine,rural,12,1,midwest,0,0.61,0,37.572,47.831,6,71
+A103,P07,Harbor Emergency Medicine,coastal,10,0,midwest,0,0.61,0,44.266,48.432,4,54
+A103,P08,River Public Service Track,rural,12,1,midwest,0,0.61,0,33.044,47.015,8,70
+A104,P01,Metro General Medicine,urban,14,0,urban,0,0.74,0,63.442,41.425,2,97
+A104,P02,Lakeside Pediatrics,coastal,12,0,urban,0,0.74,0,44.489,36.527,4,117
+A104,P03,Prairie Family Medicine,rural,12,1,urban,0,0.74,0,35.127,34.433,7,115
+A104,P04,Capital Surgery,urban,10,0,urban,0,0.74,0,65.46,41.874,1,97
+A104,P05,Valley Psychiatry,midwest,12,0,urban,0,0.74,0,38.352,35.181,5,115
+A104,P06,Mountain Internal Medicine,rural,12,1,urban,0,0.74,0,37.707,35.031,6,115
+A104,P07,Harbor Emergency Medicine,coastal,10,0,urban,0,0.74,0,44.576,35.929,3,117
+A104,P08,River Public Service Track,rural,12,1,urban,0,0.74,0,33.254,34.134,8,116
+A105,P01,Metro General Medicine,urban,14,0,coastal,1,0.22,0,49.324,48.156,4,64
+A105,P02,Lakeside Pediatrics,coastal,12,0,coastal,1,0.22,0,59.445,51.105,2,41
+A105,P03,Prairie Family Medicine,rural,12,1,coastal,1,0.22,0,43.867,56.558,6,30
+A105,P04,Capital Surgery,urban,10,0,coastal,1,0.22,0,50.721,48.931,3,64
+A105,P05,Valley Psychiatry,midwest,12,0,coastal,1,0.22,0,39.335,45.636,8,64
+A105,P06,Mountain Internal Medicine,rural,12,1,coastal,1,0.22,0,45.842,57.521,5,30
+A105,P07,Harbor Emergency Medicine,coastal,10,0,coastal,1,0.22,0,60.804,50.714,1,39
+A105,P08,River Public Service Track,rural,12,1,coastal,1,0.22,0,41.463,56.542,7,29
+A106,P01,Metro General Medicine,urban,14,0,rural,1,0.35,0,50.205,58.886,5,11
+A106,P02,Lakeside Pediatrics,coastal,12,0,rural,1,0.35,0,45.317,57.683,7,9
+A106,P03,Prairie Family Medicine,rural,12,1,rural,1,0.35,0,58.69,69.755,2,2
+A106,P04,Capital Surgery,urban,10,0,rural,1,0.35,0,51.899,59.059,4,11
+A106,P05,Valley Psychiatry,midwest,12,0,rural,1,0.35,0,39.402,55.163,8,11
+A106,P06,Mountain Internal Medicine,rural,12,1,rural,1,0.35,0,60.977,71.081,1,2
+A106,P07,Harbor Emergency Medicine,coastal,10,0,rural,1,0.35,0,46.114,56.571,6,10
+A106,P08,River Public Service Track,rural,12,1,rural,1,0.35,0,56.672,70.021,3,2
+A107,P01,Metro General Medicine,urban,14,0,midwest,0,0.48,0,50.17,46.328,3,76
+A107,P02,Lakeside Pediatrics,coastal,12,0,midwest,0,0.48,0,46.19,44.972,5,76
+A107,P03,Prairie Family Medicine,rural,12,1,midwest,0,0.48,0,36.43,41.521,7,94
+A107,P04,Capital Surgery,urban,10,0,midwest,0,0.48,0,52.16,47.756,2,70
+A107,P05,Valley Psychiatry,midwest,12,0,midwest,0,0.48,0,54.469,46.33,1,57
+A107,P06,Mountain Internal Medicine,rural,12,1,midwest,0,0.48,0,39.028,42.282,6,94
+A107,P07,Harbor Emergency Medicine,coastal,10,0,midwest,0,0.48,0,46.425,44.067,4,76
+A107,P08,River Public Service Track,rural,12,1,midwest,0,0.48,0,33.882,41.14,8,94
+A108,P01,Metro General Medicine,urban,14,0,urban,0,0.61,0,66.051,61.059,2,7
+A108,P02,Lakeside Pediatrics,coastal,12,0,urban,0,0.61,0,46.145,55.549,4,18
+A108,P03,Prairie Family Medicine,rural,12,1,urban,0,0.61,0,36.254,50.717,7,52
+A108,P04,Capital Surgery,urban,10,0,urban,0,0.61,0,68.337,61.885,1,6
+A108,P05,Valley Psychiatry,midwest,12,0,urban,0,0.61,0,40.453,52.785,5,23
+A108,P06,Mountain Internal Medicine,rural,12,1,urban,0,0.61,0,39.163,51.843,6,51
+A108,P07,Harbor Emergency Medicine,coastal,10,0,urban,0,0.61,0,46.736,53.924,3,21
+A108,P08,River Public Service Track,rural,12,1,urban,0,0.61,0,34.091,50.619,8,52
+A109,P01,Metro General Medicine,urban,14,0,coastal,0,0.74,0,47.915,35.671,4,117
+A109,P02,Lakeside Pediatrics,coastal,12,0,coastal,0,0.74,0,58.588,38.508,2,107
+A109,P03,Prairie Family Medicine,rural,12,1,coastal,0,0.74,0,34.936,33.485,7,118
+A109,P04,Capital Surgery,urban,10,0,coastal,0,0.74,0,49.286,35.181,3,119
+A109,P05,Valley Psychiatry,midwest,12,0,coastal,0,0.74,0,37.972,33.764,5,119
+A109,P06,Mountain Internal Medicine,rural,12,1,coastal,0,0.74,0,36.848,34.022,6,118
+A109,P07,Harbor Emergency Medicine,coastal,10,0,coastal,0,0.74,0,59.009,38.042,1,106
+A109,P08,River Public Service Track,rural,12,1,coastal,0,0.74,0,32.438,33.216,8,119
+A110,P01,Metro General Medicine,urban,14,0,rural,1,0.22,0,47.879,45.473,5,80
+A110,P02,Lakeside Pediatrics,coastal,12,0,rural,1,0.22,0,43.543,45.086,7,72
+A110,P03,Prairie Family Medicine,rural,12,1,rural,1,0.22,0,57.759,58.682,2,26
+A110,P04,Capital Surgery,urban,10,0,rural,1,0.22,0,49.547,46.238,4,81
+A110,P05,Valley Psychiatry,midwest,12,0,rural,1,0.22,0,38.039,43.29,8,76
+A110,P06,Mountain Internal Medicine,rural,12,1,rural,1,0.22,0,59.983,59.583,1,25
+A110,P07,Harbor Emergency Medicine,coastal,10,0,rural,1,0.22,0,44.319,43.899,6,78
+A110,P08,River Public Service Track,rural,12,1,rural,1,0.22,0,55.647,58.695,3,24
+A111,P01,Metro General Medicine,urban,14,0,midwest,1,0.35,1,48.761,54.204,3,31
+A111,P02,Lakeside Pediatrics,coastal,12,0,midwest,1,0.35,1,44.416,52.735,6,29
+A111,P03,Prairie Family Medicine,rural,12,1,midwest,1,0.35,1,43.499,62.807,7,14
+A111,P04,Capital Surgery,urban,10,0,midwest,1,0.35,1,50.725,54.367,2,33
+A111,P05,Valley Psychiatry,midwest,12,0,midwest,1,0.35,1,54.023,55.746,1,10
+A111,P06,Mountain Internal Medicine,rural,12,1,midwest,1,0.35,1,46.035,63.144,4,14
+A111,P07,Harbor Emergency Medicine,coastal,10,0,midwest,1,0.35,1,45.547,52.684,5,27
+A111,P08,River Public Service Track,rural,12,1,midwest,1,0.35,1,41.773,62.175,8,16
+A112,P01,Metro General Medicine,urban,14,0,urban,0,0.48,1,64.642,45.646,2,79
+A112,P02,Lakeside Pediatrics,coastal,12,0,urban,0,0.48,1,45.288,40.952,4,93
+A112,P03,Prairie Family Medicine,rural,12,1,urban,0,0.48,1,36.239,37.644,7,107
+A112,P04,Capital Surgery,urban,10,0,urban,0,0.48,1,65.986,47.064,1,75
+A112,P05,Valley Psychiatry,midwest,12,0,urban,0,0.48,1,39.09,38.912,5,96
+A112,P06,Mountain Internal Medicine,rural,12,1,urban,0,0.48,1,38.17,38.344,6,107
+A112,P07,Harbor Emergency Medicine,coastal,10,0,urban,0,0.48,1,45.857,40.181,3,93
+A112,P08,River Public Service Track,rural,12,1,urban,0,0.48,1,33.983,37.294,8,106
+A113,P01,Metro General Medicine,urban,14,0,coastal,0,0.61,0,50.524,54.376,4,30
+A113,P02,Lakeside Pediatrics,coastal,12,0,coastal,0,0.61,0,60.244,56.601,2,14
+A113,P03,Prairie Family Medicine,rural,12,1,coastal,0,0.61,0,36.063,49.769,7,57
+A113,P04,Capital Surgery,urban,10,0,coastal,0,0.61,0,52.163,55.192,3,32
+A113,P05,Valley Psychiatry,midwest,12,0,coastal,0,0.61,0,40.074,50.439,5,37
+A113,P06,Mountain Internal Medicine,rural,12,1,coastal,0,0.61,0,38.305,50.834,6,58
+A113,P07,Harbor Emergency Medicine,coastal,10,0,coastal,0,0.61,0,61.168,56.037,1,13
+A113,P08,River Public Service Track,rural,12,1,coastal,0,0.61,0,34.192,48.773,8,62
+A114,P01,Metro General Medicine,urban,14,0,rural,0,0.74,0,50.488,42.747,4,89
+A114,P02,Lakeside Pediatrics,coastal,12,0,rural,0,0.74,0,46.116,40.819,7,96
+A114,P03,Prairie Family Medicine,rural,12,1,rural,0,0.74,0,51.803,40.606,3,99
+A114,P04,Capital Surgery,urban,10,0,rural,0,0.74,0,52.424,42.961,2,90
+A114,P05,Valley Psychiatry,midwest,12,0,rural,0,0.74,0,40.141,38.534,8,99
+A114,P06,Mountain Internal Medicine,rural,12,1,rural,0,0.74,0,54.357,42.034,1,97
+A114,P07,Harbor Emergency Medicine,coastal,10,0,rural,0,0.74,0,46.479,39.534,6,98
+A114,P08,River Public Service Track,rural,12,1,rural,0,0.74,0,49.401,39.892,5,100
+A115,P01,Metro General Medicine,urban,14,0,midwest,1,0.22,0,47.352,42.791,3,87
+A115,P02,Lakeside Pediatrics,coastal,12,0,midwest,1,0.22,0,43.558,42.138,6,88
+A115,P03,Prairie Family Medicine,rural,12,1,midwest,1,0.22,0,42.568,53.734,7,37
+A115,P04,Capital Surgery,urban,10,0,midwest,1,0.22,0,49.29,43.546,2,85
+A115,P05,Valley Psychiatry,midwest,12,0,midwest,1,0.22,0,52.66,45.873,1,61
+A115,P06,Mountain Internal Medicine,rural,12,1,midwest,1,0.22,0,45.042,53.645,4,41
+A115,P07,Harbor Emergency Medicine,coastal,10,0,midwest,1,0.22,0,43.752,42.012,5,87
+A115,P08,River Public Service Track,rural,12,1,midwest,1,0.22,0,40.748,52.849,8,40
+A116,P01,Metro General Medicine,urban,14,0,urban,1,0.35,0,63.233,57.521,2,15
+A116,P02,Lakeside Pediatrics,coastal,12,0,urban,1,0.35,0,43.514,52.715,5,30
+A116,P03,Prairie Family Medicine,rural,12,1,urban,1,0.35,0,43.308,62.93,6,13
+A116,P04,Capital Surgery,urban,10,0,urban,1,0.35,0,64.551,57.674,1,16
+A116,P05,Valley Psychiatry,midwest,12,0,urban,1,0.35,0,38.644,51.4,8,33
+A116,P06,Mountain Internal Medicine,rural,12,1,urban,1,0.35,0,45.177,63.206,3,13
+A116,P07,Harbor Emergency Medicine,coastal,10,0,urban,1,0.35,0,44.979,51.869,4,32
+A116,P08,River Public Service Track,rural,12,1,urban,1,0.35,0,40.958,62.328,7,14
+A117,P01,Metro General Medicine,urban,14,0,coastal,0,0.48,0,49.114,40.963,4,101
+A117,P02,Lakeside Pediatrics,coastal,12,0,coastal,0,0.48,0,59.386,44.004,2,81
+A117,P03,Prairie Family Medicine,rural,12,1,coastal,0,0.48,0,35.132,37.767,7,106
+A117,P04,Capital Surgery,urban,10,0,coastal,0,0.48,0,50.729,41.443,3,102
+A117,P05,Valley Psychiatry,midwest,12,0,coastal,0,0.48,0,38.711,38.566,5,98
+A117,P06,Mountain Internal Medicine,rural,12,1,coastal,0,0.48,0,37.312,38.406,6,106
+A117,P07,Harbor Emergency Medicine,coastal,10,0,coastal,0,0.48,0,60.29,43.365,1,81
+A117,P08,River Public Service Track,rural,12,1,coastal,0,0.48,0,33.167,37.448,8,105
+A118,P01,Metro General Medicine,urban,14,0,rural,0,0.61,0,49.079,51.694,4,44
+A118,P02,Lakeside Pediatrics,coastal,12,0,rural,0,0.61,0,45.259,50.582,7,45
+A118,P03,Prairie Family Medicine,rural,12,1,rural,0,0.61,0,50.872,51.893,3,48
+A118,P04,Capital Surgery,urban,10,0,rural,0,0.61,0,50.989,52.5,2,45
+A118,P05,Valley Psychiatry,midwest,12,0,rural,0,0.61,0,38.778,49.021,8,42
+A118,P06,Mountain Internal Medicine,rural,12,1,rural,0,0.61,0,53.363,52.896,1,46
+A118,P07,Harbor Emergency Medicine,coastal,10,0,rural,0,0.61,0,45.601,50.15,6,42
+A118,P08,River Public Service Track,rural,12,1,rural,0,0.61,0,48.376,51.855,5,45
+A119,P01,Metro General Medicine,urban,14,0,midwest,0,0.74,0,49.961,40.064,3,107
+A119,P02,Lakeside Pediatrics,coastal,12,0,midwest,0,0.74,0,45.214,38.8,5,104
+A119,P03,Prairie Family Medicine,rural,12,1,midwest,0,0.74,0,35.695,34.729,7,114
+A119,P04,Capital Surgery,urban,10,0,midwest,0,0.74,0,52.167,40.268,2,109
+A119,P05,Valley Psychiatry,midwest,12,0,midwest,0,0.74,0,54.762,40.188,1,89
+A119,P06,Mountain Internal Medicine,rural,12,1,midwest,0,0.74,0,38.498,36.096,6,113
+A119,P07,Harbor Emergency Medicine,coastal,10,0,midwest,0,0.74,0,45.911,37.647,4,109
+A119,P08,River Public Service Track,rural,12,1,midwest,0,0.74,0,33.585,34.975,8,114
+A120,P01,Metro General Medicine,urban,14,0,urban,1,0.22,0,65.842,53.866,2,34
+A120,P02,Lakeside Pediatrics,coastal,12,0,urban,1,0.22,0,46.087,48.449,5,59
+A120,P03,Prairie Family Medicine,rural,12,1,urban,1,0.22,0,44.435,56.855,6,29
+A120,P04,Capital Surgery,urban,10,0,urban,1,0.22,0,67.428,55.325,1,30
+A120,P05,Valley Psychiatry,midwest,12,0,urban,1,0.22,0,39.829,45.715,8,63
+A120,P06,Mountain Internal Medicine,rural,12,1,urban,1,0.22,0,46.633,57.657,3,29
+A120,P07,Harbor Emergency Medicine,coastal,10,0,urban,1,0.22,0,46.222,47.503,4,58
+A120,P08,River Public Service Track,rural,12,1,urban,1,0.22,0,41.795,56.454,7,30

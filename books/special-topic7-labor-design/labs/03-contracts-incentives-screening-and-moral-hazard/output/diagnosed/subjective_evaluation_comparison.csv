@@ -1,0 +1,3 @@
+evaluation_environment,cases,mean_influence_activity_index,mean_objective_output_index,mean_subjective_rating,mean_promotion_probability
+unknown_or_rotating_evaluator,40,0.2016,84.973,97.3898,0.7739
+known_evaluator,40,0.3844,82.5848,99.3618,0.9423

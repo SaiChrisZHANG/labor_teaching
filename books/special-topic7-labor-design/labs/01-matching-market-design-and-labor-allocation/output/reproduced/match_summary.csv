@@ -1,0 +1,3 @@
+scenario,matched_applicants,unfilled_slots,blocking_pairs,mean_applicant_rank,mean_program_priority_rank,service_applicant_rural_match_rate,mean_preference_score
+centralized_deferred_acceptance,94,0,0,2.468,33.596,0.542,56.005
+decentralized_exploding_offers,94,0,77,2.489,36.117,0.479,54.691

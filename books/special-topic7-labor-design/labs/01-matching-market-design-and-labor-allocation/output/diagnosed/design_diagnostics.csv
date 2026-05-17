@@ -1,0 +1,6 @@
+diagnostic_margin,centralized_value,decentralized_value,design_lesson,data_need
+stability_pressure,0,77,Blocking pairs diagnose whether workers and programs have mutual incentives to bypass the mechanism.,"preferences, priorities, capacities, and final matches"
+congestion_and_timing,2.468,2.489,Exploding offers can lock applicants into worse-ranked assignments before later information arrives.,"offer timing, acceptance deadlines, rank data, and rejected offers"
+program_priority_fit,33.596,36.117,A rule can improve applicant outcomes while changing how programs fill priority-ranked slots.,"program priorities, applicant attributes, capacities, and match outcomes"
+service_priority_placement,0.542,0.479,Fairness and staffing objectives require outcome measures beyond aggregate match quality.,"service commitments, location assignments, staffing needs, and post-match retention"
+welfare_beyond_stability,56.005,54.691,"Stability is an allocation property, not a complete welfare measure.","rankings, wages, career outcomes, location preferences, and worker welfare measures"

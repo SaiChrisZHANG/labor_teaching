@@ -1,0 +1,152 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs}
+
+\title{Recruiting, Congestion, Timing, And Unraveling}
+\subtitle{Process Frictions Inside Decentralized Hiring}
+\author{Special Topic 7: Labor Market Design, Contracting, and Mechanism Design -- Week 2}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Central question}
+\begin{itemize}
+    \item Why do decentralized hiring markets often move too early, too fast, or too chaotically?
+    \item The week opens the black box between vacancy posting and final hire.
+    \item The labor objects are applications, interviews, wages, standards, offers, deadlines, acceptances, vacancy yields, and match quality.
+    \item The research standard is translation: process friction $\rightarrow$ observed margin $\rightarrow$ data $\rightarrow$ counterfactual $\rightarrow$ welfare.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Recruiting frictions versus fundamentals}
+\begin{itemize}
+    \item Fundamentals: worker skill, firm productivity, job amenities, location preferences, wage capacity.
+    \item Recruiting process: posting design, wage disclosure, application costs, interview capacity, screening, offer timing, and deadlines.
+    \item A bad final match can reflect weak fundamentals, but it can also reflect a poorly organized recruiting process.
+    \item Key diagnostic: what margin failed before the match was observed?
+    \item The design question is not ``who is good?'' only; it is also ``who gets seen, interviewed, compared, and allowed to wait?''
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Congestion, vacancy yields, and within-vacancy margins}
+\small
+\begin{tabular}{p{0.25\linewidth} p{0.34\linewidth} p{0.29\linewidth}}
+\toprule
+Margin & What changes inside a vacancy & Empirical signal \\
+\midrule
+Applicant pool & volume and composition & applications per posting, fit measures \\
+Interview capacity & scarce evaluation slots & interview-to-application rate \\
+Hiring standards & selectivity conditional on pool & offers per interview, unfilled jobs \\
+Recruiting intensity & effort, wage, advertising, follow-up & vacancy duration, fill probability \\
+Offer timing & deadlines and response windows & acceptance speed, yield loss \\
+\bottomrule
+\end{tabular}
+\vspace{0.25cm}
+\begin{itemize}
+    \item Vacancy counts are not enough; vacancy-to-hire conversion is an equilibrium object.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{A simple recruiting funnel}
+\begin{align*}
+  A_v &= \text{applications to vacancy } v, \\
+  I_v &= \text{interviews}, \\
+  O_v &= \text{offers}, \\
+  H_v &= \text{accepted hires}.
+\end{align*}
+\[
+  \text{vacancy yield}_v = \frac{H_v}{A_v},
+  \qquad
+  \text{interview yield}_v = \frac{I_v}{A_v},
+  \qquad
+  \text{offer yield}_v = \frac{O_v}{I_v}.
+\]
+\begin{itemize}
+    \item Different interventions move different ratios.
+    \item A good empirical design says which ratio is the mechanism.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Exploding offers, early contracting, and unraveling}
+\begin{itemize}
+    \item Firms make early offers because waiting risks losing candidates.
+    \item Workers accept early because waiting risks having no offer later.
+    \item Once some participants move early, others have incentives to move earlier too.
+    \item The market loses thickness: choices are made before all participants and information arrive.
+    \item Exploding offers shift risk to workers and can substitute deadline pressure for match quality.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Professional labor-market evidence}
+\small
+\begin{tabular}{p{0.25\linewidth} p{0.34\linewidth} p{0.29\linewidth}}
+\toprule
+Market & Timing problem & Labor stake \\
+\midrule
+Gastroenterology fellowships & market with and without centralized match & mobility, wages, hiring practices \\
+Clinical psychology & turnaround time and bottlenecks & interviews, early contracting, placement \\
+Law firms and clerkships & informal norms and exploding offers & access, prestige, career starts \\
+Residency transitions & early versus single match design & training slots and staffing \\
+\bottomrule
+\end{tabular}
+\vspace{0.2cm}
+\begin{itemize}
+    \item These cases make timing rules visible as labor-market institutions.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Modern vacancy, application, and job-post data}
+\begin{itemize}
+    \item Vacancy records: posting dates, wages, recruiter effort, duration, and closing outcomes.
+    \item Job boards: applications, applicant characteristics, queue position, platform ranking, and posting content.
+    \item Employer logs: screening, callbacks, interviews, offers, acceptances, and hires.
+    \item Policy variation: wage transparency, application caps, preference signals, timing rules, or platform experiments.
+    \item Linked outcomes: starting wages, retention, mobility, productivity, and worker welfare.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Theory-to-empirical bridge}
+\small
+\begin{enumerate}
+    \item Frictive object: congestion, wage opacity, interview bottleneck, unraveling, or low vacancy yield.
+    \item Observed margin: applications, interview rate, offer timing, acceptance timing, duration, or hires.
+    \item Data: vacancy, application, interview, offer, wage, and post-hire outcomes.
+    \item Counterfactual: centralized match, timing rule, offer-hold period, wage disclosure, application cap, or queue design.
+    \item Identification: regime change, staggered policy, experiment, platform rule, recruiter shock, or structural model.
+\end{enumerate}
+\vspace{0.1cm}
+\begin{itemize}
+    \item Keep equilibrium response visible: workers reallocate applications and firms adjust standards.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Research Lab design}
+\begin{itemize}
+    \item Primary anchor: recruitment policies, job-filling rates, and matching efficiency.
+    \item Challenge anchor: gastroenterology and timing/unraveling with and without centralized clearing.
+    \item Reproduce: create vacancy-funnel facts about recruiting intensity, wage transparency, interview capacity, and yield.
+    \item Diagnose: decompose low yield into applicant pool, screening, interview bottleneck, standards, and offer timing.
+    \item Transfer: redesign the workflow for platforms, wage disclosure, clerkships, fellowships, or public-service recruiting.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item Many matching failures are recruiting-process failures.
+    \item Within-vacancy margins are central: applicant pools, interviews, standards, intensity, wage information, timing, and yield.
+    \item Unraveling is a labor-market problem because it changes risk, information, access, mobility, and career starts.
+    \item The frontier contribution is empirical: observe the process, name the margin, and evaluate a feasible design counterfactual.
+\end{itemize}
+\end{frame}
+
+\end{document}

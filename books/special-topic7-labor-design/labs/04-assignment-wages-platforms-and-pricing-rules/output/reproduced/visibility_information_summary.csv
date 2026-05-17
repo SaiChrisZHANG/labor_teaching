@@ -1,0 +1,4 @@
+experience_group,public_signal_treatment,workers,mean_visibility_score,mean_employer_belief_index,mean_invitations,mean_applications_sent,hire_rate,mean_accepted_hourly_wage,mean_future_jobs,mean_earnings_risk_index
+inexperienced,0,32,0.2192,0.5121,4.0,8.1875,0.125,20.7006,0.7812,0.6907
+inexperienced,1,64,0.424,0.6049,5.9219,10.1406,0.6094,23.0216,5.1094,0.5256
+experienced,0,48,0.2062,0.5789,4.1042,8.1875,0.25,20.8858,1.6042,0.6842
