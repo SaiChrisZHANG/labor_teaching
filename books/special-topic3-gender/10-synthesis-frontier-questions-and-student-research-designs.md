@@ -27,6 +27,10 @@ By the end of Week 10, students should be able to:
 6. identify frontier contribution margins in firms, care, policy, safety, identity, measurement, and interdisciplinary domains;
 7. draft a short research memo that turns a topic into a feasible student project.
 
+## Opening Orientation
+
+This module orients the economic question, the labor-market object, and the empirical design issues before the layered sections begin.
+
 ## Bridge
 
 The course began by defining gender as a labor-economics object: not only wages, but also employment, hours, care, search, occupations, firms, authority, safety, mobility, policy incidence, and welfare. It then built a cumulative sequence. Household allocation and child penalties made lifecycle timing central [@klevenLandaisSogaard2019; @cortesPan2023]. Education and occupational sorting showed how early expectations and constraints can shape later careers. Firm-side weeks studied hiring, promotion, pay-setting, networks, evaluation, and authority [@cardCardosoKline2016; @cullenPerezTruglia2023]. Norms and institutions made beliefs, sanctions, bargaining, and law part of the labor mechanism [@bertrandKamenicaPan2015; @jayachandran2021social]. Policy weeks treated childcare, leave, tax rules, quotas, transparency, equal-pay law, and protection as interventions with incidence across workers, firms, and households [@olivettiPetrongolo2017; @bakerHalberstamKroftMasMessacar2023; @blundellDuchiniSimionTurrell2025]. Safety, violence, mobility, and reproductive autonomy expanded the feasible set and the welfare object [@folkeRickne2022]. Comparative and frontier-methods weeks asked which mechanisms travel and which data can actually see the relevant margin.
@@ -284,6 +288,6 @@ The Week 10 lab lives at `labs/10-synthesis-frontier-questions-and-student-resea
 
 The slide deck lives at `slides/week10/10-synthesis-frontier-questions-and-student-research-designs.tex`. The deck should not duplicate the chapter. It should show the course recap as a research map, locate where the literature is now, isolate open debates and gaps, teach the research-design template, explain portability and broad-interest framing, map interdisciplinary directions, and end by moving students into their own research agendas.
 
-## Closing Bridge
+## Bridge Forward
 
 The course has done its job if students stop asking only whether a gender gap exists and start asking what labor mechanism produced it, what comparison identifies it, whose welfare changes, and why the answer teaches labor economics. That is the bridge from a course module to a research agenda.

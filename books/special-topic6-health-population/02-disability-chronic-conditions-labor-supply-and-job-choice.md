@@ -13,7 +13,7 @@ By the end of Week 2, students should be able to:
 
 The central question is this: how do disability and chronic conditions reshape labor-force attachment, hours, occupation, accommodations, and exit?
 
-## Opening Orientation / Why This Week Matters
+## Opening Orientation
 
 Disability and chronic conditions are labor-market constraints that unfold over time. A new limitation can immediately reduce stamina, task capacity, commuting tolerance, or schedule feasibility. It can also trigger slower adjustments: workplace accommodation, occupational downgrading, hours reductions, insurance and benefit calculations, treatment investments, employer reassignment, or eventual exit from employment. The same condition can therefore produce a small short-run employment effect but a large long-run earnings, job-quality, or welfare effect.
 

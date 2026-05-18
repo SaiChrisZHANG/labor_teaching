@@ -5,7 +5,7 @@ bibliography:
 
 # Search, Matching, Turnover, and Unemployment
 
-## Learning objectives
+## Learning Objectives
 
 By the end of Week 4, students should be able to:
 
@@ -17,7 +17,18 @@ By the end of Week 4, students should be able to:
 6. distinguish observed duration dependence from causal unemployment effects and dynamic selection;
 7. evaluate search evidence by naming the identifying variation, the unit of observation, the observed margin, and the most important unobserved object.
 
+## Opening Orientation
+
 The economic question for Week 4 is the first major market-interaction question in Labor II: once firms must search for workers and workers must search for jobs, how are hiring, separations, turnover, job-to-job mobility, and unemployment jointly determined?
+
+:::{admonition} Core materials
+:class: tip
+- search frictions jointly generate unemployment, vacancies, turnover, and dispersion
+- worker flows, job flows, separations, and job-to-job mobility are different objects
+- matching functions and flow accounting organize hazards rather than only stocks
+- duration, scarring, and job ladders need dynamic interpretation
+- empirical search designs must name the observed margin and the hidden friction left offstage
+:::
 
 ## Bridge
 
@@ -36,20 +47,6 @@ Search and matching is the bridge from the inside of the firm to market-wide lab
 ```
 
 Figure {numref}`fig-lii-w4-course-map` and Table {numref}`tbl:search-objects-week4` should anchor the opening discussion. The point is not to memorize a taxonomy. The point is to see that different data and different theories speak to different flow objects.
-
-:::{admonition} Core Material
-:class: tip
-- search frictions jointly generate unemployment, vacancies, turnover, and dispersion
-- worker flows, job flows, separations, and job-to-job mobility are different objects
-- matching functions and flow accounting organize hazards rather than only stocks
-- duration, scarring, and job ladders need dynamic interpretation
-- empirical search designs must name the observed margin and the hidden friction left offstage
-:::
-
-:::{admonition} Optional Extension Block
-:class: note
-- the Research Lab extension block below makes frontier topics visible: selective hiring, beliefs, digital search traces, and mismatch
-:::
 
 ## Field Core
 
@@ -217,7 +214,7 @@ Week 4 only works if the distinctions stay sharp.
 6. Observed duration dependence versus causal duration effects versus dynamic selection: a downward hazard over a spell can reflect employer screening or causal damage, but it can also reflect heterogeneity in who remains unemployed longer.
 7. Reduced-form hazard evidence versus structural search interpretation: observed exit rates and callback rates discipline theory, but they do not by themselves identify all search primitives or equilibrium spillovers.
 
-## Reading ladder
+## Reading Ladder And References
 
 ### Core theory
 
@@ -242,7 +239,7 @@ Week 4 only works if the distinctions stay sharp.
 
 - [@huckfeldt2022] for recession scarring, selective hiring, and longer-run consequences of interrupted employment.
 
-## Exercises / discussion prompts
+## Exercises And Discussion Prompts
 
 1. Use Equations {eq}`eq-lii-w4-matching`, {eq}`eq-lii-w4-hazards`, and {eq}`eq-lii-w4-steady-state` to explain why unemployment can remain high even when vacancies are rising.
 2. Why is a high separation rate not the same as high job destruction? Give one example where worker turnover is high but net employment is roughly stable.
@@ -251,10 +248,14 @@ Week 4 only works if the distinctions stay sharp.
 5. How would you distinguish causal unemployment scarring from dynamic selection among workers who remain unemployed longer?
 6. Pick one design from Table {numref}`tbl:identification-evidence-week4` and propose a transfer exercise using public CPS-style flows, JOLTS-style vacancy data, or a small synthetic job-ladder panel.
 
-## Reproducibility or code lab note
+## Reproducibility And Code Lab Note
 
 The Week 4 lab follows the standard `Reproduce -> Diagnose -> Transfer` structure. The bounded reproduction path uses a local synthetic seeker-by-month panel inspired by [@hallSchulhoferWohl2018] so students can measure a U-to-E hazard and decompose changes in the aggregate job-finding rate into composition and within-type components without confidential microdata. The diagnose step forces them to name the transition margin, hazard object, identifying variation, and the limitations of interpreting composition-adjusted flows as deep matching efficiency. The transfer step then uses a small synthetic job-ladder dataset anchored to [@haltiwangerHyattKahnMcEntarfer2018] so students can compare E-to-E upgrading in loose versus tight markets, while [@huckfeldt2022] serves as the optional extension on scarring and selective hiring. The local handout lives at [labs/04-search-matching-turnover-and-unemployment/lab.md](labs/04-search-matching-turnover-and-unemployment/lab.md).
 
-## Slide companion note
+## Slide Companion Note
 
 The slide deck at [slides/week4/04-search-matching-turnover-and-unemployment.tex](slides/week4/04-search-matching-turnover-and-unemployment.tex) should remain tighter than the chapter: central question and course repositioning, the Week 3 to Week 4 bridge, why search frictions matter, the matching function and worker-side versus vacancy-side hazards, flow unemployment and steady-state accounting, separations and churning, job-to-job transitions and job ladders, unemployment duration and scarring, empirical designs, the optional frontier extension, and the bridge to Week 5 wage-setting.
+
+## Bridge Forward
+
+Use this closing bridge to carry the module's labor object, mechanism, and evidence into the next course step or research-design exercise.

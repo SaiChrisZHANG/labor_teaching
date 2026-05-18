@@ -5,7 +5,7 @@ bibliography:
 
 # Behavioral Frictions and an Introduction to Behavioral Labor
 
-## Learning objectives
+## Learning Objectives
 
 By the end of Week 12, students should be able to:
 
@@ -19,7 +19,17 @@ By the end of Week 12, students should be able to:
 8. connect Week 12 back to [Week 3](03-dynamic-labor-supply.md), [Week 7](07-job-amenities-compensating-differentials.md), and [Week 11](11-public-policy-targeting-workers.md);
 9. explain why this week is a bridge from Labor I into a full Behavioral Labor field course.
 
+## Opening Orientation
+
 The economic question for the week is cumulative. Labor I has spent the semester building a worker-side benchmark for hours, effort, schooling, job choice, household allocation, mobility, and policy response. Week 12 asks how those objects change when workers or organizations systematically depart from the fully rational benchmark through nonstandard preferences, nonstandard beliefs, or nonstandard decision-making [@dellavigna2009; @dellavigna2018]. The goal is not to teach "biases." The goal is to teach a disciplined map for when behavioral departures create distinctive labor predictions, distinctive empirical designs, and distinctive welfare problems.
+
+:::{admonition} Core materials
+:class: tip
+- begin from a rational labor benchmark and ask where the wedge enters;
+- map mechanisms into labor objects, not into generic behavioral vocabulary;
+- distinguish worker behavior from employer, manager, and policymaker response;
+- separate positive response from normative welfare claims.
+:::
 
 ## Bridge
 
@@ -37,13 +47,6 @@ DellaVigna's framework becomes labor-economics content only when it is mapped in
 
 Figure {numref}`fig-week12-taxonomy` and Table {numref}`tbl:week12-taxonomy-map` provide the week's conceptual map. They discipline the lecture in two ways. First, they keep the focus on labor objects rather than on generic consumer anomalies. Second, they remind us that behavioral labor is strongest when it generates distinctive comparative statics about work, search, incentives, and contract design, not when it merely rationalizes residual variation after the fact.
 
-:::{admonition} Core Material
-:class: tip
-- begin from a rational labor benchmark and ask where the wedge enters;
-- map mechanisms into labor objects, not into generic behavioral vocabulary;
-- distinguish worker behavior from employer, manager, and policymaker response;
-- separate positive response from normative welfare claims.
-:::
 
 :::{admonition} Optional Extension Block
 :class: note
@@ -245,7 +248,7 @@ Behavioral interpretation from quasi-experiments is strongest when a reform chan
 
 DellaVigna's central methodological argument is that structural behavioral work is especially valuable when reduced-form evidence alone cannot distinguish naivete from sophistication, one wedge from another, or positive response from normative welfare [@dellavigna2018]. In labor, that means structural estimation is often most informative for dynamic search, commitment, contract design, and welfare analysis, where heterogeneity and counterfactual policy design are first-order concerns.
 
-## Reading ladder
+## Reading Ladder And References
 
 ### Framework and synthesis
 
@@ -267,7 +270,7 @@ DellaVigna's central methodological argument is that structural behavioral work 
 - K{\H{o}}szegi and Rabin on reference-dependent preferences [@koszegiRabin2006].
 - Abeler, Huffman, and Raymond on incentive opacity and effort provision [@abelerHuffmanRaymond2025].
 
-## Exercises / discussion prompts
+## Exercises And Discussion Prompts
 
 1. In Equation {eq}`eq-week12-benchmark`, which assumptions define the rational worker benchmark?
 2. In Equation {eq}`eq-week12-wedge`, how would you represent a pure belief distortion versus a pure attention distortion?
@@ -281,10 +284,14 @@ DellaVigna's central methodological argument is that structural behavioral work 
 10. How would you explain the difference between a worker-side behavioral friction and an employer-side rational response to a first-year PhD student?
 11. Which parts of Week 12 belong inside Labor I, and which parts naturally belong in a full Behavioral Labor course?
 
-## Reproducibility or code lab note
+## Reproducibility And Code Lab Note
 
 The Week 12 lab uses a bounded local workflow rather than proprietary employer data. Students first reproduce a synthetic incentive-complexity factbook in the spirit of [@abelerHuffmanRaymond2025], then diagnose the mechanism as incentive opacity rather than low underlying responsiveness, and finally transfer the workflow to a synthetic gift-exchange setting in the spirit of [@dellaVignaListMalmendierRao2022]. The student-facing workflow is documented in [labs/12-behavioral-frictions-introduction-to-behavioral-labor/lab.md](labs/12-behavioral-frictions-introduction-to-behavioral-labor/lab.md).
 
-## Slide companion note
+## Slide Companion Note
 
 The Week 12 deck should open by explaining why this is an introduction to Behavioral Labor rather than a list of biases, then move through the DellaVigna taxonomy, the benchmark labor-choice object, preference, belief, and decision-making wedges, employer and policy response, the empirical design toolkit, welfare interpretation, and a final field map that bridges Labor I into a full Behavioral Labor course. The canonical source is [slides/week12/12-behavioral-frictions-introduction-to-behavioral-labor.tex](slides/week12/12-behavioral-frictions-introduction-to-behavioral-labor.tex).
+
+## Bridge Forward
+
+Use this closing bridge to carry the module's labor object, mechanism, and evidence into the next course step or research-design exercise.

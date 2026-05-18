@@ -30,7 +30,7 @@ By the end of the course, students should be able to:
 
 Technology, Innovation, and Labor is designed as a 6-week compact advanced special topic for PhD students and strong advanced MA students. It is suitable for a half-semester elective, intensive module, or graduate reading group. The course is reading-heavy and research-oriented: each week centers on one labor-market mechanism, one empirical design problem, and one frontier research margin.
 
-Future weekly chapters will follow the portfolio's special-topics structure: Bridge, Field Core, Research Lab, Methods Box, reading ladder, exercises or discussion prompts, reproducibility note, and slide companion note. Special-topics chapters should include a visible **Core points** box near the top; extension boxes are optional rather than a default requirement.
+Weekly chapters use the portfolio's special-topics structure: Bridge, Field Core, Research Lab, Methods Box, reading ladder, exercises or discussion prompts, reproducibility note, and slide companion note. Special-topics chapters include a visible **Core points** box near the top; extension boxes are optional rather than a default requirement.
 
 ## Weekly Sequence
 
@@ -41,7 +41,7 @@ Future weekly chapters will follow the portfolio's special-topics structure: Bri
 5. **[Technology, inequality, market structure, and labor-market institutions.](05-technology-inequality-market-structure-and-labor-market-institutions.md)** The course studies wage polarization, firm rents, labor share, market power, bargaining institutions, platform rules, and policy incidence.
 6. **[Synthesis, frontier questions, and student research designs.](06-synthesis-frontier-questions-and-student-research-designs.md)** The final week converts the sequence into research designs using task measures, vacancy data, patents, firm adoption, worker panels, experiments, and exposure designs.
 
-## Internal Roadmap
+## Course Map
 
 - **Foundational:** Week 1 defines the task-based vocabulary and the course's demand, supply, and equilibrium map.
 - **Demand-side:** Week 2 studies automation, AI, and labor demand shifts.

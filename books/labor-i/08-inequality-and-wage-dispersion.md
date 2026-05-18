@@ -5,7 +5,7 @@ bibliography:
 
 # Inequality and Wage Dispersion
 
-## Learning objectives
+## Learning Objectives
 
 By the end of Week 8, students should be able to:
 
@@ -18,7 +18,17 @@ By the end of Week 8, students should be able to:
 7. explain why Week 7's amenity logic implies that wage inequality and total labor-market value inequality are not the same object;
 8. see why Week 9 discrimination and segmentation require this distributional architecture rather than replacing it.
 
+## Opening Orientation
+
 The economic question for the week is deliberately broader than in earlier modules: once Weeks 5 and 6 have explained how wages and households convert market opportunities into realized outcomes, and Week 7 has shown that wages do not exhaust job value, how should labor economists measure inequality and organize the mechanisms that shape the distribution of labor-market outcomes [@autorKatzKearney2008; @cardCardosoHeiningKline2018; @songPriceGuvenenBloomVonWachter2019]?
+
+:::{admonition} Core materials
+:class: tip
+- inequality is multi-object, multi-mechanism, and multi-level
+- upper-tail and lower-tail movements need not have the same cause
+- descriptive decompositions are not causal designs, but they are strong theory discipline
+- firm heterogeneity and amenities change how wage dispersion should be interpreted
+:::
 
 ## Bridge
 
@@ -26,13 +36,6 @@ Week 5 put wage determination at the center of the worker side of labor economic
 
 That move matters because inequality is not one number attached to one outcome. Hourly wages, annual earnings, hours, employment, total compensation, and household resources can all tell different stories. A rise in annual-earnings inequality may come from wider hourly wage dispersion, weaker hours for the lower tail, more nonemployment, or all three. A rise in wage inequality may overstate or understate welfare inequality if desirable amenities sort with high-pay jobs. Before students ask why inequality changed, they need to know which distribution they are studying and which margin is actually moving [@lemieux2006; @autorKatzKearney2008].
 
-:::{admonition} Core Material
-:class: tip
-- inequality is multi-object, multi-mechanism, and multi-level
-- upper-tail and lower-tail movements need not have the same cause
-- descriptive decompositions are not causal designs, but they are strong theory discipline
-- firm heterogeneity and amenities change how wage dispersion should be interpreted
-:::
 
 :::{admonition} Optional Extension Block
 :class: note
@@ -201,7 +204,7 @@ Table {numref}`tbl:ineq-toolkit-map` is the summary tool for the week. Each meth
 
 Table {numref}`tbl:ineq-mechanism-map` is the parallel mechanism summary. It prevents the lecture from collapsing into either a one-mechanism story or an unstructured list of facts.
 
-## Reading ladder
+## Reading Ladder And References
 
 ### Bridge
 
@@ -224,7 +227,7 @@ Table {numref}`tbl:ineq-mechanism-map` is the parallel mechanism summary. It pre
 - Song, Price, Guvenen, Bloom, von Wachter on firming-up inequality through firms and rents [@songPriceGuvenenBloomVonWachter2019]
 - Haanwinckel as an optional frontier extension linking distributional mechanisms in a broader equilibrium frame [@haanwinckel2025]
 
-## Exercises / discussion prompts
+## Exercises And Discussion Prompts
 
 1. Use Equation {eq}`eq-week8-quantiles` to explain why a rise in {math}`p90-p50` does not imply the same change in {math}`p50-p10`.
 2. In Table {numref}`tbl:ineq-concepts-map`, which empirical object is best for a policy question about labor-force attachment, and which is best for a question about wage-setting? Why are they different?
@@ -236,10 +239,14 @@ Table {numref}`tbl:ineq-mechanism-map` is the parallel mechanism summary. It pre
 8. In Equation {eq}`eq-week8-job-value`, under what sorting pattern would total labor-market value inequality exceed wage inequality?
 9. Why does Week 8 have to come before Week 9 discrimination and segmentation if the class wants to interpret group gaps carefully?
 
-## Reproducibility or code lab note
+## Reproducibility And Code Lab Note
 
 The Week 8 lab follows the standard bounded `Reproduce -> Diagnose -> Transfer` path. Students first build a synthetic inequality factbook in the spirit of [@autorKatzKearney2008], then diagnose what percentile gaps, between-within decompositions, and residual inequality do and do not identify, and finally transfer the workflow to a synthetic worker-firm decomposition in the spirit of [@cardCardosoHeiningKline2018] and [@songPriceGuvenenBloomVonWachter2019]. The bounded workflow is documented in [labs/08-inequality-and-wage-dispersion/lab.md](labs/08-inequality-and-wage-dispersion/lab.md).
 
-## Slide companion note
+## Slide Companion Note
 
 The Week 8 deck should not reproduce the chapter verbatim. It should isolate the week's architecture: why the module is heavier than usual, how Weeks 5--7 feed into distributional analysis, which inequality objects matter, how percentile gaps differ from variance decompositions, why the lower tail and upper tail need not share a mechanism, what linked employer-employee data changed, and why Week 9 discrimination must be read against this broader inequality map. The canonical source is [slides/week8/08-inequality-and-wage-dispersion.tex](slides/week8/08-inequality-and-wage-dispersion.tex).
+
+## Bridge Forward
+
+Use this closing bridge to carry the module's labor object, mechanism, and evidence into the next course step or research-design exercise.

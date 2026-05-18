@@ -14,7 +14,7 @@ By the end of Week 5, students should be able to:
 
 The central question is this: how do disease, environmental exposure, and demographic structure reshape workers, firms, local labor markets, and aggregate adjustment?
 
-## Opening Orientation / Why This Week Matters
+## Opening Orientation
 
 Weeks 1 to 4 studied health as work capacity, disability, lifecycle allocation, and workplace mental-health constraints. Week 5 scales up. Infectious disease, pollution, heat, mortality shocks, fertility decline, and population aging can move entire workplaces, neighborhoods, local labor markets, sectors, and migration systems. The labor-economics question is not only whether exposure reduces work. It is who is exposed, who can adjust, whether the shock appears in wages or in hidden productivity and welfare losses, and whether the adjustment is temporary disruption, medium-run reallocation, or long-run institutional and distributional change.
 

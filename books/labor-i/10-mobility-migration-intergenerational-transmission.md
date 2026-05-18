@@ -5,7 +5,7 @@ bibliography:
 
 # Mobility, Migration, and Intergenerational Transmission
 
-## Learning objectives
+## Learning Objectives
 
 By the end of Week 10, students should be able to:
 
@@ -18,7 +18,17 @@ By the end of Week 10, students should be able to:
 7. connect place, firm, and occupational mobility to inequality persistence rather than treating them as separate topics;
 8. see why Week 11 worker-side policy is partly about relaxing mobility frictions rather than only changing static incentives.
 
+## Opening Orientation
+
 The economic question for the week is dynamic but still labor-economic at its core. Once Week 9 has shown that workers may enter segmented opportunity sets, Week 10 asks how workers move across employers, occupations, and places, how much those moves raise wages or job quality, and why labor-market position still persists so strongly across families [@jiaMolloySmithWozniak2023; @songPriceGuvenenBloomVonWachter2019; @chettyHendrenKlineSaezTurner2014].
+
+:::{admonition} Core materials
+:class: tip
+- mobility is multi-object: employer, occupation, place, and generation are different margins
+- linked data improved both measurement and identification
+- migration is an investment and selection problem, not only a geographic fact
+- intergenerational persistence is descriptive until a design or mechanism isolates why it occurs
+:::
 
 ## Bridge
 
@@ -28,13 +38,6 @@ This week matters because mobility has two opposing interpretations. In one inte
 
 Week 10 also bridges directly into Week 11. If workers do not move because credit, information, migration restrictions, or family background limit access to opportunity, then worker-side policy is not only about taxes and transfers. It is also about mobility margins: search assistance, moving support, migration access, training ladders, and place-sensitive policy design.
 
-:::{admonition} Core Material
-:class: tip
-- mobility is multi-object: employer, occupation, place, and generation are different margins
-- linked data improved both measurement and identification
-- migration is an investment and selection problem, not only a geographic fact
-- intergenerational persistence is descriptive until a design or mechanism isolates why it occurs
-:::
 
 :::{admonition} Optional Extension Block
 :class: note
@@ -224,7 +227,7 @@ Equations {eq}`eq-week10-transition`, {eq}`eq-week10-hazard`, and {eq}`eq-week10
 
 Equation {eq}`eq-week10-rank-rank` describes persistence. Equation {eq}`eq-week10-mediation` organizes potential channels. Equation {eq}`eq-week10-lottery` identifies the effect of relaxing one friction. Equation {eq}`eq-week10-exposure` identifies reduced-form responses to a reform with differential exposure. The field improves when students keep those objects separate rather than asking one estimator to answer every mobility question.
 
-## Reading ladder
+## Reading Ladder And References
 
 ### Bridge
 
@@ -252,7 +255,7 @@ Equation {eq}`eq-week10-rank-rank` describes persistence. Equation {eq}`eq-week1
 - Haeck and Laliberte on careers and intergenerational mobility [@haeckLaliberte2025]
 - Diamond on skill sorting across places [@diamond2016]
 
-## Exercises / discussion prompts
+## Exercises And Discussion Prompts
 
 1. Why is a transition matrix like Equation {eq}`eq-week10-transition` not a causal mobility estimate by itself?
 2. What labor-market question does the hazard object in Equation {eq}`eq-week10-hazard` answer that a transition matrix does not?
@@ -266,10 +269,14 @@ Equation {eq}`eq-week10-rank-rank` describes persistence. Equation {eq}`eq-week1
 10. How do Week 8 inequality and Week 9 discrimination change the way we should interpret Week 10 mobility evidence?
 11. Which worker-side policies in Week 11 would be most promising if mobility is mainly constrained by credit rather than by preferences?
 
-## Reproducibility or code lab note
+## Reproducibility And Code Lab Note
 
 The Week 10 lab uses a bounded local workflow rather than restricted employer-employee or administrative tax data. Students first reproduce lottery-based mobility effects from a synthetic dataset in the spirit of [@vanDoornikGomesSchoenherrSkrastins2024], then diagnose the identifying margin, and finally transfer the workflow to a migration-reform exposure design in the spirit of [@beerliRuffnerSiegenthalerPeri2021]. The student-facing workflow is documented in [labs/10-mobility-migration-intergenerational-transmission/lab.md](labs/10-mobility-migration-intergenerational-transmission/lab.md).
 
-## Slide companion note
+## Slide Companion Note
 
 The Week 10 deck should define mobility as a set of labor-market objects rather than as a single migration statistic. It should bridge directly from Week 9 segmentation, show transition, wage-growth, and rank-rank objects, explain Roy-style migration choice and moving frictions, isolate the logic of lottery and exposure designs, and end by making Week 11 policy look like the study of which frictions are relaxable. The canonical source is [slides/week10/10-mobility-migration-intergenerational-transmission.tex](slides/week10/10-mobility-migration-intergenerational-transmission.tex).
+
+## Bridge Forward
+
+Use this closing bridge to carry the module's labor object, mechanism, and evidence into the next course step or research-design exercise.

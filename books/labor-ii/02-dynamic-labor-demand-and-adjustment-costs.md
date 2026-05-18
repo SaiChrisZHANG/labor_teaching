@@ -5,7 +5,7 @@ bibliography:
 
 # Dynamic Labor Demand and Adjustment Costs
 
-## Learning objectives
+## Learning Objectives
 
 By the end of Week 2, students should be able to:
 
@@ -17,17 +17,11 @@ By the end of Week 2, students should be able to:
 6. interpret policy event studies and structural dynamic evidence without confusing timing responses with long-run effects;
 7. connect Week 2 forward to Week 3 on personnel choices inside the firm.
 
+## Opening Orientation
+
 The economic question for Week 2 is a direct continuation of Week 1: once the firm has a desired labor target, why does observed employment usually move toward that target gradually rather than instantly?
 
-## Bridge
-
-Week 1 derived the firm's static target. If wages, output demand, technology, or payroll taxes change, the firm has a new desired employment level. Week 2 asks why that destination does not instantly become the observed employment path. Hiring takes screening and onboarding. Firing can trigger legal, organizational, or morale costs. Reassigning workers, changing shifts, or expanding vacancies can be easier than changing core headcount right away [@nickell1986; @hamermesh1989].
-
-That makes the basic Week 2 distinction unavoidable: the static benchmark tells us where the firm would like to be, but dynamic labor demand studies how the firm moves from its inherited workforce to that new target. The observed path reflects state dependence, the availability of alternative margins, and the firm's expectations about whether the shock will persist.
-
-This week remains firmly inside the firm. It does not yet build a full search equilibrium, bargaining model, or monopsony framework. Those arrive later. The point here is narrower and foundational: before labor markets can be matched or bargained over, firms still face a dynamic employment problem. Week 3 will take that dynamic firm and ask how incentives, internal labor markets, and promotion structures reshape its personnel choices.
-
-:::{admonition} Core Material
+:::{admonition} Core materials
 :class: tip
 - target employment and actual employment are different objects once adjustment is costly
 - convex and nonconvex adjustment costs imply different dynamic patterns
@@ -36,10 +30,13 @@ This week remains firmly inside the firm. It does not yet build a full search eq
 - policy timing and incidence have to be interpreted dynamically rather than statically
 :::
 
-:::{admonition} Optional Extension Block
-:class: note
-- the Research Lab extension block below surfaces uncertainty, option value of waiting, and structural estimation as the main frontier directions
-:::
+## Bridge
+
+Week 1 derived the firm's static target. If wages, output demand, technology, or payroll taxes change, the firm has a new desired employment level. Week 2 asks why that destination does not instantly become the observed employment path. Hiring takes screening and onboarding. Firing can trigger legal, organizational, or morale costs. Reassigning workers, changing shifts, or expanding vacancies can be easier than changing core headcount right away [@nickell1986; @hamermesh1989].
+
+That makes the basic Week 2 distinction unavoidable: the static benchmark tells us where the firm would like to be, but dynamic labor demand studies how the firm moves from its inherited workforce to that new target. The observed path reflects state dependence, the availability of alternative margins, and the firm's expectations about whether the shock will persist.
+
+This week remains firmly inside the firm. It does not yet build a full search equilibrium, bargaining model, or monopsony framework. Those arrive later. The point here is narrower and foundational: before labor markets can be matched or bargained over, firms still face a dynamic employment problem. Week 3 will take that dynamic firm and ask how incentives, internal labor markets, and promotion structures reshape its personnel choices.
 
 ## Field Core
 
@@ -201,7 +198,7 @@ Week 2 only works if the empirical language stays disciplined.
 6. Policy event studies identify dynamic timing responses to a shock; structural dynamic models try to recover primitives that support counterfactuals.
 7. Do not report an empirical result without naming both the identifying variation and the observed margin.
 
-## Reading ladder
+## Reading Ladder And References
 
 ### Bucket A. Dynamic benchmark
 
@@ -222,7 +219,7 @@ Week 2 only works if the empirical language stays disciplined.
 
 - [@saezSchoeferSeim2019] for payroll-tax incidence over the adjustment path and the bridge from dynamic labor demand to later wage-setting weeks.
 
-## Exercises / discussion prompts
+## Exercises And Discussion Prompts
 
 1. Use Equations {eq}`eq-lii-w2-target` and {eq}`eq-lii-w2-partial-adjustment` to explain why a contemporaneous employment estimate can understate the eventual effect of a labor-cost shock.
 2. What features of plant-level data would make you favor Equation {eq}`eq-lii-w2-inaction` over Equation {eq}`eq-lii-w2-partial-adjustment`?
@@ -230,10 +227,14 @@ Week 2 only works if the empirical language stays disciplined.
 4. In Table {numref}`tbl:design-map-week2`, which designs speak most directly to policy timing, and which speak most directly to structural cost parameters?
 5. How does Week 2 change the interpretation of the Week 1 target employment object?
 
-## Reproducibility or code lab note
+## Reproducibility And Code Lab Note
 
 The Week 2 lab follows the standard `Reproduce -> Diagnose -> Transfer` structure. The bounded reproduction path uses a local synthetic firm panel inspired by [@dibiasiMikoschSarferaz2025] so students can trace target versus actual employment, hours, and uncertainty without confidential microdata. The diagnose step asks them to name the identifying variation, the observed margin, and the implied dynamic object. The transfer step then compares convex and nonconvex adjustment paths with [@caballeroEngelHaltiwanger1997] as the challenge anchor and [@saezSchoeferSeim2019] as the optional policy-timing extension. The local handout lives at [labs/02-dynamic-labor-demand-and-adjustment-costs/lab.md](labs/02-dynamic-labor-demand-and-adjustment-costs/lab.md).
 
-## Slide companion note
+## Slide Companion Note
 
 The slide deck at [slides/week2/02-dynamic-labor-demand-and-adjustment-costs.tex](slides/week2/02-dynamic-labor-demand-and-adjustment-costs.tex) should stay tighter than the chapter: central question, Week 1 to Week 2 bridge, target versus actual employment, dynamic objective, convex partial adjustment, fixed-cost inaction, margins of adjustment, empirical design buckets, policy timing, and the bridge forward to Week 3 personnel economics.
+
+## Bridge Forward
+
+Use this closing bridge to carry the module's labor object, mechanism, and evidence into the next course step or research-design exercise.

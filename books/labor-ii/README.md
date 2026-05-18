@@ -1,14 +1,17 @@
-# Labor II book
+# Labor II
 
-This directory is the standalone MyST / Jupyter Book project for the second semester of the labor sequence.
+Internal workflow note for the standalone MyST / Jupyter Book course in this directory.
 
-## Recommended local workflow
+## Commands
 
-From this directory, using the `research` conda environment:
+Run from this directory:
 
 ```bash
-jupyter book start
-jupyter book build --html --strict
+conda run -n research jupyter book build --html --strict
+conda run -n research --live-stream jupyter book start
+conda run -n research jupyter book clean --templates --cache -y
 ```
 
-As new weeks are created, use the same standardized repo workflow established in Labor I for slides, labs, and validation.
+## Bibliography
+
+Labor II uses the shared labor-series bibliography at `../../shared/bibliography/references.bib`. Keep course-specific structural notes in this directory and keep weekly slide sources under `slides/weekN/`.

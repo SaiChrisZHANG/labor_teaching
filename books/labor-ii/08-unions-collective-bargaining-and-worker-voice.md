@@ -5,7 +5,7 @@ bibliography:
 
 # Unions, Collective Bargaining, and Worker Voice
 
-## Learning objectives
+## Learning Objectives
 
 By the end of Week 8, students should be able to:
 
@@ -17,7 +17,18 @@ By the end of Week 8, students should be able to:
 6. explain why disagreements in the literature often reflect different objects, settings, selection processes, and spillover concepts;
 7. connect unions to Weeks 5--7 on bargaining, monopsony, and minimum wages and to Week 9 on labor regulation, enforcement, and insurance.
 
+## Opening Orientation
+
 The economic question for Week 8 is not whether unions are generically "good" or "bad." It is what collective bargaining changes in labor markets, how membership differs from coverage, how organizing differs from post-union outcomes, and how modern labor economics identifies direct effects, spillovers, and political feedbacks [@jagerNaiduSchoefer2024; @hirsch2008; @kaplanNaidu2025].
+
+:::{admonition} Core materials
+:class: tip
+- membership, coverage, bargaining regime, and worker voice are distinct institutional objects
+- organizing, certification, and realized coverage are different stages of the same broader process
+- direct effects, spillovers, and threat effects should not be collapsed into one estimate
+- collective bargaining changes wages, compression, amenities, and workplace governance
+- Week 8 links bargaining institutions to the broader regulation and enforcement block
+:::
 
 ## Bridge
 
@@ -44,20 +55,6 @@ Membership, coverage, and bargaining regime are distinct objects. Coverage can e
 ```
 
 Figure {numref}`fig-lii-w8-membership-coverage` is the first anchor for the lecture. It visually states the most common empirical confusion: bargaining coverage is often the more institutionally relevant object even when membership is the more visible political statistic.
-
-:::{admonition} Core Material
-:class: tip
-- membership, coverage, bargaining regime, and worker voice are distinct institutional objects
-- organizing, certification, and realized coverage are different stages of the same broader process
-- direct effects, spillovers, and threat effects should not be collapsed into one estimate
-- collective bargaining changes wages, compression, amenities, and workplace governance
-- Week 8 links bargaining institutions to the broader regulation and enforcement block
-:::
-
-:::{admonition} Optional Extension Block
-:class: note
-- the Research Lab below surfaces frontier directions on cross-country coverage regimes, monopsony interaction, spillovers, and new organizing data
-:::
 
 ## Field Core
 
@@ -245,7 +242,7 @@ Week 8 only works if the empirical objects remain separate.
 8. Different papers can disagree because they study different objects: membership versus coverage, wages versus employment versus survival, selection into organizing, and different notions of spillover.
 9. Every empirical claim in this week should name the identifying variation, unit of observation, observed margin, and key unobserved object.
 
-## Reading ladder
+## Reading Ladder And References
 
 ### Required / field core
 
@@ -268,7 +265,7 @@ Week 8 only works if the empirical objects remain separate.
 - [@harjuJagerSchoefer2025] for worker voice beyond a pure wage-premium interpretation.
 - [@hirschMacpherson2003] for CPS/Unionstats measurement of membership and coverage.
 
-## Exercises / discussion prompts
+## Exercises And Discussion Prompts
 
 1. Use Equation {eq}`eq-lii-w8-membership-coverage` to explain why a decline in union membership need not imply a one-for-one decline in bargaining coverage.
 2. Why is Equation {eq}`eq-lii-w8-rentsharing` only a schematic bargaining object rather than a literal estimate of every union effect?
@@ -281,10 +278,14 @@ Week 8 only works if the empirical objects remain separate.
 9. In [@farberHerbstKuziemkoNaidu2021], what makes the object a distributional decomposition rather than a local organizing treatment effect?
 10. Propose one transfer design using a CPS/Unionstats panel, certification-election panel, or synthetic coverage-inequality panel. Name the observed unit, observed margin, identifying variation, and key unobserved object.
 
-## Reproducibility or code lab note
+## Reproducibility And Code Lab Note
 
 The Week 8 code lab is deliberately bounded and fully local. The reproduction step uses a synthetic state-year panel in the spirit of [@farberHerbstKuziemkoNaidu2021] so students can separate membership, coverage, direct compression, and spillover compression without requiring confidential microdata. The diagnose step uses a synthetic certification-election panel in the spirit of [@dinardoLee2004], forcing students to say explicitly that the object is organizing success near a legal threshold rather than broad coverage or equilibrium union density. The optional extension asks how the same logic transfers to a public CPS/Unionstats panel or to a spillover design inspired by [@fortinLemieuxLloyd2021]. The bounded path runs locally; the handout lives at [labs/08-unions-collective-bargaining-and-worker-voice/lab.md](labs/08-unions-collective-bargaining-and-worker-voice/lab.md).
 
-## Slide companion note
+## Slide Companion Note
 
 The Week 8 slide deck is designed to stay lighter than the chapter even though this is a heavy institution week. The deck should define the question, isolate the membership-versus-coverage distinction, show the collective-bargaining and organizing pipelines, separate direct from spillover effects, and end by bridging backward to Week 7 minimum wages and forward to Week 9 labor regulation, enforcement, and insurance. The canonical source is [slides/week8/08-unions-collective-bargaining-and-worker-voice.tex](slides/week8/08-unions-collective-bargaining-and-worker-voice.tex).
+
+## Bridge Forward
+
+Use this closing bridge to carry the module's labor object, mechanism, and evidence into the next course step or research-design exercise.

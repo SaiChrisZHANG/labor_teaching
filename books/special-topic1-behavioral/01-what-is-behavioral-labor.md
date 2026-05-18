@@ -10,6 +10,8 @@ By the end of Week 1, students should be able to:
 4. match empirical designs to the behavioral object and labor margin they identify;
 5. explain why Behavioral Labor is a labor field rather than general behavioral economics with workplace examples.
 
+## Opening Orientation
+
 Behavioral Labor starts from a familiar labor question: how do people choose work, search, effort, training, jobs, and program participation? The course changes the object by asking when the answer depends on self-control, reference points, social meaning, mistaken beliefs, limited attention, complexity, or organizational design. Labor is a natural domain for this move because labor decisions are repeated, high-stakes, dynamic, social, mediated by firms, and often implemented through policy rules that workers must notice and understand.
 
 :::{admonition} Core points
@@ -169,7 +171,7 @@ Observational designs with measured beliefs or preferences help connect heteroge
 
 Structural behavioral estimation is most useful when the question is mechanism, counterfactual policy, or welfare. The price is model dependence, so the estimated wedge must be disciplined by the labor margin and the design.
 
-## Reading Ladder
+## Reading Ladder And References
 
 **Core framing.** Start with [@dellaVigna2009] for the field evidence map and [@dellaVigna2018] for the structural behavioral perspective. Read them as taxonomies, not as a list of curiosities.
 

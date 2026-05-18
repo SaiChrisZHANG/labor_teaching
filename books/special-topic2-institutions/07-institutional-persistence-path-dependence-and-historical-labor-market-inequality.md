@@ -133,7 +133,7 @@ The lab lives at `labs/07-institutional-persistence-path-dependence-and-historic
 
 Historical labor research is credible when design, mechanism, and data provenance move together. The common designs are useful because they create comparison groups, but each design has a characteristic failure mode.
 
-:::{admonition} Methods box: historical identification in labor institutions
+:::{admonition} Methods Box: historical identification in labor institutions
 :class: note
 
 1. **Historical border and discontinuity designs.** These use institutional boundaries, tax lines, colonial maps, or labor-draft borders to compare nearby units with different exposure. Dell is the anchor [@dell2010mita]. The main risk is that the boundary also tracks geography, administrative selection, or later policy.
@@ -201,6 +201,6 @@ The smoke test runs only this bounded path: build synthetic data, reproduce a De
 
 The Week 7 slide deck lives at `slides/week7/07-institutional-persistence-path-dependence-and-historical-labor-market-inequality.tex`. The deck defines the central question, explains why historical institutions belong in labor economics, distinguishes persistence concepts, covers coercion, mobility, schooling, public goods, methods, data sources, representative papers, and the bridge to Week 8.
 
-## Bridge To Week 8
+## Bridge Forward
 
 Week 7 explains why past institutions can survive through labor-market channels. Week 8 turns from persistence to reform. The next question is why similar reforms produce different effects when they arrive in places with different inherited employer power, mobility costs, public goods, schooling gaps, networks, political rights, and administrative capacity.

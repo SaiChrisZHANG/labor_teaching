@@ -10,6 +10,8 @@ By the end of Week 5, students should be able to:
 4. separate Week 5 conduct and role norms from Week 6 structural hierarchy and durable category-based exclusion;
 5. evaluate inherited-culture, historical persistence, field-experimental, workplace, local social-environment, and market-level norm designs by naming what each design identifies and what it leaves unresolved.
 
+## Opening Orientation
+
 Week 5 asks how shared expectations about work, family, reputation, competition, leadership, and acceptable labor-market conduct shape allocation. The economic question is not whether "culture matters" in a vague sense. The question is how norms enter worker and household decisions, how they change the feasible or acceptable job set, and how economists can separate norm channels from prices, law, technology, and selection.
 
 Weeks 2 to 4 studied formal rules, enforcement, informality, contract enforcement, worker organization, and collective bargaining. Week 5 turns to informal institutions. Norms can allocate workers before a formal contract is signed, before a union campaign begins, and before an employer observes productivity. They can make some jobs socially legitimate, some search strategies reputationally costly, some promotions uncomfortable to pursue, and some wage offers unacceptable even when they are privately profitable.
@@ -136,22 +138,6 @@ The measurement problem is central. Norms are often latent. Economists therefore
 ```{include} assets/tables/05-measurement-and-identification-map.md
 ```
 
-### Methods Box: What Each Design Identifies
-
-The practical rule is to state the identified object before using norm language.
-
-Inherited-culture designs identify whether origin-linked proxies predict labor outcomes among descendants or migrants in a host environment. They are informative about transmission and persistence. They do not directly measure current sanctions or peer pressure.
-
-Historical persistence designs identify whether past technologies, institutions, or social arrangements predict modern norm proxies and labor outcomes. They help explain origins and durability. They do not fully rule out correlated historical channels unless the labor mechanism is carefully pinned down.
-
-Job-entry field experiments identify how application behavior responds to randomized job features such as competition, pay framing, flexibility, or gender-coded information. They are especially useful for acceptable-workplace norms. They do not identify the full lifecycle cost of work or promotion.
-
-Workplace networking and promotion evidence identifies the career value of informal interaction, visibility, and self-promotion inside firms. It is central for leadership-entry norms. It may bundle norms with structural access barriers unless the design separates who can network from who chooses to network.
-
-Local social-environment evidence identifies how reference-group norms, local attitudes, or language-region environments correlate with search, unemployment stigma, benefit behavior, or work attitudes. It is strongest for current social pressure but must address local labor-demand and selection concerns.
-
-Market-level labor-supply norm experiments identify whether social visibility and community enforcement change wage acceptance or labor supply. They are powerful for social discipline around undercutting, but external validity depends on whether the labor market has repeated interaction and observable conduct.
-
 ### Frontier Questions
 
 Frontier research studies norms as changing institutional constraints rather than fixed background variables. Three interactions are especially important.
@@ -182,6 +168,22 @@ The bounded pedagogical path asks students to produce three objects:
 3. a transfer classification table that names whether each design identifies cultural transmission, current pressure, job-entry response, workplace advancement, or market-level labor-supply discipline.
 
 The lab lives at `labs/05-culture-norms-and-labor-market-allocation/`. The smoke test builds synthetic data, writes reproduction outputs, classifies transfer designs, and produces text notes for seminar discussion.
+
+## Methods Box
+
+The practical rule is to state the identified object before using norm language.
+
+Inherited-culture designs identify whether origin-linked proxies predict labor outcomes among descendants or migrants in a host environment. They are informative about transmission and persistence. They do not directly measure current sanctions or peer pressure.
+
+Historical persistence designs identify whether past technologies, institutions, or social arrangements predict modern norm proxies and labor outcomes. They help explain origins and durability. They do not fully rule out correlated historical channels unless the labor mechanism is carefully pinned down.
+
+Job-entry field experiments identify how application behavior responds to randomized job features such as competition, pay framing, flexibility, or gender-coded information. They are especially useful for acceptable-workplace norms. They do not identify the full lifecycle cost of work or promotion.
+
+Workplace networking and promotion evidence identifies the career value of informal interaction, visibility, and self-promotion inside firms. It is central for leadership-entry norms. It may bundle norms with structural access barriers unless the design separates who can network from who chooses to network.
+
+Local social-environment evidence identifies how reference-group norms, local attitudes, or language-region environments correlate with search, unemployment stigma, benefit behavior, or work attitudes. It is strongest for current social pressure but must address local labor-demand and selection concerns.
+
+Market-level labor-supply norm experiments identify whether social visibility and community enforcement change wage acceptance or labor supply. They are powerful for social discipline around undercutting, but external validity depends on whether the labor market has repeated interaction and observable conduct.
 
 ## Reading Ladder And References
 
@@ -215,7 +217,7 @@ The Week 5 code lab is a synthetic teaching analog. It does not reproduce confid
 
 The Week 5 slide deck lives at `slides/week5/05-culture-norms-and-labor-market-allocation.tex`. The deck defines norms as labor-market mechanisms, bridges from worker voice, marks the Week 5/Week 6 boundary, surveys family, religion, competition, networking, and work-norm domains, isolates empirical strategies, and closes with frontier questions.
 
-## Bridge To Week 6
+## Bridge Forward
 
 Week 5 has treated norms as shared expectations about conduct: who should work, where work is acceptable, how one should search, whether competition is appropriate, how leadership entry happens, and when wages can be accepted without social punishment. Week 6 changes the object. It studies institutionalized social categories and hierarchy: caste, race, ethnicity, migrant status, religion as group boundary, gender as structural hierarchy, occupation boundaries, employer beliefs, public rules, and local governance.
 

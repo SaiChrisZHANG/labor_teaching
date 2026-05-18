@@ -5,7 +5,7 @@ bibliography:
 
 # Synthesis, Student Research Designs, and the Bridge to Labor II
 
-## Learning objectives
+## Learning Objectives
 
 By the end of Week 13, students should be able to:
 
@@ -19,7 +19,17 @@ By the end of Week 13, students should be able to:
 8. explain how Labor I becomes Labor II once worker-side choices are embedded in firms, frictions, and market adjustment;
 9. leave the first semester with a research agenda rather than with a stack of disconnected notes.
 
+## Opening Orientation
+
 The economic question for the week is cumulative: how do the worker-side pieces of labor economics fit together inside modern labor economics, and how can a student turn those pieces into a clean research design that naturally opens into Labor II? This final week is not a loose review session. It is a capstone and a research-design studio.
+
+:::{admonition} Core materials
+:class: tip
+- Labor I gives the worker-side primitives of the field.
+- A good labor question starts from a clear object such as hours, search, wages, amenities, mobility, or take-up.
+- A good labor design then asks which mechanism moves that object and which variation isolates the mechanism.
+- Week 13 turns topic knowledge into proposal discipline.
+:::
 
 ## Bridge
 
@@ -39,13 +49,6 @@ Worker-side labor economics is not only about wages. Total job value combines pa
 
 Figure {numref}`fig-week13-human-capital-arc` captures why the first semester is cumulative rather than episodic: labor supply, schooling, household constraints, and policy exposure all affect the dynamic path of skills and earnings. Figure {numref}`fig-week13-total-job-value` adds the Week 7 lesson that wages alone are not the object. A serious labor field course must track the broader utility-relevant bundle that workers face.
 
-:::{admonition} Core Material
-:class: tip
-- Labor I gives the worker-side primitives of the field.
-- A good labor question starts from a clear object such as hours, search, wages, amenities, mobility, or take-up.
-- A good labor design then asks which mechanism moves that object and which variation isolates the mechanism.
-- Week 13 turns topic knowledge into proposal discipline.
-:::
 
 :::{admonition} Optional Extension Block
 :class: note
@@ -249,7 +252,7 @@ Many labor projects appear to be about wages or participation, but are really ab
 
 "This matters because inequality is important" is not a contribution. A contribution states what labor economists would understand differently if the result were true. Does the project change how we think about labor supply elasticities, human-capital formation, compensating differentials, firm wage premia, policy targeting, behavioral response, or the transmission of discrimination? That is the standard for a good proposal.
 
-## Reading ladder
+## Reading Ladder And References
 
 ### Semester synthesis
 
@@ -272,7 +275,7 @@ Many labor projects appear to be about wages or participation, but are really ab
 - Acemoglu and Autor is a broad bridge reading for where worker-side analysis meets tasks, technology, and labor demand [@acemogluAutor2011].
 - Mortensen and Pissarides, Burdett and Mortensen, and Manning are the canonical starting points for matching, wage-setting, and labor-market power [@mortensenPissarides1994; @burdettMortensen1998; @manning2003].
 
-## Exercises / discussion prompts
+## Exercises And Discussion Prompts
 
 1. Write one paragraph explaining why a strong labor research question must distinguish the object of interest from the mechanism.
 2. Choose one anchor paper from Table {numref}`tbl:week13-anchor-menu` and explain which of the six formal objects in this chapter it relies on most heavily.
@@ -280,7 +283,7 @@ Many labor projects appear to be about wages or participation, but are really ab
 4. Propose one project that stays deliberately partial equilibrium and one project that requires worker--firm matched data from the start. Explain why.
 5. Explain why a nice design without a labor contribution is just as weak as a plausible mechanism without a design.
 
-## Reproducibility or code lab note
+## Reproducibility And Code Lab Note
 
 The Week 13 lab lives in [books/labor-i/labs/13-synthesis-and-research-designs/lab.md](labs/13-synthesis-and-research-designs/lab.md). Its bounded path is intentionally local and data-light. Students build a small anchor-paper packet, reproduce a compact design map from that packet, diagnose the object and mechanism, and then generate a memo template for a chosen extension idea. The smoke path is narrow by design:
 
@@ -291,6 +294,10 @@ ENV_NAME=research bash smoke.sh
 
 This is not a substitute for a full replication package. It is a studio that teaches how to move from a labor topic to a proposal with one estimand, one mechanism, and one explicit statement about the Labor I to Labor II boundary.
 
-## Slide companion note
+## Slide Companion Note
 
 The companion deck is [books/labor-i/slides/week13/13-synthesis-and-research-designs.tex](slides/week13/13-synthesis-and-research-designs.tex). The slides should not duplicate the chapter. They should define why Week 13 is a synthesis week, show the architecture of Labor I, write down the compact worker-side framework, walk through the mechanism--data--design pipeline, surface common proposal failure modes, and end with the map of where Labor II begins.
+
+## Bridge Forward
+
+Use this closing bridge to carry the module's labor object, mechanism, and evidence into the next course step or research-design exercise.

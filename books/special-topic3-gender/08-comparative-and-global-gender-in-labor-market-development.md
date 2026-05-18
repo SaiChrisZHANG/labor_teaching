@@ -27,6 +27,10 @@ By the end of Week 8, students should be able to:
 6. identify common critiques of country-specific comparative work and answer them with comparison-group logic, mechanism discipline, and clear labor-market stakes;
 7. generate research designs that use country variation to study broad labor objects rather than country facts alone.
 
+## Opening Orientation
+
+This module orients the economic question, the labor-market object, and the empirical design issues before the layered sections begin.
+
 ## Bridge
 
 Weeks 1 through 7 built the objects: gendered measurement, household allocation, care, fertility, education, sorting, firms, pay-setting, norms, policy incidence, safety, mobility, and reproductive autonomy. Week 8 asks how these mechanisms behave across development settings and institutional environments.

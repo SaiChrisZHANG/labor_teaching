@@ -23,7 +23,7 @@ By the end of the course, students should be able to:
 
 ## Course Format
 
-This is a 10-week advanced special topic for PhD students and strong advanced MA students. It is organized as weekly modules rather than a broad survey, and it is intentionally reading-heavy and research-oriented. Future weekly chapters will use the portfolio's layered format: Bridge, Field Core, Research Lab, Methods Box, reading ladder, exercises or discussion prompts, reproducibility note, and slide companion note.
+This is a 10-week advanced special topic for PhD students and strong advanced MA students. It is organized as weekly modules rather than a broad survey, and it is intentionally reading-heavy and research-oriented. Weekly chapters use the portfolio's layered format: Bridge, Field Core, Research Lab, Methods Box, reading ladder, exercises or discussion prompts, reproducibility note, and slide companion note.
 
 The course is cumulative. It begins with concepts and measurement, moves through household and worker-side mechanisms, enters firms and institutions, studies policy and comparative evidence, then closes with frontier methods and student research design.
 
@@ -32,6 +32,8 @@ The course is cumulative. It begins with concepts and measurement, moves through
 Labor I supplies the worker-side foundations: labor supply, households, human capital, discrimination, amenities, mobility, inequality, and worker-targeted policy. Labor II supplies the firm and market architecture: personnel economics, search, wage-setting, monopsony, regulation, enforcement, worker voice, and institutional response. Gender Study uses those foundations to ask how gender changes the mechanisms, identification problems, and welfare objects that labor economists study.
 
 ## Weekly Sequence
+
+The main numbered sequence remains ten weeks. The optional LGBTQ+ lecture is an unnumbered module placed after Week 9 and before Week 10 in the book navigation.
 
 1. **[Why gender matters for labor economics.](01-why-gender-matters-for-labor-economics.md)** The course opens with concepts, measurement, gender gaps, identity, and the limits of treating the field as a wage-gap exercise.
 2. **[Labor supply, care work, fertility, and household allocation.](02-labor-supply-care-work-fertility-and-household-allocation.md)** Students study how paid work, unpaid work, fertility, and household bargaining shape labor supply and earnings over time.
@@ -42,15 +44,18 @@ Labor I supplies the worker-side foundations: labor supply, households, human ca
 7. **[Violence, safety, mobility, and labor-market access.](07-violence-safety-mobility-and-labor-market-access.md)** The course treats safety and harassment as labor-market constraints affecting work, commuting, occupation choice, mobility, and welfare.
 8. **[Comparative and global gender in labor-market development.](08-comparative-and-global-gender-in-labor-market-development.md)** Students compare gendered labor mechanisms across development settings, welfare states, care regimes, and institutional environments.
 9. **[Frontier methods, new data, and evolving measurement.](09-frontier-methods-new-data-and-evolving-measurement-of-gender-in-labor-research.md)** The methodological capstone covers administrative data, matched employer-employee data, experiments, text and job-posting data, identity measurement, and emerging research designs.
-**Optional long lecture:** [LGBTQ+ identities, work, discrimination, and labor-market institutions.](optional-lgbtq-identities-work-discrimination-and-labor-market-institutions.md) This optional module sits after Week 9 and before the final synthesis lecture. It covers measurement, employment, earnings, hiring discrimination, workplace climate, legal protections, benefits, transgender and nonbinary evidence, and frontier research opportunities.
+
+**Optional module between Week 9 and Week 10:** [LGBTQ+ identities, work, discrimination, and labor-market institutions.](optional-lgbtq-identities-work-discrimination-and-labor-market-institutions.md) This optional long lecture sits after Week 9 and before the final synthesis lecture. It covers measurement, employment, earnings, hiring discrimination, workplace climate, legal protections, benefits, transgender and nonbinary evidence, and frontier research opportunities.
+
 10. **[Synthesis, frontier questions, and student research designs.](10-synthesis-frontier-questions-and-student-research-designs.md)** The final synthesis lecture converts the sequence into research proposals with clear mechanisms, counterfactuals, identification strategies, welfare objects, and portability claims.
 
-## Internal Roadmap
+## Course Map
 
 - **Foundational:** Week 1
 - **Household and worker-side:** Weeks 2 and 3
 - **Firm and institution-side:** Weeks 4 and 5
 - **Policy, comparative, and frontier focused:** Weeks 6 to 9
+- **Optional unnumbered module:** LGBTQ+ identities, work, discrimination, and labor-market institutions after Week 9
 - **Final synthesis and research design:** Week 10
 
 ## Optional LGBTQ+ Lecture

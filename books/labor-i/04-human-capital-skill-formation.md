@@ -5,7 +5,7 @@ bibliography:
 
 # Human Capital and Skill Formation
 
-## Learning objectives
+## Learning Objectives
 
 By the end of Week 4, students should be able to:
 
@@ -17,7 +17,18 @@ By the end of Week 4, students should be able to:
 6. map reduced-form, experimental, and structural evidence into the human-capital framework;
 7. explain how finance, information, and policy frictions distort investment choices and why that matters for Week 5 returns-to-skill evidence.
 
+## Opening Orientation
+
 The economic question for the week is direct: if Week 3 treated labor supply as a timing problem given productive capacity, where does productive capacity itself come from, and why does its accumulation generate lifecycle wage growth and inequality?
+
+:::{admonition} Core materials
+:class: tip
+- Ben-Porath accumulation and the lifecycle wage profile
+- Schooling versus training as different investment margins
+- General versus specific training under imperfect labor markets
+- Self-productivity and dynamic complementarity
+- Empirical design map and the main frictions
+:::
 
 ## Bridge
 
@@ -55,14 +66,6 @@ Conceptual lifecycle profiles for latent human capital and observed earnings. Th
 
 Figure {numref}`fig-week4-lifecycle` is the shortest visual route from Week 3 to Week 4. The worker is no longer only choosing hours over time. The worker is also shaping future wages. That is why lifecycle labor supply and human-capital accumulation are complements rather than separate chapters.
 
-:::{admonition} Core Material
-:class: tip
-- Ben-Porath accumulation and the lifecycle wage profile
-- Schooling versus training as different investment margins
-- General versus specific training under imperfect labor markets
-- Self-productivity and dynamic complementarity
-- Empirical design map and the main frictions
-:::
 
 :::{admonition} Optional Extension Block
 :class: note
@@ -179,7 +182,7 @@ Week 4 adds one discipline to the dynamic toolkit from Week 3: always separate t
 4. Ask whether the distortion comes from finance, information, institutions, or imperfect labor markets.
 5. Keep Equations {eq}`eq-week4-law`, {eq}`eq-week4-wage`, {eq}`eq-week4-foc`, and {eq}`eq-week4-skill` conceptually distinct before interpreting a wage return as a pure productivity return.
 
-## Reading ladder
+## Reading Ladder And References
 
 ### Bridge
 
@@ -204,7 +207,7 @@ Week 4 adds one discipline to the dynamic toolkit from Week 3: always separate t
 - Lochner and Monge-Naranjo on schooling finance and credit constraints [@lochnerMongeNaranjo2011]
 - Deming on why information, institutions, and market design still matter for human-capital investment [@deming2022]
 
-## Exercises / discussion prompts
+## Exercises And Discussion Prompts
 
 1. Use Equations {eq}`eq-week4-law` and {eq}`eq-week4-foc` to explain why the same subsidy can raise schooling sharply at age 18 but have a much smaller effect on training at age 45.
 2. Figure {numref}`fig-week4-lifecycle` shows earnings rising after investment intensity has already started to decline. Why is that pattern consistent with the Ben-Porath benchmark?
@@ -213,10 +216,14 @@ Week 4 adds one discipline to the dynamic toolkit from Week 3: always separate t
 5. Pick one row from Table {numref}`tbl:human-capital-design-map` and explain what object it identifies well and what object it cannot identify without stronger assumptions.
 6. Why is Week 4 a necessary prerequisite for interpreting Week 5 returns-to-skill estimates?
 
-## Reproducibility or code lab note
+## Reproducibility And Code Lab Note
 
 The Week 4 lab is organized around a bounded synthetic teaching path that mirrors the logic of [@attanasioEtAl2020HumanCapital] without requiring restricted or heavyweight external files. Students reproduce one treatment-induced investment and endline-skill contrast using the local synthetic dataset, diagnose what that contrast reveals about Equation {eq}`eq-week4-skill`, and then transfer the workflow to a center-quality heterogeneity exercise in the spirit of [@walters2015]. A short optional instructor extension connects the same investment problem to schooling finance using [@lochnerMongeNaranjo2011]. The bounded path and smoke test are documented in [labs/04-human-capital-skill-formation/lab.md](labs/04-human-capital-skill-formation/lab.md).
 
-## Slide companion note
+## Slide Companion Note
 
 The Week 4 deck should isolate the accumulation problem, the lifecycle figures, the schooling-versus-training distinction, the self-productivity logic, the empirical design map, the main frictions, and the Week 5 bridge rather than reproducing the chapter. The canonical source is [slides/week4/04-human-capital-skill-formation.tex](slides/week4/04-human-capital-skill-formation.tex).
+
+## Bridge Forward
+
+Use this closing bridge to carry the module's labor object, mechanism, and evidence into the next course step or research-design exercise.

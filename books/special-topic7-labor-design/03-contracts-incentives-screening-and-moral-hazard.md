@@ -1,10 +1,6 @@
 # Contracts, Incentives, Screening, And Moral Hazard
 
-## Opening Orientation / Why This Week Matters
-
-Week 3 moves from market-level allocation to the design of the employment relationship itself. Once a worker and firm are matched, the central problem is no longer only who meets whom. The contract determines which information is revealed, how risk is shared, how effort is elicited, how subjective judgments are used, and how the relationship is sustained when both sides have private information.
-
-The central question is this: how should labor contracts be designed when effort, type, commitment, and multitasking are imperfectly observed?
+## Learning Objectives
 
 By the end of the week, students should be able to:
 
@@ -13,6 +9,12 @@ By the end of the week, students should be able to:
 3. explain why multitasking, subjective evaluation, and relational incentives are central workplace design problems;
 4. translate a contract-theory object into an empirical labor design with observed margins, institutional variation, and welfare objects;
 5. design a bounded empirical exercise that separates incentive effects from sorting effects.
+
+## Opening Orientation
+
+Week 3 moves from market-level allocation to the design of the employment relationship itself. Once a worker and firm are matched, the central problem is no longer only who meets whom. The contract determines which information is revealed, how risk is shared, how effort is elicited, how subjective judgments are used, and how the relationship is sustained when both sides have private information.
+
+The central question is this: how should labor contracts be designed when effort, type, commitment, and multitasking are imperfectly observed?
 
 :::{admonition} Core points
 :class: important

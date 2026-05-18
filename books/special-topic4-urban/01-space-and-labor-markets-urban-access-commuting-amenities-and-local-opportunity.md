@@ -10,6 +10,8 @@ By the end of Week 1, students should be able to:
 4. interpret urban wage premia as labor-market objects that may reflect productivity, learning, sorting, or compensation;
 5. connect housing, segregation, safety, environment, and migration to labor-market opportunity rather than treating them as background urban facts.
 
+## Opening Orientation
+
 Week 1 asks the opening question for Urban and Labor: how does space enter labor-market choice, wage determination, and worker welfare?
 
 The answer is not that workers live in named cities or that regressions need place fixed effects. Workers search over job-residence bundles. A job offer pays a wage at a workplace. A residence carries rent, commuting cost, amenities, risk, and access to other jobs. The local labor market is the system linking these objects through commuting flows, search frictions, housing markets, local amenities, and outside options. This makes the course a labor-economics course first: space matters because it changes which jobs workers can reach, what wages are worth, how search works, and how welfare should be measured.

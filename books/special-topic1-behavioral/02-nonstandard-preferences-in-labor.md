@@ -10,6 +10,8 @@ By the end of Week 2, students should be able to:
 4. describe the identifying variation behind applied labor designs that use these preferences;
 5. explain why preference-based departures complicate welfare evaluation and policy design.
 
+## Opening Orientation
+
 Week 1 introduced Behavioral Labor as a field organized around labor objects rather than a catalog of biases. Week 2 makes that discipline concrete by focusing on one branch of the taxonomy: nonstandard preferences. The economic question is whether workers' choices over work, effort, saving, and self-investment reveal stable standard preferences, or whether short-run selves, reference points, social motives, and demand for discipline reshape the relevant labor margin.
 
 :::{admonition} Core points
@@ -151,7 +153,7 @@ For each preference-based paper, use four questions:
 
 Reduced-form designs are strongest for causal effects on observed margins. Structural or model-based designs are needed when the question is a preference parameter, counterfactual policy, or welfare. The empirical discipline is to avoid sliding from "the treatment changed behavior" to "we measured a behavioral preference" without the additional identifying argument.
 
-## Reading Ladder
+## Reading Ladder And References
 
 **Core framing.** Start with [@dellaVigna2009] for the evidence taxonomy and [@dellaVigna2018] for structural behavioral economics.
 

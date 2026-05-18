@@ -11,6 +11,8 @@ By the end of Week 5, students should be able to:
 5. map gift-exchange, loss-framing, monitoring, subjective-evaluation, real-effort, and contract-choice designs to the objects they identify;
 6. evaluate when stronger incentives improve organizational outcomes and when they redirect behavior toward hidden margins.
 
+## Opening Orientation
+
 Week 5 moves Behavioral Labor inside the firm. The employment relationship is not only a wage and an output target. It is a workplace environment with pay rules, monitoring, supervisors, messages, discretion, gifts, reference points, and evaluation systems. The central economic question is how workers interpret those objects and how firms should design contracts once effort, productivity, reciprocity, and gaming can diverge.
 
 :::{admonition} Core points
@@ -150,7 +152,7 @@ The bounded path runs locally without confidential data. It is not an official r
 
 ## Methods Box
 
-:::{admonition} Methods box: identifying workplace incentive mechanisms
+:::{admonition} Methods Box: identifying workplace incentive mechanisms
 :class: note
 
 **Gift and generosity field experiments** vary unexpected gifts, employer effort, monetary versus nonmonetary gestures, or contract presentation. They identify reciprocity or social-preference responses only after the analyst separates kindness, surprise, salience, and standard pay effects.
@@ -174,7 +176,7 @@ The bounded path runs locally without confidential data. It is not an official r
 
 Across all designs, do not present an empirical result without naming the behavioral object, the labor margin, the outcome metric, and whether the design identifies treatment, sorting, monitoring, or evaluation effects.
 
-## Reading Ladder
+## Reading Ladder And References
 
 **Core framing.** Start with [@dellaVigna2009] and [@dellaVigna2018] for the broad behavioral-economics taxonomy and structural discipline. Read them here through contracts, effort, monitoring, and workplace design.
 

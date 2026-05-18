@@ -5,7 +5,7 @@ bibliography:
 
 # Aggregate Fluctuations and Labor Market Adjustment
 
-## Learning objectives
+## Learning Objectives
 
 By the end of Week 10, students should be able to:
 
@@ -18,7 +18,18 @@ By the end of Week 10, students should be able to:
 7. evaluate empirical evidence by naming the identifying variation, unit of observation, observed margin, and key hidden margin left offstage;
 8. connect Week 10 back to Week 9 institutions and forward to Week 11 technology and structural adjustment.
 
+## Opening Orientation
+
 The economic question for Week 10 is straightforward but demanding: when aggregate conditions weaken or strengthen, which labor-market margins do the adjusting, and how do labor economists separate matching, separation, mobility, wages, and composition in the evidence?
+
+:::{admonition} Core materials
+:class: tip
+- aggregate adjustment runs through stocks, hazards, job ladders, wages, and composition at the same time
+- unemployment stocks are not interpretable without inflows and outflows
+- Beveridge-curve shifts can reflect composition, search intensity, mismatch, or matching efficiency
+- job-to-job mobility and wage cyclicality are central cyclical margins, not side details
+- macro-labor evidence must name both the observed margin and the hidden margin left offstage
+:::
 
 ## Bridge
 
@@ -43,20 +54,6 @@ Week 10 organizes aggregate labor adjustment around stocks, hazards, and hidden 
 ```
 
 Figure {numref}`fig-lii-w10-flows-margins` previews the lecture logic. Aggregate labor adjustment is a map of margins, not a single time series.
-
-:::{admonition} Core Material
-:class: tip
-- aggregate adjustment runs through stocks, hazards, job ladders, wages, and composition at the same time
-- unemployment stocks are not interpretable without inflows and outflows
-- Beveridge-curve shifts can reflect composition, search intensity, mismatch, or matching efficiency
-- job-to-job mobility and wage cyclicality are central cyclical margins, not side details
-- macro-labor evidence must name both the observed margin and the hidden margin left offstage
-:::
-
-:::{admonition} Optional Extension Block
-:class: note
-- the Research Lab extension block below surfaces Beveridge-curve shifts after 2020 and cyclical job-ladder questions
-:::
 
 ## Field Core
 
@@ -312,7 +309,7 @@ Week 10 only works if the distinctions stay sharp.
 7. National time-series identification, local cyclical variation, and matched employer-employee evidence see different margins and should be treated as complements.
 8. Every empirical claim should name the identifying variation, unit of observation, observed margin, and hidden margin left offstage.
 
-## Reading ladder
+## Reading Ladder And References
 
 ### Ladder A. Canonical framework and the volatility puzzle
 
@@ -339,7 +336,7 @@ Week 10 only works if the distinctions stay sharp.
 - [@figueiredo2022WageCyclicality] for wage cyclicality under labor-market sorting.
 - [@barlevyFabermanHobijnSahin2024BeveridgeShifts] for recent evidence on why Beveridge-curve shifts differ across eras.
 
-## Exercises / discussion prompts
+## Exercises And Discussion Prompts
 
 1. Use Equations {eq}`eq:u-law-motion` and {eq}`eq:u-steady-state` to explain how two economies can have the same unemployment rate with different underlying labor-market risks.
 2. Use Equations {eq}`eq:matching` through {eq}`eq:vacancy-filling` to explain why tightness raises the worker-side hazard but lowers the vacancy-side hazard.
@@ -348,10 +345,14 @@ Week 10 only works if the distinctions stay sharp.
 5. Use Equation {eq}`eq:wage-cyclicality` to explain how average wage growth can look weakly cyclical even when outside offers are highly cyclical.
 6. Pick one paper from the reading ladder and name its identifying variation, unit of observation, observed margin, and most important hidden margin.
 
-## Reproducibility or code lab note
+## Reproducibility And Code Lab Note
 
 The bounded Week 10 lab is fully local and synthetic. Students first reproduce a Barnichon-Figura-style aggregate matching exercise, then diagnose how much of a Beveridge-style movement is in observed stocks and how much is bundled into an inferred residual, and finally transfer the same reasoning to an Elsby-Michaels-Solon-style stock-flow decomposition and a small synthetic job-to-job cyclicality exercise anchored to [@karahanMichaelsPugsleySahinSchuh2017JobToJob]. The point is to make stocks, flows, efficiency residuals, and job ladders explicit without requiring confidential microdata.
 
-## Slide companion note
+## Slide Companion Note
 
 The Week 10 slide deck lives at [slides/week10/10-aggregate-fluctuations-and-labor-market-adjustment.tex](slides/week10/10-aggregate-fluctuations-and-labor-market-adjustment.tex). It is slightly longer than a standard week because this is one of the heavier Labor II lectures, but it stays tightly organized around stocks and hazards, matching and the Beveridge curve, surplus and vacancy creation, separations, job ladders, wage cyclicality, empirical design, and the bridge to Week 11.
+
+## Bridge Forward
+
+Use this closing bridge to carry the module's labor object, mechanism, and evidence into the next course step or research-design exercise.

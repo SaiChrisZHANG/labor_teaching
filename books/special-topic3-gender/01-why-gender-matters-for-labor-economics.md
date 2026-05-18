@@ -11,6 +11,8 @@ By the end of Week 1, students should be able to:
 5. explain why lifecycle timing, firm structure, family status, institutions, and identity shape measurement;
 6. defend gender as a first-order field in labor economics rather than a narrow wage-gap application.
 
+## Opening Orientation
+
 Week 1 asks a field-defining question: what makes gender a core labor-economics object? Students usually arrive knowing that gender matters. The sharper task is to show why gender belongs at the center of labor research: it changes who works, how much they work, where they work, how careers unfold, who receives authority, which risks workers face, how care is allocated, and how welfare should be measured.
 
 The course therefore begins from labor-market objects rather than from a single headline statistic. Reviews of the wage gap and broader gender convergence are essential starting points [@goldin2014grand; @blauKahn2017genderwagegap; @olivettiPanPetrongolo2024evolution]. But a serious gender-and-labor course cannot collapse into one wage-gap lecture. The object may be employment, hours, earnings, hourly wages, promotion, occupational allocation, firm assignment, safety, unpaid care, or welfare. The answer changes when the object changes.

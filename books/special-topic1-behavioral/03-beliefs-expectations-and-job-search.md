@@ -10,6 +10,8 @@ By the end of Week 3, students should be able to:
 4. compare belief elicitation, survey expectations, information experiments, posting experiments, certification designs, and structural search models;
 5. evaluate whether an empirical result identifies a behavioral search wedge, a standard search friction, rational learning, or unobserved heterogeneity.
 
+## Opening Orientation
+
 Week 2 treated worker behavior as a preference problem. Week 3 shifts to beliefs and expectations in job search: how workers perceive job-finding probabilities, wage offers, competition, skill fit, and the payoff to applications. The economic question is whether search behavior reflects correct optimization in a hard environment, or whether mistaken, sticky, or incomplete information changes effort, applications, reservation behavior, and unemployment duration.
 
 :::{admonition} Core points
@@ -102,31 +104,6 @@ Week 3 is primarily about beliefs, but the earlier search literature already rec
 
 The distinction matters empirically. Low effort can be caused by impatience, pessimistic beliefs about returns, application costs, weak attention, or genuine lack of opportunities. Behavioral job search is a family of mechanisms, not one explanation.
 
-### Methods Box
-
-:::{admonition} Methods box: separating belief objects from search frictions
-:class: note
-
-**Elicited beliefs** measure subjective probabilities directly, often repeatedly over unemployment spells. They identify the beliefs workers report and how those beliefs correlate with exits, but they do not by themselves remove all unobserved heterogeneity.
-
-**Survey-measured expectations** capture expected wages, durations, offer arrivals, or perceived fit. They are useful for prediction and heterogeneity, but survey answers may contain measurement error or strategic reporting.
-
-**Information-provision field experiments** manipulate advice or information. They identify causal effects of exposure on search margins, but the mechanism may combine beliefs, attention, motivation, and compliance pressure.
-
-**Job-posting or application-incentive experiments** manipulate wage announcements, vacancy content, or application costs. They identify search responses to the changed environment, but interpretation must separate payoff effects from perceived competition, salience, and selection.
-
-**Certification and skill-signaling experiments** identify the effect of making worker skills more visible. They often combine worker learning with firm learning, so the treatment is two-sided.
-
-**Structural job-search estimation with subjective beliefs** maps measured beliefs into counterfactuals and welfare. It is powerful when the question is policy or internalities, but it is model-dependent.
-
-:::
-
-```{include} assets/tables/03-job-search-margins-map.md
-```
-
-```{include} assets/tables/03-identification-and-design-map.md
-```
-
 ### Welfare And Policy Implications
 
 Behavioral job search has a welfare problem before it has a policy solution. If job seekers hold distorted beliefs, observed search choices may not reveal what they would choose under accurate information. If they rationally learn slowly in a noisy market, apparent optimism may be an efficient response to ambiguous feedback. If firms use limited information to screen, worker-side advice alone may not fix the relevant friction.
@@ -150,7 +127,32 @@ The lab asks students to diagnose four objects:
 
 The bounded transfer ideas are deliberately narrow: adapt belief elicitation to another search margin, adapt certification to another hiring context, or study how wage and quality signals change application behavior in a reduced pedagogical simulation.
 
-## Reading Ladder
+## Methods Box
+
+:::{admonition} Methods Box: separating belief objects from search frictions
+:class: note
+
+**Elicited beliefs** measure subjective probabilities directly, often repeatedly over unemployment spells. They identify the beliefs workers report and how those beliefs correlate with exits, but they do not by themselves remove all unobserved heterogeneity.
+
+**Survey-measured expectations** capture expected wages, durations, offer arrivals, or perceived fit. They are useful for prediction and heterogeneity, but survey answers may contain measurement error or strategic reporting.
+
+**Information-provision field experiments** manipulate advice or information. They identify causal effects of exposure on search margins, but the mechanism may combine beliefs, attention, motivation, and compliance pressure.
+
+**Job-posting or application-incentive experiments** manipulate wage announcements, vacancy content, or application costs. They identify search responses to the changed environment, but interpretation must separate payoff effects from perceived competition, salience, and selection.
+
+**Certification and skill-signaling experiments** identify the effect of making worker skills more visible. They often combine worker learning with firm learning, so the treatment is two-sided.
+
+**Structural job-search estimation with subjective beliefs** maps measured beliefs into counterfactuals and welfare. It is powerful when the question is policy or internalities, but it is model-dependent.
+
+:::
+
+```{include} assets/tables/03-job-search-margins-map.md
+```
+
+```{include} assets/tables/03-identification-and-design-map.md
+```
+
+## Reading Ladder And References
 
 **Core framing.** Start with [@dellaVigna2009] for the field taxonomy and [@dellaVigna2018] for structural behavioral economics.
 

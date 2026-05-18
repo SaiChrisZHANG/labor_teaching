@@ -5,7 +5,7 @@ bibliography:
 
 # Wage Posting, Bargaining, and Wage-Setting
 
-## Learning objectives
+## Learning Objectives
 
 By the end of Week 5, students should be able to:
 
@@ -17,7 +17,18 @@ By the end of Week 5, students should be able to:
 6. evaluate empirical evidence by naming the identifying variation, observed unit, observed margin, and the key latent object left unresolved;
 7. connect Week 4 search models to Week 6 monopsony and labor market power.
 
+## Opening Orientation
+
 The economic question for Week 5 is central to Labor II: once a worker and a firm meet in a frictional labor market, what protocol converts match surplus into pay, and how can we tell in the data whether the relevant protocol is posting, bargaining, a standardized wage rule, or something in between [@burdettMortensen1998; @hallMilgrom2008; @mortensen2003]?
+
+:::{admonition} Core materials
+:class: tip
+- wage-setting protocols convert match surplus into pay in frictional labor markets
+- posted wages, bargaining, standardized pay, and discretionary pay are distinct regimes
+- outside offers, the value of nonemployment, and retention pressure shape wages differently
+- empirical wage-setting evidence identifies protocols and margins rather than a generic wage equation
+- Week 5 is the bridge from search theory to monopsony and labor market power
+:::
 
 ## Bridge
 
@@ -31,20 +42,6 @@ Week 5 sits between search and monopsony. It converts worker flows and outside o
 ```
 
 Figure {numref}`fig-lii-w5-course-map` is the course repositioning figure for the week. Wage-setting is the bridge from search as a mobility theory to later topics such as labor market power, policy incidence, and firm wage premia.
-
-:::{admonition} Core Material
-:class: tip
-- wage-setting protocols convert match surplus into pay in frictional labor markets
-- posted wages, bargaining, standardized pay, and discretionary pay are distinct regimes
-- outside offers, the value of nonemployment, and retention pressure shape wages differently
-- empirical wage-setting evidence identifies protocols and margins rather than a generic wage equation
-- Week 5 is the bridge from search theory to monopsony and labor market power
-:::
-
-:::{admonition} Optional Extension Block
-:class: note
-- the Research Lab below surfaces frontier questions on worker beliefs, transparency, algorithmic offer management, and within-firm wage inequality
-:::
 
 ### Why search models need a wage-setting protocol
 
@@ -202,7 +199,7 @@ Week 5 only works if the objects stay separate.
 6. Reduced-form rent-sharing evidence versus structural wage-setting interpretation: pass-through estimates discipline theory, but they do not on their own reveal the entire protocol or all equilibrium spillovers.
 7. Evidence without design language is not enough: every empirical result in this week should be reported with the identifying variation, unit of observation, observed margin, and most important latent object.
 
-## Reading ladder
+## Reading Ladder And References
 
 ### Required / field core
 
@@ -224,7 +221,7 @@ Week 5 only works if the objects stay separate.
 - [@bhullerMoeneMogstadVestad2022] for collective bargaining as a wage-setting protocol rather than an institutional afterthought.
 - [@caldwellHaegeleHeining2025] for frontier work on bargaining and inequality.
 
-## Exercises / discussion prompts
+## Exercises And Discussion Prompts
 
 1. Use Equation {eq}`eq-lii-w5-acceptance` to explain why a reservation wage is not the same thing as a realized outside offer.
 2. Compare Equations {eq}`eq-lii-w5-posting` and {eq}`eq-lii-w5-bargaining`. Which margins move if the worker receives a stronger outside option under each protocol?
@@ -235,10 +232,14 @@ Week 5 only works if the objects stay separate.
 7. Why does Equation {eq}`eq-lii-w5-rentshare` not by itself reveal whether observed wage pass-through reflects bargaining, firm wage premia, or match-specific rents?
 8. Propose one transfer design using a public teacher salary schedule dataset, a public contract dataset, or a small synthetic offer-and-separation panel. Name the observed unit, the observed margin, and the main latent object.
 
-## Reproducibility or code lab note
+## Reproducibility And Code Lab Note
 
 The Week 5 lab is built around `Reproduce -> Diagnose -> Transfer`. The bounded reproduction path uses a local synthetic dual-jobholder panel inspired by [@lachowskaMasSaggioWoodbury2022] so students can measure whether an outside wage shock primarily changes incumbent wages or separations. The diagnose step forces students to say whether the paper is testing posting or bargaining, what the observed outside-option margin is, what the main identification challenge is, and what remains latent. The transfer step then uses a synthetic wage-rule panel anchored to [@massenkoffWilmers2023] so students can compare standardized and discretionary pay compression, while [@biasi2021] is the optional extension to public teacher salary schedules. The local handout lives at [labs/05-wage-posting-bargaining-and-wage-setting/lab.md](labs/05-wage-posting-bargaining-and-wage-setting/lab.md).
 
-## Slide companion note
+## Slide Companion Note
 
 The slide deck at [slides/week5/05-wage-posting-bargaining-and-wage-setting.tex](slides/week5/05-wage-posting-bargaining-and-wage-setting.tex) should stay tighter than the chapter. It should cover the central question and course repositioning, the Week 4 to Week 5 bridge, why search models need a wage-setting protocol, wage posting and dispersion, bargaining and Hall--Milgrom, wages and the value of nonemployment, standardized versus discretionary pay-setting, empirical designs and what they identify, rent-sharing and pass-through, the frontier extension block, and the bridge to Week 6 monopsony.
+
+## Bridge Forward
+
+Use this closing bridge to carry the module's labor object, mechanism, and evidence into the next course step or research-design exercise.

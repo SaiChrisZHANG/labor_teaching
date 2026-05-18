@@ -44,7 +44,7 @@ Behavioral Labor builds directly on Labor I's worker-side architecture. Labor I 
 - **Week 9. [Behavioral Public Policy in Labor Markets.](09-behavioral-public-policy-in-labor-markets.md)** Worker-facing policy is revisited through take-up, simplification, reminders, default design, targeting, implementation, and endogenous market response.
 - **Week 10. [Synthesis, Welfare, and Student Research Designs.](10-synthesis-welfare-and-student-research-designs.md)** The closing week integrates mechanism, evidence, welfare, and policy into a behavioral labor research agenda and asks how students can build credible frontier projects.
 
-## Internal Roadmap
+## Course Map
 
 - **Foundational weeks:** 1 to 4 build the field definition, taxonomy, and core worker-side mechanisms.
 - **Application-heavy weeks:** 5 and 6 move the framework into workplaces, contracts, identity, and allocation.

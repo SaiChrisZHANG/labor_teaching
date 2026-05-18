@@ -49,7 +49,3 @@ The weekly teaching rhythm follows a 3-hour core structure: one block for the or
 ## Sequence bridge
 
 Labor II completes the move from worker-side foundations to equilibrium labor economics. It is meant to be read after Labor I, and it returns repeatedly to Labor I objects while showing how firms, market structure, and shocks reshape them.
-
-Course outline: [OUTLINE.md](OUTLINE.md)
-
-Workflow note: use the `research` conda environment and the standardized repo workflow in `docs/repo-workflow.md`.

@@ -10,6 +10,8 @@ By the end of Week 7, students should be able to:
 4. diagnose when a design identifies a reduced-form treatment effect, a measurement relationship, a latent behavioral parameter, or a welfare-relevant mechanism;
 5. design a bounded empirical exercise that moves from a behavioral object to a labor setting, data design, method, and interpretation.
 
+## Opening Orientation
+
 Week 7 is the empirical toolkit lecture for Behavioral Labor. Weeks 1 through 6 named the substantive objects: present bias, beliefs, attention, complexity, reciprocity, identity, norms, fairness, and firm culture. This week asks how applied labor economists measure those objects and identify their role in work, search, take-up, effort, and allocation.
 
 The economic question is practical: when a worker responds to an information letter, an elicited belief, a search spell, a nonlinear schedule, a wage gift, or a policy shock, what exactly has been identified? The answer depends on the behavioral object, the labor margin, the source of variation, the data structure, the estimator, and the welfare benchmark.
@@ -200,7 +202,7 @@ The bounded student path runs locally without confidential data. It trains the e
 
 ## Methods Box
 
-:::{admonition} Methods box: behavioral identification in applied labor
+:::{admonition} Methods Box: behavioral identification in applied labor
 :class: note
 
 **Field experiments** identify treatment effects when assignment is valid. The practical estimators are often OLS or ANCOVA, with randomization checks, clustered standard errors when appropriate, randomization inference for small designs, and heterogeneity analysis when baseline behavioral states matter.
@@ -217,7 +219,7 @@ The bounded student path runs locally without confidential data. It trains the e
 
 :::
 
-## Reading Ladder
+## Reading Ladder And References
 
 **Framing and methods backbone.** Start with [@dellaVigna2009] for field evidence in psychology and economics, [@dellaVigna2018] for structural behavioral economics, [@listRasul2011] for labor field experiments, and [@haalandRothWohlfart2023] for information-provision design.
 

@@ -27,6 +27,10 @@ By the end of Week 5, students should be able to:
 5. compare migrant or ancestry designs, norm-misperception interventions, household bargaining designs, historical-origin designs, labor-market experiments, commuting revealed-preference designs, and cross-country legal-institution evidence;
 6. evaluate papers by naming the identifying variation, the observed labor margin, and the mechanism claim.
 
+## Opening Orientation
+
+This module orients the economic question, the labor-market object, and the empirical design issues before the layered sections begin.
+
 ## Bridge
 
 Week 2 put paid work inside household allocation. Care responsibilities, fertility timing, child penalties, and specialization are not only responses to wages and childcare technology. They can also reflect caregiving norms, male-breadwinner expectations, control over resources, and bargaining power within households. Lundberg and Pollak's bargaining framework is a useful reminder that allocation depends on distributional rules and threat points, not only on a unitary household preference [@lundbergPollak1996bargainingDistributionMarriage].

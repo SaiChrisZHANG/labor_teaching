@@ -26,7 +26,7 @@ By the end of the course, students should be able to:
 
 Labor Market, Health, and Population is designed as a 6-week compact advanced special topic for PhD students and strong advanced MA students. It is suitable for a half-semester elective, intensive module, or graduate reading group. The course is reading-heavy and research-oriented: each week centers on one labor-market mechanism, one measurement or identification problem, and one frontier research margin.
 
-Future weekly chapters will follow the portfolio's special-topics structure: Bridge, Field Core, Research Lab, Methods Box, reading ladder, exercises or discussion prompts, reproducibility note, and slide companion note. Special-topics chapters should include a visible **Core points** box near the top; extension boxes are optional rather than a default requirement.
+Weekly chapters use the portfolio's special-topics structure: Bridge, Field Core, Research Lab, Methods Box, reading ladder, exercises or discussion prompts, reproducibility note, and slide companion note. Special-topics chapters include a visible **Core points** box near the top; extension boxes are optional rather than a default requirement.
 
 ## Connection To Labor I And Labor II
 
@@ -41,7 +41,7 @@ Labor I supplies the worker-side foundations: labor supply, human capital, house
 5. **[Disease exposure, environmental health, demographic change, and labor-market adjustment.](05-disease-exposure-environmental-health-demographic-change-and-labor-market-adjustment.md)** The course scales up to disease, pollution, heat, aging, and demographic structure as shocks to workers, firms, local labor markets, and aggregate adjustment.
 6. **[Synthesis, frontier questions, and student research designs.](06-synthesis-frontier-questions-and-student-research-designs.md)** The final week converts the sequence into research designs with explicit labor outcomes, mechanisms, timing, counterfactuals, and welfare objects.
 
-## Internal Roadmap
+## Course Map
 
 - **Foundational:** Week 1 defines the course's labor-market objects, health-risk vocabulary, and measurement problems.
 - **Worker-health and labor-supply focused:** Week 2 studies disability, chronic conditions, labor supply, job choice, accommodations, and program interaction.

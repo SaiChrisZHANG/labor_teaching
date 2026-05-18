@@ -10,6 +10,8 @@ By the end of Week 6, students should be able to:
 4. evaluate audit studies, resume experiments, network and migration designs, historical or public-rule shocks, contact experiments, and macro misallocation frameworks;
 5. connect micro barriers to broader labor allocation, occupational persistence, and intergroup inequality.
 
+## Opening Orientation
+
 Week 6 asks how caste, race, ethnicity, gender, religion, migrant status, and related categories become durable systems for allocating work, authority, protection, and mobility. The economic question is not whether identity matters in the abstract. It is when a category changes access to jobs, networks, credentials, occupations, public employment, protection, and local labor-market governance.
 
 A social category becomes a labor-market institution when it is embedded in repeated rules or practices that workers and firms must anticipate. A name on a resume can change callback probabilities. A caste or ethnic network can insure workers while steering them into persistent occupations. A foreign credential can be discounted before productivity is observed. Public agencies can segregate workers directly. Local governance can determine who is protected, who can commute safely, and who can bargain without retaliation. These are institutional margins because they structure labor allocation, not merely because they express prejudice.
@@ -123,23 +125,6 @@ Darity's stratification economics framework keeps the course from reducing inequ
 
 This persistence logic also prevents a common mistake. The absence of a formal exclusion rule today does not imply the absence of hierarchy. Durable hierarchy may remain in beliefs, referrals, credential systems, residential patterns, occupational boundaries, public employment histories, and local governance.
 
-### Methods Box: What Each Design Identifies
-
-**Audit studies** randomize category signals in interactions with employers, landlords, clients, or institutions. They are strongest for differential treatment at a specified gate, such as a callback or invitation. They do not identify all downstream wages, human-capital investment, networks, or equilibrium effects.
-
-**Credential and resume experiments** randomize or vary names, foreign credentials, local experience, language cues, and other resume features. They identify how screeners value visible signals. They are especially useful for employer beliefs and credential recognition, but they do not directly observe true productivity or long-run job performance.
-
-**Network and migration designs** study how group-based networks, origin ties, caste, ethnicity, or migrant communities affect schooling, job search, referrals, mobility, and occupation persistence. They are strongest for meso-level allocation mechanisms. They must distinguish useful information and insurance from exclusionary closure.
-
-**Historical and public-rule shocks** use institutional changes, administrative reforms, segregation rules, legal status changes, or state action to study category-based labor allocation. They identify the effect of a rule or public organization on observed labor outcomes. They may not identify private-market spillovers or persistence without additional evidence.
-
-**Contact experiments** randomize or structure cross-group interaction. They identify whether a specific form of contact changes behavior, cooperation, prejudice, or integration. They do not by themselves identify all labor-market access barriers.
-
-**Macro or structural misallocation frameworks** quantify output or growth losses from barriers to occupational choice and talent allocation. They connect hierarchy to aggregate labor allocation. Their estimates depend on modeling assumptions about talent distributions, barriers, selection, and equilibrium wages.
-
-```{include} assets/tables/06-identification-and-evidence-map.md
-```
-
 ### Frontier Questions
 
 Frontier research needs to connect levels of evidence. An audit study can show a hiring gate. A network design can show persistent channels of information and insurance. A public-rule shock can show state action. A contact experiment can show how institutional design changes intergroup behavior. A macro framework can show how barriers affect aggregate output. The hard question is how to link these without overclaiming.
@@ -175,6 +160,23 @@ The bounded pedagogical path asks students to produce three objects:
 
 The lab lives at `labs/06-identity-social-hierarchy-and-labor-market-institutions/`. The smoke test builds synthetic data, writes reproduction outputs, runs the barrier diagnostic, classifies transfer designs, and produces short notes for seminar discussion.
 
+## Methods Box
+
+**Audit studies** randomize category signals in interactions with employers, landlords, clients, or institutions. They are strongest for differential treatment at a specified gate, such as a callback or invitation. They do not identify all downstream wages, human-capital investment, networks, or equilibrium effects.
+
+**Credential and resume experiments** randomize or vary names, foreign credentials, local experience, language cues, and other resume features. They identify how screeners value visible signals. They are especially useful for employer beliefs and credential recognition, but they do not directly observe true productivity or long-run job performance.
+
+**Network and migration designs** study how group-based networks, origin ties, caste, ethnicity, or migrant communities affect schooling, job search, referrals, mobility, and occupation persistence. They are strongest for meso-level allocation mechanisms. They must distinguish useful information and insurance from exclusionary closure.
+
+**Historical and public-rule shocks** use institutional changes, administrative reforms, segregation rules, legal status changes, or state action to study category-based labor allocation. They identify the effect of a rule or public organization on observed labor outcomes. They may not identify private-market spillovers or persistence without additional evidence.
+
+**Contact experiments** randomize or structure cross-group interaction. They identify whether a specific form of contact changes behavior, cooperation, prejudice, or integration. They do not by themselves identify all labor-market access barriers.
+
+**Macro or structural misallocation frameworks** quantify output or growth losses from barriers to occupational choice and talent allocation. They connect hierarchy to aggregate labor allocation. Their estimates depend on modeling assumptions about talent distributions, barriers, selection, and equilibrium wages.
+
+```{include} assets/tables/06-identification-and-evidence-map.md
+```
+
 ## Reading Ladder And References
 
 **Employer beliefs and first-stage hiring.** Start with Bertrand and Mullainathan for the canonical resume audit design [@bertrandMullainathan2004]. Then read Oreopoulos for skilled immigrants, foreign credentials, and screening [@oreopoulos2011].
@@ -206,6 +208,6 @@ The Week 6 code lab is a synthetic teaching analog. It does not reproduce confid
 
 The Week 6 slide deck lives at `slides/week6/06-identity-social-hierarchy-and-labor-market-institutions.tex`. The deck defines the central question, marks the Week 5 to Week 6 boundary, explains when social categories become labor-market institutions, covers employer beliefs, networks, occupation boundaries, public rules, contact, identification strategies, frontier questions, and the bridge to Week 7.
 
-## Bridge To Week 7
+## Bridge Forward
 
 Week 6 has studied hierarchy as a current allocation system: beliefs, networks, credentials, occupations, public rules, local governance, spatial sorting, and contact institutions. Week 7 asks why past institutions continue to shape modern labor markets after the original rules have changed. The connecting question is persistence: when a hierarchy changes schooling, occupations, assets, places, networks, or public employment, those channels can survive the formal rule that first created them.

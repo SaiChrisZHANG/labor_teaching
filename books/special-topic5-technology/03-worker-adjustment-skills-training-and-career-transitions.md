@@ -128,32 +128,6 @@ where {math}`Y^0` is the worker's counterfactual outcome without the technology 
 
 This distinction also disciplines the aggregate story. Reallocation can be efficient in the long run and still impose concentrated transition costs. A labor economist should therefore ask two questions at once: what is the new allocation of work, and who bears the cost of moving there?
 
-### Frontier Empirical Designs For Worker Adjustment
-
-Worker adjustment is difficult to study because skills are multidimensional, training is selected, technologies are partially observed, and outcomes are dynamic. Strong designs in this literature do not treat "reskilling" as a black box. They identify a specific margin and make the counterfactual visible.
-
-```{include} assets/tables/03-frontier-methods-box.md
-```
-
-:::{admonition} Methods Box: What Strong Designs Look Like
-:class: note
-
-**College, major, and track cutoff RD.** Cutoff and centralized-assignment designs use discontinuities in access to fields, majors, or vocational tracks. They are strongest for causal returns to early skill pathways and weaker for later-career displacement unless linked to later technology exposure [@kirkeboenLeuvenMogstad2021; @silliman2022; @bleemerMehta2022].
-
-**Training and retraining evaluations.** Strong evaluations use randomized offers, eligibility thresholds, policy rollouts, or administrative assignment rules. They should measure take-up, completion, employment, earnings, job quality, and persistence. The central threat is that motivated workers and better firms select into training.
-
-**Matched employer-worker event studies around technology adoption.** These designs observe incumbent workers before and after firm adoption. They can separate retention, exit, wage growth, occupational mobility, and internal task reassignment, but they must address adopter selection and differential pre-trends [@genz2021].
-
-**Local exposure designs linked to training or retirement.** These designs combine local technology, trade, or task exposure with administrative records on training, unemployment, retirement, or mobility. They identify equilibrium adjustment in places, not pure individual treatment effects, and should be interpreted accordingly [@bertermann2025].
-
-**Worker-level patent, task, or exposure measures.** These measures attach technology exposure to workers using patents, tasks, occupations, firms, or skill histories. They are valuable because they move incidence closer to the worker, but the exposure mapping must be transparent and validated [@koganPapanikolaouSchmidtSeegmiller2021; @almeidaDixCarneiro2025].
-
-**Firm AI adoption and task-content panels.** Recent data on AI adoption, vacancy text, surveys, and task content can distinguish incumbent retraining, new-hire skill demand, and job redesign. The advantage is proximity to implementation; the risk is short horizons, measurement noise, and selection into early adoption [@muehlemann2024; @babinaFedykHeHodson2024].
-
-:::
-
-The design lesson is simple but demanding. A good worker-adjustment paper must say whether it identifies access to a skill pathway, exposure to a technology, take-up of training, adoption by a firm, equilibrium adjustment in a place, or realized use by a worker. These are different treatments.
-
 ### Frictions In Worker Adjustment And Inequality
 
 Technology adjustment is often narrated as if workers see a new skill price, invest, and move. The empirical literature is more complicated. Workers can fail to adjust even when a simple earnings comparison suggests they should. The reasons include information, behavior, finance, institutions, and identity.
@@ -195,6 +169,32 @@ The lab is not an official replication of any paper. No official replication pac
 **Diagnose.** Students classify whether each exposed worker appears to adjust through staying, training, switching, unemployment, or exit. They compare worker-level exposure with firm-level adoption and local adjustment capacity. The diagnosis asks whether an observed earnings loss is best interpreted as direct displacement, low skill portability, weak training access, or selection into exposed firms.
 
 **Transfer.** Students move the logic to two related settings. First, they compare training and early-retirement responses under local technology exposure. Second, they compare incumbent training and new-hire training under AI adoption. The transfer exercise asks when aggregate skill upgrading can hide persistent losses for exposed incumbents.
+
+## Methods Box
+
+Worker adjustment is difficult to study because skills are multidimensional, training is selected, technologies are partially observed, and outcomes are dynamic. Strong designs in this literature do not treat "reskilling" as a black box. They identify a specific margin and make the counterfactual visible.
+
+```{include} assets/tables/03-frontier-methods-box.md
+```
+
+:::{admonition} Methods Box: What Strong Designs Look Like
+:class: note
+
+**College, major, and track cutoff RD.** Cutoff and centralized-assignment designs use discontinuities in access to fields, majors, or vocational tracks. They are strongest for causal returns to early skill pathways and weaker for later-career displacement unless linked to later technology exposure [@kirkeboenLeuvenMogstad2021; @silliman2022; @bleemerMehta2022].
+
+**Training and retraining evaluations.** Strong evaluations use randomized offers, eligibility thresholds, policy rollouts, or administrative assignment rules. They should measure take-up, completion, employment, earnings, job quality, and persistence. The central threat is that motivated workers and better firms select into training.
+
+**Matched employer-worker event studies around technology adoption.** These designs observe incumbent workers before and after firm adoption. They can separate retention, exit, wage growth, occupational mobility, and internal task reassignment, but they must address adopter selection and differential pre-trends [@genz2021].
+
+**Local exposure designs linked to training or retirement.** These designs combine local technology, trade, or task exposure with administrative records on training, unemployment, retirement, or mobility. They identify equilibrium adjustment in places, not pure individual treatment effects, and should be interpreted accordingly [@bertermann2025].
+
+**Worker-level patent, task, or exposure measures.** These measures attach technology exposure to workers using patents, tasks, occupations, firms, or skill histories. They are valuable because they move incidence closer to the worker, but the exposure mapping must be transparent and validated [@koganPapanikolaouSchmidtSeegmiller2021; @almeidaDixCarneiro2025].
+
+**Firm AI adoption and task-content panels.** Recent data on AI adoption, vacancy text, surveys, and task content can distinguish incumbent retraining, new-hire skill demand, and job redesign. The advantage is proximity to implementation; the risk is short horizons, measurement noise, and selection into early adoption [@muehlemann2024; @babinaFedykHeHodson2024].
+
+:::
+
+The design lesson is simple but demanding. A good worker-adjustment paper must say whether it identifies access to a skill pathway, exposure to a technology, take-up of training, adoption by a firm, equilibrium adjustment in a place, or realized use by a worker. These are different treatments.
 
 ## Reading Ladder And References
 

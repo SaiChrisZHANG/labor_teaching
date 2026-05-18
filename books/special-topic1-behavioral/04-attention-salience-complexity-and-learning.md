@@ -11,6 +11,8 @@ By the end of Week 4, students should be able to:
 5. compare information letters, simplification designs, quasi-experimental schedule changes, monitored attention designs, workplace incentive experiments, and structural learning models;
 6. explain why welfare depends on whether attention frictions are stable, state-dependent, or reduced through learning and design.
 
+## Opening Orientation
+
 Week 3 studied beliefs and expectations in job search. Week 4 widens the lens to labor choices where the relevant rule, incentive, or payoff schedule exists, but workers may not notice it, understand it, or find it worth decoding. The economic question is not whether workers are "biased" in a loose sense. It is whether labor supply, effort, benefit claiming, saving, or training decisions are made against the true environment or against a perceived, simplified, or gradually learned version of it.
 
 :::{admonition} Core points
@@ -159,7 +161,7 @@ Bounded transfer ideas include applying information or salience logic to another
 
 ## Methods Box
 
-:::{admonition} Methods box: identifying attention, complexity, information, and learning
+:::{admonition} Methods Box: identifying attention, complexity, information, and learning
 :class: note
 
 **Information letters and tutorials** communicate facts, rules, eligibility, or returns. They identify the causal effect of exposure on a labor margin, but the treatment may combine missing information, salience, trust, motivation, and reminders.
@@ -181,7 +183,7 @@ Bounded transfer ideas include applying information or salience logic to another
 
 The diagnostic discipline is the same across designs. First name the observed labor margin: hours, earnings, effort, take-up, claiming, saving, or training. Then name the manipulated object: information, salience, complexity, disclosure, incentive level, or learning opportunity. Then state what is identified. A treatment effect does not automatically separate mistakes about a schedule, optimization frictions, low attention, missing information, dynamic learning, and endogenous information acquisition.
 
-## Reading Ladder
+## Reading Ladder And References
 
 **Core framing.** Start with [@dellaVigna2009] for the broad taxonomy and [@dellaVigna2018] for structural behavioral economics. Read them with Week 4 narrowed to nonstandard decision-making.
 

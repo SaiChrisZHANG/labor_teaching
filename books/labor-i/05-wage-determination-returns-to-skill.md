@@ -5,7 +5,7 @@ bibliography:
 
 # Wage Determination and Returns to Skill
 
-## Learning objectives
+## Learning Objectives
 
 By the end of Week 5, students should be able to:
 
@@ -17,7 +17,18 @@ By the end of Week 5, students should be able to:
 6. connect Week 5 wage-measurement discipline to Week 6 household decisions and Week 8 inequality decompositions;
 7. map empirical designs to estimands, not just to identification slogans.
 
+## Opening Orientation
+
 The economic question for the week is direct: if Week 4 treated skill as an accumulated state variable, how do labor markets translate that state into observed pay, and what exactly is being measured when an empirical paper reports a "return to schooling" or a "return to skill" [@mincer1974; @card1999; @heckmanLochnerTodd2006]?
+
+:::{admonition} Core materials
+:class: tip
+- Mincer as benchmark wage accounting
+- selection, comparative advantage, and heterogeneous gains
+- OLS versus IV versus local return objects
+- worker, firm, and place components of wage dispersion
+- design-to-estimand discipline and the Week 6 / Week 8 bridges
+:::
 
 ## Bridge
 
@@ -45,14 +56,6 @@ Stylized Mincer wage profiles by schooling group. The figure makes three teachin
 
 Figure {numref}`fig-week5-mincer` is a useful first lecture picture because it shows why Mincer-style estimates remain central even when they are incomplete. They summarize wage differences over the life cycle, discipline calibration, and provide the natural baseline against which causal and structural approaches are compared.
 
-:::{admonition} Core Material
-:class: tip
-- Mincer as benchmark wage accounting
-- selection, comparative advantage, and heterogeneous gains
-- OLS versus IV versus local return objects
-- worker, firm, and place components of wage dispersion
-- design-to-estimand discipline and the Week 6 / Week 8 bridges
-:::
 
 :::{admonition} Optional Extension Block
 :class: note
@@ -171,7 +174,7 @@ Week 5 adds one discipline to the Week 4 toolkit: never interpret a wage coeffic
 4. Use Equation {eq}`eq-week5-akm` to ask whether wage differences operate partly through firms or places instead of only within a worker-level return schedule.
 5. Before using wage gaps for welfare or inequality claims, separate productivity, amenities, rents, and assignment effects.
 
-## Reading ladder
+## Reading Ladder And References
 
 ### Bridge
 
@@ -195,7 +198,7 @@ Week 5 adds one discipline to the Week 4 toolkit: never interpret a wage coeffic
 - Diamond on diverging location choices by skill [@diamond2016]
 - Juhn, Murphy, and Pierce and Katz and Autor for the bridge to rising wage inequality [@juhnMurphyPierce1993; @katzAutor1999]
 
-## Exercises / discussion prompts
+## Exercises And Discussion Prompts
 
 1. Equation {eq}`eq-week5-mincer` treats the schooling premium as one coefficient. Use Figure {numref}`fig-week5-mincer` to explain why lifecycle slope differences can still matter for interpretation even when the reported coefficient is a single average.
 2. In Equation {eq}`eq-week5-heterogeneous`, what exactly distinguishes selection on levels from selection on gains, and why does the distinction matter for OLS interpretation?
@@ -205,10 +208,14 @@ Week 5 adds one discipline to the Week 4 toolkit: never interpret a wage coeffic
 6. Why is Table {numref}`tbl:wage-dispersion-map` a necessary prelude to Week 8 inequality?
 7. How might the household models from Week 6 change the interpretation of an estimated return to schooling for women or secondary earners?
 
-## Reproducibility or code lab note
+## Reproducibility And Code Lab Note
 
 The Week 5 lab is organized around a bounded `Reproduce -> Diagnose -> Transfer -> Reflect` path that runs fully locally. Students reproduce one synthetic compulsory-schooling design in the spirit of [@oreopoulos2006], diagnose why the resulting OLS and IV estimates are different empirical objects, and then transfer the workflow to a trend-sensitivity exercise in the spirit of [@stephensYang2014]. The smoke path avoids restricted matched employer-employee data and keeps the sorting extension optional and conceptual. The bounded workflow is documented in [labs/05-wage-determination-returns-to-skill/lab.md](labs/05-wage-determination-returns-to-skill/lab.md).
 
-## Slide companion note
+## Slide Companion Note
 
 The Week 5 deck should isolate the pricing problem rather than reproduce the chapter. It should move from the Week 4 human-capital bridge to the Mincer benchmark, selection and heterogeneous gains, OLS versus IV/LATE interpretation, worker-firm or worker-place sorting, the parameter map table, and the bridges to Week 6 households and Week 8 inequality. The canonical source is [slides/week5/05-wage-determination-returns-to-skill.tex](slides/week5/05-wage-determination-returns-to-skill.tex).
+
+## Bridge Forward
+
+Use this closing bridge to carry the module's labor object, mechanism, and evidence into the next course step or research-design exercise.

@@ -24,7 +24,7 @@ The course is broader than the male-female wage gap, but it remains anchored in 
 - **Household and worker-side:** Weeks 2 and 3
 - **Firm and institution-side:** Weeks 4 and 5
 - **Policy, comparative, and frontier focused:** Weeks 6 to 9
-- **Optional LGBTQ+ long lecture:** after Week 9 and immediately before Week 10
+- **Optional LGBTQ+ long lecture:** unnumbered module after Week 9 and immediately before Week 10
 - **Final synthesis and research-design oriented:** Week 10
 
 ## Chapter build notes
@@ -109,7 +109,7 @@ This methodological capstone studies matched employer-employee data, administrat
 
 **Central question:** How do sexual orientation, gender identity, workplace climate, and legal institutions shape employment, earnings, hiring, benefits, and worker welfare?
 
-This optional long lecture sits after the frontier methods week and immediately before final synthesis. It studies measurement of LGBTQ+ populations, employment and earnings differences, hiring discrimination, workplace disclosure, harassment and climate, benefit design, family recognition, legal protections, and the labor-market effects of institutions such as anti-discrimination laws and marriage recognition. The lecture is substantial by design: it broadens the course beyond male-female gaps while staying centered on labor outcomes and labor-market institutions.
+This optional unnumbered long lecture sits after the frontier methods week and immediately before final synthesis. It studies measurement of LGBTQ+ populations, employment and earnings differences, hiring discrimination, workplace disclosure, harassment and climate, benefit design, family recognition, legal protections, and the labor-market effects of institutions such as anti-discrimination laws and marriage recognition. The lecture is substantial by design: it broadens the course beyond male-female gaps while staying centered on labor outcomes and labor-market institutions.
 
 **Why this is specifically labor economics:** LGBTQ+ labor research studies employment, hiring, wages, benefits, workplace treatment, legal protection, identity disclosure, and welfare inside labor markets.
 

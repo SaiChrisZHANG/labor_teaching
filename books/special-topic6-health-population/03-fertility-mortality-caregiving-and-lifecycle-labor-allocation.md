@@ -14,7 +14,7 @@ By the end of Week 3, students should be able to:
 
 The central question is this: how do fertility timing, mortality risk, aging, and caregiving burdens reshape labor allocation over the life cycle?
 
-## Opening Orientation / Why This Week Matters
+## Opening Orientation
 
 Week 3 starts from a simple labor-economics premise: demographic and family-health events are not background characteristics. They arrive at particular ages, interact with job ladders and household resources, and can shift the whole path of work, care, savings, mobility, retirement, and welfare. A birth, a spouse's illness, a parent's care need, a pension eligibility threshold, or a late-life health decline can change current hours today and also change future wages, occupation, retirement resources, and household specialization.
 

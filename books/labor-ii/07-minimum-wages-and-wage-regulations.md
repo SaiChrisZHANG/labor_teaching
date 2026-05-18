@@ -5,7 +5,7 @@ bibliography:
 
 # Minimum Wages and Wage Regulations
 
-## Learning objectives
+## Learning Objectives
 
 By the end of Week 7, students should be able to:
 
@@ -18,7 +18,18 @@ By the end of Week 7, students should be able to:
 7. connect minimum wages to adjacent wage-law literatures on enforcement, pay transparency, and equal-pay rules;
 8. bridge backward to Week 6 monopsony and forward to Week 8 unions, bargaining, and worker voice.
 
+## Opening Orientation
+
 The economic question for Week 7 is not only whether a wage floor changes employment. It is how wage floors reshape pay-setting, worker flows, hours, firm composition, compliance, and equilibrium adjustment once the competitive benchmark is no longer the only plausible description of labor markets [@cardKrueger1994; @dubeLesterReich2010; @cengizDubeLindnerZipperer2019; @dubeLindner2024].
+
+:::{admonition} Core materials
+:class: tip
+- minimum wages test competitive benchmarks against monopsony and other frictional benchmarks
+- wages, headcount, hours, turnover, reallocation, and compliance are distinct margins
+- treatment intensity or bite is often the relevant policy object rather than the nominal statutory change
+- legal incidence and observed incidence can diverge under imperfect compliance
+- modern minimum-wage debates are largely about which object a paper identifies
+:::
 
 ## Bridge
 
@@ -40,20 +51,6 @@ Competitive and monopsonistic benchmarks make different employment predictions u
 Figure {numref}`fig-lii-w7-competitive-monopsony` is the conceptual anchor for the week. The lecture begins with employment because that is the historically central controversy, but it quickly broadens to hours, turnover, worker reallocation, prices, and compliance. This broader map matters because the modern literature rarely argues that employers respond only on one margin [@dubeLindner2024; @dubeZipperer2024].
 
 The forward bridge matters too. Week 8 asks what changes once wage determination is mediated not only by legal floors but also by unions, collective bargaining, and worker voice. Minimum wages are thus the first week in the policy block, not the last word on wage-setting institutions.
-
-:::{admonition} Core Material
-:class: tip
-- minimum wages test competitive benchmarks against monopsony and other frictional benchmarks
-- wages, headcount, hours, turnover, reallocation, and compliance are distinct margins
-- treatment intensity or bite is often the relevant policy object rather than the nominal statutory change
-- legal incidence and observed incidence can diverge under imperfect compliance
-- modern minimum-wage debates are largely about which object a paper identifies
-:::
-
-:::{admonition} Optional Extension Block
-:class: note
-- frontier questions on spillovers, hiring standards, automation, and policy scale are surfaced later in the chapter under `Frontier extension block: unresolved questions and research opportunities`
-:::
 
 ## Field Core
 
@@ -250,7 +247,7 @@ Week 7 only works if ten distinctions stay visible throughout the lecture.
 9. Every empirical claim should name the identifying variation, unit of observation, observed margin, and key unobserved object.
 10. Different papers can disagree even under the same policy because they observe different populations, horizons, and margins.
 
-## Reading ladder
+## Reading Ladder And References
 
 ### Required / field core
 
@@ -275,7 +272,7 @@ Week 7 only works if ten distinctions stay visible throughout the lecture.
 - [@gentilePassaroKojimaPakzadHurson2026] for equal-pay constraints and within-firm wage structure.
 - [@butschek2022] for hiring standards as a nonemployment margin under wage floors.
 
-## Exercises / discussion prompts
+## Exercises And Discussion Prompts
 
 1. Use Equations {eq}`eq-lii-w7-competitive` and {eq}`eq-lii-w7-monopsony` to explain why the same binding wage floor can imply different employment responses under different market structures.
 2. Why is Equation {eq}`eq-lii-w7-kaitz` often more informative than the raw nominal increase in the minimum wage?
@@ -288,10 +285,14 @@ Week 7 only works if ten distinctions stay visible throughout the lecture.
 9. Compare evidence on minimum wages with evidence on pay transparency or equal-pay rules. Which labor-market margin is each policy trying to move most directly?
 10. Propose one transfer design using a small public or synthetic border panel, grouped wage-bin panel, or cross-region policy panel. Name the observed unit, observed margin, identifying variation, and the key unobserved object.
 
-## Reproducibility or code lab note
+## Reproducibility And Code Lab Note
 
 The Week 7 code lab is deliberately bounded and local. The reproduction step uses a synthetic grouped wage-bin panel inspired by [@cengizDubeLindnerZipperer2019] so students can measure wage gains, disappearing sub-minimum jobs, and reappearing jobs just above the new floor. The diagnose step compares that object to a synthetic contiguous-border county design in the spirit of [@dubeLesterReich2010], making students state plainly whether they are observing headcount employment, hours, or jobs below a threshold and what the main identification challenge is in each case. The optional extension asks how the same logic transfers to a national high-bite setting anchored to [@engbomMoser2022]. The bounded path runs locally without confidential microdata; the local handout lives at [labs/07-minimum-wages-and-wage-regulations/lab.md](labs/07-minimum-wages-and-wage-regulations/lab.md).
 
-## Slide companion note
+## Slide Companion Note
 
 The slide deck at [slides/week7/07-minimum-wages-and-wage-regulations.tex](slides/week7/07-minimum-wages-and-wage-regulations.tex) should stay tighter than the chapter. It should cover the central question and course repositioning, the Week 6 to Week 7 bridge, competitive versus monopsony predictions under a wage floor, what exactly the employment debate is about, modern evidence on wages, jobs, hours, turnover, and reallocation, global evidence across the United States, Europe/Germany, and Latin America or emerging markets, wage law beyond minimum wages, empirical designs and what they identify, a frontier extension on own-wage elasticities, compliance, and new data, and the bridge to Week 8 unions and worker voice.
+
+## Bridge Forward
+
+Use this closing bridge to carry the module's labor object, mechanism, and evidence into the next course step or research-design exercise.

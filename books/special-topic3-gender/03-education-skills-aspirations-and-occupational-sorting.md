@@ -11,6 +11,8 @@ By the end of Week 3, students should be able to:
 5. identify what reduced-form education interventions, teacher-bias designs, survey-expectations designs, early-career quasi-experiments, and long-panel lifecycle designs can and cannot show;
 6. connect Week 3 backward to care and household expectations from Week 2 and forward to firm-side mechanisms in Week 4 and norms in Week 5.
 
+## Opening Orientation
+
 Week 3 asks how education, skills, aspirations, and early occupational choices generate later gendered labor-market outcomes. The central labor object is sorting: who accumulates which skills, enters which fields, begins on which career ladder, and can later adjust away from early placements. The point is not to say that women and men choose different jobs. The point is to ask how those choices are formed, what constraints surround them, and why early differences can persist.
 
 Sorting matters because it links pre-market decisions to wages, authority, job quality, promotion, safety, flexibility, and welfare. A major or occupation is not a taste parameter. It is an equilibrium object shaped by expected returns, information, self-beliefs, stereotypes, role-model exposure, competitive environments, anticipated discrimination, family expectations, and the organization of jobs. It is also not the end of the story. After entry, workers face switching costs, career ladders, early job matches, timing constraints, promotion bottlenecks, and direct barriers that can make adjustment costly.

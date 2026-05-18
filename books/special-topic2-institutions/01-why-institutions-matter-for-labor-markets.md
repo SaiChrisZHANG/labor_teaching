@@ -10,6 +10,8 @@ By the end of Week 1, students should be able to:
 4. connect institutions to incentives, bargaining, enforcement, information, insurance, sorting, mobility, compliance, and political support for regulation;
 5. evaluate empirical strategies that measure institutions and informal norms in labor settings.
 
+## Opening Orientation
+
 Week 1 asks the framing question for the course: what counts as an institution in labor economics, and how can we study institutions without turning the course into a generic political-economy or culture survey?
 
 The answer is to begin from labor-market objects. Institutions matter here because they shape who works, where workers search, which jobs are feasible, how employment contracts are enforced, how workers and firms divide surplus, whether workers migrate, whether regulation binds, and how labor-market inequality persists. This course studies both formal institutions and informal institutions as mechanisms that organize labor exchange.

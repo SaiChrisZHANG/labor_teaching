@@ -121,40 +121,6 @@ The fifth frontier is **measurement of technology and innovation**. Patents, tex
 
 The sixth frontier is **labor-market power, platform governance, and worker voice**. Technology can change wage setting, monitoring, scheduling, dispute resolution, transparency, and the right to contest algorithmic decisions. These are labor institutions, even when implemented in software.
 
-### Research Design Choices
-
-A capstone design should state six choices.
-
-**Labor object.** What is the outcome, and why is it a labor-market object? Employment and wages are often the beginning. The project may need vacancies, training, task content, mobility, promotion, supervision, autonomy, schedule quality, bargaining power, or welfare.
-
-**Technology margin.** Is the treatment invention, availability, adoption, use, task exposure, diffusion, or organizational implementation? A high-quality paper does not let this remain ambiguous.
-
-**Unit.** The unit should follow the mechanism. Worker adjustment requires worker panels or credible worker-level outcomes. Adoption requires firms, establishments, teams, or platforms. Local exposure requires places and a reason why place-level composition maps into technology incidence.
-
-**Counterfactual.** What would have happened without the technology margin? The answer may rely on pre-trends, less-exposed units, later adopters, randomized rollout, policy variation, or a credible shift-share exposure. The paper should also state what the comparison cannot identify.
-
-**Timing.** Technology effects can appear immediately in productivity, later in hiring, later still in training and promotion, and only much later in equilibrium wages and sectoral reallocation. Timing is an economic object, not only a specification choice.
-
-**Welfare.** Who gains and loses after accounting for earnings, hours, nonemployment, risk, autonomy, bargaining power, amenities, mobility costs, and rent sharing? A paper can be accurate on wage effects and still incomplete on welfare.
-
-### Common Failure Modes
-
-Several mistakes recur in technology-and-labor projects.
-
-1. **Technology-first framing.** The project studies AI, robots, platforms, or patents because they are salient, but never states the labor mechanism.
-2. **Proxy overclaiming.** A patent, vacancy, exposure score, or survey response is treated as the technology itself.
-3. **Exposure-adoption confusion.** A design infers firm adoption or worker use from exposure measures that only capture potential task susceptibility.
-4. **Selected adoption without a strategy.** Early adopters differ in size, management, skills, productivity, and growth trajectories.
-5. **Partial-equilibrium interpretation of equilibrium evidence, or the reverse.** Worker, firm, and local-market designs identify different objects.
-6. **Timing compression.** Short-run productivity, medium-run hiring, and long-run worker welfare are collapsed into one coefficient.
-7. **Ignoring firms.** A worker-exposure paper misses hiring, training, monitoring, and internal reallocation.
-8. **Ignoring workers.** A firm-adoption paper treats workforce composition as if it were welfare.
-9. **Weak external-validity claim.** A sector, country, platform, or firm is described as interesting without explaining what mechanism travels.
-10. **Wage-only welfare.** Wages are interpreted without hours, risk, autonomy, schedules, bargaining power, job quality, and mobility costs.
-
-```{include} assets/tables/06-portability-and-relevance-map.md
-```
-
 ### Research Opportunities
 
 The best student projects do not need to settle the entire technology debate. They need a credible margin, a labor object, and a mechanism that matters beyond the setting.
@@ -183,6 +149,45 @@ The lab does not claim to replicate official estimates. No official robot, Censu
 **Diagnose.** Students classify what the exposure measure captures and misses. They ask whether it measures adoption or exposure, whether the unit is the right unit, whether timing is plausible, whether firm responses are hidden, and whether wages and employment are sufficient welfare objects.
 
 **Transfer.** Students redesign the exposure logic for generative AI. They move from local robot exposure to worker use and firm adoption, then evaluate whether the new design should use workers, firms, occupations, teams, platforms, or places as the primary unit.
+
+## Methods Box
+
+::::{admonition} Methods Box: Technology-And-Labor Capstone Designs
+:class: note
+
+A capstone design should state six choices.
+
+**Labor object.** What is the outcome, and why is it a labor-market object? Employment and wages are often the beginning. The project may need vacancies, training, task content, mobility, promotion, supervision, autonomy, schedule quality, bargaining power, or welfare.
+
+**Technology margin.** Is the treatment invention, availability, adoption, use, task exposure, diffusion, or organizational implementation? A high-quality paper does not let this remain ambiguous.
+
+**Unit.** The unit should follow the mechanism. Worker adjustment requires worker panels or credible worker-level outcomes. Adoption requires firms, establishments, teams, or platforms. Local exposure requires places and a reason why place-level composition maps into technology incidence.
+
+**Counterfactual.** What would have happened without the technology margin? The answer may rely on pre-trends, less-exposed units, later adopters, randomized rollout, policy variation, or a credible shift-share exposure. The paper should also state what the comparison cannot identify.
+
+**Timing.** Technology effects can appear immediately in productivity, later in hiring, later still in training and promotion, and only much later in equilibrium wages and sectoral reallocation. Timing is an economic object, not only a specification choice.
+
+**Welfare.** Who gains and loses after accounting for earnings, hours, nonemployment, risk, autonomy, bargaining power, amenities, mobility costs, and rent sharing? A paper can be accurate on wage effects and still incomplete on welfare.
+
+::::
+
+### Common Failure Modes
+
+Several mistakes recur in technology-and-labor projects.
+
+1. **Technology-first framing.** The project studies AI, robots, platforms, or patents because they are salient, but never states the labor mechanism.
+2. **Proxy overclaiming.** A patent, vacancy, exposure score, or survey response is treated as the technology itself.
+3. **Exposure-adoption confusion.** A design infers firm adoption or worker use from exposure measures that only capture potential task susceptibility.
+4. **Selected adoption without a strategy.** Early adopters differ in size, management, skills, productivity, and growth trajectories.
+5. **Partial-equilibrium interpretation of equilibrium evidence, or the reverse.** Worker, firm, and local-market designs identify different objects.
+6. **Timing compression.** Short-run productivity, medium-run hiring, and long-run worker welfare are collapsed into one coefficient.
+7. **Ignoring firms.** A worker-exposure paper misses hiring, training, monitoring, and internal reallocation.
+8. **Ignoring workers.** A firm-adoption paper treats workforce composition as if it were welfare.
+9. **Weak external-validity claim.** A sector, country, platform, or firm is described as interesting without explaining what mechanism travels.
+10. **Wage-only welfare.** Wages are interpreted without hours, risk, autonomy, schedules, bargaining power, job quality, and mobility costs.
+
+```{include} assets/tables/06-portability-and-relevance-map.md
+```
 
 ## Reading Ladder And References
 

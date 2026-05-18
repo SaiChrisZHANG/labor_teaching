@@ -10,6 +10,8 @@ By the end of Week 4, students should be able to:
 4. separate direct effects on organized units from spillovers to uncovered workers and firms;
 5. evaluate empirical designs by naming whether the design identifies organization formation, wage-setting, employment, governance, spillovers, or political participation.
 
+## Opening Orientation
+
 Week 4 asks how worker organizations and bargaining institutions emerge, what they do once they exist, and how their effects travel beyond organized workplaces. The topic sits near political economy, but the core object is labor economics: collective institutions change wage-setting, rent-sharing, monitoring, retention, workplace governance, inequality, and the credibility of worker claims.
 
 Weeks 2 and 3 studied law, enforcement, informality, and contract enforceability. Week 4 turns to a different institutional response to fragmented individual bargaining. When workers bargain separately, each worker may have limited information, weak threat power, retaliation risk, and little ability to monitor compliance. Collective institutions aggregate worker claims, alter threat points, create representation channels, and sometimes extend bargaining outcomes to workers who are not union members.

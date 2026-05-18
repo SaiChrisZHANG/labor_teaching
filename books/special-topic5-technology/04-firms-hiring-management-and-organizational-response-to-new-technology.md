@@ -161,34 +161,6 @@ Finally, attitudes can contribute to inequality within and across firms. Better-
 ```{include} assets/tables/04-ai-attitudes-and-principal-agent-map.md
 ```
 
-### Methods Box: Frontier Designs For Measuring AI-Adoption Attitudes
-
-```{include} assets/tables/04-frontier-methods-box.md
-```
-
-:::{admonition} Methods Box: Measuring Adoption Attitudes Without Confusing Sentiment With Technology
-:class: note
-
-**Worker surveys linked to outcomes.** These designs measure trust, fear of replacement, perceived fairness, transparency, control, willingness to use AI, and actual self-reported use, then link responses to productivity, retention, training, mobility, or wages. They identify associations between attitudes and outcomes, or causal effects only if attitude variation is experimentally induced or plausibly exogenous. They cannot by themselves separate low trust from low tool quality because workers may dislike AI after observing that it performs poorly in their job.
-
-**Management surveys linked to firm administrative data.** These designs measure manager beliefs about AI productivity, delegation, hiring needs, adoption barriers, monitoring value, and worker resistance, then link responses to sales, employment, vacancies, training, turnover, or productivity. They are strong for measuring expectations and implementation strategy. They are weak for causal inference if optimistic managers are also better managers or if high-productivity firms can afford more experimentation.
-
-**Randomized pilots and staggered rollouts inside firms.** These designs compare workers, teams, sites, or managers that receive access earlier versus later. They can identify the short-run effect of access or encouragement on usage, productivity, quality, and attitudes. They usually cannot identify long-run equilibrium redesign unless the rollout changes hiring, promotion, and team structure over a longer horizon.
-
-**Survey experiments, vignette experiments, and conjoint designs.** These designs vary transparency, fairness information, human override, monitoring intensity, replacement risk, data use, or performance metrics. They identify which features change acceptance of AI-mediated hiring, evaluation, scheduling, or supervision. They cannot show whether stated preferences translate into workplace behavior unless linked to actual choices.
-
-**Lab or online experiments eliciting delegation to algorithms.** These designs ask workers or managers to choose between human and algorithmic decision-makers, or to decide whether to delegate a hiring, screening, prediction, or evaluation task. They identify algorithm aversion, algorithm appreciation, overconfidence, and response to feedback. Their limitation is external validity: stakes, employment relationships, and institutional protections may differ from real firms.
-
-**Matched employer-employee panels around adoption timing.** These designs observe workers before and after firm adoption and can estimate changes in wages, separations, promotions, training, or internal moves. If linked to attitude surveys, they can study heterogeneity by trust or perceived fairness. The main threat is adopter selection and differential pre-trends: attitudes may proxy for firm quality or for workers already on different career paths.
-
-**Job-posting and vacancy text linked to adoption.** These designs measure changes in demand for AI skills, oversight tasks, monitoring roles, compliance roles, or human-AI collaboration. They identify intended labor demand, not realized usage or sentiment. They should be paired with employment, training, or worker outcomes before making welfare claims.
-
-**Worker-level usage logs and software telemetry.** These designs measure actual use: prompts, sessions, task categories, acceptance of recommendations, edits, overrides, and timing. They are close to realized implementation. They still cannot identify attitudes unless paired with surveys or experiments, and they can confound productivity with compliance if workers use the tool because managers require it.
-
-A good design separates four objects: technology adoption, technology use, technology sentiment, and productivity effects. Attitudes are confounded with productivity when workers or managers form beliefs after observing tool quality, when high-productivity firms communicate adoption better, or when workers who benefit from AI become more favorable toward it. The strongest designs measure baseline attitudes before adoption, randomize access or information when possible, observe actual usage, and follow worker and firm outcomes long enough to see organizational redesign.
-
-:::
-
 ### Research Architecture For Firm Adoption
 
 A disciplined Week 4 paper should name six objects:
@@ -215,6 +187,34 @@ The lab should not claim to replicate official estimates unless the needed data 
 **Diagnose.** Students diagnose what the adoption coefficient means. They test for pre-trends, compare acquisition with usage, separate hiring from incumbent training, and ask whether composition changes imply worker gains or worker replacement. They classify mechanisms into substitution, augmentation, scale, and organizational redesign.
 
 **Transfer.** Students add a worker and manager attitude module inspired by the algorithm-aversion evidence. They design a vignette or randomized encouragement that varies transparency, human override, replacement risk, performance feedback, and monitoring intensity. The transfer exercise asks whether attitudes predict actual usage and whether usage predicts productivity after conditioning on baseline productivity and job task mix.
+
+## Methods Box
+
+```{include} assets/tables/04-frontier-methods-box.md
+```
+
+:::{admonition} Methods Box: Measuring Adoption Attitudes Without Confusing Sentiment With Technology
+:class: note
+
+**Worker surveys linked to outcomes.** These designs measure trust, fear of replacement, perceived fairness, transparency, control, willingness to use AI, and actual self-reported use, then link responses to productivity, retention, training, mobility, or wages. They identify associations between attitudes and outcomes, or causal effects only if attitude variation is experimentally induced or plausibly exogenous. They cannot by themselves separate low trust from low tool quality because workers may dislike AI after observing that it performs poorly in their job.
+
+**Management surveys linked to firm administrative data.** These designs measure manager beliefs about AI productivity, delegation, hiring needs, adoption barriers, monitoring value, and worker resistance, then link responses to sales, employment, vacancies, training, turnover, or productivity. They are strong for measuring expectations and implementation strategy. They are weak for causal inference if optimistic managers are also better managers or if high-productivity firms can afford more experimentation.
+
+**Randomized pilots and staggered rollouts inside firms.** These designs compare workers, teams, sites, or managers that receive access earlier versus later. They can identify the short-run effect of access or encouragement on usage, productivity, quality, and attitudes. They usually cannot identify long-run equilibrium redesign unless the rollout changes hiring, promotion, and team structure over a longer horizon.
+
+**Survey experiments, vignette experiments, and conjoint designs.** These designs vary transparency, fairness information, human override, monitoring intensity, replacement risk, data use, or performance metrics. They identify which features change acceptance of AI-mediated hiring, evaluation, scheduling, or supervision. They cannot show whether stated preferences translate into workplace behavior unless linked to actual choices.
+
+**Lab or online experiments eliciting delegation to algorithms.** These designs ask workers or managers to choose between human and algorithmic decision-makers, or to decide whether to delegate a hiring, screening, prediction, or evaluation task. They identify algorithm aversion, algorithm appreciation, overconfidence, and response to feedback. Their limitation is external validity: stakes, employment relationships, and institutional protections may differ from real firms.
+
+**Matched employer-employee panels around adoption timing.** These designs observe workers before and after firm adoption and can estimate changes in wages, separations, promotions, training, or internal moves. If linked to attitude surveys, they can study heterogeneity by trust or perceived fairness. The main threat is adopter selection and differential pre-trends: attitudes may proxy for firm quality or for workers already on different career paths.
+
+**Job-posting and vacancy text linked to adoption.** These designs measure changes in demand for AI skills, oversight tasks, monitoring roles, compliance roles, or human-AI collaboration. They identify intended labor demand, not realized usage or sentiment. They should be paired with employment, training, or worker outcomes before making welfare claims.
+
+**Worker-level usage logs and software telemetry.** These designs measure actual use: prompts, sessions, task categories, acceptance of recommendations, edits, overrides, and timing. They are close to realized implementation. They still cannot identify attitudes unless paired with surveys or experiments, and they can confound productivity with compliance if workers use the tool because managers require it.
+
+A good design separates four objects: technology adoption, technology use, technology sentiment, and productivity effects. Attitudes are confounded with productivity when workers or managers form beliefs after observing tool quality, when high-productivity firms communicate adoption better, or when workers who benefit from AI become more favorable toward it. The strongest designs measure baseline attitudes before adoption, randomize access or information when possible, observe actual usage, and follow worker and firm outcomes long enough to see organizational redesign.
+
+:::
 
 ## Reading Ladder And References
 

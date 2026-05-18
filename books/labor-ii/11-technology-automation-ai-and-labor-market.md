@@ -5,7 +5,7 @@ bibliography:
 
 # Technology, Automation, AI, and Labor Market
 
-## Learning objectives
+## Learning Objectives
 
 By the end of Week 11, students should be able to:
 
@@ -18,7 +18,18 @@ By the end of Week 11, students should be able to:
 7. interpret empirical designs by naming the identifying variation, unit of observation, observed margin, and key equilibrium margin left offstage;
 8. connect Week 10 aggregate adjustment to Week 11 structural adjustment and bridge forward to Week 12 trade and offshoring.
 
+## Opening Orientation
+
 The economic question for Week 11 is explicit: how do technology, automation, and AI reshape work through worker adaptation, firm labor demand, and market-level reallocation?
+
+:::{admonition} Core materials
+:class: tip
+- technology shocks propagate through worker adjustment, firm labor demand, and market-level reallocation
+- tasks, occupations, exposure, and adoption are distinct objects
+- displacement, augmentation, new-task creation, and organizational redesign can coexist
+- within-firm evidence and local-labor-market evidence identify different margins
+- AI evidence should be kept analytically distinct from earlier ICT and robot evidence unless the object is explicit
+:::
 
 ## Bridge
 
@@ -41,20 +52,6 @@ Week 11 links worker adaptation, firm-side labor demand, and market-level equili
 ```
 
 Figure {numref}`fig-lii-w11-supply-demand-market` previews the lecture structure. The important move is to treat technology as a shock that propagates through feedback loops rather than only through a single firm labor-demand curve.
-
-:::{admonition} Core Material
-:class: tip
-- technology shocks propagate through worker adjustment, firm labor demand, and market-level reallocation
-- tasks, occupations, exposure, and adoption are distinct objects
-- displacement, augmentation, new-task creation, and organizational redesign can coexist
-- within-firm evidence and local-labor-market evidence identify different margins
-- AI evidence should be kept analytically distinct from earlier ICT and robot evidence unless the object is explicit
-:::
-
-:::{admonition} Optional Extension Block
-:class: note
-- frontier questions on AI adoption, organizational complements, and transition policy are surfaced later in the chapter under `Research frontier and extension block`
-:::
 
 ## Field Core
 
@@ -243,7 +240,7 @@ Keep these distinctions explicit throughout the week.
 7. Public occupation exposure maps versus actual use: descriptive exposure should not be narrated as realized treatment [@feltenRajSeamans2018MethodAIAbilities].
 8. Descriptive exposure correlations versus causal adoption evidence: each tells a different part of the labor-market story and neither replaces the other [@acemogluAutorHazellRestrepo2020AIJobsVacancies; @aghionEtAl2025HowDifferentUsesAI].
 
-## Reading ladder
+## Reading Ladder And References
 
 ### Ladder A. Core framework
 
@@ -272,17 +269,21 @@ Keep these distinctions explicit throughout the week.
 - [@labaschinEtAl2025ExtendingGPTsFirms]
 - Optional frontier extension: [@liuPapanikolaouSchmidtSeegmiller2025TechnologyLaborMarkets]
 
-## Exercises / discussion prompts
+## Exercises And Discussion Prompts
 
 1. Pick one paper from the week and name the identifying variation, unit of observation, observed margin, and key equilibrium margin left offstage.
 2. Suppose a new AI system raises output per worker in a call-center setting. List at least four labor-market objects that could still move in opposite directions: employment, wage inequality, vacancy content, and worker progression are good starting candidates.
 3. Compare [@acemogluRestrepo2020RobotsJobs] with [@aghionEtAl2025HowDifferentUsesAI]. Which one is closer to exposure, which one is closer to adoption, and which one is closer to market-level equilibrium incidence?
 4. Design a bounded empirical exercise that distinguishes skill obsolescence from skill acquisition using either public occupation cells or a synthetic worker panel.
 
-## Reproducibility or code lab note
+## Reproducibility And Code Lab Note
 
 The bounded pedagogical path lives in [labs/11-technology-automation-ai-and-labor-market/lab.md](labs/11-technology-automation-ai-and-labor-market/lab.md). It is intentionally local and synthetic. Students reproduce a firm-level AI-use design, diagnose the difference between adoption and exposure, and then transfer one exposure idea to a small market-level setting. The smoke test runs only that bounded path.
 
-## Slide companion note
+## Slide Companion Note
 
 The canonical Week 11 slide source is [slides/week11/11-technology-automation-ai-and-labor-market.tex](slides/week11/11-technology-automation-ai-and-labor-market.tex). The deck is designed to mirror the chapter's logic without duplicating it: question first, task framework next, then supply-side adjustment, demand-side evidence, equilibrium incidence, measurement, frontier questions, and the bridge to Week 12 trade and offshoring.
+
+## Bridge Forward
+
+Use this closing bridge to carry the module's labor object, mechanism, and evidence into the next course step or research-design exercise.

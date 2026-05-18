@@ -5,7 +5,7 @@ bibliography:
 
 # Discrimination, Measurement, and Sorting
 
-## Learning objectives
+## Learning Objectives
 
 By the end of Week 9, students should be able to:
 
@@ -18,7 +18,17 @@ By the end of Week 9, students should be able to:
 7. connect discrimination to Week 8 inequality without collapsing discrimination into general dispersion;
 8. see why Week 10 mobility is partly about how workers move across labor-market segments that may already be shaped by discrimination.
 
+## Opening Orientation
+
 The economic question for the week is narrower and harder than Week 8's question. Week 8 mapped the architecture of inequality across wages, hours, firms, and amenities. Week 9 asks which part of observed group differences should be interpreted as discrimination, through which mechanism, at which margin, and under which identification design [@altonjiBlank1999; @heckman1998; @neumark2018].
+
+:::{admonition} Core materials
+:class: tip
+- a raw gap is an outcome object, not yet a discrimination object
+- discrimination mechanisms can generate similar reduced-form patterns
+- controls can help or hurt depending on whether they are pre-treatment or post-treatment
+- sorting and segmentation belong inside the discrimination architecture, not outside it
+:::
 
 ## Bridge
 
@@ -26,13 +36,6 @@ Week 8 taught three disciplines that matter immediately here. First, inequality 
 
 That sharper question is difficult because observed gaps mix many channels. Group differences in labor outcomes can reflect pre-market skill accumulation, endogenous schooling responses, occupational steering, employer tastes, employer beliefs under imperfect information, unequal access to search networks, and differential assignment across firms, occupations, tasks, and places [@becker1957; @phelps1972; @arrow1973]. The field's core challenge is therefore conceptual and empirical at once. Students must separate gaps from treatment, beliefs from preferences, and within-firm wedges from between-firm allocation.
 
-:::{admonition} Core Material
-:class: tip
-- a raw gap is an outcome object, not yet a discrimination object
-- discrimination mechanisms can generate similar reduced-form patterns
-- controls can help or hurt depending on whether they are pre-treatment or post-treatment
-- sorting and segmentation belong inside the discrimination architecture, not outside it
-:::
 
 :::{admonition} Optional Extension Block
 :class: note
@@ -215,7 +218,7 @@ Equations {eq}`eq-week9-raw-gap`, {eq}`eq-week9-conditional-gap`, and {eq}`eq-we
 
 Equation {eq}`eq-week9-audit` gives a sharp experimental object at the callback stage. Equation {eq}`eq-week9-sorting` extends the conversation from direct treatment to equilibrium allocation. Modern firm-level report-card work sits between these objects: it keeps the treatment logic of audits while asking how discrimination varies across firms and how precisely those differences can be estimated [@bertrandMullainathan2004; @klineRoseWalters2024].
 
-## Reading ladder
+## Reading Ladder And References
 
 ### Bridge
 
@@ -235,7 +238,7 @@ Equation {eq}`eq-week9-audit` gives a sharp experimental object at the callback 
 - Kline, Rose, and Walters on employer discrimination report cards and ranking uncertainty [@klineRoseWalters2024]
 - Hurst, Rubinstein, and Shimizu on task-based discrimination and equilibrium occupational assignment [@hurstRubinsteinShimizu2024]
 
-## Exercises / discussion prompts
+## Exercises And Discussion Prompts
 
 1. Why does Equation {eq}`eq-week9-raw-gap` not identify discrimination by itself?
 2. Give one example of a control variable that may be pre-treatment and one that may be post-treatment in a wage-gap regression.
@@ -248,10 +251,14 @@ Equation {eq}`eq-week9-audit` gives a sharp experimental object at the callback 
 9. Which concepts from Week 8 inequality are necessary before a student can interpret Week 9 discrimination evidence carefully?
 10. Why is Week 10 mobility partly about movement across an opportunity set that Week 9 shows may already be segmented?
 
-## Reproducibility or code lab note
+## Reproducibility And Code Lab Note
 
 The Week 9 lab uses a bounded local workflow rather than a literal field-experiment replication. Students first reproduce callback-gap summaries from a synthetic correspondence-study dataset in the spirit of [@bertrandMullainathan2004], then diagnose what that treatment effect does and does not identify, and finally transfer the logic to firm-level discrimination report cards in the spirit of [@klineRoseWalters2024]. The student-facing workflow is documented in [labs/09-discrimination-measurement-and-sorting/lab.md](labs/09-discrimination-measurement-and-sorting/lab.md).
 
-## Slide companion note
+## Slide Companion Note
 
 The Week 9 deck should isolate the chapter's architecture rather than reproduce its prose. It should start from the Week 8 inequality bridge, define the difference between gaps and discrimination objects, contrast taste-based and statistical-discrimination mechanisms, warn about bad controls, show the logic of audit identification, keep sorting and segmentation inside the discrimination lecture, and end by bridging to Week 10 mobility. The canonical source is [slides/week9/09-discrimination-measurement-and-sorting.tex](slides/week9/09-discrimination-measurement-and-sorting.tex).
+
+## Bridge Forward
+
+Use this closing bridge to carry the module's labor object, mechanism, and evidence into the next course step or research-design exercise.

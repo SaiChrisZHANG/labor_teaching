@@ -5,7 +5,7 @@ bibliography:
 
 # Personnel Economics and Internal Labor Markets
 
-## Learning objectives
+## Learning Objectives
 
 By the end of Week 3, students should be able to:
 
@@ -17,7 +17,18 @@ By the end of Week 3, students should be able to:
 6. evaluate personnel-economics evidence by naming the identifying variation, unit of observation, observed outcome margin, and external-validity caveat;
 7. connect internal labor markets to current frontier questions on managers, remote work, worker voice, digital traces, AI, training, and within-firm inequality.
 
+## Opening Orientation
+
 The Week 3 economic question is direct: once the firm has chosen how much labor to employ and how quickly to adjust, how should it organize, motivate, evaluate, assign, promote, and retain workers inside the firm?
+
+:::{admonition} Core materials
+:class: tip
+- personnel economics is labor economics inside firms rather than a separate management topic
+- incentives, selection, assignment, promotion, management, and teams are distinct internal labor margins
+- internal practices affect both productivity and the allocation of workers inside the firm
+- modern personnel evidence has to name the unit, observed margin, identifying variation, and external-validity limit
+- Week 3 bridges dynamic firm choices to market-wide search and turnover
+:::
 
 ## Bridge
 
@@ -43,20 +54,6 @@ Personnel economics sits between labor-demand choice and market-wide worker flow
 ```
 
 Figure {numref}`fig-lii-w3-course-map` and Table {numref}`tbl:personnel-map-week3` together give the conceptual map students need at the start of the week. Personnel economics studies how internal practices shape productivity and worker outcomes, while the rest of Labor II studies how those internal choices interact with outside options, market frictions, and institutions.
-
-:::{admonition} Core Material
-:class: tip
-- personnel economics is labor economics inside firms rather than a separate management topic
-- incentives, selection, assignment, promotion, management, and teams are distinct internal labor margins
-- internal practices affect both productivity and the allocation of workers inside the firm
-- modern personnel evidence has to name the unit, observed margin, identifying variation, and external-validity limit
-- Week 3 bridges dynamic firm choices to market-wide search and turnover
-:::
-
-:::{admonition} Optional Extension Block
-:class: note
-- the Research Lab below surfaces frontier directions on managers, remote and hybrid work, worker voice, training, algorithmic management, and AI
-:::
 
 ## Field Core
 
@@ -226,7 +223,7 @@ Week 3 requires more identification discipline than students often expect from a
 7. Internal policy variation versus public policy that changes workplace practices: an internal evaluation reform and a public worker-voice mandate can both affect promotions or retention, but the latter often bundles institutional channels beyond the firm.
 8. External-validity reporting: every empirical result in personnel economics should state the identifying variation, unit of analysis, observed outcome margin, and main reason transportability may fail.
 
-## Reading ladder
+## Reading Ladder And References
 
 ### Bridge
 
@@ -247,7 +244,7 @@ Week 3 requires more identification discipline than students often expect from a
 - [@emanuelHarrington2024] for remote work with explicit selection-versus-treatment discipline.
 - [@harjuJagerSchoefer2025] for worker voice and internal governance as a personnel-economics object.
 
-## Exercises / discussion prompts
+## Exercises And Discussion Prompts
 
 1. Use Equations {eq}`eq-lii-w3-effort` and {eq}`eq-lii-w3-multitask` to explain why high-powered incentives can raise measured performance while lowering firm value.
 2. Why is a promotion tournament potentially useful even if the firm knows that current job performance is an imperfect predictor of managerial quality?
@@ -256,10 +253,14 @@ Week 3 requires more identification discipline than students often expect from a
 5. Why is [@emanuelHarrington2024] a remote-work paper for Week 3 rather than only a labor-supply or amenity paper?
 6. Pick one row from Table {numref}`tbl:frontier-opportunities-week3` and propose a credible quasi-experimental design, naming the treatment, unit, outcome margin, and main external-validity concern.
 
-## Reproducibility or code lab note
+## Reproducibility And Code Lab Note
 
 The Week 3 lab follows the standard `Reproduce -> Diagnose -> Transfer` structure. The bounded reproduction path uses a local synthetic team-level dataset inspired by [@friebelHeinzKruegerZubanov2017] so students can estimate a compact team-incentive effect without confidential data. The diagnose step forces them to separate effort effects from selection or sorting claims. The transfer step uses a synthetic promotion dataset tied to [@bensonLiShue2019] so students can study assignment-versus-incentive tradeoffs, while [@emanuelHarrington2024] serves as the optional extension on selection versus treatment in remote-work settings. The local handout lives at [labs/03-personnel-economics-and-internal-labor-markets/lab.md](labs/03-personnel-economics-and-internal-labor-markets/lab.md).
 
-## Slide companion note
+## Slide Companion Note
 
 The slide deck at [slides/week3/03-personnel-economics-and-internal-labor-markets.tex](slides/week3/03-personnel-economics-and-internal-labor-markets.tex) should stay tighter than the chapter: course positioning, the Week 2 to Week 3 bridge, the personnel-economics map, agency and compensation, multitasking and subjective evaluation, promotions and assignment, managers and peers, data and external validity, frontier extensions, and the bridge to Week 4 search and turnover.
+
+## Bridge Forward
+
+Use this closing bridge to carry the module's labor object, mechanism, and evidence into the next course step or research-design exercise.

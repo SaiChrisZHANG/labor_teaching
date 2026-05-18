@@ -10,6 +10,8 @@ By the end of Week 10, students should be able to:
 4. decide when reduced-form evidence is enough and when structural or calibrated welfare analysis is needed;
 5. translate earlier course themes into a credible mini research-design memo.
 
+## Opening Orientation
+
 Week 10 asks the capstone question: how do we translate behavioral labor ideas into welfare-relevant, empirically credible, frontier research projects?
 
 This is not a recap week. The course has already introduced worker-side frictions, workplace behavior, identity and norms, policy design, firm response, and behavioral identification. The remaining task is synthesis under research discipline. A strong behavioral-labor project does not stop at an anomaly, an information treatment, or a significant coefficient. It connects a labor-market margin to a behavioral wedge, embeds that wedge in an institution or market, identifies the object being estimated, and states what follows for welfare, policy, or equilibrium interpretation.
@@ -262,7 +264,7 @@ The bounded local lab generates an anchor menu, a selected-anchor diagnostic tab
 
 ## Methods Box
 
-:::{admonition} Methods box: matching setting to estimand
+:::{admonition} Methods Box: matching setting to estimand
 :class: note
 
 **Start with the object, not the estimator.** A field experiment identifies a treatment effect if the treatment is well defined. It identifies a behavioral parameter only with additional measurement or model structure.
@@ -279,7 +281,7 @@ The bounded local lab generates an anchor menu, a selected-anchor diagnostic tab
 
 :::
 
-## Reading Ladder
+## Reading Ladder And References
 
 **Field framing.** Start with [@dellaVigna2009] for field evidence in psychology and economics, [@chetty2015] for a pragmatic public-policy perspective, and [@bernheimTaubinsky2018] for behavioral public economics and welfare.
 
@@ -306,6 +308,6 @@ The Week 10 lab is local and memo-first. It does not require confidential data o
 
 The Week 10 slide deck should work as a capstone studio deck rather than a duplicate of the chapter. It should show the course architecture, define what counts as a behavioral-labor contribution, isolate welfare and interpretation issues, map settings to methods, identify when reduced-form evidence is enough, surface frontier project families, diagnose common failure modes, and end with a research memo template.
 
-## Forward Bridge
+## Bridge Forward
 
 Behavioral Labor ends by opening outward. The next step is not to know every paper in the field. It is to see how a project can become credible: choose a labor margin, name the wedge, understand the institution, find variation, match the method to the estimand, state the welfare benchmark, and say what remains unresolved. That is how a course topic becomes a dissertation-quality question.

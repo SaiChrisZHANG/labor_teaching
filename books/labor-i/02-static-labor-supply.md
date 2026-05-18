@@ -5,7 +5,7 @@ bibliography:
 
 # Static Labor Supply
 
-## Learning objectives
+## Learning Objectives
 
 By the end of Week 2, students should be able to:
 
@@ -16,15 +16,11 @@ By the end of Week 2, students should be able to:
 5. interpret the EITC evidence as evidence about margins, information, and schedule geometry rather than as a single elasticity estimate;
 6. connect the static benchmark back to Week 1 measurement objects and forward to Weeks 3, 11, and 12.
 
+## Opening Orientation
+
 The economic question for the week is direct: once wages, taxes, transfers, and work costs are taken seriously, how do workers choose whether and how much to work in a static environment?
 
-## Bridge
-
-Week 1 gave us the empirical objects: participation, hours, earnings, and tax-adjusted incentives. Week 2 gives the first formal benchmark for organizing those objects. The static labor-supply model remains indispensable because it is the cleanest map from a policy wedge into behavioral predictions. When the after-tax return to work changes, the benchmark tells us where to look first: entry into work, hours conditional on work, or both.
-
-The benchmark is intentionally narrow. It takes wages and the tax-transfer schedule as given. It abstracts from savings, learning, and dynamic adjustment. That narrowness is a feature before it becomes a limitation. It lets us say clearly what the theory predicts before later weeks add intertemporal substitution, persistence, and informational frictions. In that sense, static labor supply is the worker-side analogue of Week 1 measurement discipline: a minimal object that later extensions must respect rather than bypass.
-
-:::{admonition} Core Material
+:::{admonition} Core materials
 :class: tip
 - the static benchmark maps after-tax incentives into labor-supply behavior
 - intensive-margin hours responses and extensive-margin participation responses are different objects
@@ -32,6 +28,13 @@ The benchmark is intentionally narrow. It takes wages and the tax-transfer sched
 - fixed work costs and benefit loss make participation central rather than exceptional
 - the EITC is the main applied bridge from geometry to evidence
 :::
+
+## Bridge
+
+Week 1 gave us the empirical objects: participation, hours, earnings, and tax-adjusted incentives. Week 2 gives the first formal benchmark for organizing those objects. The static labor-supply model remains indispensable because it is the cleanest map from a policy wedge into behavioral predictions. When the after-tax return to work changes, the benchmark tells us where to look first: entry into work, hours conditional on work, or both.
+
+The benchmark is intentionally narrow. It takes wages and the tax-transfer schedule as given. It abstracts from savings, learning, and dynamic adjustment. That narrowness is a feature before it becomes a limitation. It lets us say clearly what the theory predicts before later weeks add intertemporal substitution, persistence, and informational frictions. In that sense, static labor supply is the worker-side analogue of Week 1 measurement discipline: a minimal object that later extensions must respect rather than bypass.
+
 
 ### The static benchmark
 
@@ -142,7 +145,7 @@ Week 2 uses a simple translation rule from theory to empirical design.
 
 The point is to keep Equations {eq}`eq-week2-static-problem`, {eq}`eq-week2-foc`, and {eq}`eq-week2-participation` tied to data rather than leaving them as pure diagrammatic intuition.
 
-## Reading ladder
+## Reading Ladder And References
 
 ### Bridge
 
@@ -162,7 +165,7 @@ The point is to keep Equations {eq}`eq-week2-static-problem`, {eq}`eq-week2-foc`
 - Chetty, Friedman, and Saez on knowledge frictions and EITC responses [@chettyFriedmanSaez2013]
 - Optional structural extensions on work costs and piecewise-linear budgets [@heimMeyer2004; @fullertonGan2004]
 
-## Exercises / discussion prompts
+## Exercises And Discussion Prompts
 
 1. Use Equations {eq}`eq-week2-foc` and {eq}`eq-week2-participation` to explain why the same policy can generate small hours responses but large participation responses.
 2. In Figure {numref}`fig-week2-eitc-schematic`, which region of the schedule is most naturally associated with entry into work, and which region is most naturally associated with hours adjustment? Defend your answer.
@@ -170,10 +173,14 @@ The point is to keep Equations {eq}`eq-week2-static-problem`, {eq}`eq-week2-foc`
 4. Eissa and Hoynes show that married-couple responses need not match single-mother responses. Which object in the static model is doing the work?
 5. If bunching is weak in a setting with strong formal incentives, what are the leading interpretations before concluding that labor supply is inelastic?
 
-## Reproducibility or code lab note
+## Reproducibility And Code Lab Note
 
 The Week 2 lab is built around a bounded teaching path for [@saez2010]. Students reproduce a stylized bunching figure using the local synthetic dataset and the Python scripts in `labs/02-static-labor-supply/src/`, then transfer the same workflow to an alternative subgroup or bin-width choice. The full official AEA replication package remains the intellectual benchmark, but the bounded path deliberately avoids requiring the full external package for the smoke test. The lab note at [labs/02-static-labor-supply/lab.md](labs/02-static-labor-supply/lab.md) documents the exact external files still needed for a closer reproduction using the official materials.
 
-## Slide companion note
+## Slide Companion Note
 
 The slide deck should isolate the benchmark problem, the margin decomposition, the nonlinear-budget geometry, and the empirical EITC lessons without turning the chapter into text-heavy slides. The deck at [slides/week2/02-static-labor-supply.tex](slides/week2/02-static-labor-supply.tex) therefore focuses on Equations {eq}`eq-week2-static-problem` through {eq}`eq-week2-participation`, Figures {numref}`fig-week2-budget-sets` and {numref}`fig-week2-eitc-schematic`, the elasticity taxonomy, and the forward link to Weeks 3, 11, and 12.
+
+## Bridge Forward
+
+Use this closing bridge to carry the module's labor object, mechanism, and evidence into the next course step or research-design exercise.

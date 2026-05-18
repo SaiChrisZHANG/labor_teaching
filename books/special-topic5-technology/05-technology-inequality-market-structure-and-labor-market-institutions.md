@@ -148,7 +148,23 @@ AI also raises a frontier infrastructure question. Compute-intensive AI can shif
 
 The empirical frontier is still unsettled. A careful labor paper should avoid claiming that AI infrastructure has already transformed labor markets everywhere. It should instead ask which regions receive investment, which workers are hired during construction and operation, which sectors face electricity scarcity or price changes, which countries specialize in digital services, and how those shifts interact with local institutions.
 
-### Methods And Data Layer
+## Research Lab
+
+The Week 5 research lab follows **Reproduce -> Diagnose -> Transfer**.
+
+The primary anchor is Autor, Dorn, Katz, Patterson, and Van Reenen's market-level design linking labor share and superstar firms [@autorDornKatzPattersonVanReenen2020]. It is the cleanest anchor for this week because it connects technological change, concentration, market share reallocation, and labor-market incidence in one empirical frame.
+
+The challenge and extension anchor is Ding, Fort, Michaels, Morrow, and Schott on structural change within versus across firms [@dingFortMichaelsMorrowSchott2022]. It pushes the lab from concentration and labor share toward structural change, service reallocation, and the organization of knowledge work. A second transfer option is Cirera, Comin, Cruz, Lee, and Martins on technology sophistication across establishments, which is useful when students want a development setting [@cireraCominCruzLeeMartins2024].
+
+The lab should not claim to replicate official estimates unless the needed data and code are locally available. No confidential firm microdata, official Economic Census files, Compustat extracts, establishment technology surveys, or official replication packages are bundled in this repository. The teaching path uses deterministic synthetic data to practice the design logic.
+
+**Reproduce.** Students construct a small industry-firm panel with market share, labor share, productivity, intangible intensity, and technology intensity. They reproduce the structure of a concentration and labor-share decomposition: aggregate labor share falls when market share reallocates toward low-labor-share, high-productivity, technology-intensive firms.
+
+**Diagnose.** Students diagnose what the decomposition identifies. They ask whether technology is measured directly or inferred from firm outcomes, whether concentration is product-market or labor-market concentration, whether wage-setting power is visible, whether labor share captures worker welfare, and whether institutions alter incidence.
+
+**Transfer.** Students transfer the logic to structural change and global evidence. They compare employment reallocation with job-quality reallocation across agriculture, manufacturing, formal services, informal services, and knowledge services. Then they add a frontier AI scenario in which data-center and electricity demand affect local labor markets and outsourced service channels.
+
+## Methods Box
 
 ```{include} assets/tables/05-methods-and-data-map.md
 ```
@@ -175,22 +191,6 @@ The empirical frontier is still unsettled. A careful labor paper should avoid cl
 A strong design should state the technology measure, the incidence unit, the relevant market, the worker outcome, the institutional mediator, and the counterfactual. It should also say whether the evidence captures technology directly or infers it from firm growth, concentration, or sectoral change.
 
 :::
-
-## Research Lab
-
-The Week 5 research lab follows **Reproduce -> Diagnose -> Transfer**.
-
-The primary anchor is Autor, Dorn, Katz, Patterson, and Van Reenen's market-level design linking labor share and superstar firms [@autorDornKatzPattersonVanReenen2020]. It is the cleanest anchor for this week because it connects technological change, concentration, market share reallocation, and labor-market incidence in one empirical frame.
-
-The challenge and extension anchor is Ding, Fort, Michaels, Morrow, and Schott on structural change within versus across firms [@dingFortMichaelsMorrowSchott2022]. It pushes the lab from concentration and labor share toward structural change, service reallocation, and the organization of knowledge work. A second transfer option is Cirera, Comin, Cruz, Lee, and Martins on technology sophistication across establishments, which is useful when students want a development setting [@cireraCominCruzLeeMartins2024].
-
-The lab should not claim to replicate official estimates unless the needed data and code are locally available. No confidential firm microdata, official Economic Census files, Compustat extracts, establishment technology surveys, or official replication packages are bundled in this repository. The teaching path uses deterministic synthetic data to practice the design logic.
-
-**Reproduce.** Students construct a small industry-firm panel with market share, labor share, productivity, intangible intensity, and technology intensity. They reproduce the structure of a concentration and labor-share decomposition: aggregate labor share falls when market share reallocates toward low-labor-share, high-productivity, technology-intensive firms.
-
-**Diagnose.** Students diagnose what the decomposition identifies. They ask whether technology is measured directly or inferred from firm outcomes, whether concentration is product-market or labor-market concentration, whether wage-setting power is visible, whether labor share captures worker welfare, and whether institutions alter incidence.
-
-**Transfer.** Students transfer the logic to structural change and global evidence. They compare employment reallocation with job-quality reallocation across agriculture, manufacturing, formal services, informal services, and knowledge services. Then they add a frontier AI scenario in which data-center and electricity demand affect local labor markets and outsourced service channels.
 
 ## Reading Ladder And References
 

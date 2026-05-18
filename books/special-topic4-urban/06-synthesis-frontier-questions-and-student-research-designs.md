@@ -268,3 +268,7 @@ The Week 6 slide deck lives at `slides/week6/06-synthesis-frontier-questions-and
 Urban labor economics is strongest when it turns space into a disciplined labor mechanism. The next wave of research will not only ask whether cities are productive, expensive, segregated, risky, or changing. It will ask how those facts alter the feasible set for work, how workers and firms adjust, who captures the gains, who bears the costs, and whether a place-specific design reveals a mechanism that travels.
 
 For student projects, the bar is simple and high: start from work, name the spatial mechanism, build the counterfactual, trace incidence, and make the welfare object visible.
+
+## Bridge Forward
+
+Use this closing bridge to carry the module's labor object, mechanism, and evidence into the next course step or research-design exercise.

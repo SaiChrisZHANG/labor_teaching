@@ -26,6 +26,10 @@ By the end of Week 6, students should be able to:
 5. read policy papers by naming the treatment, treated unit, comparison group, margin, likely incidence, and mechanism claim;
 6. design a research project that uses policy variation to identify a gendered labor-market mechanism without confusing policy evaluation with mechanism identification.
 
+## Opening Orientation
+
+This module orients the economic question, the labor-market object, and the empirical design issues before the layered sections begin.
+
 ## Bridge
 
 Weeks 2 through 5 built the mechanisms that Week 6 now stress-tests. Week 2 showed that paid work is embedded in household production, care allocation, fertility timing, and bargaining. Week 3 showed that early choices, skills, aspirations, information, and occupational sorting shape the feasible set before workers reach firms. Week 4 moved inside organizations, where hiring, supervision, task allocation, pay-setting, promotion, authority, retention, and workplace conditions convert worker characteristics into careers. Week 5 added norms, identity, bargaining, and institutions: the social rules and expectations that can survive even when prices or formal laws change.

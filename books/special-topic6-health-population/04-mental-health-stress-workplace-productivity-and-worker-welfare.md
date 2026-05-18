@@ -13,7 +13,7 @@ By the end of Week 4, students should be able to:
 
 The central question is this: how do mental health and stress affect productivity, job quality, retention, and welfare inside labor markets?
 
-## Opening Orientation / Why This Week Matters
+## Opening Orientation
 
 Mental health enters labor markets through multiple margins at once. Depression, anxiety, stress, pain, and substance use can affect attendance, concentration, interpersonal functioning, safety, effort, job search, treatment seeking, disclosure, and the value of work itself. A worker may remain employed while losing productivity through presenteeism, missing work through episodic symptoms, avoiding promotion because the job requires more conflict or monitoring, or quitting a job that worsens distress. Firms may observe only fragments of this process: absences, mistakes, performance ratings, accommodation requests, turnover, or claims.
 

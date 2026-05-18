@@ -10,6 +10,8 @@ By the end of Week 2, students should be able to:
 4. analyze enforcement and state capacity as institutions that shape wages, employment, job quality, formalization, and sorting;
 5. evaluate empirical designs by naming whether the identifying variation isolates legal rules, enforcement, knowledge, or effective compliance.
 
+## Opening Orientation
+
 Week 2 asks when labor laws alter wages, employment, job quality, and worker protection, and when they remain only rules on paper. The answer is not found in doctrine alone. Labor law matters for labor economics when it changes feasible contracts, dismissal costs, wage and hour compliance, mandated benefits, bargaining positions, complaint behavior, firm observability, and the formal-informal boundary.
 
 The central object is therefore a chain: legal protection on paper, expected enforcement, worker and firm knowledge, realized compliance, firm adaptation, and labor-market incidence. MacLeod's contract framework is the conceptual anchor because employment law changes what promises can be made credible inside the employment relationship [@macleod2011]. Autor, Donohue, and Schwab show how court-made dismissal protections can be used as empirical variation in labor outcomes [@autorDonohueSchwab2004]. Almeida and Carneiro show why enforcement intensity is a treatment in its own right when informality is an equilibrium margin [@almeidaCarneiro2012]. Bertrand and Crepon show that knowledge of labor law can be a separate implementation margin even when the statute already exists [@bertrandCrepon2021].

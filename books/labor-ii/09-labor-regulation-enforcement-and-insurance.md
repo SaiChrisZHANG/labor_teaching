@@ -5,7 +5,7 @@ bibliography:
 
 # Labor Regulation, Enforcement, and Insurance
 
-## Learning objectives
+## Learning Objectives
 
 By the end of Week 9, students should be able to:
 
@@ -24,6 +24,19 @@ The economic question for Week 9 is not whether regulation is generically pro-wo
 2. How do regulations affect both sides of the labor market, and what key equilibrium effects matter?
 3. Empirically, how effective are regulations once enforcement, spillovers, and inequality implications are considered?
 4. What are the welfare implications?
+
+## Opening Orientation
+
+This module orients the economic question, the labor-market object, and the empirical design issues before the layered sections begin.
+
+:::{admonition} Core materials
+:class: tip
+- labor regulation is easiest to study through wedges, margins, and the directly treated side of the market
+- regulation on the books is different from effective regulation once enforcement and compliance matter
+- worker-targeted, firm-targeted, and regulator-targeted policies operate through different channels
+- spillovers, uncovered sectors, informality, and price incidence are part of the object rather than afterthoughts
+- welfare interpretation requires naming the benchmark before reading results
+:::
 
 ## Bridge
 
@@ -58,20 +71,6 @@ Week 9 organizes labor regulation by targeted margin, directly treated side, imp
 ```
 
 Figure {numref}`fig-lii-w9-taxonomy` is the conceptual front door to the chapter. It makes clear why Week 9 belongs between the bargaining weeks and the aggregate-adjustment weeks: regulations are neither purely contractual nor purely macro, but they shape both.
-
-:::{admonition} Core Material
-:class: tip
-- labor regulation is easiest to study through wedges, margins, and the directly treated side of the market
-- regulation on the books is different from effective regulation once enforcement and compliance matter
-- worker-targeted, firm-targeted, and regulator-targeted policies operate through different channels
-- spillovers, uncovered sectors, informality, and price incidence are part of the object rather than afterthoughts
-- welfare interpretation requires naming the benchmark before reading results
-:::
-
-:::{admonition} Optional Extension Block
-:class: note
-- the Research Lab below extends the chapter toward implementation, equilibrium spillovers, and uncovered-margin questions
-:::
 
 ## Field Core
 
@@ -252,7 +251,7 @@ Week 9 only works if the objects stay separate.
 8. Disagreement across papers often reflects different regulations, enforcement regimes, uncovered margins, equilibrium assumptions, and welfare criteria rather than simple contradiction.
 9. Welfare evaluation should never be reduced to a single employment coefficient.
 
-## Reading ladder
+## Reading Ladder And References
 
 ### Ladder A. Framework and classification
 
@@ -276,7 +275,7 @@ Week 9 only works if the objects stay separate.
 - [@cullen2024PayTransparency] for information-based regulation and the wage-setting consequences of transparency.
 - Return to [@macleod2011GreatExpectations] after the empirical papers to reconnect evidence to contract theory.
 
-## Exercises / discussion prompts
+## Exercises And Discussion Prompts
 
 1. Use Equation {eq}`eq-lii-w9-wedge` to explain how the same regulation can lower wages, raise firm costs, and still increase worker welfare.
 2. Why does Equation {eq}`eq-lii-w9-effective` imply that two regions with the same labor law can have different treatment effects?
@@ -284,10 +283,14 @@ Week 9 only works if the objects stay separate.
 4. Take one paper from Week 9 and name its identifying variation, unit of observation, observed margin, and key unobserved object.
 5. Explain how disagreement across [@almeidaCarneiro2012], [@laliveLandaisZweimueller2015], and [@cullen2024PayTransparency] could arise even if all three papers are internally correct.
 
-## Reproducibility or code lab note
+## Reproducibility And Code Lab Note
 
 The bounded Week 9 lab is intentionally local and synthetic. Students reproduce an Almeida-Carneiro style enforcement panel, diagnose the difference between effective regulation and equilibrium insurance effects, and transfer the design to synthetic UI and formality-margin data. The lab is designed to run without confidential microdata while preserving the key Week 9 objects: enforcement, spillovers, uncovered margins, and welfare tradeoffs.
 
-## Slide companion note
+## Slide Companion Note
 
 The Week 9 slide deck lives at [slides/week9/09-labor-regulation-enforcement-and-insurance.tex](slides/week9/09-labor-regulation-enforcement-and-insurance.tex). It is slightly longer than a standard week because this lecture is the capstone of the policy block, but it is structured tightly around the taxonomy, implementation, equilibrium, empirical-design, and welfare questions introduced here.
+
+## Bridge Forward
+
+Use this closing bridge to carry the module's labor object, mechanism, and evidence into the next course step or research-design exercise.

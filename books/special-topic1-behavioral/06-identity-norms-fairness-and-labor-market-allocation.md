@@ -12,6 +12,8 @@ By the end of Week 6, students should be able to:
 6. classify evidence as treatment, sorting, transmission, or equilibrium cultural selection;
 7. design a bounded empirical diagnosis that names the behavioral object, labor margin, reference group, identifying variation, and interpretation.
 
+## Opening Orientation
+
 Week 6 asks how identity, norms, fairness concerns, peer pressure, and firm culture shape who works where, under what conditions, and with what response. The economic question is not whether social life matters. It is how social meaning enters labor choice, workplace behavior, and worker-firm matching in ways that change effort, satisfaction, quits, promotion, pay comparisons, and sorting.
 
 This week stays at the behavioral-labor and micro-norms level. It is about workers, teams, supervisors, firms, and near-market allocation. Labor law, state capacity, unions as political organizations, historical institutional change, and macro cultural persistence belong mainly in the political and cultural institutions course.
@@ -149,7 +151,7 @@ The bounded path runs locally without confidential employer data. It trains a ha
 
 ## Methods Box
 
-:::{admonition} Methods box: identifying identity, norms, fairness, and culture
+:::{admonition} Methods Box: identifying identity, norms, fairness, and culture
 :class: note
 
 **Field experiments on peer effects** vary coworker exposure, visibility, team composition, or scheduling. They are strongest when they can separate peer pressure from peer learning, common shocks, and mechanical productivity complementarities.
@@ -171,7 +173,7 @@ The bounded path runs locally without confidential employer data. It trains a ha
 
 Across all designs, do not present a result without naming the behavioral object, labor margin, social or reference group, identifying variation, and whether the effect is treatment, sorting, transmission, or equilibrium selection.
 
-## Reading Ladder
+## Reading Ladder And References
 
 **Core framing.** Start with [@akerlofKranton2005] for identity and organizations. Read it as a labor model of roles, norms, incentives, and self-image, not as a generic sociology add-on.
 

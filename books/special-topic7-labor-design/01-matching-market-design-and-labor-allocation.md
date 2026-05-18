@@ -12,7 +12,7 @@ By the end of Week 1, students should be able to:
 
 The central question is this: when do designed matching rules improve labor allocation relative to decentralized search and bargaining?
 
-## Opening Orientation / Why This Week Matters
+## Opening Orientation
 
 Labor economists often study markets that do not clear well through decentralized search, bilateral bargaining, and posted wages alone. In many professional entry markets, timing frictions, congestion, strategic early offers, and multidimensional preferences create systematic misallocation. Week 1 sets up the course by asking when explicit matching rules improve labor allocation relative to decentralized market interaction and how labor economists can turn these design questions into credible empirical research projects.
 

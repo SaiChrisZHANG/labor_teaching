@@ -200,7 +200,7 @@ The bounded local lab produces an anchor menu, a selected-anchor diagnostic tabl
 
 ## Methods Box
 
-:::{admonition} Methods box: when institutional detail is an advantage
+:::{admonition} Methods Box: when institutional detail is an advantage
 :class: note
 
 **Institutional detail is an advantage when it clarifies assignment, implementation, compliance, and mechanism.** A country, historical period, or legal regime is not narrow if it gives unusual leverage on a general labor question.
@@ -248,7 +248,7 @@ The Week 10 lab lives at `labs/10-synthesis-frontier-questions-and-student-resea
 
 The Week 10 slide deck lives at `slides/week10/10-synthesis-frontier-questions-and-student-research-designs.tex`. The deck is a capstone workshop: it frames the central question, maps the course, explains why institutions, culture, and history matter for labor economics now, gives a mechanism-first relevance defense, presents the research architecture, discusses portability and critique, surfaces frontier directions, and ends with a project memo template.
 
-## Closing Bridge To Dissertation-Quality Work
+## Bridge Forward
 
 The course ends by opening outward. A dissertation-quality institutions-and-labor project does not need to cover every institution, country, or historical episode. It needs a sharp labor outcome, a credible institutional mechanism, a comparison that teaches, data that see the relevant margin, and an interpretation that is honest about welfare and portability.
 

@@ -10,6 +10,8 @@ By the end of Week 3, students should be able to:
 4. explain why formal legal status and effective contract enforceability are different labor-market objects;
 5. evaluate empirical papers by naming the observed margin, the identifying variation, and whether the design identifies worker sorting, firm response, wage-setting, contract enforceability, formalization, or welfare.
 
+## Opening Orientation
+
 Week 3 asks how labor markets are organized when formal contracts, payroll systems, and legal protections cover only part of work. This is not a generic development-economics survey. The labor-market question is sharper: when a worker-firm match can be formal, informal, partially reported, or legally registered but weakly enforceable, which margins determine wages, benefits, mobility, productivity, risk, and worker welfare?
 
 Week 2 studied labor law, enforcement, and state capacity. Week 3 follows the same logic into informality. If enforcement is costly and selective, workers and firms do not simply comply or violate. They choose contract form, payroll reporting, benefit compliance, firm registration, self-employment, subcontracting, and scale. Informality is therefore a two-sided institutional equilibrium involving workers, employers, and the state.

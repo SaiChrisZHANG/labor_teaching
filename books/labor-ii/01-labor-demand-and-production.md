@@ -5,7 +5,7 @@ bibliography:
 
 # Labor Demand and Production
 
-## Learning objectives
+## Learning Objectives
 
 By the end of Week 1, students should be able to:
 
@@ -16,7 +16,18 @@ By the end of Week 1, students should be able to:
 5. map payroll-tax reforms, city-industry demand shocks, product-market cost shocks, and matched employer-employee rent-sharing designs into the margin each design identifies;
 6. connect static labor demand back to Labor I's worker-side objects and forward to Week 2 on adjustment costs.
 
+## Opening Orientation
+
 The economic question for the opening week of Labor II is direct: once firms transform inputs into output, how do wages, technology, factor substitution, labor's cost share, and product demand determine how much labor they want to hire?
+
+:::{admonition} Core materials
+:class: tip
+- labor demand is derived demand, so it depends on technology, substitution, and product demand
+- conditional labor demand and total labor demand are different objects
+- short-run and long-run elasticities answer different questions
+- the Hicks--Marshall logic organizes own-wage responses into scale and substitution components
+- empirical designs identify different labor-demand objects rather than one transportable elasticity
+:::
 
 ## Bridge
 
@@ -34,20 +45,6 @@ q = F(L,K;A),
 where {math}`L` is labor, {math}`K` is a second input, and {math}`A` indexes productivity. Equation {eq}`eq-lii-w1-production` is the bridge from Labor I to Labor II. Workers supplied labor in Labor I; firms now demand it because labor helps produce marketable output. Derived demand means labor demand cannot be interpreted without saying what technology looks like, what the firm can substitute toward, and how the product market absorbs cost shocks [@hicks1932; @hamermesh1993].
 
 The static benchmark already explains why this week matters for policy. Payroll taxes change labor costs, product-demand expansions change the scale of production, and technology changes can alter both marginal products and substitution possibilities. Later weeks will add wage-setting, search, bargaining, and institutions, but those mechanisms all sit on top of the benchmark derived-demand logic rather than replacing it.
-
-:::{admonition} Core Material
-:class: tip
-- labor demand is derived demand, so it depends on technology, substitution, and product demand
-- conditional labor demand and total labor demand are different objects
-- short-run and long-run elasticities answer different questions
-- the Hicks--Marshall logic organizes own-wage responses into scale and substitution components
-- empirical designs identify different labor-demand objects rather than one transportable elasticity
-:::
-
-:::{admonition} Optional Extension Block
-:class: note
-- the Research Lab below extends Week 1 toward rent sharing and product-market pass-through as bridges to Weeks 5 and 6
-:::
 
 ## Field Core
 
@@ -238,7 +235,7 @@ Week 1 uses one discipline repeatedly: name the variation, then name the margin.
 
 The practical rule is simple: do not report an empirical result without naming the identifying variation and the margin observed.
 
-## Reading ladder
+## Reading Ladder And References
 
 ### Bridge
 
@@ -256,7 +253,7 @@ The practical rule is simple: do not report an empirical result without naming t
 - [@buttersSacksSeo2022] for product-market absorption of local cost shocks.
 - [@cardCardosoHeiningKline2018] for firm rents, wage inequality, and the boundary between derived demand and surplus sharing.
 
-## Exercises / discussion prompts
+## Exercises And Discussion Prompts
 
 1. Use Equations {eq}`eq-lii-w1-conditional` and {eq}`eq-lii-w1-total` to explain why a payroll-tax estimate is not automatically a conditional labor-demand estimate.
 2. In Figure {numref}`fig-lii-w1-demand-curves`, what empirical design would come closest to tracing the conditional curve rather than the total curve?
@@ -264,10 +261,14 @@ The practical rule is simple: do not report an empirical result without naming t
 4. Beaudry, Green, and Sand and Saez, Schoefer, and Seim both study labor demand, but their identifying variation is different. Which margin is most naturally observed in each case?
 5. How would a strong matched employer-employee rent-sharing result change the way you interpret a simple static labor-demand benchmark?
 
-## Reproducibility or code lab note
+## Reproducibility And Code Lab Note
 
 The Week 1 lab follows the standard `Reproduce -> Diagnose -> Transfer` workflow. The bounded reproduction path uses a local synthetic city-industry panel inspired by [@beaudryGreenSand2018] so students can estimate a compact labor-demand relationship without confidential microdata. The diagnose step asks students to say clearly which object the local-demand design identifies and which margins it misses. The transfer step then uses a stylized payroll-tax scenario file to compare conditional and total labor-demand logic, with [@saezSchoeferSeim2019] as the challenge anchor and [@buttersSacksSeo2022] as the optional extension on product-market absorption. The local handout lives at [labs/01-labor-demand-and-production/lab.md](labs/01-labor-demand-and-production/lab.md).
 
-## Slide companion note
+## Slide Companion Note
 
 The slide deck at [slides/week1/01-labor-demand-and-production.tex](slides/week1/01-labor-demand-and-production.tex) should stay sharper than the chapter: central question, Labor I to Labor II bridge, the static firm problem, cost minimization, the scale/substitution decomposition, Hicks--Marshall laws, payroll-tax incidence, empirical design buckets, and the bridge to Week 2 on dynamic adjustment.
+
+## Bridge Forward
+
+Use this closing bridge to carry the module's labor object, mechanism, and evidence into the next course step or research-design exercise.

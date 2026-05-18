@@ -1,10 +1,6 @@
 # Assignment, Wages, Platforms, And Pricing Rules
 
-## Opening Orientation / Why This Week Matters
-
-Week 4 studies labor markets where assignment, pricing, and evaluation are not passive outcomes of decentralized search. They are designed by an intermediary, platform, employer, or public organization. Online labor markets, hiring platforms, app-based work, and structured wage systems make this visible: a rule determines who sees which jobs, which workers receive attention, how wages are displayed or negotiated, how quality is inferred, how work is monitored, and who bears demand risk.
-
-The central question is this: how do assignment algorithms, platform rules, and wage-setting systems shape labor allocation and worker welfare?
+## Learning Objectives
 
 By the end of the week, students should be able to:
 
@@ -13,6 +9,12 @@ By the end of the week, students should be able to:
 3. explain why platform rules can reduce information frictions while also shifting surplus or risk onto workers;
 4. translate algorithmic design questions into empirical labor papers with measurable margins and explicit counterfactual rules;
 5. design a bounded empirical exercise using randomized disclosure, ranking, guarantee, wage-rule, or platform-policy variation.
+
+## Opening Orientation
+
+Week 4 studies labor markets where assignment, pricing, and evaluation are not passive outcomes of decentralized search. They are designed by an intermediary, platform, employer, or public organization. Online labor markets, hiring platforms, app-based work, and structured wage systems make this visible: a rule determines who sees which jobs, which workers receive attention, how wages are displayed or negotiated, how quality is inferred, how work is monitored, and who bears demand risk.
+
+The central question is this: how do assignment algorithms, platform rules, and wage-setting systems shape labor allocation and worker welfare?
 
 :::{admonition} Core points
 :class: important

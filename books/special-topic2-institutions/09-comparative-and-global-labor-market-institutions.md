@@ -189,6 +189,6 @@ The Week 9 lab uses deterministic synthetic datasets. It does not use the origin
 
 The Week 9 slide deck lives at `slides/week9/09-comparative-and-global-labor-market-institutions.tex`. The deck defines the central question, distinguishes Week 9 from Week 8, presents the comparative taxonomy, covers welfare states, bargaining systems, informality, migration regimes, global supply chains, country-specific framing, critiques, portability, and the bridge to Week 10.
 
-## Bridge To Week 10
+## Bridge Forward
 
 Week 9 gives students the comparative vocabulary needed for synthesis. Week 10 turns the full course into research design. Students will choose a labor outcome, name the institutional mechanism, define the counterfactual, state the identifying variation, and explain what travels beyond the setting. Comparative discipline is the handoff: the final week asks students to use institutional detail without letting the setting swallow the labor question.

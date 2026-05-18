@@ -243,7 +243,7 @@ The deliverable is a short research memo that states the identifying variation, 
 
 ## Methods Box
 
-:::{admonition} Methods box: identifying equilibrium response to behavioral wedges
+:::{admonition} Methods Box: identifying equilibrium response to behavioral wedges
 :class: note
 
 **Default and menu designs** usually begin with worker-level contrasts in participation, contribution rates, or plan choice. Equilibrium interpretation requires evidence on why the menu or default was chosen and which workers remain passive.
@@ -260,7 +260,7 @@ Across all designs, name three margins separately: worker-level reduced-form eff
 
 :::
 
-## Reading Ladder / References
+## Reading Ladder And References
 
 **Core conceptual framing.** Start with [@gabaixLaibson2006] for shrouded attributes and why competition may not eliminate exploitation. Pair it with [@spiegler2015] for equilibrium effects of nudging.
 
@@ -288,6 +288,6 @@ The Week 8 lab uses deterministic synthetic data. It is a bounded teaching exerc
 
 The Week 8 slide deck should not duplicate the chapter. It should define the central question, show why worker-level wedges are insufficient, present the exploit / accommodate / insure / screen-sort taxonomy, develop the employer-sponsored benefits and plan-choice evidence, connect outside-option beliefs to segmentation, use firm messages to show sorting and search direction, summarize persistence conditions, distinguish partial from equilibrium welfare, and bridge directly to Week 9 policy design.
 
-## Bridge To Week 9 Policy
+## Bridge Forward
 
 Week 9 should begin from the conclusion of this week: behavioral policy is not designed for isolated workers. It is designed inside markets where firms choose menus, set defaults, communicate attributes, target workers, and adjust to disclosure or nudges. A policy that corrects a worker mistake in partial equilibrium may have different welfare effects once employer response, market segmentation, and incidence are on the page.

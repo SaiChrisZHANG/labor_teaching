@@ -12,6 +12,8 @@ By the end of Week 2, students should be able to:
 6. map childcare and care-policy evidence to the labor margin it identifies;
 7. explain why domestic responsibility allocation partly reflects gender norms and traditions without turning Week 2 into the norms lecture.
 
+## Opening Orientation
+
 Week 2 asks how care responsibilities, fertility, and household allocation shape labor supply and earnings trajectories. Week 1 taught students to name the labor-market object before naming the mechanism. This week applies that discipline to the household. Domestic work is not a residual category outside labor economics. It is a time-use, production, bargaining, and lifecycle allocation problem that changes who works, how much they work, which jobs are feasible, and how careers evolve.
 
 The key move is to place paid work inside a household and lifecycle setting. A first birth can move extensive-margin employment, intensive-margin hours, annual earnings, occupation, firm attachment, schedule choice, promotion timing, and job quality. A childcare policy can relax a time constraint, but it may also reallocate care within the household. A transfer can act like income, but its effect may depend on who controls it. These distinctions are why child penalties, causal fertility effects, childcare-policy estimates, and bargaining evidence are related but not interchangeable.

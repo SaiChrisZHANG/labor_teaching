@@ -27,6 +27,10 @@ By the end of this optional lecture, students should be able to:
 6. identify research opportunities where hidden harms, firm behavior, benefit design, and new data can make a frontier contribution;
 7. carry the lesson into the final synthesis week by writing a labor-focused research design with a clear mechanism, comparison group, and welfare object.
 
+## Opening Orientation
+
+This module orients the economic question, the labor-market object, and the empirical design issues before the layered sections begin.
+
 ## Bridge
 
 Weeks 1 through 9 built the course around labor-market margins rather than one wage-gap statistic. Week 1 clarified measurement. Weeks 2 and 3 studied household allocation, care, human capital, expectations, and occupational sorting. Week 4 moved inside firms. Week 5 studied norms, bargaining, and institutions. Week 6 treated policy as an intervention with incidence. Week 7 made safety and hidden harms part of labor-market access. Week 8 asked which mechanisms travel across settings. Week 9 asked how new data and measurement choices change what researchers can identify.
@@ -252,6 +256,6 @@ The optional LGBTQ+ lab lives at `labs/optional-lgbtq-identities-work-discrimina
 
 The slide deck lives under `slides/optional-lgbtq/`. The deck should not duplicate the chapter. It should define why LGBTQ+ labor research belongs in labor economics, bridge from Weeks 1 through 9, isolate measurement problems, compare evidence on earnings, hiring, climate, law, benefits, and transgender/nonbinary frontiers, and end with research opportunities and a bridge to the final synthesis lecture.
 
-## Forward Bridge To Final Synthesis
+## Bridge Forward
 
 The final synthesis lecture asks students to write credible research designs on gender and labor markets. This optional lecture makes the research-design problem sharper. A good project cannot say only "I study LGBTQ+ workers." It must say: here is the labor object, here is the identity measure, here is the observed margin, here is the identifying variation, here is the unobserved selection or hidden harm, and here is the welfare object. That is the bridge from an important topic to a publishable labor-economics design.

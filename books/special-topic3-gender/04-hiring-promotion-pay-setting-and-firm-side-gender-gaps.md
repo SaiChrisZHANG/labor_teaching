@@ -11,6 +11,8 @@ By the end of Week 4, students should be able to:
 5. compare audit or screening designs, personnel records, manager-assignment designs, matched employer-employee decompositions, policy reforms, and survey-linked administrative evidence;
 6. connect Week 4 backward to worker-side sorting from Week 3 and forward to norms in Week 5 and policy incidence in Week 6.
 
+## Opening Orientation
+
 Week 4 moves inside organizations. The central question is how firms and internal labor markets produce gender differences in pay, promotion, authority, and retention. The week is not a generic discrimination lecture. It treats firms as active institutions that decide who enters, what information is used in screening, which tasks are visible, who has access to managers, how potential is rated, which jobs carry authority, how wages are set, and who finds it costly to stay.
 
 The key discipline is to separate three channels. Workers may sort into firms and jobs with different wage premiums or career ladders. Conditional on entry, firms may treat workers differently through screening, evaluation, supervision, task assignment, networks, or promotion. Firms may also use pay-setting rules, bargaining procedures, transparency, and compliance practices that change how rents are divided. These channels interact, but they are not the same empirical object.

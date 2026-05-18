@@ -5,7 +5,7 @@ bibliography:
 
 # Labor Market Facts, Measurement, and Canonical Questions
 
-## Learning objectives
+## Learning Objectives
 
 By the end of Week 1, students should be able to:
 
@@ -15,7 +15,17 @@ By the end of Week 1, students should be able to:
 4. connect those facts to later modules on labor supply, human capital, households, discrimination, firms, frictions, and institutions;
 5. explain why careful description is part of the field's identification strategy rather than mere background.
 
+## Opening Orientation
+
 The economic question for the week is simple but foundational: which labor-market facts organize the rest of the labor sequence, and what measurement choices determine how those facts should be interpreted?
+
+:::{admonition} Core materials
+:class: tip
+- labor economics starts from measured objects before it moves to models
+- stocks versus flows, prices versus quantities, and worker versus firm outcomes are distinct objects
+- composition-adjusted changes answer a different question from level changes
+- descriptive measurement is part of identification discipline, not background summary
+:::
 
 ## Bridge
 
@@ -30,13 +40,6 @@ Four distinctions keep the week disciplined.
 
 The practical implication is that labor-market description is already theory-laden. A chapter that says "wages rose" before defining the sample, unit, and weighting rule has not yet said anything precise.
 
-:::{admonition} Core Material
-:class: tip
-- labor economics starts from measured objects before it moves to models
-- stocks versus flows, prices versus quantities, and worker versus firm outcomes are distinct objects
-- composition-adjusted changes answer a different question from level changes
-- descriptive measurement is part of identification discipline, not background summary
-:::
 
 ### What counts as a labor-market fact?
 
@@ -159,7 +162,7 @@ Week 1 introduces a workflow that will recur all semester.
 
 That workflow is why descriptive labor economics is part of identification. A weak definition of the outcome creates a weak empirical design no matter how sophisticated the later estimator appears.
 
-## Reading ladder
+## Reading Ladder And References
 
 ### Bridge
 
@@ -181,17 +184,21 @@ That workflow is why descriptive labor economics is part of identification. A we
 
 The local bibliography file is currently only a placeholder, so the chapter frontmatter points to the shared BibTeX location but formal citation rendering remains blocked until entries are populated there.
 
-## Exercises / discussion prompts
+## Exercises And Discussion Prompts
 
 1. Why is the employment-population ratio often more informative than the unemployment rate when participation is moving?
 2. Give one labor-market question for which weekly earnings are the wrong outcome and hourly wages are the right one.
 3. In Equation {eq}`eq-composition-decomposition`, describe one economic event that would primarily move the composition term and one that would primarily move the within-group term.
 4. Choose one Week 1 fact and explain what additional data would be needed to distinguish worker, firm, and institutional mechanisms.
 
-## Reproducibility or code lab note
+## Reproducibility And Code Lab Note
 
 The Week 1 lab is a reproduce-and-transfer exercise built around Daly and Hobijn's composition-adjustment logic. Students first reproduce a bounded descriptive result using the reduced pedagogical dataset and scripts in `labs/01-labor-market-facts/src/`. They then transfer the same accounting logic to one compact subgroup factbook. The key constraint is that the transfer exercise must preserve the Week 1 object definition rather than drift into an unrelated research project.
 
-## Slide companion note
+## Slide Companion Note
 
 The slide deck should do less than the chapter and do it more sharply. It should define the week's central question, show the measurement map, visualize labor-market status, present Equations {eq}`eq-labor-market-accounting` and {eq}`eq-composition-decomposition`, and end by showing where these objects return later in Labor I and Labor II.
+
+## Bridge Forward
+
+Use this closing bridge to carry the module's labor object, mechanism, and evidence into the next course step or research-design exercise.

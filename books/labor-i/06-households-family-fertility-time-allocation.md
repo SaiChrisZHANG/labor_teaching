@@ -5,7 +5,7 @@ bibliography:
 
 # Households, Family, Fertility, and Time Allocation
 
-## Learning objectives
+## Learning Objectives
 
 By the end of Week 6, students should be able to:
 
@@ -18,7 +18,18 @@ By the end of Week 6, students should be able to:
 7. map family policy into the margin it moves inside the household allocation problem;
 8. explain why Week 7 amenities and Week 8 inequality cannot be interpreted cleanly without household structure.
 
+## Opening Orientation
+
 The economic question for the week is direct: if Week 5 treated wages as market opportunities, how do households transform those opportunities into actual hours, earnings, and career paths once partners, children, and care demands enter the picture [@becker1965; @chiappori1992; @cortesPan2023]?
+
+:::{admonition} Core materials
+:class: tip
+- household production and the shadow value of care time
+- unitary versus collective models and what pooling restrictions imply
+- childbirth and fertility as dynamic labor-market shocks
+- IVF-based fertility designs versus first-birth event studies
+- policy incidence through childcare, schooling, leave, and outsourcing
+:::
 
 ## Bridge
 
@@ -46,14 +57,6 @@ Stylized household time allocation before and after childbirth. The point is not
 
 Figure {numref}`fig-week6-time` is the right opening picture because it makes clear that family formation changes the margin structure itself. The student should immediately see why household production belongs inside a labor field course rather than at its margins.
 
-:::{admonition} Core Material
-:class: tip
-- household production and the shadow value of care time
-- unitary versus collective models and what pooling restrictions imply
-- childbirth and fertility as dynamic labor-market shocks
-- IVF-based fertility designs versus first-birth event studies
-- policy incidence through childcare, schooling, leave, and outsourcing
-:::
 
 :::{admonition} Optional Extension Block
 :class: note
@@ -175,7 +178,7 @@ Week 6 adds one discipline to the worker-side models from Weeks 2--5: always sta
 4. Use Equation {eq}`eq-week6-eventstudy` to separate dynamic child penalties from one-period fertility effects.
 5. Before interpreting an observed earnings gap as a pure wage-market outcome, ask what portion is generated inside the family allocation problem.
 
-## Reading ladder
+## Reading Ladder And References
 
 ### Bridge
 
@@ -198,7 +201,7 @@ Week 6 adds one discipline to the worker-side models from Weeks 2--5: always sta
 - Bertrand, Kamenica, and Pan on relative income and household specialization [@bertrandKamenicaPan2015]
 - Kleven, Landais, Posch, Steinhauer, and Zweim{\"u}ller on long-run family-policy experimentation [@klevenLandaisPoschSteinhauerZweimueller2024]
 
-## Exercises / discussion prompts
+## Exercises And Discussion Prompts
 
 1. Use Equation {eq}`eq-week6-time` to explain why childcare expansions can shift labor supply even when wages are unchanged.
 2. In Equation {eq}`eq-week6-homeprod`, which comparative static captures the effect of a fall in the price of market substitutes {math}`p_x`, and which spouse is most likely to adjust on the market-work margin?
@@ -208,10 +211,14 @@ Week 6 adds one discipline to the worker-side models from Weeks 2--5: always sta
 6. Figure {numref}`fig-week6-child-penalty` shows a persistent post-birth earnings gap. Give two mechanisms inside the household allocation problem and two mechanisms inside the labor market that could generate that persistence.
 7. Why is Week 6 a necessary bridge from wage determination in Week 5 to job amenities in Week 7 and inequality in Week 8?
 
-## Reproducibility or code lab note
+## Reproducibility And Code Lab Note
 
 The Week 6 lab is organized around a bounded `Reproduce -> Diagnose -> Transfer` path that runs fully locally. Students reproduce one synthetic IVF-style fertility design in the spirit of [@lundborgPlugRasmussen2017], diagnose what the resulting first stage and Wald object do and do not identify about family labor supply, and then transfer the workflow to a synthetic first-birth event study in the spirit of [@klevenLandaisSogaard2019]. An optional extension asks how school entry, household-service outsourcing, or broad family-policy reform changes the same time-allocation problem. The bounded workflow is documented in [labs/06-households-family-fertility-time-allocation/lab.md](labs/06-households-family-fertility-time-allocation/lab.md).
 
-## Slide companion note
+## Slide Companion Note
 
 The Week 6 deck should isolate the move from individual labor supply to household allocation, the time-allocation and household-production objects, unitary versus collective models, fertility and childbirth as labor-market shocks, the child-penalty event-study figure, the two Week 6 tables, and the bridges to Week 7 amenities and Week 8 inequality rather than reproducing the chapter. The canonical source is [slides/week6/06-households-family-fertility-time-allocation.tex](slides/week6/06-households-family-fertility-time-allocation.tex).
+
+## Bridge Forward
+
+Use this closing bridge to carry the module's labor object, mechanism, and evidence into the next course step or research-design exercise.

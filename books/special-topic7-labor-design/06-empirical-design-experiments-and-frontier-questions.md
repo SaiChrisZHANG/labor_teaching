@@ -1,10 +1,6 @@
 # Empirical Design, Experiments, And Frontier Questions
 
-## Opening Orientation / Why This Week Matters
-
-Week 6 turns the course into a research-design capstone. The earlier weeks studied matching rules, recruiting timing, contracts, platform allocation, wage rules, and public-sector assignment as labor-market institutions. The final week asks how to evaluate these designs credibly enough to support a theory-backed applied paper.
-
-The central question is this: how can labor economists turn a design intervention into evidence about hiring, assignment, wages, effort, retention, worker-firm sorting, public staffing, and welfare?
+## Learning Objectives
 
 By the end of the week, students should be able to:
 
@@ -13,6 +9,12 @@ By the end of the week, students should be able to:
 3. compare field experiments, audits, institutional pilots, administrative data, platform data, and structural evaluation;
 4. diagnose equilibrium response, spillovers, and external-validity limits;
 5. outline a publishable applied labor-market design project with a clear theory backbone.
+
+## Opening Orientation
+
+Week 6 turns the course into a research-design capstone. The earlier weeks studied matching rules, recruiting timing, contracts, platform allocation, wage rules, and public-sector assignment as labor-market institutions. The final week asks how to evaluate these designs credibly enough to support a theory-backed applied paper.
+
+The central question is this: how can labor economists turn a design intervention into evidence about hiring, assignment, wages, effort, retention, worker-firm sorting, public staffing, and welfare?
 
 :::{admonition} Core points
 :class: important
@@ -158,7 +160,19 @@ For student projects, a useful one-page design memo has seven parts:
 6. the equilibrium or spillover threat;
 7. the reason the mechanism travels beyond the case.
 
-### Methods Box: Choosing The Empirical Strategy
+## Research Lab
+
+The Week 6 Research Lab follows **Reproduce -> Diagnose -> Transfer**. The primary anchor is Agarwal's empirical model of the medical match because it is central to empirical evaluation in labor-market design: the paper turns observed matching outcomes into counterfactual policy analysis [@agarwal2015]. The challenge anchor is Davis, Greenberg, and Jones on deferred acceptance in Army officer labor markets because it pushes the design conversation into experimental evaluation of a structured labor-market assignment mechanism [@davisGreenbergJones2026].
+
+The lab is not an official replication package for either paper. It uses deterministic synthetic teaching data to preserve the logic of matching, assignment, counterfactual welfare, and equilibrium diagnosis without claiming access to confidential residency, Army, platform, or public-sector data.
+
+**Reproduce.** Students recreate a reduced matching counterfactual inspired by the medical match anchor. The script compares a decentralized early-offer rule with a deferred-acceptance-style rule and summarizes preference rank, priority alignment, match quality, shortage-site staffing, and welfare components. The object is not the full structural model. It is the data object that makes counterfactual evaluation meaningful.
+
+**Diagnose.** Students classify what is identified directly and what remains latent: applicant preferences, program priorities, outside options, capacity constraints, strategic ranking, spillovers, and market-wide welfare. They then explain why an improvement in average assigned rank is not automatically a welfare improvement.
+
+**Transfer.** Students adapt the same architecture to one frontier setting: platform ranking, recruiting timing, pay transparency, internal assignment, teacher placement, public-service staffing, or AI-assisted screening. The transfer memo must name the rule, mechanism, labor object, counterfactual, likely spillovers, data requirement, and welfare object.
+
+## Methods Box
 
 :::{admonition} Methods Box: From Mechanism To Design
 :class: note
@@ -174,18 +188,6 @@ For student projects, a useful one-page design memo has seven parts:
 **Use structural evaluation when the counterfactual is unobserved.** Matching, assignment, and welfare counterfactuals often require modeling preferences, priorities, constraints, and equilibrium response.
 
 :::
-
-## Research Lab
-
-The Week 6 Research Lab follows **Reproduce -> Diagnose -> Transfer**. The primary anchor is Agarwal's empirical model of the medical match because it is central to empirical evaluation in labor-market design: the paper turns observed matching outcomes into counterfactual policy analysis [@agarwal2015]. The challenge anchor is Davis, Greenberg, and Jones on deferred acceptance in Army officer labor markets because it pushes the design conversation into experimental evaluation of a structured labor-market assignment mechanism [@davisGreenbergJones2026].
-
-The lab is not an official replication package for either paper. It uses deterministic synthetic teaching data to preserve the logic of matching, assignment, counterfactual welfare, and equilibrium diagnosis without claiming access to confidential residency, Army, platform, or public-sector data.
-
-**Reproduce.** Students recreate a reduced matching counterfactual inspired by the medical match anchor. The script compares a decentralized early-offer rule with a deferred-acceptance-style rule and summarizes preference rank, priority alignment, match quality, shortage-site staffing, and welfare components. The object is not the full structural model. It is the data object that makes counterfactual evaluation meaningful.
-
-**Diagnose.** Students classify what is identified directly and what remains latent: applicant preferences, program priorities, outside options, capacity constraints, strategic ranking, spillovers, and market-wide welfare. They then explain why an improvement in average assigned rank is not automatically a welfare improvement.
-
-**Transfer.** Students adapt the same architecture to one frontier setting: platform ranking, recruiting timing, pay transparency, internal assignment, teacher placement, public-service staffing, or AI-assisted screening. The transfer memo must name the rule, mechanism, labor object, counterfactual, likely spillovers, data requirement, and welfare object.
 
 ## Reading Ladder And References
 

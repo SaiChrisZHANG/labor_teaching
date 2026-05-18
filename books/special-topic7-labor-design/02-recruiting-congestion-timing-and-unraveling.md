@@ -12,7 +12,7 @@ By the end of Week 2, students should be able to:
 
 The central question is this: why do decentralized hiring markets often move too early, too fast, or too chaotically?
 
-## Opening Orientation / Why This Week Matters
+## Opening Orientation
 
 Week 1 asked why some labor markets use centralized matching rules. Week 2 studies the decentralized recruiting processes that make those rules attractive in the first place. The key idea is that many matching failures arise inside the recruiting process rather than from worker or firm fundamentals alone. Applications, interviews, signals, wage information, offer deadlines, and acceptances are organized over time; each stage can create strategic behavior and congestion before the final match is ever observed.
 

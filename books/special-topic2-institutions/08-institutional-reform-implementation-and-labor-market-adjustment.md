@@ -132,7 +132,7 @@ The lab lives at `labs/08-institutional-reform-implementation-and-labor-market-a
 
 Empirical reform papers should be read as estimates of a particular part of the transmission chain. A paper can be credible about the effect of legal-information treatment without identifying the effect of full legal enforcement. A threshold design can identify effects near the coverage cutoff without identifying economy-wide equilibrium effects. A local enforcement design can estimate compliance responses without measuring welfare for workers displaced to uncovered firms.
 
-:::{admonition} Methods box: empirical designs for institutional reform
+:::{admonition} Methods Box: empirical designs for institutional reform
 :class: note
 
 1. **Staggered adoption and event studies.** Use state, province, sector, or firm-level timing of reform adoption. The main risks are anticipatory behavior, heterogeneous treatment effects, and policy bundles.
@@ -182,6 +182,6 @@ The smoke test runs only this bounded path: build synthetic reform data, reprodu
 
 The Week 8 slide deck lives at `slides/week8/08-institutional-reform-implementation-and-labor-market-adjustment.tex`. The deck defines the central question, distinguishes Week 8 from Week 7, introduces the reform taxonomy and transmission framework, covers implementation, worker beliefs, firm adaptation, formalization, transparency, heterogeneity, welfare, and the bridge to Week 9.
 
-## Bridge To Weeks 9 And 10
+## Bridge Forward
 
 Week 8 studies how reforms work once they are implemented unevenly across workers, firms, and places. Week 9 moves to comparative and global labor-market institutions: which reform lessons travel across development settings, welfare states, informal economies, and global production systems? Week 10 then turns the whole course into research design: students will choose a labor outcome, name the institutional mechanism, define the counterfactual, and state what evidence would identify the effect.

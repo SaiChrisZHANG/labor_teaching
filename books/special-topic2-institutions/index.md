@@ -25,7 +25,7 @@ By the end of the course, students should be able to:
 
 This is a 10-week advanced special topic for PhD students and strong advanced MA students. It is organized as weekly modules rather than a general political-economy survey. The course is reading-heavy and research-oriented: each week centers on a labor-market question, one institutional mechanism, a set of empirical designs, and a discussion of what travels across settings.
 
-Future weekly chapters will follow the special-topics structure used across the portfolio: Bridge, Field Core, Research Lab, Methods Box, reading ladder, exercises or discussion prompts, reproducibility note, and slide companion note.
+Weekly chapters use the special-topics structure used across the portfolio: Bridge, Field Core, Research Lab, Methods Box, reading ladder, exercises or discussion prompts, reproducibility note, and slide companion note.
 
 ## Connection To Labor I And Labor II
 
@@ -44,7 +44,7 @@ The course is designed to sit after, not replace, the core labor sequence. Labor
 9. **[Comparative and Global Labor-Market Institutions](09-comparative-and-global-labor-market-institutions.md).** Students compare institutional models across development settings, welfare states, informal economies, and global production systems.
 10. **[Synthesis, Frontier Questions, and Student Research Designs](10-synthesis-frontier-questions-and-student-research-designs.md).** The course closes by turning institutional labor topics into disciplined research designs with clear outcomes, mechanisms, counterfactuals, and evidence.
 
-## Internal Roadmap
+## Course Map
 
 - **Foundational:** Week 1 defines the course scope and labor-market objects.
 - **Legal and institutional foundations:** Weeks 2 to 4 cover law, enforcement, informality, contract enforcement, worker voice, and collective bargaining.

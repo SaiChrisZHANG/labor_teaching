@@ -10,6 +10,8 @@ By the end of Week 9, students should be able to:
 4. choose empirical designs for information, simplification, default, learning, take-up, and welfare questions;
 5. diagnose when a behavioral policy claim is about behavior, implementation, equilibrium incidence, or welfare.
 
+## Opening Orientation
+
 Week 9 asks a policy-design question: how should labor-market policy be designed when workers do not always perceive incentives, understand eligibility, complete applications, learn rules quickly, or reveal welfare-relevant preferences through observed choices?
 
 This is not a generic public economics lecture and not a generic "nudges" lecture. The labor object is central. Tax credits operate through earnings and labor supply. Benefits operate through claiming and continued attachment. UI and job-search support operate through search, applications, and reemployment. Training policy operates through post-displacement investment. Retirement and work-linked saving operate through payroll systems and employer menus. Disability and Social Security rules operate through claiming, work incentives, and perceived schedules.
@@ -204,7 +206,7 @@ The bounded student path runs locally without confidential data. It trains stude
 
 ## Methods Box
 
-:::{admonition} Methods box: empirical designs for behavioral labor policy
+:::{admonition} Methods Box: empirical designs for behavioral labor policy
 :class: note
 
 **Information and reminder interventions** usually begin with randomized field experiments, OLS or ANCOVA, baseline knowledge measures, and heterogeneity by prior beliefs, expected gain, local knowledge, or administrative capacity.
@@ -223,7 +225,7 @@ The bounded student path runs locally without confidential data. It trains stude
 
 :::
 
-## Reading Ladder
+## Reading Ladder And References
 
 **Framing.** Start with [@chetty2015] for a pragmatic behavioral public-policy perspective and [@bernheimTaubinsky2018] for behavioral public economics and welfare questions.
 
@@ -251,3 +253,7 @@ The Week 9 lab uses deterministic synthetic data. It is a bounded teaching exerc
 ## Slide Companion Note
 
 The Week 9 slide deck should not duplicate the chapter. It should define the central question, show the six-role taxonomy, contrast standard and behavioral policy design, isolate take-up and learning margins, and flag intermediary and equilibrium response.
+
+## Bridge Forward
+
+Use this closing bridge to carry the module's labor object, mechanism, and evidence into the next course step or research-design exercise.

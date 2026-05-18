@@ -5,7 +5,7 @@ bibliography:
 
 # Trade, Offshoring, and Labor Market Adjustment
 
-## Learning objectives
+## Learning Objectives
 
 By the end of Week 12, students should be able to:
 
@@ -18,7 +18,18 @@ By the end of Week 12, students should be able to:
 7. connect reduced-form local-exposure evidence to structural and dynamic equilibrium approaches;
 8. bridge Week 11 technology shocks to Week 12 trade shocks and bridge forward to Week 13 synthesis.
 
+## Opening Orientation
+
 The economic question for Week 12 is explicit: how do trade and offshoring shocks transmit through workers, firms, sectors, and places, and what determines dislocation, reallocation, and welfare?
+
+:::{admonition} Core materials
+:class: tip
+- trade shocks reach labor markets through distinct channels such as import competition, export demand, offshoring, and input access
+- worker, firm, and place adjustment are different objects that can move on different horizons
+- local exposure is not the same object as worker-level treatment
+- structural change and welfare require more discipline than one reduced-form coefficient
+- Week 12 connects Labor II shock analysis to long-run reallocation
+:::
 
 ## Bridge
 
@@ -44,20 +55,6 @@ Week 12 organizes trade shocks as a channel map. Relative-price changes can move
 ```
 
 Figure {numref}`fig-lii-w12-channel-framework` previews the lecture structure. The key move is to map sectoral price and trade-cost changes into worker, firm, and place outcomes before making welfare statements.
-
-:::{admonition} Core Material
-:class: tip
-- trade shocks reach labor markets through distinct channels such as import competition, export demand, offshoring, and input access
-- worker, firm, and place adjustment are different objects that can move on different horizons
-- local exposure is not the same object as worker-level treatment
-- structural change and welfare require more discipline than one reduced-form coefficient
-- Week 12 connects Labor II shock analysis to long-run reallocation
-:::
-
-:::{admonition} Optional Extension Block
-:class: note
-- broader frontier questions are surfaced later in the chapter under `Global evidence and frontier directions`
-:::
 
 ## Field Core
 
@@ -250,7 +247,7 @@ Keep these distinctions explicit throughout the week.
 7. Local labor-market outcomes versus aggregate welfare statements: local incidence is not the same object as national gains or losses [@kimVogel2021TradeShocksLaborMarketAdjustment].
 8. Place effects versus worker losses: a region can partially recover even if initially displaced workers bear persistent losses, and worker recovery need not imply place recovery [@kovakMorrow2025LongRunCUSFTA].
 
-## Reading ladder
+## Reading Ladder And References
 
 ### Ladder A. Core channel map and local exposure logic
 
@@ -274,7 +271,7 @@ Keep these distinctions explicit throughout the week.
 - [@kovakMorrow2025LongRunCUSFTA]
 - Optional revisit: [@dauthFindeisenSuedekum2017TradeManufacturingJobsGermany]
 
-## Exercises / discussion prompts
+## Exercises And Discussion Prompts
 
 1. Use Equations {eq}`eq:trade_exposure` and {eq}`eq:trade_labor_outcome` to explain why a commuting-zone import-exposure estimate is a place-level object rather than a worker-level treatment effect.
 2. Why can import competition, export exposure, and offshoring generate different wage effects even when they all originate from trade integration?
@@ -284,10 +281,14 @@ Keep these distinctions explicit throughout the week.
 6. What additional assumptions or structure do [@kimVogel2021TradeShocksLaborMarketAdjustment] and [@caliendoDvorkinParro2019TradeLaborMarketDynamics] add before one can make welfare or policy statements?
 7. Suppose a region loses manufacturing employment after an import shock but gains service employment later. What outcomes would you still need to observe before concluding that workers were fully insured?
 
-## Reproducibility or code lab note
+## Reproducibility And Code Lab Note
 
 The bounded Week 12 lab is fully local and synthetic. Students first reproduce a compact China-syndrome-style commuting-zone exposure object and recover its relationship to manufacturing employment, unemployment, and nonparticipation. They then diagnose why that design identifies place effects rather than worker welfare. The transfer exercise asks them to carry the same exposure idea into a bounded structural-change setting by comparing manufacturing-share decline, service-share growth, and unemployment under a small synthetic region-year panel inspired by [@dixCarneiroKovak2017TradeLiberalizationRegionalDynamics]. The optional extension asks them to reinterpret the same transition logic through the manufacturing-to-service evidence in [@dauthFindeisenSuedekum2017TradeManufacturingJobsGermany].
 
-## Slide companion note
+## Slide Companion Note
 
 The Week 12 slide deck lives at [slides/week12/12-trade-offshoring-and-labor-market-adjustment.tex](slides/week12/12-trade-offshoring-and-labor-market-adjustment.tex). It is longer than a standard week because this is one of the heavier Labor II lectures, but it stays tightly organized around the Week 11 to Week 12 bridge, the channel map, local exposure objects, the China shock, Brazil dynamic adjustment, Germany structural change, offshoring as a distinct channel, worker-versus-place adjustment, global evidence, and the bridge to Week 13.
+
+## Bridge Forward
+
+Use this closing bridge to carry the module's labor object, mechanism, and evidence into the next course step or research-design exercise.

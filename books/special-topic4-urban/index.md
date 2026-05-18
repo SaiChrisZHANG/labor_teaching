@@ -26,7 +26,7 @@ By the end of the course, students should be able to:
 
 Urban and Labor is designed as a 6-week compact advanced special topic for PhD students and strong advanced MA students. It is reading-heavy, research-oriented, and suitable for a half-semester elective, intensive module, or graduate reading group. Each week centers on one cumulative urban-labor mechanism and one research-design problem rather than trying to survey the entire urban field.
 
-Future weekly chapters will follow the portfolio's special-topics structure: Bridge, Field Core, Research Lab, Methods Box, reading ladder, exercises or discussion prompts, reproducibility note, and slide companion note. Special-topics chapters should include a visible **Core points** box near the top; extension boxes are optional rather than a default requirement.
+Weekly chapters use the portfolio's special-topics structure: Bridge, Field Core, Research Lab, Methods Box, reading ladder, exercises or discussion prompts, reproducibility note, and slide companion note. Special-topics chapters include a visible **Core points** box near the top; extension boxes are optional rather than a default requirement.
 
 ## Connection To Labor I And Labor II
 
@@ -41,7 +41,7 @@ Labor I supplies the worker-side objects: labor supply, job amenities, household
 5. **[Migration, local labor demand, and urban labor reallocation](05-migration-local-labor-demand-and-urban-labor-reallocation.md).** Local shocks are studied through wages, employment, population adjustment, commuting flows, and the uneven ability of workers to move.
 6. **[Synthesis, frontier questions, and student research designs](06-synthesis-frontier-questions-and-student-research-designs.md).** The final week converts the course into research proposals on spatial labor mechanisms, credible counterfactuals, and policy-relevant welfare objects.
 
-## Internal Roadmap
+## Course Map
 
 - **Foundational:** Week 1 defines the course's labor-market objects and spatial vocabulary.
 - **Space and housing focused:** Weeks 1 and 2 build the access, commuting, amenities, rents, and mobility-constraint architecture.

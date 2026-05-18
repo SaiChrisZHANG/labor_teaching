@@ -12,7 +12,7 @@ By the end of Week 6, students should be able to:
 
 The central question is this: what does a credible labor-economics research design on health, population, and work look like?
 
-## Opening Orientation / Why This Week Matters
+## Opening Orientation
 
 The course has treated health and population as labor-market forces rather than background controls. Week 1 defined health as work capacity, human capital, risk, and measurement. Week 2 studied disability and chronic conditions as constraints on labor supply, job choice, accommodations, and program interaction. Week 3 moved to fertility, mortality, caregiving, aging, and lifecycle labor allocation. Week 4 entered the workplace through mental health, stress, productivity, stigma, job design, and worker welfare. Week 5 scaled the frame to disease exposure, environmental health, demographic change, migration, firms, places, and aggregate adjustment.
 

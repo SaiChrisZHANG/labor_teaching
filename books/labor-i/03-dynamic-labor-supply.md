@@ -5,7 +5,7 @@ bibliography:
 
 # Dynamic Labor Supply and Lifecycle Responses
 
-## Learning objectives
+## Learning Objectives
 
 By the end of Week 3, students should be able to:
 
@@ -16,15 +16,11 @@ By the end of Week 3, students should be able to:
 5. distinguish persistence driven by state dependence or adjustment costs from persistence driven by slow-moving heterogeneity;
 6. explain why dynamic evidence from experiments, panel variation, tax reforms, and lifecycle structural models should not be forced into one elasticity number.
 
+## Opening Orientation
+
 The economic question for the week is direct: once work decisions are linked across periods through savings, anticipated wages, taxes, and changing constraints, what exactly does labor-supply evidence identify?
 
-## Bridge
-
-Week 2 gave the static first-order condition that maps the net-of-tax wage into a contemporaneous labor-leisure tradeoff. That benchmark remains useful, but it is no longer sufficient once incentives are dynamic. Workers do not encounter taxes, wages, childbearing, health shocks, or retirement decisions as one-shot events. They face timing problems. A temporary bonus today is not the same object as a permanent wage increase, and an anticipated tax holiday is not the same object as an unexpected shift in labor demand [@blundellMaCurdy1999; @keane2011].
-
-The reason is simple but important. In a dynamic environment, current work changes not only current consumption but also assets, future labor choices, and sometimes future wages. The shadow value of wealth is therefore an intertemporal state variable rather than a static constant. That is why dynamic labor-supply evidence is valuable and hard to read at the same time: different designs load differently on intertemporal substitution, wealth effects, and persistence [@maCurdy1981; @chetty2012].
-
-:::{admonition} Core Material
+:::{admonition} Core materials
 :class: tip
 - dynamic labor supply is about timing, anticipation, and intertemporal states rather than one-period choice alone
 - temporary and permanent wage changes identify different labor-supply objects
@@ -32,6 +28,13 @@ The reason is simple but important. In a dynamic environment, current work chang
 - lifecycle labor supply already points toward human capital, family timing, and health
 - dynamic evidence must name the horizon, the shock, and the observed margin
 :::
+
+## Bridge
+
+Week 2 gave the static first-order condition that maps the net-of-tax wage into a contemporaneous labor-leisure tradeoff. That benchmark remains useful, but it is no longer sufficient once incentives are dynamic. Workers do not encounter taxes, wages, childbearing, health shocks, or retirement decisions as one-shot events. They face timing problems. A temporary bonus today is not the same object as a permanent wage increase, and an anticipated tax holiday is not the same object as an unexpected shift in labor demand [@blundellMaCurdy1999; @keane2011].
+
+The reason is simple but important. In a dynamic environment, current work changes not only current consumption but also assets, future labor choices, and sometimes future wages. The shadow value of wealth is therefore an intertemporal state variable rather than a static constant. That is why dynamic labor-supply evidence is valuable and hard to read at the same time: different designs load differently on intertemporal substitution, wealth effects, and persistence [@maCurdy1981; @chetty2012].
+
 
 ### Dynamic benchmark
 
@@ -135,7 +138,7 @@ Week 3 adds one discipline to the Week 2 workflow: identify the horizon before i
 4. Check whether lifecycle features such as experience, family timing, or health make current labor supply affect future opportunities.
 5. Interpret small short-run responses against Equations {eq}`eq-week3-frisch` and {eq}`eq-week3-adjustment` before concluding that labor supply is inelastic.
 
-## Reading ladder
+## Reading Ladder And References
 
 ### Bridge
 
@@ -157,7 +160,7 @@ Week 3 adds one discipline to the Week 2 workflow: identify the horizon before i
 - Hokayem and Ziliak on health, human capital, and lifecycle labor supply [@hokayemZiliak2014]
 - Chetty on how optimization frictions reconcile different elasticity estimates [@chetty2012]
 
-## Exercises / discussion prompts
+## Exercises And Discussion Prompts
 
 1. Use Equations {eq}`eq-week3-dynamic-problem` and {eq}`eq-week3-frisch` to explain why a temporary wage shock is closer to a Frisch experiment than a permanent wage increase.
 2. Figure {numref}`fig-week3-shocks` shows a muted short-run response under adjustment frictions. What empirical patterns would help you distinguish a high adjustment cost from a low underlying substitution motive?
@@ -165,10 +168,14 @@ Week 3 adds one discipline to the Week 2 workflow: identify the horizon before i
 4. Pick one row from Table {numref}`tbl:week3-designs` and explain what policy question it can answer well and what policy question it answers poorly.
 5. How does the Week 3 dynamic interpretation change the way you would read static tax-reform evidence from Week 2?
 
-## Reproducibility or code lab note
+## Reproducibility And Code Lab Note
 
 The Week 3 lab is built around a bounded pedagogical version of [@fehrGoette2007]. Students reproduce one reduced-form response to randomized temporary wage variation using local synthetic shift-level data, diagnose whether that response is best read as intertemporal substitution or something broader, and then transfer the workflow to a persistence comparison that contrasts low- and high-adjustment-cost environments. The optional lifecycle extension uses [@attanasioLowSanchezMarcos2008] as the conceptual bridge from short-run experimental variation to lifecycle profile construction. The bounded path and smoke test are documented in [labs/03-dynamic-labor-supply/lab.md](labs/03-dynamic-labor-supply/lab.md).
 
-## Slide companion note
+## Slide Companion Note
 
 The Week 3 deck should isolate the dynamic problem, the Frisch interpretation, the temporary-versus-permanent distinction, the lifecycle profile, the design map, and the adjustment-cost bridge to Week 4 rather than duplicating the chapter. The canonical source is [slides/week3/03-dynamic-labor-supply.tex](slides/week3/03-dynamic-labor-supply.tex).
+
+## Bridge Forward
+
+Use this closing bridge to carry the module's labor object, mechanism, and evidence into the next course step or research-design exercise.

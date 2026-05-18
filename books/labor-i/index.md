@@ -49,7 +49,3 @@ The default rhythm is a 3-hour core structure each week: one block for the organ
 ## Sequence bridge
 
 Labor I and Labor II are designed as one field sequence with two vantage points. Labor I builds the worker-side primitives; Labor II takes those primitives into firms, wage-setting, frictions, institutions, and major shocks.
-
-Course outline: [OUTLINE.md](OUTLINE.md)
-
-Workflow note: use the `research` conda environment and the standardized repo workflow in `docs/repo-workflow.md`.

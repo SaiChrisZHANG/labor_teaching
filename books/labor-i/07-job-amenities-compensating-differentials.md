@@ -5,7 +5,7 @@ bibliography:
 
 # Job Amenities and Compensating Differentials
 
-## Learning objectives
+## Learning Objectives
 
 By the end of Week 7, students should be able to:
 
@@ -18,7 +18,18 @@ By the end of Week 7, students should be able to:
 7. distinguish wage inequality from inequality in total job value;
 8. explain why Week 8 inequality and Week 9 discrimination or segmentation must track job quality as well as wages.
 
+## Opening Orientation
+
 The economic question for the week is direct: if Week 5 treated wages as a central market outcome and Week 6 showed how households transform wage opportunities into realized labor supply, why do two jobs paying the same wage often represent very different labor-market opportunities once schedule control, safety, commute burden, remote work, and workplace design enter the bundle [@rosen1986; @masPallais2017; @maestasMullenPowellVonWachterWenger2023]?
+
+:::{admonition} Core materials
+:class: tip
+- jobs as wage-plus-amenity bundles rather than wages alone
+- Rosen hedonic equilibrium and the worker-side equalizing condition
+- why hedonic wage regressions often fail in the data
+- modern willingness-to-pay evidence from experiments, stated choice, and worker flows
+- amenities, sorting, and the interpretation of inequality
+:::
 
 ## Bridge
 
@@ -44,14 +55,6 @@ Conceptual hedonic equilibrium in wage-amenity space. The downward-sloping wage 
 
 Figure {numref}`fig-week7-hedonic` is the lecture picture that should anchor the week. Week 6 already hinted that flexibility or predictable schedules can be household inputs when care constraints bind. Week 7 makes that idea market-wide: jobs offering those features can pay differently precisely because workers value them differently.
 
-:::{admonition} Core Material
-:class: tip
-- jobs as wage-plus-amenity bundles rather than wages alone
-- Rosen hedonic equilibrium and the worker-side equalizing condition
-- why hedonic wage regressions often fail in the data
-- modern willingness-to-pay evidence from experiments, stated choice, and worker flows
-- amenities, sorting, and the interpretation of inequality
-:::
 
 :::{admonition} Optional Extension Block
 :class: note
@@ -185,7 +188,7 @@ Week 7 adds one discipline to the wage-setting and household tools from Weeks 5 
 4. Use Equation {eq}`eq-week7-choice` to separate a direct willingness-to-pay estimate from a descriptive wage premium.
 5. Before treating a wage gap as an inequality or discrimination fact, ask whether job quality differs systematically across workers, firms, or groups.
 
-## Reading ladder
+## Reading Ladder And References
 
 ### Bridge
 
@@ -205,7 +208,7 @@ Week 7 adds one discipline to the wage-setting and household tools from Weeks 5 
 - Sorkin on revealed-preference rankings over firms from worker mobility [@sorkin2018]
 - Card, Cardoso, Heining, and Kline for the bridge from job bundles and firm heterogeneity to modern inequality accounting [@cardCardosoHeiningKline2018]
 
-## Exercises / discussion prompts
+## Exercises And Discussion Prompts
 
 1. Use Equation {eq}`eq-week7-utility` to explain why two workers with the same wage can still have different indirect utility from their jobs.
 2. In Equation {eq}`eq-week7-eqdiff`, when should the wage-amenity slope be negative and when should it be positive? Give one labor-market example of each.
@@ -215,10 +218,14 @@ Week 7 adds one discipline to the wage-setting and household tools from Weeks 5 
 6. Figure {numref}`fig-week7-inequality` shows rank reversals once amenities are monetized. Under what sorting pattern would accounting for amenities reduce measured inequality, and under what pattern would it increase it?
 7. Why does Week 7 imply that Week 9 discrimination should measure access to safe, flexible, predictable, or remote jobs rather than focusing only on wages?
 
-## Reproducibility or code lab note
+## Reproducibility And Code Lab Note
 
 The Week 7 lab is organized around a bounded `Reproduce -> Diagnose -> Transfer` path that runs fully locally. Students reproduce a synthetic discrete-choice amenity valuation exercise in the spirit of [@masPallais2017], diagnose what a willingness-to-pay estimate does and does not identify relative to a hedonic wage slope, and then transfer the workflow to a synthetic working-conditions and inequality exercise in the spirit of [@maestasMullenPowellVonWachterWenger2023]. An optional extension note points to worker-flow revealed preference in [@sorkin2018]. The bounded workflow is documented in [labs/07-job-amenities-compensating-differentials/lab.md](labs/07-job-amenities-compensating-differentials/lab.md).
 
-## Slide companion note
+## Slide Companion Note
 
 The Week 7 deck should isolate the move from wages to job bundles, the Rosen hedonic benchmark, why hedonic regressions often fail, modern willingness-to-pay evidence, the amenity taxonomy and empirical design tables, and the bridge from amenities to Week 8 inequality and Week 9 discrimination or segmentation rather than reproducing the full chapter. The canonical source is [slides/week7/07-job-amenities-compensating-differentials.tex](slides/week7/07-job-amenities-compensating-differentials.tex).
+
+## Bridge Forward
+
+Use this closing bridge to carry the module's labor object, mechanism, and evidence into the next course step or research-design exercise.

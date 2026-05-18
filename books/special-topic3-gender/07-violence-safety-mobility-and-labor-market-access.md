@@ -28,6 +28,10 @@ By the end of Week 7, students should be able to:
 6. read empirical evidence by naming the constraint, the data that make it visible, the observed labor margin, and the limits of the welfare claim;
 7. design a bounded research exercise that separates reported incidents from latent exposure and labor-market response.
 
+## Opening Orientation
+
+This module orients the economic question, the labor-market object, and the empirical design issues before the layered sections begin.
+
 ## Bridge
 
 Week 6 treated gender-related policies as shocks to labor-market margins. Childcare, leave, taxation, quotas, transparency, equal-pay rules, and formal protections were useful because they revealed incidence across workers, households, firms, coworkers, and markets. Protection and reporting already appeared there, but as part of a policy architecture.

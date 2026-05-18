@@ -1,10 +1,6 @@
 # Professional Labor Markets And Public-Sector Design
 
-## Opening Orientation / Why This Week Matters
-
-Week 5 studies professional and public-sector labor markets as design laboratories. These markets are useful for labor economics because the allocation problem is unusually explicit: workers must be assigned to hospitals, schools, agencies, branches, offices, units, or training slots; wages are often rigid or compressed; service quality matters for people beyond the worker and employer; and public legitimacy requires fairness, transparency, and defensible priorities.
-
-The central question is this: what can structured professional and public-sector labor markets teach us about mechanism design when staffing needs, career ladders, worker welfare, and public objectives all matter?
+## Learning Objectives
 
 By the end of the week, students should be able to:
 
@@ -13,6 +9,12 @@ By the end of the week, students should be able to:
 3. describe how internal job ladders, promotions, training, and on-the-job search change the design problem after initial assignment;
 4. analyze movement "in and out" of the public sector as a mechanism-design margin involving participation, selection, retention, and exit;
 5. design a bounded empirical exercise that links a rule change to staffing, match quality, retention, career mobility, worker welfare, and public-service outcomes.
+
+## Opening Orientation
+
+Week 5 studies professional and public-sector labor markets as design laboratories. These markets are useful for labor economics because the allocation problem is unusually explicit: workers must be assigned to hospitals, schools, agencies, branches, offices, units, or training slots; wages are often rigid or compressed; service quality matters for people beyond the worker and employer; and public legitimacy requires fairness, transparency, and defensible priorities.
+
+The central question is this: what can structured professional and public-sector labor markets teach us about mechanism design when staffing needs, career ladders, worker welfare, and public objectives all matter?
 
 :::{admonition} Core points
 :class: important
@@ -145,7 +147,22 @@ This is the "in and out" margin from a mechanism-design perspective:
 
 Evidence on public-sector labor flows and education decisions shows why this margin matters. Public employment is part of aggregate labor reallocation, not a closed administrative sector [@fontaineLobelRoux2020]. Public-sector wages and employment rules can affect education and occupational choices before workers ever appear in the public-sector applicant pool [@chassamboulliPavlopoulou2023].
 
-### Methods / Data Layer
+## Research Lab
+
+The Week 5 research lab follows **Reproduce -> Diagnose -> Transfer**. The primary anchor is Davis, Greenberg, and Jones because it places a mechanism change in a professional/public-sector labor market with measurable assignment outcomes and organizational constraints [@davisGreenbergJones2026]. The challenge anchor is Davis on matching Teach For America teachers to schools because it transfers the same design logic to a teacher/public-service setting where location, school needs, and public objectives are central [@davis2024tfa].
+
+The lab is not an official replication package for either paper. It uses deterministic synthetic teaching data to preserve the logic of structured assignment, public priorities, internal career value, and retention without claiming access to confidential Army, school, or personnel records.
+
+**Reproduce.** Students recreate a reduced market-level comparison between a deferred-acceptance-style assignment rule and a manager-directed assignment rule in a synthetic Army officer market. The output focuses on preference rank, priority alignment, hard-to-staff fill, predicted retention, and training/career value.
+
+**Diagnose.** Students classify what the design identifies and what remains latent: worker preferences, unit priorities, manager information, service obligations, training fit, internal-mobility value, public objectives, and outside options. The key question is whether improved assignment is a worker-welfare improvement, an organizational staffing improvement, or both.
+
+**Transfer.** Students adapt the same architecture to teacher placement, public-service recruitment, civil-service entry, internal talent markets, or public/private exit margins. The transfer memo must state the rule, labor margin, counterfactual design, data requirement, welfare object, public objective, and main threat.
+
+```{include} assets/tables/05-reading-and-lab-map.md
+```
+
+## Methods Box
 
 :::{admonition} Methods Box: Evaluating Structured Labor-Market Design
 :class: note
@@ -166,21 +183,6 @@ Evidence on public-sector labor flows and education decisions shows why this mar
 ```
 
 ```{include} assets/tables/05-theory-to-empirical-bridge.md
-```
-
-## Research Lab
-
-The Week 5 research lab follows **Reproduce -> Diagnose -> Transfer**. The primary anchor is Davis, Greenberg, and Jones because it places a mechanism change in a professional/public-sector labor market with measurable assignment outcomes and organizational constraints [@davisGreenbergJones2026]. The challenge anchor is Davis on matching Teach For America teachers to schools because it transfers the same design logic to a teacher/public-service setting where location, school needs, and public objectives are central [@davis2024tfa].
-
-The lab is not an official replication package for either paper. It uses deterministic synthetic teaching data to preserve the logic of structured assignment, public priorities, internal career value, and retention without claiming access to confidential Army, school, or personnel records.
-
-**Reproduce.** Students recreate a reduced market-level comparison between a deferred-acceptance-style assignment rule and a manager-directed assignment rule in a synthetic Army officer market. The output focuses on preference rank, priority alignment, hard-to-staff fill, predicted retention, and training/career value.
-
-**Diagnose.** Students classify what the design identifies and what remains latent: worker preferences, unit priorities, manager information, service obligations, training fit, internal-mobility value, public objectives, and outside options. The key question is whether improved assignment is a worker-welfare improvement, an organizational staffing improvement, or both.
-
-**Transfer.** Students adapt the same architecture to teacher placement, public-service recruitment, civil-service entry, internal talent markets, or public/private exit margins. The transfer memo must state the rule, labor margin, counterfactual design, data requirement, welfare object, public objective, and main threat.
-
-```{include} assets/tables/05-reading-and-lab-map.md
 ```
 
 ## Reading Ladder And References

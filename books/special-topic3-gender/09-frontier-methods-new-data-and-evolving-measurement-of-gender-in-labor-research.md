@@ -27,6 +27,10 @@ By the end of Week 9, students should be able to:
 6. evaluate measurement choices around legal sex, self-identified gender, perceived gender, workplace climate, privacy, small cells, and intersectionality;
 7. convert a methodological gap into a research-design pitch for Week 10.
 
+## Opening Orientation
+
+This module orients the economic question, the labor-market object, and the empirical design issues before the layered sections begin.
+
 ## Bridge
 
 Weeks 2 through 8 built the substantive objects. Week 2 studied care, fertility, household allocation, and child penalties. Week 3 studied education, aspirations, skills, and occupational sorting. Week 4 moved inside firms to hiring, promotion, pay-setting, authority, and retention. Week 5 studied norms, bargaining, and institutions. Week 6 treated policy as a shock to labor-market margins and to firm behavior. Week 7 made safety, violence, mobility, and reproductive autonomy part of the worker feasible set. Week 8 asked which mechanisms travel across countries and which depend on institutions, development, informality, care regimes, and norms.
@@ -297,6 +301,6 @@ The Week 9 lab lives at `labs/09-frontier-methods-new-data-and-evolving-measurem
 
 The slide deck lives at `slides/week9/09-frontier-methods-new-data-and-evolving-measurement-of-gender-in-labor-research.tex`. The deck should not duplicate the chapter. It should give students a research map: why methods matter, how Weeks 2 through 8 connect, how data families differ, how settings map to econometric tools, where measurement is fragile, and how Week 10 turns those gaps into research designs.
 
-## Forward Bridge To Week 10
+## Bridge Forward
 
 Week 10 asks students to synthesize the course into credible research designs. Week 9 gives the discipline needed to do that. A good final project will not say "I have data on gender." It will say: here is the labor object, here is the gender concept, here is the observed margin, here is the identifying variation, here is the selection problem, here is the hidden welfare margin, and here is what readers should update. That is the path from a course topic to a research career.

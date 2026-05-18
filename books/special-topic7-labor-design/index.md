@@ -25,7 +25,7 @@ By the end of the course, students should be able to:
 
 This is a 6-week compact advanced special topic for PhD students and strong advanced MA students. It is suitable for a half-semester elective, intensive module, or graduate reading group. The course is reading-heavy and research-oriented: each week centers on a design problem, a labor-market institution, and an empirical evaluation challenge.
 
-Future weekly chapters will follow the portfolio's special-topics structure: Bridge, Field Core, Research Lab, Methods Box, reading ladder, exercises or discussion prompts, reproducibility note, and slide companion note. Special-topics chapters should include a visible **Core points** box near the top; extension boxes are optional rather than a default requirement.
+Weekly chapters use the portfolio's special-topics structure: Bridge, Field Core, Research Lab, Methods Box, reading ladder, exercises or discussion prompts, reproducibility note, and slide companion note. Special-topics chapters include a visible **Core points** box near the top; extension boxes are optional rather than a default requirement.
 
 ## Connection To Labor II And The Labor Sequence
 
@@ -40,7 +40,7 @@ The course connects most directly to Labor II. Labor II introduces firms, search
 5. **[Professional labor markets and public-sector design.](05-professional-labor-markets-and-public-sector-design.md)** Students analyze residency matching, teacher assignment, public hiring, and structured professional markets as high-stakes design settings with fairness, transparency, and efficiency tradeoffs.
 6. **[Empirical design, experiments, and frontier questions.](06-empirical-design-experiments-and-frontier-questions.md)** The final week turns the sequence into a research-design capstone using experiments, natural experiments, structural models, audits, administrative data, and platform data.
 
-## Internal Roadmap
+## Course Map
 
 - **Matching-market focused:** Weeks 1 and 2 build the matching, congestion, timing, and unraveling foundation.
 - **Contract and incentive focused:** Week 3 studies screening, incentives, moral hazard, multitasking, and employment contracts.

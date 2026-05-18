@@ -5,7 +5,7 @@ bibliography:
 
 # Public Policy Targeting Workers
 
-## Learning objectives
+## Learning Objectives
 
 By the end of Week 11, students should be able to:
 
@@ -20,7 +20,17 @@ By the end of Week 11, students should be able to:
 9. explain why take-up is itself a labor-economics outcome and a bridge into Week 12 frictions;
 10. use a practical researcher's checklist for evaluating worker-side policy evidence.
 
+## Opening Orientation
+
 The economic question for the week is cumulative. Weeks 2 through 10 built a worker-side model of labor supply, dynamic adjustment, human-capital investment, household allocation, inequality, discrimination, and mobility. Week 11 asks how public policy enters that architecture and how labor economists learn whether the policy changed worker behavior for reasons of incentives, insurance, or frictions [@eissaLiebman1996; @chettyFriedmanSaez2013; @kolsrudLandaisNilssonSpinnewijn2018].
+
+:::{admonition} Core materials
+:class: tip
+- worker-targeted policies act through incentives, constraints, frictions, insurance, or investment
+- design choice must match the behavioral margin and institutional setting
+- eligibility is not treatment if knowledge, filing, or adjudication screens who actually receives the policy
+- policy evaluation is incomplete without dynamics, heterogeneity, and welfare interpretation
+:::
 
 ## Bridge
 
@@ -35,13 +45,6 @@ Week 11 maps worker-targeted policies into five transmission channels and six wo
 
 Figure {numref}`fig-week11-framework` is the week's conceptual map. A policy can move participation through a tax schedule, through childcare costs, through search requirements, through benefit timing, or through information about program availability. Those are not the same object. A null employment response to a policy may reflect weak incentives, low take-up, delayed dynamic adjustment, or measurement on the wrong behavioral margin. That is why this lecture synthesizes theory, evidence, and identification instead of just listing program results.
 
-:::{admonition} Core Material
-:class: tip
-- worker-targeted policies act through incentives, constraints, frictions, insurance, or investment
-- design choice must match the behavioral margin and institutional setting
-- eligibility is not treatment if knowledge, filing, or adjudication screens who actually receives the policy
-- policy evaluation is incomplete without dynamics, heterogeneity, and welfare interpretation
-:::
 
 :::{admonition} Optional Extension Block
 :class: note
@@ -226,7 +229,7 @@ Equation {eq}`eq-week11-budget` tells us what the policy changes; Table {numref}
 
 Equation {eq}`eq-week11-takeup` and Figure {numref}`fig-week11-takeup` make a strong methodological point: labor economists should often measure the first stage between statutory policy and actual exposure. Knowledge, administrative burden, and adjudication can attenuate or reallocate treatment. This is why Chetty, Friedman, and Saez, and Linos et al., are central Week 11 papers rather than side notes [@chettyFriedmanSaez2013; @linosProhofskyRameshRothsteinUnrath2022]. They show that delivery technology is part of the labor policy itself.
 
-## Reading ladder
+## Reading Ladder And References
 
 ### Canonical worker-policy papers
 
@@ -250,7 +253,7 @@ Equation {eq}`eq-week11-takeup` and Figure {numref}`fig-week11-takeup` make a st
 - Autor, Kostol, Mogstad, and Setzler on disability benefits, household insurance, and spillovers [@autorKostolMogstadSetzler2019]
 - Bastian on the rise of working mothers and historical EITC incidence [@bastian2020]
 
-## Exercises / discussion prompts
+## Exercises And Discussion Prompts
 
 1. In Equation {eq}`eq-week11-budget`, which terms would change under an EITC expansion, a childcare subsidy, and a search-assistance intervention?
 2. Why does Equation {eq}`eq-week11-decomp` imply that one program can raise participation but reduce hours for some already-employed workers?
@@ -264,10 +267,14 @@ Equation {eq}`eq-week11-takeup` and Figure {numref}`fig-week11-takeup` make a st
 10. Which Week 10 mobility frictions can be relaxed by worker-side policy without changing firms' wage-setting directly?
 11. How does the Week 11 researcher's checklist change the way you would read a headline result that "policy X increased employment by 2 percentage points"?
 
-## Reproducibility or code lab note
+## Reproducibility And Code Lab Note
 
 The Week 11 lab uses a bounded local workflow rather than administrative tax or UI microdata. Students first reproduce a synthetic effective-exposure factbook in the spirit of [@chettyFriedmanSaez2013], then diagnose the delivery channel, and finally transfer the workflow to a synthetic take-up field experiment in the spirit of [@linosProhofskyRameshRothsteinUnrath2022]. The student-facing workflow is documented in [labs/11-public-policy-targeting-workers/lab.md](labs/11-public-policy-targeting-workers/lab.md).
 
-## Slide companion note
+## Slide Companion Note
 
 The Week 11 deck should open as the worker-side policy capstone, map Weeks 2--10 into policy margins, then move through a unified framework, EITC and in-work support, UI timing and search assistance, training, family-support policy, disability and retirement incentives, take-up and administrative burden, the empirical design toolkit, welfare interpretation, and a research checklist that points directly to Week 12 frictions. The canonical source is [slides/week11/11-public-policy-targeting-workers.tex](slides/week11/11-public-policy-targeting-workers.tex).
+
+## Bridge Forward
+
+Use this closing bridge to carry the module's labor object, mechanism, and evidence into the next course step or research-design exercise.

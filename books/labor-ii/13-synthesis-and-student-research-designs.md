@@ -5,7 +5,7 @@ bibliography:
 
 # Synthesis and Student Research Designs
 
-## Learning objectives
+## Learning Objectives
 
 By the end of Week 13, students should be able to:
 
@@ -18,7 +18,18 @@ By the end of Week 13, students should be able to:
 7. turn a labor-market mechanism into a bounded research design that names the treatment object, observed margin, and offstage equilibrium channels;
 8. identify frontier directions that connect Labor II to Behavioral Labor, Labor Markets and Political/Cultural Institutions, and dissertation-scale questions.
 
+## Opening Orientation
+
 The economic question for Week 13 is explicit: when a labor-market outcome changes, how do we decide whether the key object is worker choice, firm behavior, market friction, institution, or shock, and what kind of empirical design is needed to learn something credible about it?
+
+:::{admonition} Core materials
+:class: tip
+- Labor II fits workers, firms, frictions, institutions, and shocks into one architecture
+- unit of analysis is part of theory rather than only a data-management choice
+- descriptive, reduced-form, and structural approaches answer different questions
+- policies and shocks are analytically different objects even when they hit similar outcomes
+- a strong project names mechanism, observed margin, equilibrium scope, and contribution
+:::
 
 ## Bridge
 
@@ -58,20 +69,6 @@ The economic content of the components is straightforward.
 5. {math}`\mathcal{S}` captures shocks, including macro fluctuations, technology adoption, and trade exposure.
 
 The payoff from writing the architecture this way is that it makes clear why Labor II is not just "firm behavior" or just "policy." It is about how these objects interact.
-
-:::{admonition} Core Material
-:class: tip
-- Labor II fits workers, firms, frictions, institutions, and shocks into one architecture
-- unit of analysis is part of theory rather than only a data-management choice
-- descriptive, reduced-form, and structural approaches answer different questions
-- policies and shocks are analytically different objects even when they hit similar outcomes
-- a strong project names mechanism, observed margin, equilibrium scope, and contribution
-:::
-
-:::{admonition} Optional Extension Block
-:class: note
-- dissertation-scale and cross-course frontier directions are surfaced later in the chapter under `Frontier directions and bridge beyond Labor II`
-:::
 
 ## Field Core
 
@@ -314,7 +311,7 @@ Keep these distinctions explicit throughout the capstone.
 7. Direct treatment effects and spillovers must be separated whenever coverage or reallocation matters.
 8. A design is only as credible as its definition of treatment, observed margin, and offstage equilibrium channels.
 
-## Reading ladder
+## Reading Ladder And References
 
 ### Ladder A. Architecture and classic foundations
 
@@ -344,17 +341,21 @@ Keep these distinctions explicit throughout the capstone.
 - one paper from the macro-adjustment block
 - one paper from the technology or trade block
 
-## Exercises / discussion prompts
+## Exercises And Discussion Prompts
 
 1. Pick one result from Labor I and one result from Labor II that seem to conflict. Is the tension about mechanism, unit, horizon, or equilibrium scope?
 2. Take one famous policy paper and one famous shock paper from the course. Compare their treatment object, observed margin, and main offstage equilibrium channel.
 3. Choose a student research idea and state the smallest design that would be enough to support its central claim. Then state what stronger claim would require structural or equilibrium machinery.
 4. Compare a worker-level extension and a place-level extension of the same anchor paper. Which one is more informative for mechanism, and which one is more informative for welfare?
 
-## Reproducibility or code lab note
+## Reproducibility And Code Lab Note
 
 Week 13's bounded lab path is memo-first by design. The local script builds an anchor-paper menu and a structured research-design memo scaffold rather than a full replication package. That is deliberate: the pedagogical goal is to make students diagnose, compare, and design with discipline before they scale up to data-heavy work.
 
-## Slide companion note
+## Slide Companion Note
 
 The slide companion for this week lives at [slides/week13/13-synthesis-and-student-research-designs.tex](slides/week13/13-synthesis-and-student-research-designs.tex). The deck is intentionally tighter than the chapter prose: it defines the capstone question, shows the architecture map, compares design choices, isolates common failure modes, and ends with bridges to later labor-field and dissertation work.
+
+## Bridge Forward
+
+Use this closing bridge to carry the module's labor object, mechanism, and evidence into the next course step or research-design exercise.
