@@ -1,0 +1,2 @@
+window,left_count,right_count,right_share,binomial_balance_z_score,interpretation
+"[-0.04, 0.04]",836,816,0.4939467312348668,-0.4920678313051229,Teaching density check; large absolute values would warn about sorting around the cutoff.

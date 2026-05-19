@@ -1,0 +1,3 @@
+feature,status,reason,teaching_check
+future_verified_skill_tag,excluded,Post-outcome verification tag; including it would leak label information into the model.,Draw a timing diagram before feature construction.
+posting_text,included,Observed at vacancy posting time and central to the economic measurement task.,Audit whether later edits or platform metadata were appended after outcomes.

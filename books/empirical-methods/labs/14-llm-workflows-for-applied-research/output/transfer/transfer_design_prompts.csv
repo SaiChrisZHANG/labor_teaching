@@ -1,0 +1,5 @@
+stage,prompt
+transfer,Which transfer phrases are outside the source vocabulary and why do they matter economically?
+transfer,Does the adapted prompt improve benchmark performance or simply change the target construct?
+privacy,Which fields would be redacted or kept inside a secure environment in a real case-note project?
+replication,What synthetic examples and aggregate diagnostics should be released if raw case notes cannot be shared?

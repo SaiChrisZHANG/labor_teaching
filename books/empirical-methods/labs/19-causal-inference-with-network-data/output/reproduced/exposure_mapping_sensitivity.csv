@@ -1,0 +1,5 @@
+exposure_mapping,estimate,std_error,t_stat,nobs,definition,failure_mode
+team_treated_share_loo,4.299851,1.461105,2.942876,96,team leave-one-out treated share,"misspecified exposure, sorting, or shared team shocks"
+graph_treated_share,5.13037,1.21729,4.214584,96,unweighted coworker-neighbor treated share,"misspecified exposure, sorting, or shared team shocks"
+weighted_graph_treated_share,5.466899,1.137454,4.806259,96,tie-strength-weighted coworker-neighbor treated share,"misspecified exposure, sorting, or shared team shocks"
+treated_senior_neighbor,0.964546,0.722344,1.335299,96,indicator for at least one treated senior neighbor,"misspecified exposure, sorting, or shared team shocks"

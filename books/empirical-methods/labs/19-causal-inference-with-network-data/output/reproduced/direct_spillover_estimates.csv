@@ -1,0 +1,19 @@
+inference,variable,estimate,std_error,t_stat,nobs,specification,interpretation_note
+hc1,intercept,51.401652,0.700442,73.384559,96,team_leave_one_out,Direct treatment and spillover through leave-one-out team treated share.
+hc1,treated,4.010311,0.715129,5.607815,96,team_leave_one_out,Direct treatment and spillover through leave-one-out team treated share.
+hc1,team_treated_share_loo,4.299851,1.461105,2.942876,96,team_leave_one_out,Direct treatment and spillover through leave-one-out team treated share.
+hc1,baseline_skill,3.120416,0.504846,6.180923,96,team_leave_one_out,Direct treatment and spillover through leave-one-out team treated share.
+hc1,tenure_years,0.43231,0.149692,2.88799,96,team_leave_one_out,Direct treatment and spillover through leave-one-out team treated share.
+hc1,senior,1.599208,0.699775,2.285318,96,team_leave_one_out,Direct treatment and spillover through leave-one-out team treated share.
+hc1,intercept,51.217798,0.600037,85.357703,96,graph_neighbors,Direct treatment and spillover through observed coworker-neighbor exposure.
+hc1,treated,3.969087,0.611181,6.494123,96,graph_neighbors,Direct treatment and spillover through observed coworker-neighbor exposure.
+hc1,graph_treated_share,5.13037,1.21729,4.214584,96,graph_neighbors,Direct treatment and spillover through observed coworker-neighbor exposure.
+hc1,baseline_skill,3.110886,0.470746,6.608413,96,graph_neighbors,Direct treatment and spillover through observed coworker-neighbor exposure.
+hc1,tenure_years,0.352986,0.135788,2.599542,96,graph_neighbors,Direct treatment and spillover through observed coworker-neighbor exposure.
+hc1,senior,1.463431,0.647148,2.261355,96,graph_neighbors,Direct treatment and spillover through observed coworker-neighbor exposure.
+hc1,intercept,51.12567,0.569388,89.790584,96,weighted_graph_neighbors,Direct treatment and spillover through tie-strength-weighted exposure.
+hc1,treated,3.896015,0.600863,6.484026,96,weighted_graph_neighbors,Direct treatment and spillover through tie-strength-weighted exposure.
+hc1,weighted_graph_treated_share,5.466899,1.137454,4.806259,96,weighted_graph_neighbors,Direct treatment and spillover through tie-strength-weighted exposure.
+hc1,baseline_skill,3.016703,0.449166,6.716228,96,weighted_graph_neighbors,Direct treatment and spillover through tie-strength-weighted exposure.
+hc1,tenure_years,0.358091,0.13491,2.654294,96,weighted_graph_neighbors,Direct treatment and spillover through tie-strength-weighted exposure.
+hc1,senior,1.458097,0.638173,2.284799,96,weighted_graph_neighbors,Direct treatment and spillover through tie-strength-weighted exposure.

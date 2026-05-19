@@ -1,0 +1,12 @@
+moment,value
+node_count,72.0
+edge_count,406.0
+density,0.15884194053208137
+average_degree,11.277777777777779
+degree_p90,16.9
+homophily_share,0.6896551724137931
+same_occupation_share,0.35960591133004927
+average_tie_strength,0.5343059113300492
+average_clustering,0.17160952091615145
+wage_covariance_across_links,0.06225132515909495
+average_network_info_exposure,0.5496556112231432

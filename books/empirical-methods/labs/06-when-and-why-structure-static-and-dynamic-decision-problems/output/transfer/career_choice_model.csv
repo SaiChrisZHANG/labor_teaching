@@ -1,0 +1,10 @@
+model,parameter,estimate,fit_statistic,interpretation
+school-choice logit,intercept,1.8321642404191119,5273.978199763515,Reduced teaching choice model used for transfer counterfactual.
+school-choice logit,schooling_years_minus_12,-0.5820910225477182,5273.978199763515,Reduced teaching choice model used for transfer counterfactual.
+school-choice logit,experience_years,-0.35358189790502464,5273.978199763515,Reduced teaching choice model used for transfer counterfactual.
+school-choice logit,tuition_thousands,-0.18267042648764115,5273.978199763515,Reduced teaching choice model used for transfer counterfactual.
+school-choice logit,log_wage_offer_relative,1.5013846647069502,5273.978199763515,Reduced teaching choice model used for transfer counterfactual.
+school-choice logit,early_period,0.2354260159442253,5273.978199763515,Reduced teaching choice model used for transfer counterfactual.
+log wage equation,wage_intercept,8.813779169181316,,Wage-offer mapping used to update simulated career states.
+log wage equation,schooling_years,0.1092333364100816,,Wage-offer mapping used to update simulated career states.
+log wage equation,experience_years,0.043301598548996734,,Wage-offer mapping used to update simulated career states.

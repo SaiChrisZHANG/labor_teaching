@@ -1,0 +1,7 @@
+diagnostic,value,interpretation
+observations,8000.0,synthetic sample size
+simple_first_stage,0.4794854674678417,difference in treatment rates by instrument status
+control_adjusted_first_stage,0.4762234034491539,coefficient on instrument in first-stage regression
+partial_first_stage_F,2501.7572536628045,excluded-instrument F statistic conditional on controls
+partial_R2,0.2387911825281777,incremental first-stage fit from the excluded instrument
+controls,24.0,"number of included control columns, including intercept and fixed effects"

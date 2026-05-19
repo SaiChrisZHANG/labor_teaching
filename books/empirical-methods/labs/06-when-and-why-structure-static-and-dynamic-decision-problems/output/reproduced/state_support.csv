@@ -1,0 +1,11 @@
+mileage_state,observations,continue_count,replace_count,share_of_sample,support_note
+0,1417,1391,26,0.20716374269005847,High states are most informative about replacement timing.
+1,1541,1410,131,0.2252923976608187,High states are most informative about replacement timing.
+2,1472,1138,334,0.2152046783625731,High states are most informative about replacement timing.
+3,1198,710,488,0.17514619883040936,High states are most informative about replacement timing.
+4,704,263,441,0.10292397660818714,High states are most informative about replacement timing.
+5,352,88,264,0.05146198830409357,High states are most informative about replacement timing.
+6,118,16,102,0.017251461988304094,High states are most informative about replacement timing.
+7,27,7,20,0.003947368421052632,High states are most informative about replacement timing.
+8,8,0,8,0.0011695906432748538,High states are most informative about replacement timing.
+9,3,0,3,0.0004385964912280702,High states are most informative about replacement timing.

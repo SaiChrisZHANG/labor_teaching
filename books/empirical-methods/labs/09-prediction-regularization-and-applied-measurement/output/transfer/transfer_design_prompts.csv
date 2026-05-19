@@ -1,0 +1,5 @@
+prompt
+"Which title tokens were not covered by the posting vocabulary, and why does that matter for transportability?"
+Would the title classifier be good enough for a study of occupational mobility by region?
+What human validation sample would you collect before using these labels in a downstream design?
+How would the conclusion change if false positives were more costly than false negatives?

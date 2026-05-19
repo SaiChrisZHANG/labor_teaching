@@ -1,0 +1,3 @@
+specification,estimate,standard_error,warning
+global polynomial order 1,0.06203127406436604,0.002036094969927454,Uses all observations; included only to show why global polynomial RD can be unstable.
+global polynomial order 4,0.06908014466639534,0.00397172567486693,Uses all observations; included only to show why global polynomial RD can be unstable.

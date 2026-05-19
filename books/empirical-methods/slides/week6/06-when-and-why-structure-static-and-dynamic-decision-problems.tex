@@ -1,0 +1,306 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs, graphicx}
+
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\1}{\mathbf{1}}
+\newcommand{\Prb}{\mathbb{P}}
+
+\title{When and Why Structure? Static and Dynamic Decision Problems}
+\subtitle{Empirical Methods --- Week 6}
+\author{Teaching deck draft}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Week 6 question}
+\begin{itemize}
+    \item When does an applied question require an economic model rather than only a credible comparison?
+    \item What is observed, what is latent, and what variation disciplines the latent objects?
+    \item When do expectations, dynamics, welfare, or equilibrium response change the research design?
+    \item How should a reader interpret a structural counterfactual?
+\end{itemize}
+
+\medskip
+Structure is a research choice, not a rival ideology to design-based work.
+\end{frame}
+
+\begin{frame}{Why structure?}
+\begin{itemize}
+    \item Latent primitives: preferences, costs, technologies, beliefs, skills, frictions.
+    \item Expectations: decisions depend on future wages, offers, policy rules, or risks.
+    \item Dynamic incentives: actions today change tomorrow's state.
+    \item Counterfactuals: the policy of interest may be outside observed support.
+    \item Welfare: utility, equivalent variation, and insurance value are not directly observed.
+    \item Equilibrium response: prices, queues, vacancies, and market composition may adjust.
+\end{itemize}
+
+\medskip
+The model should buy an object that the data cannot reveal transparently without structure.
+\end{frame}
+
+\begin{frame}{Static vs dynamic problems}
+\small
+\begin{tabular}{p{0.18\linewidth} p{0.26\linewidth} p{0.25\linewidth} p{0.21\linewidth}}
+\toprule
+Type & Example & Key latent object & Main risk \\
+\midrule
+Static choice & job or school menu & contemporaneous utility tradeoffs & wrong menu or shock structure \\
+Static labor supply & hours under tax schedule & preferences over consumption and leisure & functional-form dependence \\
+Dynamic schooling & school, work, occupation & continuation values and skill accumulation & state-space misspecification \\
+Dynamic search & accept offer or search & offer distribution and reservation value & expectations and duration dependence \\
+Lifecycle labor supply & work, saving, retirement & risk, insurance, intertemporal preferences & extrapolation and heterogeneity \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Observed and latent objects}
+\small
+\begin{tabular}{p{0.25\linewidth} p{0.29\linewidth} p{0.34\linewidth}}
+\toprule
+Observed in data & Latent in model & Identification question \\
+\midrule
+choices and transitions & preferences and switching costs & which choices shift when states or prices change? \\
+wages and employment & skill prices and productivity & which histories discipline returns and shocks? \\
+policy rules and prices & perceived incentives and beliefs & do agents know and respond to the rule? \\
+state histories & transition laws and option values & which state changes predict future behavior? \\
+outcomes & welfare and compensating variation & how does utility map to observed behavior? \\
+\bottomrule
+\end{tabular}
+
+\medskip
+A structural paper should make this map visible before the main counterfactual.
+\end{frame}
+
+\begin{frame}{Static latent utility}
+\[
+U_{ij}
+=
+u_j(X_i,Z_{ij};\theta)
++ \alpha_i q_{ij}
++ \xi_j
++ \varepsilon_{ij}
+\]
+
+\[
+d_{ij}
+=
+\1\{U_{ij}\ge U_{ik}\ \text{for all }k\in\mathcal J_i\}
+\]
+
+\[
+\Prb(d_{ij}=1\mid X_i,Z_i;\theta)
+=
+\frac{\exp(V_{ij})}
+{\sum_{k\in\mathcal J_i}\exp(V_{ik})}
+\]
+
+\begin{itemize}
+    \item Observed: choice, menu, attributes, prices or wages.
+    \item Latent: utility, nonpecuniary value, unobserved quality, shocks.
+    \item The shock assumption turns latent utility into choice probabilities.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Dynamic Bellman logic}
+\[
+V(s_t)
+=
+\max_{a_t\in\mathcal A(s_t)}
+\left\{
+u(a_t,s_t;\theta)
++
+\delta\E_{\theta}
+\left[
+V(s_{t+1})\mid s_t,a_t
+\right]
+\right\}
+\]
+
+\[
+v(a,s;\theta)
+=
+u(a,s;\theta)
++
+\delta\sum_{s'}V(s';\theta)F(s'\mid s,a;\theta)
+\]
+
+\begin{itemize}
+    \item States summarize payoff-relevant history.
+    \item Actions change future states and future options.
+    \item Continuation values are the object reduced-form comparisons often leave latent.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Continue vs stop}
+\[
+v_C(s;\theta)
+=
+u_C(s;\theta)
++
+\delta\sum_{s'}V(s';\theta)F_C(s'\mid s;\theta)
+\]
+
+\[
+v_S(s;\theta)
+=
+u_S(s;\theta)
++
+\delta\sum_{s'}V(s';\theta)F_S(s'\mid s;\theta)
+\]
+
+\[
+\Prb(a=S\mid s;\theta)
+=
+\frac{\exp(v_S(s;\theta))}
+{\exp(v_S(s;\theta))+\exp(v_C(s;\theta))}
+\]
+
+\begin{itemize}
+    \item Replacement: keep operating or replace an engine.
+    \item Search: accept a job or continue searching.
+    \item Schooling: stay in school or work now.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Estimation strategies}
+\small
+\textbf{Likelihood}
+\[
+\widehat\theta
+=
+\arg\max_{\theta}
+\sum_{i,t}
+\log \Prb_{\theta}(a_{it}\mid s_{it},p_{it})
++
+\log f_{\theta}(y_{it},s_{i,t+1}\mid a_{it},s_{it},p_{it})
+\]
+
+\textbf{Moments or simulation}
+\[
+\widehat\theta
+=
+\arg\min_{\theta}
+\left[\widehat m^{data}-m^{model}(\theta)\right]'
+W
+\left[\widehat m^{data}-m^{model}(\theta)\right]
+\]
+
+\begin{itemize}
+    \item Fit should report targeted moments and non-target validation.
+    \item Identification asks which variation disciplines each primitive.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Policy counterfactuals and welfare}
+\[
+\widehat\theta
+\Longrightarrow
+\left\{
+\sigma_{\widehat\theta}(a\mid s;p),
+F_{\widehat\theta}(s'\mid s,a;p),
+Y_{\widehat\theta}(p),
+W_{\widehat\theta}(p)
+\right\}
+\]
+
+\[
+\Delta Y(p_1,p_0)
+=
+\E_{\widehat\theta}[Y_i(p_1)-Y_i(p_0)],
+\qquad
+\Delta W(p_1,p_0)
+=
+\E_{\widehat\theta}[W_i(p_1)-W_i(p_0)]
+\]
+
+\begin{itemize}
+    \item The policy changes rules, prices, constraints, or menus.
+    \item The model holds some primitives fixed and recomputes behavior.
+    \item Credibility falls as the counterfactual moves away from identifying support.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Theory to applied papers}
+\small
+\begin{tabular}{p{0.19\linewidth} p{0.25\linewidth} p{0.25\linewidth} p{0.21\linewidth}}
+\toprule
+Paper & Question & What is latent? & Model contribution \\
+\midrule
+Rust & replace now or later? & replacement costs and value of waiting & dynamic replacement counterfactuals \\
+Hotz-Miller & estimate dynamic choice? & value differences & CCP-based estimation logic \\
+Keane-Wolpin & schooling, work, career? & skills, preferences, expectations & dynamic career paths \\
+Todd-Wolpin & schooling subsidy? & household behavioral rules & validation and policy simulation \\
+Low-Meghir-Pistaferri & lifecycle risk? & insurance and risk processes & welfare under wage and employment risk \\
+Adda-Dustmann-Stevens & child career costs? & dynamic timing and persistence & long-run career counterfactuals \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Credibility threats}
+\begin{itemize}
+    \item Functional form: results driven by parametric utility, shocks, or transitions.
+    \item Expectations: agents may not know or believe the process assumed by the model.
+    \item Latent heterogeneity: flexible types can absorb misspecification.
+    \item Off-target fit: the model matches targeted moments but misses relevant behavior.
+    \item Identification by assumption: key primitives come from normalization more than data.
+    \item Extrapolation: the counterfactual changes support, menus, or equilibrium conditions.
+\end{itemize}
+
+\medskip
+Structural discipline means reporting these limits, not hiding them.
+\end{frame}
+
+\begin{frame}{Research Lab design}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{0.32\linewidth}
+\textbf{Reproduce}
+\begin{itemize}
+    \item Rust-style replacement
+    \item Mileage states
+    \item Replacement CCPs
+    \item Dynamic logit likelihood
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Diagnose}
+\begin{itemize}
+    \item Static vs dynamic fit
+    \item State support
+    \item Parameter sensitivity
+    \item Replacement-cost counterfactual
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Transfer}
+\begin{itemize}
+    \item Career-choice panel
+    \item School/work states
+    \item Tuition subsidy
+    \item Counterfactual memo
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item Use structure when the research object is latent, dynamic, welfare-relevant, or outside observed support.
+    \item The model must identify what is observed, what is latent, and what data variation disciplines the mapping.
+    \item Bellman logic is the language of dynamic incentives and continuation values.
+    \item Estimation is credible only when fit, validation, and sensitivity are reported transparently.
+    \item Counterfactuals should be interpreted through the distance between the new policy and the evidence that identified the primitives.
+\end{itemize}
+\end{frame}
+
+\end{document}

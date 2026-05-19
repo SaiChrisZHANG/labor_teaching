@@ -1,0 +1,9 @@
+team_id,saturation_cell,workers,outside_contact_share,mean_outside_contacts,mean_graph_treated_share,mean_productivity,partial_interference_note
+T01,low,12,0.333333,0.333333,0.279332,56.418675,more plausible: outside-team contacts are limited in the synthetic frame
+T02,low,12,0.416667,0.5,0.210714,53.676533,fragile: many workers report outside-team contacts
+T03,low,12,0.333333,0.416667,0.157341,54.208967,more plausible: outside-team contacts are limited in the synthetic frame
+T04,low,12,0.333333,0.333333,0.504762,57.261217,more plausible: outside-team contacts are limited in the synthetic frame
+T05,high,12,0.416667,0.666667,0.722024,57.752467,fragile: many workers report outside-team contacts
+T06,high,12,0.416667,0.666667,0.554861,59.513525,fragile: many workers report outside-team contacts
+T07,high,12,0.25,0.25,0.771032,61.305717,more plausible: outside-team contacts are limited in the synthetic frame
+T08,high,12,0.5,0.75,0.839815,60.60815,fragile: many workers report outside-team contacts

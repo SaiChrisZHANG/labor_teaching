@@ -1,0 +1,5 @@
+statistic,value,interpretation
+r_squared,0.7240393315663263,"fit of behavior equation, not proof of causal peer effects"
+residual_sd,2.131280889755057,unexplained wage variation after network and worker controls
+mean_wage,29.02116388888889,scale for interpreting counterfactual wage changes
+nobs,72.0,worker-level observations in the teaching design

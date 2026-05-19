@@ -1,0 +1,3 @@
+inference,variable,estimate,std_error,t_stat,nobs,diagnostic,interpretation_warning
+hc1,team_peer_productivity_loo,0.29828,0.141814,2.103322,96,contemporaneous leave-one-out team peer productivity,Reflection-prone: own and peer productivity are contemporaneous outcomes.
+hc1,graph_peer_productivity,0.348011,0.140329,2.479953,96,contemporaneous tie-weighted graph-neighbor productivity,Reflection-prone: own and peer productivity are contemporaneous outcomes.

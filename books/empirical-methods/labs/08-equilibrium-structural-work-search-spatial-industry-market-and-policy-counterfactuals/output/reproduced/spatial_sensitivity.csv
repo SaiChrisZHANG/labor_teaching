@@ -1,0 +1,13 @@
+housing_relaxation,mobility_scale,aggregate_output_pct_change,weighted_rent_change,weighted_utility_change,max_solver_iterations,diagnostic_note
+0.2,8.0,0.172056,-0.097746,0.175999,28,Smaller mobility_scale means workers are more responsive to utility differences.
+0.2,11.0,0.141827,-0.10111,0.171024,32,Smaller mobility_scale means workers are more responsive to utility differences.
+0.2,15.0,0.114805,-0.103401,0.165686,35,Smaller mobility_scale means workers are more responsive to utility differences.
+0.35,8.0,0.294337,-0.169216,0.303663,28,Smaller mobility_scale means workers are more responsive to utility differences.
+0.35,11.0,0.242609,-0.174664,0.294759,32,Smaller mobility_scale means workers are more responsive to utility differences.
+0.35,15.0,0.196362,-0.178295,0.285251,35,Smaller mobility_scale means workers are more responsive to utility differences.
+0.55,8.0,0.449283,-0.262204,0.468555,28,Smaller mobility_scale means workers are more responsive to utility differences.
+0.55,11.0,0.370311,-0.269922,0.4542,32,Smaller mobility_scale means workers are more responsive to utility differences.
+0.55,15.0,0.299686,-0.274905,0.438961,35,Smaller mobility_scale means workers are more responsive to utility differences.
+0.75,8.0,0.59587,-0.352708,0.627808,28,Smaller mobility_scale means workers are more responsive to utility differences.
+0.75,11.0,0.491136,-0.36219,0.607814,32,Smaller mobility_scale means workers are more responsive to utility differences.
+0.75,15.0,0.397435,-0.368093,0.586693,35,Smaller mobility_scale means workers are more responsive to utility differences.

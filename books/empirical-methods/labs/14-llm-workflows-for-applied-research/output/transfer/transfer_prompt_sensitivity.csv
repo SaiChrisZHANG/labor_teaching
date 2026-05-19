@@ -1,0 +1,101 @@
+case_id,rubric_v1,transfer_adapted_v1,label_changed_after_adaptation,program_area,region,benchmark_mismatch,benchmark_type,case_text
+1,0,1,1,training voucher,South,1,credential_gap,"Workforce case note for training voucher. Counselor summary: license bridge, paperwork credential pending. Participant is considering office administration placement."
+4,0,1,1,training voucher,Midwest,1,credential_gap,Workforce case note for training voucher. Counselor summary: credential bridge. Participant is considering public service placement.
+6,0,1,1,city contractor,West,1,skill_gap,"Workforce case note for city contractor. Counselor summary: digital intake coaching, rapid upskilling. Participant is considering office administration placement."
+8,0,1,1,community college,Midwest,1,schedule_gap,"Workforce case note for community college. Counselor summary: bus route barrier, wraparound schedule. Participant is considering logistics placement."
+9,0,1,1,city contractor,South,1,skill_gap,"Workforce case note for city contractor. Counselor summary: rapid upskilling, digital intake coaching. Participant is considering logistics placement."
+10,0,1,1,union pathway,Midwest,1,credential_gap,"Workforce case note for union pathway. Counselor summary: credential bridge, license bridge. Participant is considering public service placement."
+11,0,1,1,union pathway,Northeast,1,skill_gap,"Workforce case note for union pathway. Counselor summary: bridge credential, rapid upskilling. Participant is considering office administration placement."
+12,0,1,1,workforce agency,South,1,skill_gap,Workforce case note for workforce agency. Counselor summary: rapid upskilling. Participant is considering public service placement.
+13,0,1,1,city contractor,West,1,credential_gap,"Workforce case note for city contractor. Counselor summary: paperwork credential pending, license bridge. Participant is considering public service placement."
+16,0,1,1,union pathway,West,1,skill_gap,"Workforce case note for union pathway. Counselor summary: rapid upskilling, needs platform practice. Participant is considering public service placement."
+18,0,1,1,training voucher,South,1,credential_gap,Workforce case note for training voucher. Counselor summary: license bridge. Participant is considering health support placement.
+19,0,1,1,union pathway,Northeast,1,credential_gap,Workforce case note for union pathway. Counselor summary: reciprocity unresolved. Participant is considering health support placement.
+21,0,1,1,union pathway,West,1,credential_gap,"Workforce case note for union pathway. Counselor summary: reciprocity unresolved, transitioning from adjacent role. Participant is considering health support placement."
+22,0,1,1,union pathway,Midwest,0,none,"Workforce case note for union pathway. Counselor summary: credential bridge, credential verified, bridge credential. Participant is considering office administration placement."
+25,0,1,1,community college,South,1,schedule_gap,"Workforce case note for community college. Counselor summary: bus route barrier, wraparound schedule. Participant is considering health support placement."
+32,0,1,1,workforce agency,Midwest,1,schedule_gap,Workforce case note for workforce agency. Counselor summary: wraparound schedule. Participant is considering health support placement.
+36,0,1,1,workforce agency,West,1,credential_gap,"Workforce case note for workforce agency. Counselor summary: paperwork credential pending, credential bridge. Participant is considering logistics placement."
+39,0,1,1,training voucher,West,1,schedule_gap,Workforce case note for training voucher. Counselor summary: shift barrier. Participant is considering logistics placement.
+42,0,1,1,union pathway,South,1,skill_gap,Workforce case note for union pathway. Counselor summary: rapid upskilling. Participant is considering health support placement.
+44,0,1,1,city contractor,Northeast,0,none,"Workforce case note for city contractor. Counselor summary: license bridge, skills aligned, credential bridge. Participant is considering logistics placement."
+45,0,1,1,community college,South,1,skill_gap,"Workforce case note for community college. Counselor summary: bridge credential, digital intake coaching. Participant is considering office administration placement."
+49,0,1,1,union pathway,West,1,skill_gap,"Workforce case note for union pathway. Counselor summary: bridge credential, digital intake coaching. Participant is considering office administration placement."
+53,0,1,1,community college,West,0,none,"Workforce case note for community college. Counselor summary: license verified, reciprocity unresolved, credential bridge. Participant is considering office administration placement."
+54,0,1,1,training voucher,West,1,skill_gap,"Workforce case note for training voucher. Counselor summary: rapid upskilling, bridge credential. Participant is considering public service placement."
+56,0,1,1,workforce agency,Midwest,1,skill_gap,"Workforce case note for workforce agency. Counselor summary: bridge credential, digital intake coaching. Participant is considering public service placement."
+58,0,1,1,training voucher,South,1,skill_gap,Workforce case note for training voucher. Counselor summary: digital intake coaching. Participant is considering public service placement.
+61,0,1,1,community college,West,1,schedule_gap,"Workforce case note for community college. Counselor summary: shift barrier, wraparound schedule. Participant is considering office administration placement."
+62,0,1,1,training voucher,South,1,skill_gap,Workforce case note for training voucher. Counselor summary: bridge credential. Participant is considering logistics placement.
+64,0,1,1,workforce agency,South,1,credential_gap,"Workforce case note for workforce agency. Counselor summary: paperwork credential pending, credential bridge. Participant is considering health support placement."
+68,0,1,1,union pathway,Midwest,1,credential_gap,"Workforce case note for union pathway. Counselor summary: license bridge, credential bridge. Participant is considering public service placement."
+70,0,1,1,community college,West,1,skill_gap,"Workforce case note for community college. Counselor summary: rapid upskilling, needs platform practice. Participant is considering public service placement."
+74,0,1,1,city contractor,West,1,schedule_gap,"Workforce case note for city contractor. Counselor summary: wraparound schedule, care hours conflict. Participant is considering office administration placement."
+75,0,1,1,training voucher,Midwest,1,credential_gap,"Workforce case note for training voucher. Counselor summary: reciprocity unresolved, paperwork credential pending. Participant is considering office administration placement."
+76,0,1,1,union pathway,South,1,schedule_gap,"Workforce case note for union pathway. Counselor summary: shift barrier, bus route barrier, could benefit from coaching. Participant is considering office administration placement."
+77,0,1,1,city contractor,Midwest,1,credential_gap,Workforce case note for city contractor. Counselor summary: reciprocity unresolved. Participant is considering logistics placement.
+79,0,1,1,training voucher,South,1,schedule_gap,Workforce case note for training voucher. Counselor summary: wraparound schedule. Participant is considering logistics placement.
+83,0,1,1,union pathway,South,1,skill_gap,Workforce case note for union pathway. Counselor summary: bridge credential. Participant is considering logistics placement.
+88,0,1,1,community college,West,1,skill_gap,"Workforce case note for community college. Counselor summary: digital intake coaching, rapid upskilling. Participant is considering health support placement."
+91,0,1,1,training voucher,South,1,credential_gap,"Workforce case note for training voucher. Counselor summary: license bridge, transitioning from adjacent role. Participant is considering public service placement."
+98,0,1,1,training voucher,Northeast,1,credential_gap,"Workforce case note for training voucher. Counselor summary: reciprocity unresolved, paperwork credential pending, may need support. Participant is considering office administration placement."
+100,0,1,1,workforce agency,South,1,schedule_gap,Workforce case note for workforce agency. Counselor summary: wraparound schedule. Participant is considering health support placement.
+2,0,0,0,union pathway,South,0,none,"Workforce case note for union pathway. Counselor summary: schedule aligned, ready for placement. Participant is considering office administration placement."
+3,0,0,0,community college,Midwest,0,none,"Workforce case note for community college. Counselor summary: no training barrier, schedule aligned. Participant is considering office administration placement."
+5,0,0,0,union pathway,South,1,schedule_gap,"Workforce case note for union pathway. Counselor summary: could benefit from coaching, bus route barrier. Participant is considering public service placement."
+7,0,0,0,workforce agency,Northeast,0,none,Workforce case note for workforce agency. Counselor summary: credential verified. Participant is considering office administration placement.
+14,0,0,0,community college,South,0,none,"Workforce case note for community college. Counselor summary: informal experience, no training barrier, skills aligned. Participant is considering public service placement."
+15,1,1,0,union pathway,South,1,skill_gap,"Workforce case note for union pathway. Counselor summary: digital intake coaching, partial fit, bridge credential. Participant is considering public service placement."
+17,0,0,0,city contractor,Midwest,0,none,"Workforce case note for city contractor. Counselor summary: schedule aligned, credential verified. Participant is considering health support placement."
+20,0,0,0,city contractor,Northeast,0,none,"Workforce case note for city contractor. Counselor summary: ready for placement, schedule aligned. Participant is considering logistics placement."
+23,0,0,0,training voucher,South,1,schedule_gap,"Workforce case note for training voucher. Counselor summary: care hours conflict, bus route barrier. Participant is considering health support placement."
+24,0,0,0,city contractor,Midwest,0,none,"Workforce case note for city contractor. Counselor summary: license verified, skills aligned. Participant is considering health support placement."
+26,0,0,0,city contractor,Midwest,0,none,"Workforce case note for city contractor. Counselor summary: schedule aligned, credential bridge, no training barrier, reciprocity unresolved. Participant is considering logistics placement."
+27,0,0,0,union pathway,Northeast,0,none,"Workforce case note for union pathway. Counselor summary: schedule aligned, ready for placement. Participant is considering office administration placement."
+28,0,0,0,union pathway,South,0,none,"Workforce case note for union pathway. Counselor summary: skills aligned, schedule aligned. Participant is considering office administration placement."
+29,0,0,0,workforce agency,Midwest,0,none,"Workforce case note for workforce agency. Counselor summary: ready for placement, schedule aligned. Participant is considering office administration placement."
+30,0,0,0,community college,Midwest,0,none,Workforce case note for community college. Counselor summary: license verified. Participant is considering health support placement.
+31,0,0,0,workforce agency,South,0,none,"Workforce case note for workforce agency. Counselor summary: informal experience, no training barrier, schedule aligned. Participant is considering office administration placement."
+33,0,0,0,union pathway,West,0,none,"Workforce case note for union pathway. Counselor summary: partial fit, license verified. Participant is considering logistics placement."
+34,0,0,0,training voucher,West,1,schedule_gap,Workforce case note for training voucher. Counselor summary: care hours conflict. Participant is considering public service placement.
+35,0,0,0,community college,Northeast,0,none,Workforce case note for community college. Counselor summary: license verified. Participant is considering public service placement.
+37,0,0,0,city contractor,West,0,none,"Workforce case note for city contractor. Counselor summary: reciprocity unresolved, license verified, schedule aligned, license bridge. Participant is considering health support placement."
+38,0,0,0,training voucher,South,0,none,"Workforce case note for training voucher. Counselor summary: credential verified, no training barrier. Participant is considering logistics placement."
+40,0,0,0,city contractor,Midwest,0,none,"Workforce case note for city contractor. Counselor summary: skills aligned, license verified. Participant is considering logistics placement."
+41,0,0,0,workforce agency,Northeast,0,none,Workforce case note for workforce agency. Counselor summary: schedule aligned. Participant is considering logistics placement.
+43,0,0,0,training voucher,South,0,none,Workforce case note for training voucher. Counselor summary: credential verified. Participant is considering health support placement.
+46,0,0,0,union pathway,South,0,none,"Workforce case note for union pathway. Counselor summary: credential verified, skills aligned. Participant is considering health support placement."
+47,0,0,0,workforce agency,Northeast,0,none,"Workforce case note for workforce agency. Counselor summary: ready for placement, license verified. Participant is considering public service placement."
+48,0,0,0,workforce agency,Midwest,0,none,Workforce case note for workforce agency. Counselor summary: skills aligned. Participant is considering office administration placement.
+50,0,0,0,workforce agency,Northeast,0,none,Workforce case note for workforce agency. Counselor summary: no training barrier. Participant is considering health support placement.
+51,0,0,0,workforce agency,Midwest,0,none,"Workforce case note for workforce agency. Counselor summary: ready for placement, no training barrier. Participant is considering logistics placement."
+52,0,0,0,training voucher,Midwest,0,none,"Workforce case note for training voucher. Counselor summary: credential verified, no training barrier, informal experience. Participant is considering office administration placement."
+55,1,1,0,training voucher,Northeast,1,skill_gap,"Workforce case note for training voucher. Counselor summary: transitioning from adjacent role, bridge credential, digital intake coaching. Participant is considering public service placement."
+57,0,0,0,union pathway,South,0,none,"Workforce case note for union pathway. Counselor summary: ready for placement, could benefit from coaching. Participant is considering office administration placement."
+59,0,0,0,city contractor,Midwest,0,none,"Workforce case note for city contractor. Counselor summary: schedule aligned, ready for placement. Participant is considering health support placement."
+60,0,0,0,union pathway,Northeast,0,none,"Workforce case note for union pathway. Counselor summary: schedule aligned, license verified. Participant is considering office administration placement."
+63,0,0,0,union pathway,Northeast,0,none,"Workforce case note for union pathway. Counselor summary: schedule aligned, no training barrier. Participant is considering health support placement."
+65,0,0,0,city contractor,Northeast,0,none,Workforce case note for city contractor. Counselor summary: credential verified. Participant is considering health support placement.
+66,0,0,0,union pathway,Midwest,0,none,Workforce case note for union pathway. Counselor summary: ready for placement. Participant is considering office administration placement.
+67,0,0,0,training voucher,West,1,skill_gap,Workforce case note for training voucher. Counselor summary: needs platform practice. Participant is considering logistics placement.
+69,0,0,0,city contractor,West,0,none,"Workforce case note for city contractor. Counselor summary: license verified, credential verified. Participant is considering logistics placement."
+71,0,0,0,community college,Northeast,0,none,"Workforce case note for community college. Counselor summary: license verified, no training barrier. Participant is considering logistics placement."
+72,0,0,0,training voucher,West,1,schedule_gap,Workforce case note for training voucher. Counselor summary: bus route barrier. Participant is considering office administration placement.
+73,0,0,0,city contractor,West,0,none,Workforce case note for city contractor. Counselor summary: ready for placement. Participant is considering office administration placement.
+78,0,0,0,city contractor,Northeast,0,none,"Workforce case note for city contractor. Counselor summary: skills aligned, license verified. Participant is considering health support placement."
+80,0,0,0,community college,Northeast,0,none,"Workforce case note for community college. Counselor summary: ready for placement, skills aligned. Participant is considering health support placement."
+81,0,0,0,union pathway,West,0,none,Workforce case note for union pathway. Counselor summary: skills aligned. Participant is considering logistics placement.
+82,0,0,0,union pathway,South,0,none,"Workforce case note for union pathway. Counselor summary: no training barrier, schedule aligned. Participant is considering logistics placement."
+84,0,0,0,workforce agency,West,0,none,Workforce case note for workforce agency. Counselor summary: no training barrier. Participant is considering public service placement.
+85,0,0,0,city contractor,South,0,none,"Workforce case note for city contractor. Counselor summary: schedule aligned, no training barrier. Participant is considering logistics placement."
+86,0,0,0,community college,Midwest,1,schedule_gap,Workforce case note for community college. Counselor summary: bus route barrier. Participant is considering health support placement.
+87,0,0,0,training voucher,South,0,none,"Workforce case note for training voucher. Counselor summary: skills aligned, ready for placement. Participant is considering public service placement."
+89,0,0,0,union pathway,Northeast,0,none,Workforce case note for union pathway. Counselor summary: credential verified. Participant is considering health support placement.
+90,1,1,0,union pathway,Northeast,1,credential_gap,"Workforce case note for union pathway. Counselor summary: credential bridge, may need support, license bridge. Participant is considering office administration placement."
+92,0,0,0,community college,Midwest,0,none,"Workforce case note for community college. Counselor summary: no training barrier, ready for placement. Participant is considering logistics placement."
+93,0,0,0,workforce agency,South,0,none,"Workforce case note for workforce agency. Counselor summary: credential verified, no training barrier. Participant is considering office administration placement."
+94,0,0,0,training voucher,Midwest,1,schedule_gap,Workforce case note for training voucher. Counselor summary: bus route barrier. Participant is considering office administration placement.
+95,0,0,0,city contractor,West,0,none,"Workforce case note for city contractor. Counselor summary: credential verified, license verified. Participant is considering public service placement."
+96,0,0,0,city contractor,West,0,none,"Workforce case note for city contractor. Counselor summary: no training barrier, license verified, some exposure. Participant is considering office administration placement."
+97,0,0,0,training voucher,Midwest,0,none,Workforce case note for training voucher. Counselor summary: license verified. Participant is considering logistics placement.
+99,0,0,0,community college,West,0,none,Workforce case note for community college. Counselor summary: schedule aligned. Participant is considering health support placement.

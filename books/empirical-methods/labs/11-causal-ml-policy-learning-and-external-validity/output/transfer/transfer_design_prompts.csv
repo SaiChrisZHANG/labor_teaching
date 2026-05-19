@@ -1,0 +1,5 @@
+step,prompt
+covariate_shift,Use source_vs_target_covariates.csv and subgroup_shift.csv to describe how the target population differs from the source evaluation sample.
+target_weighting,Use transport_weight_summary.csv to decide whether source-to-target reweighting leaves enough effective support.
+policy_transfer,Compare source_eval_target_weighted_dr_value with target_true_value_synthetic for the selected rule.
+fairness,Use fairness_transfer_audit.csv to ask whether the source-trained rule changes assignment disparities in the target population.

@@ -1,0 +1,5 @@
+design_element,student_prompt
+target_parameter,"Is the workplace training question closest to ATT, ATE, or ATC?"
+selection_story,Which observed variables explain why workers enter training?
+main_unobserved_threat,What private information or motivation remains unobserved?
+interpretation,Would you defend a causal estimate or an adjusted descriptive comparison?

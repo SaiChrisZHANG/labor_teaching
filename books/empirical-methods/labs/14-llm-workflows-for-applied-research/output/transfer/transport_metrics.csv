@@ -1,0 +1,3 @@
+profile,n,accuracy,precision,recall,f1,false_positive_rate,false_negative_rate,positive_rate,brier,tp,fp,fn,tn,domain
+rubric_v1,100.0,0.55,1.0,0.0625,0.11764705882352941,0.0,0.9375,0.03,0.28115831980000006,3.0,0.0,45.0,52.0,transfer_workforce_case_notes
+transfer_adapted_v1,100.0,0.9,0.9318181818181818,0.8541666666666666,0.8913043478260869,0.057692307692307696,0.14583333333333334,0.44,0.17843630480000003,41.0,3.0,7.0,49.0,transfer_workforce_case_notes

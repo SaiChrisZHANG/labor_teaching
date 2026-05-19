@@ -1,0 +1,262 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs, graphicx}
+
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\1}{\mathbf{1}}
+
+\title{Prediction, Regularization, and Applied Measurement}
+\subtitle{Empirical Methods --- Week 9}
+\author{Teaching deck draft}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Week 9 question}
+\begin{itemize}
+    \item When is prediction itself the research object?
+    \item When is prediction an input into measurement or design?
+    \item How do train/test logic, regularization, and calibration discipline the object?
+    \item What can go wrong when a predicted variable enters an economics paper?
+\end{itemize}
+
+\medskip
+Machine learning can improve measurement and diagnostics, but it does not define the estimand or identify a causal effect.
+\end{frame}
+
+\begin{frame}{Prediction versus causal design}
+\small
+\begin{tabular}{p{0.28\linewidth} p{0.30\linewidth} p{0.30\linewidth}}
+\toprule
+Use & Main object & Evaluation question \\
+\midrule
+Prediction as final object & risk, forecast, ranking, probability & Does it generalize and calibrate on the target population? \\
+Prediction as measurement & score, label, exposure, proxy & Does it measure the economic construct needed downstream? \\
+Prediction as nuisance input & flexible controls or nuisance functions & Does it help estimate the causal object without becoming the answer? \\
+\bottomrule
+\end{tabular}
+
+\medskip
+\begin{itemize}
+    \item Prediction accuracy is not identification.
+    \item A good score can still be a bad measure if the target, timing, or population is wrong.
+    \item The downstream design determines which prediction errors matter.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Train/test risk}
+\small
+\[
+R(f)=\E\left[L(Y,f(X))\right]
+\]
+
+\[
+\widehat f
+=
+\arg\min_{f\in\mathcal F}
+\frac{1}{|\mathcal I_{train}|}
+\sum_{i\in\mathcal I_{train}} L(Y_i,f(X_i))
+\]
+
+\[
+\widehat R_{test}(\widehat f)
+=
+\frac{1}{|\mathcal I_{test}|}
+\sum_{i\in\mathcal I_{test}} L(Y_i,\widehat f(X_i))
+\]
+
+\begin{itemize}
+    \item Random splits answer a narrow generalization question.
+    \item Time, firm, region, or occupation splits test transportability.
+    \item The loss should match the economics cost of the mistake.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Regularization and tuning}
+\small
+\[
+\widehat\beta^{lasso}
+=
+\arg\min_{\beta}
+\frac{1}{n}\sum_{i=1}^{n}(Y_i-X_i'\beta)^2
++
+\lambda\sum_{j=1}^{p}|\beta_j|
+\]
+
+\[
+\widehat\beta^{ridge}
+=
+\arg\min_{\beta}
+\frac{1}{n}\sum_{i=1}^{n}(Y_i-X_i'\beta)^2
++
+\lambda\sum_{j=1}^{p}\beta_j^2
+\]
+
+\[
+\widehat\beta^{EN}
+=
+\arg\min_{\beta}
+\frac{1}{n}\sum_{i=1}^{n}(Y_i-X_i'\beta)^2
++
+\lambda\left[\alpha\sum_j|\beta_j|+(1-\alpha)\sum_j\beta_j^2\right]
+\]
+\end{frame}
+
+\begin{frame}{Cross-validation selects prediction rules}
+\small
+\[
+\widehat\lambda
+=
+\arg\min_{\lambda\in\Lambda}
+\frac{1}{K}\sum_{k=1}^{K}
+\frac{1}{|V_k|}
+\sum_{i\in V_k}
+L\left(Y_i,\widehat f_{-k,\lambda}(X_i)\right)
+\]
+
+\medskip
+\begin{tabular}{p{0.22\linewidth} p{0.32\linewidth} p{0.34\linewidth}}
+\toprule
+Penalty & Best when & Caveat \\
+\midrule
+Lasso & sparse signal is plausible & selected variables can be unstable \\
+Ridge & many related predictors matter & no sparse interpretation \\
+Elastic net & grouped or collinear features & tuning has two moving parts \\
+\bottomrule
+\end{tabular}
+
+\medskip
+Cross-validation is a tuning device. It is not an exclusion restriction, a research design, or a policy-invariance argument.
+\end{frame}
+
+\begin{frame}{Bias, variance, and calibration}
+\small
+\[
+\E\left[(Y-\widehat f(x))^2\mid X=x\right]
+=
+\sigma^2+
+\left(\E[\widehat f(x)]-f_0(x)\right)^2+
+\operatorname{Var}(\widehat f(x))
+\]
+
+\[
+\E[Y_i\mid \widehat p_i=s]=s,
+\qquad
+\widehat B=\frac{1}{n}\sum_{i=1}^{n}(Y_i-\widehat p_i)^2
+\]
+
+\[
+\widehat C_i(t)=\1\{\widehat p_i\geq t\}
+\]
+
+\begin{itemize}
+    \item Regularization accepts bias to reduce variance.
+    \item Calibration matters when a score is used as probability or intensity.
+    \item Thresholds encode policy or measurement tradeoffs.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Economics applications to measurement}
+\small
+\begin{tabular}{p{0.24\linewidth} p{0.31\linewidth} p{0.33\linewidth}}
+\toprule
+Setting & Predicted object & Downstream use \\
+\midrule
+Job postings & skills, tasks, technology labels & labor demand, task change, technology exposure \\
+Raw job titles & occupation or task group & mobility, wage growth, exposure by occupation \\
+Remote work & feasibility or intensity score & spatial sorting, firm policy, worker access \\
+Risk environments & default, attrition, take-up & targeting, diagnostics, policy triage \\
+Latent outcomes & imputed score or proxy & measurement when outcomes are missing or costly \\
+\bottomrule
+\end{tabular}
+
+\medskip
+The question is not ``which algorithm is strongest?'' It is whether the predicted object matches the economic construct.
+\end{frame}
+
+\begin{frame}{Feature engineering and leakage}
+\small
+\begin{itemize}
+    \item Predictors must be available at the time and level of the intended prediction.
+    \item Leakage can enter through post-outcome variables, post-treatment text, edited metadata, future codes, or labels embedded in features.
+    \item Job-posting text, occupation codes, firm histories, and worker records all require a timing diagram.
+    \item A model can pass a random holdout test while failing the actual research-use test.
+\end{itemize}
+
+\medskip
+\[
+\text{allowed feature}
+\quad \Longleftrightarrow \quad
+X_i \text{ observed before } Y_i \text{ and before the policy/design decision.}
+\]
+\end{frame}
+
+\begin{frame}{Implementation pitfalls}
+\small
+\begin{tabular}{p{0.25\linewidth} p{0.33\linewidth} p{0.30\linewidth}}
+\toprule
+Pitfall & Why it matters & Check \\
+\midrule
+Class imbalance & accuracy hides rare-event failure & precision, recall, confusion matrix \\
+Drift & language and behavior change & time-split validation \\
+Transportability & model fails across firms or regions & group-split validation \\
+Instability & selected features are sample-specific & fold-level selection stability \\
+Subgroup error & measurement error is systematic & subgroup loss and calibration \\
+Interpretability & measure is not auditable & target, features, labels, failure modes \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Research Lab design}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{0.32\linewidth}
+\textbf{Reproduce}
+\begin{itemize}
+    \item synthetic job postings
+    \item keyword baseline
+    \item ridge, lasso, elastic net
+    \item cross-validation and test loss
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Diagnose}
+\begin{itemize}
+    \item calibration bins
+    \item subgroup performance
+    \item leakage audit
+    \item feature stability
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Transfer}
+\begin{itemize}
+    \item occupation-title data
+    \item vocabulary coverage
+    \item transportability loss
+    \item downstream-use memo
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item Start with the economic object, not the algorithm.
+    \item Train/test discipline estimates generalization only for the population implied by the split.
+    \item Regularization is useful because high-dimensional data are noisy and collinear.
+    \item A predicted measure needs calibration, subgroup diagnostics, leakage checks, and transportability evidence.
+    \item ML improves applied economics when it sharpens measurement while leaving identification explicit.
+\end{itemize}
+\end{frame}
+
+\end{document}

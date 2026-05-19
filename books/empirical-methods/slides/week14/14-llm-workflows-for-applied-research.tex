@@ -1,0 +1,236 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs}
+
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\1}{\mathbf{1}}
+\newcommand{\plim}{\operatorname{plim}}
+
+\title{LLM Workflows For Applied Research}
+\subtitle{Empirical Methods --- Week 14}
+\author{Teaching deck draft}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Week 14 question}
+\begin{itemize}
+    \item How can language models support applied research without weakening reproducibility?
+    \item Lecture 14 is about LLMs as research infrastructure, not another text classifier.
+    \item The central object is the workflow: prompt, model, retrieval, schema, benchmark, review, and audit trail.
+    \item The standard remains applied economics: define the object, validate the measure, preserve the replication path.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Five roles for LLMs}
+\small
+\begin{tabular}{p{0.24\linewidth} p{0.31\linewidth} p{0.34\linewidth}}
+\toprule
+Role & Output & Main evidentiary question \\
+\midrule
+Research assistant & code, summaries, templates & Did the researcher verify the final artifact? \\
+Coder / extractor & labels, fields, scores & Does it measure the intended economic object? \\
+Synthetic annotator & scalable labels & Does it agree with a benchmark and where does it fail? \\
+Synthetic subject & choices, survey answers & Does it reproduce human patterns on benchmark tasks? \\
+Simulation engine & actions, transitions, narratives & Does the environment generate disciplined comparative statics? \\
+\bottomrule
+\end{tabular}
+
+\medskip
+The role determines the validation standard.
+\end{frame}
+
+\begin{frame}{LLMs as research assistants}
+\begin{itemize}
+    \item High-value uses: code drafting, debugging, cleaning plans, document triage, extraction templates, literature maps.
+    \item Strongest when the final published object is still researcher-controlled.
+    \item Agentic workflows add tool calls, file edits, and intermediate artifacts.
+    \item Every multi-step assistant workflow needs checkpoints and logs.
+\end{itemize}
+
+\medskip
+Assistant use is not automatically a measurement problem, but it is still a reproducibility problem.
+\end{frame}
+
+\begin{frame}{LLMs as coders and extractors}
+\small
+\[
+\widehat z_i = g_{\theta}(x_i,p_i,r_i)
+\]
+
+\[
+Y_i=\alpha+\beta \widehat z_i+u_i
+\]
+
+\begin{itemize}
+    \item \(x_i\): raw document, posting, contract, response, or case note.
+    \item \(p_i\): prompt and schema.
+    \item \(r_i\): retrieval context, examples, rubrics, or taxonomies.
+    \item \(\theta\): model version, decoding, tools, and post-processing.
+\end{itemize}
+
+\medskip
+If \(\widehat z_i\) enters the economics, the workflow is a measurement instrument.
+\end{frame}
+
+\begin{frame}{Synthetic coders and annotators}
+\begin{itemize}
+    \item Useful when human coding is costly and the construct is well specified.
+    \item Not enough to show that labels look plausible.
+    \item Need human benchmark labels, disagreement audits, and subgroup diagnostics.
+    \item Route ambiguous, high-stakes, and low-confidence cases to review.
+\end{itemize}
+
+\medskip
+A good synthetic-label pipeline is usually human-in-the-loop, not human-free.
+\end{frame}
+
+\begin{frame}{LLMs as experimental subjects}
+\small
+\[
+a_i=s_{\theta}(e_i,p_i,c_i)
+\]
+
+\begin{itemize}
+    \item \(e_i\): vignette, game, policy scenario, or experimental environment.
+    \item \(p_i\): persona, instructions, ordering, and prompt frame.
+    \item \(c_i\): supplied context or memory.
+    \item \(a_i\): simulated choice, response, message, or action.
+\end{itemize}
+
+\medskip
+Synthetic subjects can pilot designs and explore mechanisms. They do not estimate human behavior unless benchmarked against human behavior.
+\end{frame}
+
+\begin{frame}{LLMs as simulation engines}
+\small
+\[
+x_{t+1}=f_{\theta}(x_t,a_t,\varepsilon_t)
+\]
+
+\begin{tabular}{p{0.28\linewidth} p{0.62\linewidth}}
+\toprule
+Design choice & What to make explicit \\
+\midrule
+State & variables, memory, constraints, histories \\
+Action & feasible choices and timing \\
+Transition & rule-based versus model-generated updates \\
+Shock process & exogenous variation and random seeds \\
+Benchmark & empirical regularities the simulation must reproduce \\
+\bottomrule
+\end{tabular}
+
+\medskip
+Fluent narratives are not validation.
+\end{frame}
+
+\begin{frame}{Workflow risk decomposition}
+\small
+\[
+R_{\text{workflow}}
+=R_{\text{prompt}}
++R_{\text{model}}
++R_{\text{retrieval}}
++R_{\text{benchmark}}
++R_{\text{transport}}
++R_{\text{privacy}}
+\]
+
+\begin{itemize}
+    \item Prompt risk: wording changes labels or fields.
+    \item Model risk: versions, providers, or decoding alter outputs.
+    \item Retrieval risk: wrong chunks, stale corpus, missing context.
+    \item Benchmark risk: small, easy, biased, or nonportable gold labels.
+    \item Transport risk: source prompt does not travel to a new domain.
+    \item Privacy risk: raw inputs cannot safely leave the data environment.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Replication, audit trails, and privacy}
+\small
+\begin{tabular}{p{0.28\linewidth} p{0.62\linewidth}}
+\toprule
+Artifact & Minimum record \\
+\midrule
+Prompt & system prompt, user template, examples, schema \\
+Model & provider, model, version/date, decoding settings \\
+Retrieval & corpus version, chunking, retrieved passages, settings \\
+Output & raw completion, parsed fields, validation errors \\
+Review & reviewer, adjudication, reason code, final label \\
+Evaluation & benchmark set, metrics, sensitivity scripts \\
+Privacy & release limits, redaction, secure review protocol \\
+\bottomrule
+\end{tabular}
+
+\medskip
+Each published value should be traceable from raw input to final dataset.
+\end{frame}
+
+\begin{frame}{Publication-ready LLM measurement}
+\begin{itemize}
+    \item Define the economic object before choosing the model.
+    \item Freeze a schema, prompt, retrieval corpus, and post-processing rule.
+    \item Build or preserve an independent benchmark set.
+    \item Report accuracy, calibration, subgroup performance, and prompt sensitivity.
+    \item Audit false positives, false negatives, unsupported completions, and influential cases.
+    \item Explain how remaining errors change descriptive, causal, structural, or policy interpretation.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Research Lab design}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{0.32\linewidth}
+\textbf{Reproduce}
+\begin{itemize}
+    \item synthetic labor documents
+    \item prompt template
+    \item structured schema
+    \item prompt log
+    \item benchmark metrics
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Diagnose}
+\begin{itemize}
+    \item prompt sensitivity
+    \item subgroup stability
+    \item unsupported outputs
+    \item human-review queue
+    \item downstream slope
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Transfer}
+\begin{itemize}
+    \item workforce case notes
+    \item source prompt
+    \item adapted prompt
+    \item transport metrics
+    \item redesign memo
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item LLMs are useful research infrastructure when their role is explicit.
+    \item A prompt/model workflow can be a measurement instrument.
+    \item Synthetic subjects are best treated as pilots or benchmarked objects of study.
+    \item Simulation engines need transparent state, action, transition, and validation rules.
+    \item Replication requires logs, outputs, schemas, benchmarks, review records, and privacy documentation.
+    \item LLMs lower some costs; they do not lower the standard of evidence.
+\end{itemize}
+\end{frame}
+
+\end{document}

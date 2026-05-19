@@ -1,0 +1,235 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs, graphicx}
+
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\1}{\mathbf{1}}
+
+\title{DID, Event Studies, and Synthetic Control}
+\subtitle{Empirical Methods --- Week 3}
+\author{Teaching deck draft}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Week 3 question}
+\begin{itemize}
+    \item Which untreated path stands in for treated units' missing untreated outcomes?
+    \item When do panel comparisons become credible causal designs?
+    \item When do fixed effects hide bad comparisons, contaminated dynamics, or fragile inference?
+\end{itemize}
+
+\medskip
+DID, event studies, and synthetic control are counterfactual-path designs, not just panel regressions.
+\end{frame}
+
+\begin{frame}{2x2 DID and parallel trends}
+\[
+\widehat{\tau}^{DID}
+=
+\left(\bar{Y}_{T,post}-\bar{Y}_{T,pre}\right)
+-
+\left(\bar{Y}_{C,post}-\bar{Y}_{C,pre}\right)
+\]
+
+\[
+\E[Y_{i1}(0)-Y_{i0}(0)\mid D_i=1]
+=
+\E[Y_{i1}(0)-Y_{i0}(0)\mid D_i=0]
+\]
+
+\begin{itemize}
+    \item Identifies a post-period ATT under parallel trends and no anticipation.
+    \item Best for one sharp treatment date with a credible comparison group.
+    \item Does not identify long-run, spillover, equilibrium, or out-of-support effects by itself.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Card--Krueger as design anchor}
+\begin{itemize}
+    \item Treated path: New Jersey fast-food restaurants after the minimum-wage increase.
+    \item Comparison path: Pennsylvania restaurants over the same window.
+    \item Design claim: Pennsylvania's employment change proxies for New Jersey's missing untreated change.
+    \item Interpretation: the second difference is an ATT for this policy, period, and comparison.
+\end{itemize}
+
+\medskip
+The paper is useful because the counterfactual path is visible enough to debate.
+\end{frame}
+
+\begin{frame}{Event studies and dynamic paths}
+\[
+Y_{it}
+=
+\alpha_i+\lambda_t+
+\sum_{k\neq -1}\beta_k \1\{t-G_i=k\}
++\varepsilon_{it}
+\]
+
+\begin{itemize}
+    \item Event time $k=t-G_i$ organizes leads and lags around first treatment.
+    \item Post coefficients describe dynamic response only if comparisons are valid.
+    \item Pre coefficients are diagnostics; insignificant leads do not prove parallel trends.
+    \item Report omitted period, binning, anticipation window, and cohort support.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Why staggered TWFE can fail}
+\[
+Y_{it}=\alpha_i+\lambda_t+\tau D_{it}+\varepsilon_{it}
+\]
+
+\begin{itemize}
+    \item TWFE with staggered adoption is a weighted mix of 2x2 comparisons.
+    \item Some comparisons use already-treated units as controls for newly treated units.
+    \item With heterogeneous effects, already-treated outcomes contain treatment effects.
+    \item Event-study coefficients can be contaminated by other cohorts' effects.
+    \item A precise coefficient can answer a comparison the paper does not want.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Modern DID estimator choices}
+\small
+\begin{tabular}{p{0.25\linewidth} p{0.29\linewidth} p{0.34\linewidth}}
+\toprule
+Tool & Best use & What it fixes \\
+\midrule
+Goodman--Bacon & Diagnose static TWFE & Reveals weighted 2x2 comparison structure \\
+Callaway--Sant'Anna & Group-time effects and transparent aggregation & Uses valid not-yet-treated or never-treated controls \\
+Sun--Abraham & Dynamic event-study path & Avoids contamination of relative-time coefficients \\
+Borusyak--Jaravel--Spiess & Imputation-style event studies and aggregates & Reconstructs untreated outcomes from untreated observations \\
+\bottomrule
+\end{tabular}
+
+\medskip
+Choose the estimator after naming the estimand and comparison set.
+\end{frame}
+
+\begin{frame}{Group-time and imputation logic}
+\[
+ATT(g,t)
+=
+\E[Y_{it}(g)-Y_{it}(\infty)\mid G_i=g],
+\qquad t\ge g
+\]
+
+\[
+\widehat{ATT}_{\mathcal{S}}
+=
+\frac{1}{|\mathcal{S}|}
+\sum_{(i,t)\in \mathcal{S}}
+\left(Y_{it}-\widehat{Y}_{it}(0)\right)
+\]
+
+\begin{itemize}
+    \item Group-time DID estimates effects for a cohort at a calendar time.
+    \item Aggregation weights should match the research question.
+    \item Imputation makes the untreated-outcome model explicit.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Clustering, serial correlation, inference}
+\[
+\widehat{V}_{CR}
+=
+(X'X)^{-1}
+\left(\sum_{g=1}^{G}X_g'\widehat{u}_g\widehat{u}_g'X_g\right)
+(X'X)^{-1}
+\]
+
+\begin{itemize}
+    \item DID outcomes and treatments are usually persistent.
+    \item Cluster at the treatment-assignment or residual-dependence level.
+    \item Few clusters or few treated clusters require caution.
+    \item Use wild cluster bootstrap or randomization/placebo inference when appropriate.
+    \item Standard errors quantify uncertainty around an estimand; they do not validate the comparison.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Synthetic control}
+\[
+\widehat{w}
+=
+\arg\min_w (X_1-X_0w)'V(X_1-X_0w)
+\quad
+\text{s.t. } w_j\ge 0,\; \sum_j w_j=1
+\]
+
+\[
+\widehat{\tau}_{1t}
+=
+Y_{1t}-\sum_j \widehat{w}_jY_{jt}
+\]
+
+\begin{itemize}
+    \item Best for one or a few treated aggregate units.
+    \item Pre-treatment fit is part of the design argument.
+    \item Report donor pool, weights, pre-fit, post gaps, and placebo comparisons.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Design checklist}
+\begin{enumerate}
+    \item What changed, when, and for whom?
+    \item What is the estimand: 2x2 ATT, $ATT(g,t)$, event-time path, or synthetic gap?
+    \item Which units are valid controls at each time?
+    \item Is treatment absorbing, staggered, reversible, or continuous?
+    \item Is no anticipation plausible?
+    \item What is the clustering or placebo-inference level?
+    \item What does the estimate not identify?
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Research Lab design}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{0.32\linewidth}
+\textbf{Reproduce}
+\begin{itemize}
+    \item Card--Krueger-style 2x2 DID
+    \item State paths
+    \item Regression equivalence
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Diagnose}
+\begin{itemize}
+    \item Staggered adoption panel
+    \item TWFE vs group-time ATT
+    \item Imputation-style ATT
+    \item Event-time support
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Transfer}
+\begin{itemize}
+    \item Single treated city
+    \item Donor weights
+    \item Pre-fit and post gaps
+    \item Placebo comparisons
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item The design object is the missing untreated path for treated units.
+    \item Classical DID is powerful when the comparison trend is credible.
+    \item Staggered TWFE can hide forbidden comparisons and contaminated dynamics.
+    \item Modern DID methods define valid comparisons and transparent aggregations.
+    \item Inference discipline is central when treatment and outcomes are persistent.
+    \item Synthetic control is the same counterfactual-path logic with donor construction.
+\end{itemize}
+\end{frame}
+
+\end{document}

@@ -1,0 +1,6 @@
+parameter,estimate,standard_error_naive,diagnostic_note
+intercept,-1.6e-05,1.3e-05,Teaching OLS demand; publishable work would need instruments.
+price_alpha,-1.149993,5e-06,Price coefficient governs elasticities and markups in this teaching path.
+quality,0.779998,2e-06,Quality shifts product utility.
+automation_exposure,0.199998,7e-06,Exposure shifts product utility and defines the cost-shock target.
+market_income_index,0.079999,2e-06,Market-level demand shifter included for fit.

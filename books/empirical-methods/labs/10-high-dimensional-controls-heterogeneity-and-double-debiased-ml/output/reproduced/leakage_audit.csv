@@ -1,0 +1,4 @@
+feature,status,reason,diagnostic
+future_client_rating,excluded,Post-treatment platform rating can be affected by client concentration and wage outcomes.,Draw timing before feature construction; exclude variables realized after treatment.
+prior_log_wage,included,Pre-treatment earnings history is a plausible confounder and nuisance predictor.,Check whether it is measured before the concentration exposure.
+repeat_client_share,included,Pre-treatment market relationship measure that predicts treatment assignment.,Inspect overlap because strong treatment prediction can create thin support.

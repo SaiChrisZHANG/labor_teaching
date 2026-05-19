@@ -1,0 +1,5 @@
+issue,evidence_to_check,redesign_action
+source prompt misses transfer vocabulary,vocabulary_shift.csv and transfer_prompt_sensitivity.csv,"add domain examples for bridge credentials, reciprocity, shift barriers, and rapid upskilling"
+benchmark may not match source document unit,manual audit of case-note labels,label a stratified transfer benchmark before using the measure downstream
+case notes can include sensitive information,privacy review and redaction protocol,preserve redacted prompt logs and avoid sending identifiable notes to external APIs
+prompt adaptation changes the estimand,label changes after adaptation,state whether the target is source-domain mismatch or transfer-domain placement readiness

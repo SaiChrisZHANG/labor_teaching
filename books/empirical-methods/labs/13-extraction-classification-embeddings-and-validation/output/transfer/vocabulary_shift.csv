@@ -1,0 +1,2 @@
+source_vocabulary_size,transfer_token_count,covered_token_count,coverage_rate,top_uncovered_tokens
+90,4200,1199,0.2854761904761905,staff:268; record:180; describe:180; for:180; participants:180; and:180; supervisors:180; approval:99; queue:97; eligibility:97; review:97; notes:97

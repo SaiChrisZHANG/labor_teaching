@@ -1,0 +1,7 @@
+estimand,method,estimate
+raw difference,naive means,-962.5730392156838
+adjusted comparison,linear regression adjustment,1526.6480610964552
+ATT,nearest-neighbor propensity match,1886.2895833333334
+ATE,inverse-probability weighting,-251.527210103815
+ATT,odds-weighted controls,1953.5585851971973
+ATE,augmented IPW / doubly robust,1226.1320923703436

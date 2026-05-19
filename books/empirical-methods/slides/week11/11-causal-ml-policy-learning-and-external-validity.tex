@@ -1,0 +1,267 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs, graphicx}
+
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\1}{\mathbf{1}}
+\newcommand{\argmax}{\operatorname*{arg\,max}}
+\newcommand{\Prb}{\operatorname{Pr}}
+
+\title{Causal ML, Policy Learning, and External Validity}
+\subtitle{Empirical Methods --- Week 11}
+\author{Teaching deck draft}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Week 11 question}
+\begin{itemize}
+    \item What should researchers do after heterogeneity is estimated?
+    \item When is heterogeneity itself the research object?
+    \item When is the object a policy rule, value, or regret comparison?
+    \item When does a rule learned in one setting fail to travel to another?
+\end{itemize}
+
+\medskip
+The method is useful only after the welfare objective, feasible rule class, and deployment environment are explicit.
+\end{frame}
+
+\begin{frame}{Lecture 10 versus Lecture 11}
+\small
+\begin{tabular}{p{0.45\linewidth} p{0.45\linewidth}}
+\toprule
+Lecture 10 & Lecture 11 \\
+\midrule
+High-dimensional controls & Policy rules and targeting \\
+Orthogonal nuisance estimation & Policy value and regret \\
+DML for low-dimensional effects & Empirical welfare maximization \\
+CATE and causal forests & CATEs as inputs to decisions \\
+Overlap for effect estimation & Overlap where the rule assigns treatment \\
+Inference for effects & Validation for value, portability, and fairness \\
+\bottomrule
+\end{tabular}
+
+\medskip
+The continuity is real, but the target object changes.
+\end{frame}
+
+\begin{frame}{Three objects that often get confused}
+\small
+\begin{tabular}{p{0.25\linewidth} p{0.34\linewidth} p{0.31\linewidth}}
+\toprule
+Object & Mathematical object & Applied question \\
+\midrule
+Prediction & \(\widehat m(x)\approx \E[Y\mid X=x]\) & What outcome or risk do we expect? \\
+Causal effect & \(\tau(x)=\E[Y(1)-Y(0)\mid X=x]\) & For whom does treatment change outcomes? \\
+Policy rule & \(\pi(x)\in\{0,1\}\) & Who should be assigned, under constraints? \\
+\bottomrule
+\end{tabular}
+
+\medskip
+High predicted outcomes are not the same as high treatment effects.
+\end{frame}
+
+\begin{frame}{CATE versus policy rule}
+\small
+\[
+\tau_i=Y_i(1)-Y_i(0),
+\qquad
+\tau_G=\E[Y(1)-Y(0)\mid X\in G]
+\]
+
+\[
+\tau(x)=\E[Y(1)-Y(0)\mid X=x],
+\qquad
+\pi(x)\in\{0,1\}
+\]
+
+\begin{itemize}
+    \item CATEs summarize heterogeneity under an identifying design.
+    \item Subgroup effects answer incidence or mechanism questions.
+    \item A policy rule adds welfare weights, costs, capacity, legality, information, and implementation.
+    \item The simple rule \(\pi^*(x)=\1\{\tau(x)\geq 0\}\) needs costless treatment and no constraints.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Policy value and regret}
+\small
+\[
+V(\pi)=\E[Y(\pi(X))]
+=
+\E\left[\pi(X)Y(1)+\left(1-\pi(X)\right)Y(0)\right]
+\]
+
+\[
+V^{net}(\pi)
+=
+\E\left[\pi(X)(Y(1)-c(X))+\left(1-\pi(X)\right)Y(0)\right]
+\]
+
+\[
+R(\pi)=V(\pi^*)-V(\pi)
+\]
+
+\begin{itemize}
+    \item Report value relative to treat-all, treat-none, simple rules, and current assignment.
+    \item Evaluate value on held-out or cross-fit scores, not only in the sample used to choose the rule.
+    \item A stable simple rule can have low regret even when a flexible rule has higher in-sample value.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Empirical welfare maximization}
+\small
+\[
+\widehat\pi \in \argmax_{\pi\in\Pi}\widehat V(\pi)
+\]
+
+\begin{itemize}
+    \item \(\Pi\) is the feasible policy class: thresholds, trees, score rules, or constrained assignment rules.
+    \item \(\widehat V(\pi)\) estimates welfare or net outcomes under the rule.
+    \item Capacity, budget, and fairness constraints belong in \(\Pi\), not in an afterthought paragraph.
+    \item Kitagawa--Tetenov and Athey--Wager treat rules as empirical objects whose value can be estimated.
+\end{itemize}
+
+\medskip
+Policy learning asks which rule performs best, not which subgroup has the largest noisy effect estimate.
+\end{frame}
+
+\begin{frame}{Doubly robust policy value}
+\small
+\[
+\mu_d(x)=\E[Y\mid D=d,X=x],
+\qquad
+e(x)=\Prb(D=1\mid X=x)
+\]
+
+\[
+\Gamma_i(\pi)=
+\pi(X_i)\left[\widehat\mu_1(X_i)+
+\frac{D_i}{\widehat e(X_i)}(Y_i-\widehat\mu_1(X_i))\right]
+\]
+\[
++(1-\pi(X_i))\left[\widehat\mu_0(X_i)+
+\frac{1-D_i}{1-\widehat e(X_i)}(Y_i-\widehat\mu_0(X_i))\right]
+\]
+
+\[
+\widehat V_{DR}(\pi)=\frac{1}{n}\sum_i\Gamma_i(\pi)
+\]
+
+\medskip
+This inherits Lecture 10's discipline: identify first, learn nuisance functions honestly, and evaluate the target on held-out scores.
+\end{frame}
+
+\begin{frame}{External validity and transportability}
+\small
+\[
+V_T(\pi)=\E_T[Y(\pi(X))]
+\]
+
+\[
+\E_T[h(X)] = \E_S[\omega(X)h(X)],
+\qquad
+\omega(X)=\frac{f_T(X)}{f_S(X)}
+\]
+
+\[
+V_T(\pi)\approx
+\E_S\left[\omega(X)\{\mu_0(X)+\pi(X)\tau(X)\}\right]
+\]
+
+\begin{itemize}
+    \item Reweighting helps only when relevant state variables are observed and support overlaps.
+    \item Target populations may differ in effects, take-up, costs, implementation, prices, or equilibrium response.
+    \item External validity is a design claim, not a property of an algorithm.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Fairness and implementation constraints}
+\small
+\begin{itemize}
+    \item Is every feature observable before assignment?
+    \item Is the rule legal and administratively feasible?
+    \item Does assignment create disparate impact across protected groups?
+    \item Are protected groups proxied by geography, language, school, firm, or case history?
+    \item Can workers, firms, schools, or staff game the rule?
+    \item Does targeting change take-up, stigma, search, or local equilibrium behavior?
+\end{itemize}
+
+\medskip
+Statistical optimality does not settle legitimacy, feasibility, or welfare.
+\end{frame}
+
+\begin{frame}{ML algorithm quick guide}
+\scriptsize
+\begin{tabular}{p{0.23\linewidth} p{0.34\linewidth} p{0.33\linewidth}}
+\toprule
+Tool & Most suitable for & Main applied caveat \\
+\midrule
+Lasso / elastic net & high-dimensional controls, sparse prediction & selected variables are not mechanisms \\
+Ridge & dense correlated predictors & weak interpretability \\
+Random forests / boosting & nonlinear tabular prediction & feature importance is not causal importance \\
+Causal forests / GRF & heterogeneous effects under a design & CATEs are not rules by themselves \\
+Policy trees & interpretable assignment rules & unstable when samples are small \\
+SVM & margin-based classification & not a natural welfare or causal tool \\
+Neural nets & text, images, sequences, very large data & opaque and often excessive for tabular economics \\
+Clustering & exploratory typologies & clusters are not causal groups \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Research Lab design}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{0.32\linewidth}
+\textbf{Reproduce}
+\begin{itemize}
+    \item synthetic job-training data
+    \item CATE by subgroup
+    \item feasible policy class
+    \item value and regret
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Diagnose}
+\begin{itemize}
+    \item held-out value
+    \item overlap in targeted group
+    \item capacity sensitivity
+    \item fairness audit
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Transfer}
+\begin{itemize}
+    \item shifted target population
+    \item source-target weights
+    \item target value comparison
+    \item portability memo
+\end{itemize}
+\end{column}
+\end{columns}
+
+\medskip
+The lab reproduces policy-learning logic, not official paper estimates.
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item Heterogeneity is not automatically a policy.
+    \item Policy learning needs a rule class, value function, costs, constraints, and honest evaluation.
+    \item Targeting should be based on causal gains, not predicted outcome levels.
+    \item External validity gets harder when effects and institutions vary.
+    \item Fairness and implementation are part of applied economics, not decoration after the estimator.
+    \item The best empirical recommendation may be a modest rule with clear value and low regret.
+\end{itemize}
+\end{frame}
+
+\end{document}

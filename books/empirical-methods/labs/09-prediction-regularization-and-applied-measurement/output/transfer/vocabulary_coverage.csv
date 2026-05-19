@@ -1,0 +1,151 @@
+title_id,raw_title,token_count,covered_token_count,coverage_rate,technology_occupation,sector,region
+1,procurement assistant,2,1,0.5,0,retail,Midwest
+2,production scheduler digital tools,4,1,0.25,0,logistics,Northeast
+3,customer service manager,3,2,0.6666666666666666,0,retail,South
+4,analytics product specialist,3,1,0.3333333333333333,1,logistics,West
+5,training coordinator,2,2,1.0,0,education,West
+6,automation engineer,2,1,0.5,1,retail,West
+7,warehouse supervisor,2,1,0.5,0,manufacturing,Midwest
+8,customer service manager,3,2,0.6666666666666666,0,finance,Northeast
+9,warehouse supervisor,2,1,0.5,0,finance,South
+10,insights analyst,2,2,1.0,1,retail,South
+11,care coordinator,2,2,1.0,0,retail,Northeast
+12,training coordinator,2,2,1.0,0,health,Midwest
+13,data analyst,2,2,1.0,1,education,Midwest
+14,production scheduler digital tools,4,1,0.25,0,manufacturing,South
+15,retail shift lead,3,2,0.6666666666666666,0,finance,Midwest
+16,warehouse supervisor,2,1,0.5,0,education,West
+17,warehouse supervisor,2,1,0.5,0,health,West
+18,care coordinator,2,2,1.0,0,manufacturing,South
+19,training coordinator,2,2,1.0,0,retail,South
+20,production scheduler,2,1,0.5,0,finance,Northeast
+21,procurement assistant,2,1,0.5,0,education,South
+22,warehouse supervisor,2,1,0.5,0,finance,South
+23,cloud support technician,3,2,0.6666666666666666,1,finance,West
+24,analytics product specialist,3,1,0.3333333333333333,1,health,West
+25,machine learning associate,3,3,1.0,1,retail,Midwest
+26,training coordinator digital tools,4,2,0.5,0,finance,Midwest
+27,procurement assistant,2,1,0.5,0,health,Midwest
+28,automation engineer,2,1,0.5,1,retail,Northeast
+29,business intelligence analyst,3,1,0.3333333333333333,1,manufacturing,West
+30,customer service manager,3,2,0.6666666666666666,0,manufacturing,West
+31,business intelligence analyst,3,1,0.3333333333333333,1,finance,South
+32,training coordinator,2,2,1.0,0,logistics,Northeast
+33,production scheduler digital tools,4,1,0.25,0,health,West
+34,cloud support technician,3,2,0.6666666666666666,1,education,Midwest
+35,procurement assistant,2,1,0.5,0,logistics,Midwest
+36,production scheduler,2,1,0.5,0,manufacturing,South
+37,cloud support technician,3,2,0.6666666666666666,1,logistics,Northeast
+38,procurement assistant,2,1,0.5,0,retail,Northeast
+39,software quality analyst,3,2,0.6666666666666666,1,retail,West
+40,procurement assistant,2,1,0.5,0,finance,Midwest
+41,training coordinator digital tools,4,2,0.5,0,logistics,South
+42,training coordinator,2,2,1.0,0,finance,Midwest
+43,care coordinator,2,2,1.0,0,finance,South
+44,warehouse supervisor,2,1,0.5,0,retail,Midwest
+45,training coordinator,2,2,1.0,0,manufacturing,South
+46,machine learning associate,3,3,1.0,1,logistics,South
+47,procurement assistant,2,1,0.5,0,retail,South
+48,machine learning associate,3,3,1.0,1,retail,Northeast
+49,training coordinator,2,2,1.0,0,manufacturing,South
+50,cloud support technician,3,2,0.6666666666666666,1,manufacturing,West
+51,customer service manager,3,2,0.6666666666666666,0,health,Midwest
+52,training coordinator,2,2,1.0,0,manufacturing,South
+53,procurement assistant,2,1,0.5,0,retail,West
+54,procurement assistant,2,1,0.5,0,education,Midwest
+55,customer service manager,3,2,0.6666666666666666,0,logistics,Northeast
+56,production scheduler,2,1,0.5,0,finance,Midwest
+57,training coordinator,2,2,1.0,0,education,South
+58,production scheduler,2,1,0.5,0,logistics,Midwest
+59,production scheduler,2,1,0.5,0,manufacturing,Northeast
+60,procurement assistant,2,1,0.5,0,retail,Midwest
+61,business intelligence analyst,3,1,0.3333333333333333,1,education,Midwest
+62,business intelligence analyst,3,1,0.3333333333333333,1,finance,Midwest
+63,training coordinator,2,2,1.0,0,retail,Northeast
+64,care coordinator,2,2,1.0,0,logistics,Northeast
+65,care coordinator,2,2,1.0,0,finance,South
+66,analytics product specialist,3,1,0.3333333333333333,1,retail,Midwest
+67,training coordinator,2,2,1.0,0,education,Midwest
+68,training coordinator,2,2,1.0,0,education,Midwest
+69,software quality analyst,3,2,0.6666666666666666,1,logistics,Northeast
+70,retail shift lead,3,2,0.6666666666666666,0,manufacturing,Midwest
+71,procurement assistant digital tools,4,1,0.25,0,health,West
+72,training coordinator,2,2,1.0,0,logistics,Northeast
+73,machine learning associate,3,3,1.0,1,education,Northeast
+74,customer service manager,3,2,0.6666666666666666,0,retail,Northeast
+75,procurement assistant,2,1,0.5,0,logistics,West
+76,warehouse supervisor,2,1,0.5,0,finance,Midwest
+77,customer service manager,3,2,0.6666666666666666,0,retail,Midwest
+78,care coordinator,2,2,1.0,0,health,South
+79,care coordinator,2,2,1.0,0,logistics,Midwest
+80,automation engineer,2,1,0.5,1,health,West
+81,care coordinator,2,2,1.0,0,logistics,Midwest
+82,machine learning associate,3,3,1.0,1,retail,South
+83,retail shift lead,3,2,0.6666666666666666,0,retail,South
+84,warehouse supervisor,2,1,0.5,0,health,South
+85,training coordinator,2,2,1.0,0,logistics,West
+86,care coordinator,2,2,1.0,0,education,South
+87,data analyst,2,2,1.0,1,logistics,Northeast
+88,care coordinator,2,2,1.0,0,retail,South
+89,analytics product specialist,3,1,0.3333333333333333,1,finance,South
+90,retail shift lead,3,2,0.6666666666666666,0,logistics,Northeast
+91,customer service manager,3,2,0.6666666666666666,0,finance,Midwest
+92,machine learning associate,3,3,1.0,1,finance,South
+93,business intelligence analyst,3,1,0.3333333333333333,1,logistics,Midwest
+94,production scheduler,2,1,0.5,0,retail,South
+95,cloud support technician,3,2,0.6666666666666666,1,education,Midwest
+96,machine learning associate,3,3,1.0,1,finance,South
+97,automation engineer,2,1,0.5,1,manufacturing,Northeast
+98,care coordinator,2,2,1.0,0,retail,West
+99,retail shift lead,3,2,0.6666666666666666,0,logistics,Northeast
+100,machine learning associate,3,3,1.0,1,manufacturing,West
+101,analytics product specialist,3,1,0.3333333333333333,1,health,Midwest
+102,training coordinator,2,2,1.0,0,retail,South
+103,warehouse supervisor,2,1,0.5,0,finance,South
+104,warehouse supervisor,2,1,0.5,0,manufacturing,Northeast
+105,automation engineer,2,1,0.5,1,manufacturing,Northeast
+106,customer service manager,3,2,0.6666666666666666,0,manufacturing,Midwest
+107,cloud support technician,3,2,0.6666666666666666,1,education,Northeast
+108,customer service manager,3,2,0.6666666666666666,0,manufacturing,South
+109,insights analyst,2,2,1.0,1,manufacturing,Northeast
+110,machine learning associate,3,3,1.0,1,education,West
+111,customer service manager digital tools,5,2,0.4,0,health,Midwest
+112,analytics product specialist,3,1,0.3333333333333333,1,manufacturing,South
+113,business intelligence analyst,3,1,0.3333333333333333,1,retail,Northeast
+114,warehouse supervisor digital tools,4,1,0.25,0,education,Northeast
+115,warehouse supervisor,2,1,0.5,0,education,Midwest
+116,care coordinator,2,2,1.0,0,finance,Northeast
+117,production scheduler,2,1,0.5,0,retail,South
+118,retail shift lead digital tools,5,2,0.4,0,logistics,West
+119,care coordinator digital tools,4,2,0.5,0,education,Northeast
+120,production scheduler digital tools,4,1,0.25,0,manufacturing,West
+121,care coordinator,2,2,1.0,0,manufacturing,West
+122,procurement assistant digital tools,4,1,0.25,0,logistics,South
+123,care coordinator,2,2,1.0,0,manufacturing,Midwest
+124,warehouse supervisor,2,1,0.5,0,logistics,West
+125,procurement assistant,2,1,0.5,0,education,Northeast
+126,automation engineer,2,1,0.5,1,health,Northeast
+127,warehouse supervisor digital tools,4,1,0.25,0,logistics,South
+128,retail shift lead digital tools,5,2,0.4,0,retail,West
+129,retail shift lead,3,2,0.6666666666666666,0,retail,West
+130,production scheduler,2,1,0.5,0,health,South
+131,care coordinator,2,2,1.0,0,logistics,Midwest
+132,analytics product specialist,3,1,0.3333333333333333,1,logistics,South
+133,business intelligence analyst,3,1,0.3333333333333333,1,education,Northeast
+134,training coordinator,2,2,1.0,0,education,West
+135,machine learning associate,3,3,1.0,1,finance,Northeast
+136,retail shift lead digital tools,5,2,0.4,0,logistics,Midwest
+137,automation engineer,2,1,0.5,1,manufacturing,Northeast
+138,customer service manager,3,2,0.6666666666666666,0,finance,South
+139,platform support technician,3,1,0.3333333333333333,1,manufacturing,South
+140,production scheduler,2,1,0.5,0,manufacturing,West
+141,production scheduler,2,1,0.5,0,manufacturing,Northeast
+142,customer service manager,3,2,0.6666666666666666,0,retail,Midwest
+143,care coordinator,2,2,1.0,0,retail,Northeast
+144,production scheduler,2,1,0.5,0,retail,Midwest
+145,production scheduler,2,1,0.5,0,manufacturing,South
+146,machine learning associate,3,3,1.0,1,education,South
+147,software quality analyst,3,2,0.6666666666666666,1,manufacturing,West
+148,data analyst,2,2,1.0,1,finance,Midwest
+149,warehouse supervisor,2,1,0.5,0,health,Northeast
+150,customer service manager,3,2,0.6666666666666666,0,retail,South

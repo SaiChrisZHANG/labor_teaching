@@ -1,0 +1,5 @@
+estimand,estimate,interpretation,naive_se,state_clustered_se,restaurant_clustered_se,state_cluster_note
+treated pre-post change,1.3467282608695648,change in NJ restaurants after the policy date,,,,
+comparison pre-post change,-1.1831621621621657,change in PA restaurants over the same period,,,,
+2x2 DID,2.5298904230317305,post-period ATT under parallel trends and no anticipation,,,,
+regression DID coefficient,2.529890423031735,coefficient on treated_state x post,0.6760025464968633,,0.28602823929786453,not reported: only two policy clusters

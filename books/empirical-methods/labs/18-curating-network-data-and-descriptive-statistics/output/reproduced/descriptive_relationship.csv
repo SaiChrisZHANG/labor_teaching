@@ -1,0 +1,9 @@
+outcome,network_variable,intercept,slope,mean_outcome,mean_network_variable,rmse,n,interpretation_note
+employed_next_year,degree,0.420413,0.030677,0.458333,1.236111,0.497316,144.0,descriptive association only; network formation is not exogenous
+employed_next_year,local_employer_exposure,0.420413,0.153386,0.458333,0.247222,0.497316,144.0,descriptive association only; network formation is not exogenous
+employed_next_year,weighted_local_exposure,0.439538,0.052468,0.458333,0.358219,0.497792,144.0,descriptive association only; network formation is not exogenous
+employed_next_year,component_size,0.389736,0.030677,0.458333,2.236111,0.497316,144.0,descriptive association only; network formation is not exogenous
+wage,degree,17.467647,0.381398,17.939097,1.236111,2.933156,144.0,descriptive association only; network formation is not exogenous
+wage,local_employer_exposure,17.467647,1.906989,17.939097,0.247222,2.933156,144.0,descriptive association only; network formation is not exogenous
+wage,weighted_local_exposure,17.681826,0.718196,17.939097,0.358219,2.943005,144.0,descriptive association only; network formation is not exogenous
+wage,component_size,17.086249,0.381398,17.939097,2.236111,2.933156,144.0,descriptive association only; network formation is not exogenous

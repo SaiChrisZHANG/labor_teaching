@@ -1,0 +1,2 @@
+source_vocabulary_size,target_token_count,covered_token_count,coverage_rate,top_uncovered_tokens
+119,1392,650,0.46695402298850575,workforce:116; considering:100; counselor:100; participant:100; administration:30; office:30; bridge:29; pathway:26; union:26; voucher:22; city:20; contractor:20

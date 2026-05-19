@@ -1,0 +1,267 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs}
+
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\1}{\mathbf{1}}
+\newcommand{\plim}{\operatorname{plim}}
+
+\title{Extraction, Classification, Embeddings, And Validation}
+\subtitle{Empirical Methods --- Week 13}
+\author{Teaching deck draft}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Week 13 question}
+\begin{itemize}
+    \item Once unstructured data become variables, how do we know what they measure?
+    \item Validation is part of identification when the constructed variable enters the economics.
+    \item The goal is not another extraction workflow.
+    \item The goal is to defend benchmarks, diagnostics, robustness, transportability, and downstream interpretation.
+\end{itemize}
+
+\medskip
+Text, images, audio, video, and multimodal records all need the same discipline.
+\end{frame}
+
+\begin{frame}{Validation as identification}
+\small
+\[
+\widehat M_i = g(U_i;\widehat\theta)
+\]
+
+\begin{tabular}{p{0.24\linewidth} p{0.66\linewidth}}
+\toprule
+Layer & Question \\
+\midrule
+Construct & Does the measure match the economic object? \\
+Benchmark & Do labels or ground truth represent that object? \\
+Predictive & Does the model recover labels out of sample? \\
+Subgroup & Does performance vary by group, place, time, or modality? \\
+Downstream & Do remaining errors change descriptive or causal claims? \\
+\bottomrule
+\end{tabular}
+
+\medskip
+A strong downstream design cannot rescue a poorly defined measure.
+\end{frame}
+
+\begin{frame}{Annotation and benchmark design}
+\small
+\begin{tabular}{p{0.27\linewidth} p{0.31\linewidth} p{0.31\linewidth}}
+\toprule
+Choice & What to specify & Why it matters \\
+\midrule
+Unit & document, image, clip, response & defines the estimand and error structure \\
+Label & construct vs proxy & determines what the model learns \\
+Annotators & experts, RAs, crowd, subjects & changes interpretation and quality \\
+Rubric & rules, examples, edge cases & makes disagreement diagnosable \\
+Adjudication & vote, expert review, tie-break & shapes benchmark stability \\
+Holdout & untouched labeled sample & prevents tuning to the benchmark \\
+\bottomrule
+\end{tabular}
+
+\medskip
+\[
+\kappa=\frac{p_o-p_e}{1-p_e}
+\]
+
+Agreement is useful, but agreement on the wrong construct is still wrong.
+\end{frame}
+
+\begin{frame}{Precision, recall, and F1}
+\small
+\[
+\text{Precision}=\frac{TP}{TP+FP},
+\qquad
+\text{Recall}=\frac{TP}{TP+FN}
+\]
+
+\[
+F_1
+=
+2\cdot
+\frac{\text{Precision}\cdot\text{Recall}}
+{\text{Precision}+\text{Recall}}
+\]
+
+\begin{itemize}
+    \item Precision matters when false positives are costly.
+    \item Recall matters when missed positives are costly.
+    \item F1 balances the two, but it is not a policy loss function.
+    \item The right threshold depends on the research use.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Calibration}
+\small
+\[
+\E[Y\mid \widehat p=p]=p
+\]
+
+\begin{itemize}
+    \item A model can rank cases well and still give bad probabilities.
+    \item Calibration matters for prevalence, targeting, thresholding, welfare calculations, and cost-benefit analysis.
+    \item Check calibration overall and by subgroup.
+    \item Recalibration may fix probabilities without fixing construct validity.
+\end{itemize}
+
+\medskip
+In applied economics, a score is often interpreted. Calibration tells us whether that interpretation is defensible.
+\end{frame}
+
+\begin{frame}{Subgroup performance and fairness}
+\small
+\[
+\Pr(\widehat Y_i\neq Y_i\mid G_i=g)
+\]
+
+\begin{tabular}{p{0.23\linewidth} p{0.33\linewidth} p{0.33\linewidth}}
+\toprule
+Setting & Failure mode & Economic consequence \\
+\midrule
+Job postings & lower recall for service work & understated remote-work access \\
+Satellite images & weak transfer to dense informal areas & distorted spatial inequality \\
+Audio & device or identity shortcuts & tone measure confounds speaker traits \\
+Video & high labeling burden and context loss & interaction score lacks construct validity \\
+\bottomrule
+\end{tabular}
+
+\medskip
+Fairness diagnostics are also identification diagnostics when group differences enter the claim.
+\end{frame}
+
+\begin{frame}{Drift and transportability}
+\small
+\begin{itemize}
+    \item Vocabulary changes across firms, platforms, occupations, and time.
+    \item Images change with sensors, seasons, resolution, and geography.
+    \item Audio changes with microphones, rooms, speakers, and recording norms.
+    \item Video changes with platform, consent, camera angle, and interaction setting.
+\end{itemize}
+
+\medskip
+Transport checks:
+\begin{itemize}
+    \item hold out time, place, firm, occupation, annotator, or sensor;
+    \item relabel in the target domain;
+    \item report what breaks before using the measure downstream.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Embedding similarity and external validation}
+\small
+\[
+S_i(c)=\frac{e_i'c}{\|e_i\|\|c\|}
+\]
+
+\begin{itemize}
+    \item Embeddings generalize beyond exact words or visual patterns.
+    \item Similarity is not automatically exposure, feasibility, poverty, tone, or quality.
+    \item Show nearest-neighbor audits, false positives, and false negatives.
+    \item Compare to independent benchmarks not used in training.
+    \item Test whether the same interpretation survives across groups and domains.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Measurement error in downstream economics}
+\small
+\[
+\widetilde X_i=X_i+\nu_i
+\]
+
+\[
+\plim \widehat\beta_{\widetilde X}
+=
+\beta
++
+\frac{\operatorname{Cov}(\widetilde X_i,\varepsilon_i-\beta\nu_i)}
+{\operatorname{Var}(\widetilde X_i)}
+\]
+
+\begin{itemize}
+    \item Classical error can attenuate simple slopes.
+    \item Differential error can change sign, subgroup gaps, and event-study dynamics.
+    \item If measurement error is correlated with treatment, time, group, or outcomes, the economics changes.
+    \item Robustness should include downstream estimates under alternative validated measures.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Validation examples from papers}
+\small
+\begin{tabular}{p{0.26\linewidth} p{0.27\linewidth} p{0.36\linewidth}}
+\toprule
+Paper setting & Modality & Validation lesson \\
+\midrule
+Hansen et al. & job-posting text & labels and model checks support remote-work comparisons \\
+Haaland et al. & open-ended responses & coding, prompts, and human review define the object \\
+Jean et al. & satellite imagery & image proxies need survey ground truth \\
+Gorodnichenko et al. & audio & voice features need economic interpretation beyond acoustics \\
+Blattman et al. & survey validation & qualitative evidence can reveal benchmark error \\
+\bottomrule
+\end{tabular}
+
+\medskip
+The shared standard: show what the measure captures and where it fails.
+\end{frame}
+
+\begin{frame}{Research Lab design}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{0.32\linewidth}
+\textbf{Reproduce}
+\begin{itemize}
+    \item labeled benchmark
+    \item rater agreement
+    \item dictionary baseline
+    \item embedding similarity
+    \item supervised score
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Diagnose}
+\begin{itemize}
+    \item confusion matrix
+    \item calibration bins
+    \item subgroup metrics
+    \item error audits
+    \item downstream bias
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Transfer}
+\begin{itemize}
+    \item new domain text
+    \item vocabulary shift
+    \item image proxy
+    \item transport metrics
+    \item redesign memo
+\end{itemize}
+\end{column}
+\end{columns}
+
+\medskip
+The lab validates a constructed variable before interpreting it economically.
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item Define the construct and benchmark before choosing the model.
+    \item Report metrics that match the research use, not only headline accuracy.
+    \item Audit subgroup performance, calibration, drift, and transfer.
+    \item Treat human review and external validation as core evidence.
+    \item Explain how residual measurement error affects downstream economics.
+\end{itemize}
+\end{frame}
+
+\end{document}

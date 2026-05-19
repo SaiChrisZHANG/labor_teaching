@@ -1,0 +1,4 @@
+specification,term,estimate,std_error,t_stat,n,parameters
+conventional_pair_fe,treated_policy_side,-0.016848,0.004243,-3.970325,36.0,22.0
+hc1_pair_fe,treated_policy_side,-0.016848,0.004352,-3.87128,36.0,22.0
+conley_50_mile_pair_fe,treated_policy_side,-0.016848,0.003691,-4.565078,36.0,22.0

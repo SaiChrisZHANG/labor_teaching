@@ -1,0 +1,4 @@
+feature,status,reason,teaching_check
+future_remote_badge,excluded,Generated after the posting and too close to the label; using it would leak future platform information.,Draw a timing diagram before feature construction.
+posting_text,included,Observed at the vacancy-posting stage and central to the measurement problem.,Audit whether platform edits or later metadata were appended after outcomes.
+"sector, region, job_family, year, firm_size",included,Pre-measurement context that may improve classification but can also encode subgroup shortcuts.,Report subgroup performance and try text-only sensitivity checks in a real project.

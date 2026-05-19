@@ -1,0 +1,8 @@
+object,estimate,standard_error,interpretation
+naive OLS coefficient on stayed_in_school,0.1752268072479074,0.004447653217696443,observational association adjusted for controls; still confounded by synthetic ability
+first stage: compulsory_exposure -> stayed_in_school,0.4762234034491539,0.00952112245132965,rule exposure effect on the probability of staying in school
+reduced form: compulsory_exposure -> log_earnings,0.04014681306843149,0.004716120555411978,effect of instrument exposure on earnings
+unadjusted Wald ratio,0.08664703275008077,,raw reduced form divided by raw first stage
+adjusted Wald ratio,0.0843024781597445,,control-adjusted reduced form divided by control-adjusted first stage
+2SLS coefficient on stayed_in_school,0.0843024781601058,0.009337123448873441,complier effect under IV assumptions
+synthetic true complier LATE,0.0889232776617954,,known only because this is synthetic teaching data

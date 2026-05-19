@@ -1,0 +1,5 @@
+design_object,student_prompt
+assignment unit,"Is assignment individual, clustered, saturated by market, or a mix?"
+main estimand,"Would you lead with ITT, LATE, spillover, or market-level effect?"
+spillover channel,"Name the likely referral, congestion, displacement, or information channel."
+scale,Would a larger rollout change untreated workers' outcomes?

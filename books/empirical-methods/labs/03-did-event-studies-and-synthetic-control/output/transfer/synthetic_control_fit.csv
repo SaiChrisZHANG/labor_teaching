@@ -1,0 +1,2 @@
+target_city,pre_rmspe,post_rmspe,rmspe_ratio,interpretation
+Bay City,0.12814188100175,1.9043723902181038,14.861436209072787,large post/pre ratio is more persuasive when pre-fit is good

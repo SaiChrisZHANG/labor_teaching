@@ -1,0 +1,12 @@
+group,survey_response,missing_link_risk,worker_count,mean_missing_link_score,mean_degree,mean_local_exposure,employed_next_year_rate
+A,0,high,1,0.3049,1.0,0.2,0.0
+A,0,low,1,0.1547,1.0,0.2,1.0
+A,0,medium,14,0.226464,1.142857,0.228571,0.714286
+A,1,high,1,0.2981,1.0,0.2,0.0
+A,1,low,53,0.099772,1.377358,0.275472,0.528302
+A,1,medium,5,0.20926,0.2,0.04,0.2
+B,0,high,20,0.34245,1.5,0.3,0.45
+B,0,medium,1,0.2661,2.0,0.4,1.0
+B,1,high,7,0.329014,0.571429,0.114286,0.285714
+B,1,low,6,0.14185,1.5,0.3,0.333333
+B,1,medium,35,0.204257,1.142857,0.228571,0.342857

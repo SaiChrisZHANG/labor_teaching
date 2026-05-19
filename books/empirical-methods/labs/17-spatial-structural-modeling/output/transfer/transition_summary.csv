@@ -1,0 +1,4 @@
+horizon,period,aggregate_employment,employment_change_from_baseline,resident_weighted_rent,rent_change_from_baseline,resident_weighted_welfare_proxy,welfare_change_from_baseline
+impact,1,1125.220073,0.0,11.974241,0.001125,31.652743,0.035584
+medium_run,6,1125.220073,0.0,11.977664,0.004548,31.747199,0.130041
+long_run,12,1125.220073,0.0,11.979293,0.006176,31.77981,0.162652

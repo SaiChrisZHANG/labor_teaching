@@ -1,0 +1,4 @@
+step,prompt
+transfer,Compare risk-group CATEs with the simple interaction benchmark.
+diagnose,Use overlap by risk group and honest-tree validation to decide whether heterogeneity is stable.
+interpret,Explain why the forest or tree split is not itself a causal mechanism.

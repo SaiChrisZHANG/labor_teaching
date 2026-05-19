@@ -1,0 +1,287 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs, graphicx}
+
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\1}{\mathbf{1}}
+\newcommand{\Var}{\operatorname{Var}}
+\newcommand{\Avar}{\operatorname{Avar}}
+\newcommand{\argmax}{\operatorname*{arg\,max}}
+\newcommand{\argmin}{\operatorname*{arg\,min}}
+
+\title{Structural Estimation in Practice}
+\subtitle{Identification, Moments, Likelihood, Simulation, and Fit \\ Empirical Methods --- Week 7}
+\author{Teaching deck draft}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Week 7 question}
+\begin{itemize}
+    \item How do researchers take a structural model to data credibly?
+    \item Which variation identifies the latent primitives?
+    \item Which likelihood pieces, moments, or auxiliary statistics carry the identifying power?
+    \item How should fit, counterfactual discipline, and uncertainty be reported?
+\end{itemize}
+
+\medskip
+Structural credibility is the chain: identification $\rightarrow$ estimation $\rightarrow$ fit $\rightarrow$ counterfactual discipline $\rightarrow$ inference.
+\end{frame}
+
+\begin{frame}{Identification in structural models}
+\small
+\begin{tabular}{p{0.24\linewidth} p{0.29\linewidth} p{0.35\linewidth}}
+\toprule
+Question & Applied object & Credibility check \\
+\midrule
+What is latent? & preferences, costs, beliefs, technology, risk & does the paper name the primitive? \\
+What is observed? & choices, states, outcomes, prices, rules & are the data rich enough? \\
+What moves it? & policy variation, prices, histories, transitions & which variation shifts the primitive? \\
+What else could explain it? & omitted state, heterogeneity, expectations & what breaks observational equivalence? \\
+What uses it? & welfare or policy counterfactual & is the counterfactual near support? \\
+\bottomrule
+\end{tabular}
+
+\[
+\widehat h_N(Y,X,S,P)
+\quad \Longleftrightarrow \quad
+h(\theta;\mathcal M)
+\]
+\end{frame}
+
+\begin{frame}{Likelihood vs moments vs simulation}
+\small
+\textbf{Likelihood}
+\[
+\widehat\theta_{\mathrm{ML}}
+=
+\argmax_\theta
+\sum_i \log f_\theta(y_i\mid x_i,s_i,p_i)
+\]
+
+\textbf{GMM / method of moments}
+\[
+\widehat\theta_{\mathrm{GMM}}
+=
+\argmin_\theta
+\widehat g_N(\theta)'W_N\widehat g_N(\theta),
+\qquad
+\widehat g_N(\theta)=\widehat m^{data}-m^{model}(\theta)
+\]
+
+\textbf{SMM}
+\[
+\widehat\theta_{\mathrm{SMM}}
+=
+\argmin_\theta
+\left[\widehat m^{data}-\widehat m^{sim}(\theta;R)\right]'
+W_N
+\left[\widehat m^{data}-\widehat m^{sim}(\theta;R)\right]
+\]
+\end{frame}
+
+\begin{frame}{Indirect inference intuition}
+\[
+\widehat\theta_{\mathrm{II}}
+=
+\argmin_\theta
+\left[
+\widehat a^{data}
+-
+\widehat a^{sim}(\theta)
+\right]'
+W_N
+\left[
+\widehat a^{data}
+-
+\widehat a^{sim}(\theta)
+\right]
+\]
+
+\begin{itemize}
+    \item The structural model generates simulated histories.
+    \item The auxiliary model summarizes behavior in a familiar empirical language.
+    \item The auxiliary statistics must capture the behavioral margins that matter.
+    \item Good auxiliary fit is not enough if the statistic is unrelated to the counterfactual.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Weighting matrices and targeted moments}
+\small
+\[
+Q_N(\theta)=\widehat g_N(\theta)' W_N \widehat g_N(\theta),
+\qquad
+W^\ast=S^{-1},
+\qquad
+S=\E[g_i(\theta_0)g_i(\theta_0)']
+\]
+
+\[
+J_N
+=
+N\widehat g_N(\widehat\theta)'
+\widehat W_N
+\widehat g_N(\widehat\theta)
+\]
+
+\begin{itemize}
+    \item Weighting determines which discrepancies the criterion punishes.
+    \item Targeted moments define the model's empirical obligations.
+    \item Overidentification lets the model fail, but non-rejection is not validation.
+    \item Report moment scaling, weights, dominated moments, and sensitivity.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Fit, validation, counterfactual discipline}
+\small
+\begin{tabular}{p{0.26\linewidth} p{0.30\linewidth} p{0.33\linewidth}}
+\toprule
+Object & What to show & Why it matters \\
+\midrule
+Targeted fit & empirical vs model moments & criterion transparency \\
+Untargeted fit & distributions, transitions, holdout moments & validation beyond construction \\
+Comparative statics & response to prices, policies, states & economic mechanism \\
+Counterfactual distance & support, policy range, state distribution & extrapolation risk \\
+Sensitivity & weights, calibrated values, seeds, starts & numerical and model dependence \\
+\bottomrule
+\end{tabular}
+
+\[
+\widehat\theta
+\Longrightarrow
+\left\{
+\sigma_{\widehat\theta}(a\mid s;p),
+F_{\widehat\theta}(s'\mid s,a;p),
+Y_{\widehat\theta}(p),
+W_{\widehat\theta}(p)
+\right\}
+\]
+\end{frame}
+
+\begin{frame}{Variance, bootstrap, delta method}
+\small
+\textbf{Likelihood / sandwich}
+\[
+\widehat{\Var}(\widehat\theta)
+\approx
+\frac{1}{N}\widehat A^{-1}\widehat B\widehat A^{-1},
+\qquad
+\widehat B=\frac{1}{N}\sum_i s_i(\widehat\theta)s_i(\widehat\theta)'
+\]
+
+\textbf{GMM}
+\[
+\Avar(\widehat\theta)
+=
+\frac{1}{N}
+(G'WG)^{-1}G'WSWG(G'WG)^{-1}
+\]
+
+\textbf{Delta method}
+\[
+\widehat{\Var}(\psi(\widehat\theta))
+\approx
+\widehat D_\psi
+\widehat{\Var}(\widehat\theta)
+\widehat D_\psi'
+\]
+
+\textbf{Bootstrap}
+\[
+\widehat\theta^{*(b)}
+=
+\widehat\theta(Y_1^{*(b)},\ldots,Y_N^{*(b)})
+\]
+\end{frame}
+
+\begin{frame}{Dependence and simulation error}
+\begin{itemize}
+    \item Cluster or block resampling should follow the independent source of variation.
+    \item Panel histories need resampling schemes that preserve state paths.
+    \item Market or policy moments often require market-level or policy-level clustering.
+    \item SMM and indirect inference need seed checks and enough simulation draws.
+    \item Generated regressors and two-step objects require correction or full-pipeline bootstrap.
+    \item Report the uncertainty for the counterfactual object, not only primitive parameters.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Theory to applied examples}
+\scriptsize
+\begin{tabular}{p{0.16\linewidth} p{0.24\linewidth} p{0.24\linewidth} p{0.24\linewidth}}
+\toprule
+Paper & Question & Estimation lesson & Fit / counterfactual lesson \\
+\midrule
+Rust & replacement timing & dynamic likelihood & hazards by state; cost counterfactuals \\
+BLP / Nevo & differentiated demand & moments, instruments, simulation & substitution before policy claims \\
+Todd-Wolpin & schooling subsidy & dynamic model with validation & experiment disciplines simulation \\
+Low-Meghir-Pistaferri & lifecycle risk & moments for risk and insurance & lifecycle fit and welfare \\
+Adda-Dustmann-Stevens & career costs of children & dynamic lifecycle structure & long-run state-specific paths \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Limitations and credibility threats}
+\begin{itemize}
+    \item Identification by assumption: key primitives move because of normalization, not data.
+    \item Weak moments: targeted objects do not move the primitive enough.
+    \item Weighting dependence: conclusions change when moment weights change.
+    \item Simulation noise: the optimizer chases random draws or local minima.
+    \item Off-target failure: the model matches means but misses distributions or transitions.
+    \item Counterfactual extrapolation: the policy changes support, menus, beliefs, or equilibrium conditions.
+    \item Underreported uncertainty: first-stage, clustering, or simulation error is ignored.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Research Lab design}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{0.32\linewidth}
+\textbf{Reproduce}
+\begin{itemize}
+    \item Rust-style replacement
+    \item likelihood objective
+    \item GMM moments
+    \item targeted fit table
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Diagnose}
+\begin{itemize}
+    \item weighting sensitivity
+    \item untargeted support
+    \item cluster bootstrap
+    \item delta-method counterfactual
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Transfer}
+\begin{itemize}
+    \item lifecycle schooling/work
+    \item SMM moment fit
+    \item tuition counterfactual
+    \item validation memo
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item Estimation strategy is part of the identification argument.
+    \item Likelihood, moments, SMM, and indirect inference differ in what they require the model to explain.
+    \item Weighting and targeting choices should be reported as substantive design choices.
+    \item Fit is useful only when tied to the counterfactual and shown beyond construction.
+    \item Inference must match the estimator, dependence structure, simulation design, and policy object.
+\end{itemize}
+\end{frame}
+
+\end{document}

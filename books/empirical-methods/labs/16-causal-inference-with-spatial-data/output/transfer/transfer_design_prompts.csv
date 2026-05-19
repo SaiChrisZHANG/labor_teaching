@@ -1,0 +1,6 @@
+prompt,answer_guidance
+What are the shares?,County baseline sector shares; they embed historical local economic structure.
+What are the shocks?,Common sector shocks; validity depends on whether they are exogenous to local residual shocks.
+What does the dominant contribution diagnostic show?,Whether a small number of sectors drive most exposure variation.
+Why compare county and region exposure?,Changing geography changes the exposure object and may change the estimand.
+What is the first identification caveat?,"A shift-share exposure is not automatically an instrument; shares, shocks, and geography require defense."

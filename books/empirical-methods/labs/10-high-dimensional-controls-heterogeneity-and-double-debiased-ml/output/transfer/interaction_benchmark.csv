@@ -1,0 +1,6 @@
+term,coefficient,robust_se,interpretation
+program_offer,0.2652858102637511,0.08300638268865335,Estimated treatment effect when baseline risk is zero in the linear interaction benchmark.
+program_offer_x_baseline_risk,0.146693759574889,0.16478342063069518,How the treatment effect changes with baseline risk.
+implied_cate_at_risk_p20,0.3098750477987614,,Linear-interaction implied CATE at baseline-risk quantile 0.20.
+implied_cate_at_risk_p50,0.33199874319850825,,Linear-interaction implied CATE at baseline-risk quantile 0.50.
+implied_cate_at_risk_p80,0.35687152755330215,,Linear-interaction implied CATE at baseline-risk quantile 0.80.

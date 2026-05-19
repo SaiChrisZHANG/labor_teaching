@@ -1,0 +1,6 @@
+modality,main_failure_mode,diagnostic
+source text model,Job-posting language does not match policy-record language.,Vocabulary coverage and human labels in the transfer domain.
+dictionary,Remote terms may indicate temporary service delivery rather than durable flexibility.,Audit false positives and refine target definition.
+image score,"Visible infrastructure may proxy wealth, office quality, or camera angle.",Compare against independent facility audits and image-quality checks.
+audio score,"Clarity may reflect recording device, room acoustics, or staff identity.",Balance recording conditions and audit subgroup residuals.
+video score,Interaction quality is difficult to define and expensive to label.,"Use manual review, consent documentation, and modality ablations."

@@ -1,0 +1,8 @@
+{
+  "task": "Week 18 network curation teaching reproduction",
+  "worker_rows": 144,
+  "edge_rows": 89,
+  "neighborhood_count": 6,
+  "employer_count": 10,
+  "not_official_replication": true
+}

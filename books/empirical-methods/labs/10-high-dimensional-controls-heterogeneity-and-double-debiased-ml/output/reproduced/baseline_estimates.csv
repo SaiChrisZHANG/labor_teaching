@@ -1,0 +1,3 @@
+method,theta,se,controls
+low_dimensional_ols,-0.0657388349866902,0.02272936685878098,"experience, rating, prior wage, thickness, unemployment, skill"
+naive_high_dimensional_ols,-0.07008502467071281,0.01883020205926603,all pre-treatment engineered controls

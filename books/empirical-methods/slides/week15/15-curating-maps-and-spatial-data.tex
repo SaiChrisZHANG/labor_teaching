@@ -1,0 +1,232 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs}
+
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\1}{\mathbf{1}}
+\newcommand{\plim}{\operatorname{plim}}
+
+\title{Curating Maps And Spatial Data}
+\subtitle{Empirical Methods --- Week 15}
+\author{Teaching deck draft}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Week 15 question}
+\begin{itemize}
+    \item How do researchers turn places, borders, distances, and exposure measures into empirical objects?
+    \item Spatial curation comes before spatial causal inference.
+    \item Geography choice, exposure definitions, crosswalks, and travel costs shape the estimand.
+    \item A map is not evidence until the measurement object is justified and auditable.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Spatial data are economic objects}
+\small
+\[
+c_{ijm}=\tau_m t_{ijm}+\pi_m d_{ijm}+\kappa_m
+\]
+
+\[
+E_i=\sum_j w_{ij}s_j
+\]
+
+\begin{itemize}
+    \item \(c_{ijm}\): generalized access or commuting cost by mode \(m\).
+    \item \(s_j\): shock, opportunity, amenity, policy, or disamenity at place \(j\).
+    \item \(w_{ij}\): the researcher's exposure technology.
+    \item The unit and weights define the object before any estimator is run.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Spatial objects}
+\small
+\begin{tabular}{p{0.18\linewidth} p{0.32\linewidth} p{0.38\linewidth}}
+\toprule
+Object & Best for & Main risk \\
+\midrule
+Point & addresses, plants, schools, stops & geocoding error, confidentiality, false precision \\
+Polygon & tracts, counties, commuting zones & MAUP, ecological fallacy, arbitrary borders \\
+Raster & pollution, heat, night lights, terrain & resolution, temporal match, aggregation \\
+Network & roads, transit, commute links & mode assumptions, changing schedules, reproducibility \\
+Panel geography & units over time & boundary changes, crosswalk error, support \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Geographies and estimands}
+\small
+\begin{tabular}{p{0.25\linewidth} p{0.31\linewidth} p{0.32\linewidth}}
+\toprule
+Research object & Plausible geography & Estimand discipline \\
+\midrule
+Local labor-market shock & commuting zone, county & Is the market integrated by commuting? \\
+Neighborhood exposure & tract, block, residence history & Does timing match the relevant exposure window? \\
+Job access & travel-time isochrone, reachable jobs & Are jobs reachable by the relevant workers? \\
+Policy jurisdiction & city, school zone, county & Does treatment follow the legal boundary? \\
+Market access & network, trade-cost matrix & Are routes and costs measured for the period? \\
+\bottomrule
+\end{tabular}
+
+\medskip
+The same raw locations can answer different questions under different geographies.
+\end{frame}
+
+\begin{frame}{Exposure and distance decay}
+\small
+\[
+w_{ij}(h)=
+\frac{K(d_{ij}/h)}
+{\sum_{\ell}K(d_{i\ell}/h)}
+\]
+
+\[
+V_{ij}=w_j-r_i+A_i-c_{ij}+\varepsilon_{ij}
+\]
+
+\begin{itemize}
+    \item A small bandwidth makes exposure local; a large bandwidth lets distant places matter.
+    \item Travel costs may be Euclidean, network-based, flow-based, or generalized.
+    \item Net value objects combine wages, rents, amenities, and access costs.
+    \item The curation question is whether the measure matches the mechanism.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Core operations}
+\small
+\begin{tabular}{p{0.23\linewidth} p{0.67\linewidth}}
+\toprule
+Operation & What to document \\
+\midrule
+Geocoding & provider, date, match score, failures, manual audit \\
+Projection & input CRS, analysis CRS, distance/area rationale \\
+Spatial join & within, intersects, centroid, nearest, ties, boundary cases \\
+Buffer & radius, mechanism, alternative radii, barriers \\
+Travel time & mode, departure time, routing source, missing routes \\
+Crosswalk & source vintage, target geography, weight type, splits \\
+Aggregation & denominator, weights, baseline year, support \\
+Disclosure control & jitter, masking, suppression, precision loss \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Boundary crosswalks}
+\small
+\[
+X_h=\sum_g a_{gh}X_g
+\]
+
+\begin{itemize}
+    \item \(a_{gh}\) can be area weight, population weight, employment weight, or flow weight.
+    \item Area weights allocate land; population weights allocate residents.
+    \item Employment weights allocate jobs; commuting-flow weights allocate market connections.
+    \item A many-to-many crosswalk should be preserved before any collapsed file is used.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Practical pitfalls}
+\begin{itemize}
+    \item MAUP: results change with aggregation unit.
+    \item Geocoding error: failures and low-confidence matches are often systematic.
+    \item Temporal mismatch: outcomes, boundaries, addresses, and routes come from different years.
+    \item Endogenous geography choice: radii or units chosen after seeing results.
+    \item Ecological fallacy: area averages interpreted as individual mechanisms.
+    \item Edge effects: access or exposure just outside the study area is omitted.
+    \item Support problems: some places have no comparable observations or valid routes.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Recommended workflow}
+\begin{enumerate}
+    \item State the mechanism before choosing the map layer.
+    \item Define unit of observation, exposure, and variation separately.
+    \item Preserve raw spatial identifiers and source files.
+    \item Validate geocoding, CRS, joins, crosswalks, and routes.
+    \item Build the primary object and one plausible alternative.
+    \item Audit edge cases, missing routes, split units, and out-of-support places.
+    \item Document confidentiality masking and measurement consequences.
+    \item Make the workflow rerunnable without manual GIS clicks.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Applied paper anchors}
+\begin{itemize}
+    \item Autor, Dorn, Hanson: commuting zones define local labor-market exposure.
+    \item Chetty, Hendren, Katz: tract-level childhood exposure and timing matter.
+    \item Monte, Redding, Rossi-Hansberg: commuting and migration connect local markets.
+    \item Miller: job suburbanization makes access depend on worker and job locations.
+    \item Donaldson, Hornbeck: market access depends on networks and trade costs.
+\end{itemize}
+
+\medskip
+The lesson is not ``use GIS.'' The lesson is: define the economic object.
+\end{frame}
+
+\begin{frame}{Research Lab design}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{0.32\linewidth}
+\textbf{Reproduce}
+\begin{itemize}
+    \item synthetic tracts
+    \item commuting zones
+    \item industry shocks
+    \item baseline weights
+    \item exposure object
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Diagnose}
+\begin{itemize}
+    \item county vs CZ
+    \item crosswalk weights
+    \item geocoding jitter
+    \item edge cases
+    \item estimand memo
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Transfer}
+\begin{itemize}
+    \item job centers
+    \item buffers
+    \item distance decay
+    \item travel time
+    \item access memo
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Where curation stops}
+\begin{itemize}
+    \item Curation defines places, assignments, exposure, distance, and access.
+    \item Curation can diagnose measurement sensitivity and support.
+    \item It does not prove exogeneity, solve sorting, or remove spillovers.
+    \item Spatial causal inference begins when the researcher claims a counterfactual effect.
+    \item Lecture 16 takes up spillovers, interference, border designs, and spatial dependence.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item Geography is part of the estimand.
+    \item Exposure weights are economic assumptions.
+    \item Crosswalks, joins, buffers, and travel times need validation and documentation.
+    \item Sensitivity to plausible geographies is a measurement diagnostic.
+    \item Good spatial work is reproducible, mechanism-driven, and clear about confidentiality.
+    \item Strong spatial curation makes the next lecture's causal designs possible.
+\end{itemize}
+\end{frame}
+
+\end{document}

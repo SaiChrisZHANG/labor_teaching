@@ -1,0 +1,249 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs, graphicx}
+
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\1}{\mathbf{1}}
+\newcommand{\argmin}{\operatorname*{arg\,min}}
+\newcommand{\plim}{\operatorname{plim}}
+
+\title{Text As Data And Computational Measurement}
+\subtitle{Empirical Methods --- Week 12}
+\author{Teaching deck draft}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Week 12 question}
+\begin{itemize}
+    \item How can raw text, images, audio, video, or multimodal records become economic variables?
+    \item What latent object is being measured?
+    \item Why does the raw modality contain signal about that object?
+    \item How do measurement errors affect the descriptive, causal, or structural claim?
+\end{itemize}
+
+\medskip
+The lecture is about unstructured data as a measurement environment for applied economics.
+\end{frame}
+
+\begin{frame}{Measurement model}
+\small
+\[
+M_i = g(U_i;\theta)+\varepsilon_i
+\]
+
+\begin{tabular}{p{0.20\linewidth} p{0.70\linewidth}}
+\toprule
+Object & Applied interpretation \\
+\midrule
+\(U_i\) & raw document, image, audio clip, video, scan, or multimodal record \\
+\(g(\cdot)\) & dictionary, classifier, embedding, prompt, or multimodal extractor \\
+\(\theta\) & terms, labels, weights, thresholds, model parameters, prompts \\
+\(M_i\) & remote-work score, exposure, risk, poverty proxy, tone, policy measure \\
+\(\varepsilon_i\) & extraction error relative to the intended economic object \\
+\bottomrule
+\end{tabular}
+
+\medskip
+Validation is part of the design because the measure enters later economics.
+\end{frame}
+
+\begin{frame}{Extraction families}
+\small
+\begin{tabular}{p{0.24\linewidth} p{0.34\linewidth} p{0.30\linewidth}}
+\toprule
+Family & Best starting point & Main caveat \\
+\midrule
+Dictionaries / rules & explicit terms, clauses, mentions & brittle to wording and negation \\
+Supervised classification & stable labels with human annotation & target definition dominates \\
+Embeddings / similarity & semantic exposure, task matching, document alignment & interpretation can drift \\
+Multimodal features & visual, vocal, or interaction signals & validation burden rises sharply \\
+\bottomrule
+\end{tabular}
+
+\medskip
+\[
+\widehat f
+=
+\argmin_f
+\frac{1}{n}\sum_i L(y_i,f(x_i))+\lambda P(f)
+\]
+\end{frame}
+
+\begin{frame}{Dictionary and embedding measures}
+\small
+\[
+D_i(S)=\frac{1}{N_i}\sum_{t\in U_i}\1\{t\in S\}
+\]
+
+\[
+e_i=\frac{1}{N_i}\sum_{t\in U_i}h(t),
+\qquad
+S_i(c)=\frac{e_i'c}{\|e_i\|\|c\|}
+\]
+
+\begin{itemize}
+    \item Dictionary shares are transparent and easy to audit.
+    \item Embeddings broaden beyond exact terms to semantic similarity.
+    \item Both require an economic interpretation before they become variables.
+    \item The same score can mean mention, salience, exposure, or similarity depending on the design.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Text applications}
+\small
+\begin{tabular}{p{0.23\linewidth} p{0.32\linewidth} p{0.33\linewidth}}
+\toprule
+Setting & Constructed variable & Economic use \\
+\midrule
+Job postings & remote-work feasibility & jobs, firms, occupations, places \\
+Patent and task text & AI exposure & technology-labor substitution and complementarity \\
+Earnings calls & epidemic-risk exposure & firm shocks and expectations \\
+Open-ended responses & motives, beliefs, narratives & survey measurement and mechanisms \\
+Contracts / policy text & clauses, rules, stringency & institutions and constraints \\
+\bottomrule
+\end{tabular}
+
+\medskip
+Text is powerful because institutions write things down; it is risky because language is strategic and drifting.
+\end{frame}
+
+\begin{frame}{Image and satellite applications}
+\small
+\begin{itemize}
+    \item Satellite imagery can extend measurement to places with sparse surveys.
+    \item Street-view imagery can measure built environment, amenities, storefronts, roads, or visible disorder.
+    \item Scanned documents can turn paper archives into structured research inputs.
+    \item Image measures need ground truth: surveys, administrative records, human labels, or known aggregates.
+\end{itemize}
+
+\medskip
+Common failure modes:
+\begin{itemize}
+    \item sensor, season, weather, and resolution differences;
+    \item proxy instability across countries or cities;
+    \item visually salient features that are not welfare-relevant;
+    \item domain shift between training and target places.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Audio and video applications}
+\small
+\begin{tabular}{p{0.25\linewidth} p{0.33\linewidth} p{0.30\linewidth}}
+\toprule
+Modality & Possible economic object & Main risk \\
+\midrule
+Audio & tone, stress, fluency, confidence, disclosure & identity and recording artifacts \\
+Speech transcripts & topics, beliefs, narratives & loss of paralinguistic information \\
+Video & interaction quality, sequence, task execution & privacy and high labeling burden \\
+Multimodal records & joint text-image-audio state & unclear mapping and opacity \\
+\bottomrule
+\end{tabular}
+
+\medskip
+Use richer modalities only when they measure something the simpler record cannot.
+\end{frame}
+
+\begin{frame}{Modality-specific failure modes}
+\small
+\begin{tabular}{p{0.18\linewidth} p{0.36\linewidth} p{0.34\linewidth}}
+\toprule
+Modality & Typical failure & Applied diagnostic \\
+\midrule
+Text & semantic drift, boilerplate, label leakage & time splits, subgroup labels, audit terms \\
+Images & context mismatch and sensor artifacts & place splits, ground truth, image-quality checks \\
+Audio & speaker identity and recording quality & balanced labels, device checks, residual audits \\
+Video & privacy, high-dimensional shortcuts & manual review, ablations, consent documentation \\
+Multimodal & one modality dominates the index & modality ablations and failure examples \\
+\bottomrule
+\end{tabular}
+
+\medskip
+The failure mode determines which downstream estimates are most fragile.
+\end{frame}
+
+\begin{frame}{Measurement error propagation}
+\small
+\[
+\widehat M_i=M_i^*+\eta_i,
+\qquad
+Y_i=\alpha+\beta M_i^*+\nu_i
+\]
+
+\[
+\plim \widehat\beta_{\widehat M}
+=
+\beta
+\cdot
+\frac{\operatorname{Var}(M_i^*)}
+{\operatorname{Var}(M_i^*)+\operatorname{Var}(\eta_i)}
+\quad
+\text{under classical error}
+\]
+
+\begin{itemize}
+    \item Classical noise attenuates simple regressions.
+    \item Nonclassical errors can bias estimates in either direction.
+    \item Errors often vary by occupation, firm, region, language, speaker, platform, or sensor.
+    \item If the measure supplies the identifying variation, validation is part of identification.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Research Lab design}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{0.32\linewidth}
+\textbf{Reproduce}
+\begin{itemize}
+    \item synthetic job postings
+    \item remote-work target
+    \item dictionary score
+    \item embedding similarity
+    \item supervised score
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Diagnose}
+\begin{itemize}
+    \item test metrics
+    \item subgroup errors
+    \item dictionary sensitivity
+    \item leakage audit
+    \item downstream attenuation
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Transfer}
+\begin{itemize}
+    \item policy text records
+    \item image, audio, video features
+    \item modality ablations
+    \item transfer memo
+\end{itemize}
+\end{column}
+\end{columns}
+
+\medskip
+The lab reproduces measurement logic, not official paper estimates.
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item Start with the economic object, not the modality or algorithm.
+    \item Choose dictionaries, classifiers, embeddings, or multimodal features based on the mapping problem.
+    \item Validate the constructed measure where it will be used.
+    \item Report failure modes by time, group, geography, platform, and modality.
+    \item Treat measurement error as a threat to downstream economics, not only as a prediction metric.
+\end{itemize}
+\end{frame}
+
+\end{document}

@@ -1,0 +1,6 @@
+prompt_type,prompt
+estimating_unit,Why is the row a referrer-applicant dyad rather than a worker-level observation?
+dependence,Which dyads are likely correlated because they share a referrer or applicant?
+inference,How do the standard errors change when inference is two-way clustered by referrer and applicant?
+causal_claim,What assignment or quasi-experiment would be needed before calling same-group referral causal?
+transfer,How does this dyadic design differ from the workplace peer-exposure design?

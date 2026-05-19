@@ -1,0 +1,5 @@
+issue,diagnostic,redesign
+target shift,"Source labels measure remote-work feasibility, while transfer labels measure flexible service capacity.",Write a new rubric and relabel a stratified transfer benchmark before interpreting prevalence.
+vocabulary shift,"Service records use tele-service, virtual intake, and mobile casework language not common in job postings.",Audit uncovered tokens and add target-domain examples to the benchmark.
+image proxy,Infrastructure score may proxy institutional resources rather than flexible service capacity.,Validate against facility audits and report subgroup performance by organization type.
+downstream use,"Errors may vary by region or institution, contaminating causal comparisons.","Re-estimate downstream claims under source-only, transfer-recalibrated, and stricter-label measures."

@@ -1,0 +1,10 @@
+mileage_state,observations,empirical_mean_next_mileage_state,likelihood_model_expected_next_state,gmm_model_expected_next_state,empirical_mean_downtime_days,diagnostic_note
+0,1169,1.0701454234388366,1.0804560557026124,1.0804560557026124,0.06611508982035928,Next-state fit is implied through transitions; downtime is untargeted and not modeled.
+1,1257,1.847255369928401,1.8927406223071408,1.8927406223071408,0.15745419252187748,Next-state fit is implied through transitions; downtime is untargeted and not modeled.
+2,1203,2.4679966749792186,2.394952407353491,2.394952407353491,0.24122350789692434,Next-state fit is implied through transitions; downtime is untargeted and not modeled.
+3,891,2.570145903479237,2.4962828118296536,2.4962828118296536,0.3193380134680135,Next-state fit is implied through transitions; downtime is untargeted and not modeled.
+4,578,2.013840830449827,2.269645709117015,2.269645709117015,0.3563270761245675,Next-state fit is implied through transitions; downtime is untargeted and not modeled.
+5,244,1.8237704918032787,1.8685894374268548,1.8685894374268548,0.38795217213114747,Next-state fit is implied through transitions; downtime is untargeted and not modeled.
+6,71,1.3380281690140845,1.378556388609739,1.378556388609739,0.37389577464788726,Next-state fit is implied through transitions; downtime is untargeted and not modeled.
+7,24,1.5,1.3538556900569496,1.3538556900569496,0.36796083333333335,Next-state fit is implied through transitions; downtime is untargeted and not modeled.
+8,3,0.0,0.842050713333812,0.842050713333812,0.30971333333333334,Next-state fit is implied through transitions; downtime is untargeted and not modeled.

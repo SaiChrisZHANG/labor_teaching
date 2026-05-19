@@ -1,0 +1,4 @@
+outcome,bandwidth,order,kernel,covariates,estimate,standard_error,n_left,n_right,effective_n
+pre_turnout,0.08,1.0,triangular,,-0.00017386316357059783,0.0037230840460018145,1487.0,1498.0,2985.0
+party_strength,0.08,1.0,triangular,,-0.002550817434922248,0.005697256063519361,1487.0,1498.0,2985.0
+district_income,0.08,1.0,triangular,,-317.126691077312,682.9483144218617,1487.0,1498.0,2985.0

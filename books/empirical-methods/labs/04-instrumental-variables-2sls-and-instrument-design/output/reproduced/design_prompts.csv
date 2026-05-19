@@ -1,0 +1,6 @@
+prompt,student_note
+What treatment margin does compulsory_exposure move?,Use first_stage_diagnostics.csv and complier_profile.csv.
+What is the leading exclusion threat?,"Think about birth timing, cohort, and schooling-entry channels."
+Why does OLS differ from 2SLS?,"Treatment is correlated with synthetic ability, which is omitted from the estimating equations."
+What does the IV estimate not identify?,It does not identify the ATE for always-takers or never-takers.
+How would the diagnosis change for a leave-out leniency instrument?,"Check assignment-cell balance, leave-one-out construction, and direct decision-maker channels."

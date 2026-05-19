@@ -1,0 +1,8 @@
+diagnostic,value,interpretation
+number_of_places,72.0,place observations in the transfer path
+number_of_sector_shocks,6.0,shock-level independent variation is limited by the number of shocks
+partial_first_stage_F,34.50931308850999,excluded shift-share instrument strength conditional on controls
+mean_dominant_share,0.3586861388888889,high values mean places are concentrated in one sector
+mean_exposure_herfindahl,0.2538480396553333,summary of exposure concentration across sectors
+correlation_shift_share_baseline_growth,0.5161578000143197,pre-period imbalance warning for exposure-based designs
+correlation_manufacturing_share_baseline_growth,0.6335299327724897,endogenous-share warning

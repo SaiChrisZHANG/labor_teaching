@@ -1,0 +1,3 @@
+model,replacement_cost,maintenance_slope,discount_factor,neg_log_likelihood,comparison_static_neg_log_likelihood,observations,interpretation
+dynamic replacement logit,4.7,0.58,0.92,2906.7855732687785,2927.571794459268,6840,Replacement cost and maintenance slope are estimated from state-specific replacement choices with transitions held fixed.
+static logit comparison,,0.92,,2927.571794459268,2927.571794459268,6840,Static comparison maps state directly to replacement probability and has no continuation value.

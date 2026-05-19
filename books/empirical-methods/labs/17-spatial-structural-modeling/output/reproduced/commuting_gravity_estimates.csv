@@ -1,0 +1,3 @@
+term,estimate,std_error,interpretation
+intercept,3.397335,0.177518,normalization
+log_commute_cost,-0.979658,0.03881,negative flow-cost elasticity

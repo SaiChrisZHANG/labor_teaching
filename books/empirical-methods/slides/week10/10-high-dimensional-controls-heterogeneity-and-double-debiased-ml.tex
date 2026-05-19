@@ -1,0 +1,248 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs, graphicx}
+
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\1}{\mathbf{1}}
+\newcommand{\Var}{\operatorname{Var}}
+\newcommand{\argmin}{\operatorname*{arg\,min}}
+\newcommand{\supp}{\operatorname{supp}}
+
+\title{High-Dimensional Controls, Heterogeneity, and Double/Debiased ML}
+\subtitle{Empirical Methods --- Week 10}
+\author{Teaching deck draft}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Week 10 question}
+\begin{itemize}
+    \item How can flexible methods help estimate causal effects without turning nuisance prediction into the answer?
+    \item When are high-dimensional controls a design asset rather than a post-selection problem?
+    \item How do orthogonal scores and cross-fitting protect inference?
+    \item When is treatment-effect heterogeneity substantively meaningful?
+\end{itemize}
+
+\medskip
+Prediction accuracy is useful only after the estimand, timing, overlap, and identifying assumptions are explicit.
+\end{frame}
+
+\begin{frame}{Why high-dimensional controls create new problems}
+\small
+\begin{itemize}
+    \item Applied data contain worker histories, firms, places, text measures, lagged outcomes, and interactions.
+    \item Including everything can overfit, create collinearity, and weaken precision.
+    \item Selecting controls after seeing results invalidates ordinary post-selection inference.
+    \item Hand-picked controls can omit important confounders that predict treatment.
+\end{itemize}
+
+\medskip
+\[
+(Y_i(1),Y_i(0)) \perp D_i \mid X_i,
+\qquad
+0<\Pr(D_i=1\mid X_i)<1
+\]
+
+\medskip
+The algorithm helps use rich observables. It does not make the observables sufficient.
+\end{frame}
+
+\begin{frame}{Post-double selection}
+\small
+\[
+Y_i=\theta_0D_i+g_0(X_i)+U_i,
+\qquad
+D_i=m_0(X_i)+V_i
+\]
+
+\[
+\widehat S_Y=\supp(\widehat\gamma_Y),
+\qquad
+\widehat S_D=\supp(\widehat\gamma_D),
+\qquad
+\widehat S=\widehat S_Y\cup \widehat S_D
+\]
+
+\begin{itemize}
+    \item Use lasso-style selection in the outcome equation and treatment equation.
+    \item Estimate the treatment effect using the union of selected controls.
+    \item Best when approximate sparsity is plausible and the target is low-dimensional.
+    \item Does not solve unobserved confounding, nonlinear misspecification, or poor overlap.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Orthogonalization: DML math}
+\small
+\[
+g_0(X_i)=\E[Y_i\mid X_i],
+\qquad
+m_0(X_i)=\E[D_i\mid X_i]
+\]
+
+\[
+\widetilde Y_i=Y_i-g_0(X_i),
+\qquad
+\widetilde D_i=D_i-m_0(X_i)
+\]
+
+\[
+\psi(W_i;\theta,\eta)=
+\left(D_i-m(X_i)\right)
+\left[Y_i-g(X_i)-\theta\left(D_i-m(X_i)\right)\right],
+\qquad
+\eta=(g,m)
+\]
+
+\[
+\widehat\theta_{DML}
+=
+\left(\frac{1}{n}\sum_i\widehat{\widetilde D}_i^2\right)^{-1}
+\left(\frac{1}{n}\sum_i\widehat{\widetilde D}_i\widehat{\widetilde Y}_i\right)
+\]
+
+Orthogonality makes small nuisance errors second-order for the target score.
+\end{frame}
+
+\begin{frame}{Cross-fitting}
+\small
+Split the sample into folds \(I_1,\ldots,I_K\). For each held-out fold:
+
+\[
+\widehat{\widetilde Y}_i
+=
+Y_i-\widehat g^{(-k)}(X_i),
+\qquad
+\widehat{\widetilde D}_i
+=
+D_i-\widehat m^{(-k)}(X_i),
+\qquad
+i\in I_k
+\]
+
+\medskip
+\begin{itemize}
+    \item Train nuisance learners on \(I_k^c\), evaluate scores on \(I_k\).
+    \item Rotate across folds and stack held-out residuals.
+    \item Tune hyperparameters inside training folds.
+    \item Cluster folds when the identifying variation or errors are clustered.
+\end{itemize}
+
+\medskip
+Cross-fitting protects the target step from overfit nuisance predictions.
+\end{frame}
+
+\begin{frame}{What DML identifies}
+\small
+\begin{tabular}{p{0.24\linewidth} p{0.32\linewidth} p{0.32\linewidth}}
+\toprule
+Object & Helps when & Does not fix \\
+\midrule
+High-dimensional controls & many pre-treatment confounders are observed & omitted unobservables or post-treatment controls \\
+Orthogonal score & nuisance functions are complex but auxiliary & a wrong estimand or weak design \\
+Cross-fitting & overfit nuisance estimates threaten inference & tuning leakage or bad support \\
+DML estimate & target is low-dimensional and design is credible & extrapolation outside overlap \\
+\bottomrule
+\end{tabular}
+
+\medskip
+Report the estimand, identifying assumption, nuisance learners, fold plan, overlap checks, and learner sensitivity.
+\end{frame}
+
+\begin{frame}{CATEs and causal forests}
+\small
+\[
+\tau(x)=\E[Y_i(1)-Y_i(0)\mid X_i=x]
+\]
+
+\[
+\widehat\tau(x)=
+\argmin_{\tau}
+\sum_i \alpha_i(x)
+\left[
+\left(Y_i-\widehat\mu(X_i)\right)
+-
+\tau\left(D_i-\widehat e(X_i)\right)
+\right]^2
+\]
+
+\begin{itemize}
+    \item Forest weights \(\alpha_i(x)\) define local comparison groups.
+    \item Honesty separates split selection from effect estimation.
+    \item Useful for heterogeneity discovery, targeting diagnostics, and mechanism hypotheses.
+    \item Variable importance is not a causal mechanism.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Implementation pitfalls}
+\small
+\begin{tabular}{p{0.25\linewidth} p{0.37\linewidth} p{0.26\linewidth}}
+\toprule
+Pitfall & Why it matters & Check \\
+\midrule
+Weak overlap & flexible learners extrapolate in thin support & propensity distribution, trimming \\
+Feature leakage & post-treatment features encode the answer & timing diagram \\
+Learner choice & nuisance bias/variance affects target stability & lasso, ridge, forest sensitivity \\
+Tuning leakage & full-sample tuning weakens splitting discipline & nested tuning \\
+Fold instability & estimates depend on random split & seed and fold diagnostics \\
+Noisy heterogeneity & CATEs overfit sparse subgroups & honest forests, hold-out validation \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Research Lab design}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{0.32\linewidth}
+\textbf{Reproduce}
+\begin{itemize}
+    \item synthetic online labor data
+    \item baseline regression
+    \item post-double selection
+    \item cross-fitted DML
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Diagnose}
+\begin{itemize}
+    \item overlap support
+    \item nuisance \(R^2\)
+    \item leakage audit
+    \item fold stability
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Transfer}
+\begin{itemize}
+    \item youth program data
+    \item CATE by baseline risk
+    \item honest-tree heterogeneity
+    \item uncertainty memo
+\end{itemize}
+\end{column}
+\end{columns}
+
+\medskip
+The lab reproduces design logic, not official paper estimates.
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item Start with the economic question and target parameter.
+    \item High-dimensional controls help only when the relevant confounders are observed and timed correctly.
+    \item Orthogonalization protects inference from nuisance estimation error, not from bad identification.
+    \item Cross-fitting is part of the estimator, not a cosmetic validation step.
+    \item Causal forests organize heterogeneity, but support, uncertainty, and economics determine interpretation.
+    \item Report these tools as research-design infrastructure, not as black-box proof.
+\end{itemize}
+\end{frame}
+
+\end{document}

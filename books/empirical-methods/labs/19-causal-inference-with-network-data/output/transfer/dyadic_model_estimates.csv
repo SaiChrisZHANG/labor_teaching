@@ -1,0 +1,13 @@
+inference,variable,estimate,std_error,t_stat,nobs,interpretation_note
+hc1_naive_row_robust,intercept,0.18375,0.066572,2.760177,360,treats dyads as independent after covariates except for heteroskedasticity
+hc1_naive_row_robust,tie_strength,0.366308,0.123975,2.954703,360,treats dyads as independent after covariates except for heteroskedasticity
+hc1_naive_row_robust,same_group,0.016817,0.052435,0.320723,360,treats dyads as independent after covariates except for heteroskedasticity
+hc1_naive_row_robust,referrer_treated,0.085772,0.054174,1.583261,360,treats dyads as independent after covariates except for heteroskedasticity
+hc1_naive_row_robust,referrer_baseline_skill,0.002665,0.041017,0.064972,360,treats dyads as independent after covariates except for heteroskedasticity
+hc1_naive_row_robust,applicant_access_score,0.076406,0.03014,2.535038,360,treats dyads as independent after covariates except for heteroskedasticity
+two_way_referrer_applicant_cluster,intercept,0.18375,0.066063,2.78145,360,allows dependence among dyads sharing a referrer or applicant
+two_way_referrer_applicant_cluster,tie_strength,0.366308,0.110691,3.309277,360,allows dependence among dyads sharing a referrer or applicant
+two_way_referrer_applicant_cluster,same_group,0.016817,0.052694,0.319144,360,allows dependence among dyads sharing a referrer or applicant
+two_way_referrer_applicant_cluster,referrer_treated,0.085772,0.054559,1.572103,360,allows dependence among dyads sharing a referrer or applicant
+two_way_referrer_applicant_cluster,referrer_baseline_skill,0.002665,0.038332,0.069521,360,allows dependence among dyads sharing a referrer or applicant
+two_way_referrer_applicant_cluster,applicant_access_score,0.076406,0.016992,4.496571,360,allows dependence among dyads sharing a referrer or applicant

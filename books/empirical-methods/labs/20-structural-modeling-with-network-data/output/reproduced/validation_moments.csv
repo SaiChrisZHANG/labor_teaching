@@ -1,0 +1,7 @@
+moment,observed,model_implied,interpretation
+edge_count,406.0,407.4193108839419,formation model should fit overall link volume
+density,0.15884194053208137,0.15939722648041543,density disciplines baseline meeting probability
+average_degree,11.277777777777779,11.317203080109497,degree matters for opportunity access
+homophily_share,0.6896551724137931,0.6872526473831265,homophily matters for inequality counterfactuals
+same_occupation_share,0.35960591133004927,0.3583531661354875,occupation sorting matters for referral mechanisms
+average_clustering,0.17160952091615145,,dyadic model does not directly discipline clustering

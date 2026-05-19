@@ -1,0 +1,264 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs}
+
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\1}{\mathbf{1}}
+\newcommand{\Prb}{\mathbb{P}}
+
+\title{Causal Inference With Network Data}
+\subtitle{Empirical Methods --- Week 19}
+\author{Teaching deck draft}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Week 19 question}
+\begin{itemize}
+    \item How can researchers estimate effects when units influence one another through observed or latent links?
+    \item The problem is causal inference, not general network analysis.
+    \item Network structure changes identification, estimation, inference, and interpretation.
+    \item The graph definition is substantive: it states who can affect whom and through which channel.
+\end{itemize}
+
+\medskip
+Lecture 18 built the graph. Lecture 19 asks what can be learned causally once the graph exists.
+\end{frame}
+
+\begin{frame}{Why Lectures 1--5 are not always enough}
+\small
+\begin{tabular}{p{0.28\linewidth} p{0.30\linewidth} p{0.30\linewidth}}
+\toprule
+Core design habit & Network complication & Response \\
+\midrule
+Individual treatment contrast & untreated units may be exposed & define exposure states \\
+SUTVA notation & outcomes depend on others' treatment & potential outcomes under interference \\
+Peer regression & outcomes jointly determine each other & topology, timing, randomization \\
+One row per unit & rows are dyads or links & dyadic/network inference \\
+Cluster standard errors & dependence follows shared nodes & pair-aware variance logic \\
+\bottomrule
+\end{tabular}
+
+\medskip
+The core toolkit still matters; the network tells us when its assumptions are too small.
+\end{frame}
+
+\begin{frame}{Potential outcomes under interference}
+\small
+Standard binary-treatment notation:
+\[
+\tau=\E[Y_i(1)-Y_i(0)]
+\]
+
+Network notation:
+\[
+Y_i = Y_i(Z_i,Z_{-i};G)
+\]
+
+Exposure-mapping restriction:
+\[
+D_i=g_i(Z_{-i},G), \qquad Y_i=Y_i(Z_i,D_i)
+\]
+
+\begin{itemize}
+    \item \(G\): graph of economically relevant links.
+    \item \(Z_i\): own treatment status.
+    \item \(D_i\): exposure to others' treatments through the graph.
+    \item The mapping \(g_i(\cdot)\) is an identifying assumption, not a formatting choice.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{The reflection problem}
+\small
+\[
+Y_i
+=
+\alpha
++ \beta \sum_j w_{ij}Y_j
++ \gamma \sum_j w_{ij}X_j
++ \delta X_i
++ \varepsilon_i
+\]
+
+\begin{itemize}
+    \item \(\beta\): endogenous peer effect.
+    \item \(\gamma\): contextual peer-characteristic effect.
+    \item Correlated effects: sorting, common shocks, shared managers, shared neighborhoods.
+    \item Peer outcomes and own outcomes can be jointly determined.
+    \item Leave-one-out peer means reduce mechanical self-inclusion; they do not solve sorting.
+\end{itemize}
+
+\medskip
+Network topology helps only when the exclusion logic is economically credible.
+\end{frame}
+
+\begin{frame}{Interference and exposure mappings}
+\small
+\[
+\tau^{direct}(d)=\E[Y_i(1,d)-Y_i(0,d)]
+\]
+\[
+\tau^{spill}(z;d,d')=\E[Y_i(z,d)-Y_i(z,d')]
+\]
+
+\begin{itemize}
+    \item Direct effects compare own treatment at a fixed exposure state.
+    \item Spillover effects compare exposure states at a fixed own treatment.
+    \item Exposure can be treated-neighbor share, treated manager, treated high-centrality contact, or saturation cell.
+    \item Failure mode: the exposure mapping misses the true path or compresses heterogeneous paths too aggressively.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Randomized saturation}
+\small
+\[
+Z_i \sim Bernoulli(p_c), \qquad p_c \in \{p_L,p_H\}
+\]
+
+\begin{itemize}
+    \item Randomize treatment intensity across teams, classrooms, villages, worksites, or graph partitions.
+    \item Untreated units in high-saturation clusters reveal spillovers relative to untreated units in low-saturation clusters.
+    \item Treated units across saturation cells reveal whether direct effects depend on peer exposure.
+    \item Partial interference assumes spillovers stay inside the cluster.
+    \item Strong design, but fragile if spillovers cross the boundary.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Network-targeted econometric methods}
+\small
+\begin{tabular}{p{0.28\linewidth} p{0.31\linewidth} p{0.29\linewidth}}
+\toprule
+Tool & Identifies or protects & Main caveat \\
+\midrule
+Topology-based peer design & peer effects under excluded-peer variation & network and exclusion restrictions \\
+Exposure mapping & effects of direct and indirect exposure states & mapping must match mechanism \\
+Saturation experiment & direct, spillover, intensity effects & boundaries must be plausible \\
+Randomization inference & design-based p-values & must follow assignment rule \\
+Leave-one-out peers & cleaner peer exposure measure & not a full design \\
+Dyadic inference & valid pair-level uncertainty & does not solve link endogeneity \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Dyadic inference}
+\small
+Dyadic model:
+\[
+Y_{ij}=X_{ij}'\beta+a_i+b_j+u_{ij}
+\]
+
+\begin{itemize}
+    \item Observations are pairs: worker--firm, employee--applicant, worker--worker, sender--receiver.
+    \item Dyads sharing \(i\) can be correlated.
+    \item Dyads sharing \(j\) can be correlated.
+    \item IID or ordinary robust standard errors usually understate uncertainty.
+    \item Pair-aware inference clusters or otherwise accounts for shared-node dependence.
+\end{itemize}
+
+\medskip
+The estimating unit and variance formula must match the relational data structure.
+\end{frame}
+
+\begin{frame}{Network definition changes interpretation}
+\small
+\begin{tabular}{p{0.24\linewidth} p{0.34\linewidth} p{0.30\linewidth}}
+\toprule
+Link & Possible mechanism & Interpretation risk \\
+\midrule
+Coworker & learning, norms, monitoring, team production & same firm may just be sorting \\
+Manager & supervision, information, practices & manager assignment may be endogenous \\
+Referral & information, screening, trust, favoritism & tie may proxy applicant quality \\
+Neighborhood & job information, local norms, commute knowledge & proximity may proxy local shocks \\
+Platform interaction & congestion, reputation, matching & platform rules shape observed links \\
+\bottomrule
+\end{tabular}
+
+\medskip
+The graph is part of the estimand, not just an input file.
+\end{frame}
+
+\begin{frame}{Paper anchors}
+\begin{itemize}
+    \item Manski: reflection problem and endogenous social effects.
+    \item Bramoulle, Djebbari, Fortin: network topology and peer-effect identification.
+    \item Aronow and Samii: causal effects under general interference.
+    \item Athey, Eckles, Imbens: exact inference with network interference.
+    \item Cornelissen, Dustmann, Schonberg: workplace peer effects.
+    \item Pallais and Sands: referrals and field-experimental labor-market design.
+    \item Graham and Canen: dyadic/network data and dependence-aware inference.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Research Lab design}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{0.32\linewidth}
+\textbf{Reproduce}
+\begin{itemize}
+    \item synthetic teams
+    \item coworker links
+    \item treatment saturation
+    \item leave-one-out peers
+    \item spillover estimates
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Diagnose}
+\begin{itemize}
+    \item exposure mappings
+    \item reflection risk
+    \item randomization inference
+    \item partial interference
+    \item common shocks
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Transfer}
+\begin{itemize}
+    \item referral dyads
+    \item pair-level model
+    \item naive vs dyadic SE
+    \item access inequality
+    \item design memo
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{What each method identifies}
+\small
+\begin{tabular}{p{0.25\linewidth} p{0.34\linewidth} p{0.29\linewidth}}
+\toprule
+Method & Target & Not automatically identified \\
+\midrule
+Peer-effect regression & influence within a defined group & formation or common shocks \\
+Exposure mapping & effect of exposure state \(d\) & all paths in the network \\
+Saturation design & spillovers within design cells & market-wide equilibrium effects \\
+Network experiment & effect under assignment protocol & effects under a different graph \\
+Dyadic model & pair-level association or effect & why the link exists \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item Network causal inference starts by defining who can affect whom.
+    \item Reflection separates peer correlations from peer effects.
+    \item Exposure mappings turn impossible potential-outcome objects into estimands.
+    \item Saturation and graph experiments randomize exposure, not only own treatment.
+    \item Partial interference is an assumption about boundaries.
+    \item Dyadic data need dependence-aware inference.
+    \item Lecture 20 asks what happens when the network itself is endogenous.
+\end{itemize}
+\end{frame}
+
+\end{document}

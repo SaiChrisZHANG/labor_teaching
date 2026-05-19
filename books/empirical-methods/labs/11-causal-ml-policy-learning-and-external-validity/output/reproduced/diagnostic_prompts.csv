@@ -1,0 +1,5 @@
+step,prompt
+reproduce,Define the policy class and explain why the selected rule is a welfare object rather than a prediction score.
+diagnose,Use policy_value_comparison.csv to compare held-out value and regret across rules.
+overlap,Use overlap_diagnostics.csv to decide whether the targeted group has treated and untreated support.
+fairness,Use fairness_audit.csv to report assignment-rate differences across demographic groups.

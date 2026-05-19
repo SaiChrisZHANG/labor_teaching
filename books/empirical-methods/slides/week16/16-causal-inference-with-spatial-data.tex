@@ -1,0 +1,198 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs}
+
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\1}{\mathbf{1}}
+\newcommand{\Var}{\operatorname{Var}}
+\newcommand{\Cov}{\operatorname{Cov}}
+
+\title{Causal Inference With Spatial Data}
+\subtitle{Empirical Methods --- Week 16}
+\author{Teaching deck draft}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Week 16 question}
+\begin{itemize}
+    \item How do spatial spillovers, sorting, exposure, and correlated shocks change causal designs?
+    \item Lecture 15 built spatial objects; Lecture 16 asks when those objects support causal claims.
+    \item The core discipline: name the geography, the counterfactual, the interference structure, and the inference problem.
+    \item A map is not a design until the comparison and assumptions are visible.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Geography has three jobs}
+\small
+\begin{tabular}{p{0.25\linewidth} p{0.34\linewidth} p{0.31\linewidth}}
+\toprule
+Role & What geography does & Paper template \\
+\midrule
+Source & border, distance, or exposure creates variation & Black; Dell; Dube--Lester--Reich \\
+Threat & nearby units share residual shocks & Conley \\
+Mechanism & access, neighborhood, spillover, or local labor market is the channel & Miguel--Kremer; Chetty et al. \\
+\bottomrule
+\end{tabular}
+
+\medskip
+Good spatial papers say which job geography is doing before estimating.
+\end{frame}
+
+\begin{frame}{Spatial clustering and Conley-style inference}
+\small
+\[
+\widehat{\Var}(\hat\beta)
+=
+(X'X)^{-1}
+\left[
+\sum_i \sum_j K\!\left(\frac{d_{ij}}{c}\right)
+x_i x_j' \hat u_i \hat u_j
+\right]
+(X'X)^{-1}
+\]
+
+\begin{itemize}
+    \item Nearby residuals may share weather, labor demand, policy, infrastructure, or demographics.
+    \item Choose coordinates, distance metric, cutoff \(c\), and kernel transparently.
+    \item Report sensitivity to plausible spatial cutoffs.
+    \item This fixes a variance problem, not bias from spillovers or sorting.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Spillovers and exposure mappings}
+\small
+\[
+Y_i = Y_i(D_i,E_i)
+\qquad
+E_i=\sum_{j\neq i}w_{ij}D_j
+\]
+
+\begin{itemize}
+    \item Spatial work often violates simple no-interference logic.
+    \item \(w_{ij}\) can encode distance, adjacency, commuting, school links, or market exposure.
+    \item Miguel--Kremer is the canonical lesson: externalities are a causal object, not just noise.
+    \item The mapping defines the estimand; it still needs a credible assignment or exposure design.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Border designs and spatial RD}
+\small
+\[
+Y_i =
+\alpha+\tau\1\{b_i\ge 0\}
++f_-(b_i)\1\{b_i<0\}
++f_+(b_i)\1\{b_i\ge0\}
++X_i'\gamma+\varepsilon_i
+\]
+
+\begin{itemize}
+    \item \(b_i\): signed distance to the policy or institutional boundary.
+    \item Black: school-boundary comparisons and local amenities.
+    \item Dell: historical boundary and continuity of predetermined geography.
+    \item Dube--Lester--Reich: contiguous counties and local labor-market comparisons.
+    \item Main caveat: borders bundle institutions, sorting, spillovers, and local shocks.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Shift-share and place-based designs}
+\small
+\[
+Z_\ell=\sum_s w_{\ell s}g_s
+\]
+
+\begin{itemize}
+    \item \(w_{\ell s}\): baseline local shares; \(g_s\): common sector, origin, product, or task shock.
+    \item The geography \(\ell\) defines the local exposure object.
+    \item Diagnostics: dominant shares, effective shock variation, baseline year, leave-one-out shocks.
+    \item Place-based policies require both treatment geography and exposure geography.
+    \item Main caveat: polished exposure is not exogeneity.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Sorting, MAUP, and correlated shocks}
+\begin{itemize}
+    \item When place is the treatment, selection into place is usually the central threat.
+    \item Chetty--Hendren--Katz show why random assignment, move timing, and exposure duration matter.
+    \item MAUP changes the estimand when tract, county, and commuting-zone estimates differ.
+    \item Correlated local shocks can contaminate nearby controls or create spatial residual patterns.
+    \item Geography sensitivity should be interpreted through the mechanism, not as a ritual.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Design diagnostics checklist}
+\small
+\begin{enumerate}
+    \item State the mechanism before choosing the geography.
+    \item Define observation, treatment, exposure, and identifying variation separately.
+    \item Write down the interference assumption.
+    \item Check border balance, exposure support, or share decomposition.
+    \item Diagnose contaminated controls and correlated local shocks.
+    \item Report spatial inference as inference, not identification.
+    \item Explain the counterfactual: nearby places, untreated time, other boundaries, or lower exposure.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Research Lab design}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{0.32\linewidth}
+\textbf{Reproduce}
+\begin{itemize}
+    \item synthetic border counties
+    \item pair fixed effects
+    \item treatment estimate
+    \item robust vs Conley SE
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Diagnose}
+\begin{itemize}
+    \item balance near borders
+    \item cutoff sensitivity
+    \item neighbor exposure
+    \item role of geography
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Transfer}
+\begin{itemize}
+    \item shift-share exposure
+    \item dominant shares
+    \item leave-one-out shocks
+    \item design memo
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{What not to confuse}
+\begin{itemize}
+    \item Spatially robust standard errors are not a substitute for a spillover model.
+    \item A border map is not proof of local continuity.
+    \item A narrow bandwidth is not proof that sorting disappears.
+    \item A shift-share index is not automatically an instrument.
+    \item A stable estimate across geographies is reassuring only if each geography is meaningful.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item Spatial causal inference is ordinary identification logic under harder geography.
+    \item Place definitions, interference structure, and estimand choice are part of identification.
+    \item Conley-style inference solves a dependence problem in uncertainty, not a design problem in bias.
+    \item Border, exposure, shift-share, and mover designs each require paper-specific diagnostics.
+    \item Lecture 17 asks when spatial equilibrium makes partial-equilibrium treatment effects incomplete.
+\end{itemize}
+\end{frame}
+
+\end{document}

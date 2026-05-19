@@ -1,0 +1,244 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs, graphicx}
+
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Cov}{\operatorname{Cov}}
+\newcommand{\1}{\mathbf{1}}
+
+\title{Instrumental Variables, 2SLS, and Instrument Design}
+\subtitle{Empirical Methods --- Week 4}
+\author{Teaching deck draft}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Week 4 question}
+\begin{itemize}
+    \item When can an external source of variation identify a causal effect?
+    \item What treatment margin does the instrument move?
+    \item Why should the instrument affect outcomes only through treatment?
+    \item For whom is the resulting estimate interpretable?
+\end{itemize}
+
+\medskip
+IV is a design argument before it is a two-stage regression.
+\end{frame}
+
+\begin{frame}{Why IV is needed}
+\[
+Y_i = \beta D_i + X_i'\gamma + u_i
+\]
+
+\begin{itemize}
+    \item OLS fails when $D_i$ is correlated with unobserved determinants of $Y_i$.
+    \item Endogeneity can come from ability, sorting, reverse causality, anticipation, or measurement error.
+    \item IV asks for a source of variation $Z_i$ that shifts treatment but is otherwise excluded from outcomes.
+    \item The instrument's economic content defines the design.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{First stage, reduced form, Wald}
+\[
+D_i = \pi Z_i + X_i'\delta + v_i
+\qquad
+Y_i = \rho Z_i + X_i'\kappa + \varepsilon_i
+\]
+
+\[
+\beta^{IV}
+=
+\frac{\E[Y_i\mid Z_i=1]-\E[Y_i\mid Z_i=0]}
+{\E[D_i\mid Z_i=1]-\E[D_i\mid Z_i=0]}
+=
+\frac{\Cov(Y_i,Z_i)}{\Cov(D_i,Z_i)}
+\]
+
+\begin{itemize}
+    \item Numerator: instrument effect on outcome.
+    \item Denominator: instrument effect on treatment.
+    \item Ratio: effect of the treatment margin moved by the instrument.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{2SLS projection logic}
+\[
+W=[X,Z],
+\qquad
+P_W=W(W'W)^{-1}W',
+\qquad
+\widehat{D}=P_WD
+\]
+
+\[
+\widehat{\theta}_{2SLS}
+=
+(\widetilde X'P_W\widetilde X)^{-1}\widetilde X'P_WY,
+\qquad
+\widetilde X=[D,X]
+\]
+
+\begin{itemize}
+    \item First stage keeps the treatment variation predicted by instruments and controls.
+    \item Second stage relates outcomes to that instrument-predicted treatment.
+    \item Projection notation does not create identification; the instrument design does.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Assumptions}
+\small
+\begin{tabular}{p{0.20\linewidth} p{0.35\linewidth} p{0.34\linewidth}}
+\toprule
+Assumption & Meaning & Main design question \\
+\midrule
+Relevance & $Z$ shifts $D$ & What treatment margin moves? \\
+Independence & $Z$ is as-good-as-random given $X$ & What assignment or shock process creates variation? \\
+Exclusion & $Z$ affects $Y$ only through $D$ & What direct channels remain? \\
+Monotonicity & no defiers & Could $Z$ push some units away from treatment? \\
+First-stage content & compliers are interpretable & Are they the margin the paper cares about? \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{LATE and compliers}
+\[
+\beta^{IV}
+=
+\E\left[Y_i(1)-Y_i(0)\mid D_i(1)>D_i(0)\right]
+\]
+
+\begin{itemize}
+    \item Compliers take treatment when exposed to the instrument and not otherwise.
+    \item Always-takers and never-takers shape take-up levels, but not the Wald numerator-denominator margin.
+    \item The estimate can be policy-relevant when compliers are the policy margin.
+    \item It should not be reported as a universal ATE unless the design justifies that move.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Weak instruments and many instruments}
+\[
+F_{\text{excluded }Z}
+=
+\frac{(RSS_R-RSS_U)/q}{RSS_U/(n-k_U)}
+\]
+
+\begin{itemize}
+    \item Weak first stages make 2SLS noisy, biased toward OLS, and specification-sensitive.
+    \item Report first-stage coefficients, economic magnitude, and weak-IV diagnostics.
+    \item Use weak-IV robust inference when the first stage is fragile.
+    \item Many instruments can overfit the first stage and make interpretation opaque.
+    \item Multiple instruments may combine different complier populations.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Instrument design gallery}
+\small
+\begin{tabular}{p{0.24\linewidth} p{0.34\linewidth} p{0.31\linewidth}}
+\toprule
+Family & First-stage logic & Core threat \\
+\midrule
+Policy rules & eligibility or legal exposure shifts treatment & cohort, seasonality, or rule channels \\
+Distance/access & lower cost raises take-up & geography directly affects outcomes \\
+Leniency leave-out & assigned decision-makers differ in propensities & decision-makers affect outcomes through other channels \\
+Shift-share & shocks hit exposed units differently & endogenous shares or non-random shocks \\
+Historical legacy & past conditions predict current treatment & many persistent pathways to current outcomes \\
+\bottomrule
+\end{tabular}
+
+\medskip
+Every family needs its own first-stage story, exclusion argument, and inference level.
+\end{frame}
+
+\begin{frame}{Shift-share instruments}
+\[
+Z_{\ell}=\sum_s w_{\ell s}g_s
+\]
+
+\begin{itemize}
+    \item Shares $w_{\ell s}$ measure exposure; shocks $g_s$ create differential predicted treatment.
+    \item Modern practice asks whether identification comes from quasi-random shocks or as-good-as-random shares.
+    \item Endogenous shares can proxy local trends, institutions, or industry composition.
+    \item Inference should reflect the shock structure, not only geographic clustering.
+    \item Report dominant shocks, leave-out choices, exposure balance, and shock-level sensitivity.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Leniency leave-out instruments}
+\[
+Z_{ij}
+=
+\frac{1}{N_j-1}\sum_{k\neq i:J_k=j}D_k
+\]
+
+\begin{itemize}
+    \item The leave-out measure avoids using case $i$ to predict its own treatment.
+    \item Identification requires quasi-random assignment to decision-makers within cells.
+    \item Balance checks should be done inside the assignment cells that define randomization.
+    \item Exclusion can fail if lenient decision-makers change information, processing time, stigma, or other treatments.
+    \item The effect is local to marginal cases moved by decision-maker style.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Historical, distance, and policy instruments}
+\begin{itemize}
+    \item Policy rules: compelling when the rule is sharp, binding, and isolated from other channels.
+    \item Distance/access: useful when access cost is the treatment margin; fragile when geography carries opportunity or family background.
+    \item Historical instruments: powerful first stages, but persistent direct channels are the central threat.
+    \item The implementation task is to name the mechanism, show first-stage content, and stress-test exclusion.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Research Lab design}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{0.32\linewidth}
+\textbf{Reproduce}
+\begin{itemize}
+    \item Compulsory-schooling synthetic IV
+    \item First stage
+    \item Reduced form
+    \item Wald and 2SLS
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Diagnose}
+\begin{itemize}
+    \item Partial first-stage $F$
+    \item Balance by instrument
+    \item Complier profile
+    \item Exclusion memo
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Transfer}
+\begin{itemize}
+    \item Shift-share construction
+    \item Shock-level diagnostics
+    \item Endogenous shares
+    \item Leniency comparison
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item IV estimates the treatment margin induced by the instrument.
+    \item The first stage defines the compliers and the economic interpretation.
+    \item Exclusion is the central substantive assumption and is not directly testable.
+    \item Weak and many instruments can make formal 2SLS output misleading.
+    \item Instrument families are not interchangeable; each has distinct implementation caveats.
+    \item A credible IV paper is a theory of variation before it is a regression table.
+\end{itemize}
+\end{frame}
+
+\end{document}

@@ -1,0 +1,33 @@
+version: 1
+project:
+  title: "Empirical Methods for Applied Economics"
+  description: Research-facing applied economics methods course with a labor-economics user perspective.
+  bibliography:
+    - references.bib
+  toc:
+    - file: index.md
+    - file: 01-potential-outcomes-identification-logic-and-selection-on-observables.md
+    - file: 02-experiments-and-field-experiments.md
+    - file: 03-did-event-studies-and-synthetic-control.md
+    - file: 04-instrumental-variables-2sls-and-instrument-design.md
+    - file: 05-regression-discontinuity-rkd-bunching-and-local-designs.md
+    - file: 06-when-and-why-structure-static-and-dynamic-decision-problems.md
+    - file: 07-structural-estimation-in-practice-identification-moments-likelihood-simulation-and-fit.md
+    - file: 08-equilibrium-structural-work-search-spatial-industry-market-and-policy-counterfactuals.md
+    - file: 09-prediction-regularization-and-applied-measurement.md
+    - file: 10-high-dimensional-controls-heterogeneity-and-double-debiased-ml.md
+    - file: 11-causal-ml-policy-learning-and-external-validity.md
+    - file: 12-text-as-data-and-computational-measurement.md
+    - file: 13-extraction-classification-embeddings-and-validation.md
+    - file: 14-llm-workflows-for-applied-research.md
+    - file: 15-curating-maps-and-spatial-data.md
+    - file: 16-causal-inference-with-spatial-data.md
+    - file: 17-spatial-structural-modeling.md
+    - file: 18-curating-network-data-and-descriptive-statistics.md
+    - file: 19-causal-inference-with-network-data.md
+    - file: 20-structural-modeling-with-network-data.md
+site:
+  template: book-theme
+  title: Empirical Methods
+  options:
+    logo_text: Empirical Methods

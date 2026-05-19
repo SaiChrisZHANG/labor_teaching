@@ -1,0 +1,2 @@
+rows,unique_referrers,unique_applicants,mean_rows_per_referrer,max_rows_per_referrer,mean_rows_per_applicant,max_rows_per_applicant,repeated_referrer_applicant_pairs,inference_implication
+360,30,113,12.0,49,3.185841,8,20,dyads sharing referrers or applicants should not be treated as IID rows

@@ -1,0 +1,5 @@
+state,treated_state,post,mean_fte,n,period
+PA,0,0,22.965635135135138,74,pre
+PA,0,1,21.782472972972972,74,post
+NJ,1,0,22.62988043478261,92,pre
+NJ,1,1,23.976608695652175,92,post

@@ -1,0 +1,6 @@
+variable,treated_mean,control_mean,difference,standardized_difference
+baseline_log_wage,10.070634,10.060742,0.009893,0.188567
+baseline_employment_rate,0.660359,0.668186,-0.007827,-0.297337
+unemployment_rate_1990,0.089697,0.09335,-0.003653,-0.339675
+manufacturing_share_1990,0.253478,0.249099,0.004379,0.106343
+pretrend_1980_1990,0.007529,0.003909,0.003619,0.278739

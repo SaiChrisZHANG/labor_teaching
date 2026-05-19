@@ -1,0 +1,266 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs}
+
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\1}{\mathbf{1}}
+\newcommand{\Prb}{\mathbb{P}}
+
+\title{Structural Modeling With Network Data}
+\subtitle{Empirical Methods --- Week 20}
+\author{Teaching deck draft}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Week 20 question}
+\begin{itemize}
+    \item When is a model of network formation or network-mediated behavior needed for counterfactuals?
+    \item Lecture 18: define and diagnose the graph.
+    \item Lecture 19: identify effects when links create exposure, interference, or dependence.
+    \item Lecture 20: model policies that change links, information flows, search, matching, or equilibrium behavior.
+\end{itemize}
+
+\medskip
+The central issue is not graph theory. It is whether the counterfactual changes the network.
+\end{frame}
+
+\begin{frame}{When reduced-form network methods are not enough}
+\small
+Reduced-form exposure design:
+\[
+Y_i = \alpha + \tau D_i(G,Z) + X_i'\beta + u_i
+\]
+
+Structural policy object:
+\[
+V(p)=\E\left[
+W_i\left(G(p),a_i(G(p),X,\varepsilon),X_i\right)
+\right]
+\]
+
+\begin{itemize}
+    \item Reduced-form evidence can identify local exposure effects on the observed graph.
+    \item It may not answer what happens when policy changes the graph itself.
+    \item Examples: referral subsidies, platform ranking rules, team assignment, diffusion seeds, search access.
+    \item The structural model earns its keep only if the counterfactual changes relationships or equilibrium behavior.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Network methods block map}
+\small
+\begin{tabular}{p{0.24\linewidth} p{0.31\linewidth} p{0.33\linewidth}}
+\toprule
+Lecture & Main object & Failure if skipped \\
+\midrule
+18. Curation & nodes, edges, weights, timing, boundaries & unclear estimand and fragile measurement \\
+19. Causal inference & exposure, interference, dependence & peer correlations mistaken for effects \\
+20. Structure & formation, behavior, counterfactuals & link-changing policies overclaimed \\
+\bottomrule
+\end{tabular}
+
+\medskip
+The three layers are complements. The structural model should inherit the graph discipline from Lecture 18 and the design discipline from Lecture 19.
+\end{frame}
+
+\begin{frame}{Network formation vs behavior}
+\small
+\begin{columns}[T,onlytextwidth]
+\begin{column}{0.48\linewidth}
+\textbf{Behavior on a network}
+\[
+a_i
+=
+\alpha+\beta x_i
++\gamma\sum_j g_{ij}a_j
++\delta\sum_j g_{ij}x_j+\varepsilon_i
+\]
+\begin{itemize}
+    \item Conditions on observed links.
+    \item Needs timing, equilibrium, and exposure logic.
+    \item Useful for peer effects, diffusion, learning, and adoption.
+\end{itemize}
+\end{column}
+\begin{column}{0.48\linewidth}
+\textbf{Network formation}
+\[
+G_{ij}
+=
+\1\{U_{ij}(X_i,X_j,G_{-ij},\eta_{ij})\ge 0\}
+\]
+\begin{itemize}
+    \item Explains why links exist.
+    \item Allows policy to change links.
+    \item Needs assumptions on opportunity, sorting, and strategic payoffs.
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Structural peer effects and equilibrium}
+\small
+\[
+a_i
+=
+\alpha
++ \beta x_i
++ \gamma \sum_j g_{ij}a_j
++ \delta \sum_j g_{ij}x_j
++ \varepsilon_i
+\]
+
+\begin{itemize}
+    \item The equation is familiar; the structural burden is the equilibrium interpretation.
+    \item Are peer actions simultaneous or lagged?
+    \item Is the graph fixed before actions, or chosen jointly with actions?
+    \item Can multiple equilibria matter?
+    \item Which variation separates peer effects from sorting and common shocks?
+\end{itemize}
+
+\medskip
+A coefficient is not yet a counterfactual model.
+\end{frame}
+
+\begin{frame}{Search, referrals, and labor-market applications}
+\small
+\[
+\lambda_i(G)=\lambda_0+\lambda_1\sum_j G_{ij}q_j
+\]
+
+\begin{itemize}
+    \item Links can carry vacancy information, screening signals, trust, reputation, or favoritism.
+    \item Referral policies may change who forms links, who receives information, and how employers update beliefs.
+    \item Matching policies can change feasible worker--firm pairs and congestion.
+    \item Inequality can rise or fall depending on whether new links bridge opportunity gaps or reinforce segregation.
+\end{itemize}
+
+\medskip
+Labor anchors: Calvo-Armengol and Jackson; Dustmann et al.; Galenianos; Pallais and Sands.
+\end{frame}
+
+\begin{frame}{Diffusion and equilibrium behavior}
+\small
+\[
+\Pr(a_{it}=1)
+=
+\sigma\left(
+\alpha+X_i'\beta+\rho\sum_j g_{ij}a_{j,t-1}+\kappa s_{it}
+\right)
+\]
+
+\begin{itemize}
+    \item Diffusion models study how information, technologies, practices, and beliefs spread.
+    \item Relevant for training, management practices, job-search norms, platform information, and wage knowledge.
+    \item Equilibrium response matters when adoption changes congestion, incentives, or search behavior.
+    \item Validation requires adoption paths, not only final adoption rates.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Estimation, computation, and validation}
+\small
+\[
+m(\theta)=\E_\theta[
+\text{degree},
+\text{clustering},
+\text{homophily},
+\text{wage covariance across links},
+\text{job transitions},
+\text{referral yields}]
+\]
+
+\begin{itemize}
+    \item Use moments or likelihood objects that discipline the counterfactual primitives.
+    \item Formation moments: degree, homophily, clustering, link persistence.
+    \item Behavior moments: outcomes conditional on links, transitions, adoption paths, referral yields.
+    \item Computation often uses simulation, local statistics, sparse approximations, or separable blocks.
+    \item Validation should compare fixed-network and endogenous-link counterfactuals.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Policy counterfactual discipline}
+\small
+\begin{tabular}{p{0.26\linewidth} p{0.31\linewidth} p{0.31\linewidth}}
+\toprule
+Policy changes & Need to model & Validation target \\
+\midrule
+Existing-link information & behavior on fixed graph & outcome response by exposure \\
+New referral links & formation and referral yields & degree, homophily, callback rates \\
+Platform ranking & matching and congestion & search sets, applications, matches \\
+Training seeds & diffusion and equilibrium response & adoption timing and spillovers \\
+Team assignment & peer groups and sorting & group composition and productivity \\
+\bottomrule
+\end{tabular}
+
+\medskip
+The policy defines the necessary structure.
+\end{frame}
+
+\begin{frame}{Network Methods block summary}
+\small
+\begin{itemize}
+    \item \textbf{Where the literature is now:} richer administrative and platform networks; sharper exposure and interference designs; more structural formation, search, referral, and diffusion models.
+    \item \textbf{Key open questions:} endogenous links, dynamic networks, privacy-preserving network data, reduced-form discipline for structural counterfactuals, and distributional effects of network policies.
+    \item \textbf{Research opportunities:} referral hiring, internal labor markets, coworker learning, manager networks, platform matching, school-to-work contacts, and local opportunity networks.
+\end{itemize}
+
+\medskip
+The frontier is not bigger graphs. It is better alignment between mechanism, data, design, model, and counterfactual.
+\end{frame}
+
+\begin{frame}{Research Lab design}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{0.32\linewidth}
+\textbf{Reproduce}
+\begin{itemize}
+    \item synthetic workers
+    \item dyadic opportunities
+    \item link formation model
+    \item network moments
+    \item behavior equation
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Diagnose}
+\begin{itemize}
+    \item topology fit
+    \item behavior fit
+    \item moment relevance
+    \item fixed vs endogenous
+    \item validation memo
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Transfer}
+\begin{itemize}
+    \item referral search
+    \item cross-group links
+    \item match access
+    \item inequality
+    \item policy memo
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item Structural network models are useful when policy changes links, information flows, matching sets, or equilibrium behavior.
+    \item Behavior-on-network models and formation models answer different questions.
+    \item Endogenous links make assumptions and validation burdens heavier.
+    \item Moments must be chosen for the counterfactual, not for convenience.
+    \item Reduced-form network evidence remains valuable as discipline for structural claims.
+    \item The Network Methods block gives a sequence: define, identify, then model.
+\end{itemize}
+\end{frame}
+
+\end{document}

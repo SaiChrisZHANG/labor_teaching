@@ -1,0 +1,8 @@
+object,estimate,standard_error,bandwidth,notes
+local linear triangular RD,0.0672114005543416,0.004282206355551032,0.08,"Primary teaching estimate: local linear, triangular weights, centered vote margin."
+covariate-adjusted local linear RD,0.06728209614754183,0.004273441358353725,0.08,Predetermined covariates included for precision; identification still comes from cutoff continuity.
+local quadratic bias diagnostic,0.07188221098607624,0.006088816687419161,0.08,"Teaching diagnostic for curvature sensitivity, not a replacement for production rdrobust."
+robust-bias-correction-style estimate,0.07188221098607624,0.006088816687419161,0.08,Pedagogical bias correction using local quadratic difference as a bias proxy.
+honest-interval lower bound,0.054018276097461584,,0.08,Uses smoothness_bound=1.5 and adds worst-case bias to the 95 percent interval.
+honest-interval upper bound,0.08040452501122163,,0.08,Uses smoothness_bound=1.5 and adds worst-case bias to the 95 percent interval.
+synthetic true cutoff effect,0.06636179775280897,,0.01,Known only because the dataset is synthetic.

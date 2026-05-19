@@ -1,0 +1,4 @@
+step,prompt
+reproduce,"Compare low-dimensional OLS, high-dimensional OLS, post-double selection, and cross-fitted DML."
+diagnose,"Use overlap, nuisance R2, leakage, and fold-stability outputs to decide whether DML sharpens the design."
+report,State what the concentration effect identifies under the selection-on-observables design and what it does not identify.

@@ -1,0 +1,4 @@
+step,prompt
+reproduce,Define the technology-intensive target and explain why test Brier loss is the main tuning metric.
+diagnose,Use calibration and subgroup tables to decide whether the score is fit for a regional labor-demand study.
+transfer,Predict how performance will change when the model is applied to short occupation titles.

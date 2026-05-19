@@ -1,0 +1,6 @@
+simulation_seed,replacement_cost,maintenance_slope,criterion,note
+101,4.5,0.56,0.0062099423548388506,Same data and grid; only simulation draws change.
+202,4.3,0.56,0.005997739786407925,Same data and grid; only simulation draws change.
+303,4.7,0.6,0.006709182569178495,Same data and grid; only simulation draws change.
+404,4.3,0.56,0.005184321379043627,Same data and grid; only simulation draws change.
+505,4.7,0.6,0.006737278623710347,Same data and grid; only simulation draws change.

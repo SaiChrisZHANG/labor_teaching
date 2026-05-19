@@ -1,0 +1,2 @@
+selected_policy,description,policy_kind,feature,direction,threshold,capacity,train_assignment_rate,eval_assignment_rate
+predicted_net_gain_top35,Assign applicants with the highest estimated net causal gains.,score_threshold,predicted_net_gain,ge,3293.9769552098373,0.35,0.35,0.35555555555555557

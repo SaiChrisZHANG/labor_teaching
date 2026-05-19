@@ -1,0 +1,5 @@
+object,estimate,standard_error,interpretation
+OLS treatment coefficient,-0.3418791116809895,0.07632314292541298,association between treatment intensity and outcome growth
+first stage: shift-share -> treatment,2.645100843415289,0.4502711034702281,effect of predicted shock exposure on treatment intensity
+reduced form: shift-share -> outcome,-1.324389412328615,0.3580725808223718,effect of predicted shock exposure on outcome growth
+2SLS treatment coefficient,-0.500695244048948,0.13445880233305457,effect identified by shift-share exposure under IV assumptions

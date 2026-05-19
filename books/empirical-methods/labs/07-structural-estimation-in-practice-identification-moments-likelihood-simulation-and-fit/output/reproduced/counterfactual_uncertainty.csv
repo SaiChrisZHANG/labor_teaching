@@ -1,0 +1,3 @@
+object,estimate,delta_method_se,cluster_bootstrap_se,bootstrap_p05,bootstrap_p95,draws,note
+baseline mean replacement probability,0.26411690440378227,,,,,30,Baseline model-implied replacement probability using observed state mix.
+lower replacement cost counterfactual,0.3282615953599294,0.008441034432997443,0.00825401388853883,0.317460533727432,0.3421055559705465,30,Delta method uses numerical gradient and cluster-bootstrap parameter covariance.

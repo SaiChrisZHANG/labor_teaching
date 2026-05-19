@@ -1,0 +1,4 @@
+specification,exposure_variable,n,intercept,slope,rmse
+baseline_shift_share,shift_share_exposure,36.0,0.02885,0.0881,0.019501
+leave_one_out_shift_share,leave_one_out_exposure,36.0,0.028291,0.101036,0.019471
+region_level_shift_share,region_shift_share_exposure,36.0,0.023048,0.158529,0.019197

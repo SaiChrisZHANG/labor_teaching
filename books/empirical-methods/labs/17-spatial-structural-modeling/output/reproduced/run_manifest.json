@@ -1,0 +1,9 @@
+{
+  "task": "Week 17 synthetic commuting-flow and spatial-incidence exercise",
+  "primary_anchor": "Monte, Redding, and Rossi-Hansberg commuting/migration spatial equilibrium logic",
+  "not_official_replication": true,
+  "locations": 12,
+  "bilateral_flows": 144,
+  "shock_location_id": "L11",
+  "productivity_multiplier": 1.08
+}

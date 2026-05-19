@@ -1,0 +1,5 @@
+step,prompt
+reproduce,Define the benchmark and explain what inter-rater reliability does not prove.
+diagnose,"Use confusion matrices, calibration bins, and subgroup performance to identify where validation fails."
+diagnose,"Compare downstream slopes using the simulation truth, benchmark, and constructed scores."
+transfer,Decide what must be relabeled before moving the validation workflow to a new domain.

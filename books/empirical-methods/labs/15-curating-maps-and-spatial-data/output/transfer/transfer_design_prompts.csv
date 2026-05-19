@@ -1,0 +1,5 @@
+object,design_question,main_caveat
+8-mile buffer,Is a hard radius plausible for the actual commuting or search mechanism?,Buffers ignore route topology and treat nearby jobs just outside the radius as zero.
+distance-decay access,What bandwidth or decay rate matches worker search and commute behavior?,Kernel access can look precise while hiding an arbitrary bandwidth.
+travel-time access,"Do routing mode, departure time, and transit penalties match the population?",Routing data and APIs must be versioned or preserved.
+generalized-cost access,"Are time, distance, transfers, and suburban penalties monetized or utility-weighted defensibly?",Cost parameters should be justified or varied in sensitivity checks.

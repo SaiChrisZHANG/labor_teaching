@@ -1,0 +1,11 @@
+employer_id,industry,firm_size,projected_worker_pairs_if_all_connected,outside_observed_frame,group_b_share,warning
+E01,health,23,253,0,0.391304,large employers mechanically create many projected worker-worker links
+E04,retail,18,153,0,0.777778,large employers mechanically create many projected worker-worker links
+E02,logistics,17,136,0,0.647059,large employers mechanically create many projected worker-worker links
+E05,business,16,120,0,0.25,large employers mechanically create many projected worker-worker links
+E07,hospitality,15,105,0,0.466667,large employers mechanically create many projected worker-worker links
+E03,manufacturing,14,91,0,0.357143,large employers mechanically create many projected worker-worker links
+E06,public,12,66,0,0.5,large employers mechanically create many projected worker-worker links
+E08,construction,11,55,0,0.181818,large employers mechanically create many projected worker-worker links
+E09,logistics,9,36,1,0.444444,large employers mechanically create many projected worker-worker links
+E10,logistics,9,36,1,0.777778,large employers mechanically create many projected worker-worker links

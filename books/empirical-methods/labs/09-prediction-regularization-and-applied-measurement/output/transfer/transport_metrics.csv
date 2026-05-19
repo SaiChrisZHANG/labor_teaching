@@ -1,0 +1,3 @@
+model,training_object,transfer_object,brier,mae,accuracy,precision,recall,positive_rate
+posting_model_on_titles,technology-intensive job posting,technology occupation from raw title,0.2189203472013486,0.2677278531509701,0.6866666666666666,0.0,0.0,0.0
+keyword_rule_on_titles,technology-intensive job posting,technology occupation from raw title,0.10666666666666667,0.10666666666666667,0.8933333333333333,1.0,0.6595744680851063,0.20666666666666667

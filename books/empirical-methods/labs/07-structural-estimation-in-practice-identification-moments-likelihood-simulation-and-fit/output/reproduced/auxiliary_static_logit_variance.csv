@@ -1,0 +1,3 @@
+model,parameter,estimate,information_se,sandwich_opg_se,note
+auxiliary static logit,intercept,-3.0428810771460117,0.07841207705320853,0.07656472140282494,Auxiliary variance calculation for Hessian and OPG logic.
+auxiliary static logit,mileage_state,0.8826946846386093,0.02740195001702915,0.02757709603322291,Auxiliary variance calculation for Hessian and OPG logic.

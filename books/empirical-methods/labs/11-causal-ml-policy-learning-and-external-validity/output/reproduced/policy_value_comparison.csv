@@ -1,0 +1,7 @@
+policy,description,policy_kind,feature,direction,threshold,capacity_feasible,assignment_rate,dr_value,n,regret_within_feasible_class,selected_by_training_value
+low_prior_earnings,Assign applicants with low prior earnings.,threshold,prior_earnings,le,26730.905166697623,True,0.38333333333333336,33501.05867639453,360,0.0,False
+predicted_net_gain_top35,Assign applicants with the highest estimated net causal gains.,score_threshold,predicted_net_gain,ge,3293.9769552098373,True,0.35555555555555557,33153.049000374966,360,348.00967601956654,True
+high_baseline_risk,Assign applicants with high baseline labor-market risk.,threshold,baseline_risk,ge,0.4687905594739233,True,0.3388888888888889,33000.94119082718,360,500.11748556735256,False
+long_unemployment,Assign applicants with long unemployment duration.,threshold,months_unemployed,ge,5.918841408997161,True,0.34444444444444444,32901.511745505704,360,599.5469308888278,False
+treat_none,Assign no applicants to the training offer.,none,,,,True,0.0,31681.327767091865,360,1819.730909302667,False
+treat_all,Assign every applicant; useful as a benchmark but not capacity feasible.,all,,,,False,1.0,33933.26294236985,360,,False

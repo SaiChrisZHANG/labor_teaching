@@ -1,0 +1,6 @@
+prompt,student_note
+"What is the kink, and how does the marginal tax rate change?",Use lower_marginal_tax_rate and upper_marginal_tax_rate in the synthetic data.
+Which observations are excluded to fit the counterfactual density?,Use bunching_bins.csv and the fit_sample column.
+How sensitive is excess mass to bin width and polynomial degree?,Use bunching_sensitivity.csv.
+Why is the elasticity estimate not model-free?,"Name the optimization model, salience, frictions, and reporting response assumptions."
+What would a notch change relative to a kink?,A notch creates a level payoff discontinuity and often a dominated region.

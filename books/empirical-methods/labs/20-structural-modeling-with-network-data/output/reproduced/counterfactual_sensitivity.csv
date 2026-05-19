@@ -1,0 +1,4 @@
+scenario,mean_wage_change_vs_baseline,gap_change_vs_baseline,edge_count_change_vs_baseline
+baseline_observed_network,0.0,0.0,0
+fixed_network_better_information,-0.3589061741912474,3.552713678800501e-15,0
+endogenous_cross_group_link_policy,0.2672528244690575,-0.06739992901973224,48

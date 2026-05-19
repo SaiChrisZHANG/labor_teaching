@@ -1,0 +1,5 @@
+prompt,student_note
+Does identification come from shocks or shares?,Use shock_level_summary.csv and the exposure construction.
+Which sectors dominate predicted exposure?,Use dominant_contributions.csv and shift_share_components.csv.
+Why might geographic clustering be insufficient?,"Places share the same sector shocks, so independent variation may be shock-level."
+How would this differ from judge leniency?,Leniency requires quasi-random assignment to decision-makers and leave-out construction.

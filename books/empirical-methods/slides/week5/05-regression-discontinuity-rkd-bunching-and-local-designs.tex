@@ -1,0 +1,322 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs, graphicx}
+
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\1}{\mathbf{1}}
+
+\title{Regression Discontinuity, RKD, Bunching, and Local Designs}
+\subtitle{Empirical Methods --- Week 5}
+\author{Teaching deck draft}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Week 5 question}
+\begin{itemize}
+    \item What can be learned when rules, thresholds, kinks, dates, or borders create local variation?
+    \item What exactly is discontinuous: treatment levels, treatment probabilities, incentive slopes, or densities?
+    \item Why should potential outcomes be smooth at the threshold absent treatment?
+    \item How local is the estimate, and is that local margin economically meaningful?
+\end{itemize}
+
+\medskip
+RD-style methods are design arguments before they are software commands.
+\end{frame}
+
+\begin{frame}{Local designs as a family}
+\small
+\begin{tabular}{p{0.22\linewidth} p{0.30\linewidth} p{0.33\linewidth}}
+\toprule
+Design & Identifying object & Core threat \\
+\midrule
+Sharp RD & jump in outcome at cutoff & sorting or non-smooth potential outcomes \\
+Fuzzy RD & local Wald ratio & weak or opaque first-stage jump \\
+RKD & slope discontinuity ratio & noisy derivative estimation, bunching \\
+Bunching & excess mass near kink or notch & model dependence, counterfactual density \\
+Time RD & jump around a date & seasonality, serial correlation, anticipation \\
+Spatial RD & jump across a border & geographic sorting, boundary confounds \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Sharp vs fuzzy RD}
+\[
+D_i=\1\{X_i\ge c\}
+\]
+
+\[
+\tau_{SRD}
+=
+\lim_{x\downarrow c}\E[Y_i\mid X_i=x]
+-
+\lim_{x\uparrow c}\E[Y_i\mid X_i=x]
+\]
+
+\[
+\tau_{FRD}
+=
+\frac{
+\lim_{x\downarrow c}\E[Y_i\mid X_i=x]
+-
+\lim_{x\uparrow c}\E[Y_i\mid X_i=x]
+}{
+\lim_{x\downarrow c}\E[D_i\mid X_i=x]
+-
+\lim_{x\uparrow c}\E[D_i\mid X_i=x]
+}
+\]
+
+\begin{itemize}
+    \item Sharp RD: cutoff fully determines treatment.
+    \item Fuzzy RD: cutoff shifts treatment probability; estimate is local to threshold compliers.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{What RD identifies}
+\begin{itemize}
+    \item Identifies a local effect at the cutoff under continuity and no precise manipulation.
+    \item Does not identify effects far from the cutoff without a portability argument.
+    \item Does not identify mechanisms if crossing the threshold changes several channels.
+    \item Does not survive sorting, heaping, or manipulation that changes composition at the cutoff.
+    \item Strong applied interpretation names the threshold, local population, treatment margin, and unsupported claims.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Local polynomial estimation, bandwidths, and weights}
+\small
+Let $R_i=X_i-c$. A local linear RD solves a weighted least-squares problem:
+\[
+\min_{\alpha_-,\alpha_+,\beta_-,\beta_+}
+\sum_i K\!\left(\frac{R_i}{h}\right)\1\{|R_i|\le h\}
+\left[
+Y_i-\alpha_- -\beta_-R_i
+-\1\{R_i\ge0\}\left(\alpha_+-\alpha_-+(\beta_+-\beta_-)R_i\right)
+\right]^2
+\]
+
+\[
+\widehat{\tau}_{RD}=\widehat{\alpha}_+-\widehat{\alpha}_-
+\]
+
+\begin{itemize}
+    \item Bandwidth $h$: larger means more precision and more bias risk.
+    \item Triangular kernel: $K(u)=(1-|u|)\1\{|u|\le1\}$, emphasizing observations nearest the cutoff.
+    \item Report bandwidth, kernel, polynomial order, and effective observations on each side.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{\texttt{rdrobust} and \texttt{rdhonest}}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{0.48\linewidth}
+\textbf{\texttt{rdrobust} logic}
+\begin{itemize}
+    \item Estimate local-polynomial RD.
+    \item Estimate leading bias with a higher-order fit.
+    \item Re-center the estimate and adjust standard errors.
+    \item Report conventional and robust bias-corrected inference.
+\end{itemize}
+\end{column}
+\begin{column}{0.48\linewidth}
+\textbf{\texttt{rdhonest} logic}
+\begin{itemize}
+    \item State a smoothness or curvature class.
+    \item Bound worst-case bias inside the bandwidth.
+    \item Build confidence intervals valid under that class.
+    \item Often wider, but assumptions are explicit.
+\end{itemize}
+\end{column}
+\end{columns}
+
+\medskip
+They address related but different inference questions.
+\end{frame}
+
+\begin{frame}{Covariates and polynomial pitfalls}
+\begin{itemize}
+    \item Predetermined covariates can improve precision; they do not create RD identification.
+    \item Covariates should be measured before treatment and be continuous at the cutoff.
+    \item If covariates change the estimate sharply, treat that as a diagnostic warning.
+    \item Avoid post-treatment controls, even if they improve fit.
+    \item High-order global polynomials are discouraged because far-away data can shape boundary behavior.
+    \item Prefer local linear or local quadratic fits with transparent bandwidth sensitivity.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Design diagnostics}
+\small
+\begin{tabular}{p{0.25\linewidth} p{0.58\linewidth}}
+\toprule
+Diagnostic & What it asks \\
+\midrule
+Institutional rule & Is the threshold real, binding, and measured correctly? \\
+Running-variable density & Is there sorting, heaping, or strategic timing near the cutoff? \\
+Covariate continuity & Are predetermined characteristics smooth through the threshold? \\
+Bandwidth sensitivity & Does the interpretation depend on one narrow window? \\
+Placebo cutoffs & Are similar jumps appearing where no rule changes? \\
+Inference level & Are mass points, clusters, time dependence, or spatial dependence handled? \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Time RD vs event study}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{0.48\linewidth}
+\textbf{Time RD}
+\begin{itemize}
+    \item Running variable is calendar time.
+    \item Cutoff is the treatment date.
+    \item Identification is local continuity around the date.
+    \item Best with sharp, unanticipated, isolated policy timing.
+\end{itemize}
+\end{column}
+\begin{column}{0.48\linewidth}
+\textbf{Event study / DID}
+\begin{itemize}
+    \item Uses comparison paths over time.
+    \item Identification is untreated trend credibility.
+    \item Best when untreated units or donor paths are strong.
+    \item Handles broader dynamics when comparison paths are valid.
+\end{itemize}
+\end{column}
+\end{columns}
+
+\medskip
+Time RD must confront seasonality, serial correlation, anticipation, and concurrent shocks.
+\end{frame}
+
+\begin{frame}{Spatial RD}
+\[
+\tau_{border}
+=
+\lim_{d\downarrow 0}\E[Y_i\mid \text{signed distance}_i=d]
+-
+\lim_{d\uparrow 0}\E[Y_i\mid \text{signed distance}_i=d]
+\]
+
+\begin{itemize}
+    \item One-dimensional version: signed distance to a border.
+    \item Multidimensional version: local comparison around a boundary curve or segments.
+    \item Credibility requires local geographic continuity and limited sorting.
+    \item Implementation often needs boundary-segment fixed effects, local windows, and spatial dependence corrections.
+    \item The estimate is local to the border, not automatically a regional or national ATE.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{RKD and bunching}
+\small
+\[
+\tau_{RKD}
+=
+\frac{
+\lim_{x\downarrow c}\frac{d}{dx}\E[Y_i\mid X_i=x]
+-
+\lim_{x\uparrow c}\frac{d}{dx}\E[Y_i\mid X_i=x]
+}{
+\lim_{x\downarrow c}\frac{d}{dx}\E[B_i\mid X_i=x]
+-
+\lim_{x\uparrow c}\frac{d}{dx}\E[B_i\mid X_i=x]
+}
+\]
+
+\[
+\widehat B=\sum_{z\in \mathcal B}\left[f(z)-\widehat f_0(z)\right],
+\qquad
+\widehat b=\frac{\widehat B}{\widehat f_0(z^*)}
+\]
+
+\begin{itemize}
+    \item RKD uses a slope change in incentives or treatment intensity.
+    \item Bunching uses excess mass near a kink or notch plus an optimization model.
+    \item Kinks change marginal incentives; notches create a level discontinuity and often a dominated region.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Choosing among local designs}
+\small
+\begin{tabular}{p{0.22\linewidth} p{0.31\linewidth} p{0.32\linewidth}}
+\toprule
+Use when & Preferred design & Key caveat \\
+\midrule
+Treatment jumps at cutoff & sharp RD & local external validity \\
+Eligibility shifts take-up & fuzzy RD & first-stage content \\
+Marginal incentive slope changes & RKD & derivative estimation and smoothness \\
+Choices pile up at a kink/notch & bunching & behavioral model and counterfactual density \\
+Policy begins on exact date & time RD & seasonality, anticipation, serial correlation \\
+Institution changes at border & spatial RD & border confounds and sorting \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Block 1 causal-inference summary}
+\small
+\begin{tabular}{p{0.23\linewidth} p{0.38\linewidth} p{0.25\linewidth}}
+\toprule
+Method & Counterfactual logic & Main vulnerability \\
+\midrule
+Selection on observables & conditionally similar units & unobserved selection, hidden spillovers \\
+Experiments & random assignment & noncompliance, attrition, interference \\
+DID / event study / SCM & untreated paths or donor pools & trend failures, anticipation, spillovers \\
+IV / 2SLS & instrument-induced treatment variation & exclusion, weak first stage, local compliers \\
+RD / RKD / bunching & local threshold or density comparison & sorting, locality, implementation sensitivity \\
+\bottomrule
+\end{tabular}
+
+\medskip
+Any credibility ranking is heuristic and context-dependent. Design fit beats method labels.
+\end{frame}
+
+\begin{frame}{Research Lab design}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{0.32\linewidth}
+\textbf{Reproduce}
+\begin{itemize}
+    \item Close-election synthetic RD
+    \item Local linear estimate
+    \item Triangular weights
+    \item RD plot
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Diagnose}
+\begin{itemize}
+    \item Bandwidth sensitivity
+    \item Covariate continuity
+    \item Density checks
+    \item RBC-style and honest intervals
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Transfer}
+\begin{itemize}
+    \item Tax-kink bunching
+    \item Counterfactual density
+    \item Excess mass
+    \item Elasticity memo
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item RD-style designs are powerful because the comparison is local and institutional.
+    \item Locality must be interpreted, not hidden.
+    \item Bandwidths, weights, covariates, polynomial order, and inference define the effective comparison.
+    \item Time and spatial RD need extra diagnostics because dates and borders carry their own confounds.
+    \item Bunching is a density design plus a behavioral model.
+    \item The best threshold papers make clear what the design identifies and what remains outside the threshold.
+\end{itemize}
+\end{frame}
+
+\end{document}

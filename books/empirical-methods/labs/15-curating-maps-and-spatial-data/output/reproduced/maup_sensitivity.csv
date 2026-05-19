@@ -1,0 +1,4 @@
+diagnostic,value,interpretation
+correlation_between_cz_and_county_exposure,0.958536,Lower values mean geography choice changes the exposure ranking.
+mean_absolute_county_minus_cz,0.007707,Average tract-level exposure shift from changing geography.
+p90_absolute_county_minus_cz,0.017068,Large upper-tail values flag sensitive places.

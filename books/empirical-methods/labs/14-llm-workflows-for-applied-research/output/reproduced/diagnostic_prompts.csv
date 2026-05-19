@@ -1,0 +1,5 @@
+stage,prompt
+reproduce,"What economic object does the mismatch schema measure: skill gap, credential gap, schedule fit, or general employability?"
+diagnose,"Which cases change labels across conservative, rubric, and expansive prompts?"
+diagnose,Which unsupported or false-positive outputs should be routed to human review?
+downstream,How much does the downstream slope change when the benchmark variable is replaced by the LLM-coded variable?

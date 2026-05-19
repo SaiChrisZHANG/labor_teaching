@@ -1,0 +1,8 @@
+{
+  "task": "Week 15 commuting-zone exposure teaching reproduction",
+  "tract_rows": 60,
+  "cz_count": 5,
+  "county_count": 10,
+  "sector_count": 6,
+  "not_official_replication": true
+}

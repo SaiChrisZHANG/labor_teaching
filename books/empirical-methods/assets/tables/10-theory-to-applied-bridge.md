@@ -1,0 +1,9 @@
+## Theory to applied bridge
+
+| Method | Economic problem it helps solve | Signature papers | Typical implementation choices | Interpretation caveat |
+| --- | --- | --- | --- | --- |
+| Post-double selection | Many observables are plausible confounders, but hand-picked controls are unreliable | [@belloniInferenceTreatmentEffects2014] | Lasso in treatment and outcome equations; union of selected controls; classical regression on selected set | Selection discipline helps only if observables are the right confounders |
+| Double/debiased ML | Rich nuisance objects make naive plug-in estimation invalid | [@chernozhukovDoubleDebiasedMachine2018] | Choose target parameter; define orthogonal score; cross-fit nuisance learners; residual-on-residual or score-based estimation | DML protects against nuisance-estimation error, not against bad design |
+| Causal forests | Treatment effects may vary in ways that matter for targeting or mechanism | [@wagerEstimationInferenceHeterogeneous2018; @davisUsingCausalForests2017] | Honest forests; tuning on training folds; report subgroup support and uncertainty | Variable importance is not a causal mechanism |
+| Generalized random forests | Nuisance-rich generalized moment problems or heterogeneous local parameters | [@atheyGeneralizedRandomForests2019] | Choose moment condition carefully; set forest parameters; compare to simpler heterogeneity estimators | Flexibility can hide the fact that the target itself is poorly motivated |
+| DML in applied labor/platform work | Estimate a causal labor parameter when controls or nuisance objects are high-dimensional | [@dubeMonopsonyOnlineLabor2020] | Rich scraped/admin controls; cross-fitting; robustness across nuisance learners | Results can look “modern” while still depending on the same old identifying assumptions |

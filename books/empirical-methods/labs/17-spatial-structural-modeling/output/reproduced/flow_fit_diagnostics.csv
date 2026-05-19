@@ -1,0 +1,7 @@
+diagnostic,value,interpretation
+log_flow_rmse,0.311811,Targeted gravity fit in log commuting flows.
+flow_correlation,0.890189,Correlation between observed synthetic and fitted bilateral flows.
+actual_cross_commute_share,0.727796,Share of commuters working outside their residence location.
+fitted_cross_commute_share,0.576728,Gravity-implied outside-residence commuting share.
+actual_long_commute_share,0.074135,Untargeted check on the upper-distance tail.
+fitted_long_commute_share,0.086739,Gravity-implied upper-distance tail.

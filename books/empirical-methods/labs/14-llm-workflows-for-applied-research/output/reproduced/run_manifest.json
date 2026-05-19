@@ -1,0 +1,14 @@
+{
+  "lab": "14-llm-workflows-for-applied-research",
+  "input": "original/reduced/labor_mismatch_documents_synthetic.csv",
+  "schema_version": "mismatch-schema-v1",
+  "model_version": "deterministic-teaching-surrogate-2026-05",
+  "retrieval_corpus": "rubric-and-edge-cases-v1",
+  "profiles": [
+    "conservative_v1",
+    "rubric_v1",
+    "expansive_v1"
+  ],
+  "live_api_used": false,
+  "note": "Deterministic teaching surrogate; not an official replication."
+}

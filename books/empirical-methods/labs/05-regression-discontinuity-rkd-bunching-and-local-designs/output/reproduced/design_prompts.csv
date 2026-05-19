@@ -1,0 +1,7 @@
+prompt,student_note
+What is the running variable and why is the cutoff meaningful?,Use vote_margin and the zero winning threshold.
+How does the estimate change across bandwidths and kernels?,Use bandwidth_kernel_sensitivity.csv.
+Are predetermined covariates continuous at the threshold?,Use covariate_continuity.csv.
+What does the density check say about sorting near zero?,Use density_check.csv and density_bins_near_cutoff.csv.
+Why is the global fourth-order polynomial not the preferred design?,Use global_polynomial_pitfall.csv and explain boundary leverage.
+How would production rdrobust or rdhonest output differ from this teaching analogue?,"Name bias correction, variance adjustment, and explicit smoothness assumptions."

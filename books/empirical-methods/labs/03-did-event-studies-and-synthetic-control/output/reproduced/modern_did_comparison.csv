@@ -1,0 +1,5 @@
+estimate,value,clustered_se,interpretation
+2x2 DID teaching reference,2.5298904230317305,,classical two-state ATT under parallel trends
+naive staggered TWFE,1.2889672018872245,0.11232105507666838,weighted mixture of staggered comparisons; can include already-treated controls
+group-time ATT aggregate,1.9100716469273187,,average of cohort-time effects using not-yet-treated controls
+imputation-style ATT aggregate,1.7763528298873894,,average treated gap relative to untreated-outcome predictions

@@ -1,0 +1,7 @@
+estimand,method,estimate,interpretation
+individual ITT,employment difference by individual assignment,0.15420720676673344,direct effect of assistance assignment in the experimental markets
+first stage,take-up difference by individual assignment,0.306727619420134,how much assignment shifted assistance receipt
+Wald/LATE-style ratio,ITT employment divided by first stage,0.502749661273611,complier effect under additional assumptions
+naive receipt contrast,employment difference by receipt,0.1888038604016377,not randomized after assignment
+saturation association,OLS with market saturation and controls,-0.16408845911978548,market saturation contrast; useful for scale and spillover discussion
+untreated exposure gap,untreated workers in high- vs low-saturation markets,0.0066481137909709664,diagnostic for displacement or spillover exposure among controls

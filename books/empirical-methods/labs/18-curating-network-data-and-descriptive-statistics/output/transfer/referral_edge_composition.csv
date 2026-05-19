@@ -1,0 +1,5 @@
+referrer_group,applicant_group,edge_count,mean_tie_strength,hire_rate
+A,A,44,0.564489,0.568182
+A,B,35,0.50984,0.514286
+B,A,8,0.577262,0.625
+B,B,13,0.714485,0.615385

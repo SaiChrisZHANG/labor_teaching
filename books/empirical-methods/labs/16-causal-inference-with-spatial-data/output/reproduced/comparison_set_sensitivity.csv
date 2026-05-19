@@ -1,0 +1,5 @@
+sample,border_pairs,paired_treated_minus_control_growth,main_design_risk
+all_pairs,18,-0.015438,comparison changes when fragile or contaminated pairs are removed
+drop_large_balance_gaps,8,-0.012064,comparison changes when fragile or contaminated pairs are removed
+drop_high_control_exposure_pairs,0,,comparison changes when fragile or contaminated pairs are removed
+drop_both_flags,0,,comparison changes when fragile or contaminated pairs are removed

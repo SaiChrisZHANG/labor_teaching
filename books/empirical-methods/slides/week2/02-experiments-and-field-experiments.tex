@@ -1,0 +1,198 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs, graphicx}
+
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Prb}{\mathbb{P}}
+
+\title{Experiments and Field Experiments}
+\subtitle{Empirical Methods --- Week 2}
+\author{Teaching deck draft}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Week 2 question}
+\begin{itemize}
+    \item What does randomization identify?
+    \item What remains hard after random assignment?
+    \item How do compliance, spillovers, implementation, scale, and equilibrium change interpretation?
+\end{itemize}
+
+\medskip
+Experiments are a design for building a counterfactual, not a ritual that ends the research argument.
+\end{frame}
+
+\begin{frame}{What randomization identifies}
+\[
+Z_i \perp \{Y_i(1),Y_i(0),X_i\}
+\]
+
+\[
+\widehat{\tau}_{ATE}
+=
+\frac{1}{N_1}\sum_{i:Z_i=1}Y_i
+-
+\frac{1}{N_0}\sum_{i:Z_i=0}Y_i
+\]
+
+\begin{itemize}
+    \item Assignment makes treated and control groups comparable in expectation.
+    \item With full compliance and no interference, the mean contrast identifies the experimental ATE.
+    \item Covariates can improve precision; randomization is the source of identification.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Assignment is not receipt}
+\begin{itemize}
+    \item $Z_i$: randomized offer, encouragement, eligibility, information, or price.
+    \item $D_i$: realized take-up or treatment receipt.
+    \item If $D_i \neq Z_i$, the clean design object is the effect of assignment.
+\end{itemize}
+
+\medskip
+Field experiments often randomize what researchers or policymakers can actually control: invitations, access, timing, caseworker scripts, prices, signals, or platform rules.
+\end{frame}
+
+\begin{frame}{ITT, take-up, and LATE}
+\[
+ITT_Y = \E[Y_i\mid Z_i=1] - \E[Y_i\mid Z_i=0]
+\]
+
+\[
+ITT_D = \E[D_i\mid Z_i=1] - \E[D_i\mid Z_i=0]
+\]
+
+\[
+\tau_{LATE}=\frac{ITT_Y}{ITT_D}
+\]
+
+\begin{itemize}
+    \item ITT is often the policy object when the policy is an offer.
+    \item The first stage measures how much assignment moves receipt.
+    \item Wald/LATE is a complier effect under relevance, exclusion, and monotonicity.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Duflo--Saez as design anchor}
+\begin{itemize}
+    \item Randomized encouragement to attend a retirement-plan benefits fair.
+    \item Outcomes: attendance and retirement-plan participation.
+    \item Design lessons:
+    \begin{itemize}
+        \item assignment differs from attendance;
+        \item peer exposure can be part of the mechanism;
+        \item ITT, first stage, and spillovers answer different questions.
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Audit and correspondence experiments}
+\begin{itemize}
+    \item Randomize signals in real screening environments.
+    \item Bertrand--Mullainathan: randomize names on resumes and measure callbacks.
+    \item Strength: isolates employer response to a signal at initial screening.
+    \item Limit: does not identify all hiring, bargaining, productivity, or equilibrium effects.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Cluster randomization and spillovers}
+\[
+Y_i(\mathbf{Z}) = Y_i\left(Z_i, G_i(\mathbf{Z}_{-i})\right)
+\]
+
+\begin{itemize}
+    \item Cluster randomization matches treatments delivered through firms, schools, offices, villages, or markets.
+    \item Power depends heavily on the number of clusters and within-cluster correlation.
+    \item Spillovers can contaminate a simple contrast or become the mechanism of interest.
+    \item Saturation designs help separate direct effects from exposure effects.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Firm and platform field experiments}
+\small
+\begin{tabular}{p{0.25\linewidth} p{0.31\linewidth} p{0.32\linewidth}}
+\toprule
+Paper role & What is randomized & Design lesson \\
+\midrule
+Bloom et al. & Management consulting in firms & Implementation and organizational response matter. \\
+Pallais & Platform information / reputation & Digital markets can reveal information frictions. \\
+Crepon et al. & Labor-market policy exposure & Direct gains can coexist with displacement. \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{External validity, scale, equilibrium}
+\begin{itemize}
+    \item Experimental population: who entered the study?
+    \item Treatment intensity: is the pilot treatment the scalable policy?
+    \item Institution: would delivery work outside this partner or platform?
+    \item Market response: do prices, queues, vacancies, referrals, or competitors adjust?
+    \item Welfare: are untreated workers or firms affected by the rollout?
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Robustness is design evidence}
+\begin{itemize}
+    \item Baseline balance and assignment protocol.
+    \item Compliance, take-up, and first stage.
+    \item Attrition and outcome measurement by assignment arm.
+    \item Correct inference for individual, cluster, or market assignment.
+    \item Spillover and exposure diagnostics.
+    \item Power and minimum detectable effects for meaningful outcomes.
+    \item Ethics, implementation logs, and reproducible randomization code.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Research Lab design}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{0.32\linewidth}
+\textbf{Reproduce}
+\begin{itemize}
+    \item Synthetic Duflo--Saez-style encouragement data
+    \item ITT, first stage, Wald/LATE
+    \item Naive receipt contrast
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Diagnose}
+\begin{itemize}
+    \item Balance
+    \item Take-up
+    \item Attrition
+    \item Peer exposure
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Transfer}
+\begin{itemize}
+    \item Labor-market saturation design
+    \item Direct effects
+    \item Spillovers
+    \item Market-level interpretation
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item Randomization solves assignment, not implementation or interpretation.
+    \item ITT is the clean effect of assignment and often the policy-relevant object.
+    \item LATE is local to compliers when encouragement moves receipt.
+    \item Spillovers, clustered assignment, and equilibrium can change the estimand.
+    \item Next week: DID and event studies build counterfactuals from time paths rather than random assignment.
+\end{itemize}
+\end{frame}
+
+\end{document}

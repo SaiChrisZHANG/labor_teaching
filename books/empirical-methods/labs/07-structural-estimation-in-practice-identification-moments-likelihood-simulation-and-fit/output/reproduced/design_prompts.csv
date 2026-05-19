@@ -1,0 +1,6 @@
+prompt,guidance
+What identifies replacement cost?,Replacement choices by mileage state and transition consequences discipline the cost of replacement.
+What do targeted moments carry?,State-specific replacement probabilities carry most of the moment-based identifying power.
+What is untargeted?,Downtime and parts of next-state fit are diagnostics rather than direct estimation targets.
+What does the bootstrap respect?,The teaching bootstrap resamples units so within-unit histories stay together.
+What is the simulation caveat?,SMM estimates can move across seeds when simulated moments are noisy relative to empirical moments.

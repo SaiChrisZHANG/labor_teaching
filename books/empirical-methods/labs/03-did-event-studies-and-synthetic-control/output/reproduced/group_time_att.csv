@@ -1,0 +1,16 @@
+cohort,year,event_time,att_gt,treated_counties,control_counties,comparison
+2013,2013,0,1.875799217731398,13,59,not-yet-treated and never-treated
+2013,2014,1,2.35799999999999,13,59,not-yet-treated and never-treated
+2013,2015,2,2.5907874493926926,13,38,not-yet-treated and never-treated
+2013,2016,3,2.7094473684210314,13,38,not-yet-treated and never-treated
+2013,2017,4,2.672927125506071,13,19,not-yet-treated and never-treated
+2013,2018,5,3.2250566801619485,13,19,not-yet-treated and never-treated
+2013,2019,6,3.3702631578947333,13,19,not-yet-treated and never-treated
+2015,2015,0,1.3316716791979886,21,38,not-yet-treated and never-treated
+2015,2016,1,1.343408521303246,21,38,not-yet-treated and never-treated
+2015,2017,2,1.225817042606515,21,19,not-yet-treated and never-treated
+2015,2018,3,2.063679197994979,21,19,not-yet-treated and never-treated
+2015,2019,4,2.6459699248120288,21,19,not-yet-treated and never-treated
+2017,2017,0,0.690842105263151,19,19,not-yet-treated and never-treated
+2017,2018,1,1.1321578947368351,19,19,not-yet-treated and never-treated
+2017,2019,2,1.229473684210518,19,19,not-yet-treated and never-treated

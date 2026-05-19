@@ -1,0 +1,3 @@
+graph_frame,edge_count,mean_degree,isolate_share,outside_worker_count,interpretation
+all_observed_employers,89,1.236111,0.222222,18,boundary choice changes whether outside employers can create local ties
+inside_frame_only,84,1.166667,0.291667,18,boundary choice changes whether outside employers can create local ties

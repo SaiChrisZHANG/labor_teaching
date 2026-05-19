@@ -1,0 +1,5 @@
+specification,n,intercept,slope,mean_outcome,mean_exposure,rmse
+tract_rows_with_cz_exposure,60.0,0.084522,-0.913158,0.002929,0.086578,0.026966
+tract_rows_with_county_exposure,60.0,0.084021,-0.907311,0.002929,0.086311,0.028055
+cz_aggregated_rows,5.0,0.082126,-0.904663,0.003803,0.086578,0.009593
+county_aggregated_rows,10.0,0.084714,-0.92903,0.005979,0.084749,0.011363

@@ -1,0 +1,3 @@
+level,clusters,treated_clusters,design_note
+state,2,1,policy varies at this level; conventional cluster inference is fragile with two clusters
+restaurant,166,92,many restaurants do not create many independent policy shocks

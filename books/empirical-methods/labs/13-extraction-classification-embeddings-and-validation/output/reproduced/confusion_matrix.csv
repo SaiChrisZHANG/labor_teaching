@@ -1,0 +1,17 @@
+method,actual,predicted,count
+dictionary,0,0,40
+dictionary,0,1,4
+dictionary,1,0,17
+dictionary,1,1,23
+embedding_similarity,0,0,25
+embedding_similarity,0,1,19
+embedding_similarity,1,0,5
+embedding_similarity,1,1,35
+supervised_baseline,0,0,37
+supervised_baseline,0,1,7
+supervised_baseline,1,0,6
+supervised_baseline,1,1,34
+constructed_validation_score,0,0,38
+constructed_validation_score,0,1,6
+constructed_validation_score,1,0,9
+constructed_validation_score,1,1,31

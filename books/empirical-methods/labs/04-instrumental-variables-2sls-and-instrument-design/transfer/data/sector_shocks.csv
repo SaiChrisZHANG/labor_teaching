@@ -1,0 +1,7 @@
+sector,shock,shock_note
+manufacturing,0.085,tradable-sector demand shock
+health,0.032,health demand growth
+logistics,0.064,transport automation shock
+education,0.018,public-sector enrollment shock
+energy,-0.041,energy price reversal
+services,0.027,local-services demand shock

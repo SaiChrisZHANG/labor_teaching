@@ -1,0 +1,2 @@
+method,theta,se,ridge_penalty,target
+cross_fitted_dml_ridge,-0.08516872287999706,0.022113210949510825,1.0,effect of high client concentration on log hourly wage

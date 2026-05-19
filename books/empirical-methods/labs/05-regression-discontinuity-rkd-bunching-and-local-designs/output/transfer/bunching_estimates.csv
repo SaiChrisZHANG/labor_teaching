@@ -1,0 +1,2 @@
+bin_width,counterfactual_degree,excluded_left,excluded_right,bunch_left,bunch_right,excess_mass,missing_mass_above_kink,counterfactual_height_at_kink,normalized_bunching_bins,normalized_bunching_dollars,delta_log_net_of_tax,stylized_elasticity,interpretation
+500.0,4.0,1500.0,4500.0,1500.0,1000.0,3487.22906698009,1880.1298630385197,549.2188252283089,6.349434700331798,3174.717350165899,0.14310084364067333,0.4437035127672097,Excess mass mapped to elasticity using a simple kink model; not model-free.

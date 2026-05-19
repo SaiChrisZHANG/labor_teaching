@@ -1,0 +1,7 @@
+sector,trade_shock,shock_note
+manufacturing,0.22,import-exposed durable manufacturing
+apparel,0.185,import-exposed light manufacturing
+logistics,0.04,transport and warehousing
+health,-0.015,local nontraded health services
+business,0.018,business services
+retail,0.026,local retail services

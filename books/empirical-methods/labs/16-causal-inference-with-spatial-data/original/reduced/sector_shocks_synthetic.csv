@@ -1,0 +1,7 @@
+sector,shock,feedback_penalty
+manufacturing,0.19,0.03
+logistics,0.072,0.012
+health,-0.02,0.006
+retail,0.038,0.009
+construction,0.094,0.016
+business,0.018,0.01

@@ -1,0 +1,5 @@
+step,prompt
+transfer,Does the source vocabulary cover the transfer records well enough to reuse the text model?
+transfer,"Which modality improves predictive diagnostics, and what new validation burden does it create?"
+diagnose,"Would you use the multimodal index as a descriptive measure, a treatment variable, or only an exploratory proxy?"
+diagnose,"What human-labeled audit sample would be required before using image, audio, or video features in a paper?"

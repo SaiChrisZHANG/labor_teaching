@@ -1,0 +1,4 @@
+object,primary_geography,estimand_claim,main_caveat
+commuting-zone exposure,cz_id,local labor-market exposure using baseline industry mix,requires commuting zones to proxy functional labor markets
+county exposure,county_id,administrative county exposure using the same industry shocks,counties may split or combine functional labor markets
+tract assignment,tract_id with inherited market exposure,tract outcomes exposed through their assigned local labor market,tract precision can exceed the precision of the market-level shock

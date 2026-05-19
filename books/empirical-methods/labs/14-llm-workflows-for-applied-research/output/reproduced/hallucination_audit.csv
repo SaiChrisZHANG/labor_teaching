@@ -1,0 +1,2 @@
+doc_id,sector,occupation_group,benchmark_mismatch,benchmark_type,mismatch_label,mismatch_type,mismatch_score,unsupported_flag,evidence_phrases,source_text
+91,manufacturing,care,0,none,1,credential_gap,0.4382,0,credential missing; degree requirement unmet; ready for placement,"resume screen. Job: care coordinator in manufacturing. Record note: degree requirement unmet, credential missing, ready for placement. Applicant history includes prior sector experience. Manager asks whether the match is ready for placement."

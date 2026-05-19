@@ -1,0 +1,6 @@
+specification,term,estimate,std_error,t_stat,n,parameters,cutoff_miles
+cutoff_0_miles,treated_policy_side,-0.016848,0.004352,-3.87128,36.0,22.0,0.0
+cutoff_25_miles,treated_policy_side,-0.016848,0.003702,-4.551105,36.0,22.0,25.0
+cutoff_50_miles,treated_policy_side,-0.016848,0.003691,-4.565078,36.0,22.0,50.0
+cutoff_75_miles,treated_policy_side,-0.016848,0.003136,-5.371804,36.0,22.0,75.0
+cutoff_100_miles,treated_policy_side,-0.016848,0.00266,-6.333895,36.0,22.0,100.0

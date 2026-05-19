@@ -1,0 +1,6 @@
+prompt_type,prompt
+directed_link,"What does the directed edge from referrer to applicant capture, and what informal contacts remain unobserved?"
+degree,Why do out-degree for referrers and in-degree for applicants answer different economic questions?
+inequality,Which applicant group receives more referral access in the synthetic data?
+selection,Why does referral success not identify the causal effect of being referred?
+bridge_to_lecture19,What design would be needed to move from referral descriptions to causal referral effects?

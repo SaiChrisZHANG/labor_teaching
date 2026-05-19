@@ -1,0 +1,2 @@
+object,edge_count,same_group_edge_share,worker_count,edge_density,interpretation
+projected worker-worker same-employer edges within residential block,89,0.494382,144,0.008644,descriptive homophily; does not separate sorting from influence

@@ -1,0 +1,222 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs, graphicx}
+
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Prb}{\mathbb{P}}
+
+\title{Potential Outcomes, Identification Logic, and Selection-On-Observables}
+\subtitle{Empirical Methods --- Week 1}
+\author{Teaching deck draft}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Week 1 question}
+\begin{itemize}
+    \item What does it mean to identify a causal effect?
+    \item What is observed, what is missing, and what assumption links them?
+    \item When can rich observables support a credible comparison?
+\end{itemize}
+
+\medskip
+The lecture uses LaLonde, Dehejia--Wahba, Rosenbaum--Rubin, and sensitivity-style work as the paper spine.
+\end{frame}
+
+\begin{frame}{Potential outcomes}
+\[
+Y_i = D_iY_i(1) + (1-D_i)Y_i(0)
+\]
+
+\[
+\tau_i = Y_i(1)-Y_i(0)
+\]
+
+\begin{itemize}
+    \item Treated units reveal $Y_i(1)$ and hide $Y_i(0)$.
+    \item Untreated units reveal $Y_i(0)$ and hide $Y_i(1)$.
+    \item Identification is an argument for replacing the missing potential outcome with a credible comparison.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Target parameters}
+\[
+ATE = \E[Y(1)-Y(0)]
+\]
+\[
+ATT = \E[Y(1)-Y(0)\mid D=1]
+\]
+\[
+ATC = \E[Y(1)-Y(0)\mid D=0]
+\]
+
+\begin{itemize}
+    \item ATE: average effect for the population represented by the sample.
+    \item ATT: effect for units who actually received treatment.
+    \item ATC: effect for units who are currently untreated.
+    \item Support restrictions and weights can quietly change the parameter.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Selection bias decomposition}
+\[
+\E[Y\mid D=1] - \E[Y\mid D=0]
+=
+\underbrace{\E[Y(1)-Y(0)\mid D=1]}_{ATT}
++
+\underbrace{\E[Y(0)\mid D=1]-\E[Y(0)\mid D=0]}_{\text{selection bias}}
+\]
+
+\begin{itemize}
+    \item The raw comparison is causal only if untreated potential outcomes are comparable.
+    \item LaLonde shows how badly this can fail with the wrong nonexperimental comparison group.
+    \item The comparison group is the design.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Conditional independence and overlap}
+\[
+\{Y_i(1),Y_i(0)\} \perp D_i \mid X_i
+\]
+
+\[
+0 < \Prb(D_i=1\mid X_i=x) < 1
+\quad \text{for relevant } x
+\]
+
+\begin{itemize}
+    \item Conditional independence: observables capture the assignment channels that matter for potential outcomes.
+    \item Overlap: treated and untreated units coexist in the relevant covariate region.
+    \item The propensity score balances observables under the identifying assumption; it does not create the assumption.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Selection-on-observables is strongest when}
+\begin{itemize}
+    \item treatment assignment is institutionally understood;
+    \item pre-treatment outcomes and histories are observed;
+    \item covariates are measured before treatment;
+    \item untreated comparisons come from the same economic environment;
+    \item common support is strong;
+    \item the main selection margins are observed rather than private or latent.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Regression, matching, weighting}
+\small
+\begin{tabular}{p{0.25\linewidth} p{0.34\linewidth} p{0.30\linewidth}}
+\toprule
+Approach & Design idea & Main risk \\
+\midrule
+Regression adjustment & Model $\E[Y\mid D,X]$ and compare adjusted outcomes & Functional-form extrapolation \\
+Matching & Compare treated units to similar untreated units & Bad matches or support loss \\
+Weighting & Reweight by $e(X)=\Pr(D=1\mid X)$ & Extreme weights when overlap is weak \\
+\bottomrule
+\end{tabular}
+
+\medskip
+All three operationalize the same identifying claim: conditional comparability on observed pre-treatment information.
+\end{frame}
+
+\begin{frame}{IPW and doubly robust logic}
+\[
+ATE =
+\E\left[
+\frac{DY}{e(X)} -
+\frac{(1-D)Y}{1-e(X)}
+\right]
+\]
+
+\[
+\E\left[
+\hat m_1(X)-\hat m_0(X)
++
+\frac{D(Y-\hat m_1(X))}{\hat e(X)}
+-
+\frac{(1-D)(Y-\hat m_0(X))}{1-\hat e(X)}
+\right]
+\]
+
+\begin{itemize}
+    \item Weighting uses the treatment model to reconstruct a target population.
+    \item Doubly robust estimators combine treatment and outcome models.
+    \item Neither relaxes the need for a credible observables-based assignment story.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Papers as design lessons}
+\small
+\begin{tabular}{p{0.28\linewidth} p{0.58\linewidth}}
+\toprule
+Paper role & Design lesson \\
+\midrule
+LaLonde & Wrong comparison groups can miss the experimental benchmark badly. \\
+Dehejia--Wahba & Matching can be credible when covariates, sample, and support are chosen deliberately. \\
+Rosenbaum--Rubin & Propensity scores are balancing scores under conditional independence. \\
+Altonji--Elder--Taber / Oster & Sensitivity work asks how strong omitted selection would need to be. \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Diagnostics and robustness}
+\begin{itemize}
+    \item Balance: standardized differences before and after adjustment.
+    \item Overlap: propensity-score support, trimming, and tails.
+    \item Matching quality: exact variables, calipers, and substantively plausible pairs.
+    \item Weighting stability: large weights and influential observations.
+    \item Specification discipline: pre-treatment covariates and transparent model families.
+    \item Sensitivity: omitted-variable robustness, placebo outcomes, negative controls.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Research Lab design}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{0.32\linewidth}
+\textbf{Reproduce}
+\begin{itemize}
+    \item Synthetic LaLonde-style training data
+    \item Naive, regression, matching, IPW, doubly robust estimates
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Diagnose}
+\begin{itemize}
+    \item Balance
+    \item Overlap
+    \item Weight stability
+    \item Estimand drift
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Transfer}
+\begin{itemize}
+    \item Workplace training take-up
+    \item Target parameter
+    \item Selection story
+    \item Omitted-variable threat
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item Potential outcomes force the missing counterfactual into view.
+    \item Selection bias is an economic assignment problem, not a regression nuisance.
+    \item Selection-on-observables is credible only when observables capture the relevant selection story and support is real.
+    \item Diagnostics and sensitivity analysis are part of the design, not an appendix ritual.
+    \item Next week: experiments change the assignment mechanism, but not the need for estimand discipline.
+\end{itemize}
+\end{frame}
+
+\end{document}

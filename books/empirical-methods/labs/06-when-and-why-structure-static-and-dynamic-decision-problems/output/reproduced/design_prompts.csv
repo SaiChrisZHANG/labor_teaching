@@ -1,0 +1,5 @@
+prompt,guidance
+What is latent?,"Replacement costs, maintenance costs, shocks, and continuation values are not directly observed."
+What disciplines the model?,Replacement choices by mileage state and observed transitions across states discipline the dynamic mapping.
+What does static fit miss?,A static hazard can match choice frequencies but cannot recompute behavior when replacement costs alter future states.
+What is the counterfactual caveat?,"The replacement-cost exercise holds transition rules, discounting, and shock distributions fixed."

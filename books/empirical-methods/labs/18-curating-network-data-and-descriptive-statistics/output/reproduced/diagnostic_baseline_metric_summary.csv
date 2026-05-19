@@ -1,0 +1,4 @@
+group,worker_count,mean_degree,mean_strength,mean_local_employer_exposure,mean_weighted_local_exposure,isolate_share,mean_component_size,mean_same_group_edge_share
+all_workers,144,1.236111,1.791094,0.247222,0.358219,0.222222,2.236111,0.502976
+A,75,1.24,1.931888,0.248,0.386378,0.266667,2.24,0.493939
+B,69,1.231884,1.638058,0.246377,0.327612,0.173913,2.231884,0.511696

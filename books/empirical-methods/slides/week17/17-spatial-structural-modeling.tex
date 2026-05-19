@@ -1,0 +1,258 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs}
+
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\1}{\mathbf{1}}
+\newcommand{\Prb}{\mathbb{P}}
+
+\title{Spatial Structural Modeling}
+\subtitle{Empirical Methods --- Week 17}
+\author{Teaching deck draft}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Week 17 question}
+\begin{itemize}
+    \item When do spatial research questions require equilibrium structure?
+    \item Lecture 15 built spatial objects: places, distances, exposures, and access.
+    \item Lecture 16 asked what identifies causal effects when space creates spillovers, sorting, or correlated shocks.
+    \item Lecture 17 asks when workers, firms, rents, amenities, commuting, migration, and welfare must be modeled jointly.
+\end{itemize}
+
+\medskip
+Structure is useful when the policy object is an equilibrium outcome, not just a local treatment effect.
+\end{frame}
+
+\begin{frame}{When reduced form is not enough}
+\small
+\begin{tabular}{p{0.29\linewidth} p{0.30\linewidth} p{0.30\linewidth}}
+\toprule
+Reduced-form fact & Missing equilibrium object & Why it matters \\
+\midrule
+Local wages rise & rents, amenities, commuting costs & nominal wages are not welfare \\
+Employment changes in treated place & migration and commuting flows & local shocks do not stay local \\
+Housing reform affects prices & housing supply and sorting & gains may accrue to workers or landlords \\
+Transit lowers travel time & job access and firm response & residence and workplace incidence differ \\
+Place subsidy raises jobs & firm location and spillovers & nearby places may lose or gain \\
+\bottomrule
+\end{tabular}
+
+\medskip
+\[
+\text{Need structure when } \mathcal{E}(d)
+=
+\{w,r,F,L,H,U\}(d)
+\text{ is the object.}
+\]
+\end{frame}
+
+\begin{frame}{Core equilibrium map}
+\small
+\[
+V_{ioj}
+=
+w_j-r_i-c_{ij}^{commute}-m_{oi}+a_i+\varepsilon_{ioj}
+\]
+
+\[
+P_{ioj}
+=
+\frac{\exp(\bar V_{ioj}/\sigma)}
+{\sum_{i'}\sum_{j'}\exp(\bar V_{oi'j'}/\sigma)}
+\]
+
+\[
+\mathcal{E}(\theta;d)
+=
+\left\{
+P_{ioj},\pi_{ij}^{commute},w_j,r_i,L_j,H_i,U_o
+\right\}_{o,i,j}
+\]
+
+\begin{itemize}
+    \item Workers choose locations and commutes given wages, rents, amenities, and frictions.
+    \item Firms demand labor where productivity and market access are high.
+    \item Housing supply and congestion determine rent incidence.
+    \item Equilibrium closes through prices, quantities, and bilateral flows.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Core objects to keep separate}
+\small
+\begin{tabular}{p{0.24\linewidth} p{0.36\linewidth} p{0.28\linewidth}}
+\toprule
+Object & Typical evidence & Main risk \\
+\midrule
+Moving costs & migration flows, mover histories & confuse amenities with frictions \\
+Commuting costs & residence-workplace flows, travel time & treat distance as generalized cost \\
+Local productivity & wages, output, firm data & absorb amenities or sorting \\
+Amenities & residual utility, housing demand & residual becomes everything \\
+Rents and housing supply & prices, quantities, regulation, land & miss landlord incidence \\
+Labor demand and firm location & employment, establishments, shocks & hold firms fixed when policy moves them \\
+\bottomrule
+\end{tabular}
+
+\medskip
+The model is credible only if these objects are not silently bundled together.
+\end{frame}
+
+\begin{frame}{Static versus dynamic spatial structure}
+\small
+\begin{tabular}{p{0.30\linewidth} p{0.30\linewidth} p{0.30\linewidth}}
+\toprule
+Question & Static model & Dynamic model \\
+\midrule
+Main use & long-run incidence and comparative statics & transition paths and policy timing \\
+Adjustment & workers, firms, rents, flows clear after shock & migration, housing, tenure, and investment adjust over time \\
+Data pressure & cross-section, long differences, flows & panels, histories, timing, expectations \\
+Best when & long-run allocation is the object & adjustment costs are the object \\
+Main caveat & hides transition costs & heavier assumptions and computation \\
+\bottomrule
+\end{tabular}
+
+\medskip
+The static-dynamic choice should follow the estimand, not the desire for a larger model.
+\end{frame}
+
+\begin{frame}{Gravity-style building blocks}
+\small
+\[
+F_{ij}
+=
+\frac{O_iD_j\phi_{ij}^{-\kappa}}
+{\sum_{\ell}D_{\ell}\phi_{i\ell}^{-\kappa}}
+\qquad
+\log F_{ij}
+=
+\alpha_i+\delta_j-\kappa\log \phi_{ij}+e_{ij}
+\]
+
+\begin{itemize}
+    \item Gravity disciplines bilateral trade, commuting, migration, applications, or trips.
+    \item Observed flows help recover frictions and flow elasticities.
+    \item The same algebra can sit inside many spatial models.
+    \item Gravity is a building block, not the whole model, when the policy question is incidence or welfare.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Identification, calibration, and fit}
+\small
+\begin{tabular}{p{0.24\linewidth} p{0.35\linewidth} p{0.29\linewidth}}
+\toprule
+Model object & Empirical discipline & Diagnostic \\
+\midrule
+Commuting friction & bilateral residence-workplace flows & gravity residuals, untargeted flows \\
+Migration cost & mover flows and histories & response to shocks, origin persistence \\
+Productivity & wages, output, firm data & separate from amenities and composition \\
+Housing supply & rents, quantities, regulation & sensitivity to elasticity \\
+Amenities & residual utility or external measures & validate with non-targeted outcomes \\
+Counterfactual & policy shock and fixed point & distance from observed support \\
+\bottomrule
+\end{tabular}
+
+\medskip
+Report what is estimated, what is calibrated, what is inverted, and what is held fixed.
+\end{frame}
+
+\begin{frame}{Counterfactual interpretation}
+\small
+\[
+\Delta W
+=
+\sum_g \omega_g
+\left[
+U_g(\mathcal{E}(\theta;d_1))
+-
+U_g(\mathcal{E}(\theta;d_0))
+\right]
+\]
+
+\begin{itemize}
+    \item Welfare requires a utility object, not only wages or employment.
+    \item Incidence can differ for residents, in-commuters, movers, firms, landlords, and taxpayers.
+    \item Nearby policy changes are more credible than large reforms far outside support.
+    \item Sensitivity should target the margins that move the headline result: frictions, housing supply, amenities, and firm response.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Spatial methods block summary}
+\small
+\begin{tabular}{p{0.20\linewidth} p{0.33\linewidth} p{0.35\linewidth}}
+\toprule
+Lecture & Skill & Research payoff \\
+\midrule
+15 & curate spatial objects & places, distances, crosswalks, access, exposure \\
+16 & identify effects with space & spillovers, sorting, borders, shift-share, inference \\
+17 & model equilibrium propagation & wages, rents, flows, firms, housing, welfare \\
+\bottomrule
+\end{tabular}
+
+\medskip
+Where the literature is now:
+\begin{itemize}
+    \item richer bilateral flow data and quantitative spatial models;
+    \item more attention to equilibrium properties, multiplicity, and computation;
+    \item dynamic urban models with transition paths, housing frictions, and forward-looking households;
+    \item frontier questions on remote work, climate adaptation, monopsony in space, and heterogeneous workers.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Research Lab design}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{0.32\linewidth}
+\textbf{Reproduce}
+\begin{itemize}
+    \item synthetic locations
+    \item commuting gravity
+    \item commuting openness
+    \item local productivity shock
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Diagnose}
+\begin{itemize}
+    \item targeted vs untargeted fit
+    \item friction sensitivity
+    \item housing supply sensitivity
+    \item reduced-form stopping point
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Transfer}
+\begin{itemize}
+    \item dynamic adjustment path
+    \item migration friction
+    \item gradual housing response
+    \item static versus dynamic memo
+\end{itemize}
+\end{column}
+\end{columns}
+
+\medskip
+\small
+Primary anchor: Monte--Redding--Rossi-Hansberg. Dynamic extension: Greaney--Parkhomenko--Van Nieuwerburgh.
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item Spatial structural models are justified by the object, not by style.
+    \item The core object is an equilibrium mapping from shocks to prices, flows, quantities, and welfare.
+    \item Gravity-style blocks are valuable flow discipline inside that mapping.
+    \item Identification, calibration, fit, and counterfactual distance should be reported separately.
+    \item The spatial block now gives three tools: build spatial objects, identify spatial effects, and model equilibrium propagation.
+\end{itemize}
+\end{frame}
+
+\end{document}

@@ -1,0 +1,2 @@
+model,model_type,penalty,train_brier,train_mae,train_accuracy,train_precision,train_recall,train_positive_rate,test_brier,test_mae,test_accuracy,test_precision,test_recall,test_positive_rate,nonzero_features,comparison_note
+best_lasso,lasso,0.001,0.0261447773276977,0.1089680120436811,1.0,1.0,1.0,0.4642857142857143,0.0464067091004981,0.1350155470900487,0.9642857142857144,1.0,0.9210526315789472,0.4166666666666667,57.0,Original held-out posting performance for the same selected model.

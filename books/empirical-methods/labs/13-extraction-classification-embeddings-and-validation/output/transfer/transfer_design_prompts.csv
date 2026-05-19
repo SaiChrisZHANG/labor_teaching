@@ -1,0 +1,5 @@
+step,prompt
+transfer,Does the source vocabulary cover the transfer records well enough to reuse the text model?
+diagnose,Which transfer subgroups have the largest false-negative or false-positive rates?
+transfer,Does the image proxy add external signal or a new source of measurement error?
+redesign,"What labels, annotators, and external checks would be required before using this measure in a paper?"

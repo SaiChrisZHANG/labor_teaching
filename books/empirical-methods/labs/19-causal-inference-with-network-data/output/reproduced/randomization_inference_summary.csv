@@ -1,0 +1,2 @@
+assignment_rule,observed_graph_exposure_estimate,permutation_count,null_mean,null_sd,two_sided_randomization_p_value,interpretation
+"treatment labels permuted within team, preserving team treatment counts",5.13037,200,5.617176,0.745146,0.745,teaching diagnostic; valid only for the stated synthetic assignment rule

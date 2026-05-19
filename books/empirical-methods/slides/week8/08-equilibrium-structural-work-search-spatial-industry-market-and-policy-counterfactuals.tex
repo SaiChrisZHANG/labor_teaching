@@ -1,0 +1,258 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs, graphicx}
+
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\1}{\mathbf{1}}
+\newcommand{\Prb}{\mathbb{P}}
+
+\title{Equilibrium Structural Work}
+\subtitle{Search, Spatial, Industry/Market, and Policy Counterfactuals \\ Empirical Methods --- Week 8}
+\author{Teaching deck draft}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Week 8 question}
+\begin{itemize}
+    \item When do individual decisions interact through markets, prices, firms, or locations?
+    \item What does equilibrium structure buy that partial equilibrium cannot?
+    \item Which moments discipline the equilibrium primitives?
+    \item How should policy counterfactuals and welfare be interpreted once markets adjust?
+\end{itemize}
+
+\medskip
+Equilibrium structure is worth the cost when incidence, allocation, or welfare depends on endogenous market response.
+\end{frame}
+
+\begin{frame}{When do we need equilibrium structure?}
+\small
+\begin{tabular}{p{0.28\linewidth} p{0.31\linewidth} p{0.29\linewidth}}
+\toprule
+Partial-equilibrium risk & Equilibrium object & Applied examples \\
+\midrule
+Other agents' environments change & wages, prices, rents, vacancies & minimum wages, UI, housing policy \\
+Matching changes & tightness, sorting, queues & job search, firm recruiting, platforms \\
+Locations adjust & migration, commuting, housing costs & place policy, transit, local shocks \\
+Firms respond strategically & markups, entry, pass-through & mergers, taxes, technology shocks \\
+Flows reallocate & bilateral frictions and shares & trade, migration, commuting, applications \\
+\bottomrule
+\end{tabular}
+
+\[
+\frac{\partial E_i}{\partial a_j} \neq 0
+\quad \text{for many } i \neq j
+\]
+\end{frame}
+
+\begin{frame}{Search and matching equilibrium}
+\small
+\[
+\theta = \frac{v}{u},
+\qquad
+f(\theta)=\frac{m(u,v)}{u},
+\qquad
+q(\theta)=\frac{m(u,v)}{v}
+\]
+
+\[
+\kappa = q(\theta)J
+\]
+
+\[
+W-U=\beta S,
+\qquad
+J=(1-\beta)S
+\]
+
+\begin{itemize}
+    \item Observed objects: unemployment, vacancies, transitions, separations, wages.
+    \item Latent objects: matching technology, vacancy cost, surplus, bargaining or wage posting.
+    \item Counterfactual gain: unemployment, vacancy, and wage incidence after firms respond.
+    \item Main risk: matching and wage-setting assumptions carry the result.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Spatial equilibrium}
+\small
+\[
+V_{ij}
+=
+w_j-r_j-\tau_{ij}+A_j+\varepsilon_{ij},
+\qquad
+s_{ij}
+=
+\frac{\exp(V_{ij}/\sigma)}
+{\sum_{\ell}\exp(V_{i\ell}/\sigma)}
+\]
+
+\[
+N_j(w,r,A,\tau)=H_j(r_j;\eta_j),
+\qquad
+L_j(w,r,A,\tau)=D_j(w_j,Z_j)
+\]
+
+\[
+dV_j = dw_j - dr_j + dA_j - d\tau_j
+\]
+
+\begin{itemize}
+    \item Wages are not welfare when rents, amenities, and commuting costs adjust.
+    \item Housing supply and mobility frictions govern incidence.
+    \item Fit should include wages, rents, population or employment, and flows.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Industry and market equilibrium}
+\small
+\[
+q_j = D_j(p,x,\xi;\theta_d)
+\]
+
+\[
+p_j - mc_j
+=
+-\left(
+\frac{\partial D_j(p,x,\xi;\theta_d)}{\partial p_j}
+\right)^{-1}
+\;D_j(p,x,\xi;\theta_d)
+\]
+
+\[
+\frac{p_j-mc_j}{p_j}=-\frac{1}{\varepsilon_{jj}},
+\qquad
+(p^\ast,q^\ast,L^\ast)=\Psi(\theta_d,\theta_c,\Omega,Z)
+\]
+
+\begin{itemize}
+    \item Demand and conduct imply prices, markups, output, and labor incidence.
+    \item Useful for taxes, mergers, platform pricing, market power, and pass-through.
+    \item Validation requires credible substitution patterns and price-cost implications.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Policy counterfactuals and welfare}
+\small
+\[
+x^\ast(\tau)=\Phi(x^\ast(\tau),\tau;\theta)
+\]
+
+\[
+W(\tau)
+=
+\sum_i \omega_i U_i(x^\ast(\tau),\tau;\theta)
++
+\sum_f \Pi_f(x^\ast(\tau),\tau;\theta)
++
+R(x^\ast(\tau),\tau)
+\]
+
+\[
+\Delta W = W(\tau_1)-W(\tau_0)
+\]
+
+\begin{itemize}
+    \item The fixed point collects wages, vacancies, rents, prices, shares, entry, or flows.
+    \item Welfare depends on distributional weights, profits, rents, and fiscal terms.
+    \item Report counterfactual distance from support and sensitivity to closure assumptions.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Computational and identification burdens}
+\small
+\begin{tabular}{p{0.24\linewidth} p{0.34\linewidth} p{0.30\linewidth}}
+\toprule
+Approach & Intuition & Risk \\
+\midrule
+Nested fixed point & solve equilibrium inside parameter search & slow and opaque \\
+MPEC & estimate with equilibrium constraints directly & numerical delicacy \\
+Calibration-estimation hybrid & estimate some objects, calibrate others & headline result may rest on calibration \\
+Simulation & approximate heterogeneous equilibrium response & seed, tolerance, and approximation error \\
+\bottomrule
+\end{tabular}
+
+\[
+\widehat m^{data}
+\Longleftrightarrow
+m^{model}(\theta,x^\ast(\theta))
+\]
+
+\begin{itemize}
+    \item Name which moments identify which primitives.
+    \item Show targeted and untargeted fit.
+    \item Report solver, tolerances, starts, convergence, and sensitivity.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Gravity-style equilibrium models}
+\small
+\[
+M_{ij}
+=
+A_iB_j\tau_{ij}^{-\sigma}
+\]
+
+\begin{itemize}
+    \item The object is a bilateral flow: trade, migration, commuting, applications, or worker allocation.
+    \item The structural object is a friction or resistance term that governs reallocation.
+    \item Gravity belongs here when flows close an equilibrium with wages, prices, rents, or employment.
+    \item It should remain subordinate to the broader question: how does equilibrium incidence work?
+\end{itemize}
+
+\medskip
+Diagnostic question: does the model only describe flows, or does it solve the market response that matters for welfare?
+\end{frame}
+
+\begin{frame}{Research Lab design}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{0.32\linewidth}
+\textbf{Reproduce}
+\begin{itemize}
+    \item Hsieh-Moretti-style spatial equilibrium
+    \item wages, rents, population
+    \item housing relaxation counterfactual
+    \item output and welfare table
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Diagnose}
+\begin{itemize}
+    \item housing elasticity
+    \item mobility elasticity
+    \item targeted vs closure objects
+    \item validation memo
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Transfer}
+\begin{itemize}
+    \item BLP/Nevo-style market exercise
+    \item demand elasticity
+    \item markup recovery
+    \item cost-shock pass-through
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item Equilibrium structure is a research choice, not a badge of sophistication.
+    \item Search, spatial, and market models differ in economics but share an empirical architecture.
+    \item The model must say which equilibrium margin matters and which moments discipline it.
+    \item Counterfactuals are credible only when fit, support, computation, and closure are transparent.
+    \item The best equilibrium papers make the gains and burdens visible in the same language.
+\end{itemize}
+\end{frame}
+
+\end{document}

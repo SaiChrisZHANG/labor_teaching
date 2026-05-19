@@ -1,0 +1,5 @@
+diagnostic,student_prompt,teaching_point
+geography_role,"Is the border the source of identification, a threat to inference, or the mechanism?","In this lab, the border is the source; proximity also creates inference and spillover threats."
+spatial_inference,Does a larger Conley standard error change the identifying assumption?,"No. It changes uncertainty, not bias from sorting or spillovers."
+spillover_exposure,Are untreated counties close enough to treated counties to be partly exposed?,"Contaminated controls are an estimand and bias issue, not only a standard-error issue."
+balance,Which predetermined differences would make the border comparison less credible?,Border-pair fixed effects help only if local continuity is plausible.

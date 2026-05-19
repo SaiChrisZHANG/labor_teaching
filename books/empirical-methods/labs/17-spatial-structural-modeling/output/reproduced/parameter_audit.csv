@@ -1,0 +1,7 @@
+object,status,evidence,diagnostic
+flow-cost elasticity,estimated in synthetic gravity regression,bilateral residence-workplace flows,gravity residuals and long-commute fit
+local productivity,observed synthetic primitive,location productivity index,"real papers infer this from wages, output, or firms"
+amenity value,observed synthetic primitive,location amenity index,real papers need external amenities or restrictions
+housing supply elasticity,calibrated synthetic primitive,location-specific elasticity in teaching data,counterfactual rent incidence sensitivity
+utility scale,chosen model closure,normalizes responsiveness to utility gaps,flow and population sensitivity
+productivity shock,imposed counterfactual,teaching policy scenario,distance from observed support and affected margins

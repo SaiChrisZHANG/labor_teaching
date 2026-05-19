@@ -1,0 +1,4 @@
+scenario,total_residents,aggregate_employment,aggregate_output,resident_weighted_wage,resident_weighted_rent,resident_weighted_welfare_proxy,aggregate_expected_utility,max_solver_iterations,note,aggregate_output_change_from_baseline,resident_weighted_wage_change_from_baseline,resident_weighted_rent_change_from_baseline,resident_weighted_welfare_proxy_change_from_baseline,aggregate_expected_utility_change_from_baseline
+baseline,1125.220073,1125.220073,126608.786522,43.49818,11.973116,31.20571,64.135571,30.0,,0.0,0.0,0.0,0.0,0.0
+fixed_flow_productivity_shock,1125.220072,1125.220074,128346.654916,43.643836,11.973116,31.321152,64.340122,0.0,"Productivity and wages change at the shocked workplace, but residence and commuting flows are held fixed.",1737.868393,0.145656,0.0,0.115442,0.204551
+equilibrium_productivity_shock,1125.220073,1125.220073,129056.942819,43.677941,11.980358,31.330549,64.333363,30.0,,2448.156297,0.179761,0.007241,0.124839,0.197792

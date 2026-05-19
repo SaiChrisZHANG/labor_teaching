@@ -1,0 +1,4 @@
+exposure_mapping,spillover_estimate,std_error,t_stat,what_it_identifies,main_failure_mode
+team_treated_share_loo,4.299851,1.461105,2.942876,"association between productivity and the specified treated-peer exposure, conditional on own treatment and controls","sorting, common shocks, or misspecified exposure mapping"
+graph_treated_share,5.13037,1.21729,4.214584,"association between productivity and the specified treated-peer exposure, conditional on own treatment and controls","sorting, common shocks, or misspecified exposure mapping"
+weighted_graph_treated_share,5.466899,1.137454,4.806259,"association between productivity and the specified treated-peer exposure, conditional on own treatment and controls","sorting, common shocks, or misspecified exposure mapping"

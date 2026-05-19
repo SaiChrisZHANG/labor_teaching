@@ -1,0 +1,6 @@
+object,role,status,diagnostic
+city productivity,primitive,observed in synthetic teaching data,"In frontier work this would be inferred from wages, output, or productivity measures."
+housing-supply elasticity,equilibrium closure,calibrated in teaching data,Sensitivity is required because the counterfactual depends on rent incidence.
+mobility scale,location-choice friction,chosen by the teaching model,Migration or commuting flows would be needed to discipline this object.
+amenity value,latent utility component,observed in synthetic teaching data,Real papers need restrictions separating amenities from productivity and rents.
+housing relaxation,policy counterfactual,imposed counterfactual shock,"Interpret as a local policy experiment, not a forecast of actual zoning reform."

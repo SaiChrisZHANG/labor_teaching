@@ -1,0 +1,6 @@
+definition,boundary_col,relation,exclude_outside,mechanism,worker_count,edge_count,edge_density,mean_degree,mean_strength,mean_local_exposure,isolate_share,largest_component_size,descriptive_slope_employment_on_exposure
+block_same_employer,block_id,same_employer,0,nearby residents share employer-specific job information,144,89,0.008644,1.236111,1.791094,0.247222,0.222222,5,0.153386
+neighborhood_same_employer,neighborhood_id,same_employer,0,broader neighborhood job-information network,144,404,0.039239,5.611111,7.87786,0.243961,0.0,11,1.264791
+block_same_industry,block_id,same_industry,0,nearby residents share industry information rather than firm contacts,144,102,0.009907,1.416667,1.94844,0.283333,0.1875,5,0.130058
+neighborhood_same_industry,neighborhood_id,same_industry,0,broad local industry opportunity set,144,476,0.046232,6.611111,9.1431,0.28744,0.0,12,0.308122
+block_same_employer_inside_frame,block_id,same_employer,1,same as baseline but drops outside-frame employers,144,84,0.008159,1.166667,1.673131,0.233333,0.291667,5,0.221519

@@ -1,0 +1,9 @@
+estimand,method,estimate,interpretation,clustered_se
+ITT attendance,mean difference by randomized encouragement,0.349688013136289,effect of encouragement on seminar attendance,
+ITT enrollment,mean difference by randomized encouragement,0.24370989694730694,effect of encouragement on retirement-plan participation,
+first stage,attendance difference by assignment,0.349688013136289,take-up response to randomized encouragement,
+Wald/LATE-style ratio,ITT enrollment divided by first stage,0.6969352330996897,local effect for attendance compliers under additional assumptions,
+naive receipt contrast,enrollment difference by attendance,0.2799689440993789,not randomized; useful as a warning comparison,
+direct assignment with exposure control,OLS with department-clustered standard error,0.23535157280153676,assignment contrast holding measured peer exposure fixed,0.0659434585265072
+peer exposure association,OLS with department-clustered standard error,0.06485035563745445,exposure contrast; causal only under exposure-design assumptions,0.12309060987937027
+attendance exposure first stage,OLS with department-clustered standard error,0.2521638318622029,peer exposure association for seminar attendance,0.09372871959427688

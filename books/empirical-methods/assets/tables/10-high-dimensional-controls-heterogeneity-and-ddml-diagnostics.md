@@ -1,0 +1,8 @@
+## High-dimensional controls, DML, and heterogeneity: diagnostic checklist
+
+| Object | Core question | What it identifies | Best scenario | Main failure mode | Practical diagnostic |
+| --- | --- | --- | --- | --- | --- |
+| Post-double selection | Which controls should enter the partially linear model? | A treatment effect under selection-on-observables with high-dimensional controls | Many controls, moderate dimension, relatively linear target parameter | Missed nonlinear confounding; instability in selected controls | Compare selected sets, inspect treatment-model and outcome-model overlap |
+| DML / orthogonalization | Can nuisance functions be estimated flexibly without contaminating inference on the target parameter? | Low-dimensional target parameter under orthogonal score conditions | High-dimensional controls with credible overlap and a clearly defined target parameter | Bad overlap, leakage, poor learner choice, weak nuisance quality | Cross-fit stability, overlap checks, learner-sensitivity checks |
+| CATE / causal forest | Does treatment heterogeneity vary systematically with observables? | A conditional treatment-effect function under stronger support demands | Large samples, substantively meaningful heterogeneity, good overlap | Noisy subgroup estimates, adaptive overfitting, spurious “heterogeneity” | Honest forests, subgroup support checks, stability across tuning choices |
+| Policy targeting | Can estimated heterogeneity improve assignment or policy design? | A ranking or policy score rather than a single ATE | Heterogeneous benefits/costs and real targeting decisions | Overfitting the target rule, welfare claims without policy objective | Hold-out validation, compare to simple targeting rules |

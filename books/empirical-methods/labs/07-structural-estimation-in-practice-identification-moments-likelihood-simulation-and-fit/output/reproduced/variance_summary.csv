@@ -1,0 +1,5 @@
+method,object,estimate,standard_error,note
+cluster bootstrap,replacement_cost,4.3,0.2183796125383817,Resamples units and re-estimates the moment estimator on a reduced grid.
+cluster bootstrap,maintenance_slope,0.54,0.03189473655688099,Resamples units and re-estimates the moment estimator on a reduced grid.
+delta method,lower replacement cost counterfactual,0.3282615953599294,0.008441034432997443,Uses finite-difference gradient and cluster-bootstrap covariance.
+simulation multi-seed check,SMM replacement_cost,4.5,0.20000000000000018,Shows finite simulation variation across random seeds.

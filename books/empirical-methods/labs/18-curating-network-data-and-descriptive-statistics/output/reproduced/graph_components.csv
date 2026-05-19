@@ -1,0 +1,6 @@
+component_size,worker_count,component_type
+1,32,isolate
+2,68,connected_component
+3,27,connected_component
+4,12,connected_component
+5,5,connected_component

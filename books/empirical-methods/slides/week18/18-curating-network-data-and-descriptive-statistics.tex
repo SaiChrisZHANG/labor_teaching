@@ -1,0 +1,242 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{amsmath, amssymb, booktabs}
+
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\1}{\mathbf{1}}
+\newcommand{\Prb}{\mathbb{P}}
+
+\title{Curating Network Data And Descriptive Statistics}
+\subtitle{Empirical Methods --- Week 18}
+\author{Teaching deck draft}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Week 18 question}
+\begin{itemize}
+    \item How should researchers define, measure, and summarize relationships that shape economic outcomes?
+    \item Network curation comes before network causal inference.
+    \item Node, edge, weight, direction, timing, and boundary choices shape the estimand.
+    \item A graph is not evidence until the link meaning is justified and auditable.
+\end{itemize}
+
+\medskip
+This is the opening lecture of the optional network-methods block.
+\end{frame}
+
+\begin{frame}{Nodes, edges, and bipartite data}
+\small
+\[
+A_{ij}=
+\begin{cases}
+1 & \text{if there is a link from } i \text{ to } j,\\
+0 & \text{otherwise.}
+\end{cases}
+\qquad
+B_{if}=
+\begin{cases}
+1 & \text{if worker } i \text{ is linked to firm } f,\\
+0 & \text{otherwise.}
+\end{cases}
+\]
+
+\[
+P^{worker}_{ij}=\sum_f B_{if}B_{jf}
+\]
+
+\begin{itemize}
+    \item Nodes may be workers, firms, schools, managers, households, vacancies, or neighborhoods.
+    \item Edges may be referrals, coworking, co-residence, communication, assignment, or transactions.
+    \item Direction and weight matter when recommendations, supervision, duration, or intensity are asymmetric.
+    \item Bipartite data are often the raw object; projection creates a new empirical object.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Network definitions are substantive}
+\small
+\begin{tabular}{p{0.22\linewidth} p{0.32\linewidth} p{0.34\linewidth}}
+\toprule
+Choice & Empirical version & Economic content \\
+\midrule
+Node & worker, firm, vacancy, household & whose choices and outcomes matter \\
+Edge & referral, coworker, neighbor, message & information, trust, exposure, monitoring \\
+Direction & \(i \to j\), \(j \to i\), undirected & asymmetric recommendation or influence \\
+Weight & duration, frequency, value & strength of relationship or exposure \\
+Timing & month, spell, year, cohort & whether exposure precedes outcome \\
+Boundary & firm, city, platform, survey frame & which links are unobserved or truncated \\
+\bottomrule
+\end{tabular}
+
+\medskip
+The same raw records can imply different network variables under different mechanisms.
+\end{frame}
+
+\begin{frame}{Labor economics uses}
+\begin{itemize}
+    \item Referrals: who hears about vacancies and who is recommended.
+    \item Information transmission: how job knowledge travels through contacts, neighborhoods, and coworkers.
+    \item Coworker exposure: mentoring, norms, monitoring, team learning, and job ladders.
+    \item Neighborhood job networks: local residents connected to employers and opportunities.
+    \item Learning and diffusion: practices, technologies, beliefs, and search strategies.
+    \item Bargaining and inequality: unequal access to high-value contacts and outside options.
+\end{itemize}
+
+\medskip
+Anchor papers: Autor; Bayer, Ross, and Topa; Beaman and Magruder; Barwick et al.; Hellerstein et al.
+\end{frame}
+
+\begin{frame}{Data sources and construction}
+\small
+\begin{tabular}{p{0.28\linewidth} p{0.30\linewidth} p{0.30\linewidth}}
+\toprule
+Source & Natural graph & Main limitation \\
+\midrule
+Linked employer--employee & worker--firm bipartite; coworker projection & informal ties outside firms \\
+Referral-program records & directed employee--applicant links & only formal referrals \\
+Survey rosters & friendship, kinship, advice, support & recall error and missing weak ties \\
+Platform logs & worker--client or interaction graph & platform rules and proprietary access \\
+School or cohort rosters & peer exposure graph & assignment and co-presence are not random \\
+Neighborhood records & local opportunity or co-residence graph & proximity is not interaction \\
+\bottomrule
+\end{tabular}
+
+\medskip
+Preserve the raw relational object before computing projected links or summaries.
+\end{frame}
+
+\begin{frame}{Descriptive statistics are theory-laden}
+\small
+\[
+d_i=\sum_j A_{ij}
+\qquad
+s_i=\sum_j W_{ij}
+\qquad
+c_i=\lambda^{-1}\sum_j A_{ij}c_j
+\]
+
+\[
+H=
+\frac{\sum_i\sum_j A_{ij}\mathbf{1}\{g_i=g_j\}}
+{\sum_i\sum_j A_{ij}}
+\]
+
+\begin{itemize}
+    \item Degree can mean opportunity access, referral reach, survey visibility, or firm size.
+    \item Strength adds intensity but can hide whether exposure is broad or concentrated.
+    \item Centrality can proxy information access only when paths carry the relevant information.
+    \item Homophily describes similarity among linked nodes; it does not separate sorting from influence.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Pitfalls and diagnostics}
+\small
+\begin{tabular}{p{0.27\linewidth} p{0.60\linewidth}}
+\toprule
+Risk & Diagnostic \\
+\midrule
+Missing links & distinguish unobserved ties from true zero ties \\
+Endogenous formation & state whether the network is an outcome, exposure, or design object \\
+Boundary truncation & test alternative graph frames and inspect isolates/components \\
+Projection error & compare bipartite statistics with projected network statistics \\
+Homophily vs influence & avoid causal language until formation and interference are handled \\
+Privacy & report how masking changes degree, strength, and components \\
+Dynamic mismatch & vary time windows and check exposure precedes outcome \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Practical rules}
+\begin{enumerate}
+    \item State the labor-market mechanism before defining the graph.
+    \item Define node, edge, direction, weight, layer, timing, and boundary separately.
+    \item Preserve raw edge lists, bipartite spell tables, and survey rosters.
+    \item Build the primary network statistic and one plausible alternative.
+    \item Report missing-link risk and privacy masking as measurement issues.
+    \item Normalize projections when institution size mechanically creates links.
+    \item Test whether patterns are driven by hubs, components, or boundary truncation.
+    \item Keep descriptive diagnostics separate from causal robustness.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Applied paper anchors}
+\begin{itemize}
+    \item Autor: labor markets are wired through search channels and intermediaries.
+    \item Bayer, Ross, Topa: residential proximity can reveal informal hiring networks.
+    \item Beaman, Magruder: referral incentives affect worker selection.
+    \item Friebel et al.: employee referral programs as a management practice.
+    \item Barwick et al.: referrals can shape labor-market inequality.
+    \item Hellerstein, McInerney, Neumark: networks matter after mass layoffs.
+\end{itemize}
+
+\medskip
+The lesson is not ``compute centrality.'' The lesson is: define the economic relation.
+\end{frame}
+
+\begin{frame}{Research Lab design}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{0.32\linewidth}
+\textbf{Reproduce}
+\begin{itemize}
+    \item synthetic workers
+    \item neighborhoods
+    \item employers
+    \item bipartite links
+    \item local exposure
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Diagnose}
+\begin{itemize}
+    \item boundary choices
+    \item edge rules
+    \item binary vs weighted
+    \item missing links
+    \item projection risk
+\end{itemize}
+\end{column}
+\begin{column}{0.32\linewidth}
+\textbf{Transfer}
+\begin{itemize}
+    \item directed referrals
+    \item in-degree/out-degree
+    \item referral success
+    \item inequality memo
+    \item causal preview
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Where curation stops}
+\begin{itemize}
+    \item Curation defines edge lists, adjacency matrices, bipartite objects, and summaries.
+    \item Curation can diagnose measurement sensitivity, missing links, and graph boundaries.
+    \item It does not solve reflection, sorting, peer effects, or interference.
+    \item Network causal inference begins when the researcher claims counterfactual effects through links.
+    \item Lecture 19 takes up exposure mappings, peer effects, network experiments, and dependence.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Takeaways}
+\begin{itemize}
+    \item Network definition is part of the estimand.
+    \item A link is an economic channel, not just a row in an edge list.
+    \item Bipartite and multilayer objects should not be collapsed without a reason.
+    \item Degree, centrality, clustering, and homophily are descriptive until the mechanism is defended.
+    \item Missing links, boundaries, privacy, and timing can change the object.
+    \item Strong curation makes Lecture 19's causal designs possible.
+\end{itemize}
+\end{frame}
+
+\end{document}
