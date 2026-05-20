@@ -1,0 +1,213 @@
+name: Deploy teaching portfolio
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  # GitHub Pages project sites are served at /<repository-name>.
+  # Keep this without a trailing slash. Set it to an empty string if you later
+  # publish from a custom root domain.
+  PAGES_BASE_PATH: /${{ github.event.repository.name }}
+  JUPYTER_BOOK_VERSION: 2.1.4
+
+jobs:
+  build:
+    name: Build books
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Jupyter Book
+        run: npm install -g "jupyter-book@${JUPYTER_BOOK_VERSION}"
+
+      - name: Build selected books and collect HTML
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          books=(
+            "labor-i"
+            "labor-ii"
+            "special-topic1-behavioral"
+            "special-topic2-institutions"
+            "special-topic3-gender"
+            "special-topic4-urban"
+            "special-topic5-technology"
+            "special-topic6-health-population"
+            "special-topic7-labor-design"
+            "empirical-methods"
+          )
+
+          rm -rf site
+          mkdir -p site
+
+          for book in "${books[@]}"; do
+            source_dir="books/${book}"
+            output_dir="site/${book}"
+            base_url="${PAGES_BASE_PATH%/}/${book}"
+
+            echo "Building ${source_dir} for ${base_url}"
+            (
+              cd "${source_dir}"
+              BASE_URL="${base_url}" jupyter-book build --html --strict --ci
+            )
+
+            mkdir -p "${output_dir}"
+            cp -R "${source_dir}/_build/html/." "${output_dir}/"
+          done
+
+      - name: Create portfolio homepage
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          cat > site/index.html <<'HTML'
+          <!doctype html>
+          <html lang="en">
+            <head>
+              <meta charset="utf-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1">
+              <title>Labor Economics Teaching Portfolio</title>
+              <meta name="description" content="Teaching materials in labor economics, applied methods, and special topics.">
+              <style>
+                :root {
+                  color-scheme: light;
+                  --ink: #17202a;
+                  --muted: #5f6c7b;
+                  --line: #d7dee7;
+                  --paper: #f7f8fa;
+                  --accent: #2f6f73;
+                  --accent-dark: #1f4d50;
+                }
+
+                * {
+                  box-sizing: border-box;
+                }
+
+                body {
+                  margin: 0;
+                  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+                  color: var(--ink);
+                  background: var(--paper);
+                  line-height: 1.5;
+                }
+
+                main {
+                  width: min(980px, calc(100% - 32px));
+                  margin: 0 auto;
+                  padding: 64px 0;
+                }
+
+                header {
+                  max-width: 760px;
+                  padding-bottom: 32px;
+                  border-bottom: 1px solid var(--line);
+                }
+
+                h1 {
+                  margin: 0 0 14px;
+                  font-size: clamp(2rem, 4vw, 3rem);
+                  line-height: 1.1;
+                  letter-spacing: 0;
+                }
+
+                p {
+                  margin: 0;
+                  color: var(--muted);
+                  font-size: 1.05rem;
+                }
+
+                nav {
+                  display: grid;
+                  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+                  gap: 12px;
+                  margin-top: 32px;
+                }
+
+                a {
+                  display: block;
+                  min-height: 72px;
+                  padding: 16px 18px;
+                  border: 1px solid var(--line);
+                  border-radius: 8px;
+                  color: var(--accent-dark);
+                  background: #ffffff;
+                  text-decoration: none;
+                  font-weight: 650;
+                }
+
+                a:hover,
+                a:focus-visible {
+                  border-color: var(--accent);
+                  outline: 2px solid transparent;
+                  box-shadow: 0 0 0 3px rgb(47 111 115 / 15%);
+                }
+
+                small {
+                  display: block;
+                  margin-top: 6px;
+                  color: var(--muted);
+                  font-weight: 400;
+                }
+              </style>
+            </head>
+            <body>
+              <main>
+                <header>
+                  <h1>Labor Economics Teaching Portfolio</h1>
+                  <p>Course books, applied methods materials, and special-topics modules for graduate teaching and research-facing instruction.</p>
+                </header>
+
+                <nav aria-label="Course books">
+                  <a href="labor-i/">Labor I<small>Workers, human capital, and inequality</small></a>
+                  <a href="labor-ii/">Labor II<small>Firms, frictions, and institutions</small></a>
+                  <a href="special-topic1-behavioral/">Behavioral Labor<small>Behavioral mechanisms in labor markets</small></a>
+                  <a href="special-topic2-institutions/">Institutions and Labor<small>Political and cultural institutions</small></a>
+                  <a href="special-topic3-gender/">Gender Study<small>Gender, work, and inequality</small></a>
+                  <a href="special-topic4-urban/">Urban and Labor<small>Cities and local labor markets</small></a>
+                  <a href="special-topic5-technology/">Technology and Labor<small>Technology, innovation, and adjustment</small></a>
+                  <a href="special-topic6-health-population/">Health, Population, and Labor<small>Health, demography, and work</small></a>
+                  <a href="special-topic7-labor-design/">Labor Design<small>Market design, contracting, and mechanisms</small></a>
+                  <a href="empirical-methods/">Empirical Methods<small>Applied economics methods for labor research</small></a>
+                </nav>
+              </main>
+            </body>
+          </html>
+          HTML
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy artifact
+        id: deployment
+        uses: actions/deploy-pages@v4
