@@ -1,4 +1,5 @@
 version: 1
+extends: ../../shared/config/myst-branding.yml
 project:
   title: "Labor Markets and Political/Cultural Institutions"
   description: Flagship special-topics course on political and cultural institutions in labor markets.
@@ -20,4 +21,4 @@ site:
   template: book-theme
   title: Institutions and Labor
   options:
-    logo_text: Institutions and Labor
+    logo_text: Sai Zhang | Labor Institutions

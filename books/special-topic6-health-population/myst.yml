@@ -1,4 +1,5 @@
 version: 1
+extends: ../../shared/config/myst-branding.yml
 project:
   title: "Labor Market, Health, and Population"
   description: Compact special-topics elective on health, demography, and labor markets.
@@ -16,4 +17,4 @@ site:
   template: book-theme
   title: Health, Population, and Labor
   options:
-    logo_text: Health, Population, and Labor
+    logo_text: Sai Zhang | Health, Population, and Labor

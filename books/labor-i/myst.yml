@@ -1,4 +1,5 @@
 version: 1
+extends: ../../shared/config/myst-branding.yml
 project:
   title: "Labor I: Workers, Human Capital, and Inequality"
   description: First semester of a PhD labor economics field sequence.
@@ -23,4 +24,4 @@ site:
   template: book-theme
   title: Labor I
   options:
-    logo_text: Labor I
+    logo_text: Sai Zhang | Labor I

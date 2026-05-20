@@ -1,0 +1,7 @@
+version: 1
+project:
+  authors:
+    - Sai Zhang
+site:
+  parts:
+    footer: Designed by Sai Zhang. For educational purposes only.

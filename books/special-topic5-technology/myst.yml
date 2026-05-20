@@ -1,4 +1,5 @@
 version: 1
+extends: ../../shared/config/myst-branding.yml
 project:
   title: "Technology, Innovation, and Labor"
   description: Compact special-topics elective on technology, innovation, and labor-market adjustment.
@@ -16,4 +17,4 @@ site:
   template: book-theme
   title: Technology and Labor
   options:
-    logo_text: Technology and Labor
+    logo_text: Sai Zhang | Technology and Labor

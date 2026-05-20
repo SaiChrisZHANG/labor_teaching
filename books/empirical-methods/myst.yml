@@ -1,4 +1,5 @@
 version: 1
+extends: ../../shared/config/myst-branding.yml
 project:
   title: "Empirical Methods for Applied Economics"
   description: Research-facing applied economics methods course with a labor-economics user perspective.
@@ -30,4 +31,4 @@ site:
   template: book-theme
   title: Empirical Methods
   options:
-    logo_text: Empirical Methods
+    logo_text: Sai Zhang | Empirical Methods
